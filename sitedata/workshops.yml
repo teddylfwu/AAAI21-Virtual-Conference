@@ -1,11 +1,8 @@
 - UID: WS-1
-  title: CoNLL 2020
-  organizers: "Raquel Fern\xE1ndez and Tal Linzen"
-  abstract: "CoNLL is a yearly conference organized by SIGNLL (ACL's Special Interest\
-    \ Group on Natural Language Learning). The main focus of CoNLL is on theoretically,\
-    \ cognitively and scientifically motivated approaches to computational linguistics,\
-    \ rather than on work driven by particular engineering applications. "
-  website: https://www.conll.org
+  title: "W1: Affective Content Analysis (AffCon)"
+  organizers: "Niyati Chhaya, Kokil Jaidka, Jennifer Healey, Lyle Ungar and Atanu R Sinha"
+  abstract: "AffCon-2021 is the fourth Affective Content Analysis workshop @ AAAI. The workshop series (i) builds upon the state of the art in neural and AI methods, for modeling affect in interpersonal interactions and behaviors and (ii) brings a confluence of research viewpoints representing several disciplines."
+  website: https://sites.google.com/view/affcon2021
   rocketchat_channel: workshop-conll
   alias: conll
   sessions:
@@ -76,8 +73,8 @@
     end_time: 2020-11-20 14:00:00-05:00
     name: Coffee break
     hosts: TBD
-  - start_time: 2020-11-20 14:00:00-05:00
-    end_time: 2020-11-20 16:00:00-05:00
+  - start_time: 2020-11-20 15:00:00-05:00
+    end_time: 2020-11-20 17:00:00-05:00
     name: 'Session 6: Mixed topics + Findings papers (gather.town)'
     hosts: TBD
   zoom_links:
@@ -90,11 +87,10 @@
     speakers: Kristina Toutanova
     presentation_id: '38940787'
 - UID: WS-2
-  title: Fifth Conference on Machine Translation (WMT20)
-  organizers: "Barry Haddow, Philipp Koehn, Ond\u0159ej Bojar, Christian Federmann,\
-    \ Yvette Graham, Matthias Huck, Christof Monz and Lucia Specia"
-  abstract: A two day conference on machine translation with shared tasks.
-  website: http:/www.statmt.org/wmt20
+  title: "W2: AI for Behavior Change"
+  organizers: "Lyle Ungar, Sendhil Mullainathan, Eric Tchetgen Tchetgen and Rahul Ladhania"
+  abstract: This workshop will focus on AI and ML-based approaches that can (1) identify individuals in need of behavioral interventions, and/or predict when they need them; (2) help design and target optimal interventions; and (3) exploit observational and/or experimental datasets in domains including social media, health records, claims data, fitness apps, etc. for causal estimation in the behavior science world.
+  website: https://ai4bc.github.io/ai4bc21/
   rocketchat_channel: workshop-wmt
   alias: wmt
   sessions:
@@ -189,11 +185,10 @@
     speakers: Masakhane
     presentation_id: '38940745'
 - UID: WS-3
-  title: Workshop on Insights from Negative Results in NLP
-  organizers: Anna Rogers, Joao Sedoc and Anna Rumshisky
-  abstract: Let's take a break from chasing leaderboards! Your negative results might
-    save others time, or poke holes in things we take for granted.
-  website: https://insights-workshop.github.io/
+  title: "W3: AI for Urban Mobility"
+  organizers: "Lukas Chrpa , Mauro Vallati, Scott Sanner, Stephen S. Smith and Baher Abdulhai"
+  abstract: This workshop aims to provide a forum for bringing together experts from the different fields of AI to discuss the challenges related to any area of Urban Mobility, from the perspective of how AI techniques can be leveraged to address these challenges and whether novel AI techniques have to be developed.
+  website: http://aium2021.felk.cvut.cz/
   rocketchat_channel: workshop-insights
   alias: insights
   sessions:
@@ -314,10 +309,10 @@
     speakers: Rada Mihalcea
     presentation_id: '38940633'
 - UID: WS-4
-  title: Search-Oriented Conversational AI (SCAI) 2
-  organizers: Julia Kiseleva, Aleksandr Chuklin, Jeff Dalton and Mikhail Burtsev
-  abstract: N/A
-  website: http://scai.info
+  title: "W4: Artificial Intelligence Safety (SafeAI 2021)"
+  organizers: "Huáscar Espinoza, José Hernández-Orallo, Cynthia Chen, Seán Ó hÉigeartaigh, Xiaowei Huang, Mauricio Castillo-Effen, Richard Mallah and John McDermid"
+  abstract: The main interest of the proposed workshop is to look at a new perspective of system engineering where multiple disciplines such as AI and safety engineering are viewed as a larger whole, while considering ethical and legal issues, in order to build trustable intelligent autonomy.
+  website: http://safeaiw.org/
   rocketchat_channel: workshop-scai
   alias: scai
   sessions:
@@ -447,12 +442,12 @@
     speakers: Thomas Wolf
     presentation_id: '38940060'
 - UID: WS-5
-  title: Workshop on Cognitive Modeling and Computational Linguistics (CMCL)
-  organizers: "Emmanuele Chersoni, Cassandra L. Jacobs, Yohei Oseki, Laurent Pr\xE9\
-    vot and Enrico Santus"
-  abstract: The CMCL workshop provides a venue for computational research on cognitive
-    theories of language processing, representation and acquisition.
-  website: https://cmclorg.github.io/
+  title: "W5: Combating Online Hostile Posts in Regional Languages during Emergency Situations (CONSTRAINT-2021)"
+  organizers: "Steering Committee: Tanmoy Chakraborty, Kai Shu, H. Russell Bernard and Huan Liu
+               Organizing Committee: Tanmoy Chakraborty and Md Shad Akhtar
+               Shared Task Organizing Committee: Tanmoy Chakraborty, Md Shad Akhtar, Asif Ekbal and Amitava Das"
+  abstract: With the CONSTRAINT-2021 workshop, we aim to attract the attention of the research communities to these important aspects of the hostile posts detection and provide a platform for the high-quality research in this domain.
+  website: http://lcs2.iiitd.edu.in/CONSTRAINT-2021/
   rocketchat_channel: workshop-cmcl2020
   alias: cmcl2020
   sessions:
@@ -562,13 +557,10 @@
     speakers: Richard Futrell
     presentation_id: '38939685'
 - UID: WS-6
-  title: Interactive and Executable Semantic Parsing (Int-Ex)
-  organizers: Ben Bogin, Srinivasan Iyer, Xi Victoria Lin, Panupong Pasupat, Alane
-    Suhr, Pengcheng Yin, Tao Yu, Rui Zhang, Victor Zhong, Caiming Xiong and Dragomir
-    Radev
-  abstract: Map natural language to meaning representations executed in databases,
-    knowledge graphs, robotic environment and software applications.
-  website: https://intex-sempar.github.io/
+  title: "W6: Commonsense Knowledge Graphs (CSKGs)"
+  organizers: Filip Ilievski, Alessandro Oltramari, Deborah McGuinness and Pedro Szekely
+  abstract: Commonsense knowledge graphs (CSKGs) are sources of background knowledge that are expected to contribute to downstream tasks like question answering, robot manipulation, and planning. The knowledge covered in CSKGs varies greatly, spanning procedural, conceptual, and syntactic knowledge, among others. CSKGs come in a wider variety of forms compared to traditional knowledge graphs, ranging from (semi-)structured knowledge graphs, such as ConceptNet, ATOMIC, and FrameNet, to the recent idea to use language models as knowledge graphs. As a consequence, traditional methods of integration and usage of knowledge graphs might need to be expanded when dealing with CSKGs. Understanding how to best integrate and represent CSKGs, leverage them on a downstream task, and tailor their knowledge to the particularities of the task, are open challenges today. The workshop on CSKGs addresses these challenges, by focusing on the creation of commonsense knowledge graphs and their usage on downstream commonsense reasoning tasks.
+  website: https://usc-isi-i2.github.io/AAAI21workshop/
   rocketchat_channel: workshop-intex-sempar2020
   alias: intex-sempar2020
   sessions:
@@ -677,14 +669,10 @@
     speakers: Richard Socher
     presentation_id: '38939452'
 - UID: WS-7
-  title: First Workshop on Scholarly Document Processing (SDP 2020)
-  organizers: Muthu Kumar Chandrasekaran, Guy Feigenblat, Dayne Freitag, Tirthankar
-    Ghosal, Michal Shmueli-Scheuer, Eduard Hovy, Petr Knoth, David Konopnicki, Philipp
-    Mayr, Robert Patton, Dominika Tkaczyk and Anita de Waard
-  abstract: 'SDP is a full day workshop that provides an interdisciplinary venue for
-    researchers interested in any aspect of mining scientific literature. SDP includes
-    a research track and three shared tasks: 6th CL-SciSumm, 1st LongSumm, 1st LaySumm.'
-  website: https://ornlcda.github.io/SDProc/
+  title: "W7: Workshop on Content Authoring and Design (CAD2021)"
+  organizers: Thamar Solorio, Franck Dernoncourt, Amirreza Shirani, Nedim Lipka, Paul Asente and Jose Echevarria
+  abstract: The goal of the Content Authoring and Design (CAD2021) workshop at AAAI is to engage the AI and NLP community around the open problems in authoring, reformatting, optimization, enhancement and beautification of different forms of contents ranging from articles, news, presentation slides, flyers, posters to any material one can find online such as social media posts and advertisement. Content Authoring and Design refers to the interdisciplinary research area of Artificial Intelligence, Computational Linguistics, and Graphic Design. The area addresses open problems in leveraging AI models to assist users during their creative process by estimating the author and audience needs so that the outcome is aesthetically appealing and effectively communicates its intent.
+  website: https://ritual.uh.edu/aaai-21-workshop-on-content-authoring-and-design/
   rocketchat_channel: workshop-sdp2020
   alias: sdp2020
   sessions:
@@ -811,12 +799,66 @@
   - https://us02web.zoom.us/j/9587240070
   - https://us02web.zoom.us/j/4013040190
   prerecorded_talks: []
+- UID: WS-8
+  title: "W8: Deep Learning on Graphs: Method and Applications (DLG-AAAI’21)"
+  organizers: Lingfei Wu, Jiliang Tan, Yinglong Xia and Jian Pei
+  abstract: Deep Learning models are at the core of research in Artificial Intelligence research today. It is well-known that deep learning techniques that were disruptive for Euclidean data such as images or sequence data such as text are not immediately applicable to graph-structured data. This gap has driven a tide in research for deep learning on graphs on various tasks such as graph representation learning, graph generation, and graph classification. New neural network architectures on graph-structured data have achieved remarkable performance in these tasks when applied to domains such as social networks, bioinformatics and medical informatics.
+  website:
+  rocketchat_channel: workshop-nlposs
+  alias: nlposs
+  sessions:
+  - start_time: 2020-11-19 05:00:00-08:00
+    end_time: 2020-11-19 05:30:00-08:00
+    name: Workshop Opening
+    hosts: NLP-OSS Organziers
+  - start_time: 2020-11-19 05:30:00-08:00
+    end_time: 2020-11-19 06:30:00-08:00
+    name: 'On Typing: Historical and Potential Interactions in Word-processing - Spencer
+      Kelly'
+    hosts: NLP-OSS Organziers
+  - start_time: 2020-11-19 06:30:00-08:00
+    end_time: 2020-11-19 07:30:00-08:00
+    name: An Introduction to Transfer Learning in NLP and HuggingFace - Thomas Wolf
+    hosts: NLP-OSS Organziers
+  - start_time: 2020-11-19 07:30:00-08:00
+    end_time: 2020-11-19 09:00:00-08:00
+    name: Talks Session 1 (Watch on your own, authors encouraged to mend their slidelive
+      chat but not complusory)
+    hosts: NLP-OSS Organziers
+  - start_time: 2020-11-19 14:30:00-08:00
+    end_time: 2020-11-19 16:00:00-08:00
+    name: Talks Session 2 (Watch on your own, authors encouraged to mend their slidelive
+      chat but not complusory)
+    hosts: NLP-OSS Organziers
+  - start_time: 2020-11-19 16:00:00-08:00
+    end_time: 2020-11-19 17:30:00-08:00
+    name: Gather-town (Live) + Poster QnA
+    hosts: NLP-OSS Organziers
+  - start_time: 2020-11-19 18:00:00-08:00
+    end_time: 2020-11-19 19:00:00-08:00
+    name: Principles of Good Machine Learning Systems Design - Chip Huyen
+    hosts: NLP-OSS Organziers
+  - start_time: 2020-11-19 19:00:00-08:00
+    end_time: 2020-11-19 19:30:00-08:00
+    name: Closing Remarks
+    hosts: NLP-OSS Organziers
+  zoom_links:
+  - https://us02web.zoom.us/j/7858391728
+  prerecorded_talks:
+  - title: (To be confirmed) Invited Talk 1 - Chip Huyen
+    speakers: Chip Huyen
+    presentation_id: '38939735'
+  - title: (To be confirmed) Invited Talk 2 - Spencer Kelly
+    speakers: Spencer Kelly
+    presentation_id: '38939736'
+  - title: (To be confirmed) Invited Talk 3 -  Thomas Wolf
+    speakers: Thomas Wolf
+    presentation_id: '38939737'
 - UID: WS-9
-  title: Second Workshop for NLP Open Source Software (NLP-OSS)
-  organizers: Masato Hagiwara, Eunjeong Park, Dmitrijs Milajevs, Nelson F. Liu, Liling
-    Tan and Geeticka Chauhan
-  abstract: Democratizing NLP!
-  website: https://nlposs.github.io/
+  title: "W9: Designing AI for Telehealth"
+  organizers: Ted Metzler, Lundy Lewis and Elizabeth Diener
+  abstract: Although telehealth technology has been present for years, appearance of the Covid-19 pandemic dramatically has accelerated its growth. This workshop clearly is timely. Investment currently is strong for numerous types of telehealth systems, many including AI components, and leading enterprises in this work are now recognizing the important need for participatory design. Accordingly, the main objective of this workshop is specifically to gather representatives of AI research and development with those of other stakeholder domains to create a community for sustaining valuable participatory design dialogue.
+  website: http://shapingsmarttechnology.org
   rocketchat_channel: workshop-nlposs
   alias: nlposs
   sessions:
@@ -868,12 +910,13 @@
     speakers: Thomas Wolf
     presentation_id: '38939737'
 - UID: WS-10
-  title: Spatial Language Understanding
-  organizers: Malihe Alikhani, Jason Baldridge, Mohit Bansal, Archna Bhatia, Parisa
-    Kordjamshidi and Marie-Francine Moens
-  abstract: Spatial Language Understanding, Learning/Reasoning on Spatial Semantics,
-    (sub)Symbolic Representations and Grounding Language in Perception
-  website: https://spatial-language.github.io
+  title: "W10: 9th Dialog System Technology Challenge (DSTC-9)"
+  organizers: "Workshop Chairs: Abhinav Rastogi, Yun-Nung (Vivian) Chen
+                Challenge Chair: Chulaka Gunasekara
+                Publication Chair: Luis Fernando D’Haro
+                Publicity Chair: Seokhwan Kim"
+  abstract: DSTC, the Dialog System Technology Challenge, has been a premier research competition for dialog systems since its inception in 2013. Given the remarkable success of the first eight challenges, we are organizing the ninth edition of DSTC this year and we will have a wrap-up workshop at AAAI-21.
+  website: https://sites.google.com/dstc.community/dstc9/
   rocketchat_channel: workshop-splu2020
   alias: splu2020
   sessions:
@@ -1047,14 +1090,10 @@
     speakers: Yoav Artzi, Cornell University
     presentation_id: '38940090'
 - UID: WS-11
-  title: 'SIGTYP 2020: The Second Workshop on Computational Research in Linguistic
-    Typology'
-  organizers: "Yevgeni Berzak, Ryan Cotterell, Anna Korhonen, Roi Reichart, Eitan\
-    \ Grossman, Haim Dubossarsky, Arya D. McCarthy, Edoardo Maria Ponti, Ivan Vuli\u0107\
-    \ and Ekaterina Vylomova"
-  abstract: Bringing together researchers interested in applying computational techniques
-    to problems in linguistic typology and multilingual NLP.
-  website: https://sigtyp.github.io/ws2020.html
+  title: "W11: Explainable Agency in Artificial Intelligence"
+  organizers: "Prashan Madumal, Silvia Tulli, David Aha and Rosina Weber"
+  abstract: As artificial intelligence has become tightly intervened in the society having tangible consequences and influence, calls for explainability and interpretability of these systems has also become increasingly prevalent. Explainable AI (XAI) attempts to alleviate concerns of transparency, trust and ethics in AI by making them accountable, interpretable and explainable to humans. This workshop aims to encapsulate these concepts under the umbrella of Explainable Agency and bring together researchers and practitioners working in different facets of explainable AI from diverse backgrounds to share challenges, new directions and recent research in the field. We especially welcome research from fields including but not limited to artificial intelligence, human-computer interaction, human-robot interaction, cognitive science, human factors and philosophy.
+  website: https://sites.google.com/view/xaiworkshop/topic
   rocketchat_channel: workshop-sigtyp
   alias: sigtyp
   sessions:
@@ -1233,11 +1272,10 @@
       Isabelle Augenstein
     presentation_id: '38939790'
 - UID: WS-12
-  title: 3rd Clinical Natural Language Processing Workshop (Clinical NLP 2020)
-  organizers: Anna Rumshisky, Steven Bethard, Kirk Roberts and Tristan Naumann
-  abstract: "Explore challenges and promises of clinical text: understand a patient's\
-    \ story, predict health outcomes, advance medical research, and more."
-  website: https://clinical-nlp.github.io/2020/
+  title: "W12: Graphs and More Complex Structures for Learning and Reasoning (GCLR)"
+  organizers: Balaraman Ravindran, Kristian Kersting, Sarika Jalan, Partha Pratim Talukdar, Sriraam Natarajan, Tarun Kumar, Deepak Maurya, Nikita Moghe, Naganand Yadati, Jeshuren Chelladurai and Aparna Rai
+  abstract: The study of complex graphs is a highly interdisciplinary field that aims to study complex systems by using mathematical models, physical laws, inference and learning algorithms, etc. Complex systems are often characterized by several components that interact in multiple ways among each other. Such systems are better modeled by complex graph structures such as edge and vertex labelled graphs (e.g., knowledge graphs), attributed graphs, multilayer graphs, hypergraphs, temporal / dynamic graphs, etc. In this GCLR (Graphs and more Complex structures for Learning and Reasoning) workshop, we will focus on various complex structures along with inference and learning algorithms for these structures. The current research in this area is focused on extending existing ML algorithms as well as network science measures to these complex structures. This workshop aims to bring researchers from these diverse but related fields together and embark on interesting discussions on new challenging applications that require complex system modeling and discovering ingenious reasoning methods. We have invited several distinguished speakers with their research interest spanning from the theoretical to experimental aspects of complex networks.
+  website: https://sites.google.com/view/gclr2021/
   rocketchat_channel: workshop-clinicalnlp
   alias: clinicalnlp
   sessions:
@@ -1398,12 +1436,10 @@
     speakers: Hong Yu
     presentation_id: '38939840'
 - UID: WS-13
-  title: 'Deep Learning Inside Out (DeeLIO): The First Workshop on Knowledge Extraction
-    and Integration for Deep Learning Architectures'
-  organizers: "Eneko Agirre, Marianna Apidianaki and Ivan Vuli\u0107"
-  abstract: 'Deep Learning Inside Out: Knowledge Extraction and Integration for Deep
-    Learning Architectures with special focus on low-data regimes'
-  website: https://sites.google.com/view/deelio-ws/
+  title: 'W13: 5th International Workshop on Health Intelligence (W3PHIAI-21)'
+  organizers: "Martin Michalowski, Arash Shaban-Nejad, Cochair, Szymon Wilk, David L. Buckeridge, John S. Brownstein, Byron C. Wallace and Michael J. Paul"
+  abstract: Public health authorities and researchers collect data from many sources and analyze these data together to estimate the incidence and prevalence of different health conditions, as well as related risk factors. Modern surveillance systems employ tools and techniques from artificial intelligence and machine learning to monitor direct and indirect signals and indicators of disease activities for early, automatic detection of emerging outbreaks and other health-relevant patterns. To provide proper alerts and timely response, public health officials and researchers systematically gather news and other reports about suspected disease outbreaks, bioterrorism, and other events of potential international public health concern, from a wide range of formal and informal sources. Given the ever-increasing role of the World Wide Web as a source of information in many domains including healthcare, accessing, managing, and analyzing its content has brought new opportunities and challenges. This is especially the case for non- traditional online resources such as social networks, blogs, news feed, twitter posts, and online communities with the sheer size and ever-increasing growth and change rate of their data. Web applications along with text processing programs are increasingly being used to harness online data and information to discover meaningful patterns identifying emerging health threats. The advances in web science and technology for data management, integration, mining, classification, filtering, and visualization has given rise to a variety of applications representing real-time data on epidemics.
+  website: http://w3phiai2021.w3phi.com/
   rocketchat_channel: workshop-deelio
   alias: deelio
   sessions:
@@ -1514,11 +1550,10 @@
     speakers: Ellie Pavlick
     presentation_id: '38940165'
 - UID: WS-14
-  title: 6th Workshop on Noisy User-generated Text (W-NUT 2020)
-  organizers: Wei Xu, Alan Ritter, Timothy Baldwin, Afshin Rahimi and Leon Derczynski
-  abstract: Social media, crowdsourcing, medical texts, language learner essays, and
-    more! 2 keynotes, 130 PC members, talks &amp; 1-min madness for posters
-  website: http://noisy-text.github.io
+  title: "W14: Hybrid Artificial Intelligence"
+  organizers: Charles Ortiz, Sven Dickinson, Ron Kaplan and Michael Thielscher
+  abstract: Increased specialization in the sub-fields of AI has led to extreme fragmentation of the field. This has inhibited research on more complete AI systems that will require the coordination of multiple cognitive faculties (language, vision and reasoning) coupled with an ability to act and effect changes in the real world. This workshop will bring together researchers from NLP, computer vision, reasoning and action/robotics to explore end-to-end HAI.
+  website: https://sites.google.com/view/aaai2021workshop/home
   rocketchat_channel: workshop-wnut2020
   alias: wnut2020
   sessions:
@@ -1599,12 +1634,10 @@
   - https://us02web.zoom.us/j/3446463699
   prerecorded_talks: []
 - UID: WS-15
-  title: 'SustaiNLP: Workshop on Simple and Efficient Natural Language Processing'
-  organizers: "Angela Fan, Goran Glava\u0161, Shafiq Joty, Nafise Sadat Moosavi, Vered\
-    \ Shwartz, Alex Wang and Thomas Wolf"
-  abstract: Promoting computationally efficient NLP and justified model complexity.
-    Encouraging conceptual NLP novelty, discouraging "more compute".
-  website: https://sites.google.com/view/sustainlp2020
+  title: 'W15: Imagining Post-COVID Education with AI'
+  organizers: "Paul Kim, Neil Hefferman, Jineon Baek, Hoonpyo Jeon, Byungsoo Kim, Jamin Shin, Dongmin Shin and Youngduck Choi"
+  abstract: COVID-19 has brought upon us the inevitable transformation towards virtual education. The ensuing need for scalable, personalized learning systems has led to an unprecedented demand for understanding large-scale educational data. However, the field of Artificial Intelligence in Education (AIEd) has received relatively little academic attention compared to the mainstream machine learning areas like vision, natural language processing, and healthcare. In this workshop, we plan to invite AIEd enthusiasts from all around the world through three different channels. First, we will call for papers related to important AIEd topics that can help us imagine what new education will look like. Second, we propose a shared task about various AIEd problems on the largest public dataset, EdNet, which contains 123M interactions from more than 1M students. Finally, we host a global challenge on Kaggle for a fair comparison of state-of-the-art Knowledge Tracing models and invite technical reports from winning teams. Through these initiatives, we aim to provide a common ground for researchers to share their cutting-edge insights on AIEd and encourage the development of practical and large-scale AIEd methods of lasting impact.
+  website: https://sites.google.com/view/tipce-2021/home
   rocketchat_channel: workshop-sustainlp2020
   alias: sustainlp2020
   sessions:
@@ -1738,12 +1771,10 @@
     speakers: Armand Joulin
     presentation_id: '38940103'
 - UID: WS-16
-  title: 1st Workshop on Computational Approaches to Discourse
-  organizers: "Chlo\xE9 Braud, Christian Hardmeier, Junyi Jessy Li, Annie Louis and\
-    \ Michael Strube"
-  abstract: The Workshop on Computational Approaches to Discourse (CODI) covers all
-    aspects of discourse and its computational modeling.
-  website: https://cad-workshop.github.io/
+  title: "W16: Knowledge Discovery from Unstructured Data in Financial Services (KDF)"
+  organizers: "Xiaomo Liu, Zhiqiang Ma, Manuela M. Veloso, Sameena Shah, Armineh Nourbakhsh, Gerard de Melo, Le Song and Quanzhi Li"
+  abstract: Knowledge discovery from various data sources has gained the attention of many practitioners over the past decades. Its capabilities have expanded from processing structured data (e.g. DB transactions) to unstructured data (e.g. text, images, and videos). In spite of substantial research focusing on discovery from news, web, and social media data, its application to data in professional settings such as legal documents, financial filings, and government reports, still present huge challenges. Possible reasons are that the precision and recall requirements for extracted knowledge to be used in business processes are fastidious, and signals gathered from these knowledge discovery tasks are usually very sparse and thus the generation of supervision signals is quite challenging.
+  website: https://aaai-kdf.github.io/kdf2021
   rocketchat_channel: workshop-codi2020
   alias: codi2020
   sessions:
@@ -1856,11 +1887,10 @@
   - https://us02web.zoom.us/j/9987253895
   prerecorded_talks: []
 - UID: WS-17
-  title: The Fourth Workshop on Online Abuse and Harms (WOAH) a.k.a. ALW
-  organizers: Zeerak Waseem, Vinodkumar Prabhakaran, Seyi Akiwowo and Bertie Vidgen
-  abstract: The workshop focuses on online abuse through a multi-disciplinary lens,
-    drawing on social sciences, law, media studies, and more.
-  website: https://www.workshopononlineabuse.com/home
+  title: "W17: Learning Network Architecture during Training"
+  organizers: Scott E. Fahlman, Kate Farrahi, George Magoulas, Edouard Oyallon, Bhiksha Raj Ramakrishnan and Dean Alderucci
+  abstract: A fundamental problem in the use of artificial neural networks is that the first step is to guess the network architecture. Fine tuning a neural network is very time consuming and far from optimal. Hyperparameters such as the number of layers, the number of nodes in each layer, the pattern of connectivity, and the presence and placement of elements such as memory cells, recurrent connections, and convolutional elements are all manually selected. If it turns out that the architecture is not appropriate for the task, the user must repeatedly adjust the architecture and retrain the network until an acceptable architecture has been obtained.
+  website: https://www.cs.cmu.edu/~sef/AAAI-2021-Workshop.htm
   rocketchat_channel: workshop-woah4
   alias: woah4
   sessions:
@@ -1994,12 +2024,10 @@
     speakers: Maria Y. Rodriguez
     presentation_id: '38939542'
 - UID: WS-18
-  title: NLP and Computational Social Science (NLP+CSS)
-  organizers: Svitlana Volkova, David Jurgens, David Bamman, Dirk Hovy and Brendan
-    T. O'Connor
-  abstract: This workshop focuses on NLP for Social Sciences, interdisciplinary work
-    in CSS, and integrating CSS with current trends in NLP.
-  website: https://sites.google.com/site/nlpandcss/nlp-css-at-emnlp-2020
+  title: "W18: Meta-Learning and Co-Hosted Competition"
+  organizers: Adrian El Baz, Isabelle Guyon, Zhengying Liu, Jan N. van Rijn, Sebastien Treguer and Joaquin Vanschoren
+  abstract: The performance of many machine learning algorithms depends highly upon the quality and quantity of available data, and (hyper)-parameter settings. In particular, deep learning methods, including convolutional neural networks, are known to be ‘data-hungry,’ and require properly tuned hyper-parameters. Meta-Learning is a way to address both issues. Simple, but effective approaches reported recently include pre-training models on similar datasets. This way, a good model or good hyperparameters can be pre-determined or learned model parameters can be transferred to the new dataset. As such, higher performance can be achieved with the same amount of data, or similar performance with less data (few shot learning). This workshop, with a co-hosted competition, will focus on meta-learning and few shot learning.
+  website: https://metalearning.chalearn.org/
   rocketchat_channel: workshop-nlpcss
   alias: nlpcss
   sessions:
@@ -2058,13 +2086,10 @@
   - https://us02web.zoom.us/j/6709619322
   prerecorded_talks: []
 - UID: WS-19
-  title: LOUHI 2020 - 11th International Workshop on Health Text Mining and Information
-    Analysis
-  organizers: Alberto Lavelli, James Pustejovsky, Eben Holderness, Antonio Jimeno
-    Yepes, Anne-Lyse Minard and Fabio Rinaldi
-  abstract: an interdisciplinary forum for researchers interested in automated processing
-    of health documents
-  website: https://louhi2020.fbk.eu/
+  title: "W19: Meta-Learning for Computer Vision (ML4CV)"
+  organizers: Mayank Vatsa, Richa Singh, Nalini Ratha, Vishal Patel and Surbhi Mittal
+  abstract: Machine learning and in particular deep learning has shown significant boost in performance on various computer vision tasks such as object recognition, face recognition, and semantic segmentation in the last decade. Despite this success, the learning mechanism of modern systems remains surprisingly narrow as compared to the way humans learn. For example, contrary to the most current systems which learn just a single model from just a single data set, we humans acquire knowledge from diverse experiences over many years. As an alternative, meta-learning and life-long learning aka never-ending learning has been emerging as a new paradigm in the machine learning literature.
+  website: http://iab-rubric.org/mel4cv/
   rocketchat_channel: workshop-louhi2020
   alias: louhi2020
   sessions:
@@ -2132,12 +2157,10 @@
   - https://us02web.zoom.us/j/9825218020
   prerecorded_talks: []
 - UID: WS-20
-  title: Evaluation and Comparison of NLP Systems
-  organizers: "Steffen Eger, Yang Gao, Maxime Peyrard, Wei Zhao,\_Eduard Hovy,\_Mohit\
-    \ Bansal, Robert West,\_Ani Nenkova, and Ido Dagan"
-  abstract: The workshop focuses on designing evaluation metrics, reporting trustworthy
-    results and creating adequate and correct evaluation data.
-  website: https://nlpevaluation2020.github.io/
+  title: "W20: Plan, Activity, and Intent Recognition (PAIR) 2021"
+  organizers: "Sarah Keren, Reuth Mirsky and Christopher Geib"
+  abstract: This workshop seeks to bring together researchers and practitioners from diverse backgrounds, to share ideas and recent results. It will aim to identify important research directions, opportunities for synthesis and unification of representations and algorithms for recognition.
+  website: http://www.planrec.org/PAIR/Resources.html
   rocketchat_channel: workshop-eval4nlp
   alias: eval4nlp
   sessions:
@@ -2185,12 +2208,10 @@
   - https://us02web.zoom.us/j/5916616973
   prerecorded_talks: []
 - UID: WS-21
-  title: 4th Workshop on Structured Prediction for NLP
-  organizers: "Andr\xE9 F. T. Martins, Andreas Vlachos, Zornitsa Kozareva, Sujith\
-    \ Ravi, Gerasimos Lampouras, Priyanka Agrawal and Julia Kreutzer"
-  abstract: Structured prediction with continuous representations, task-level supervision
-    and latent linguistic structure.
-  website: http://structuredprediction.github.io/SPNLP20
+  title: "W21: Workshop on Privacy-Preserving Artificial Intelligence (PPAI-21)"
+  organizers: "Ferdinando Fioretto, Pascal Van Hentenryck and Richard W. Evans"
+  abstract: "The availability of massive amounts of data, coupled with high-performance cloud computing platforms, has driven significant progress in artificial intelligence and, in particular, machine learning and optimization. It has profoundly impacted several areas, including computer vision, natural language processing, and transportation. However, the use of rich data sets also raises significant privacy concerns: They often reveal personal sensitive information that can be exploited, without the knowledge and/or consent of the involved individuals, for various purposes including monitoring, discrimination, and illegal activities."
+  website: https://ppai21.github.io/
   rocketchat_channel: workshop-spnlp20
   alias: spnlp20
   sessions:
@@ -2320,13 +2341,68 @@
   - title: Invited talk by Ivan Titov
     speakers: Ivan Titov
     presentation_id: '38940150'
+- UID: WS-22
+  title: "W22: Reasoning and Learning for Human-Machine Dialogs (DEEP-DIAL21)"
+  organizers: "Sathyanarayanan N. Aakur, Ullas Nambiar, Imed Zitouni and Biplav Srivastava"
+  abstract: Natural conversation is a hallmark of intelligent systems and thus dialog systems have been a key sub-area of Artificial Intelligence research for decades. Chatbots are their most recent incarnation and have been widely adopted, particularly in the recent COVID-19 pandemic, as sources of information. Given the increasing interest, there has been a surge in the development of easy-to-use platforms to rapidly create dialog agents at different levels of sophistication. Further, with the rapid advances in natural language generation models, there is a need to foster and guide the research on the development and deployment of dialog systems with what users actually value.
+  website: https://sites.google.com/view/deep-dial2021
+  rocketchat_channel: workshop-nlpbt2020
+  alias: nlpbt2020
+  sessions:
+  - start_time: 2020-11-20 15:00:00+00:00
+    end_time: 2020-11-20 15:10:00+00:00
+    name: Intro to NLPBT
+    hosts: Simone Filice
+  - start_time: 2020-11-20 15:10:00+00:00
+    end_time: 2020-11-20 15:30:00+00:00
+    name: Modulated Fusion using Transformer for Linguistic-Acoustic Emotion Recognition
+    hosts: Simone Filice
+  - start_time: 2020-11-20 15:30:00+00:00
+    end_time: 2020-11-20 15:50:00+00:00
+    name: Multimodal Speech Recognition with Unstructured Audio Masking
+    hosts: Simone Filice
+  - start_time: 2020-11-20 15:50:00+00:00
+    end_time: 2020-11-20 16:10:00+00:00
+    name: 'Findings Paper: No Gestures Left Behind: Learning Relationships between
+      Spoken Language and Freeform Gestures'
+    hosts: Simone Filice
+  - start_time: 2020-11-20 16:10:00+00:00
+    end_time: 2020-11-20 17:00:00+00:00
+    name: 'Keynote Talk:  A Vision on (Simultaneous) Multimodal Machine Translation
+      Loic Barrault'
+    hosts: Simone Filice
+  - start_time: 2020-11-20 17:00:00+00:00
+    end_time: 2020-11-20 18:30:00+00:00
+    name: Poster Session on gather.town
+    hosts: Giuseppe Castellucci
+  - start_time: 2020-11-20 18:30:00+00:00
+    end_time: 2020-11-20 18:50:00+00:00
+    name: 'MAST: Multimodal Abstractive Summarization with Trimodal Hierarchical Attention'
+    hosts: Giuseppe Castellucci
+  - start_time: 2020-11-20 18:50:00+00:00
+    end_time: 2020-11-20 19:10:00+00:00
+    name: Towards End-to-End In-Image Neural Machine Translation
+    hosts: Giuseppe Castellucci
+  - start_time: 2020-11-20 19:10:00+00:00
+    end_time: 2020-11-20 19:30:00+00:00
+    name: 'Findings Paper: Beyond Language: Learning Commonsense from Images for Reasoning'
+    hosts: Giuseppe Castellucci
+  - start_time: 2020-11-20 19:30:00+00:00
+    end_time: 2020-11-20 19:50:00+00:00
+    name: 'Reasoning Over History: Context Aware Visual Dialog'
+    hosts: Giuseppe Castellucci
+  - start_time: 2020-11-20 19:50:00+00:00
+    end_time: 2020-11-20 20:00:00+00:00
+    name: Closing NLPBT
+    hosts: Giuseppe Castellucci
+  zoom_links:
+  - https://us02web.zoom.us/j/4210020303
+  prerecorded_talks: []
 - UID: WS-23
-  title: NLP Beyond Text
-  organizers: Erik Cambria, Giuseppe Castellucci, Simone Filice, Soujanya Poria, Lucia
-    Specia
-  abstract: Can you really know if someone is sarcastic by only reading his texts?
-    If the answer is no, the NLPBT workshop is what you're looking for.
-  website: https://sites.google.com/view/nlpbt-2020
+  title: "W23: Reinforcement Learning in Games"
+  organizers: Marc Lanctot, Julien Perolat and Martin Schmid
+  abstract: "Games provide an abstract and formal model of environments in which multiple agents interact: each player has a well-defined goal and rules to describe the effects of interactions among the players. The first achievements in playing these games at super-human level were attained with methods that relied on and exploited domain expertise that was designed manually (e.g. chess, checkers). In recent years, we have seen examples of general approaches that learn to play these games via self-play reinforcement learning (RL), as first demonstrated in Backgammon. While progress has been impressive, we believe we have just scratched the surface of what is capable, and much work remains to be done in order to truly understand the algorithms and learning processes within these environments."
+  website: http://aaai-rlg.mlanctot.info/
   rocketchat_channel: workshop-nlpbt2020
   alias: nlpbt2020
   sessions:
@@ -2380,12 +2456,10 @@
   - https://us02web.zoom.us/j/4210020303
   prerecorded_talks: []
 - UID: WS-24
-  title: 'PrivateNLP 2020: The First Workshop on Privacy in NLP'
-  organizers: Oluwaseyi Feyisetan, Sepideh Ghanavati, Patricia Thaine and Shervin
-    Malmasi
-  abstract: 'PrivateNLP focuses on Privacy Preserving systems: differential privacy,
-    anonymized datasets and models, GDPR compliance, and shared tasks!'
-  website: https://sites.google.com/view/privatenlp/
+  title: "W24: Scientific Document Understanding"
+  organizers: Thien Huu Nguyen, Walter Chang, Amir Pouran Ben Veyseh, Leo Anthony Celi and Franck Dernoncourt
+  abstract: 'Scientific documents such as research papers, patents, books, or technical reports are one of the most valuable resources of human knowledge. At the AAAI-21 Workshop on Scientific Document Understanding (SDU@AAAI-21), we aim to gather insights into the recent advances and remaining challenges on scientific document understanding. Researchers from related fields are invited to submit papers on the recent advances, resources, tools, and upcoming challenges for SDU. In addition to that, we propose a shared task on one of the challenging SDU tasks, i.e., acronym identification and disambiguation in scientific text.'
+  website: https://sites.google.com/view/sdu-aaai21/home
   rocketchat_channel: workshop-privatenlp2020
   alias: privatenlp2020
   sessions:
@@ -2476,12 +2550,10 @@
     speakers: Annabelle McIver, Mark Dras
     presentation_id: '38939778'
 - UID: WS-25
-  title: 'BlackboxNLP 2020: Analyzing and interpreting neural networks for NLP'
-  organizers: "Yonatan Belinkov, Afra Alishahi, Grzegorz Chrupa\u0142a, Dieuwke Hupkes,\
-    \ Yuval Pinter and Hassan Sajjad"
-  abstract: Open the black-box of neural networks in NLP and make sense of the big
-    pile of goo inside it
-  website: https://blackboxnlp.github.io
+  title: 'W25: Toward Robust, Secure and Efficient Machine Learning'
+  organizers: "Dawn Song, Song Han, Han Yu, Lixin Fan and KamWoh Ng"
+  abstract: Machine learning technology has been improving with every passing day and has been extensively applied to nearly every corner of the society that offers substantial benefits to our daily lives. However, machine learning models face various threats. For example, it is known that machine learning models are vulnerable to adversarial samples. The existence of adversarial examples reveals that current machine learning models are vulnerable and can be easily fooled, leading to serious security concerns in machine learning systems such as autonomous driving vehicles or face recognition systems.
+  website: http://federated-learning.org/rseml2021/
   rocketchat_channel: workshop-blackboxnlp2020
   alias: blackboxnlp2020
   sessions:
@@ -2560,11 +2632,10 @@
     speakers: Anna Rogers
     presentation_id: '38939762'
 - UID: WS-26
-  title: NLP for COVID-19 Workshop (Part 2)
-  organizers: Karin Verspoor, Kevin Bretonnel Cohen, Mike Conway, Berry de Bruijn,
-    Mark Dredze, Rada Mihalcea and Byron Wallace
-  abstract:
-  website: https://www.nlpcovid19workshop.org/emnlp2020/
+  title: "W26: Trustworthy AI for Healthcare"
+  organizers: Pengtao Xie, Marinka Zitnik, Byron Wallace, Jennifer G. Dy and Eric Xing
+  abstract: "AI for healthcare has emerged into a very active research area in the past few years and has made significant progress. While existing results are encouraging, not too many clinical AI solutions are deployed in hospitals or actively utilized by physicians. A major problem is that existing clinical AI methods are less trustworthy. For example, existing approaches make clinical decisions in a black-box way, which renders the decisions difficult to understand and less transparent. Existing solutions are not robust to small perturbations or potentially adversarial attacks, which raises security and privacy concerns. In addition, existing methods are often biased to specific ethnic groups or subpopulations. As a result, physicians are reluctant to use these solutions since clinical decisions are mission-critical and have to be made with high trust and reliability."
+  website: https://taih20.github.io/
   rocketchat_channel: workshop-nlp-covid19-emnlp
   alias: nlp-covid19-emnlp
   sessions:
