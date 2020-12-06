@@ -117,6 +117,10 @@ def qa_sessions():
 def tutorials():
     data = _data()
     data["tutorials"] = site_data["tutorials"]
+    data["tutorials_MQ"] = site_data["tutorials_MQ"]
+    data["tutorials_MH"] = site_data["tutorials_MH"]
+    data["tutorials_AQ"] = site_data["tutorials_AQ"]
+    data["tutorials_AH"] = site_data["tutorials_AH"]
     return render_template("tutorials.html", **data)
 
 

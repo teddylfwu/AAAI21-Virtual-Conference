@@ -197,6 +197,19 @@ class TutorialSessionInfo:
         start_date = f'{start.strftime("%b")} {start.day}'
         return start_date
 
+@dataclass(frozen=True)
+class TutorialAuthorInfo:
+    """The session information for a tutorial."""
+
+    author_name: str
+    author_description:str
+
+    def name(self) -> str:
+        return self.author_name
+
+    def description(self) -> str:
+        return self.author_description
+
 
 @dataclass(frozen=True)
 class Tutorial:
@@ -210,6 +223,7 @@ class Tutorial:
     prerecorded: Optional[str]
     rocketchat_channel: str
     sessions: List[TutorialSessionInfo]
+    authors: List[TutorialAuthorInfo]
     blocks: List[SessionInfo]
     virtual_format_description: str
 
