@@ -17,6 +17,12 @@
       Description
     </a>
 
+    {% if tutorial.authors %}
+    <a class="card-link" data-toggle="collapse" role="button" href="#author">
+      Author(s)
+    </a>
+    {% endif %}
+
     {% if tutorial.sessions %}
     <a class="card-link" data-toggle="collapse" role="button" href="#schedule">
       Schedule
@@ -60,6 +66,24 @@
     <p></p>
   </div>
 </div>
+
+
+<!-- Author -->
+{% if tutorial.sessions %}
+<div id="author" class="pp-card m-3 collapse hide">
+  <div class="card-body">
+    <div class="card-text">
+      <div id="authorExample">
+        {% for author in tutorial.authors %}
+        <span class="font-weight-bold">{{author.author_name}}</span>
+        {{author.author_description|safe}} <br />
+        {% endfor %}
+      </div>
+    </div>
+    <p></p>
+  </div>
+</div>
+{% endif %}
 
 <!-- Schedule -->
 {% if tutorial.sessions %}

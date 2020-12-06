@@ -25,6 +25,7 @@ from miniconf.site_data import (
     SocialEventOrganizers,
     Tutorial,
     TutorialSessionInfo,
+    TutorialAuthorInfo,
     Workshop,
     WorkshopPaper,
 )
@@ -137,11 +138,31 @@ def load_site_data(
     site_data["programs"] = ["main", "demo", "findings", "workshop"]
 
     # tutorials.html
+    tutorial_MQ = []
+    tutorial_MH = []
+    tutorial_AQ = []
+    tutorial_AH = []
+
+    for item in site_data["tutorials"]:
+        if "MQ" in item["UID"]:
+            tutorial_MQ.append(item)
+        if "MH" in item["UID"]:
+            tutorial_MH.append(item)
+        if "AQ" in item["UID"]:
+            tutorial_AQ.append(item)
+        if "AH" in item["UID"]:
+            tutorial_AH.append(item)
+
     tutorials = build_tutorials(site_data["tutorials"])
+
     site_data["tutorials"] = tutorials
     site_data["tutorial_calendar"] = build_tutorial_schedule(
         site_data["overall_calendar"]
     )
+    site_data["tutorials_MQ"] = build_tutorials(tutorial_MQ)
+    site_data["tutorials_MH"] = build_tutorials(tutorial_MH)
+    site_data["tutorials_AQ"] = build_tutorials(tutorial_AQ)
+    site_data["tutorials_AH"] = build_tutorials(tutorial_AH)
     # tutorial_<uid>.html
     by_uid["tutorials"] = {tutorial.id: tutorial for tutorial in tutorials}
 
@@ -817,6 +838,13 @@ def build_tutorials(raw_tutorials: List[Dict[str, Any]]) -> List[Tutorial]:
                     zoom_link=session.get("zoom_link"),
                 )
                 for session in item.get("sessions")
+            ],
+            authors=[
+                TutorialAuthorInfo(
+                    author_name=author.get("name"),
+                    author_description=author.get("description"),
+                )
+                for author in item.get("authors")
             ],
             blocks=build_tutorial_blocks(item),
             virtual_format_description=item["info"],

@@ -6,14 +6,31 @@
 {{ components.section("Tutorial") }}
 
 <div class="text-center text-muted">
-    Below are the tutorials to be held on November 19th and November 20th, 2020. Click on it to access its material. <br/>
+    Below are the tutorials to be held on February 3rd, 2021. Click on it to access its material. <br/>
     You can also view the schedule by going to the "day" view on the <a href="schedule.html" target="_blank">Schedule</a>
-    page for November 19 and November 20.</div>
+    page for February 3rd.</div>
+
+<div class="text-center p-3">
+    <a class="card-link" role="button" href="#MQ_tutorials">
+      Morning Quarter-day Tutorials
+    </a>
+    <a class="card-link" role="button" href="#MH_tutorials">
+      Morning Half-day Tutorials
+    </a>
+    <a class="card-link" role="button" href="#AQ_tutorials">
+      Afternoon Quarter-day Tutorials
+    </a>
+    <a class="card-link" role="button" href="#AH_tutorials">
+      Afternoon Half-day Tutorials
+    </a>
+</div>
+
 {% endblock %}
 
 {% block content %}
+
 <div class="tutorials">
-  {{ components.tutorialgroup(tutorials) }}
+    {{ components.tutorialgroup(tutorials,tutorials_MQ,tutorials_MH,tutorials_AQ,tutorials_AH) }}
 </div>
 
 <script src="static/js/time-extend.js"></script>
