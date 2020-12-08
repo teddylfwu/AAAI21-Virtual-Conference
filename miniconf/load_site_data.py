@@ -80,11 +80,11 @@ def load_site_data(
 
         extra_files.append(f)
         if typ == "json":
-            site_data[name] = json.load(open(f))
+            site_data[name] = json.load(open(f, encoding="utf-8"))
         elif typ in {"csv", "tsv"}:
-            site_data[name] = list(csv.DictReader(open(f)))
+            site_data[name] = list(csv.DictReader(open(f, encoding="utf-8")))
         elif typ == "yml":
-            site_data[name] = yaml.load(open(f).read(), Loader=yaml.SafeLoader)
+            site_data[name] = yaml.load(open(f, encoding="utf-8").read(), Loader=yaml.SafeLoader)
     assert set(site_data.keys()) == registered_sitedata, registered_sitedata - set(
         site_data.keys()
     )
