@@ -306,7 +306,8 @@
 {%- endmacro %}
 
 {% macro tutorialgroup(tutorials,tutorials_MQ,tutorials_MH,tutorials_AQ,tutorials_AH) -%}
-<div id="MQ_tutorials"><br /><br /><br /><br /></div>
+{#<div id="MQ_tutorials"><br /><br /><br /><br /></div>#}
+<div id="MQ_tutorials"></div>
 <div class="card p-3 shadow p-3 mb-5 bg-light rounded"
          style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">
     <div class="m-3 text-muted text-center">
@@ -314,7 +315,7 @@
             Morning Quarter-day Tutorials
         </h3>
     </div>
-    <div class="m-3 text-muted text-center"><a href="#" class="text-dark">Back to Top</a></div>
+{#    <div class="m-3 text-muted text-center"><a href="#" class="text-dark">Back to Top</a></div>#}
 </div>
 <div class="cards row">
   {% for tutorial in tutorials_MQ %}
