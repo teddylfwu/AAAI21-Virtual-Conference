@@ -127,8 +127,16 @@
         <div 
             class="btn-group btn-group-toggle program_option mr-3 bottom-bar"
             data-toggle="buttons" >
-
-            <label class="btn btn-sm btn-outline-secondary active">
+            <label class="btn btn-sm btn-outline-secondary" data-tippy-content="AI for socical impact track papers" style="width: 4em;">
+              <input
+                type="radio"
+                name="program"
+                value="AISI"
+                autocomplete="off"
+              />
+              AISI
+            </label>
+            <label class="btn btn-sm btn-outline-secondary active"  data-tippy-content="main track papers" style="width: 4em;">
               <input
                   type="radio"
                   name="program"
@@ -137,7 +145,7 @@
               />
               main
             </label>
-            <label class="btn btn-sm btn-outline-secondary">
+            <label class="btn btn-sm btn-outline-secondary" data-tippy-content="demo papers"  style="width: 4em;">
               <input
                 type="radio"
                 name="program"
@@ -146,25 +154,70 @@
               />
               demo
             </label>
-            <label class="btn btn-sm btn-outline-secondary">
+            <label class="btn btn-sm btn-outline-secondary" data-tippy-content="doctoral consortium papers"  style="width: 4em;">
               <input
                 type="radio"
                 name="program"
-                value="findings"
+                value="DC"
                 autocomplete="off"
               />
-              findings
+              DC
             </label>
-            <label class="btn btn-sm btn-outline-secondary">
+            <label class="btn btn-sm btn-outline-secondary" data-tippy-content="Educational Advances in Artificial Intelligence"   style="width: 4em;">
               <input
                 type="radio"
                 name="program"
-                value="workshop"
+                value="EAAI"
                 autocomplete="off"
               />
-              workshop
+              EAAI
             </label>
-            <label class="btn btn-sm btn-outline-secondary">
+            <label class="btn btn-sm btn-outline-secondary" data-tippy-content="Innovative Applications of Artificial Intelligence"  style="width: 4em;">
+              <input
+                type="radio"
+                name="program"
+                value="IAAI"
+                autocomplete="off"
+              />
+              IAAI
+            </label>
+            <label class="btn btn-sm btn-outline-secondary" data-tippy-content="senior member track papers"  style="width: 4em;">
+              <input
+                type="radio"
+                name="program"
+                value="SMT"
+                autocomplete="off"
+              />
+              SMT
+            </label>
+            <label class="btn btn-sm btn-outline-secondary" data-tippy-content="sister conference papers"  style="width: 4em;">
+              <input
+                type="radio"
+                name="program"
+                value="SC"
+                autocomplete="off"
+              />
+              SC
+            </label>
+            <label class="btn btn-sm btn-outline-secondary" data-tippy-content="student abstracts papers"  style="width: 4em;">
+              <input
+                type="radio"
+                name="program"
+                value="SA"
+                autocomplete="off"
+              />
+              SA
+            </label>
+            <label class="btn btn-sm btn-outline-secondary" data-tippy-content="undergraduate consortium papers"  style="width: 4em;">
+              <input
+                type="radio"
+                name="program"
+                value="UC"
+                autocomplete="off"
+              />
+              UC
+            </label>
+            <label class="btn btn-sm btn-outline-secondary" style="width: 4em;">
               <input
                 type="radio"
                 name="program"
@@ -175,9 +228,9 @@
             </label>
         </div>
       </div>
-      
-      <div style="margin-right: 0.0em;">
-        <div 
+
+        <div style="margin-right: 0.0em;">
+        <div
             class="btn-group btn-group-toggle render_option mr-3 bottom-bar"
             data-toggle="buttons" >
 
@@ -233,9 +286,68 @@
           <button class="btn btn-sm btn-outline-secondary reshuffle">shuffle</button>
         </div>
       </div>
+
     </div>
 
-
+{#    <div class="button-box" style="margin-top: 0.75em;">#}
+{#        <div style="margin-right: 0.0em;">#}
+{#        <div#}
+{#            class="btn-group btn-group-toggle render_option mr-3 bottom-bar"#}
+{#            data-toggle="buttons" >#}
+{##}
+{#            <label class="btn btn-sm btn-outline-secondary active">#}
+{#              <input#}
+{#                  type="radio"#}
+{#                  name="options"#}
+{#                  value="list"#}
+{#                  autocomplete="off"#}
+{#                  checked#}
+{#              />#}
+{#              compact#}
+{#            </label>#}
+{#            <label class="btn btn-sm btn-outline-secondary">#}
+{#              <input#}
+{#                type="radio"#}
+{#                name="options"#}
+{#                value="compact"#}
+{#                autocomplete="off"#}
+{#              />#}
+{#              medium#}
+{#            </label>#}
+{#            <label class="btn btn-sm btn-outline-secondary">#}
+{#              <input#}
+{#                type="radio"#}
+{#                name="options"#}
+{#                value="detail"#}
+{#                autocomplete="off"#}
+{#              />#}
+{#              detail#}
+{#            </label>#}
+{#        </div>#}
+{#      </div>#}
+{##}
+{##}
+{#      <div>#}
+{#        <div class="btn-group btn-group-toggle render_option" data-toggle="buttons">#}
+{#          <button class="btn btn-sm btn-outline-secondary visited">visited</button>#}
+{#        </div>#}
+{#      </div>#}
+{##}
+{#      <div>#}
+{#        <div class="btn-group btn-group-toggle render_option pl-2 " data-toggle="buttons">#}
+{#          <label class="btn btn-sm btn-outline-secondary" data-tippy-content="Show/hide papers whose QA session is finished.">#}
+{#            <input type="checkbox" name="hide_qa_ended" display="none" onchange="hideQaEnded(allPapers, this)" />#}
+{#            QA not passed#}
+{#          </label>#}
+{#        </div>#}
+{#      </div>#}
+{##}
+{#      <div>#}
+{#        <div class="btn-group pl-2 ">#}
+{#          <button class="btn btn-sm btn-outline-secondary reshuffle">shuffle</button>#}
+{#        </div>#}
+{#      </div>#}
+{#    </div>#}
   
     
     <!-- Shortcut Guide-->
@@ -336,7 +448,7 @@
 
   $(document).ready(function () {
     tippy("[data-tippy-content]", { trigger: "mouseenter focus" });
-    const program = getUrlParameter("program") || 'main'
+    const program = getUrlParameter("program") || 'AISI'
     let track = ""
     if (program !== "workshop") {
         track = getUrlParameter("track") || 'All tracks'
