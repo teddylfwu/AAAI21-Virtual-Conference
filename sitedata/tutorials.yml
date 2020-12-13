@@ -19,21 +19,11 @@
     end_time: 2021-02-03 15:00:00+00:00
     zoom_link: 123.com
     hosts: Songgaojun Deng, Yue Ning and Huzefa Rangwala
-  - name: MQ2
+  - name: MQ1
     start_time: 2021-02-03 13:30:00+00:00
     end_time: 2021-02-03 15:00:00+00:00
     zoom_link: 123.com
-    hosts: Ludovik Coba, Roberto Confalonieri and Markus Zanker
-  - name: MQ3
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 15:00:00+00:00
-    zoom_link: 123.com
-    hosts: Claudio Gallicchio
-  - name: MQ4
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 15:00:00+00:00
-    zoom_link: 123.com
-    hosts: Tejaswini Pedapati and Martin Wistuba
+    hosts: Songgaojun Deng, Yue Ning and Huzefa Rangwala
   authors:
   - name: Songgaojun Deng
     description: |+
@@ -68,26 +58,16 @@
         conference.
   rocketchat_channel: tutorial-MQ2
   sessions:
-  - name: MQ1
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 15:00:00+00:00
-    zoom_link: 123.com
-    hosts: Songgaojun Deng, Yue Ning and Huzefa Rangwala
   - name: MQ2
     start_time: 2021-02-03 13:30:00+00:00
     end_time: 2021-02-03 15:00:00+00:00
     zoom_link: 123.com
     hosts: Ludovik Coba, Roberto Confalonieri and Markus Zanker
-  - name: MQ3
+  - name: MQ2
     start_time: 2021-02-03 13:30:00+00:00
     end_time: 2021-02-03 15:00:00+00:00
     zoom_link: 123.com
-    hosts: Claudio Gallicchio
-  - name: MQ4
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 15:00:00+00:00
-    zoom_link: 123.com
-    hosts: Tejaswini Pedapati and Martin Wistuba
+    hosts: Ludovik Coba, Roberto Confalonieri and Markus Zanker
   authors:
   - name: Ludovik Coba
     description: |+
@@ -128,26 +108,16 @@
         conference.
   rocketchat_channel: tutorial-MQ3
   sessions:
-  - name: MQ1
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 15:00:00+00:00
-    zoom_link: 123.com
-    hosts: Songgaojun Deng, Yue Ning and Huzefa Rangwala
-  - name: MQ2
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 15:00:00+00:00
-    zoom_link: 123.com
-    hosts: Ludovik Coba, Roberto Confalonieri and Markus Zanker
   - name: MQ3
     start_time: 2021-02-03 13:30:00+00:00
     end_time: 2021-02-03 15:00:00+00:00
     zoom_link: 123.com
     hosts: Claudio Gallicchio
-  - name: MQ4
+  - name: MQ3
     start_time: 2021-02-03 13:30:00+00:00
     end_time: 2021-02-03 15:00:00+00:00
     zoom_link: 123.com
-    hosts: Tejaswini Pedapati and Martin Wistuba
+    hosts: Claudio Gallicchio
   authors:
   - name: Claudio Gallicchio
     description: is Assistant Professor at the Department of Computer Science, University
@@ -174,21 +144,11 @@
         conference.
   rocketchat_channel: tutorial-MQ4
   sessions:
-  - name: MQ1
+  - name: MQ4
     start_time: 2021-02-03 13:30:00+00:00
     end_time: 2021-02-03 15:00:00+00:00
     zoom_link: 123.com
-    hosts: Songgaojun Deng, Yue Ning and Huzefa Rangwala
-  - name: MQ2
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 15:00:00+00:00
-    zoom_link: 123.com
-    hosts: Ludovik Coba, Roberto Confalonieri and Markus Zanker
-  - name: MQ3
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 15:00:00+00:00
-    zoom_link: 123.com
-    hosts: Claudio Gallicchio
+    hosts: Tejaswini Pedapati and Martin Wistuba
   - name: MQ4
     start_time: 2021-02-03 13:30:00+00:00
     end_time: 2021-02-03 15:00:00+00:00
@@ -227,47 +187,11 @@
     end_time: 2021-02-03 16:45:00+00:00
     zoom_link: 123.com
     hosts: Jian Tang, Fei Wang and Feixiong Cheng
-  - name: MH2
+  - name: MH1
     start_time: 2021-02-03 13:30:00+00:00
     end_time: 2021-02-03 16:45:00+00:00
     zoom_link: 123.com
-    hosts: Filip Ilievski, Antoine Bosselut, Simon Razniewski and Mayank Kejriwal
-  - name: MH3
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: Rayid Ghani, Pedro Saleiro and Kit Rodolfa
-  - name: MH4
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: Vincent Conitzer
-  - name: MH5
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: Huaxiu Yao, Fei Wang and Zhenhui Jessie Li
-  - name: MH6
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: Iddo Drori and Joaquin Vanschoren
-  - name: MH7
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: "Elias Khalil, Andrea Lodi, Bistra Dilkina, Didier Ch\xE9telat, Maxime\
-      \ Gasse, Antoine Prouvost, Giulia Zarpellon and Laurent Charlin"
-  - name: MH8
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: Krishnaram Kenthapadi, Ben Packer, Mehrnoosh Sameki and Nashlie Sephus
-  - name: MH9
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: Sunipa Dev, Jeff M. Phillips, Archit Rathore, Vivek Srikumar and Bei Wang
+    hosts: Jian Tang, Fei Wang and Feixiong Cheng
   authors:
   - name: Jian Tang
     description: |+
@@ -301,52 +225,16 @@
         conference.
   rocketchat_channel: tutorial-MH2
   sessions:
-  - name: MH1
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: Jian Tang, Fei Wang and Feixiong Cheng
   - name: MH2
     start_time: 2021-02-03 13:30:00+00:00
     end_time: 2021-02-03 16:45:00+00:00
     zoom_link: 123.com
     hosts: Filip Ilievski, Antoine Bosselut, Simon Razniewski and Mayank Kejriwal
-  - name: MH3
+  - name: MH2
     start_time: 2021-02-03 13:30:00+00:00
     end_time: 2021-02-03 16:45:00+00:00
     zoom_link: 123.com
-    hosts: Rayid Ghani, Pedro Saleiro and Kit Rodolfa
-  - name: MH4
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: Vincent Conitzer
-  - name: MH5
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: Huaxiu Yao, Fei Wang and Zhenhui Jessie Li
-  - name: MH6
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: Iddo Drori and Joaquin Vanschoren
-  - name: MH7
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: "Elias Khalil, Andrea Lodi, Bistra Dilkina, Didier Ch\xE9telat, Maxime\
-      \ Gasse, Antoine Prouvost, Giulia Zarpellon and Laurent Charlin"
-  - name: MH8
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: Krishnaram Kenthapadi, Ben Packer, Mehrnoosh Sameki and Nashlie Sephus
-  - name: MH9
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: Sunipa Dev, Jeff M. Phillips, Archit Rathore, Vivek Srikumar and Bei Wang
+    hosts: Filip Ilievski, Antoine Bosselut, Simon Razniewski and Mayank Kejriwal
   authors:
   - name: Filip Ilievski
     description: |+
@@ -386,52 +274,16 @@
         conference.
   rocketchat_channel: tutorial-MH3
   sessions:
-  - name: MH1
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: Jian Tang, Fei Wang and Feixiong Cheng
-  - name: MH2
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: Filip Ilievski, Antoine Bosselut, Simon Razniewski and Mayank Kejriwal
   - name: MH3
     start_time: 2021-02-03 13:30:00+00:00
     end_time: 2021-02-03 16:45:00+00:00
     zoom_link: 123.com
     hosts: Rayid Ghani, Pedro Saleiro and Kit Rodolfa
-  - name: MH4
+  - name: MH3
     start_time: 2021-02-03 13:30:00+00:00
     end_time: 2021-02-03 16:45:00+00:00
     zoom_link: 123.com
-    hosts: Vincent Conitzer
-  - name: MH5
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: Huaxiu Yao, Fei Wang and Zhenhui Jessie Li
-  - name: MH6
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: Iddo Drori and Joaquin Vanschoren
-  - name: MH7
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: "Elias Khalil, Andrea Lodi, Bistra Dilkina, Didier Ch\xE9telat, Maxime\
-      \ Gasse, Antoine Prouvost, Giulia Zarpellon and Laurent Charlin"
-  - name: MH8
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: Krishnaram Kenthapadi, Ben Packer, Mehrnoosh Sameki and Nashlie Sephus
-  - name: MH9
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: Sunipa Dev, Jeff M. Phillips, Archit Rathore, Vivek Srikumar and Bei Wang
+    hosts: Rayid Ghani, Pedro Saleiro and Kit Rodolfa
   authors:
   - name: Rayid Ghani
     description: |+
@@ -463,52 +315,16 @@
         conference.
   rocketchat_channel: tutorial-MH4
   sessions:
-  - name: MH1
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: Jian Tang, Fei Wang and Feixiong Cheng
-  - name: MH2
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: Filip Ilievski, Antoine Bosselut, Simon Razniewski and Mayank Kejriwal
-  - name: MH3
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: Rayid Ghani, Pedro Saleiro and Kit Rodolfa
   - name: MH4
     start_time: 2021-02-03 13:30:00+00:00
     end_time: 2021-02-03 16:45:00+00:00
     zoom_link: 123.com
     hosts: Vincent Conitzer
-  - name: MH5
+  - name: MH4
     start_time: 2021-02-03 13:30:00+00:00
     end_time: 2021-02-03 16:45:00+00:00
     zoom_link: 123.com
-    hosts: Huaxiu Yao, Fei Wang and Zhenhui Jessie Li
-  - name: MH6
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: Iddo Drori and Joaquin Vanschoren
-  - name: MH7
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: "Elias Khalil, Andrea Lodi, Bistra Dilkina, Didier Ch\xE9telat, Maxime\
-      \ Gasse, Antoine Prouvost, Giulia Zarpellon and Laurent Charlin"
-  - name: MH8
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: Krishnaram Kenthapadi, Ben Packer, Mehrnoosh Sameki and Nashlie Sephus
-  - name: MH9
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: Sunipa Dev, Jeff M. Phillips, Archit Rathore, Vivek Srikumar and Bei Wang
+    hosts: Vincent Conitzer
   authors:
   - name: Vincent Conitzer
     description: is the Kimberly J. Jenkins University Professor of New Technologies
@@ -532,52 +348,16 @@
         conference.
   rocketchat_channel: tutorial-MH5
   sessions:
-  - name: MH1
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: Jian Tang, Fei Wang and Feixiong Cheng
-  - name: MH2
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: Filip Ilievski, Antoine Bosselut, Simon Razniewski and Mayank Kejriwal
-  - name: MH3
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: Rayid Ghani, Pedro Saleiro and Kit Rodolfa
-  - name: MH4
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: Vincent Conitzer
   - name: MH5
     start_time: 2021-02-03 13:30:00+00:00
     end_time: 2021-02-03 16:45:00+00:00
     zoom_link: 123.com
     hosts: Huaxiu Yao, Fei Wang and Zhenhui Jessie Li
-  - name: MH6
+  - name: MH5
     start_time: 2021-02-03 13:30:00+00:00
     end_time: 2021-02-03 16:45:00+00:00
     zoom_link: 123.com
-    hosts: Iddo Drori and Joaquin Vanschoren
-  - name: MH7
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: "Elias Khalil, Andrea Lodi, Bistra Dilkina, Didier Ch\xE9telat, Maxime\
-      \ Gasse, Antoine Prouvost, Giulia Zarpellon and Laurent Charlin"
-  - name: MH8
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: Krishnaram Kenthapadi, Ben Packer, Mehrnoosh Sameki and Nashlie Sephus
-  - name: MH9
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: Sunipa Dev, Jeff M. Phillips, Archit Rathore, Vivek Srikumar and Bei Wang
+    hosts: Huaxiu Yao, Fei Wang and Zhenhui Jessie Li
   authors:
   - name: Huaxiu Yao
     description: |+
@@ -617,52 +397,16 @@
         conference.
   rocketchat_channel: tutorial-MH6
   sessions:
-  - name: MH1
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: Jian Tang, Fei Wang and Feixiong Cheng
-  - name: MH2
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: Filip Ilievski, Antoine Bosselut, Simon Razniewski and Mayank Kejriwal
-  - name: MH3
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: Rayid Ghani, Pedro Saleiro and Kit Rodolfa
-  - name: MH4
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: Vincent Conitzer
-  - name: MH5
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: Huaxiu Yao, Fei Wang and Zhenhui Jessie Li
   - name: MH6
     start_time: 2021-02-03 13:30:00+00:00
     end_time: 2021-02-03 16:45:00+00:00
     zoom_link: 123.com
     hosts: Iddo Drori and Joaquin Vanschoren
-  - name: MH7
+  - name: MH6
     start_time: 2021-02-03 13:30:00+00:00
     end_time: 2021-02-03 16:45:00+00:00
     zoom_link: 123.com
-    hosts: "Elias Khalil, Andrea Lodi, Bistra Dilkina, Didier Ch\xE9telat, Maxime\
-      \ Gasse, Antoine Prouvost, Giulia Zarpellon and Laurent Charlin"
-  - name: MH8
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: Krishnaram Kenthapadi, Ben Packer, Mehrnoosh Sameki and Nashlie Sephus
-  - name: MH9
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: Sunipa Dev, Jeff M. Phillips, Archit Rathore, Vivek Srikumar and Bei Wang
+    hosts: Iddo Drori and Joaquin Vanschoren
   authors:
   - name: Iddo Drori
     description: |+
@@ -677,8 +421,8 @@
   prerecorded: '38940826'
 - UID: MH7
   title: Recent Advances in Integrating Machine Learning and Combinatorial Optimization
-  organizers: "Elias Khalil, Andrea Lodi, Bistra Dilkina, Didier Ch\xE9telat, Maxime\
-                    \ Gasse, Antoine Prouvost, Giulia Zarpellon and Laurent Charlin"
+  organizers: "Elias Khalil, Andrea Lodi, Bistra Dilkina, Didier Ch\xA8\xA6telat,\
+    \ Maxime Gasse, Antoine Prouvost, Giulia Zarpellon and Laurent Charlin"
   abstract: |-
     <p>
     This tutorial will provide an overview of the recent impact machine learning is having on combinatorial optimization, particularly under the Mixed Integer Programming (MIP) framework. Topics covered will include ML and reinforcement learning for predicting feasible solutions, improving exact solvers with ML, a software framework for learning in exact MIP solvers, and the emerging paradigm of decision-focused learning.
@@ -694,52 +438,18 @@
         conference.
   rocketchat_channel: tutorial-MH7
   sessions:
-  - name: MH1
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: Jian Tang, Fei Wang and Feixiong Cheng
-  - name: MH2
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: Filip Ilievski, Antoine Bosselut, Simon Razniewski and Mayank Kejriwal
-  - name: MH3
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: Rayid Ghani, Pedro Saleiro and Kit Rodolfa
-  - name: MH4
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: Vincent Conitzer
-  - name: MH5
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: Huaxiu Yao, Fei Wang and Zhenhui Jessie Li
-  - name: MH6
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: Iddo Drori and Joaquin Vanschoren
   - name: MH7
     start_time: 2021-02-03 13:30:00+00:00
     end_time: 2021-02-03 16:45:00+00:00
     zoom_link: 123.com
     hosts: "Elias Khalil, Andrea Lodi, Bistra Dilkina, Didier Ch\xE9telat, Maxime\
       \ Gasse, Antoine Prouvost, Giulia Zarpellon and Laurent Charlin"
-  - name: MH8
+  - name: MH7
     start_time: 2021-02-03 13:30:00+00:00
     end_time: 2021-02-03 16:45:00+00:00
     zoom_link: 123.com
-    hosts: Krishnaram Kenthapadi, Ben Packer, Mehrnoosh Sameki and Nashlie Sephus
-  - name: MH9
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: Sunipa Dev, Jeff M. Phillips, Archit Rathore, Vivek Srikumar and Bei Wang
+    hosts: "Elias Khalil, Andrea Lodi, Bistra Dilkina, Didier Ch\xE9telat, Maxime\
+      \ Gasse, Antoine Prouvost, Giulia Zarpellon and Laurent Charlin"
   authors:
   - name: Elias B. Khalil
     description: |+
@@ -788,52 +498,16 @@
         conference.
   rocketchat_channel: tutorial-MH8
   sessions:
-  - name: MH1
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: Jian Tang, Fei Wang and Feixiong Cheng
-  - name: MH2
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: Filip Ilievski, Antoine Bosselut, Simon Razniewski and Mayank Kejriwal
-  - name: MH3
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: Rayid Ghani, Pedro Saleiro and Kit Rodolfa
-  - name: MH4
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: Vincent Conitzer
-  - name: MH5
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: Huaxiu Yao, Fei Wang and Zhenhui Jessie Li
-  - name: MH6
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: Iddo Drori and Joaquin Vanschoren
-  - name: MH7
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: "Elias Khalil, Andrea Lodi, Bistra Dilkina, Didier Ch\xE9telat, Maxime\
-      \ Gasse, Antoine Prouvost, Giulia Zarpellon and Laurent Charlin"
   - name: MH8
     start_time: 2021-02-03 13:30:00+00:00
     end_time: 2021-02-03 16:45:00+00:00
     zoom_link: 123.com
     hosts: Krishnaram Kenthapadi, Ben Packer, Mehrnoosh Sameki and Nashlie Sephus
-  - name: MH9
+  - name: MH8
     start_time: 2021-02-03 13:30:00+00:00
     end_time: 2021-02-03 16:45:00+00:00
     zoom_link: 123.com
-    hosts: Sunipa Dev, Jeff M. Phillips, Archit Rathore, Vivek Srikumar and Bei Wang
+    hosts: Krishnaram Kenthapadi, Ben Packer, Mehrnoosh Sameki and Nashlie Sephus
   authors:
   - name: Krishnaram Kenthapadi
     description: |+
@@ -870,47 +544,11 @@
         conference.
   rocketchat_channel: tutorial-MH9
   sessions:
-  - name: MH1
+  - name: MH9
     start_time: 2021-02-03 13:30:00+00:00
     end_time: 2021-02-03 16:45:00+00:00
     zoom_link: 123.com
-    hosts: Jian Tang, Fei Wang and Feixiong Cheng
-  - name: MH2
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: Filip Ilievski, Antoine Bosselut, Simon Razniewski and Mayank Kejriwal
-  - name: MH3
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: Rayid Ghani, Pedro Saleiro and Kit Rodolfa
-  - name: MH4
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: Vincent Conitzer
-  - name: MH5
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: Huaxiu Yao, Fei Wang and Zhenhui Jessie Li
-  - name: MH6
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: Iddo Drori and Joaquin Vanschoren
-  - name: MH7
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: "Elias Khalil, Andrea Lodi, Bistra Dilkina, Didier Ch\xE9telat, Maxime\
-      \ Gasse, Antoine Prouvost, Giulia Zarpellon and Laurent Charlin"
-  - name: MH8
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: Krishnaram Kenthapadi, Ben Packer, Mehrnoosh Sameki and Nashlie Sephus
+    hosts: Sunipa Dev, Jeff M. Phillips, Archit Rathore, Vivek Srikumar and Bei Wang
   - name: MH9
     start_time: 2021-02-03 13:30:00+00:00
     end_time: 2021-02-03 16:45:00+00:00
@@ -961,11 +599,11 @@
     end_time: 2021-02-03 18:30:00+00:00
     zoom_link: 123.com
     hosts: Himabindu Lakkaraju, Julius Adebayo and Sameer Singh
-  - name: AQ2
-    start_time: 2021-02-03 18:45:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
+  - name: AQ1
+    start_time: 2021-02-03 17:00:00+00:00
+    end_time: 2021-02-03 18:30:00+00:00
     zoom_link: 123.com
-    hosts: Wlodek Zadrozny and Shafie Gholizadeh
+    hosts: Himabindu Lakkaraju, Julius Adebayo and Sameer Singh
   authors:
   - name: Hima Lakkaraju
     description: |+
@@ -996,11 +634,11 @@
         conference.
   rocketchat_channel: tutorial-AQ2
   sessions:
-  - name: AQ1
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 18:30:00+00:00
+  - name: AQ2
+    start_time: 2021-02-03 18:45:00+00:00
+    end_time: 2021-02-03 20:00:00+00:00
     zoom_link: 123.com
-    hosts: Himabindu Lakkaraju, Julius Adebayo and Sameer Singh
+    hosts: Wlodek Zadrozny and Shafie Gholizadeh
   - name: AQ2
     start_time: 2021-02-03 18:45:00+00:00
     end_time: 2021-02-03 20:00:00+00:00
@@ -1036,53 +674,11 @@
     end_time: 2021-02-03 20:00:00+00:00
     zoom_link: 123.com
     hosts: Fei Wang
-  - name: AH2
+  - name: AH1
     start_time: 2021-02-03 17:00:00+00:00
     end_time: 2021-02-03 20:00:00+00:00
     zoom_link: 123.com
-    hosts: Muhao Chen, Hongming Zhang, Qiang Ning, Manling Li, Heng Ji and Dan Roth
-  - name: AH3
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Anupam Datta, Matt Fredrikson, Klas Leino, Kaiji Lu, Shayak Sen and Zifan
-      Wang
-  - name: AH4
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Luc De Raedt, Sebastijan Duman_i_, Robin Manhaeve and Giuseppe Marra
-  - name: AH5
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Yao Ma, Wei Jin, Yiqi Wang, Tyler Derr and Jiliang Tang
-  - name: AH6
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Maria-Florina Balcan, Tuomas Sandholm and Ellen Vitercik
-  - name: AH7
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Freddy Lecue, Pasquale Minervini, Fosca Giannotti and Riccardo Guidotti
-  - name: AH8
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Arun Rajkumar
-  - name: AH9
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
-  - name: AH10
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Shoujin Wang, Liang Hu, Yan Wang, Longbing Cao, Michael Sheng and Mehmet
-      Orgun
+    hosts: Fei Wang
   authors:
   - name: Fei Wang
     description: "is an Associate Professor at Department of Population Health Sciences,\
@@ -1118,58 +714,16 @@
         conference.
   rocketchat_channel: tutorial-AH2
   sessions:
-  - name: AH1
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Fei Wang
   - name: AH2
     start_time: 2021-02-03 17:00:00+00:00
     end_time: 2021-02-03 20:00:00+00:00
     zoom_link: 123.com
     hosts: Muhao Chen, Hongming Zhang, Qiang Ning, Manling Li, Heng Ji and Dan Roth
-  - name: AH3
+  - name: AH2
     start_time: 2021-02-03 17:00:00+00:00
     end_time: 2021-02-03 20:00:00+00:00
     zoom_link: 123.com
-    hosts: Anupam Datta, Matt Fredrikson, Klas Leino, Kaiji Lu, Shayak Sen and Zifan
-      Wang
-  - name: AH4
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Luc De Raedt, Sebastijan Duman_i_, Robin Manhaeve and Giuseppe Marra
-  - name: AH5
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Yao Ma, Wei Jin, Yiqi Wang, Tyler Derr and Jiliang Tang
-  - name: AH6
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Maria-Florina Balcan, Tuomas Sandholm and Ellen Vitercik
-  - name: AH7
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Freddy Lecue, Pasquale Minervini, Fosca Giannotti and Riccardo Guidotti
-  - name: AH8
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Arun Rajkumar
-  - name: AH9
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
-  - name: AH10
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Shoujin Wang, Liang Hu, Yan Wang, Longbing Cao, Michael Sheng and Mehmet
-      Orgun
+    hosts: Muhao Chen, Hongming Zhang, Qiang Ning, Manling Li, Heng Ji and Dan Roth
   authors:
   - name: Muhao Chen
     description: |+
@@ -1214,58 +768,18 @@
         conference.
   rocketchat_channel: tutorial-AH3
   sessions:
-  - name: AH1
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Fei Wang
-  - name: AH2
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Muhao Chen, Hongming Zhang, Qiang Ning, Manling Li, Heng Ji and Dan Roth
   - name: AH3
     start_time: 2021-02-03 17:00:00+00:00
     end_time: 2021-02-03 20:00:00+00:00
     zoom_link: 123.com
     hosts: Anupam Datta, Matt Fredrikson, Klas Leino, Kaiji Lu, Shayak Sen and Zifan
       Wang
-  - name: AH4
+  - name: AH3
     start_time: 2021-02-03 17:00:00+00:00
     end_time: 2021-02-03 20:00:00+00:00
     zoom_link: 123.com
-    hosts: Luc De Raedt, Sebastijan Duman_i_, Robin Manhaeve and Giuseppe Marra
-  - name: AH5
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Yao Ma, Wei Jin, Yiqi Wang, Tyler Derr and Jiliang Tang
-  - name: AH6
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Maria-Florina Balcan, Tuomas Sandholm and Ellen Vitercik
-  - name: AH7
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Freddy Lecue, Pasquale Minervini, Fosca Giannotti and Riccardo Guidotti
-  - name: AH8
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Arun Rajkumar
-  - name: AH9
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
-  - name: AH10
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Shoujin Wang, Liang Hu, Yan Wang, Longbing Cao, Michael Sheng and Mehmet
-      Orgun
+    hosts: Anupam Datta, Matt Fredrikson, Klas Leino, Kaiji Lu, Shayak Sen and Zifan
+      Wang
   authors:
   - name: Anupam Datta
     description: |+
@@ -1300,58 +814,16 @@
         conference.
   rocketchat_channel: tutorial-AH4
   sessions:
-  - name: AH1
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Fei Wang
-  - name: AH2
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Muhao Chen, Hongming Zhang, Qiang Ning, Manling Li, Heng Ji and Dan Roth
-  - name: AH3
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Anupam Datta, Matt Fredrikson, Klas Leino, Kaiji Lu, Shayak Sen and Zifan
-      Wang
   - name: AH4
     start_time: 2021-02-03 17:00:00+00:00
     end_time: 2021-02-03 20:00:00+00:00
     zoom_link: 123.com
     hosts: Luc De Raedt, Sebastijan Duman_i_, Robin Manhaeve and Giuseppe Marra
-  - name: AH5
+  - name: AH4
     start_time: 2021-02-03 17:00:00+00:00
     end_time: 2021-02-03 20:00:00+00:00
     zoom_link: 123.com
-    hosts: Yao Ma, Wei Jin, Yiqi Wang, Tyler Derr and Jiliang Tang
-  - name: AH6
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Maria-Florina Balcan, Tuomas Sandholm and Ellen Vitercik
-  - name: AH7
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Freddy Lecue, Pasquale Minervini, Fosca Giannotti and Riccardo Guidotti
-  - name: AH8
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Arun Rajkumar
-  - name: AH9
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
-  - name: AH10
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Shoujin Wang, Liang Hu, Yan Wang, Longbing Cao, Michael Sheng and Mehmet
-      Orgun
+    hosts: Luc De Raedt, Sebastijan Duman_i_, Robin Manhaeve and Giuseppe Marra
   authors:
   - name: Luc De Raedt
     description: |+
@@ -1387,58 +859,16 @@
         conference.
   rocketchat_channel: tutorial-AH5
   sessions:
-  - name: AH1
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Fei Wang
-  - name: AH2
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Muhao Chen, Hongming Zhang, Qiang Ning, Manling Li, Heng Ji and Dan Roth
-  - name: AH3
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Anupam Datta, Matt Fredrikson, Klas Leino, Kaiji Lu, Shayak Sen and Zifan
-      Wang
-  - name: AH4
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Luc De Raedt, Sebastijan Duman_i_, Robin Manhaeve and Giuseppe Marra
   - name: AH5
     start_time: 2021-02-03 17:00:00+00:00
     end_time: 2021-02-03 20:00:00+00:00
     zoom_link: 123.com
     hosts: Yao Ma, Wei Jin, Yiqi Wang, Tyler Derr and Jiliang Tang
-  - name: AH6
+  - name: AH5
     start_time: 2021-02-03 17:00:00+00:00
     end_time: 2021-02-03 20:00:00+00:00
     zoom_link: 123.com
-    hosts: Maria-Florina Balcan, Tuomas Sandholm and Ellen Vitercik
-  - name: AH7
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Freddy Lecue, Pasquale Minervini, Fosca Giannotti and Riccardo Guidotti
-  - name: AH8
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Arun Rajkumar
-  - name: AH9
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
-  - name: AH10
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Shoujin Wang, Liang Hu, Yan Wang, Longbing Cao, Michael Sheng and Mehmet
-      Orgun
+    hosts: Yao Ma, Wei Jin, Yiqi Wang, Tyler Derr and Jiliang Tang
   authors:
   - name: Yao Ma
     description: |+
@@ -1477,58 +907,16 @@
         conference.
   rocketchat_channel: tutorial-AH6
   sessions:
-  - name: AH1
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Fei Wang
-  - name: AH2
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Muhao Chen, Hongming Zhang, Qiang Ning, Manling Li, Heng Ji and Dan Roth
-  - name: AH3
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Anupam Datta, Matt Fredrikson, Klas Leino, Kaiji Lu, Shayak Sen and Zifan
-      Wang
-  - name: AH4
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Luc De Raedt, Sebastijan Duman_i_, Robin Manhaeve and Giuseppe Marra
-  - name: AH5
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Yao Ma, Wei Jin, Yiqi Wang, Tyler Derr and Jiliang Tang
   - name: AH6
     start_time: 2021-02-03 17:00:00+00:00
     end_time: 2021-02-03 20:00:00+00:00
     zoom_link: 123.com
     hosts: Maria-Florina Balcan, Tuomas Sandholm and Ellen Vitercik
-  - name: AH7
+  - name: AH6
     start_time: 2021-02-03 17:00:00+00:00
     end_time: 2021-02-03 20:00:00+00:00
     zoom_link: 123.com
-    hosts: Freddy Lecue, Pasquale Minervini, Fosca Giannotti and Riccardo Guidotti
-  - name: AH8
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Arun Rajkumar
-  - name: AH9
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
-  - name: AH10
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Shoujin Wang, Liang Hu, Yan Wang, Longbing Cao, Michael Sheng and Mehmet
-      Orgun
+    hosts: Maria-Florina Balcan, Tuomas Sandholm and Ellen Vitercik
   authors:
   - name: Maria-Florina Balcan
     description: |+
@@ -1562,58 +950,16 @@
         conference.
   rocketchat_channel: tutorial-AH7
   sessions:
-  - name: AH1
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Fei Wang
-  - name: AH2
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Muhao Chen, Hongming Zhang, Qiang Ning, Manling Li, Heng Ji and Dan Roth
-  - name: AH3
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Anupam Datta, Matt Fredrikson, Klas Leino, Kaiji Lu, Shayak Sen and Zifan
-      Wang
-  - name: AH4
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Luc De Raedt, Sebastijan Duman_i_, Robin Manhaeve and Giuseppe Marra
-  - name: AH5
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Yao Ma, Wei Jin, Yiqi Wang, Tyler Derr and Jiliang Tang
-  - name: AH6
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Maria-Florina Balcan, Tuomas Sandholm and Ellen Vitercik
   - name: AH7
     start_time: 2021-02-03 17:00:00+00:00
     end_time: 2021-02-03 20:00:00+00:00
     zoom_link: 123.com
     hosts: Freddy Lecue, Pasquale Minervini, Fosca Giannotti and Riccardo Guidotti
-  - name: AH8
+  - name: AH7
     start_time: 2021-02-03 17:00:00+00:00
     end_time: 2021-02-03 20:00:00+00:00
     zoom_link: 123.com
-    hosts: Arun Rajkumar
-  - name: AH9
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
-  - name: AH10
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Shoujin Wang, Liang Hu, Yan Wang, Longbing Cao, Michael Sheng and Mehmet
-      Orgun
+    hosts: Freddy Lecue, Pasquale Minervini, Fosca Giannotti and Riccardo Guidotti
   authors:
   - name: Freddy Lecue
     description: |+
@@ -1656,58 +1002,16 @@
         conference.
   rocketchat_channel: tutorial-AH8
   sessions:
-  - name: AH1
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Fei Wang
-  - name: AH2
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Muhao Chen, Hongming Zhang, Qiang Ning, Manling Li, Heng Ji and Dan Roth
-  - name: AH3
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Anupam Datta, Matt Fredrikson, Klas Leino, Kaiji Lu, Shayak Sen and Zifan
-      Wang
-  - name: AH4
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Luc De Raedt, Sebastijan Duman_i_, Robin Manhaeve and Giuseppe Marra
-  - name: AH5
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Yao Ma, Wei Jin, Yiqi Wang, Tyler Derr and Jiliang Tang
-  - name: AH6
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Maria-Florina Balcan, Tuomas Sandholm and Ellen Vitercik
-  - name: AH7
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Freddy Lecue, Pasquale Minervini, Fosca Giannotti and Riccardo Guidotti
   - name: AH8
     start_time: 2021-02-03 17:00:00+00:00
     end_time: 2021-02-03 20:00:00+00:00
     zoom_link: 123.com
     hosts: Arun Rajkumar
-  - name: AH9
+  - name: AH8
     start_time: 2021-02-03 17:00:00+00:00
     end_time: 2021-02-03 20:00:00+00:00
     zoom_link: 123.com
-    hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
-  - name: AH10
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Shoujin Wang, Liang Hu, Yan Wang, Longbing Cao, Michael Sheng and Mehmet
-      Orgun
+    hosts: Arun Rajkumar
   authors:
   - name: Arun Rajkumar
     description: is currently an assistant professor at the Computer Science and Engineering
@@ -1734,58 +1038,16 @@
         conference.
   rocketchat_channel: tutorial-AH9
   sessions:
-  - name: AH1
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Fei Wang
-  - name: AH2
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Muhao Chen, Hongming Zhang, Qiang Ning, Manling Li, Heng Ji and Dan Roth
-  - name: AH3
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Anupam Datta, Matt Fredrikson, Klas Leino, Kaiji Lu, Shayak Sen and Zifan
-      Wang
-  - name: AH4
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Luc De Raedt, Sebastijan Duman_i_, Robin Manhaeve and Giuseppe Marra
-  - name: AH5
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Yao Ma, Wei Jin, Yiqi Wang, Tyler Derr and Jiliang Tang
-  - name: AH6
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Maria-Florina Balcan, Tuomas Sandholm and Ellen Vitercik
-  - name: AH7
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Freddy Lecue, Pasquale Minervini, Fosca Giannotti and Riccardo Guidotti
-  - name: AH8
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Arun Rajkumar
   - name: AH9
     start_time: 2021-02-03 17:00:00+00:00
     end_time: 2021-02-03 20:00:00+00:00
     zoom_link: 123.com
     hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
-  - name: AH10
+  - name: AH9
     start_time: 2021-02-03 17:00:00+00:00
     end_time: 2021-02-03 20:00:00+00:00
     zoom_link: 123.com
-    hosts: Shoujin Wang, Liang Hu, Yan Wang, Longbing Cao, Michael Sheng and Mehmet
-      Orgun
+    hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
   authors:
   - name: Hao Zhang
     description: |+
@@ -1820,52 +1082,12 @@
         conference.
   rocketchat_channel: tutorial-AH10
   sessions:
-  - name: AH1
+  - name: AH10
     start_time: 2021-02-03 17:00:00+00:00
     end_time: 2021-02-03 20:00:00+00:00
     zoom_link: 123.com
-    hosts: Fei Wang
-  - name: AH2
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Muhao Chen, Hongming Zhang, Qiang Ning, Manling Li, Heng Ji and Dan Roth
-  - name: AH3
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Anupam Datta, Matt Fredrikson, Klas Leino, Kaiji Lu, Shayak Sen and Zifan
-      Wang
-  - name: AH4
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Luc De Raedt, Sebastijan Duman_i_, Robin Manhaeve and Giuseppe Marra
-  - name: AH5
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Yao Ma, Wei Jin, Yiqi Wang, Tyler Derr and Jiliang Tang
-  - name: AH6
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Maria-Florina Balcan, Tuomas Sandholm and Ellen Vitercik
-  - name: AH7
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Freddy Lecue, Pasquale Minervini, Fosca Giannotti and Riccardo Guidotti
-  - name: AH8
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Arun Rajkumar
-  - name: AH9
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+    hosts: Shoujin Wang, Liang Hu, Yan Wang, Longbing Cao, Michael Sheng and Mehmet
+      Orgun
   - name: AH10
     start_time: 2021-02-03 17:00:00+00:00
     end_time: 2021-02-03 20:00:00+00:00

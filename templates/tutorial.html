@@ -23,11 +23,11 @@
     </a>
     {% endif %}
 
-    {% if tutorial.sessions %}
-    <a class="card-link" data-toggle="collapse" role="button" href="#schedule">
-      Schedule
-    </a>
-    {% endif %}
+{#    {% if tutorial.sessions %}#}
+{#    <a class="card-link" data-toggle="collapse" role="button" href="#schedule">#}
+{#      Schedule#}
+{#    </a>#}
+{#    {% endif %}#}
 
     {% if tutorial.website %}
       <a href="{{tutorial.website}}" target="_blank"  class="card-link">
@@ -86,32 +86,32 @@
 {% endif %}
 
 <!-- Schedule -->
-{% if tutorial.sessions %}
-<div id="schedule" class="collapse" aria-labelledby="schedule">
-  <div class="card-body">
-    <table class="table table-bordered table-striped" style="font-size: small;">
-      <thead>
-        <tr>
-          <th scope="col" style="width: 30%;">Time</th>
-          <th scope="col" style="width: 40%;">Event</th>
-          <th scope="col">Hosts</th>
-        </tr>
-      </thead>
-      <tbody>
-        {% for event in tutorial.sessions %}
-        <tr>
-            <td>
-              {{event.day}}, <span class="session_times">{{event.time_string}}</span>
-            </td>
-          <td scope="row">{{event.session_name}}</td>
-          <td style="white-space: pre-wrap;">{{event.hosts}}</td>
-        </tr>
-        {% endfor %}
-      </tbody>
-    </table>
-  </div>
-</div>
-{% endif %}
+{#{% if tutorial.sessions %}#}
+{#<div id="schedule" class="collapse" aria-labelledby="schedule">#}
+{#  <div class="card-body">#}
+{#    <table class="table table-bordered table-striped" style="font-size: small;">#}
+{#      <thead>#}
+{#        <tr>#}
+{#          <th scope="col" style="width: 30%;">Time</th>#}
+{#          <th scope="col" style="width: 40%;">Event</th>#}
+{#          <th scope="col">Hosts</th>#}
+{#        </tr>#}
+{#      </thead>#}
+{#      <tbody>#}
+{#        {% for event in tutorial.sessions %}#}
+{#        <tr>#}
+{#            <td>#}
+{#              {{event.day}}, <span class="session_times">{{event.time_string}}</span>#}
+{#            </td>#}
+{#          <td scope="row">{{event.session_name}}</td>#}
+{#          <td style="white-space: pre-wrap;">{{event.hosts}}</td>#}
+{#        </tr>#}
+{#        {% endfor %}#}
+{#      </tbody>#}
+{#    </table>#}
+{#  </div>#}
+{#</div>#}
+{#{% endif %}#}
 <script src="static/js/time-extend.js"></script>
 
 <div class="container" style="background-color:white; padding: 0px;">
