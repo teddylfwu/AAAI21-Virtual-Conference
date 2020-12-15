@@ -44,6 +44,25 @@ def home():
     data = _data()
     return render_template("index.html", **data)
 
+@app.route("/iaai.html")
+def iaai():
+    data = _data()
+    return render_template("iaai.html", **data)
+
+@app.route("/eaai.html")
+def eaai():
+    data = _data()
+    return render_template("eaai.html", **data)
+
+@app.route("/student_programs.html")
+def student_programs():
+    data = _data()
+    return render_template("student_programs.html", **data)
+
+@app.route("/diversity_programs.html")
+def diversity_programs():
+    data = _data()
+    return render_template("diversity_programs.html", **data)
 
 @app.route("/about.html")
 def about():

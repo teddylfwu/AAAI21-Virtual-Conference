@@ -20,7 +20,8 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
     <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      src="https://cdn.jsd
+      elivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
       integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
       crossorigin="anonymous"
     ></script>
@@ -82,18 +83,23 @@
     {% block header %}
     {% set navigation_bar = [
     ('index.html', 'Home'),
-    ('schedule.html', 'Schedule'),
     ('plenary_sessions.html', 'Plenary'),
-    ('papers.html', 'Papers'),
-    ('tutorials.html', 'Tutorials'),
+    ('papers.html', 'Technical'),
+    ('iaai.html', 'IAAI'),
+    ('eaai.html', 'EAAI'),
+    ('student_programs.html', 'Student Programs'),
     ('workshops.html', 'Workshops'),
-    ('socials.html', 'Socials'),
+    ('tutorials.html', 'Tutorials'),
+    ('diversity_programs.html', 'Diversity Programs'),
     ('sponsors.html', 'Sponsors'),
-    ('http://' + config.chat_server, 'Chat'),
     (config.gather_town , 'Gather'),
-    ('https://2020.emnlp.org/organizers', 'Organizers'),
-    ('about.html', 'Help'),
     ] -%}
+
+<!--    ('schedule.html', 'Schedule'),-->
+<!--    ('socials.html', 'Socials'),-->
+<!--    ('http://' + config.chat_server, 'Chat'),-->
+<!--    ('https://2020.emnlp.org/organizers', 'Organizers'),-->
+<!--    ('about.html', 'Help'),-->
 
     <!-- Add back ('livestream.html', 'Livestream'),
     for a new conference
@@ -133,7 +139,7 @@
             {% for href, id in navigation_bar %}
               {% if id == "Chat" %}
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" 
+                  <a class="nav-link dropdown-toggle"
                       href="{{href}}" target="_blank" id="chatNavbarDropdown" role="button"
                       data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
                     Chat
@@ -143,6 +149,79 @@
                       Active Chats
                     </a>
                   </div>
+                </li>
+              {% elif id == "Plenary" %}
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle"
+                      id="plenaryNavbarDropdown" role="button"
+                      data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Plenary
+                  </a>
+
+                  <div class="dropdown-menu" aria-labelledby="plenaryNavbarDropdown">
+                   <a class="dropdown-item" href="{{href}}">
+                      Plenary Session
+                    </a>
+                    <a class="dropdown-item" href="index.html">
+                      Invited Talks
+                    </a>
+                    <a class="dropdown-item" href="index.html">
+                      Awards
+                    </a>
+                  </div>
+
+                </li>
+              {% elif id == "Student Programs" %}
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle"
+                      id="SPNavbarDropdown" role="button"
+                      data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Student Programs
+                  </a>
+
+                  <div class="dropdown-menu" aria-labelledby="SPNavbarDropdown">
+                   <a class="dropdown-item" href="{{href}}">
+                      Student Abstracts
+                    </a>
+                    <a class="dropdown-item" href="index.html">
+                      Doctoral Consortium
+                    </a>
+                    <a class="dropdown-item" href="index.html">
+                      Undergraduate Consortium
+                    </a>
+                     <a class="dropdown-item" href="index.html">AI Job Fair
+                    </a>
+                     <a class="dropdown-item" href="index.html">
+                      Gather with a Fellow
+                    </a>
+                  </div>
+                </li>
+              {% elif id == "Gather" %}
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle"
+                      id="gatherNavbarDropdown" role="button"
+                      data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Gather
+                  </a>
+
+                  <div class="dropdown-menu" aria-labelledby="gatherNavbarDropdown">
+                   <a class="dropdown-item" href="{{href}}">
+                      Sponsors/Exhibitors
+                    </a>
+                    <a class="dropdown-item" href="index.html">
+                      AI Job Fair
+                    </a>
+                    <a class="dropdown-item" href="index.html">
+                      Poster Sessions
+                    </a>
+                    <a class="dropdown-item" href="index.html">
+                      Gather with a Fellow
+                    </a>
+                    <a class="dropdown-item" href="index.html">
+                      Reception?
+                    </a>
+                  </div>
+
                 </li>
               {% else %}
                 <li class="nav-item {% if id == active_page %}active{% endif %}">
