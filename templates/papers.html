@@ -50,9 +50,9 @@
   <li class="nav-item">
     <a class="nav-link" href="papers_vis.html">Visualization</a>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="papers_keyword_vis.html">Browse Keywords</a>
-  </li>
+{#  <li class="nav-item">#}
+{#    <a class="nav-link" href="papers_keyword_vis.html">Browse Keywords</a>#}
+{#  </li>#}
   <li class="nav-item">
     <a class="nav-link" href="#" id="tabFavs"><i class="fas fa-star"></i> Favorites</a>
   </li>
@@ -61,7 +61,7 @@
 <div class="card" style="margin-bottom: 2.5em;">
   <div class="card-body">
 
-    <div id="papers_options" class="row" role="toolbar" aria-label="Toolbar with button groups">  
+    <div id="papers_options" class="row" role="toolbar" aria-label="Toolbar with button groups">
       <!-- Search bar -->
         <div class="col-lg-7">
           <div class="input-group flex-fill">
@@ -101,7 +101,7 @@
                 <input type="radio" name="options" value="authors" autocomplete="off" />
                 by author
               </label>
-    
+
               <button class="btn btn btn-outline-secondary typeahead_all_clear" type="button">
                 &times;
               </button>
@@ -122,9 +122,9 @@
 
     <!-- Bottoms-->
     <div class="button-box" style="margin-top: -0.7em;">
-      
+
       <div >
-        <div 
+        <div
             class="btn-group btn-group-toggle program_option mr-3 bottom-bar"
             data-toggle="buttons" >
             <label class="btn btn-sm btn-outline-secondary" data-tippy-content="AI for socical impact track papers" style="width: 4em;">
@@ -163,6 +163,24 @@
               />
               DC
             </label>
+{#            <label class="btn btn-sm btn-outline-secondary" data-tippy-content="Educational Advances in Artificial Intelligence"   style="width: 4em;">#}
+{#              <input#}
+{#                type="radio"#}
+{#                name="program"#}
+{#                value="EAAI"#}
+{#                autocomplete="off"#}
+{#              />#}
+{#              EAAI#}
+{#            </label>#}
+{#            <label class="btn btn-sm btn-outline-secondary" data-tippy-content="Innovative Applications of Artificial Intelligence"  style="width: 4em;">#}
+{#              <input#}
+{#                type="radio"#}
+{#                name="program"#}
+{#                value="IAAI"#}
+{#                autocomplete="off"#}
+{#              />#}
+{#              IAAI#}
+{#            </label>#}
             <label class="btn btn-sm btn-outline-secondary" data-tippy-content="senior member track papers"  style="width: 4em;">
               <input
                 type="radio"
@@ -254,14 +272,14 @@
         </div>
       </div>
 
-      <div>
-        <div class="btn-group btn-group-toggle render_option pl-2 " data-toggle="buttons">
-          <label class="btn btn-sm btn-outline-secondary" data-tippy-content="Show/hide papers whose QA session is finished.">
-            <input type="checkbox" name="hide_qa_ended" display="none" onchange="hideQaEnded(allPapers, this)" />
-            QA not passed
-          </label>
-        </div>
-      </div>
+{#      <div>#}
+{#        <div class="btn-group btn-group-toggle render_option pl-2 " data-toggle="buttons">#}
+{#          <label class="btn btn-sm btn-outline-secondary" data-tippy-content="Show/hide papers whose QA session is finished.">#}
+{#            <input type="checkbox" name="hide_qa_ended" display="none" onchange="hideQaEnded(allPapers, this)" />#}
+{#            QA not passed#}
+{#          </label>#}
+{#        </div>#}
+{#      </div>#}
 
       <div>
         <div class="btn-group pl-2 ">
@@ -330,8 +348,8 @@
 {#        </div>#}
 {#      </div>#}
 {#    </div>#}
-  
-    
+
+
     <!-- Shortcut Guide-->
     <div class="card-text shortcut-guide text-muted" style="font-size: 0.9rem; margin-bottom: -1em;">
       <br/>
@@ -369,7 +387,7 @@
         </div>
 
         <p class="text-muted" id="modalAuthors"></p>
-        
+
         <div style="float: left; margin-top: 0.2em;">
           <h6>
             <span class="badge badge-pill badge-secondary" id="modalPaperType" style="margin-right: 0.5em;"></span>
@@ -437,7 +455,7 @@
     } else {
         track = getUrlParameter("track") || 'All workshops'
     }
-    
+
     updateTabs();
 
     start();
