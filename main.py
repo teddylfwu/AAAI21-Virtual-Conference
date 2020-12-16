@@ -44,25 +44,66 @@ def home():
     data = _data()
     return render_template("index.html", **data)
 
+
+@app.route("/invited_talks.html")
+def invited_talks():
+    data = _data()
+    return render_template("invited_talks.html", **data)
+
+
+@app.route("/awards.html")
+def awards():
+    data = _data()
+    return render_template("awards.html", **data)
+
+
 @app.route("/iaai.html")
 def iaai():
     data = _data()
     return render_template("iaai.html", **data)
+
 
 @app.route("/eaai.html")
 def eaai():
     data = _data()
     return render_template("eaai.html", **data)
 
-@app.route("/student_programs.html")
-def student_programs():
+
+@app.route("/doctoral_consortium.html")
+def doctoral_consortium():
     data = _data()
-    return render_template("student_programs.html", **data)
+    return render_template("doctoral_consortium.html", **data)
+
+
+@app.route("/undergraduate_consortium.html")
+def undergraduate_consortium():
+    data = _data()
+    return render_template("undergraduate_consortium.html", **data)
+
 
 @app.route("/diversity_programs.html")
 def diversity_programs():
     data = _data()
     return render_template("diversity_programs.html", **data)
+
+
+@app.route("/gathers.html")
+def gathers():
+    data = _data()
+    return render_template("gathers.html", **data)
+
+
+@app.route("/ai_job_fail.html")
+def ai_job_fail():
+    data = _data()
+    return render_template("ai_job_fail.html", **data)
+
+
+@app.route("/reception.html")
+def reception():
+    data = _data()
+    return render_template("reception.html", **data)
+
 
 @app.route("/about.html")
 def about():
@@ -153,8 +194,8 @@ def workshops():
 @app.route("/sponsors.html")
 def sponsors():
     data = _data()
-    data["sponsors"] = site_data["sponsors_by_level"]
-    data["sponsor_levels"] = site_data["sponsor_levels"]
+    # data["sponsors"] = site_data["sponsors_by_level"]
+    # data["sponsor_levels"] = site_data["sponsor_levels"]
     return render_template("sponsors.html", **data)
 
 

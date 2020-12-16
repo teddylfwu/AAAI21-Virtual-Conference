@@ -84,15 +84,11 @@
     {% set navigation_bar = [
     ('index.html', 'Home'),
     ('plenary_sessions.html', 'Plenary'),
-    ('papers.html', 'Technical'),
-    ('iaai.html', 'IAAI'),
-    ('eaai.html', 'EAAI'),
-    ('student_programs.html', 'Student Programs'),
-    ('workshops.html', 'Workshops'),
-    ('tutorials.html', 'Tutorials'),
-    ('diversity_programs.html', 'Diversity Programs'),
+    ('papers.html', 'Paper'),
+    ('iaai_eaai.html', 'IAAI/EAAI'),
+    ('events.html','Events'),
+    ('community.html','Community'),
     ('sponsors.html', 'Sponsors'),
-    (config.gather_town , 'Gather'),
     ] -%}
 
 <!--    ('schedule.html', 'Schedule'),-->
@@ -159,70 +155,98 @@
                   </a>
 
                   <div class="dropdown-menu" aria-labelledby="plenaryNavbarDropdown">
-                   <a class="dropdown-item" href="{{href}}">
-                      Plenary Session
-                    </a>
-                    <a class="dropdown-item" href="index.html">
+<!--                   <a class="dropdown-item" href="{{href}}">-->
+<!--                      Plenary Session-->
+<!--                    </a>-->
+                    <a class="dropdown-item" href="invited_talks.html">
                       Invited Talks
                     </a>
-                    <a class="dropdown-item" href="index.html">
+                    <a class="dropdown-item" href="awards.html">
                       Awards
                     </a>
                   </div>
 
                 </li>
-              {% elif id == "Student Programs" %}
+              {% elif id == "IAAI/EAAI" %}
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle"
-                      id="SPNavbarDropdown" role="button"
+                      id="IENavbarDropdown" role="button"
                       data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Student Programs
+                    IAAI/EAAI
                   </a>
 
-                  <div class="dropdown-menu" aria-labelledby="SPNavbarDropdown">
-                   <a class="dropdown-item" href="{{href}}">
-                      Student Abstracts
+                  <div class="dropdown-menu" aria-labelledby="IENavbarDropdown">
+                   <a class="dropdown-item" href="iaai.html">
+                      IAAI
                     </a>
-                    <a class="dropdown-item" href="index.html">
+                    <a class="dropdown-item" href="eaai.html">
+                      EAAI
+                    </a>
+                  </div>
+                </li>
+              {% elif id == "Events" %}
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle"
+                      id="eventsNavbarDropdown" role="button"
+                      data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Events
+                  </a>
+
+                  <div class="dropdown-menu" aria-labelledby="eventsNavbarDropdown">
+                   <a class="dropdown-item" href="workshops.html">
+                      Workshops
+                    </a>
+                    <a class="dropdown-item" href="tutorials.html">
+                      Tutorials
+                    </a>
+                    <a class="dropdown-item" href="doctoral_consortium.html">
                       Doctoral Consortium
                     </a>
-                    <a class="dropdown-item" href="index.html">
+                    <a class="dropdown-item" href="undergraduate_consortium.html">
                       Undergraduate Consortium
                     </a>
-                     <a class="dropdown-item" href="index.html">AI Job Fair
-                    </a>
-                     <a class="dropdown-item" href="index.html">
-                      Gather with a Fellow
-                    </a>
                   </div>
                 </li>
-              {% elif id == "Gather" %}
+              {% elif id == "Community" %}
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle"
-                      id="gatherNavbarDropdown" role="button"
+                      id="communityNavbarDropdown" role="button"
                       data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Gather
+                    Community
                   </a>
 
-                  <div class="dropdown-menu" aria-labelledby="gatherNavbarDropdown">
-                   <a class="dropdown-item" href="{{href}}">
-                      Sponsors/Exhibitors
+                  <div class="dropdown-menu" aria-labelledby="communityNavbarDropdown">
+                   <a class="dropdown-item" href="diversity_programs.html">
+                      Diversity Programs
                     </a>
-                    <a class="dropdown-item" href="index.html">
-                      AI Job Fair
-                    </a>
-                    <a class="dropdown-item" href="index.html">
-                      Poster Sessions
-                    </a>
-                    <a class="dropdown-item" href="index.html">
+                    <a class="dropdown-item" href="gathers.html">
                       Gather with a Fellow
-                    </a>
-                    <a class="dropdown-item" href="index.html">
-                      Reception?
                     </a>
                   </div>
 
                 </li>
+              {% elif id == "Sponsors" %}
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle"
+                      id="sponsorsNavbarDropdown" role="button"
+                      data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Sponsors
+                  </a>
+
+                  <div class="dropdown-menu" aria-labelledby="sponsorNavbarDropdown">
+                   <a class="dropdown-item" href="sponsors.html">
+                      Sponsors/Exhibitors
+                    </a>
+                    <a class="dropdown-item" href="ai_job_fail.html">
+                      AI Job Fail
+                    </a>
+                    <a class="dropdown-item" href="reception.html">
+                      Reception
+                    </a>
+                  </div>
+
+                </li>
+
               {% else %}
                 <li class="nav-item {% if id == active_page %}active{% endif %}">
                   {% if href.startswith("http") %}
