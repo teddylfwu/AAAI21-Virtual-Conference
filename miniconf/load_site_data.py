@@ -1055,7 +1055,7 @@ def compute_schedule_blocks(
     # Based on
     # https://stackoverflow.com/questions/54713564/how-to-find-gaps-given-a-number-of-start-and-end-datetime-objects
     if len(events) <= 1:
-        return events
+        return [events]
 
     # sort by start times
     events = sorted(events, key=lambda x: x["start_time"])
