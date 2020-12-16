@@ -28,6 +28,7 @@ body {
 
 .bg-emnlp .nav-link {
   color: #cecece !important;
+  white-space: nowrap;
 }
 
 .bg-emnlp .nav-link:hover,
