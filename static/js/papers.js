@@ -638,15 +638,11 @@ const program_to_badge_class = new Map()
 program_to_badge_class["AISI"] = "primary";
 program_to_badge_class["main"] = "dark";
 program_to_badge_class["demo"] = "primary";
-program_to_badge_class["DC"] = "warning";
-program_to_badge_class["EAAI"] = "secondary";
-program_to_badge_class["IAAI"] = "success";
+program_to_badge_class["DC"] = "success";
 program_to_badge_class["SMT"] = "danger";
 program_to_badge_class["SC"] = "warning";
 program_to_badge_class["SA"] = "info";
-program_to_badge_class["UC"] = "light";
-
-program_to_badge_class["workshop"] = "primary";
+program_to_badge_class["UC"] = "secondary";
 
 const card_program_badge = (paper) => {
     let selected_program = getUrlParameter("program");
