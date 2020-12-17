@@ -105,6 +105,24 @@ def reception():
     return render_template("reception.html", **data)
 
 
+@app.route("/faq.html")
+def faq():
+    data = _data()
+    return render_template("faq.html", **data)
+
+
+@app.route("/committees.html")
+def committees():
+    data = _data()
+    return render_template("committees.html", **data)
+
+
+@app.route("/help_desk.html")
+def help_desk():
+    data = _data()
+    return render_template("help_desk.html", **data)
+
+
 @app.route("/about.html")
 def about():
     data = _data()

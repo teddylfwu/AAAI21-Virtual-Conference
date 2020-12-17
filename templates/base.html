@@ -83,19 +83,19 @@
     {% block header %}
     {% set navigation_bar = [
     ('index.html', 'Home'),
+    ('schedule.html', 'Schedule'),
     ('plenary_sessions.html', 'Plenary'),
     ('papers.html', 'Paper'),
     ('iaai_eaai.html', 'IAAI/EAAI'),
     ('events.html','Events'),
     ('community.html','Community'),
     ('sponsors.html', 'Sponsors'),
+    ('about.html', 'Help'),
     ] -%}
 
-<!--    ('schedule.html', 'Schedule'),-->
 <!--    ('socials.html', 'Socials'),-->
 <!--    ('http://' + config.chat_server, 'Chat'),-->
 <!--    ('https://2020.emnlp.org/organizers', 'Organizers'),-->
-<!--    ('about.html', 'Help'),-->
 
     <!-- Add back ('livestream.html', 'Livestream'),
     for a new conference
@@ -145,27 +145,6 @@
                       Active Chats
                     </a>
                   </div>
-                </li>
-              {% elif id == "Plenary" %}
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle"
-                      id="plenaryNavbarDropdown" role="button"
-                      data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Plenary
-                  </a>
-
-                  <div class="dropdown-menu" aria-labelledby="plenaryNavbarDropdown">
-<!--                   <a class="dropdown-item" href="{{href}}">-->
-<!--                      Plenary Session-->
-<!--                    </a>-->
-                    <a class="dropdown-item" href="invited_talks.html">
-                      Invited Talks
-                    </a>
-                    <a class="dropdown-item" href="awards.html">
-                      Awards
-                    </a>
-                  </div>
-
                 </li>
               {% elif id == "IAAI/EAAI" %}
                 <li class="nav-item dropdown">
@@ -246,7 +225,27 @@
                   </div>
 
                 </li>
+              {% elif id == "Help" %}
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle"
+                      id="helpNavbarDropdown" role="button"
+                      data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Help
+                  </a>
 
+                  <div class="dropdown-menu" aria-labelledby="helpNavbarDropdown">
+                   <a class="dropdown-item" href="faq.html">
+                      FAQ
+                    </a>
+                    <a class="dropdown-item" href="committees.html">
+                      Committees
+                    </a>
+                    <a class="dropdown-item" href="help_desk.html">
+                      Help Desk
+                    </a>
+                  </div>
+
+                </li>
               {% else %}
                 <li class="nav-item {% if id == active_page %}active{% endif %}">
                   {% if href.startswith("http") %}
