@@ -75,7 +75,7 @@
    
     <div class="text-center p-3">
       {% if paper.content.abstract %}
-      <a class="card-link" data-toggle="collapse" role="button" href="#details">
+      <a class="card-link" data-toggle="collapse" role="button" href="#details" aria-expanded="true">
         Abstract
       </a>
       {% endif %}
@@ -118,7 +118,7 @@
      {% elif paper.content.program == "workshop" %}
       <a href="papers.html?program=workshop&track={{paper.content.track}}" class ="badge badge-pill badge-primary">{{ paper.content.track }}</a>
       {% endif %}
-      <span class="badge badge-secondary">{{ paper.content.paper_type|capitalize }} Paper</span>
+      <span class="badge badge-secondary">{{ paper.content.program }} Paper</span>
     </p>
 
     {{ components.live_sessions(
@@ -144,7 +144,8 @@
 
   </div>
 </div>
-<div id="details" class="pp-card m-3 {% if paper.content.program != "findings"%}collapse{% endif %}">
+{#<div id="details" class="pp-card m-3 {% if paper.content.program != "findings"%}collapse{% endif %}">#}
+<div id="details" class="pp-card m-3 show collapse">
   <div class="card-body">
     <div class="card-text">
       <div id="abstractExample">
@@ -191,19 +192,19 @@
   </div>
 </div>
 {% else %}
-<div class="container" style="background-color:white; padding: 0px;">
-  <div class="text-muted text-center">
-    You can open the
-    <a href="https://{{config.chat_server}}/channel/{{paper.rocketchat_channel}}"
-       target="_blank">#{{paper.rocketchat_channel}}</a>
-    channel in a separate window.
-  </div>
-
-  <!-- Chat -->
-    <div id="gitter" class="slp">
-      <iframe frameborder="0" src="https://{{config.chat_server}}/channel/{{paper.rocketchat_channel}}?layout=embedded" height="700px" width="100%" ></iframe>
-    </div>
-</div>
+{#<div class="container" style="background-color:white; padding: 0px;">#}
+{#  <div class="text-muted text-center">#}
+{#    You can open the#}
+{#    <a href="https://{{config.chat_server}}/channel/{{paper.rocketchat_channel}}"#}
+{#       target="_blank">#{{paper.rocketchat_channel}}</a>#}
+{#    channel in a separate window.#}
+{#  </div>#}
+{##}
+{#  <!-- Chat -->#}
+{#    <div id="gitter" class="slp">#}
+{#      <iframe frameborder="0" src="https://{{config.chat_server}}/channel/{{paper.rocketchat_channel}}?layout=embedded" height="700px" width="100%" ></iframe>#}
+{#    </div>#}
+{#</div>#}
 {% endif %}
 {% endif %}
 

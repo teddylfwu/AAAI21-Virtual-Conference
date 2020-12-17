@@ -51,9 +51,16 @@ def load_site_data(
         # tutorials.html
         "tutorials",
         # papers.html
-        "main_papers",
-        "demo_papers",
-        "findings_papers",
+        "AI for Social Impact Track_papers",
+        "Demos_papers",
+        "Doctoral Consortium_papers",
+        "EAAI_papers",
+        "IAAI_papers",
+        "Main Track_papers",
+        "Senior Member Track_papers",
+        "Sister Conference_papers",
+        "Student Abstracts_papers",
+        "Undergraduate Consortium_papers",
         "paper_recs",
         "papers_projection",
         "paper_sessions",
@@ -124,18 +131,30 @@ def load_site_data(
     site_data["plenary_session_days"][0][-1] = "active"
 
     # Papers' progam to their data
-    for p in site_data["main_papers"]:
-        p["program"] = "main"
-
-    for p in site_data["demo_papers"]:
+    for p in site_data["AI for Social Impact Track_papers"]:
+        p["program"] = "AISI"
+    for p in site_data["Demos_papers"]:
         p["program"] = "demo"
+    for p in site_data["Doctoral Consortium_papers"]:
+        p["program"] = "DC"
+    # for p in site_data["EAAI_papers"]:
+    #     p["program"] = "EAAI"
+    # for p in site_data["IAAI_papers"]:
+    #     p["program"] = "IAAI"
+    for p in site_data["Main Track_papers"]:
+        p["program"] = "main"
+    for p in site_data["Senior Member Track_papers"]:
+        p["program"] = "SMT"
+    for p in site_data["Sister Conference_papers"]:
+        p["program"] = "SC"
+    for p in site_data["Student Abstracts_papers"]:
+        p["program"] = "SA"
+    for p in site_data["Undergraduate Consortium_papers"]:
+        p["program"] = "UC"
 
-    for p in site_data["findings_papers"]:
-        p["program"] = "findings"
-        p["paper_type"] = "Findings"
-        p["track"] = "Findings of EMNLP"
-
-    site_data["programs"] = ["main", "demo", "findings", "workshop"]
+    site_data["programs"] = ["AI for Social Impact Track", "Demos", "Doctoral Consortium",
+                             "EAAI", "IAAI","Main Track","Senior Member Track","Sister Conference",
+                             "Student Abstracts","Undergraduate Consortium"]
 
     # tutorials.html
     tutorial_MQ = []
@@ -181,15 +200,23 @@ def load_site_data(
 
     # papers.{html,json}
     papers = build_papers(
-        raw_papers=site_data["main_papers"]
-        + site_data["demo_papers"]
-        + site_data["findings_papers"],
+        raw_papers=site_data["AI for Social Impact Track_papers"]+
+            site_data["Demos_papers"]+
+            site_data["Doctoral Consortium_papers"]+
+            # site_data["EAAI_papers"]+
+            # site_data["IAAI_papers"]+
+            site_data["Main Track_papers"]+
+            site_data["Senior Member Track_papers"]+
+            site_data["Sister Conference_papers"]+
+            site_data["Student Abstracts_papers"]+
+            site_data["Undergraduate Consortium_papers"],
         paper_sessions=site_data["paper_sessions"],
         paper_recs=site_data["paper_recs"],
         paper_images_path=site_data["config"]["paper_images_path"],
     )
-    for wsh in site_data["workshops"]:
-        papers.extend(wsh.papers)
+    # remove workshop paper in papers.html
+    # for wsh in site_data["workshops"]:
+    #     papers.extend(wsh.papers)
     site_data["papers"] = papers
 
     site_data["tracks"] = list(
@@ -212,7 +239,6 @@ def load_site_data(
         assert paper.id not in papers_by_uid, paper.id
         papers_by_uid[paper.id] = paper
     by_uid["papers"] = papers_by_uid
-
     # serve_papers_projection.json
     all_paper_ids_with_projection = {
         item["id"] for item in site_data["papers_projection"]
@@ -1016,6 +1042,7 @@ def build_sponsors(site_data, by_uid, display_time_format) -> None:
 
         grouped_publications: Dict[str, List[Any]] = defaultdict(list)
         for paper_id in publications:
+            if paper_id not in by_uid["papers"]: continue
             paper = by_uid["papers"][paper_id]
             grouped_publications[paper.content.paper_type].append(paper)
 
