@@ -491,7 +491,7 @@ const start = (reset_track) => {
     reset_track = reset_track || false;
     
     const urlFilter = getUrlParameter("filter") || 'titles';
-    const program = getUrlParameter("program") || 'main'
+    const program = getUrlParameter("program") || 'AISI'
     let default_track = program == "workshop"? "All workshops" : "All tracks";
     
     let track = getUrlParameter("track") || default_track;
@@ -635,10 +635,15 @@ const card_fav_btn_html = (is_fav) => {
 }
 
 const program_to_badge_class = new Map()
-program_to_badge_class["main"] = "danger";
+program_to_badge_class["AISI"] = "primary";
+program_to_badge_class["main"] = "dark";
 program_to_badge_class["demo"] = "primary";
-program_to_badge_class["findings"] = "warning";
-program_to_badge_class["workshop"] = "info";
+program_to_badge_class["DC"] = "success";
+program_to_badge_class["SMT"] = "danger";
+program_to_badge_class["SC"] = "warning";
+program_to_badge_class["SA"] = "info";
+program_to_badge_class["UC"] = "secondary";
+
 const card_program_badge = (paper) => {
     let selected_program = getUrlParameter("program");
     if (selected_program === "all") 

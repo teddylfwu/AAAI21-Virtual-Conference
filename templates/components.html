@@ -305,9 +305,167 @@
 
 {%- endmacro %}
 
-{% macro tutorialgroup(tutorials) -%}
+{% macro tutorialgroup(tutorials,tutorials_MQ,tutorials_MH,tutorials_AQ,tutorials_AH) -%}
+{#<div id="MQ_tutorials"><br /><br /><br /><br /></div>#}
+<div id="MQ_tutorials"></div>
+<div class="card p-3 shadow p-3 mb-5 bg-light rounded"
+         style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">
+    <div class="m-3 text-muted text-center">
+        <h3>
+            Morning Quarter-day Tutorials
+        </h3>
+    </div>
+{#    <div class="m-3 text-muted text-center"><a href="#" class="text-dark">Back to Top</a></div>#}
+</div>
 <div class="cards row">
-  {% for tutorial in tutorials %}
+  {% for tutorial in tutorials_MQ %}
+  <div class="col-md-6 col-sm-12 p-3">
+    <div class="card p-3 shadow p-3 mb-5 bg-light rounded"
+         style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">
+
+          <div class="m-3 text-muted text-center">
+            <h4>
+              <a href="tutorial_{{tutorial.id}}.html" class="main-title" >
+                {{tutorial.id}}: {{tutorial.title}}
+              </a>
+            </h4>
+          </div>
+
+          <div class="m-3 text-muted text-center">
+            <span class="card-title h3">
+              {{ tutorial.organizers }}
+            </span>
+          </div>
+        <div class="mx-4 text-left card-subtitle">
+
+
+          {% for session in tutorial.blocks %}
+          <div class="m-3 text-center">
+            {{session.session}}
+            <span class="session_times">{{session.time_string}}</span>
+          </div>
+          <div class="text-center text-muted text-monospace">
+            <div class="paper-cal-links">
+              <img src="static/images/calendar.svg" class="paper-detail-calendar" height="24px">
+              <span id="session-cal-link-{{ tutorial.id }}-{{loop.index}}"></span>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+<div id="MH_tutorials"><br /><br /><br /><br /></div>
+<div class="card p-3 shadow p-3 mb-5 bg-light rounded"
+         style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">
+    <div class="m-3 text-muted text-center">
+        <h3>
+            Morning Half-day Tutorials
+        </h3>
+    </div>
+    <div class="m-3 text-muted text-center"><a href="#" class="text-dark">Back to Top</a></div>
+</div>
+<div class="cards row">
+  {% for tutorial in tutorials_MH %}
+  <div class="col-md-6 col-sm-12 p-3">
+    <div class="card p-3 shadow p-3 mb-5 bg-light rounded"
+         style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">
+
+          <div class="m-3 text-muted text-center">
+            <h4>
+              <a href="tutorial_{{tutorial.id}}.html" class="main-title" >
+                {{tutorial.id}}: {{tutorial.title}}
+              </a>
+            </h4>
+          </div>
+
+          <div class="m-3 text-muted text-center">
+            <span class="card-title h3">
+              {{ tutorial.organizers }}
+            </span>
+          </div>
+        <div class="mx-4 text-left card-subtitle">
+
+
+          {% for session in tutorial.blocks %}
+          <div class="m-3 text-center">
+            {{session.session}}
+            <span class="session_times">{{session.time_string}}</span>
+          </div>
+          <div class="text-center text-muted text-monospace">
+            <div class="paper-cal-links">
+              <img src="static/images/calendar.svg" class="paper-detail-calendar" height="24px">
+              <span id="session-cal-link-{{ tutorial.id }}-{{loop.index}}"></span>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+<div id="AQ_tutorials"><br /><br /><br /><br /></div>
+<div class="card p-3 shadow p-3 mb-5 bg-light rounded"
+         style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">
+    <div class="m-3 text-muted text-center">
+        <h3>
+            Afternoon Quarter-day Tutorials
+        </h3>
+    </div>
+    <div class="m-3 text-muted text-center"><a href="#" class="text-dark">Back to Top</a></div>
+</div>
+<div class="cards row">
+  {% for tutorial in tutorials_AQ %}
+  <div class="col-md-6 col-sm-12 p-3">
+    <div class="card p-3 shadow p-3 mb-5 bg-light rounded"
+         style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">
+
+          <div class="m-3 text-muted text-center">
+            <h4>
+              <a href="tutorial_{{tutorial.id}}.html" class="main-title" >
+                {{tutorial.id}}: {{tutorial.title}}
+              </a>
+            </h4>
+          </div>
+
+          <div class="m-3 text-muted text-center">
+            <span class="card-title h3">
+              {{ tutorial.organizers }}
+            </span>
+          </div>
+        <div class="mx-4 text-left card-subtitle">
+
+
+          {% for session in tutorial.blocks %}
+          <div class="m-3 text-center">
+            {{session.session}}
+            <span class="session_times">{{session.time_string}}</span>
+          </div>
+          <div class="text-center text-muted text-monospace">
+            <div class="paper-cal-links">
+              <img src="static/images/calendar.svg" class="paper-detail-calendar" height="24px">
+              <span id="session-cal-link-{{ tutorial.id }}-{{loop.index}}"></span>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+<div id="AH_tutorials"><br /><br /><br /><br /></div>
+<div class="card p-3 shadow p-3 mb-5 bg-light rounded"
+         style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">
+    <div class="m-3 text-muted text-center">
+        <h3>
+            Afternoon Half-day Tutorials
+        </h3>
+    </div>
+    <div class="m-3 text-muted text-center"><a href="#" class="text-dark">Back to Top</a></div>
+</div>
+<div class="cards row">
+  {% for tutorial in tutorials_AH %}
   <div class="col-md-6 col-sm-12 p-3">
     <div class="card p-3 shadow p-3 mb-5 bg-light rounded"
          style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">
