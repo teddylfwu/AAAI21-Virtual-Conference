@@ -137,10 +137,10 @@ def load_site_data(
         p["program"] = "demo"
     for p in site_data["Doctoral Consortium_papers"]:
         p["program"] = "DC"
-    # for p in site_data["EAAI_papers"]:
-    #     p["program"] = "EAAI"
-    # for p in site_data["IAAI_papers"]:
-    #     p["program"] = "IAAI"
+    for p in site_data["EAAI_papers"]:
+        p["program"] = "EAAI"
+    for p in site_data["IAAI_papers"]:
+        p["program"] = "IAAI"
     for p in site_data["Main Track_papers"]:
         p["program"] = "main"
     for p in site_data["Senior Member Track_papers"]:
@@ -203,8 +203,8 @@ def load_site_data(
         raw_papers=site_data["AI for Social Impact Track_papers"]+
             site_data["Demos_papers"]+
             site_data["Doctoral Consortium_papers"]+
-            # site_data["EAAI_papers"]+
-            # site_data["IAAI_papers"]+
+            site_data["EAAI_papers"]+
+            site_data["IAAI_papers"]+
             site_data["Main Track_papers"]+
             site_data["Senior Member Track_papers"]+
             site_data["Sister Conference_papers"]+
