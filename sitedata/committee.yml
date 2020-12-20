@@ -1,213 +1,213 @@
 committee:
 - aff: University of Southern California, USA
-  image: none
-  name: 'Sven Koenig '
+  image: static/images/committee/1_Sven Koenig.jpg
+  name: Sven Koenig
   role: AAAI Conference Committee Chair
 - aff: Webank and Hong Kong University of Science and Technology, Hong Kong
-  image: none
-  name: 'Qiang Yang '
+  image: static/images/committee/2_Qiang Yang.jpg
+  name: Qiang Yang
   role: AAAI-21 General Chair
 - aff: University of British Columbia, Canada
-  image: none
-  name: 'Kevin Leyton-Brown '
+  image: static/images/committee/3_Kevin Leyton-Brown.jpg
+  name: Kevin Leyton-Brown
   role: AAAI-21 Program Cochairs
 - aff: Indian Institute of Technology Delhi, India
-  image: none
-  name: 'Mausam '
+  image: static/images/committee/4_Mausam.jpg
+  name: Mausam
   role: AAAI-21 Program Cochairs
 - aff: University of Southern California, USA
-  image: none
-  name: 'Yan Liu '
+  image: static/images/committee/5_Yan Liu.jpg
+  name: Yan Liu
   role: AAAI-21 Associate Program Chairs
 - aff: "Universit\xE4t Basel, Switzerland"
-  image: none
-  name: 'Gabrielle Roger '
+  image: static/images/committee/6_Gabrielle Roger.jpg
+  name: Gabrielle Roger
   role: AAAI-21 Associate Program Chairs
 - aff: Shenzhen University, China
-  image: none
-  name: 'Weike Pan '
+  image: static/images/committee/7_Weike Pan.jpg
+  name: Weike Pan
   role: AAAI-21 Associate Conference Chairs for Virtual Operations
 - aff: IBM, USA
-  image: none
-  name: 'Lingfei Wu '
+  image: static/images/committee/8_Lingfei Wu.jpg
+  name: Lingfei Wu
   role: AAAI-21 Associate Conference Chairs for Virtual Operations
 - aff: IBM India Research Labs, India
-  image: none
-  name: 'Dinesh Raghu '
+  image: static/images/committee/9_Dinesh Raghu.jpg
+  name: Dinesh Raghu
   role: AAAI-21 Workflow Chairs
 - aff: Hong Kong University of Science and Technology, Hong Kong
-  image: none
-  name: 'Guangneng Hu '
+  image: static/images/committee/10_Guangneng Hu.jpg
+  name: Guangneng Hu
   role: AAAI-21 Workflow Chairs
 - aff: University of British Columbia, Canada
-  image: none
-  name: 'Hedayat Zarkoob '
+  image: static/images/committee/11_Hedayat Zarkoob.jpg
+  name: Hedayat Zarkoob
   role: AAAI-21 Workflow Chairs
 - aff: Norwegian University of Science and Technology, Norway
-  image: none
-  name: 'Odd Erik Gundersen '
+  image: static/images/committee/12_Odd Erik Gundersen.jpg
+  name: Odd Erik Gundersen
   role: AAAI-21 Reproducibility Chair
 - aff: TU Darmstadt, Germany
-  image: none
-  name: 'Kristian Kersting '
+  image: static/images/committee/13_Kristian Kersting.jpg
+  name: Kristian Kersting
   role: AAAI-21 Focus Area Chairs on Neuro-Symbolic AI
 - aff: Carnegie Mellon University, USA
-  image: none
-  name: 'Zico Kolter '
+  image: static/images/committee/14_Zico Kolter.jpg
+  name: Zico Kolter
   role: AAAI-21 Focus Area Chairs on Neuro-Symbolic AI
 - aff: Chinese Academy of Sciences, China
-  image: none
-  name: 'S. Kevin Zhou '
+  image: static/images/committee/15_S. Kevin Zhou.jpg
+  name: S. Kevin Zhou
   role: AAAI-21 Focus Area Chairs for AI Responses for Covid-19
 - aff: Johns Hopkins University, USA
-  image: none
-  name: 'Le Lu '
+  image: static/images/committee/16_Le Lu.jpg
+  name: Le Lu
   role: AAAI-21 Focus Area Chairs for AI Responses for Covid-19
 - aff: Georgia Tech, USA
-  image: none
-  name: 'B. Aditya Prakash '
+  image: static/images/committee/17_B. Aditya Prakash.jpg
+  name: B. Aditya Prakash
   role: AAAI-21 Focus Area Chairs for AI Responses for Covid-19
 - aff: Massachusetts Institute of Technology, USA
-  image: none
-  name: 'David Karger '
+  image: static/images/committee/18_David Karger.jpg
+  name: David Karger
   role: Focus Area Chairs on AI for Conference Organization and Delivery
 - aff: University of Toronto, Canada
-  image: none
-  name: 'Nisarg Shah '
+  image: static/images/committee/19_Nisarg Shah.jpg
+  name: Nisarg Shah
   role: Focus Area Chairs on AI for Conference Organization and Delivery
 - aff: 'Wadhwani Institute for Artificial Intelligence, India '
-  image: none
-  name: 'P. Anandan '
+  image: static/images/committee/20_P. Anandan.jpg
+  name: P. Anandan
   role: AAAI-21 Special Track on AI for Social Impact Cochairs
 - aff: Carnegie Mellon University, USA
-  image: none
-  name: 'Fei Fang '
+  image: static/images/committee/21_Fei Fang.jpg
+  name: Fei Fang
   role: AAAI-21 Special Track on AI for Social Impact Cochairs
 - aff: Facebook Research, USA
-  image: none
-  name: 'Eric Sodomka '
+  image: static/images/committee/22_Eric Sodomka.jpg
+  name: Eric Sodomka
   role: AAAI-21 Special Track on AI for Social Impact Cochairs
 - aff: TU Delft, Netherlands
-  image: none
-  name: 'Neil Yorke-Smith '
+  image: static/images/committee/23_Neil Yorke-Smith.jpg
+  name: Neil Yorke-Smith
   role: IAAI-21 Conference Cochairs
 - aff: General Electric, USA
-  image: none
-  name: 'Meinolff Sellmann '
+  image: static/images/committee/24_Meinolff Sellmann.jpg
+  name: Meinolff Sellmann
   role: IAAI-21 Conference Cochairs
 - aff: St. Lawrence University, USA
-  image: none
-  name: 'Lisa Torrey '
+  image: static/images/committee/25_Lisa Torrey.jpg
+  name: Lisa Torrey
   role: EAAI-21 Symposium Cochairs
 - aff: Princeton University, USA
-  image: none
-  name: 'Michael Guerzhoy '
+  image: static/images/committee/26_Michael Guerzhoy.jpg
+  name: Michael Guerzhoy
   role: EAAI-21 Symposium Cochairs
 - aff: University of Southern California, USA
-  image: none
-  name: 'Sven Koenig '
+  image: static/images/committee/27_Sven Koenig.jpg
+  name: Sven Koenig
   role: Senior Member Track Cochairs
 - aff: University of Alberta, Canada
-  image: none
-  name: 'Nathan Sturtevant '
+  image: static/images/committee/28_Nathan Sturtevant.jpg
+  name: Nathan Sturtevant
   role: Senior Member Track Cochairs
 - aff: French National Institute for Agricultural Research | INRA, France
-  image: none
-  name: 'Thomas Schiex '
+  image: static/images/committee/29_Thomas Schiex.jpg
+  name: Thomas Schiex
   role: Sister Conference Track Chair
 - aff: University of California, Irvine, USA
-  image: none
-  name: 'Alexander Ihler '
+  image: static/images/committee/30_Alexander Ihler.jpg
+  name: Alexander Ihler
   role: Sister Conference Track Chair
 - aff: IHMC and Tulane University, USA
-  image: none
-  name: 'K. Brent Venable '
+  image: static/images/committee/31_K. Brent Venable.jpg
+  name: K. Brent Venable
   role: Tutorial Forum Cochairs
 - aff: IIT Madras, India
-  image: none
-  name: 'Balaraman Ravindran '
+  image: static/images/committee/32_Balaraman Ravindran.jpg
+  name: Balaraman Ravindran
   role: Tutorial Forum Cochairs
 - aff: University of South Carolina, USA
-  image: none
-  name: 'Biplav Srivastava '
+  image: static/images/committee/33_Biplav Srivastava.jpg
+  name: Biplav Srivastava
   role: Workshop Program Cochairs
 - aff: University of Pennsylvania, USA
-  image: none
-  name: 'Lyle Ungar '
+  image: static/images/committee/34_Lyle Ungar.jpg
+  name: Lyle Ungar
   role: Workshop Program Cochairs
 - aff: IBM, USA
-  image: none
-  name: 'Kartik Talamadupula '
+  image: static/images/committee/35_Kartik Talamadupula.jpg
+  name: Kartik Talamadupula
   role: Demonstration Cochairs
 - aff: University of Maryland Baltimore County, USA
-  image: none
-  name: 'Cynthia Matuszek '
+  image: static/images/committee/36_Cynthia Matuszek.jpg
+  name: Cynthia Matuszek
   role: Demonstration Cochairs
 - aff: Politecnico di Milano | Polimi, Italy
-  image: none
-  name: 'Nicola Gatti '
+  image: static/images/committee/37_Nicola Gatti.jpg
+  name: Nicola Gatti
   role: Student Abstract Cochairs
 - aff: Washington State University, USA
-  image: none
-  name: 'Jana Doppa '
+  image: static/images/committee/38_Jana Doppa.jpg
+  name: Jana Doppa
   role: Student Abstract Cochairs
 - aff: PARC, USA
-  image: none
-  name: 'Shiwali Mohan '
+  image: static/images/committee/39_Shiwali Mohan.jpg
+  name: Shiwali Mohan
   role: Doctoral Consortium Cochairs
 - aff: "Escola Polit\xE9cnica of the Universidade de S\xE3o Paulo, Brazil"
-  image: none
-  name: 'Anna Reali '
+  image: static/images/committee/40_Anna Reali.jpg
+  name: Anna Reali
   role: Doctoral Consortium Cochairs
 - aff: Harvey Mudd College, USA
-  image: none
-  name: 'Jim Boerkoel '
+  image: static/images/committee/41_Jim Boerkoel.jpg
+  name: Jim Boerkoel
   role: Undergraduate Consortium Cochairs
 - aff: Wentworth Institute of Technology, USA
   image: none
-  name: 'Mehmet Ergezer '
+  name: Mehmet Ergezer
   role: Undergraduate Consortium Cochairs
 - aff: Colby College, USA
-  image: none
-  name: 'Eric Aaron '
+  image: static/images/committee/43_Eric Aaron.jpg
+  name: Eric Aaron
   role: Undergraduate Consortium Cochairs
 - aff: University of Minnesota, USA
-  image: none
-  name: 'Maria Gini '
+  image: static/images/committee/44_Maria Gini.jpg
+  name: Maria Gini
   role: Diversity and Inclusion Chairs
 - aff: Temple University, USA
-  image: none
-  name: 'Richard Souvenir '
+  image: static/images/committee/45_Richard Souvenir.jpg
+  name: Richard Souvenir
   role: Diversity and Inclusion Chairs
 - aff: Carnegie Mellon University, USA
-  image: none
-  name: 'Dave Touretzky '
+  image: static/images/committee/46_Dave Touretzky.jpg
+  name: Dave Touretzky
   role: K-12 Student Outreach Cochairs
 - aff: University of Florida, USA
-  image: none
-  name: 'Christina Gardner-McCune '
+  image: static/images/committee/47_Christina Gardner-McCune.jpg
+  name: Christina Gardner-McCune
   role: K-12 Student Outreach Cochairs
 - aff: University of Maryland, USA
-  image: none
-  name: 'John Dickerson '
+  image: static/images/committee/48_John Dickerson.jpg
+  name: John Dickerson
   role: Job Fair Cochairs
 - aff: University of Virginia, USA
-  image: none
-  name: 'Michael Albert '
+  image: static/images/committee/49_Michael Albert.jpg
+  name: Michael Albert
   role: Job Fair Cochairs
 - aff: University of Alberta, Canada
-  image: none
-  name: 'Matthew E. Taylor '
+  image: static/images/committee/50_Matthew E. Taylor.jpg
+  name: Matthew E. Taylor
   role: Job Fair Cochairs
 - aff: Northwestern Polytechnic University, China
-  image: none
-  name: 'Xuelong Li '
+  image: static/images/committee/51_Xuelong Li.jpg
+  name: Xuelong Li
   role: Sponsor Chairs
 - aff: University College Cork, Ireland
-  image: none
-  name: "Barry O\u2019Sullivan "
+  image: "static/images/committee/52_Barry O\u2019Sullivan.jpg"
+  name: "Barry O\u2019Sullivan"
   role: Sponsor Chairs
 - aff: Nanjing University, China
-  image: none
-  name: 'Yang Yu '
+  image: static/images/committee/53_Yang Yu.jpg
+  name: Yang Yu
   role: Sponsor Chairs
