@@ -131,6 +131,12 @@ def about():
     return render_template("about.html", **data)
 
 
+@app.route("/google_login.html")
+def google_login():
+    data = _data()
+    return render_template("google_login.html", **data)
+
+
 @app.route("/papers.html")
 def papers():
     data = _data()
