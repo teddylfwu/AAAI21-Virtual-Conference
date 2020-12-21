@@ -25,6 +25,9 @@
 
                 <h4 class="modal-title text-center" id="myModalLabel">AAAI 2021</h4>
             </div>
+            <div class="hidden" id="err" style="color: red;  margin-left: 17px;    padding-top: 8px;    margin-bottom: -8px;">
+                你输入的帐号或密码不正确，请重新输入。
+            </div>
             <div class="modal-body" id = "model-body">
                 <div class="form-group">
 
@@ -62,16 +65,18 @@
             function(){
                 var email = $("#email").val();
                 var password = $("#password").val();
-                firebase.auth().createUserWithEmailAndPassword(email, password)
+                firebase.auth().signInWithEmailAndPassword(email, password)
                   .then((user) => {
                     // Signed in
                     // ...
                     console.log(666);
+                    window.location.href="/index.html";
                   })
                   .catch((error) => {
                     var errorCode = error.code;
                     var errorMessage = error.message;
                     // ..
+                    $("#err").show();
                   });
 
       });
