@@ -11,6 +11,42 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
 
+<script type="text/javascript">
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyCwK3667exMhj25F2qLdoroTfAsZupBLek",
+        authDomain: "aaai2021.firebaseapp.com",
+        projectId: "aaai2021",
+        storageBucket: "aaai2021.appspot.com",
+        messagingSenderId: "919023164606",
+        appId: "1:919023164606:web:e59d42ed5d45626a7fd2ef"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      </script>
+      {% block firebase_initApp %}
+      <script type="text/javascript">
+      initApp = function() {
+        firebase.auth().onAuthStateChanged(function(user) {
+          if (user) {
+                //
+          } else {
+            // User is signed out.
+                window.location.href = "google_login.html";
+          }
+        }, function(error) {
+          console.log(error);
+        });
+      };
+      $(document).ready(function(){
+          initApp();
+      });
+<!--      window.addEventListener('load', function() {-->
+<!--        initApp()-->
+<!--      });-->
+    </script>
+      {% endblock %}
+
 
     <!-- External Javascript libs  -->
     <script src="https://cdn.jsdelivr.net/npm/d3@5/dist/d3.min.js"></script>
@@ -83,39 +119,6 @@
      <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.7.1/firebase-ui-auth.css" />
     <script src="https://www.gstatic.com/firebasejs/7.4.0/firebase.js"></script>
 
-      <script type="text/javascript">
-      // Your web app's Firebase configuration
-      var firebaseConfig = {
-        apiKey: "AIzaSyCwK3667exMhj25F2qLdoroTfAsZupBLek",
-        authDomain: "aaai2021.firebaseapp.com",
-        projectId: "aaai2021",
-        storageBucket: "aaai2021.appspot.com",
-        messagingSenderId: "919023164606",
-        appId: "1:919023164606:web:e59d42ed5d45626a7fd2ef"
-      };
-      // Initialize Firebase
-      firebase.initializeApp(firebaseConfig);
-      </script>
-      {% block firebase_initApp %}
-      <script type="text/javascript">
-      initApp = function() {
-        firebase.auth().onAuthStateChanged(function(user) {
-          if (user) {
-                //
-          } else {
-            // User is signed out.
-                window.location.href = "google_login.html";
-          }
-        }, function(error) {
-          console.log(error);
-        });
-      };
-
-      window.addEventListener('load', function() {
-        initApp()
-      });
-    </script>
-      {% endblock %}
 
   </head>
 
