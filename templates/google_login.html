@@ -1,5 +1,14 @@
 <!--{% set active_page = "Google login" %}-->
+{% extends "base.html" %}
 
+
+{% block top %}
+
+{% endblock %}
+{% block header %}
+{% endblock %}
+
+{% block content %}
 <html>
 
 
@@ -49,17 +58,22 @@
 </body>
 </html>
 <script>
-      // Your web app's Firebase configuration
-      var firebaseConfig = {
-        apiKey: "AIzaSyCwK3667exMhj25F2qLdoroTfAsZupBLek",
-        authDomain: "aaai2021.firebaseapp.com",
-        projectId: "aaai2021",
-        storageBucket: "aaai2021.appspot.com",
-        messagingSenderId: "919023164606",
-        appId: "1:919023164606:web:e59d42ed5d45626a7fd2ef"
-      };
-      // Initialize Firebase
-      firebase.initializeApp(firebaseConfig);
+
+      // 只在当前会话或标签页中保留身份验证状态
+        firebase.auth().setPersistence(firebase.auth.Auth.Persistence.SESSION)
+          .then(function() {
+            // Existing and future Auth states are now persisted in the current
+            // session only. Closing the window would clear any existing state even
+            // if a user forgets to sign out.
+            // ...
+            // New sign-in will be persisted with session persistence.
+            return firebase.auth().signInWithEmailAndPassword(email, password);
+          })
+          .catch(function(error) {
+            // Handle Errors here.
+            var errorCode = error.code;
+            var errorMessage = error.message;
+          });
 
       $("#login").click(
             function(){
@@ -85,3 +99,9 @@
       });
 
     </script>
+
+
+{% endblock %}
+
+{% block footer %}
+{% endblock %}

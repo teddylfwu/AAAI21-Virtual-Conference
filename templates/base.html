@@ -76,6 +76,40 @@
     <meta name="msapplication-TileColor" content="#2d89ef">
     <meta name="msapplication-config" content="static/favicon/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
+
+
+    <!-- firebase.js Auth -->
+          <script type="text/javascript">
+          // Your web app's Firebase configuration
+          var firebaseConfig = {
+            apiKey: "AIzaSyCwK3667exMhj25F2qLdoroTfAsZupBLek",
+            authDomain: "aaai2021.firebaseapp.com",
+            projectId: "aaai2021",
+            storageBucket: "aaai2021.appspot.com",
+            messagingSenderId: "919023164606",
+            appId: "1:919023164606:web:e59d42ed5d45626a7fd2ef"
+          };
+          // Initialize Firebase
+          firebase.initializeApp(firebaseConfig);
+      initApp = function() {
+        firebase.auth().onAuthStateChanged(function(user) {
+          if (user) {
+                //
+            });
+          } else {
+            // User is signed out.
+                window.location.href = "google_login.html";
+          }
+        }, function(error) {
+          console.log(error);
+        });
+      };
+
+      window.addEventListener('load', function() {
+        initApp()
+      });
+    </script>
+
   </head>
 
   <body>
