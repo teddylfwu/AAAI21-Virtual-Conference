@@ -79,6 +79,10 @@
 
 
     <!-- firebase.js Auth -->
+      <script src="https://www.gstatic.com/firebasejs/ui/4.7.1/firebase-ui-auth.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.7.1/firebase-ui-auth.css" />
+    <script src="https://www.gstatic.com/firebasejs/7.4.0/firebase.js"></script>
+
           <script type="text/javascript">
           // Your web app's Firebase configuration
           var firebaseConfig = {
@@ -95,7 +99,6 @@
         firebase.auth().onAuthStateChanged(function(user) {
           if (user) {
                 //
-            });
           } else {
             // User is signed out.
                 window.location.href = "google_login.html";
