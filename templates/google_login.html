@@ -82,7 +82,14 @@
                 var password = $("#password").val();
                 firebase.auth().signInWithEmailAndPassword(email, password)
                   .then((user) => {
-                    window.location.href="/index.html";
+                        $.post("set_user",{user:user},function(result){
+                            if(result==200){
+                                window.location.href="/index.html";
+                            }else{
+                                //
+                            }
+                          });
+
                   })
                   .catch((error) => {
                     var errorCode = error.code;

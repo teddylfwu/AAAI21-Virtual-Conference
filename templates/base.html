@@ -29,28 +29,28 @@
       // Initialize Firebase
       firebase.initializeApp(firebaseConfig);
       </script>
-      {% block firebase_initApp %}
-      <script type="text/javascript">
-      initApp = function() {
-        firebase.auth().onAuthStateChanged(function(user) {
-          if (user) {
-                //
-          } else {
-            // User is signed out.
-                window.location.href = "google_login.html";
-          }
-        }, function(error) {
-          console.log(error);
-        });
-      };
-      $(document).ready(function(){
-          initApp();
-      });
-<!--      window.addEventListener('load', function() {-->
-<!--        initApp()-->
+<!--      {% block firebase_initApp %}-->
+<!--      <script type="text/javascript">-->
+<!--      initApp = function() {-->
+<!--        firebase.auth().onAuthStateChanged(function(user) {-->
+<!--          if (user) {-->
+<!--                //-->
+<!--          } else {-->
+<!--            // User is signed out.-->
+<!--                window.location.href = "google_login.html";-->
+<!--          }-->
+<!--        }, function(error) {-->
+<!--          console.log(error);-->
+<!--        });-->
+<!--      };-->
+<!--      $(document).ready(function(){-->
+<!--          initApp();-->
 <!--      });-->
-    </script>
-      {% endblock %}
+<!--&lt;!&ndash;      window.addEventListener('load', function() {&ndash;&gt;-->
+<!--&lt;!&ndash;        initApp()&ndash;&gt;-->
+<!--&lt;!&ndash;      });&ndash;&gt;-->
+<!--    </script>-->
+<!--      {% endblock %}-->
 
 
     <!-- External Javascript libs  -->

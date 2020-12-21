@@ -4,7 +4,7 @@ import os
 from typing import Any, Dict
 from urllib.parse import quote_plus
 
-from flask import Flask, jsonify, redirect, render_template, send_from_directory
+from flask import Flask, jsonify, redirect, render_template, send_from_directory,session
 from flask_frozen import Freezer
 from flaskext.markdown import Markdown
 
@@ -24,6 +24,15 @@ markdown = Markdown(app)
 app.jinja_env.filters["quote_plus"] = quote_plus
 
 # MAIN PAGES
+import functools
+def is_login(func):
+    @functools.warps(func)
+    def inner(*args,**kwargs):
+        user = session.get('user')
+        if not user:
+            return redirect('/google_login.html')
+        return func(*args,**kwargs)
+    return inner
 
 
 def _data():
@@ -33,6 +42,9 @@ def _data():
 
 @app.route("/")
 def index():
+    user = session.get('user')
+    if not user:
+        return redirect('/google_login.html')
     return redirect("/index.html")
 
 
@@ -41,6 +53,9 @@ def index():
 
 @app.route("/index.html")
 def home():
+    user = session.get('user')
+    if not user:
+        return redirect('/google_login.html')
     data = _data()
     return render_template("index.html", **data)
 
@@ -343,6 +358,14 @@ def send_static(path):
 def serve(path):
     return jsonify(site_data[path])
 
+
+@app.route("/set_user")
+def set_user(user):
+    try:
+        session['user'] = user
+        return 200
+    except:
+        return 500
 
 # --------------- DRIVER CODE -------------------------->
 # Code to turn it all static
