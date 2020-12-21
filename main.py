@@ -17,6 +17,7 @@ by_uid: Dict[str, Any] = {}
 
 app = Flask(__name__)
 app.config.from_object(__name__)
+app.secret_key = '123456'
 freezer = Freezer(app)
 markdown = Markdown(app)
 
@@ -358,18 +359,13 @@ def serve(path):
     return jsonify(site_data[path])
 
 
-@app.route("/set_user")
+@app.route("/set_user",methods=['POST'])
 def set_user():
-    data = request.get_data()
-    user = data['user']
+    user = request.form.get("user")
     result = {}
-    try:
-        session['user'] = user
-        result['code'] = 200
-        return jsonify(result)
-    except:
-        result['code'] = 500
-        return jsonify(result)
+    session['user'] = user
+    result['code'] = 200
+    return jsonify(result)
 
 # --------------- DRIVER CODE -------------------------->
 # Code to turn it all static
