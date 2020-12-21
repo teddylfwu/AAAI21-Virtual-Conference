@@ -361,11 +361,14 @@ def serve(path):
 
 @app.route("/set_user")
 def set_user(user):
+    result = {}
     try:
         session['user'] = user
-        return 200
+        result['code'] = 200
+        return jsonify(result)
     except:
-        return 500
+        result['code'] = 500
+        return jsonify(result)
 
 # --------------- DRIVER CODE -------------------------->
 # Code to turn it all static
