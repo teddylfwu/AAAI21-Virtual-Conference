@@ -4,10 +4,9 @@ import os
 from typing import Any, Dict
 from urllib.parse import quote_plus
 
-from flask import Flask, jsonify, redirect, render_template, send_from_directory,session
+from flask import Flask, jsonify, redirect, render_template, send_from_directory,session,request
 from flask_frozen import Freezer
 from flaskext.markdown import Markdown
-
 from miniconf.load_site_data import load_site_data
 from miniconf.site_data import Paper, PlenarySession, Tutorial, Workshop
 
@@ -360,7 +359,9 @@ def serve(path):
 
 
 @app.route("/set_user")
-def set_user(user):
+def set_user():
+    data = request.get_data()
+    user = data['user']
     result = {}
     try:
         session['user'] = user
