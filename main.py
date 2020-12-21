@@ -23,18 +23,6 @@ markdown = Markdown(app)
 
 app.jinja_env.filters["quote_plus"] = quote_plus
 
-# MAIN PAGES
-import functools
-def is_login(func):
-    @functools.warps(func)
-    def inner(*args,**kwargs):
-        user = session.get('user')
-        if not user:
-            return redirect('/google_login.html')
-        return func(*args,**kwargs)
-    return inner
-
-
 def _data():
     data = {"config": site_data["config"]}
     return data
@@ -62,84 +50,127 @@ def home():
 
 @app.route("/invited_talks.html")
 def invited_talks():
+    user = session.get('user')
+    if not user:
+        return redirect('/google_login.html')
     data = _data()
     return render_template("invited_talks.html", **data)
 
 
 @app.route("/awards.html")
 def awards():
+    user = session.get('user')
+    if not user:
+        return redirect('/google_login.html')
     data = _data()
     return render_template("awards.html", **data)
 
 
 @app.route("/iaai.html")
 def iaai():
+    user = session.get('user')
+    if not user:
+        return redirect('/google_login.html')
     data = _data()
     return render_template("iaai.html", **data)
 
 
 @app.route("/eaai.html")
 def eaai():
+    user = session.get('user')
+    if not user:
+        return redirect('/google_login.html')
     data = _data()
     return render_template("eaai.html", **data)
 
 
 @app.route("/doctoral_consortium.html")
 def doctoral_consortium():
+    user = session.get('user')
+    if not user:
+        return redirect('/google_login.html')
     data = _data()
     return render_template("doctoral_consortium.html", **data)
 
 
 @app.route("/undergraduate_consortium.html")
 def undergraduate_consortium():
+    user = session.get('user')
+    if not user:
+        return redirect('/google_login.html')
+
     data = _data()
     return render_template("undergraduate_consortium.html", **data)
 
 
 @app.route("/diversity_programs.html")
 def diversity_programs():
+    user = session.get('user')
+    if not user:
+        return redirect('/google_login.html')
     data = _data()
     return render_template("diversity_programs.html", **data)
 
 
 @app.route("/gathers.html")
 def gathers():
+    user = session.get('user')
+    if not user:
+        return redirect('/google_login.html')
     data = _data()
     return render_template("gathers.html", **data)
 
 
 @app.route("/ai_job_fail.html")
 def ai_job_fail():
+    user = session.get('user')
+    if not user:
+        return redirect('/google_login.html')
     data = _data()
     return render_template("ai_job_fail.html", **data)
 
 
 @app.route("/reception.html")
 def reception():
+    user = session.get('user')
+    if not user:
+        return redirect('/google_login.html')
     data = _data()
     return render_template("reception.html", **data)
 
 
 @app.route("/faq.html")
 def faq():
+    user = session.get('user')
+    if not user:
+        return redirect('/google_login.html')
     data = _data()
     return render_template("faq.html", **data)
 
 
 @app.route("/committees.html")
 def committees():
+    user = session.get('user')
+    if not user:
+        return redirect('/google_login.html')
     data = _data()
     return render_template("committees.html", **data)
 
 
 @app.route("/help_desk.html")
 def help_desk():
+    user = session.get('user')
+    if not user:
+        return redirect('/google_login.html')
     data = _data()
     return render_template("help_desk.html", **data)
 
 
 @app.route("/about.html")
 def about():
+    user = session.get('user')
+    if not user:
+        return redirect('/google_login.html')
     data = _data()
     data["FAQ"] = site_data["faq"]
     data["CodeOfConduct"] = site_data["code_of_conduct"]
@@ -154,6 +185,9 @@ def google_login():
 
 @app.route("/papers.html")
 def papers():
+    user = session.get('user')
+    if not user:
+        return redirect('/google_login.html')
     data = _data()
     # The data will be loaded from `papers.json`.
     # See the `papers_json()` method and `static/js/papers.js`.
@@ -164,6 +198,9 @@ def papers():
 
 @app.route("/papers_vis.html")
 def papers_vis():
+    user = session.get('user')
+    if not user:
+        return redirect('/google_login.html')
     data = _data()
     # The data will be loaded from `papers.json`.
     # See the `papers_json()` method and `static/js/papers.js`.
@@ -173,6 +210,9 @@ def papers_vis():
 
 @app.route("/papers_keyword_vis.html")
 def papers_keyword_vis():
+    user = session.get('user')
+    if not user:
+        return redirect('/google_login.html')
     data = _data()
     # The data will be loaded from `papers.json`.
     # See the `papers_json()` method and `static/js/papers.js`.
@@ -182,6 +222,9 @@ def papers_keyword_vis():
 
 @app.route("/schedule.html")
 def schedule():
+    user = session.get('user')
+    if not user:
+        return redirect('/google_login.html')
     data = _data()
     data["calendar"] = site_data["calendar"]
     data["event_types"] = site_data["event_types"]
@@ -190,12 +233,18 @@ def schedule():
 
 @app.route("/livestream.html")
 def livestream():
+    user = session.get('user')
+    if not user:
+        return redirect('/google_login.html')
     data = _data()
     return render_template("livestream.html", **data)
 
 
 @app.route("/plenary_sessions.html")
 def plenary_sessions():
+    user = session.get('user')
+    if not user:
+        return redirect('/google_login.html')
     data = _data()
     data["plenary_sessions"] = site_data["plenary_sessions"]
     data["plenary_session_days"] = site_data["plenary_session_days"]
@@ -204,6 +253,9 @@ def plenary_sessions():
 
 @app.route("/qa_sessions.html")
 def qa_sessions():
+    user = session.get('user')
+    if not user:
+        return redirect('/google_login.html')
     data = _data()
     data["qa_session_days"] = site_data["qa_session_days"]
     data["qa_sessions"] = site_data["qa_sessions_by_day"]
@@ -214,6 +266,9 @@ def qa_sessions():
 
 @app.route("/tutorials.html")
 def tutorials():
+    user = session.get('user')
+    if not user:
+        return redirect('/google_login.html')
     data = _data()
     data["tutorials"] = site_data["tutorials"]
     data["tutorials_MQ"] = site_data["tutorials_MQ"]
@@ -225,6 +280,9 @@ def tutorials():
 
 @app.route("/workshops.html")
 def workshops():
+    user = session.get('user')
+    if not user:
+        return redirect('/google_login.html')
     data = _data()
     data["workshops"] = site_data["workshops"]
     return render_template("workshops.html", **data)
@@ -232,6 +290,9 @@ def workshops():
 
 @app.route("/sponsors.html")
 def sponsors():
+    user = session.get('user')
+    if not user:
+        return redirect('/google_login.html')
     data = _data()
     # data["sponsors"] = site_data["sponsors_by_level"]
     # data["sponsor_levels"] = site_data["sponsor_levels"]
@@ -240,6 +301,9 @@ def sponsors():
 
 @app.route("/socials.html")
 def socials():
+    user = session.get('user')
+    if not user:
+        return redirect('/google_login.html')
     data = _data()
     data["socials"] = site_data["socials"]
     return render_template("socials.html", **data)
@@ -247,6 +311,9 @@ def socials():
 
 @app.route("/organizers.html")
 def organizers():
+    user = session.get('user')
+    if not user:
+        return redirect('/google_login.html')
     data = _data()
 
     data["committee"] = site_data["committee"]
@@ -258,6 +325,9 @@ def organizers():
 
 @app.route("/paper_<uid>.html")
 def paper(uid):
+    user = session.get('user')
+    if not user:
+        return redirect('/google_login.html')
     data = _data()
 
     v: Paper = by_uid["papers"][uid]
@@ -273,6 +343,9 @@ def paper(uid):
 
 @app.route("/plenary_session_<uid>.html")
 def plenary_session(uid):
+    user = session.get('user')
+    if not user:
+        return redirect('/google_login.html')
     data = _data()
     data["plenary_session"] = by_uid["plenary_sessions"][uid]
     return render_template("plenary_session.html", **data)
@@ -280,6 +353,9 @@ def plenary_session(uid):
 
 @app.route("/tutorial_<uid>.html")
 def tutorial(uid):
+    user = session.get('user')
+    if not user:
+        return redirect('/google_login.html')
     data = _data()
     data["tutorial"] = by_uid["tutorials"][uid]
     return render_template("tutorial.html", **data)
@@ -287,6 +363,9 @@ def tutorial(uid):
 
 @app.route("/workshop_<uid>.html")
 def workshop(uid):
+    user = session.get('user')
+    if not user:
+        return redirect('/google_login.html')
     data = _data()
     data["workshop"] = by_uid["workshops"][uid]
     return render_template("workshop.html", **data)
@@ -294,6 +373,9 @@ def workshop(uid):
 
 @app.route("/sponsor_<uid>.html")
 def sponsor(uid):
+    user = session.get('user')
+    if not user:
+        return redirect('/google_login.html')
     data = _data()
     data["sponsor"] = by_uid["sponsors"][uid]
     data["papers"] = by_uid["papers"]
@@ -302,6 +384,9 @@ def sponsor(uid):
 
 @app.route("/chat.html")
 def chat():
+    user = session.get('user')
+    if not user:
+        return redirect('/google_login.html')
     data = _data()
     return render_template("chat.html", **data)
 
@@ -311,6 +396,7 @@ def chat():
 
 @app.route("/papers.json")
 def papers_json():
+
     all_papers = site_data["papers"]
 
     return jsonify(all_papers)
@@ -363,8 +449,11 @@ def serve(path):
 def set_user():
     user = request.form.get("user")
     result = {}
-    session['user'] = user
-    result['code'] = 200
+    try:
+        session['user'] = user
+        result['code'] = 200
+    except:
+        result['code'] = 500
     return jsonify(result)
 
 # --------------- DRIVER CODE -------------------------->
