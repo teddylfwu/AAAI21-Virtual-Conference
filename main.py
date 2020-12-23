@@ -84,6 +84,7 @@ def undergraduate_consortium():
 @app.route("/diversity_programs.html")
 def diversity_programs():
     data = _data()
+    data["diversity_programs"] = site_data["socials"]
     return render_template("diversity_programs.html", **data)
 
 
@@ -223,6 +224,11 @@ def socials():
     data["socials"] = site_data["socials"]
     return render_template("socials.html", **data)
 
+# @app.route("/diversity_programs.html")
+# def diversity_programs():
+#     data = _data()
+    
+#     return render_template("diversity_programs.html, **data")
 
 @app.route("/organizers.html")
 def organizers():
