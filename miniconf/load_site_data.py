@@ -245,8 +245,8 @@ def load_site_data(
     }
     for paper_id in set(by_uid["papers"].keys()) - all_paper_ids_with_projection:
         paper = by_uid["papers"][paper_id]
-        if paper.content.program == "main":
-            print(f"WARNING: {paper_id} does not have a projection")
+        # if paper.content.program == "main":
+        #     print(f"WARNING: {paper_id} does not have a projection")
 
     # about.html
     site_data["faq"] = site_data["faq"]["FAQ"]
@@ -750,20 +750,20 @@ def build_papers(
     ]
 
     # throw warnings for missing information
-    for paper in papers:
-        if not paper.presentation_id and paper.content.program not in [
-            "demo",
-            "findings",
-        ]:
-            print(f"WARNING: presentation_id not set for {paper.id}")
-        if not paper.content.track:
-            print(f"WARNING: track not set for {paper.id}")
-        if paper.presentation_id and len(paper.content.sessions) != 1:
-            print(
-                f"WARNING: found {len(paper.content.sessions)} sessions for {paper.id}"
-            )
-        if not paper.content.similar_paper_uids:
-            print(f"WARNING: empty similar_paper_uids for {paper.id}")
+    # for paper in papers:
+    #     if not paper.presentation_id and paper.content.program not in [
+    #         "demo",
+    #         "findings",
+    #     ]:
+    #         print(f"WARNING: presentation_id not set for {paper.id}")
+    #     if not paper.content.track:
+    #         print(f"WARNING: track not set for {paper.id}")
+    #     if paper.presentation_id and len(paper.content.sessions) != 1:
+    #         print(
+    #             f"WARNING: found {len(paper.content.sessions)} sessions for {paper.id}"
+    #         )
+    #     if not paper.content.similar_paper_uids:
+    #         print(f"WARNING: empty similar_paper_uids for {paper.id}")
 
     return papers
 

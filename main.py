@@ -9,7 +9,7 @@ from flask_frozen import Freezer
 from flaskext.markdown import Markdown
 from miniconf.load_site_data import load_site_data
 from miniconf.site_data import Paper, PlenarySession, Tutorial, Workshop
-
+from flask_sqlalchemy import SQLAlchemy
 site_data: Dict[str, Any] = {}
 by_uid: Dict[str, Any] = {}
 
@@ -18,6 +18,21 @@ by_uid: Dict[str, Any] = {}
 app = Flask(__name__)
 app.config.from_object(__name__)
 app.secret_key = '123456'
+app.config['SQLALCHEMY_DATABASE_URI']='mysql+pymysql://aaai2021:aaai2021@34.94.61.102:3306/aaai2021' #这里登陆的是root用户，要填上自己的密码，MySQL的默认端口是3306，填上之前创建的数据库名text1
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS']=True #设置这一项是每次请求结束后都会自动提交数据库中的变动
+db = SQLAlchemy(app) #实例化
+
+class User(db.Model):
+    id = db.Column(db.Integer,primary_key=True,autoincrement=True)
+    email = db.Column(db.String(200),nullable=False, unique=True)
+    password = db.Column(db.String(200), nullable=True)
+    __tablename__ = 'user'
+    def __init__(self, email, password):
+        self.email = email
+        self.password = password
+
+
+
 freezer = Freezer(app)
 markdown = Markdown(app)
 
@@ -30,9 +45,11 @@ def _data():
 
 @app.route("/")
 def index():
+    user1 = User.query.first()
+    print(user1.email,user1.password)
     user = session.get('user')
     if not user:
-        return redirect('/google_login.html')
+        return redirect('/mysql_login.html')
     return redirect("/index.html")
 
 
@@ -43,7 +60,7 @@ def index():
 def home():
     user = session.get('user')
     if not user:
-        return redirect('/google_login.html')
+        return redirect('/mysql_login.html')
     data = _data()
     return render_template("index.html", **data)
 
@@ -52,7 +69,7 @@ def home():
 def invited_talks():
     user = session.get('user')
     if not user:
-        return redirect('/google_login.html')
+        return redirect('/mysql_login.html')
     data = _data()
     return render_template("invited_talks.html", **data)
 
@@ -61,7 +78,7 @@ def invited_talks():
 def awards():
     user = session.get('user')
     if not user:
-        return redirect('/google_login.html')
+        return redirect('/mysql_login.html')
     data = _data()
     return render_template("awards.html", **data)
 
@@ -70,7 +87,7 @@ def awards():
 def iaai():
     user = session.get('user')
     if not user:
-        return redirect('/google_login.html')
+        return redirect('/mysql_login.html')
     data = _data()
     return render_template("iaai.html", **data)
 
@@ -79,7 +96,7 @@ def iaai():
 def eaai():
     user = session.get('user')
     if not user:
-        return redirect('/google_login.html')
+        return redirect('/mysql_login.html')
     data = _data()
     return render_template("eaai.html", **data)
 
@@ -88,7 +105,7 @@ def eaai():
 def doctoral_consortium():
     user = session.get('user')
     if not user:
-        return redirect('/google_login.html')
+        return redirect('/mysql_login.html')
     data = _data()
     return render_template("doctoral_consortium.html", **data)
 
@@ -97,7 +114,7 @@ def doctoral_consortium():
 def undergraduate_consortium():
     user = session.get('user')
     if not user:
-        return redirect('/google_login.html')
+        return redirect('/mysql_login.html')
 
     data = _data()
     return render_template("undergraduate_consortium.html", **data)
@@ -107,7 +124,7 @@ def undergraduate_consortium():
 def diversity_programs():
     user = session.get('user')
     if not user:
-        return redirect('/google_login.html')
+        return redirect('/mysql_login.html')
     data = _data()
     return render_template("diversity_programs.html", **data)
 
@@ -116,7 +133,7 @@ def diversity_programs():
 def gathers():
     user = session.get('user')
     if not user:
-        return redirect('/google_login.html')
+        return redirect('/mysql_login.html')
     data = _data()
     return render_template("gathers.html", **data)
 
@@ -125,7 +142,7 @@ def gathers():
 def ai_job_fail():
     user = session.get('user')
     if not user:
-        return redirect('/google_login.html')
+        return redirect('/mysql_login.html')
     data = _data()
     return render_template("ai_job_fail.html", **data)
 
@@ -134,7 +151,7 @@ def ai_job_fail():
 def reception():
     user = session.get('user')
     if not user:
-        return redirect('/google_login.html')
+        return redirect('/mysql_login.html')
     data = _data()
     return render_template("reception.html", **data)
 
@@ -143,7 +160,7 @@ def reception():
 def faq():
     user = session.get('user')
     if not user:
-        return redirect('/google_login.html')
+        return redirect('/mysql_login.html')
     data = _data()
     return render_template("faq.html", **data)
 
@@ -152,7 +169,7 @@ def faq():
 def committees():
     user = session.get('user')
     if not user:
-        return redirect('/google_login.html')
+        return redirect('/mysql_login.html')
     data = _data()
     return render_template("committees.html", **data)
 
@@ -161,7 +178,7 @@ def committees():
 def help_desk():
     user = session.get('user')
     if not user:
-        return redirect('/google_login.html')
+        return redirect('/mysql_login.html')
     data = _data()
     return render_template("help_desk.html", **data)
 
@@ -170,24 +187,24 @@ def help_desk():
 def about():
     user = session.get('user')
     if not user:
-        return redirect('/google_login.html')
+        return redirect('/mysql_login.html')
     data = _data()
     data["FAQ"] = site_data["faq"]
     data["CodeOfConduct"] = site_data["code_of_conduct"]
     return render_template("about.html", **data)
 
 
-@app.route("/google_login.html")
-def google_login():
+@app.route("/mysql_login.html")
+def mysql_login():
     data = _data()
-    return render_template("google_login.html", **data)
+    return render_template("mysql_login.html", **data)
 
 
 @app.route("/papers.html")
 def papers():
     user = session.get('user')
     if not user:
-        return redirect('/google_login.html')
+        return redirect('/mysql_login.html')
     data = _data()
     # The data will be loaded from `papers.json`.
     # See the `papers_json()` method and `static/js/papers.js`.
@@ -200,7 +217,7 @@ def papers():
 def papers_vis():
     user = session.get('user')
     if not user:
-        return redirect('/google_login.html')
+        return redirect('/mysql_login.html')
     data = _data()
     # The data will be loaded from `papers.json`.
     # See the `papers_json()` method and `static/js/papers.js`.
@@ -212,7 +229,7 @@ def papers_vis():
 def papers_keyword_vis():
     user = session.get('user')
     if not user:
-        return redirect('/google_login.html')
+        return redirect('/mysql_login.html')
     data = _data()
     # The data will be loaded from `papers.json`.
     # See the `papers_json()` method and `static/js/papers.js`.
@@ -224,7 +241,7 @@ def papers_keyword_vis():
 def schedule():
     user = session.get('user')
     if not user:
-        return redirect('/google_login.html')
+        return redirect('/mysql_login.html')
     data = _data()
     data["calendar"] = site_data["calendar"]
     data["event_types"] = site_data["event_types"]
@@ -235,7 +252,7 @@ def schedule():
 def livestream():
     user = session.get('user')
     if not user:
-        return redirect('/google_login.html')
+        return redirect('/mysql_login.html')
     data = _data()
     return render_template("livestream.html", **data)
 
@@ -244,7 +261,7 @@ def livestream():
 def plenary_sessions():
     user = session.get('user')
     if not user:
-        return redirect('/google_login.html')
+        return redirect('/mysql_login.html')
     data = _data()
     data["plenary_sessions"] = site_data["plenary_sessions"]
     data["plenary_session_days"] = site_data["plenary_session_days"]
@@ -255,7 +272,7 @@ def plenary_sessions():
 def qa_sessions():
     user = session.get('user')
     if not user:
-        return redirect('/google_login.html')
+        return redirect('/mysql_login.html')
     data = _data()
     data["qa_session_days"] = site_data["qa_session_days"]
     data["qa_sessions"] = site_data["qa_sessions_by_day"]
@@ -268,7 +285,7 @@ def qa_sessions():
 def tutorials():
     user = session.get('user')
     if not user:
-        return redirect('/google_login.html')
+        return redirect('/mysql_login.html')
     data = _data()
     data["tutorials"] = site_data["tutorials"]
     data["tutorials_MQ"] = site_data["tutorials_MQ"]
@@ -282,7 +299,7 @@ def tutorials():
 def workshops():
     user = session.get('user')
     if not user:
-        return redirect('/google_login.html')
+        return redirect('/mysql_login.html')
     data = _data()
     data["workshops"] = site_data["workshops"]
     return render_template("workshops.html", **data)
@@ -292,7 +309,7 @@ def workshops():
 def sponsors():
     user = session.get('user')
     if not user:
-        return redirect('/google_login.html')
+        return redirect('/mysql_login.html')
     data = _data()
     # data["sponsors"] = site_data["sponsors_by_level"]
     # data["sponsor_levels"] = site_data["sponsor_levels"]
@@ -303,7 +320,7 @@ def sponsors():
 def socials():
     user = session.get('user')
     if not user:
-        return redirect('/google_login.html')
+        return redirect('/mysql_login.html')
     data = _data()
     data["socials"] = site_data["socials"]
     return render_template("socials.html", **data)
@@ -313,7 +330,7 @@ def socials():
 def organizers():
     user = session.get('user')
     if not user:
-        return redirect('/google_login.html')
+        return redirect('/mysql_login.html')
     data = _data()
 
     data["committee"] = site_data["committee"]
@@ -327,7 +344,7 @@ def organizers():
 def paper(uid):
     user = session.get('user')
     if not user:
-        return redirect('/google_login.html')
+        return redirect('/mysql_login.html')
     data = _data()
 
     v: Paper = by_uid["papers"][uid]
@@ -345,7 +362,7 @@ def paper(uid):
 def plenary_session(uid):
     user = session.get('user')
     if not user:
-        return redirect('/google_login.html')
+        return redirect('/mysql_login.html')
     data = _data()
     data["plenary_session"] = by_uid["plenary_sessions"][uid]
     return render_template("plenary_session.html", **data)
@@ -355,7 +372,7 @@ def plenary_session(uid):
 def tutorial(uid):
     user = session.get('user')
     if not user:
-        return redirect('/google_login.html')
+        return redirect('/mysql_login.html')
     data = _data()
     data["tutorial"] = by_uid["tutorials"][uid]
     return render_template("tutorial.html", **data)
@@ -365,7 +382,7 @@ def tutorial(uid):
 def workshop(uid):
     user = session.get('user')
     if not user:
-        return redirect('/google_login.html')
+        return redirect('/mysql_login.html')
     data = _data()
     data["workshop"] = by_uid["workshops"][uid]
     return render_template("workshop.html", **data)
@@ -375,7 +392,7 @@ def workshop(uid):
 def sponsor(uid):
     user = session.get('user')
     if not user:
-        return redirect('/google_login.html')
+        return redirect('/mysql_login.html')
     data = _data()
     data["sponsor"] = by_uid["sponsors"][uid]
     data["papers"] = by_uid["papers"]
@@ -386,7 +403,7 @@ def sponsor(uid):
 def chat():
     user = session.get('user')
     if not user:
-        return redirect('/google_login.html')
+        return redirect('/mysql_login.html')
     data = _data()
     return render_template("chat.html", **data)
 
@@ -455,6 +472,21 @@ def set_user():
     except:
         result['code'] = 500
     return jsonify(result)
+
+@app.route("/login",methods=['POST'])
+def login():
+    email = request.form.get("email")
+    password = request.form.get("password")
+    user = User.query.filter_by(email=email,password=password).first()
+    result = {}
+    if user is None:
+        result['code'] = 500
+    else:
+        session['user'] = user.email
+        result['code'] = 200
+    return jsonify(result)
+
+
 
 # --------------- DRIVER CODE -------------------------->
 # Code to turn it all static

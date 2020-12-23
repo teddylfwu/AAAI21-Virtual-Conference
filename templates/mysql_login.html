@@ -1,0 +1,92 @@
+<!--{% set active_page = "Google login" %}-->
+{% extends "base.html" %}
+
+
+{% block top %}
+
+{% endblock %}
+{% block header %}
+{% endblock %}
+
+{% block content %}
+
+{% block firebase_initApp %}
+{% endblock %}
+
+<html>
+
+
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>love</title>
+    <link href="favicon.ico" rel="shortcut icon" />
+    <link href="https://cdn.bootcss.com/twitter-bootstrap/3.4.0/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+</head>
+<body style=" background: url({{config.background_image}}) no-repeat center center fixed; background-size: 100% 100%;">
+
+
+    <div class="modal-dialog" style="margin-top: 10%;">
+        <div class="modal-content">
+            <div class="modal-header">
+
+                <h4 class="modal-title text-center" id="myModalLabel">AAAI 2021</h4>
+            </div>
+            <div class="hidden" id="err" style="color: red;  margin-left: 17px;    padding-top: 8px;    margin-bottom: -8px;">
+                你输入的帐号或密码不正确，请重新输入。
+            </div>
+            <div class="modal-body" id = "model-body">
+                <div class="form-group">
+
+                    <input type="text" id="email" class="form-control"placeholder="E-mail" autocomplete="off">
+                </div>
+                <div class="form-group">
+
+                    <input type="password" id="password" class="form-control" placeholder="password" autocomplete="off">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="form-group">
+                    <button type="button" class="btn btn-primary form-control" id="login">login</button>
+                </div>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal -->
+
+</body>
+</html>
+<script>
+
+      $("#login").click(
+            function(){
+                var email = $("#email").val();
+                var password = $("#password").val();
+                $.post("login",{email:email,password:password},function(result){
+                    if(result['code']==200){
+                        $.post("http://60.247.144.9:3000/api/v1/login",{email:email,password:password},function(result){
+                            if(result['status']=="success"){
+                                window.location.href="/index.html";
+                            }
+                        });
+<!--                        window.location.href="/index.html";-->
+                    }else{
+                        $("#err").removeClass("hidden");
+                        $("#err").addClass("show");
+                        $("#password").val("");
+                        setTimeout(function(){
+                            $("#err").removeClass("show");
+                            $("#err").addClass("hidden");
+                         }, 2000);
+                    }
+                });
+      });
+
+    </script>
+
+
+{% endblock %}
+
+{% block footer %}
+{% endblock %}

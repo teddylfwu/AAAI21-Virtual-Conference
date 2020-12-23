@@ -21,7 +21,7 @@ paper_images_path: https://emnlp2020-public.s3.amazonaws.com/paper_images
 default_presentation_id: 38931484
 
 # Remove or change to your chat server.
-chat_server: emnlp2020.rocket.chat
+chat_server: 60.247.144.9:3000
 channels_stats_server: https://emnlp2020-channels-stats.azure-api.net
 
 gather_town: https://www.virtualchair.net/events/emnlp2020

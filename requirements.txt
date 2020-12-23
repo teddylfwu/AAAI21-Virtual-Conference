@@ -6,3 +6,5 @@ PyYAML
 icalendar
 pytz
 jsons
+flask_sqlalchemy
+pymysql
