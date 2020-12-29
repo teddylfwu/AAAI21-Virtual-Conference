@@ -12,9 +12,9 @@
 <meta name="citation_conference_title" content="{{config.tagline|striptags|title}}" />
 <meta name="citation_inbook_title" content="{{config.proceedings_title}}" />
 <meta name="citation_abstract" content="{{paper.content.abstract}}" />
-{% for keyword in paper.content.keywords %}
-<meta name="citation_keywords" content="{{keyword}}" />
-{% endfor %}
+{#{% for keyword in paper.content.keywords %}#}
+{#<meta name="citation_keywords" content="{{keyword}}" />#}
+{#{% endfor %}#}
 <meta name="citation_pdf_url" content="{{paper.content.pdf_url | default("")}}" />
 
 <script src="static/js/persistor.js"></script>
@@ -113,11 +113,11 @@
     </div>
     <p class="card-text text-center h5">
 
-      {% if paper.content.program == "main" %}
-     <a href="papers.html?program=main&track={{paper.content.track}}" class ="badge badge-pill badge-primary">{{ paper.content.track }}</a>
-     {% elif paper.content.program == "workshop" %}
-      <a href="papers.html?program=workshop&track={{paper.content.track}}" class ="badge badge-pill badge-primary">{{ paper.content.track }}</a>
-      {% endif %}
+{#      {% if paper.content.program == "main" %}#}
+{#     <a href="papers.html?program=main&track={{paper.content.track}}" class ="badge badge-pill badge-primary">{{ paper.content.track }}</a>#}
+{#     {% elif paper.content.program == "workshop" %}#}
+{#      <a href="papers.html?program=workshop&track={{paper.content.track}}" class ="badge badge-pill badge-primary">{{ paper.content.track }}</a>#}
+{#      {% endif %}#}
       <span class="badge badge-secondary">{{ paper.content.program }} Paper</span>
     </p>
 
@@ -223,14 +223,14 @@
 </script>
 {% endif %}
 
-{% if config.connected_papers_conference_name and paper.content.program == "main" %}
-<div class="container">
-  {{ components.section("Connected Papers in EMNLP2020") }}
-  <iframe width="100%" height="600px" loading="lazy" style="border:none;"
-            src="https://www.connectedpapers.com/conferece-redirect/conference/{{ config.connected_papers_conference_name }}/{{ paper.id }}/graph">
-  </iframe>
-</div>
-{% endif %}
+{#{% if config.connected_papers_conference_name and paper.content.program == "main" %}#}
+{#<div class="container">#}
+{#  {{ components.section("Connected Papers in EMNLP2020") }}#}
+{#  <iframe width="100%" height="600px" loading="lazy" style="border:none;"#}
+{#            src="https://www.connectedpapers.com/conferece-redirect/conference/{{ config.connected_papers_conference_name }}/{{ paper.id }}/graph">#}
+{#  </iframe>#}
+{#</div>#}
+{#{% endif %}#}
 
 {% if paper_recs %}
 {{ components.section("Similar Papers") }}
@@ -248,9 +248,9 @@
              {{a}},
              {% endfor %}
           </h6>
-          <center>
-              <img class="cards_img" src="{{recommended.card_image_path}}" onerror="javascript:this.onerror=null;this.src=''" width="80%"/>
-          </center>
+{#          <center>#}
+{#              <img class="cards_img" src="{{recommended.card_image_path}}" onerror="javascript:this.onerror=null;this.src=''" width="80%"/>#}
+{#          </center>#}
         </div>
       </div>
     </div>
