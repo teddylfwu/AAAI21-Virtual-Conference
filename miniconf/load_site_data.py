@@ -134,7 +134,7 @@ def load_site_data(
     for p in site_data["AI for Social Impact Track_papers"]:
         p["program"] = "AISI"
     for p in site_data["Demos_papers"]:
-        p["program"] = "demo"
+        p["program"] = "Demo"
     for p in site_data["Doctoral Consortium_papers"]:
         p["program"] = "DC"
     for p in site_data["EAAI_papers"]:
@@ -142,7 +142,7 @@ def load_site_data(
     for p in site_data["IAAI_papers"]:
         p["program"] = "IAAI"
     for p in site_data["Main Track_papers"]:
-        p["program"] = "main"
+        p["program"] = "Main"
     for p in site_data["Senior Member Track_papers"]:
         p["program"] = "SMT"
     for p in site_data["Sister Conference_papers"]:
@@ -711,16 +711,19 @@ def build_papers(
         end_time = session_info["end_time"]
 
         for paper_id in session_info["papers"]:
-            link = paper_id_to_link[paper_id]
 
-            sessions_for_paper[paper_id].append(
-                SessionInfo(
-                    session_name=session_name,
-                    start_time=start_time,
-                    end_time=end_time,
-                    link=link,
-                )
-            )
+            #TODO  continue deal with it when we get session data
+            pass
+            # link = paper_id_to_link[paper_id]
+            #
+            # sessions_for_paper[paper_id].append(
+            #     SessionInfo(
+            #         session_name=session_name,
+            #         start_time=start_time,
+            #         end_time=end_time,
+            #         link=link,
+            #     )
+            # )
 
     papers = [
         Paper(
@@ -799,7 +802,9 @@ def build_qa_sessions(
             qa_subsession = QaSubSession(
                 name=s["long_name"].split(":")[-1].strip(),
                 link=s.get("zoom_link", "http://zoom.us"),
-                papers=s["papers"],
+                # TODO  make qa_session.html pass
+                #papers=s["papers"],
+                papers=[],
             )
             subsessions.append(qa_subsession)
 

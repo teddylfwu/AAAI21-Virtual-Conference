@@ -127,7 +127,16 @@
         <div
             class="btn-group btn-group-toggle program_option mr-3 bottom-bar"
             data-toggle="buttons" >
-            <label class="btn btn-sm btn-outline-secondary" data-tippy-content="AI for socical impact track papers" style="width: 4em;">
+            <label class="btn btn-sm btn-outline-secondary active"  data-tippy-content="Main Track" style="width: 4em;">
+              <input
+                  type="radio"
+                  name="program"
+                  value="Main"
+                  autocomplete="off"
+              />
+              Main
+            </label>
+            <label class="btn btn-sm btn-outline-secondary" data-tippy-content="AI for Social Impact Track" style="width: 4em;">
               <input
                 type="radio"
                 name="program"
@@ -136,52 +145,7 @@
               />
               AISI
             </label>
-            <label class="btn btn-sm btn-outline-secondary active"  data-tippy-content="main track papers" style="width: 4em;">
-              <input
-                  type="radio"
-                  name="program"
-                  value="main"
-                  autocomplete="off"
-              />
-              main
-            </label>
-            <label class="btn btn-sm btn-outline-secondary" data-tippy-content="demo papers"  style="width: 4em;">
-              <input
-                type="radio"
-                name="program"
-                value="demo"
-                autocomplete="off"
-              />
-              demo
-            </label>
-            <label class="btn btn-sm btn-outline-secondary" data-tippy-content="doctoral consortium papers"  style="width: 4em;">
-              <input
-                type="radio"
-                name="program"
-                value="DC"
-                autocomplete="off"
-              />
-              DC
-            </label>
-            <label class="btn btn-sm btn-outline-secondary" data-tippy-content="Educational Advances in Artificial Intelligence"   style="width: 4em;">
-              <input
-                type="radio"
-                name="program"
-                value="EAAI"
-                autocomplete="off"
-              />
-              EAAI
-            </label>
-            <label class="btn btn-sm btn-outline-secondary" data-tippy-content="Innovative Applications of Artificial Intelligence"  style="width: 4em;">
-              <input
-                type="radio"
-                name="program"
-                value="IAAI"
-                autocomplete="off"
-              />
-              IAAI
-            </label>
-            <label class="btn btn-sm btn-outline-secondary" data-tippy-content="senior member track papers"  style="width: 4em;">
+            <label class="btn btn-sm btn-outline-secondary" data-tippy-content="Senior Member Track"  style="width: 4em;">
               <input
                 type="radio"
                 name="program"
@@ -190,16 +154,16 @@
               />
               SMT
             </label>
-            <label class="btn btn-sm btn-outline-secondary" data-tippy-content="sister conference papers"  style="width: 4em;">
+            <label class="btn btn-sm btn-outline-secondary" data-tippy-content="Demonstrations"  style="width: 4em;">
               <input
                 type="radio"
                 name="program"
-                value="SC"
+                value="Demo"
                 autocomplete="off"
               />
-              SC
+              Demo
             </label>
-            <label class="btn btn-sm btn-outline-secondary" data-tippy-content="student abstracts papers"  style="width: 4em;">
+            <label class="btn btn-sm btn-outline-secondary" data-tippy-content="Student Abstract and Poster Program"  style="width: 4em;">
               <input
                 type="radio"
                 name="program"
@@ -208,7 +172,16 @@
               />
               SA
             </label>
-            <label class="btn btn-sm btn-outline-secondary" data-tippy-content="undergraduate consortium papers"  style="width: 4em;">
+            <label class="btn btn-sm btn-outline-secondary" data-tippy-content="Doctoral Consortium"  style="width: 4em;">
+              <input
+                type="radio"
+                name="program"
+                value="DC"
+                autocomplete="off"
+              />
+              DC
+            </label>
+            <label class="btn btn-sm btn-outline-secondary" data-tippy-content="Undergraduate Consortium"  style="width: 4em;">
               <input
                 type="radio"
                 name="program"
@@ -217,6 +190,33 @@
               />
               UC
             </label>
+            <label class="btn btn-sm btn-outline-secondary" data-tippy-content="Innovative Applications of Artificial Intelligence Conference"  style="width: 4em;">
+              <input
+                type="radio"
+                name="program"
+                value="IAAI"
+                autocomplete="off"
+              />
+              IAAI
+            </label>
+            <label class="btn btn-sm btn-outline-secondary" data-tippy-content="Symposium on Educational Advances in Artificial Intelligence"   style="width: 4em;">
+              <input
+                type="radio"
+                name="program"
+                value="EAAI"
+                autocomplete="off"
+              />
+              EAAI
+            </label>
+{#            <label class="btn btn-sm btn-outline-secondary" data-tippy-content="sister conference papers"  style="width: 4em;">#}
+{#              <input#}
+{#                type="radio"#}
+{#                name="program"#}
+{#                value="SC"#}
+{#                autocomplete="off"#}
+{#              />#}
+{#              SC#}
+{#            </label>#}
             <label class="btn btn-sm btn-outline-secondary" style="width: 4em;">
               <input
                 type="radio"
@@ -224,7 +224,7 @@
                 value="all"
                 autocomplete="off"
               />
-              all
+              All
             </label>
         </div>
       </div>
@@ -244,15 +244,15 @@
               />
               compact
             </label>
-            <label class="btn btn-sm btn-outline-secondary">
-              <input
-                type="radio"
-                name="options"
-                value="compact"
-                autocomplete="off"
-              />
-              medium
-            </label>
+{#            <label class="btn btn-sm btn-outline-secondary">#}
+{#              <input#}
+{#                type="radio"#}
+{#                name="options"#}
+{#                value="compact"#}
+{#                autocomplete="off"#}
+{#              />#}
+{#              medium#}
+{#            </label>#}
             <label class="btn btn-sm btn-outline-secondary">
               <input
                 type="radio"
@@ -407,8 +407,8 @@
         <h6 id="modalAbstractHeader" class="text-muted">Abstract</h6>
         <p id="modalAbstract"></p>
 
-        <h6 id="modalKeywordsHeader" class="text-muted">Keywords</h6>
-        <p style="font-size: 1.3em; font-family: monospace;" id="modalKeywords"></p>
+{#        <h6 id="modalKeywordsHeader" class="text-muted">Keywords</h6>#}
+{#        <p style="font-size: 1.3em; font-family: monospace;" id="modalKeywords"></p>#}
 
         <h6 id="modalSessionsHeader" class="text-muted">Sessions</h6>
         <div style="display: flex;" id="modalSessions"></div>
