@@ -474,13 +474,15 @@ const updateToolboxUI = (program, urlFilter, track) =>{
     // Update program selector UI
     document.querySelector(`input[name=program][value=${program}]`).checked = true;
 
-    if (["main", "workshop"].includes(program)) {
-        $("#track_selector").selectpicker('show');
-        $("#track_selector_placeholder").removeClass("d-lg-block");
-    } else{
-        $("#track_selector").selectpicker('hide');
-        $("#track_selector_placeholder").addClass("d-lg-block");
-    }
+    $("#track_selector").selectpicker('hide');
+    $("#track_selector_placeholder").addClass("d-lg-block");
+    // if (["main", "workshop"].includes(program)) {
+    //     $("#track_selector").selectpicker('show');
+    //     $("#track_selector_placeholder").removeClass("d-lg-block");
+    // } else{
+    //     $("#track_selector").selectpicker('hide');
+    //     $("#track_selector_placeholder").addClass("d-lg-block");
+    // }
 }
 
 /**

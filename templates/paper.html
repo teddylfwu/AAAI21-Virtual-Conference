@@ -245,7 +245,10 @@
           </a>
           <h6 class="card-subtitle text-muted" align="center">
              {% for a in recommended.content.authors %}
-             {{a}},
+             {{a}}
+                 {% if loop.last == False %}
+                     ,
+                 {% endif %}
              {% endfor %}
           </h6>
 {#          <center>#}
