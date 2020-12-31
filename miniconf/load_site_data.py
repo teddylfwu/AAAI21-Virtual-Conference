@@ -514,7 +514,7 @@ def generate_paper_events(site_data: Dict[str, Any]):
 
         # Sessions are suffixd with subsession id
         all_grouped[uid[:-1]].append(session)
-
+    print(all_grouped)
     for uid, group in all_grouped.items():
         start_time = group[0]["start_time"]
         end_time = group[0]["end_time"]
@@ -713,17 +713,17 @@ def build_papers(
         for paper_id in session_info["papers"]:
 
             #TODO  continue deal with it when we get session data
-            pass
-            # link = paper_id_to_link[paper_id]
-            #
-            # sessions_for_paper[paper_id].append(
-            #     SessionInfo(
-            #         session_name=session_name,
-            #         start_time=start_time,
-            #         end_time=end_time,
-            #         link=link,
-            #     )
-            # )
+            # pass
+            link = paper_id_to_link[paper_id]
+
+            sessions_for_paper[paper_id].append(
+                SessionInfo(
+                    session_name=session_name,
+                    start_time=start_time,
+                    end_time=end_time,
+                    link=link,
+                )
+            )
 
     papers = [
         Paper(
@@ -739,7 +739,7 @@ def build_papers(
                 keywords=extract_list_field(item, "keywords"),
                 abstract=item["abstract"],
                 tldr=item["abstract"][:250] + "...",
-                pdf_url=item.get("pdf_url", ""),
+                pdf_url=item.get("pdf_url", "https://scholar.google.com/"),
                 demo_url=item.get("demo_url", ""),
                 material=item.get("material"),
                 track=normalize_track_name(item.get("track", "")),
@@ -803,8 +803,8 @@ def build_qa_sessions(
                 name=s["long_name"].split(":")[-1].strip(),
                 link=s.get("zoom_link", "http://zoom.us"),
                 # TODO  make qa_session.html pass
-                #papers=s["papers"],
-                papers=[],
+                papers=s["papers"],
+                # papers=[],
             )
             subsessions.append(qa_subsession)
 
