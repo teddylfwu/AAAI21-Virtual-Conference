@@ -152,9 +152,9 @@ def load_site_data(
     for p in site_data["Undergraduate Consortium_papers"]:
         p["program"] = "UC"
 
-    site_data["programs"] = ["AI for Social Impact Track", "Demos", "Doctoral Consortium",
-                             "EAAI", "IAAI","Main Track","Senior Member Track","Sister Conference",
-                             "Student Abstracts","Undergraduate Consortium"]
+    site_data["programs"] = ["AISI", "Demo", "DC",
+                             "EAAI", "IAAI","Main","SMT","SC",
+                             "SA","UC"]
 
     # tutorials.html
     tutorial_MQ = []
@@ -759,8 +759,8 @@ def build_papers(
             "findings",
         ]:
             print(f"WARNING: presentation_id not set for {paper.id}")
-        if not paper.content.track:
-            print(f"WARNING: track not set for {paper.id}")
+        # if not paper.content.track:
+        #     print(f"WARNING: track not set for {paper.id}")
         if paper.presentation_id and len(paper.content.sessions) != 1:
             print(
                 f"WARNING: found {len(paper.content.sessions)} sessions for {paper.id}"
