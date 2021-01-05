@@ -1,3 +1,7 @@
+# secrets
+tools/cognito/aws_profile.yml
+
+
 # IDE
 .idea
 # Byte-compiled / optimized / DLL files
