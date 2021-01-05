@@ -1,5 +1,5 @@
 # secrets
-tools/cognito/aws_profile.yml
+tools/aws/cognito/aws_profile.yml
 
 
 # IDE
