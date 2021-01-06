@@ -162,6 +162,9 @@ def load_site_data(
     tutorial_AQ = []
     tutorial_AH = []
 
+    # undergraduate_consortium.html
+    tutorial_UC = []
+
     for item in site_data["tutorials"]:
         if "MQ" in item["UID"]:
             tutorial_MQ.append(item)
@@ -171,6 +174,8 @@ def load_site_data(
             tutorial_AQ.append(item)
         if "AH" in item["UID"]:
             tutorial_AH.append(item)
+        if "UC" in item["UID"]:
+            tutorial_UC.append(item)
 
     tutorials = build_tutorials(site_data["tutorials"])
 
@@ -182,6 +187,7 @@ def load_site_data(
     site_data["tutorials_MH"] = build_tutorials(tutorial_MH)
     site_data["tutorials_AQ"] = build_tutorials(tutorial_AQ)
     site_data["tutorials_AH"] = build_tutorials(tutorial_AH)
+    site_data["tutorials_UC"] = build_tutorials(tutorial_UC)
     # tutorial_<uid>.html
     by_uid["tutorials"] = {tutorial.id: tutorial for tutorial in tutorials}
 

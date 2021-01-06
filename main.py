@@ -78,6 +78,7 @@ def doctoral_consortium():
 @app.route("/undergraduate_consortium.html")
 def undergraduate_consortium():
     data = _data()
+    data["tutorials_UC"] = site_data["tutorials_UC"]
     return render_template("undergraduate_consortium.html", **data)
 
 
@@ -202,7 +203,6 @@ def tutorials():
     data["tutorials_AH"] = site_data["tutorials_AH"]
     return render_template("tutorials.html", **data)
 
-
 @app.route("/workshops.html")
 def workshops():
     data = _data()
@@ -268,6 +268,12 @@ def tutorial(uid):
     data = _data()
     data["tutorial"] = by_uid["tutorials"][uid]
     return render_template("tutorial.html", **data)
+
+@app.route("/undergraduate_c_abstract_<uid>.html")
+def uc_abstract(uid):
+    data = _data()
+    data["tutorial"] = by_uid["tutorials"][uid]
+    return render_template("undergraduate_c_abstract.html", **data)
 
 
 @app.route("/workshop_<uid>.html")
