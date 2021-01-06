@@ -1,21 +1,21 @@
-UID,title,authors
-SA-129,Logic Guided Genetic Algorithms,Dhananjay Ashok|Joseph Scott|Sebastian J. Wetzel|Maysum Panju|Vijay Ganesh
-SA-177,Passive Learning of Timed Automata from Logs,Lénaïg Cornanguer
-SA-187,Deep Reinforcement Learning for a Dictionary Based Compression Schema,Keren Nivasch|Dana Shapira|Amos Azaria
-SA-193,Role of Optimizer on Network Fine-Tuning for Adversarial Robustness,Akshay Agarwal|Mayank Vatsa|Richa Singh
-SA-201,Modeling High-Order Interactions across Multi-Interests for Micro-Video Reommendation,Dong Yao|Shengyu Zhang|Zhou Zhao|Wenyan Fan|Jieming Zhu|Xiuqiang He|Fei Wu
-SA-229,FACS: Fast Code-Based Algorithm for Coalition Structure Generation,Redha Taguelmimt|Samir Aknine|Djamila Boukredera|Narayan Changder
-SA-235,AuthNet: A Deep Learning Based Authentication Mechanism Using Temporal Facial Feature Movements,Mohit Raghavendra|Pravan Omprakash|Mukesh B.R
-SA-256,Detecting Lexical Semantic Change across Corpora with Smooth Manifolds,Anmol Goel|Ponnurangam Kumaraguru
-SA-273,A Nested Named Entity Recognition Model Based on Multi-Agent Communication Mechanism,Canguang Li|Guohua Wang|Jin Cao|Yi Cai
-SA-280,Early Prediction of Children’s Task Completion in a Tablet Tutor Using Visual Features,Bikram Boote|Mansi Agarwal|Jack Mostow
-SA-309,EC-GAN: Low-Sample Classification Using Semi-Supervised Algorithms and GANs,Ayaan Haque
-SA-333,Solving JumpIN’ Using Zero-Dependency Reinforcement Learning,Rachel Ostic|Oliver Benning|Patrick Boily
-SA-356,Toward Determining NFA Equivalence via QBFs,Hannah Miller|David E. Narváez
-SA-376,Incorporating Bidirection-Interactive Information and Semantic Features for Relational Facts Extraction,Yang Yu|Guohua Wang|Haopeng Ren|Yi Cai
-SA-379,Are Chess Discussions Racist? An Adversarial Hate Speech Data Set,Rupak Sarkar|Ashiqur R. Khudabukhsh
-SA-380,Comparing Symbolic Models of Language via Bayesian Inference,Annika Heuser|Polina Tsvilodub
-SA-385,Incorporating Curiosity into Personalized Ranking for Collaborative Filtering,Qiqi Ding|Yi Cai|Ke Xu|Huakui Zhang
-SA-386,Sampling Partial Acyclic Orientations in Chordal Graphs by the Lovász Local Lemma,Wenbo Sun|Ivona Bezáková
-SA-403,Enhancing Context-Based Meta-Reinforcement Learning Algorithms via an Efficient Task Encoder,Feng Xu|Shengyi Jiang|Hao Yin|Zongzhang Zhang|Yang Yu|Ming Li|Dong Li|Wulong Liu
-SA-417,Shallow-UWnet: Compressed Model for Underwater Image Enhancement,Ankita Naik|Apurva Swarnakar|Kartik Mittal
+UID,title,authors,presentation_id
+SA-129,Logic Guided Genetic Algorithms,Dhananjay Ashok|Joseph Scott|Sebastian J. Wetzel|Maysum Panju|Vijay Ganesh,38951232
+SA-177,Passive Learning of Timed Automata from Logs,Lénaïg Cornanguer,38951233
+SA-187,Deep Reinforcement Learning for a Dictionary Based Compression Schema,Keren Nivasch|Dana Shapira|Amos Azaria,38951234
+SA-193,Role of Optimizer on Network Fine-Tuning for Adversarial Robustness,Akshay Agarwal|Mayank Vatsa|Richa Singh,38951235
+SA-201,Modeling High-Order Interactions across Multi-Interests for Micro-Video Reommendation,Dong Yao|Shengyu Zhang|Zhou Zhao|Wenyan Fan|Jieming Zhu|Xiuqiang He|Fei Wu,38951236
+SA-229,FACS: Fast Code-Based Algorithm for Coalition Structure Generation,Redha Taguelmimt|Samir Aknine|Djamila Boukredera|Narayan Changder,38951237
+SA-235,AuthNet: A Deep Learning Based Authentication Mechanism Using Temporal Facial Feature Movements,Mohit Raghavendra|Pravan Omprakash|Mukesh B.R,38951238
+SA-256,Detecting Lexical Semantic Change across Corpora with Smooth Manifolds,Anmol Goel|Ponnurangam Kumaraguru,38951239
+SA-273,A Nested Named Entity Recognition Model Based on Multi-Agent Communication Mechanism,Canguang Li|Guohua Wang|Jin Cao|Yi Cai,38951240
+SA-280,Early Prediction of Children’s Task Completion in a Tablet Tutor Using Visual Features,Bikram Boote|Mansi Agarwal|Jack Mostow,38951241
+SA-309,EC-GAN: Low-Sample Classification Using Semi-Supervised Algorithms and GANs,Ayaan Haque,38951242
+SA-333,Solving JumpIN’ Using Zero-Dependency Reinforcement Learning,Rachel Ostic|Oliver Benning|Patrick Boily,38951243
+SA-356,Toward Determining NFA Equivalence via QBFs,Hannah Miller|David E. Narváez,38951244
+SA-376,Incorporating Bidirection-Interactive Information and Semantic Features for Relational Facts Extraction,Yang Yu|Guohua Wang|Haopeng Ren|Yi Cai,38951245
+SA-379,Are Chess Discussions Racist? An Adversarial Hate Speech Data Set,Rupak Sarkar|Ashiqur R. Khudabukhsh,38951246
+SA-380,Comparing Symbolic Models of Language via Bayesian Inference,Annika Heuser|Polina Tsvilodub,38951247
+SA-385,Incorporating Curiosity into Personalized Ranking for Collaborative Filtering,Qiqi Ding|Yi Cai|Ke Xu|Huakui Zhang,38951248
+SA-386,Sampling Partial Acyclic Orientations in Chordal Graphs by the Lovász Local Lemma,Wenbo Sun|Ivona Bezáková,38951249
+SA-403,Enhancing Context-Based Meta-Reinforcement Learning Algorithms via an Efficient Task Encoder,Feng Xu|Shengyi Jiang|Hao Yin|Zongzhang Zhang|Yang Yu|Ming Li|Dong Li|Wulong Liu,38951250
+SA-417,Shallow-UWnet: Compressed Model for Underwater Image Enhancement,Ankita Naik|Apurva Swarnakar|Kartik Mittal,38951251

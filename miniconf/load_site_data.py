@@ -733,6 +733,7 @@ def build_papers(
                 item["UID"], paper_images_path
             ),
             presentation_id=item.get("presentation_id", None),
+            presentation_id_intro=item.get("presentation_id_intro", None),
             content=PaperContent(
                 title=item["title"],
                 authors=extract_list_field(item, "authors"),
