@@ -493,7 +493,7 @@ const start = (reset_track) => {
     reset_track = reset_track || false;
     
     const urlFilter = getUrlParameter("filter") || 'titles';
-    const program = getUrlParameter("program") || 'AISI'
+    const program = getUrlParameter("program") || 'Main'
     let default_track = program == "workshop"? "All workshops" : "All tracks";
     
     let track = getUrlParameter("track") || default_track;

@@ -6,6 +6,7 @@ tools/aws/cognito/aws_profile.yml
 .idea
 # Byte-compiled / optimized / DLL files
 __pycache__/
+miniconf/__pycache__/
 *.py[cod]
 *$py.class
 

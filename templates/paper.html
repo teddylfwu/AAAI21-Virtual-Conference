@@ -156,8 +156,41 @@
   </div>
 </div>
 
+
+{% if paper.presentation_id_intro %}
+{{ components.section("Intro Video") }}
+    <div class="container" style="; padding: 0px;">
+  <div class="text-muted text-center">
+  </div>
+  <div class="row m-2">
+    <!-- Slides Live-->
+    <div class="col-md-12 col-xs-12 my-auto p-2" >
+      <div id="presentation-intro" class="slp my-auto"></div>
+      <script src='static/js/embed_presentation.js'></script>
+      <script>
+        embed = new SlidesLiveEmbed('presentation-intro', {
+        presentationId: '{{paper.presentation_id | default(config.default_presentation_id)}}',
+{#        presentationId: '38938822',#}
+        autoPlay: false, // change to true to autoplay the embedded presentation
+        verticalEnabled: false,
+        verticalWhenWidthLte: 500,
+        allowHiddenControlsWhenPaused: true,
+        hideTitle: true
+        });
+      </script>
+      <div class="text-muted">
+      NOTE: Video may display a random order of authors.
+      Correct author list is at the top of this page.
+      </div>
+    </div>
+
+  </div>
+</div>
+
+{% endif %}
 {% if paper.content.program != "findings" %}
 {% if paper.presentation_id %}
+{{ components.section("Video && Chat") }}
 <div class="container" style="; padding: 0px;">
   <div class="text-muted text-center">
   </div>
@@ -165,10 +198,11 @@
     <!-- Slides Live-->
     <div class="col-md-7 col-xs-12 my-auto p-2" >
       <div id="presentation-embed" class="slp my-auto"></div>
-      <script src='https://slideslive.com/embed_presentation.js'></script>
+      <script src='static/js/embed_presentation.js'></script>
       <script>
         embed = new SlidesLiveEmbed('presentation-embed', {
         presentationId: '{{paper.presentation_id | default(config.default_presentation_id)}}',
+{#        presentationId: '38938822',#}
         autoPlay: false, // change to true to autoplay the embedded presentation
         verticalEnabled: true,
         verticalWhenWidthLte: 500,

@@ -1,1591 +1,4704 @@
-z1A:
-  start_time: 2020-11-16 16:00:00+00:00
-  end_time: 2020-11-16 17:00:00+00:00
+z0A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
   name: Zoom Q&A Session 1A
-  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument
-    Mining'
-  zoom_link: https://us02web.zoom.us/j/86415082986?pwd=c0hCZDY1VEJOTGtVV21LbHZlSmhDdz09
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
   papers:
-  - main.438
-  - main.440
-  - main.2688
-  - main.2996
-z1B:
-  start_time: 2020-11-16 16:00:00+00:00
-  end_time: 2020-11-16 17:00:00+00:00
-  name: Zoom Q&A Session 1B
-  long_name: 'Zoom Q&A Session 1B: Machine Translation and Multilinguality'
-  zoom_link: https://us02web.zoom.us/j/82453765034?pwd=cnhBc2NhWFJMeVZpYjBCWmFXZnZoQT09
+  - AAAI-10000
+  - AAAI-10011
+  - AAAI-10012
+  - AAAI-10013
+  - AAAI-10014
+z1A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
   papers:
-  - main.84
-  - main.619
-  - main.856
-  - main.888
-  - TACL.1997
-z1C:
-  start_time: 2020-11-16 16:00:00+00:00
-  end_time: 2020-11-16 17:00:00+00:00
-  name: Zoom Q&A Session 1C
-  long_name: 'Zoom Q&A Session 1C: Question Answering'
-  zoom_link: https://us02web.zoom.us/j/89612381282?pwd=NStyWmFNVmRYRTdDT0lUNGY4Z3gwQT09
-  papers:
-  - main.2054
-  - main.2228
-  - main.2640
-  - main.2721
-  - TACL.2049
-z1D:
-  start_time: 2020-11-16 16:00:00+00:00
-  end_time: 2020-11-16 17:00:00+00:00
-  name: Zoom Q&A Session 1D
-  long_name: 'Zoom Q&A Session 1D: Interpretability and Analysis of Models for NLP'
-  zoom_link: https://us02web.zoom.us/j/82073200719?pwd=cWNzdnJYdm5UR0VuSWY4b3NPYzI3UT09
-  papers:
-  - main.498
-  - main.947
-  - main.2122
-  - main.2893
+  - AAAI-10016
+  - AAAI-10019
+  - AAAI-10021
+  - AAAI-10022
+  - AAAI-10024
 z2A:
-  start_time: 2020-11-16 17:00:00+00:00
-  end_time: 2020-11-16 18:00:00+00:00
-  name: Zoom Q&A Session 2A
-  long_name: 'Zoom Q&A Session 2A: Machine Learning for NLP'
-  zoom_link: https://us02web.zoom.us/j/88364226663?pwd=VXY1Wk9LNi8vWTN1TGJRaGxtSU9MQT09
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
   papers:
-  - main.1210
-  - main.1618
-  - main.2343
-  - main.2615
-z2B:
-  start_time: 2020-11-16 17:00:00+00:00
-  end_time: 2020-11-16 18:00:00+00:00
-  name: Zoom Q&A Session 2B
-  long_name: 'Zoom Q&A Session 2B: NLP Applications'
-  zoom_link: https://us02web.zoom.us/j/89131451599?pwd=Skg3TzA0eEJpS2JHdmVxUnAzT0tpUT09
-  papers:
-  - TACL.2047
-  - main.328
-  - main.802
-  - main.2958
-  - main.1390
-z2C:
-  start_time: 2020-11-16 17:00:00+00:00
-  end_time: 2020-11-16 18:00:00+00:00
-  name: Zoom Q&A Session 2C
-  long_name: 'Zoom Q&A Session 2C: Dialog and Interactive Systems'
-  zoom_link: https://us02web.zoom.us/j/82960045865?pwd=QzZ0L3ZrVDl5R25Lc3JsTE9YQ0FmZz09
-  papers:
-  - main.1219
-  - TACL.2143
-  - main.148
-  - main.1700
-z2D:
-  start_time: 2020-11-16 17:00:00+00:00
-  end_time: 2020-11-16 18:00:00+00:00
-  name: Zoom Q&A Session 2D
-  long_name: 'Zoom Q&A Session 2D: Semantics: Sentence-level Semantics, Textual Inference
-    and Other areas'
-  zoom_link: https://us02web.zoom.us/j/82548895889?pwd=S2NjdnBseXZIZVByZWQvYmRuTHREdz09
-  papers:
-  - main.3544
-  - main.2635
-  - main.3506
-  - TACL.2135
+  - AAAI-10027
+  - AAAI-10028
+  - AAAI-10029
+  - AAAI-10033
+  - AAAI-10037
 z3A:
-  start_time: 2020-11-17 00:00:00+00:00
-  end_time: 2020-11-17 01:00:00+00:00
-  name: Zoom Q&A Session 3A
-  long_name: 'Zoom Q&A Session 3A: Summarization'
-  zoom_link: https://us02web.zoom.us/j/84091080836?pwd=NWd1YndTNFVkNzc2aWdRRjlJbUNSUT09
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
   papers:
-  - main.2900
-  - main.965
-  - main.471
-  - main.3111
-z3B:
-  start_time: 2020-11-17 00:00:00+00:00
-  end_time: 2020-11-17 01:00:00+00:00
-  name: Zoom Q&A Session 3B
-  long_name: 'Zoom Q&A Session 3B: Machine Learning for NLP'
-  zoom_link: https://us02web.zoom.us/j/87110035954?pwd=cnp0Y29iK3QvTS9yem9ZT0MvWnJlQT09
-  papers:
-  - main.3394
-  - main.2783
-  - main.903
-  - main.2793
-  - main.2838
-z3C:
-  start_time: 2020-11-17 00:00:00+00:00
-  end_time: 2020-11-17 01:00:00+00:00
-  name: Zoom Q&A Session 3C
-  long_name: 'Zoom Q&A Session 3C: Machine Translation and Multilinguality'
-  zoom_link: https://us02web.zoom.us/j/87446498334?pwd=SWxXcnA4RjNHM1REOHdxeWpCOUt6Zz09
-  papers:
-  - main.858
-  - TACL.2107
-  - main.1503
-  - main.1694
-  - main.3370
-z3D:
-  start_time: 2020-11-17 00:00:00+00:00
-  end_time: 2020-11-17 01:00:00+00:00
-  name: Zoom Q&A Session 3D
-  long_name: 'Zoom Q&A Session 3D: Computational Social Science and Social Media'
-  zoom_link: https://us02web.zoom.us/j/81659740753?pwd=a3k4aWNUdklpc3JoOW95dHNiZllKQT09
-  papers:
-  - main.838
-  - main.2561
-  - main.2651
-  - main.2894
-  - main.3450
+  - AAAI-10040
+  - AAAI-10043
+  - AAAI-10056
+  - AAAI-10060
+  - AAAI-10062
 z4A:
-  start_time: 2020-11-17 01:00:00+00:00
-  end_time: 2020-11-17 02:00:00+00:00
-  name: Zoom Q&A Session 4A
-  long_name: 'Zoom Q&A Session 4A: Information Extraction'
-  zoom_link: https://us02web.zoom.us/j/83470501177?pwd=UGE4cmJnSk1kZENST0JxY25WbG1YZz09
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
   papers:
-  - main.96
-  - main.237
-  - main.1116
-  - main.1749
-  - main.2427
-z4B:
-  start_time: 2020-11-17 01:00:00+00:00
-  end_time: 2020-11-17 02:00:00+00:00
-  name: Zoom Q&A Session 4B
-  long_name: 'Zoom Q&A Session 4B: Language Generation'
-  zoom_link: https://us02web.zoom.us/j/83868106773?pwd=YjlPNUdKQmVmdGErL3JYcGlNUmR1dz09
-  papers:
-  - main.923
-  - main.1581
-  - main.2511
-  - main.3010
-  - main.3270
-z4C:
-  start_time: 2020-11-17 01:00:00+00:00
-  end_time: 2020-11-17 02:00:00+00:00
-  name: Zoom Q&A Session 4C
-  long_name: 'Zoom Q&A Session 4C: Language Grounding to Vision, Robotics and Beyond'
-  zoom_link: https://us02web.zoom.us/j/82458116377?pwd=UlhvOGpmbVo2TFd6aW9NRXBBUnI1dz09
-  papers:
-  - main.647
-  - main.1071
-  - main.1085
-  - main.1670
-  - main.3183
-z4D:
-  start_time: 2020-11-17 01:00:00+00:00
-  end_time: 2020-11-17 02:00:00+00:00
-  name: Zoom Q&A Session 4D
-  long_name: 'Zoom Q&A Session 4D: Dialog and Interactive Systems'
-  zoom_link: https://us02web.zoom.us/j/81568377176?pwd=bVgyT3AyMWhKLzdUMmowdkJMN3dYdz09
-  papers:
-  - main.318
-  - main.419
-  - main.1201
-  - main.1702
-  - main.2164
-g1A:
-  start_time: 2020-11-17 02:00:00+00:00
-  end_time: 2020-11-17 04:00:00+00:00
-  name: Gather Session 1A
-  long_name: 'Gather Session 1A: Machine Translation and Multilinguality'
-  papers:
-  - main.130
-  - main.1432
-  - main.1485
-  - main.1680
-  - main.1770
-  - main.1798
-  - main.1960
-  - main.2100
-  - main.26
-  - main.3337
-  - main.1456
-  - main.3441
-  - main.453
-g1B:
-  start_time: 2020-11-17 02:00:00+00:00
-  end_time: 2020-11-17 04:00:00+00:00
-  name: Gather Session 1B
-  long_name: 'Gather Session 1B: Machine Learning for NLP'
-  papers:
-  - main.1046
-  - main.1130
-  - main.1458
-  - main.1575
-  - main.1648
-  - main.2818
-  - main.1574
-  - main.2865
-  - main.2959
-  - main.3272
-  - main.3391
-  - main.3470
-g1C:
-  start_time: 2020-11-17 02:00:00+00:00
-  end_time: 2020-11-17 04:00:00+00:00
-  name: Gather Session 1C
-  long_name: 'Gather Session 1C: Linguistic Theories, Cognitive Modeling and Psycholinguistics;
-    Semantics: Sentence-level Semantics, Textual Inference and Other areas'
-  papers:
-  - main.1832
-  - main.2638
-  - main.820
-  - main.1275
-  - main.1421
-  - main.1892
-  - main.2553
-  - main.3358
-  - main.357
-  - main.3609
-  - main.754
-g1D:
-  start_time: 2020-11-17 02:00:00+00:00
-  end_time: 2020-11-17 04:00:00+00:00
-  name: Gather Session 1D
-  long_name: 'Gather Session 1D: Information Extraction'
-  papers:
-  - main.1086
-  - main.158
-  - main.1977
-  - main.2048
-  - main.2877
-  - main.300
-  - main.3022
-  - main.3287
-g1E:
-  start_time: 2020-11-17 02:00:00+00:00
-  end_time: 2020-11-17 04:00:00+00:00
-  name: Gather Session 1E
-  long_name: 'Gather Session 1E: Dialog and Interactive Systems'
-  papers:
-  - main.1009
-  - main.1012
-  - main.1140
-  - main.128
-  - main.1522
-  - main.215
-  - main.2209
-  - main.3621
-g1F:
-  start_time: 2020-11-17 02:00:00+00:00
-  end_time: 2020-11-17 04:00:00+00:00
-  name: Gather Session 1F
-  long_name: 'Gather Session 1F: Computational Social Science and Social Media; NLP
-    Applications'
-  papers:
-  - main.1287
-  - main.3298
-  - main.3408
-  - main.3424
-  - main.110
-  - main.1271
-  - main.1634
-  - main.1908
-  - main.1942
-  - main.2779
-  - main.3651
-  - main.55
-g1G:
-  start_time: 2020-11-17 02:00:00+00:00
-  end_time: 2020-11-17 04:00:00+00:00
-  name: Gather Session 1G
-  long_name: 'Gather Session 1G: Information Retrieval and Text Mining; Speech and
-    Multimodality'
-  papers:
-  - main.1949
-  - main.2792
-  - main.286
-  - main.2931
-  - main.30
-  - main.3419
-  - main.652
-  - main.2994
-  - main.3540
-  - main.376
-  - main.628
-g1H:
-  start_time: 2020-11-17 02:00:00+00:00
-  end_time: 2020-11-17 04:00:00+00:00
-  name: Gather Session 1H
-  long_name: 'Gather Session 1H: Language Grounding to Vision, Robotics and Beyond;
-    Question Answering'
-  papers:
-  - main.1388
-  - main.2083
-  - main.2273
-  - main.2853
-  - main.3360
-  - main.635
-  - main.1788
-  - main.2380
-  - main.2973
-  - main.3140
-  - main.928
-g1I:
-  start_time: 2020-11-17 02:00:00+00:00
-  end_time: 2020-11-17 04:00:00+00:00
-  name: Gather Session 1I
-  long_name: 'Gather Session 1I: Interpretability and Analysis of Models for NLP;
-    Language Generation'
-  papers:
-  - main.2307
-  - main.2886
-  - main.3550
-  - main.457
-  - main.1049
-  - main.1706
-  - main.210
-  - main.2012
-  - main.2422
-  - main.2758
-  - main.920
-g1J:
-  start_time: 2020-11-17 02:00:00+00:00
-  end_time: 2020-11-17 04:00:00+00:00
-  name: Gather Session 1J
-  long_name: 'Gather Session 1J: Demos'
-  papers:
-  - demo.48
-  - demo.58
-  - demo.86
-  - demo.102
-  - demo.111
-  - demo.123
+  - AAAI-10063
+  - AAAI-10069
+  - AAAI-10076
+  - AAAI-10083
+  - AAAI-10087
 z5A:
-  start_time: 2020-11-17 08:00:00+00:00
-  end_time: 2020-11-17 09:00:00+00:00
-  name: Zoom Q&A Session 5A
-  long_name: 'Zoom Q&A Session 5A: Information Extraction'
-  zoom_link: https://us02web.zoom.us/j/85494812250?pwd=dlVzMmpqRkNhNkRab2FTMmlVSGNBZz09
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
   papers:
-  - main.983
-  - main.2938
-  - main.3136
-  - main.3497
-z5B:
-  start_time: 2020-11-17 08:00:00+00:00
-  end_time: 2020-11-17 09:00:00+00:00
-  name: Zoom Q&A Session 5B
-  long_name: 'Zoom Q&A Session 5B: Language Generation'
-  zoom_link: https://us02web.zoom.us/j/88149377683?pwd=M1JRV3FiY2xGd3dzdTZ5NzNYS0JoQT09
-  papers:
-  - main.204
-  - main.2795
-  - TACL.2121
-  - main.1377
-  - TACL.2169
-z5C:
-  start_time: 2020-11-17 08:00:00+00:00
-  end_time: 2020-11-17 09:00:00+00:00
-  name: Zoom Q&A Session 5C
-  long_name: 'Zoom Q&A Session 5C: Machine Learning for NLP'
-  zoom_link: https://us02web.zoom.us/j/87308259822?pwd=dEh2RTN3RWxYVHJ2S2loODYwMXJZUT09
-  papers:
-  - main.2535
-  - main.2452
-  - main.362
-  - main.1220
-  - TACL.2095
-z5D:
-  start_time: 2020-11-17 08:00:00+00:00
-  end_time: 2020-11-17 09:00:00+00:00
-  name: Zoom Q&A Session 5D
-  long_name: 'Zoom Q&A Session 5D: Machine Translation and Multilinguality'
-  zoom_link: https://us02web.zoom.us/j/87678672082?pwd=RHQ0MVp4V3VBc3k0ZnAvUDB2OGRMZz09
-  papers:
-  - main.1504
-  - main.2674
-  - main.3227
-  - main.3236
-  - main.400
+  - AAAI-10089
+  - AAAI-10091
+  - AAAI-10094
+  - AAAI-10098
+  - AAAI-10099
 z6A:
-  start_time: 2020-11-17 09:00:00+00:00
-  end_time: 2020-11-17 10:00:00+00:00
-  name: Zoom Q&A Session 6A
-  long_name: 'Zoom Q&A Session 6A: Syntax: Tagging, Chunking, and Parsing'
-  zoom_link: https://us02web.zoom.us/j/88299398376?pwd=bnoyditPa0kxSjBRQjJHYndWVkhkUT09
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
   papers:
-  - TACL.2411
-  - main.750
-  - main.1225
-  - main.2895
-  - main.3282
-z6B:
-  start_time: 2020-11-17 09:00:00+00:00
-  end_time: 2020-11-17 10:00:00+00:00
-  name: Zoom Q&A Session 6B
-  long_name: 'Zoom Q&A Session 6B: Machine Translation and Multilinguality'
-  zoom_link: https://us02web.zoom.us/j/81578934481?pwd=THlYUlFabXZoVnoyckM5VG1aT1lsQT09
-  papers:
-  - main.1402
-  - main.623
-  - main.2131
-  - main.2718
-  - CL.2
-z6C:
-  start_time: 2020-11-17 09:00:00+00:00
-  end_time: 2020-11-17 10:00:00+00:00
-  name: Zoom Q&A Session 6C
-  long_name: 'Zoom Q&A Session 6C: Question Answering'
-  zoom_link: https://us02web.zoom.us/j/89338601804?pwd=TENaRmpXM21SdEtDUXRyZTcrRGdHQT09
-  papers:
-  - main.1004
-  - main.1022
-  - main.2258
-  - main.1622
-z6D:
-  start_time: 2020-11-17 09:00:00+00:00
-  end_time: 2020-11-17 10:00:00+00:00
-  name: Zoom Q&A Session 6D
-  long_name: 'Zoom Q&A Session 6D: Semantics: Sentence-level Semantics, Textual Inference
-    and Other areas'
-  zoom_link: https://us02web.zoom.us/j/82920897926?pwd=LzRrcjVsVW92SGxnbWxQTDFyMUE3UT09
-  papers:
-  - main.3057
-  - main.1187
-  - main.1032
-  - main.1649
-  - main.2098
-g2A:
-  start_time: 2020-11-17 10:00:00+00:00
-  end_time: 2020-11-17 12:00:00+00:00
-  name: Gather Session 2A
-  long_name: 'Gather Session 2A: Machine Learning for NLP'
-  papers:
-  - main.1018
-  - main.1208
-  - main.1498
-  - main.1682
-  - main.2370
-  - main.2873
-  - main.3205
-  - main.3321
-  - main.410
-  - main.763
-  - main.956
-  - main.977
-g2B:
-  start_time: 2020-11-17 10:00:00+00:00
-  end_time: 2020-11-17 12:00:00+00:00
-  name: Gather Session 2B
-  long_name: 'Gather Session 2B: Dialog and Interactive Systems'
-  papers:
-  - main.1006
-  - main.1846
-  - main.2070
-  - main.2212
-  - main.2975
-  - main.478
-  - main.664
-  - main.699
-  - main.787
-  - main.954
-g2C:
-  start_time: 2020-11-17 10:00:00+00:00
-  end_time: 2020-11-17 12:00:00+00:00
-  name: Gather Session 2C
-  long_name: 'Gather Session 2C: Information Extraction'
-  papers:
-  - main.1159
-  - main.1547
-  - main.1566
-  - main.1862
-  - main.2739
-  - main.327
-  - main.3519
-  - main.3617
-  - main.3646
-g2D:
-  start_time: 2020-11-17 10:00:00+00:00
-  end_time: 2020-11-17 12:00:00+00:00
-  name: Gather Session 2D
-  long_name: 'Gather Session 2D: NLP Applications; Semantics: Lexical Semantics'
-  papers:
-  - main.1180
-  - main.1739
-  - main.2225
-  - main.179
-  - main.2764
-  - main.3431
-  - main.3496
-  - main.1857
-  - main.1935
-  - main.598
-  - main.2151
-  - main.2251
-g2E:
-  start_time: 2020-11-17 10:00:00+00:00
-  end_time: 2020-11-17 12:00:00+00:00
-  name: Gather Session 2E
-  long_name: 'Gather Session 2E: Machine Translation and Multilinguality; Phonology,
-    Morphology and Word Segmentation'
-  papers:
-  - main.2061
-  - main.246
-  - main.3688
-  - main.701
-  - main.835
-  - main.865
-  - main.891
-  - main.894
-  - main.1733
-  - main.2424
-  - main.557
-  - main.930
-g2F:
-  start_time: 2020-11-17 10:00:00+00:00
-  end_time: 2020-11-17 12:00:00+00:00
-  name: Gather Session 2F
-  long_name: 'Gather Session 2F: Discourse and Pragmatics; Machine Translation and
-    Multilinguality'
-  papers:
-  - main.2075
-  - main.2512
-  - main.955
-  - main.1146
-  - main.1248
-  - main.1263
-  - main.2163
-  - main.2298
-  - main.353
-  - main.618
-  - main.852
-g2G:
-  start_time: 2020-11-17 10:00:00+00:00
-  end_time: 2020-11-17 12:00:00+00:00
-  name: Gather Session 2G
-  long_name: 'Gather Session 2G: Language Grounding to Vision, Robotics and Beyond'
-  papers:
-  - main.1030
-  - main.1196
-  - main.279
-  - main.2927
-  - main.3088
-  - main.355
-  - main.593
-  - main.995
-g2H:
-  start_time: 2020-11-17 10:00:00+00:00
-  end_time: 2020-11-17 12:00:00+00:00
-  name: Gather Session 2H
-  long_name: 'Gather Session 2H: Computational Social Science and Social Media; Sentiment
-    Analysis, Stylistic Analysis, and Argument Mining'
-  papers:
-  - main.1626
-  - main.1904
-  - main.2057
-  - main.3101
-  - main.360
-  - main.1766
-  - main.3185
-  - main.3286
-  - main.3329
-  - main.3594
-  - main.392
-  - main.733
-g2I:
-  start_time: 2020-11-17 10:00:00+00:00
-  end_time: 2020-11-17 12:00:00+00:00
-  name: Gather Session 2I
-  long_name: 'Gather Session 2I: Information Retrieval and Text Mining; Language Generation'
-  papers:
-  - main.1205
-  - main.16
-  - main.3327
-  - main.548
-  - main.748
-  - main.1647
-  - main.214
-  - main.2357
-  - main.2766
-  - main.3353
-  - main.870
-g2J:
-  start_time: 2020-11-17 10:00:00+00:00
-  end_time: 2020-11-17 12:00:00+00:00
-  name: Gather Session 2J
-  long_name: 'Gather Session 2J: Question Answering; Syntax: Tagging, Chunking, and
-    Parsing'
-  papers:
-  - main.1837
-  - main.2253
-  - main.2337
-  - main.390
-  - main.449
-  - main.1625
-  - main.207
-  - main.447
-  - main.486
-  - main.877
-g2K:
-  start_time: 2020-11-17 10:00:00+00:00
-  end_time: 2020-11-17 12:00:00+00:00
-  name: Gather Session 2K
-  long_name: 'Gather Session 2K: Interpretability and Analysis of Models for NLP;
-    Summarization'
-  papers:
-  - main.1551
-  - main.1612
-  - main.1614
-  - main.1996
-  - main.958
-  - main.1952
-  - main.3012
-  - main.3437
-  - main.693
-  - main.714
-g2L:
-  start_time: 2020-11-17 10:00:00+00:00
-  end_time: 2020-11-17 12:00:00+00:00
-  name: Gather Session 2L
-  long_name: 'Gather Session 2L: Interpretability and Analysis of Models for NLP;
-    Semantics: Sentence-level Semantics, Textual Inference and Other areas'
-  papers:
-  - main.1901
-  - main.2215
-  - main.3513
-  - main.3529
-  - main.87
-  - main.1061
-  - main.1267
-  - main.1379
-  - main.1754
-  - main.2419
-g2M:
-  start_time: 2020-11-17 10:00:00+00:00
-  end_time: 2020-11-17 12:00:00+00:00
-  name: Gather Session 2M
-  long_name: 'Gather Session 2M: Demos'
-  papers:
-  - demo.49
-  - demo.71
-  - demo.109
-  - demo.124
-  - demo.131
-  - demo.132
+  - AAAI-10103
+  - AAAI-10105
+  - AAAI-10106
+  - AAAI-10108
+  - AAAI-10116
 z7A:
-  start_time: 2020-11-17 16:00:00+00:00
-  end_time: 2020-11-17 17:00:00+00:00
-  name: Zoom Q&A Session 7A
-  long_name: 'Zoom Q&A Session 7A: Dialog and Interactive Systems'
-  zoom_link: https://us02web.zoom.us/j/86025460804?pwd=R2pGUHVkRmwweDhCbEF1bzFzVmZjZz09
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
   papers:
-  - main.2066
-  - main.2583
-  - main.2281
-  - main.2410
-z7B:
-  start_time: 2020-11-17 16:00:00+00:00
-  end_time: 2020-11-17 17:00:00+00:00
-  name: Zoom Q&A Session 7B
-  long_name: 'Zoom Q&A Session 7B: Linguistic Theories, Cognitive Modeling and Psycholinguistics'
-  zoom_link: https://us02web.zoom.us/j/89871081567?pwd=Mlo1WFJDaFU4eGtzeGxKT0hTbWdkUT09
-  papers:
-  - main.644
-  - main.1282
-  - main.1492
-  - main.3115
-  - TACL.2013
-z7C:
-  start_time: 2020-11-17 16:00:00+00:00
-  end_time: 2020-11-17 17:00:00+00:00
-  name: Zoom Q&A Session 7C
-  long_name: 'Zoom Q&A Session 7C: Semantics: Lexical Semantics'
-  zoom_link: https://us02web.zoom.us/j/87522413085?pwd=Ykpld0JleUl4TUhXZk9GRUlnZDZuUT09
-  papers:
-  - main.2891
-  - main.1395
-  - main.1393
-  - main.2920
-z7D:
-  start_time: 2020-11-17 16:00:00+00:00
-  end_time: 2020-11-17 17:00:00+00:00
-  name: Zoom Q&A Session 7D
-  long_name: 'Zoom Q&A Session 7D: Summarization'
-  zoom_link: https://us02web.zoom.us/j/87108869894?pwd=aHBLOHBxUU9sR1Z2VmpBTjVJMGt3dz09
-  papers:
-  - main.645
-  - main.1023
-  - main.3464
-  - main.3398
+  - AAAI-10118
+  - AAAI-10119
+  - AAAI-10120
+  - AAAI-10122
+  - AAAI-10128
 z8A:
-  start_time: 2020-11-17 17:00:00+00:00
-  end_time: 2020-11-17 18:00:00+00:00
-  name: Zoom Q&A Session 8A
-  long_name: 'Zoom Q&A Session 8A: Information Retrieval and Text Mining'
-  zoom_link: https://us02web.zoom.us/j/83414011778?pwd=aEoyOW9vMWcxSU9JK3ErWUo2RC94UT09
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
   papers:
-  - main.1298
-  - main.2825
-  - main.3541
-  - main.3240
-z8B:
-  start_time: 2020-11-17 17:00:00+00:00
-  end_time: 2020-11-17 18:00:00+00:00
-  name: Zoom Q&A Session 8B
-  long_name: 'Zoom Q&A Session 8B: Interpretability and Analysis of Models for NLP'
-  zoom_link: https://us02web.zoom.us/j/88499908559?pwd=NHAzQ0FyRW5UeGVNcURVRFJRWlpqdz09
-  papers:
-  - main.2005
-  - main.2040
-  - main.2763
-  - main.2585
-z8C:
-  start_time: 2020-11-17 17:00:00+00:00
-  end_time: 2020-11-17 18:00:00+00:00
-  name: Zoom Q&A Session 8C
-  long_name: 'Zoom Q&A Session 8C: Language Generation'
-  zoom_link: https://us02web.zoom.us/j/85116457799?pwd=WURraGpXWTZjOU02WUZPZ3RZN0FPZz09
-  papers:
-  - main.648
-  - main.1687
-  - main.2430
-  - main.2982
-  - main.3179
-z8D:
-  start_time: 2020-11-17 17:00:00+00:00
-  end_time: 2020-11-17 18:00:00+00:00
-  name: Zoom Q&A Session 8D
-  long_name: 'Zoom Q&A Session 8D: Language Grounding to Vision, Robotics and Beyond'
-  zoom_link: https://us02web.zoom.us/j/85670441533?pwd=YUg5WXArQ2tiT09vUUlVaE95SVdWZz09
-  papers:
-  - main.2058
-  - main.2702
-  - main.76
-  - main.1113
-  - main.2991
-g3A:
-  start_time: 2020-11-17 18:00:00+00:00
-  end_time: 2020-11-17 20:00:00+00:00
-  name: Gather Session 3A
-  long_name: 'Gather Session 3A: Machine Translation and Multilinguality'
-  papers:
-  - main.1383
-  - main.1445
-  - main.2412
-  - main.2490
-  - main.2500
-  - main.2661
-  - main.267
-  - main.2767
-  - main.3116
-  - main.74
-  - main.875
-g3B:
-  start_time: 2020-11-17 18:00:00+00:00
-  end_time: 2020-11-17 20:00:00+00:00
-  name: Gather Session 3B
-  long_name: 'Gather Session 3B: NLP Applications'
-  papers:
-  - main.1446
-  - main.1594
-  - main.2367
-  - main.2391
-  - main.2396
-  - main.2515
-  - main.3093
-  - main.3486
-  - main.809
-  - main.851
-g3C:
-  start_time: 2020-11-17 18:00:00+00:00
-  end_time: 2020-11-17 20:00:00+00:00
-  name: Gather Session 3C
-  long_name: 'Gather Session 3C: Machine Learning for NLP'
-  papers:
-  - main.151
-  - main.1528
-  - main.2271
-  - main.2491
-  - main.2784
-  - main.2790
-  - main.3348
-  - main.825
-g3D:
-  start_time: 2020-11-17 18:00:00+00:00
-  end_time: 2020-11-17 20:00:00+00:00
-  name: Gather Session 3D
-  long_name: 'Gather Session 3D: Computational Social Science and Social Media; Language
-    Generation'
-  papers:
-  - main.2707
-  - main.3028
-  - main.3068
-  - main.3352
-  - main.868
-  - main.1339
-  - main.168
-  - main.789
-  - main.2313
-  - main.2448
-  - main.2916
-  - main.3403
-  - main.3457
-g3E:
-  start_time: 2020-11-17 18:00:00+00:00
-  end_time: 2020-11-17 20:00:00+00:00
-  name: Gather Session 3E
-  long_name: 'Gather Session 3E: Information Extraction; Phonology, Morphology and
-    Word Segmentation'
-  papers:
-  - main.2508
-  - main.2608
-  - main.2922
-  - main.3231
-  - main.3336
-  - main.3390
-  - main.861
-  - main.2064
-  - main.2675
-  - main.2847
-g3F:
-  start_time: 2020-11-17 18:00:00+00:00
-  end_time: 2020-11-17 20:00:00+00:00
-  name: Gather Session 3F
-  long_name: 'Gather Session 3F: Dialog and Interactive Systems; Linguistic Theories,
-    Cognitive Modeling and Psycholinguistics'
-  papers:
-  - main.1179
-  - main.1654
-  - main.2641
-  - main.3217
-  - main.3393
-  - main.850
-  - main.876
-  - main.2851
-  - main.3181
-  - main.373
-g3G:
-  start_time: 2020-11-17 18:00:00+00:00
-  end_time: 2020-11-17 20:00:00+00:00
-  name: Gather Session 3G
-  long_name: 'Gather Session 3G: Question Answering; Syntax: Tagging, Chunking, and
-    Parsing'
-  papers:
-  - main.108
-  - main.1782
-  - main.1877
-  - main.2078
-  - main.2120
-  - main.595
-  - main.1258
-  - main.1494
-  - main.1943
-  - main.3046
-  - main.3259
-g3H:
-  start_time: 2020-11-17 18:00:00+00:00
-  end_time: 2020-11-17 20:00:00+00:00
-  name: Gather Session 3H
-  long_name: 'Gather Session 3H: Interpretability and Analysis of Models for NLP;
-    Semantics: Sentence-level Semantics, Textual Inference and Other areas'
-  papers:
-  - main.1484
-  - main.1631
-  - main.2414
-  - main.2438
-  - main.3278
-  - main.3543
-  - main.1103
-  - main.1938
-  - main.2989
-  - main.2644
-  - main.32
-  - main.41
-  - main.607
-g3I:
-  start_time: 2020-11-17 18:00:00+00:00
-  end_time: 2020-11-17 20:00:00+00:00
-  name: Gather Session 3I
-  long_name: 'Gather Session 3I: Demos'
-  papers:
-  - demo.59
-  - demo.60
-  - demo.72
-  - demo.79
-  - demo.89
-  - demo.97
+  - AAAI-10130
+  - AAAI-10131
+  - AAAI-10136
+  - AAAI-10137
+  - AAAI-10138
 z9A:
-  start_time: 2020-11-18 00:00:00+00:00
-  end_time: 2020-11-18 01:00:00+00:00
-  name: Zoom Q&A Session 9A
-  long_name: 'Zoom Q&A Session 9A: Speech and Multimodality'
-  zoom_link: https://us02web.zoom.us/j/83146526657?pwd=WnlKUWZIVzNwdHpCU1c3MEllMGFaQT09
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
   papers:
-  - main.2383
-  - main.3239
-  - main.2218
-  - CL.4
-z9B:
-  start_time: 2020-11-18 00:00:00+00:00
-  end_time: 2020-11-18 01:00:00+00:00
-  name: Zoom Q&A Session 9B
-  long_name: 'Zoom Q&A Session 9B: Machine Learning for NLP'
-  zoom_link: https://us02web.zoom.us/j/82992509042?pwd=VngyL1R4MDgrRzIyaDNYajhrdzl1dz09
-  papers:
-  - main.60
-  - main.1356
-  - main.2198
-  - main.2636
-  - main.2834
-z9C:
-  start_time: 2020-11-18 00:00:00+00:00
-  end_time: 2020-11-18 01:00:00+00:00
-  name: Zoom Q&A Session 9C
-  long_name: 'Zoom Q&A Session 9C: Sentiment Analysis, Stylistic Analysis, and Argument
-    Mining'
-  zoom_link: https://us02web.zoom.us/j/86268989236?pwd=encyOXhQTnRiR09zM1VjWGI1eGxqZz09
-  papers:
-  - main.1289
-  - main.2549
-  - main.3462
-  - main.668
+  - AAAI-10141
+  - AAAI-10143
+  - AAAI-10145
+  - AAAI-10146
+  - AAAI-10147
 z10A:
-  start_time: 2020-11-18 01:00:00+00:00
-  end_time: 2020-11-18 02:00:00+00:00
-  name: Zoom Q&A Session 10A
-  long_name: 'Zoom Q&A Session 10A: Phonology, Morphology and Word Segmentation'
-  zoom_link: https://us02web.zoom.us/j/81887257278?pwd=L3ZwZ1dyZk0yVmRzMllJUEczRE1xdz09
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
   papers:
-  - main.1320
-  - main.3563
-  - main.3656
-  - main.2208
-z10B:
-  start_time: 2020-11-18 01:00:00+00:00
-  end_time: 2020-11-18 02:00:00+00:00
-  name: Zoom Q&A Session 10B
-  long_name: 'Zoom Q&A Session 10B: Information Extraction'
-  zoom_link: https://us02web.zoom.us/j/83339288117?pwd=RVJGcEJSRGo5T1dBanY4eEwyYmdJZz09
-  papers:
-  - main.684
-  - main.1011
-  - main.2972
-  - main.3084
-z10C:
-  start_time: 2020-11-18 01:00:00+00:00
-  end_time: 2020-11-18 02:00:00+00:00
-  name: Zoom Q&A Session 10C
-  long_name: 'Zoom Q&A Session 10C: Machine Translation and Multilinguality'
-  zoom_link: https://us02web.zoom.us/j/87967084160?pwd=UXVHcjR1dUFVWkN1UVpKNlVkY1ptQT09
-  papers:
-  - main.1552
-  - main.2581
-  - main.3051
-  - TACL.1943
-z10D:
-  start_time: 2020-11-18 01:00:00+00:00
-  end_time: 2020-11-18 02:00:00+00:00
-  name: Zoom Q&A Session 10D
-  long_name: 'Zoom Q&A Session 10D: Question Answering'
-  zoom_link: https://us02web.zoom.us/j/83956172458?pwd=L1dIbGtqNHJWVzM5SjcvbHR2VW1sdz09
-  papers:
-  - main.1580
-  - main.1262
-  - main.2586
-  - main.3672
-g4A:
-  start_time: 2020-11-18 02:00:00+00:00
-  end_time: 2020-11-18 04:00:00+00:00
-  name: Gather Session 4A
-  long_name: 'Gather Session 4A: Machine Translation and Multilinguality'
-  papers:
-  - main.1100
-  - main.1572
-  - main.1986
-  - main.2278
-  - main.2493
-  - main.2630
-  - main.2746
-  - main.3597
-  - main.585
-  - main.639
-  - main.871
-g4B:
-  start_time: 2020-11-18 02:00:00+00:00
-  end_time: 2020-11-18 04:00:00+00:00
-  name: Gather Session 4B
-  long_name: 'Gather Session 4B: Machine Learning for NLP'
-  papers:
-  - main.1508
-  - main.247
-  - main.2632
-  - main.1734
-  - main.2914
-  - main.3074
-  - main.3434
-  - main.371
-  - main.426
-  - main.47
-  - main.517
-g4C:
-  start_time: 2020-11-18 02:00:00+00:00
-  end_time: 2020-11-18 04:00:00+00:00
-  name: Gather Session 4C
-  long_name: 'Gather Session 4C: Information Extraction'
-  papers:
-  - main.1738
-  - main.1787
-  - main.2799
-  - main.287
-  - main.2947
-  - main.2974
-  - main.3032
-  - main.3453
-  - main.3517
-  - main.911
-g4D:
-  start_time: 2020-11-18 02:00:00+00:00
-  end_time: 2020-11-18 04:00:00+00:00
-  name: Gather Session 4D
-  long_name: 'Gather Session 4D: Dialog and Interactive Systems'
-  papers:
-  - main.165
-  - main.2042
-  - main.2050
-  - main.3157
-  - main.3580
-  - main.3593
-  - main.689
-  - main.916
-  - main.999
-g4E:
-  start_time: 2020-11-18 02:00:00+00:00
-  end_time: 2020-11-18 04:00:00+00:00
-  name: Gather Session 4E
-  long_name: 'Gather Session 4E: Sentiment Analysis, Stylistic Analysis, and Argument
-    Mining'
-  papers:
-  - main.1217
-  - main.1299
-  - main.1550
-  - main.1675
-  - main.2133
-  - main.3064
-  - main.3454
-  - main.3579
-g4F:
-  start_time: 2020-11-18 02:00:00+00:00
-  end_time: 2020-11-18 04:00:00+00:00
-  name: Gather Session 4F
-  long_name: 'Gather Session 4F: Computational Social Science and Social Media; Semantics:
-    Sentence-level Semantics, Textual Inference and Other areas'
-  papers:
-  - main.1997
-  - main.2216
-  - main.3551
-  - main.3566
-  - main.1107
-  - main.1495
-  - main.1784
-  - main.1866
-  - main.349
-  - main.3507
-  - main.3682
-g4G:
-  start_time: 2020-11-18 02:00:00+00:00
-  end_time: 2020-11-18 04:00:00+00:00
-  name: Gather Session 4G
-  long_name: 'Gather Session 4G: NLP Applications; Semantics: Lexical Semantics'
-  papers:
-  - main.1250
-  - main.1465
-  - main.2261
-  - main.2995
-  - main.3013
-  - main.3344
-  - main.3174
-  - main.3567
-  - main.2076
-  - main.2112
-  - main.298
-g4H:
-  start_time: 2020-11-18 02:00:00+00:00
-  end_time: 2020-11-18 04:00:00+00:00
-  name: Gather Session 4H
-  long_name: 'Gather Session 4H: Discourse and Pragmatics; Language Generation'
-  papers:
-  - main.1141
-  - main.1863
-  - main.3292
-  - main.1658
-  - main.1928
-  - main.2382
-  - main.1428
-  - main.2590
-  - main.2864
-  - main.3186
-g4I:
-  start_time: 2020-11-18 02:00:00+00:00
-  end_time: 2020-11-18 04:00:00+00:00
-  name: Gather Session 4I
-  long_name: 'Gather Session 4I: Interpretability and Analysis of Models for NLP;
-    Syntax: Tagging, Chunking, and Parsing'
-  papers:
-  - main.1052
-  - main.1280
-  - main.1613
-  - main.3143
-  - main.3304
-  - main.1615
-  - main.1755
-  - main.2529
-  - main.2733
-  - main.3648
-  - main.744
-g4J:
-  start_time: 2020-11-18 02:00:00+00:00
-  end_time: 2020-11-18 04:00:00+00:00
-  name: Gather Session 4J
-  long_name: 'Gather Session 4J: Question Answering; Summarization'
-  papers:
-  - main.1123
-  - main.1191
-  - main.1975
-  - main.2587
-  - main.531
-  - main.1091
-  - main.2437
-  - main.2470
-  - main.540
-  - main.2650
-  - main.3389
-  - main.3581
-g4K:
-  start_time: 2020-11-18 02:00:00+00:00
-  end_time: 2020-11-18 04:00:00+00:00
-  name: Gather Session 4K
-  long_name: 'Gather Session 4K: Demos'
-  papers:
-  - demo.54
-  - demo.91
-  - demo.104
-  - demo.107
-  - demo.118
+  - AAAI-10151
+  - AAAI-10152
+  - AAAI-10153
+  - AAAI-10160
+  - AAAI-10161
 z11A:
-  start_time: 2020-11-18 08:00:00+00:00
-  end_time: 2020-11-18 09:00:00+00:00
-  name: Zoom Q&A Session 11A
-  long_name: 'Zoom Q&A Session 11A: Interpretability and Analysis of Models for NLP'
-  zoom_link: https://us02web.zoom.us/j/82106550824?pwd=SlAzMHZHcjQvVkFTc3RxWGN0clltUT09
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
   papers:
-  - main.1970
-  - main.616
-  - main.959
-  - main.2696
-z11B:
-  start_time: 2020-11-18 08:00:00+00:00
-  end_time: 2020-11-18 09:00:00+00:00
-  name: Zoom Q&A Session 11B
-  long_name: 'Zoom Q&A Session 11B: NLP Applications'
-  zoom_link: https://us02web.zoom.us/j/81075150687?pwd=SmdGR1plOS81WEZPY012RUhhazd1UT09
-  papers:
-  - main.1231
-  - main.3676
-  - main.1010
-  - main.2117
-  - main.3299
-z11C:
-  start_time: 2020-11-18 08:00:00+00:00
-  end_time: 2020-11-18 09:00:00+00:00
-  name: Zoom Q&A Session 11C
-  long_name: 'Zoom Q&A Session 11C: Question Answering'
-  zoom_link: https://us02web.zoom.us/j/82529980845?pwd=YnNicFBHOUM2dW1mcTRGdUpjcjRRdz09
-  papers:
-  - TACL.2129
-  - main.315
-  - main.782
-  - TACL.2041
-z11D:
-  start_time: 2020-11-18 08:00:00+00:00
-  end_time: 2020-11-18 09:00:00+00:00
-  name: Zoom Q&A Session 11D
-  long_name: 'Zoom Q&A Session 11D: Semantics: Lexical Semantics'
-  zoom_link: https://us02web.zoom.us/j/87235539709?pwd=QnZtUjdqWFpRUjZseVh3bExwV25LUT09
-  papers:
-  - main.143
-  - main.2349
-  - main.2363
-  - TACL.2011
+  - AAAI-10165
+  - AAAI-10167
+  - AAAI-10169
+  - AAAI-10177
+  - AAAI-10180
 z12A:
-  start_time: 2020-11-18 09:00:00+00:00
-  end_time: 2020-11-18 10:00:00+00:00
-  name: Zoom Q&A Session 12A
-  long_name: 'Zoom Q&A Session 12A: Dialog and Interactive Systems'
-  zoom_link: https://us02web.zoom.us/j/81431871678?pwd=Wkp6cmhOSk5kWll5RFZPTDZ1Z1RYZz09
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
   papers:
-  - main.407
-  - main.3257
-  - main.3495
-  - TACL.2389
-z12B:
-  start_time: 2020-11-18 09:00:00+00:00
-  end_time: 2020-11-18 10:00:00+00:00
-  name: Zoom Q&A Session 12B
-  long_name: 'Zoom Q&A Session 12B: Information Extraction'
-  zoom_link: https://us02web.zoom.us/j/89103809569?pwd=dHpGODFFc09Fb3FRNkg0T1lEQXBaUT09
-  papers:
-  - main.387
-  - main.605
-  - main.1974
-  - TACL.2103
-z12C:
-  start_time: 2020-11-18 09:00:00+00:00
-  end_time: 2020-11-18 10:00:00+00:00
-  name: Zoom Q&A Session 12C
-  long_name: 'Zoom Q&A Session 12C: Machine Learning for NLP'
-  zoom_link: https://us02web.zoom.us/j/89778699711?pwd=YXBhUElLb3NyR3pFVVNxRDYzMEk5QT09
-  papers:
-  - main.658
-  - main.973
-  - main.1399
-  - main.2406
-  - TACL.2255
-z12D:
-  start_time: 2020-11-18 09:00:00+00:00
-  end_time: 2020-11-18 10:00:00+00:00
-  name: Zoom Q&A Session 12D
-  long_name: 'Zoom Q&A Session 12D: Sentiment Analysis, Stylistic Analysis, and Argument
-    Mining'
-  zoom_link: https://us02web.zoom.us/j/87300792275?pwd=MkxaQnZwenZKK3Z3a2N1a29uRDBVUT09
-  papers:
-  - main.384
-  - main.2094
-  - main.3023
-  - main.2068
+  - AAAI-10185
+  - AAAI-10188
+  - AAAI-10192
+  - AAAI-10193
+  - AAAI-10194
 z13A:
-  start_time: 2020-11-18 16:00:00+00:00
-  end_time: 2020-11-18 17:00:00+00:00
-  name: Zoom Q&A Session 13A
-  long_name: 'Zoom Q&A Session 13A: Discourse and Pragmatics'
-  zoom_link: https://us02web.zoom.us/j/81503783246?pwd=eUM3ZThwT05yUTNLanZzNzRJQ0tKUT09
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
   papers:
-  - main.1972
-  - main.2072
-  - main.2205
-  - main.2377
-  - main.3072
-z13B:
-  start_time: 2020-11-18 16:00:00+00:00
-  end_time: 2020-11-18 17:00:00+00:00
-  name: Zoom Q&A Session 13B
-  long_name: 'Zoom Q&A Session 13B: NLP Applications'
-  zoom_link: https://us02web.zoom.us/j/82231184127?pwd=bDVFdnJsT3dwZUxtY3FPNE1SQkFHQT09
-  papers:
-  - main.3573
-  - CL.3
-  - main.2167
-  - main.2579
-  - main.2962
-z13C:
-  start_time: 2020-11-18 16:00:00+00:00
-  end_time: 2020-11-18 17:00:00+00:00
-  name: Zoom Q&A Session 13C
-  long_name: 'Zoom Q&A Session 13C: Semantics: Sentence-level Semantics, Textual Inference
-    and Other areas'
-  zoom_link: https://us02web.zoom.us/j/85610984916?pwd=RTA2Tjl3OWI3Q21URGJ4YytTYVMvUT09
-  papers:
-  - main.1957
-  - main.2533
-  - main.3291
-  - main.1408
-z13D:
-  start_time: 2020-11-18 16:00:00+00:00
-  end_time: 2020-11-18 17:00:00+00:00
-  name: Zoom Q&A Session 13D
-  long_name: 'Zoom Q&A Session 13D: Syntax: Tagging, Chunking, and Parsing'
-  zoom_link: https://us02web.zoom.us/j/88478787631?pwd=TmFxTGJzbVc4cllZYmhYVG9yREQwdz09
-  papers:
-  - CL.1
-  - CL.5
-  - TACL.1936
-  - TACL.2141
-  - main.2684
+  - AAAI-10195
+  - AAAI-10197
+  - AAAI-1020
+  - AAAI-10202
+  - AAAI-10207
 z14A:
-  start_time: 2020-11-18 17:00:00+00:00
-  end_time: 2020-11-18 18:00:00+00:00
-  name: Zoom Q&A Session 14A
-  long_name: 'Zoom Q&A Session 14A: Machine Translation and Multilinguality'
-  zoom_link: https://us02web.zoom.us/j/85331513992?pwd=UmdEY01Ja1FjSGxJZFFTdDRiRm1tQT09
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
   papers:
-  - main.522
-  - main.2114
-  - main.1803
-  - main.2055
-  - TACL.2221
-z14B:
-  start_time: 2020-11-18 17:00:00+00:00
-  end_time: 2020-11-18 18:00:00+00:00
-  name: Zoom Q&A Session 14B
-  long_name: 'Zoom Q&A Session 14B: Computational Social Science and Social Media'
-  zoom_link: https://us02web.zoom.us/j/83902636901?pwd=SGpCY2o2V0NWYkFsNGpYbUZKa2RQdz09
-  papers:
-  - main.2510
-  - main.3644
-  - main.872
-  - main.2614
-  - main.3151
-z14C:
-  start_time: 2020-11-18 17:00:00+00:00
-  end_time: 2020-11-18 18:00:00+00:00
-  name: Zoom Q&A Session 14C
-  long_name: 'Zoom Q&A Session 14C: Machine Learning for NLP'
-  zoom_link: https://us02web.zoom.us/j/81517071485?pwd=Z3ZxQ1g5UkpBZnFYTTNGQkVicitKUT09
-  papers:
-  - main.2574
-  - TACL.2083
-  - TACL.2093
-  - main.2221
-z14D:
-  start_time: 2020-11-18 17:00:00+00:00
-  end_time: 2020-11-18 18:00:00+00:00
-  name: Zoom Q&A Session 14D
-  long_name: 'Zoom Q&A Session 14D: Information Extraction'
-  zoom_link: https://us02web.zoom.us/j/88173630953?pwd=YVlRMFZkMlpYRDMyWi8yMFBURkpDZz09
-  papers:
-  - main.485
-  - main.2570
-  - main.2724
-  - main.2750
-  - main.3216
-g5A:
-  start_time: 2020-11-18 18:00:00+00:00
-  end_time: 2020-11-18 20:00:00+00:00
-  name: Gather Session 5A
-  long_name: 'Gather Session 5A: Machine Learning for NLP'
-  papers:
-  - main.1227
-  - main.1351
-  - main.1490
-  - main.2087
-  - main.2331
-  - main.345
-  - main.493
-  - main.745
-  - main.821
-g5B:
-  start_time: 2020-11-18 18:00:00+00:00
-  end_time: 2020-11-18 20:00:00+00:00
-  name: Gather Session 5B
-  long_name: 'Gather Session 5B: Semantics: Sentence-level Semantics, Textual Inference
-    and Other areas'
-  papers:
-  - main.1834
-  - main.1923
-  - main.2268
-  - main.2342
-  - main.2415
-  - main.2777
-  - main.2890
-  - main.2999
-  - main.359
-g5C:
-  start_time: 2020-11-18 18:00:00+00:00
-  end_time: 2020-11-18 20:00:00+00:00
-  name: Gather Session 5C
-  long_name: 'Gather Session 5C: NLP Applications'
-  papers:
-  - main.1129
-  - main.125
-  - main.1322
-  - main.1906
-  - main.3049
-  - main.3126
-  - main.470
-  - main.767
-g5D:
-  start_time: 2020-11-18 18:00:00+00:00
-  end_time: 2020-11-18 20:00:00+00:00
-  name: Gather Session 5D
-  long_name: 'Gather Session 5D: Information Extraction'
-  papers:
-  - main.1466
-  - main.1569
-  - main.1669
-  - main.1720
-  - main.1817
-  - main.2426
-  - main.2476
-  - main.883
-g5E:
-  start_time: 2020-11-18 18:00:00+00:00
-  end_time: 2020-11-18 20:00:00+00:00
-  name: Gather Session 5E
-  long_name: 'Gather Session 5E: Question Answering; Sentiment Analysis, Stylistic
-    Analysis, and Argument Mining'
-  papers:
-  - main.2761
-  - main.2943
-  - main.3035
-  - main.319
-  - main.574
-  - main.1603
-  - main.1750
-  - main.2712
-  - main.3357
-  - main.3375
-  - main.3532
-  - main.476
-g5F:
-  start_time: 2020-11-18 18:00:00+00:00
-  end_time: 2020-11-18 20:00:00+00:00
-  name: Gather Session 5F
-  long_name: 'Gather Session 5F: Language Grounding to Vision, Robotics and Beyond;
-    Speech and Multimodality'
-  papers:
-  - main.1455
-  - main.1578
-  - main.2322
-  - main.2839
-  - main.284
-  - main.3504
-  - main.445
-  - main.1024
-  - main.106
-  - main.2520
-  - main.2915
-g5G:
-  start_time: 2020-11-18 18:00:00+00:00
-  end_time: 2020-11-18 20:00:00+00:00
-  name: Gather Session 5G
-  long_name: 'Gather Session 5G: Language Generation; Semantics: Lexical Semantics'
-  papers:
-  - main.1482
-  - main.1707
-  - main.1898
-  - main.3483
-  - main.730
-  - main.910
-  - main.1305
-  - main.2596
-  - main.3224
-g5H:
-  start_time: 2020-11-18 18:00:00+00:00
-  end_time: 2020-11-18 20:00:00+00:00
-  name: Gather Session 5H
-  long_name: 'Gather Session 5H: Dialog and Interactive Systems; Discourse and Pragmatics'
-  papers:
-  - main.1389
-  - main.1561
-  - main.2141
-  - main.2444
-  - main.2612
-  - main.527
-  - main.834
-  - main.1518
-  - main.1621
-  - main.3647
-g5I:
-  start_time: 2020-11-18 18:00:00+00:00
-  end_time: 2020-11-18 20:00:00+00:00
-  name: Gather Session 5I
-  long_name: 'Gather Session 5I: Information Retrieval and Text Mining; Summarization'
-  papers:
-  - main.1070
-  - main.1460
-  - main.1488
-  - main.1493
-  - main.2289
-  - main.450
-  - main.2809
-  - main.2849
-  - main.504
-  - main.675
-g5J:
-  start_time: 2020-11-18 18:00:00+00:00
-  end_time: 2020-11-18 20:00:00+00:00
-  name: Gather Session 5J
-  long_name: 'Gather Session 5J: Demos'
-  papers:
-  - demo.93
-  - demo.116
-  - demo.119
-  - demo.126
-  - demo.127
-  - demo.128
+  - AAAI-10211
+  - AAAI-10215
+  - AAAI-10223
+  - AAAI-10224
+  - AAAI-10228
 z15A:
-  start_time: 2020-11-18 23:00:00+00:00
-  end_time: 2020-11-19 00:00:00+00:00
-  name: Zoom Q&A Session 15A
-  long_name: 'Zoom Q&A Session 15A: Information Retrieval and Text Mining'
-  zoom_link: https://us02web.zoom.us/j/89472678477?pwd=ak5mRS9iTmJoMTVER2pndmNJSkUxQT09
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
   papers:
-  - main.666
-  - main.989
-  - main.1611
-  - main.2756
-z15B:
-  start_time: 2020-11-18 23:00:00+00:00
-  end_time: 2020-11-19 00:00:00+00:00
-  name: Zoom Q&A Session 15B
-  long_name: 'Zoom Q&A Session 15B: NLP Applications'
-  zoom_link: https://us02web.zoom.us/j/81887255329?pwd=eXJjdU4vamY1YjFHTkhHWUJRMCt5Zz09
-  papers:
-  - main.3065
-  - main.3438
-  - main.2990
-  - main.3054
-  - main.1135
-z15C:
-  start_time: 2020-11-18 23:00:00+00:00
-  end_time: 2020-11-19 00:00:00+00:00
-  name: Zoom Q&A Session 15C
-  long_name: 'Zoom Q&A Session 15C: Semantics: Sentence-level Semantics, Textual Inference
-    and Other areas'
-  zoom_link: https://us02web.zoom.us/j/84690510115?pwd=d3E0eGhLdHZYN2VjY3RSaERCa2lpdz09
-  papers:
-  - main.2179
-  - main.2416
-  - main.3635
-  - TACL.2055
-  - main.1540
-z15D:
-  start_time: 2020-11-18 23:00:00+00:00
-  end_time: 2020-11-19 00:00:00+00:00
-  name: Zoom Q&A Session 15D
-  long_name: 'Zoom Q&A Session 15D: Language Generation'
-  zoom_link: https://us02web.zoom.us/j/86793597701?pwd=RUY3QjJIRER2bjZaNGVJczhCRXNmdz09
-  papers:
-  - main.2389
-  - main.252
-  - main.334
-  - main.3184
-  - TACL.1983
+  - AAAI-10232
+  - AAAI-10233
+  - AAAI-10237
+  - AAAI-10238
+  - AAAI-10252
 z16A:
-  start_time: 2020-11-19 00:00:00+00:00
-  end_time: 2020-11-19 01:00:00+00:00
-  name: Zoom Q&A Session 16A
-  long_name: 'Zoom Q&A Session 16A: Dialog and Interactive Systems'
-  zoom_link: https://us02web.zoom.us/j/82052099070?pwd=S1A0N050SCtqbDlid3JvWEQySU4yQT09
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
   papers:
-  - main.1797
-  - main.3318
-  - main.317
-  - main.1606
-  - main.233
-z16B:
-  start_time: 2020-11-19 00:00:00+00:00
-  end_time: 2020-11-19 01:00:00+00:00
-  name: Zoom Q&A Session 16B
-  long_name: 'Zoom Q&A Session 16B: Interpretability and Analysis of Models for NLP'
-  zoom_link: https://us02web.zoom.us/j/82892354187?pwd=ZFVYUXdKc2luaGNqWmg2UVlCSFgwZz09
+  - AAAI-10255
+  - AAAI-10256
+  - AAAI-1026
+  - AAAI-10263
+  - AAAI-10266
+z17A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
   papers:
-  - main.638
-  - main.2238
-  - main.2705
-  - main.2814
-z16C:
-  start_time: 2020-11-19 00:00:00+00:00
-  end_time: 2020-11-19 01:00:00+00:00
-  name: Zoom Q&A Session 16C
-  long_name: 'Zoom Q&A Session 16C: Summarization'
-  zoom_link: https://us02web.zoom.us/j/89015037036?pwd=ZHAvb3ExNDFIdXYrckFtUDJncGdKdz09
+  - AAAI-10273
+  - AAAI-10277
+  - AAAI-10284
+  - AAAI-10288
+  - AAAI-10289
+z18A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
   papers:
-  - main.1835
-  - main.2125
-  - main.2506
-  - main.3552
-  - main.702
+  - AAAI-1029
+  - AAAI-10290
+  - AAAI-10292
+  - AAAI-10297
+  - AAAI-103
+z19A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-10300
+  - AAAI-10301
+  - AAAI-10302
+  - AAAI-10304
+  - AAAI-10321
+z20A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-10322
+  - AAAI-10323
+  - AAAI-10328
+  - AAAI-10331
+  - AAAI-10332
+z21A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-10333
+  - AAAI-10336
+  - AAAI-10338
+  - AAAI-10339
+  - AAAI-10340
+z22A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-10343
+  - AAAI-10344
+  - AAAI-10346
+  - AAAI-1041
+  - AAAI-1049
+z23A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-1054
+  - AAAI-1057
+  - AAAI-1059
+  - AAAI-106
+  - AAAI-1060
+z24A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-1063
+  - AAAI-1066
+  - AAAI-1068
+  - AAAI-1069
+  - AAAI-1074
+z25A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-1078
+  - AAAI-1079
+  - AAAI-1083
+  - AAAI-1085
+  - AAAI-109
+z26A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-1094
+  - AAAI-1095
+  - AAAI-110
+  - AAAI-1103
+  - AAAI-1109
+z27A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-111
+  - AAAI-1121
+  - AAAI-1122
+  - AAAI-1123
+  - AAAI-1136
+z28A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-1137
+  - AAAI-1139
+  - AAAI-1140
+  - AAAI-1143
+  - AAAI-1162
+z29A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-1163
+  - AAAI-1169
+  - AAAI-117
+  - AAAI-1172
+  - AAAI-1173
+z30A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-1174
+  - AAAI-1178
+  - AAAI-1191
+  - AAAI-120
+  - AAAI-1201
+z31A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-1205
+  - AAAI-1212
+  - AAAI-1214
+  - AAAI-122
+  - AAAI-1236
+z32A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-1239
+  - AAAI-1250
+  - AAAI-1252
+  - AAAI-1260
+  - AAAI-1263
+z33A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-1264
+  - AAAI-1274
+  - AAAI-1275
+  - AAAI-1282
+  - AAAI-1289
+z34A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-1291
+  - AAAI-1292
+  - AAAI-1302
+  - AAAI-1310
+  - AAAI-1314
+z35A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-1315
+  - AAAI-132
+  - AAAI-1322
+  - AAAI-1324
+  - AAAI-1329
+z36A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-1335
+  - AAAI-1343
+  - AAAI-1346
+  - AAAI-1351
+  - AAAI-1352
+z37A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-1353
+  - AAAI-1361
+  - AAAI-1364
+  - AAAI-1365
+  - AAAI-1368
+z38A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-1370
+  - AAAI-1373
+  - AAAI-1376
+  - AAAI-1379
+  - AAAI-1396
+z39A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-1398
+  - AAAI-1404
+  - AAAI-1408
+  - AAAI-1409
+  - AAAI-1412
+z40A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-1413
+  - AAAI-142
+  - AAAI-1426
+  - AAAI-1431
+  - AAAI-1432
+z41A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-1434
+  - AAAI-1436
+  - AAAI-1442
+  - AAAI-1445
+  - AAAI-1446
+z42A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-146
+  - AAAI-147
+  - AAAI-1471
+  - AAAI-1473
+  - AAAI-1479
+z43A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-1489
+  - AAAI-149
+  - AAAI-1493
+  - AAAI-1503
+  - AAAI-1504
+z44A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-1506
+  - AAAI-1507
+  - AAAI-151
+  - AAAI-1523
+  - AAAI-1528
+z45A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-1532
+  - AAAI-1534
+  - AAAI-1536
+  - AAAI-1538
+  - AAAI-1546
+z46A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-155
+  - AAAI-1559
+  - AAAI-1571
+  - AAAI-1588
+  - AAAI-1596
+z47A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-1611
+  - AAAI-1612
+  - AAAI-1613
+  - AAAI-1619
+  - AAAI-1620
+z48A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-1624
+  - AAAI-1625
+  - AAAI-1627
+  - AAAI-1630
+  - AAAI-1633
+z49A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-1637
+  - AAAI-1640
+  - AAAI-1645
+  - AAAI-1654
+  - AAAI-1657
+z50A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-1663
+  - AAAI-1666
+  - AAAI-1672
+  - AAAI-1677
+  - AAAI-1692
+z51A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-1693
+  - AAAI-1706
+  - AAAI-1726
+  - AAAI-1745
+  - AAAI-1757
+z52A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-1759
+  - AAAI-176
+  - AAAI-1770
+  - AAAI-179
+  - AAAI-1807
+z53A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-1808
+  - AAAI-181
+  - AAAI-1813
+  - AAAI-1839
+  - AAAI-1845
+z54A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-1855
+  - AAAI-1864
+  - AAAI-1869
+  - AAAI-1872
+  - AAAI-1883
+z55A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-1889
+  - AAAI-1891
+  - AAAI-1894
+  - AAAI-1895
+  - AAAI-1900
+z56A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-1909
+  - AAAI-1912
+  - AAAI-1924
+  - AAAI-1931
+  - AAAI-1939
+z57A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-1942
+  - AAAI-195
+  - AAAI-1951
+  - AAAI-1952
+  - AAAI-1964
+z58A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-1965
+  - AAAI-197
+  - AAAI-1970
+  - AAAI-1975
+  - AAAI-199
+z59A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-1991
+  - AAAI-1995
+  - AAAI-200
+  - AAAI-2002
+  - AAAI-2005
+z60A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-2015
+  - AAAI-2017
+  - AAAI-2030
+  - AAAI-2034
+  - AAAI-2035
+z61A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-2037
+  - AAAI-2044
+  - AAAI-2046
+  - AAAI-205
+  - AAAI-2050
+z62A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-2059
+  - AAAI-2076
+  - AAAI-2079
+  - AAAI-2088
+  - AAAI-2105
+z63A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-2107
+  - AAAI-2116
+  - AAAI-2123
+  - AAAI-2127
+  - AAAI-2135
+z64A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-2136
+  - AAAI-2141
+  - AAAI-2148
+  - AAAI-2155
+  - AAAI-2158
+z65A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-216
+  - AAAI-2160
+  - AAAI-2162
+  - AAAI-2164
+  - AAAI-2179
+z66A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-2183
+  - AAAI-2184
+  - AAAI-2186
+  - AAAI-2189
+  - AAAI-2191
+z67A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-2192
+  - AAAI-2200
+  - AAAI-2206
+  - AAAI-2210
+  - AAAI-2215
+z68A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-222
+  - AAAI-2224
+  - AAAI-2226
+  - AAAI-2235
+  - AAAI-2239
+z69A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-2240
+  - AAAI-2247
+  - AAAI-2249
+  - AAAI-2258
+  - AAAI-2261
+z70A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-2262
+  - AAAI-2266
+  - AAAI-2270
+  - AAAI-2277
+  - AAAI-228
+z71A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-2280
+  - AAAI-2281
+  - AAAI-2287
+  - AAAI-2294
+  - AAAI-2303
+z72A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-2308
+  - AAAI-2323
+  - AAAI-2325
+  - AAAI-2327
+  - AAAI-2329
+z73A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-233
+  - AAAI-2334
+  - AAAI-2345
+  - AAAI-2352
+  - AAAI-2355
+z74A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-2358
+  - AAAI-2360
+  - AAAI-2365
+  - AAAI-2371
+  - AAAI-2372
+z75A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-2377
+  - AAAI-2378
+  - AAAI-2380
+  - AAAI-2386
+  - AAAI-239
+z76A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-240
+  - AAAI-241
+  - AAAI-2411
+  - AAAI-2412
+  - AAAI-2414
+z77A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-2415
+  - AAAI-2417
+  - AAAI-2431
+  - AAAI-2439
+  - AAAI-2441
+z78A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-2446
+  - AAAI-2450
+  - AAAI-2453
+  - AAAI-2460
+  - AAAI-2461
+z79A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-2475
+  - AAAI-2495
+  - AAAI-2504
+  - AAAI-2538
+  - AAAI-2549
+z80A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-2554
+  - AAAI-2556
+  - AAAI-2562
+  - AAAI-2568
+  - AAAI-257
+z81A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-2571
+  - AAAI-258
+  - AAAI-2581
+  - AAAI-2583
+  - AAAI-2584
+z82A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-2585
+  - AAAI-2589
+  - AAAI-2593
+  - AAAI-26
+  - AAAI-260
+z83A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-2600
+  - AAAI-2606
+  - AAAI-2608
+  - AAAI-262
+  - AAAI-2633
+z84A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-2635
+  - AAAI-2638
+  - AAAI-2642
+  - AAAI-2649
+  - AAAI-2650
+z85A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-2662
+  - AAAI-2665
+  - AAAI-2666
+  - AAAI-2669
+  - AAAI-267
+z86A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-2670
+  - AAAI-2671
+  - AAAI-2681
+  - AAAI-2687
+  - AAAI-2696
+z87A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-2698
+  - AAAI-2700
+  - AAAI-2711
+  - AAAI-2715
+  - AAAI-2721
+z88A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-2742
+  - AAAI-2750
+  - AAAI-2751
+  - AAAI-2753
+  - AAAI-2754
+z89A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-2755
+  - AAAI-2757
+  - AAAI-2758
+  - AAAI-2764
+  - AAAI-278
+z90A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-2782
+  - AAAI-279
+  - AAAI-2790
+  - AAAI-2796
+  - AAAI-2797
+z91A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-2805
+  - AAAI-2806
+  - AAAI-2807
+  - AAAI-2808
+  - AAAI-283
+z92A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-2832
+  - AAAI-2839
+  - AAAI-2842
+  - AAAI-2846
+  - AAAI-2849
+z93A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-2858
+  - AAAI-286
+  - AAAI-2862
+  - AAAI-2863
+  - AAAI-2874
+z94A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-2878
+  - AAAI-2881
+  - AAAI-2885
+  - AAAI-2890
+  - AAAI-2893
+z95A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-2900
+  - AAAI-2912
+  - AAAI-2915
+  - AAAI-2916
+  - AAAI-2930
+z96A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-2937
+  - AAAI-2939
+  - AAAI-2948
+  - AAAI-2950
+  - AAAI-296
+z97A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-2963
+  - AAAI-2967
+  - AAAI-2969
+  - AAAI-2970
+  - AAAI-2971
+z98A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-2977
+  - AAAI-2983
+  - AAAI-2989
+  - AAAI-299
+  - AAAI-2998
+z99A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-2999
+  - AAAI-3004
+  - AAAI-3010
+  - AAAI-3011
+  - AAAI-3013
+z100A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-3014
+  - AAAI-3018
+  - AAAI-3021
+  - AAAI-3022
+  - AAAI-3025
+z101A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-3030
+  - AAAI-3041
+  - AAAI-3047
+  - AAAI-3049
+  - AAAI-3050
+z102A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-3056
+  - AAAI-3064
+  - AAAI-3066
+  - AAAI-3071
+  - AAAI-3084
+z103A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-3085
+  - AAAI-3090
+  - AAAI-3094
+  - AAAI-3110
+  - AAAI-3116
+z104A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-3129
+  - AAAI-3135
+  - AAAI-3138
+  - AAAI-315
+  - AAAI-3154
+z105A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-3163
+  - AAAI-3167
+  - AAAI-3177
+  - AAAI-3182
+  - AAAI-3193
+z106A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-3196
+  - AAAI-3197
+  - AAAI-3200
+  - AAAI-3203
+  - AAAI-3209
+z107A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-3211
+  - AAAI-3214
+  - AAAI-3217
+  - AAAI-3224
+  - AAAI-3231
+z108A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-3245
+  - AAAI-3254
+  - AAAI-3262
+  - AAAI-3263
+  - AAAI-3268
+z109A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-3270
+  - AAAI-3279
+  - AAAI-328
+  - AAAI-3285
+  - AAAI-329
+z110A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-3290
+  - AAAI-3310
+  - AAAI-3323
+  - AAAI-3326
+  - AAAI-3331
+z111A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-3337
+  - AAAI-3339
+  - AAAI-3343
+  - AAAI-3345
+  - AAAI-3365
+z112A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-3370
+  - AAAI-3376
+  - AAAI-3382
+  - AAAI-3389
+  - AAAI-3390
+z113A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-3399
+  - AAAI-3402
+  - AAAI-3412
+  - AAAI-3416
+  - AAAI-3431
+z114A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-3433
+  - AAAI-3435
+  - AAAI-3441
+  - AAAI-3446
+  - AAAI-3447
+z115A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-3454
+  - AAAI-3459
+  - AAAI-3460
+  - AAAI-3467
+  - AAAI-3468
+z116A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-3486
+  - AAAI-3496
+  - AAAI-3500
+  - AAAI-3507
+  - AAAI-3509
+z117A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-351
+  - AAAI-3516
+  - AAAI-3520
+  - AAAI-3527
+  - AAAI-353
+z118A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-3530
+  - AAAI-3534
+  - AAAI-3535
+  - AAAI-354
+  - AAAI-3569
+z119A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-3588
+  - AAAI-36
+  - AAAI-3606
+  - AAAI-3607
+  - AAAI-3617
+z120A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-3622
+  - AAAI-3635
+  - AAAI-3639
+  - AAAI-364
+  - AAAI-3640
+z121A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-3644
+  - AAAI-3648
+  - AAAI-3649
+  - AAAI-3650
+  - AAAI-3651
+z122A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-3652
+  - AAAI-3653
+  - AAAI-3665
+  - AAAI-3667
+  - AAAI-3670
+z123A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-3677
+  - AAAI-3679
+  - AAAI-3680
+  - AAAI-3684
+  - AAAI-3692
+z124A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-3696
+  - AAAI-3697
+  - AAAI-370
+  - AAAI-3708
+  - AAAI-3720
+z125A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-3726
+  - AAAI-3727
+  - AAAI-3734
+  - AAAI-3735
+  - AAAI-3738
+z126A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-374
+  - AAAI-3742
+  - AAAI-3751
+  - AAAI-3755
+  - AAAI-376
+z127A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-3766
+  - AAAI-3767
+  - AAAI-3769
+  - AAAI-3780
+  - AAAI-3796
+z128A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-38
+  - AAAI-380
+  - AAAI-3800
+  - AAAI-3802
+  - AAAI-3803
+z129A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-3805
+  - AAAI-3806
+  - AAAI-3807
+  - AAAI-3812
+  - AAAI-3820
+z130A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-3823
+  - AAAI-3838
+  - AAAI-384
+  - AAAI-3840
+  - AAAI-3843
+z131A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-3850
+  - AAAI-3857
+  - AAAI-3883
+  - AAAI-3885
+  - AAAI-3897
+z132A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-3898
+  - AAAI-3899
+  - AAAI-39
+  - AAAI-3907
+  - AAAI-3913
+z133A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-3917
+  - AAAI-3927
+  - AAAI-393
+  - AAAI-3949
+  - AAAI-3951
+z134A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-3952
+  - AAAI-3955
+  - AAAI-3967
+  - AAAI-397
+  - AAAI-3972
+z135A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-3976
+  - AAAI-3996
+  - AAAI-4
+  - AAAI-400
+  - AAAI-4019
+z136A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-4024
+  - AAAI-4027
+  - AAAI-404
+  - AAAI-4043
+  - AAAI-4046
+z137A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-4049
+  - AAAI-405
+  - AAAI-4056
+  - AAAI-4067
+  - AAAI-409
+z138A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-4093
+  - AAAI-4110
+  - AAAI-4111
+  - AAAI-412
+  - AAAI-4120
+z139A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-4138
+  - AAAI-4139
+  - AAAI-4146
+  - AAAI-415
+  - AAAI-4156
+z140A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-416
+  - AAAI-4167
+  - AAAI-418
+  - AAAI-4182
+  - AAAI-4186
+z141A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-419
+  - AAAI-4197
+  - AAAI-420
+  - AAAI-4202
+  - AAAI-421
+z142A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-4214
+  - AAAI-4220
+  - AAAI-4221
+  - AAAI-4224
+  - AAAI-4252
+z143A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-4255
+  - AAAI-4267
+  - AAAI-4269
+  - AAAI-4272
+  - AAAI-4278
+z144A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-4279
+  - AAAI-4284
+  - AAAI-4293
+  - AAAI-4295
+  - AAAI-4296
+z145A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-43
+  - AAAI-430
+  - AAAI-4301
+  - AAAI-4302
+  - AAAI-4306
+z146A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-4313
+  - AAAI-4317
+  - AAAI-4322
+  - AAAI-4324
+  - AAAI-4333
+z147A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-4335
+  - AAAI-4341
+  - AAAI-4344
+  - AAAI-4349
+  - AAAI-4355
+z148A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-437
+  - AAAI-4382
+  - AAAI-4386
+  - AAAI-4394
+  - AAAI-44
+z149A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-4433
+  - AAAI-444
+  - AAAI-4445
+  - AAAI-4450
+  - AAAI-4461
+z150A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-4463
+  - AAAI-4464
+  - AAAI-4465
+  - AAAI-447
+  - AAAI-4473
+z151A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-4481
+  - AAAI-4491
+  - AAAI-4492
+  - AAAI-4515
+  - AAAI-452
+z152A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-4524
+  - AAAI-4527
+  - AAAI-4531
+  - AAAI-4536
+  - AAAI-4541
+z153A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-4553
+  - AAAI-4570
+  - AAAI-4583
+  - AAAI-4601
+  - AAAI-4616
+z154A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-4619
+  - AAAI-4620
+  - AAAI-4639
+  - AAAI-4640
+  - AAAI-465
+z155A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-4658
+  - AAAI-4662
+  - AAAI-4673
+  - AAAI-4676
+  - AAAI-4678
+z156A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-4681
+  - AAAI-4693
+  - AAAI-471
+  - AAAI-4715
+  - AAAI-4719
+z157A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-4723
+  - AAAI-4726
+  - AAAI-4761
+  - AAAI-4766
+  - AAAI-4767
+z158A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-477
+  - AAAI-479
+  - AAAI-4809
+  - AAAI-4822
+  - AAAI-483
+z159A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-4838
+  - AAAI-4841
+  - AAAI-4847
+  - AAAI-4848
+  - AAAI-4849
+z160A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-4859
+  - AAAI-487
+  - AAAI-4870
+  - AAAI-4875
+  - AAAI-4876
+z161A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-4893
+  - AAAI-4895
+  - AAAI-4901
+  - AAAI-4902
+  - AAAI-4917
+z162A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-4919
+  - AAAI-4927
+  - AAAI-4940
+  - AAAI-495
+  - AAAI-4950
+z163A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-4951
+  - AAAI-4958
+  - AAAI-4960
+  - AAAI-4967
+  - AAAI-4968
+z164A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-4971
+  - AAAI-4972
+  - AAAI-4979
+  - AAAI-498
+  - AAAI-4981
+z165A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-4984
+  - AAAI-4986
+  - AAAI-4990
+  - AAAI-4992
+  - AAAI-4998
+z166A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-4999
+  - AAAI-5002
+  - AAAI-5007
+  - AAAI-5008
+  - AAAI-5009
+z167A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-501
+  - AAAI-5012
+  - AAAI-5018
+  - AAAI-5023
+  - AAAI-5031
+z168A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-5035
+  - AAAI-5036
+  - AAAI-5044
+  - AAAI-5045
+  - AAAI-5046
+z169A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-5050
+  - AAAI-5056
+  - AAAI-5058
+  - AAAI-5072
+  - AAAI-5076
+z170A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-5077
+  - AAAI-5078
+  - AAAI-5082
+  - AAAI-5083
+  - AAAI-5084
+z171A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-5087
+  - AAAI-5089
+  - AAAI-5091
+  - AAAI-5095
+  - AAAI-5096
+z172A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-5101
+  - AAAI-5105
+  - AAAI-5110
+  - AAAI-5111
+  - AAAI-5116
+z173A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-5126
+  - AAAI-5131
+  - AAAI-5132
+  - AAAI-5135
+  - AAAI-5139
+z174A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-514
+  - AAAI-5154
+  - AAAI-5159
+  - AAAI-5162
+  - AAAI-5167
+z175A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-5171
+  - AAAI-5174
+  - AAAI-5176
+  - AAAI-5178
+  - AAAI-5186
+z176A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-5192
+  - AAAI-520
+  - AAAI-5200
+  - AAAI-5202
+  - AAAI-5210
+z177A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-5219
+  - AAAI-5220
+  - AAAI-5230
+  - AAAI-5238
+  - AAAI-5245
+z178A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-5256
+  - AAAI-5262
+  - AAAI-5266
+  - AAAI-5277
+  - AAAI-5278
+z179A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-5282
+  - AAAI-5284
+  - AAAI-5287
+  - AAAI-5292
+  - AAAI-5296
+z180A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-5298
+  - AAAI-5303
+  - AAAI-5309
+  - AAAI-5320
+  - AAAI-5322
+z181A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-5323
+  - AAAI-5328
+  - AAAI-5334
+  - AAAI-5338
+  - AAAI-5340
+z182A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-5353
+  - AAAI-5357
+  - AAAI-5363
+  - AAAI-5365
+  - AAAI-5368
+z183A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-5369
+  - AAAI-5374
+  - AAAI-5390
+  - AAAI-540
+  - AAAI-5401
+z184A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-5410
+  - AAAI-5413
+  - AAAI-5417
+  - AAAI-542
+  - AAAI-5421
+z185A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-5436
+  - AAAI-5439
+  - AAAI-5454
+  - AAAI-5461
+  - AAAI-5472
+z186A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-5474
+  - AAAI-5476
+  - AAAI-5487
+  - AAAI-5501
+  - AAAI-5502
+z187A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-5505
+  - AAAI-5518
+  - AAAI-5535
+  - AAAI-5542
+  - AAAI-5543
+z188A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-5546
+  - AAAI-5551
+  - AAAI-5571
+  - AAAI-5574
+  - AAAI-5593
+z189A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-5608
+  - AAAI-5611
+  - AAAI-5617
+  - AAAI-5618
+  - AAAI-5620
+z190A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-5623
+  - AAAI-563
+  - AAAI-5637
+  - AAAI-5638
+  - AAAI-564
+z191A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-5641
+  - AAAI-5654
+  - AAAI-5657
+  - AAAI-566
+  - AAAI-5668
+z192A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-567
+  - AAAI-5674
+  - AAAI-5676
+  - AAAI-5677
+  - AAAI-5678
+z193A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-5681
+  - AAAI-5693
+  - AAAI-5694
+  - AAAI-5695
+  - AAAI-5696
+z194A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-5701
+  - AAAI-5711
+  - AAAI-5712
+  - AAAI-5716
+  - AAAI-5719
+z195A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-572
+  - AAAI-5724
+  - AAAI-5725
+  - AAAI-5737
+  - AAAI-5738
+z196A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-5755
+  - AAAI-5761
+  - AAAI-5767
+  - AAAI-5771
+  - AAAI-5772
+z197A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-5774
+  - AAAI-578
+  - AAAI-5790
+  - AAAI-5797
+  - AAAI-5802
+z198A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-5804
+  - AAAI-5807
+  - AAAI-5811
+  - AAAI-582
+  - AAAI-5824
+z199A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-5830
+  - AAAI-5835
+  - AAAI-5837
+  - AAAI-5847
+  - AAAI-5870
+z200A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-588
+  - AAAI-5889
+  - AAAI-589
+  - AAAI-5893
+  - AAAI-5906
+z201A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-5908
+  - AAAI-5915
+  - AAAI-5918
+  - AAAI-592
+  - AAAI-5920
+z202A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-5922
+  - AAAI-5923
+  - AAAI-5929
+  - AAAI-5930
+  - AAAI-5935
+z203A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-5937
+  - AAAI-5941
+  - AAAI-5948
+  - AAAI-5963
+  - AAAI-5966
+z204A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-5970
+  - AAAI-5971
+  - AAAI-5994
+  - AAAI-5995
+  - AAAI-6001
+z205A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-6008
+  - AAAI-6011
+  - AAAI-6013
+  - AAAI-6019
+  - AAAI-6027
+z206A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-6031
+  - AAAI-6033
+  - AAAI-6049
+  - AAAI-605
+  - AAAI-606
+z207A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-6067
+  - AAAI-6070
+  - AAAI-6072
+  - AAAI-6079
+  - AAAI-6087
+z208A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-6098
+  - AAAI-611
+  - AAAI-6112
+  - AAAI-6121
+  - AAAI-6122
+z209A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-6128
+  - AAAI-615
+  - AAAI-6155
+  - AAAI-6159
+  - AAAI-6162
+z210A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-6180
+  - AAAI-6199
+  - AAAI-6207
+  - AAAI-6208
+  - AAAI-621
+z211A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-6211
+  - AAAI-6218
+  - AAAI-6224
+  - AAAI-623
+  - AAAI-6237
+z212A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-6256
+  - AAAI-6267
+  - AAAI-6269
+  - AAAI-6278
+  - AAAI-6281
+z213A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-6288
+  - AAAI-6293
+  - AAAI-63
+  - AAAI-6302
+  - AAAI-631
+z214A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-6310
+  - AAAI-6311
+  - AAAI-6317
+  - AAAI-6323
+  - AAAI-6324
+z215A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-6327
+  - AAAI-634
+  - AAAI-6343
+  - AAAI-6347
+  - AAAI-6350
+z216A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-6351
+  - AAAI-6357
+  - AAAI-636
+  - AAAI-6366
+  - AAAI-6374
+z217A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-6381
+  - AAAI-639
+  - AAAI-6393
+  - AAAI-6406
+  - AAAI-6415
+z218A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-6416
+  - AAAI-6418
+  - AAAI-6428
+  - AAAI-6429
+  - AAAI-6437
+z219A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-6446
+  - AAAI-645
+  - AAAI-6452
+  - AAAI-6462
+  - AAAI-6469
+z220A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-647
+  - AAAI-6471
+  - AAAI-6476
+  - AAAI-6489
+  - AAAI-6491
+z221A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-6493
+  - AAAI-6502
+  - AAAI-6503
+  - AAAI-6512
+  - AAAI-6514
+z222A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-6531
+  - AAAI-6544
+  - AAAI-655
+  - AAAI-6557
+  - AAAI-6577
+z223A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-6610
+  - AAAI-6611
+  - AAAI-6612
+  - AAAI-6617
+  - AAAI-6618
+z224A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-6627
+  - AAAI-6643
+  - AAAI-6669
+  - AAAI-6672
+  - AAAI-6681
+z225A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-6682
+  - AAAI-6698
+  - AAAI-67
+  - AAAI-6700
+  - AAAI-6716
+z226A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-6725
+  - AAAI-6737
+  - AAAI-6740
+  - AAAI-6746
+  - AAAI-6758
+z227A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-676
+  - AAAI-6763
+  - AAAI-678
+  - AAAI-6781
+  - AAAI-6790
+z228A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-68
+  - AAAI-6811
+  - AAAI-6821
+  - AAAI-6825
+  - AAAI-6839
+z229A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-6850
+  - AAAI-6859
+  - AAAI-6867
+  - AAAI-6871
+  - AAAI-6872
+z230A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-6879
+  - AAAI-6887
+  - AAAI-6897
+  - AAAI-69
+  - AAAI-6910
+z231A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-6912
+  - AAAI-6914
+  - AAAI-6932
+  - AAAI-6933
+  - AAAI-6937
+z232A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-6939
+  - AAAI-6941
+  - AAAI-6950
+  - AAAI-6951
+  - AAAI-6954
+z233A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-6956
+  - AAAI-6966
+  - AAAI-6977
+  - AAAI-698
+  - AAAI-6989
+z234A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-7014
+  - AAAI-7015
+  - AAAI-7017
+  - AAAI-7018
+  - AAAI-7025
+z235A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-7030
+  - AAAI-704
+  - AAAI-7040
+  - AAAI-7047
+  - AAAI-7051
+z236A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-7052
+  - AAAI-706
+  - AAAI-7061
+  - AAAI-7065
+  - AAAI-707
+z237A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-7071
+  - AAAI-7072
+  - AAAI-710
+  - AAAI-7104
+  - AAAI-7109
+z238A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-7120
+  - AAAI-7133
+  - AAAI-7140
+  - AAAI-7144
+  - AAAI-7147
+z239A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-7152
+  - AAAI-7173
+  - AAAI-7178
+  - AAAI-7182
+  - AAAI-7186
+z240A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-7194
+  - AAAI-7196
+  - AAAI-7200
+  - AAAI-7201
+  - AAAI-7220
+z241A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-7228
+  - AAAI-724
+  - AAAI-7247
+  - AAAI-7257
+  - AAAI-726
+z242A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-7260
+  - AAAI-7267
+  - AAAI-727
+  - AAAI-7270
+  - AAAI-7273
+z243A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-7281
+  - AAAI-7289
+  - AAAI-7292
+  - AAAI-7297
+  - AAAI-73
+z244A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-7315
+  - AAAI-7321
+  - AAAI-7335
+  - AAAI-7346
+  - AAAI-7359
+z245A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-7361
+  - AAAI-738
+  - AAAI-7381
+  - AAAI-7391
+  - AAAI-7394
+z246A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-7399
+  - AAAI-740
+  - AAAI-7402
+  - AAAI-7405
+  - AAAI-7408
+z247A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-7413
+  - AAAI-7443
+  - AAAI-7475
+  - AAAI-7481
+  - AAAI-7491
+z248A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-7492
+  - AAAI-7498
+  - AAAI-7500
+  - AAAI-7505
+  - AAAI-7520
+z249A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-7526
+  - AAAI-7527
+  - AAAI-7531
+  - AAAI-7535
+  - AAAI-7556
+z250A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-7561
+  - AAAI-7562
+  - AAAI-7565
+  - AAAI-7570
+  - AAAI-7572
+z251A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-7574
+  - AAAI-7576
+  - AAAI-761
+  - AAAI-7616
+  - AAAI-764
+z252A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-7641
+  - AAAI-7644
+  - AAAI-765
+  - AAAI-7653
+  - AAAI-7657
+z253A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-766
+  - AAAI-7672
+  - AAAI-7673
+  - AAAI-7677
+  - AAAI-7681
+z254A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-7686
+  - AAAI-7688
+  - AAAI-7695
+  - AAAI-7700
+  - AAAI-7710
+z255A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-7721
+  - AAAI-7722
+  - AAAI-7724
+  - AAAI-7729
+  - AAAI-7731
+z256A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-7739
+  - AAAI-7740
+  - AAAI-7741
+  - AAAI-7747
+  - AAAI-7756
+z257A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-7765
+  - AAAI-7767
+  - AAAI-7769
+  - AAAI-7771
+  - AAAI-7778
+z258A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-7791
+  - AAAI-7798
+  - AAAI-780
+  - AAAI-7807
+  - AAAI-7812
+z259A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-7833
+  - AAAI-7838
+  - AAAI-7844
+  - AAAI-7853
+  - AAAI-7855
+z260A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-7857
+  - AAAI-7868
+  - AAAI-7879
+  - AAAI-7890
+  - AAAI-7892
+z261A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-7907
+  - AAAI-7911
+  - AAAI-7923
+  - AAAI-7929
+  - AAAI-7930
+z262A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-7936
+  - AAAI-7938
+  - AAAI-7940
+  - AAAI-7945
+  - AAAI-7952
+z263A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-7954
+  - AAAI-7955
+  - AAAI-7956
+  - AAAI-797
+  - AAAI-7971
+z264A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-7985
+  - AAAI-799
+  - AAAI-7991
+  - AAAI-80
+  - AAAI-8003
+z265A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-8004
+  - AAAI-8013
+  - AAAI-8016
+  - AAAI-8020
+  - AAAI-8027
+z266A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-8029
+  - AAAI-8042
+  - AAAI-8069
+  - AAAI-807
+  - AAAI-8081
+z267A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-809
+  - AAAI-8106
+  - AAAI-8111
+  - AAAI-8113
+  - AAAI-8118
+z268A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-8119
+  - AAAI-8124
+  - AAAI-813
+  - AAAI-8144
+  - AAAI-8145
+z269A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-8153
+  - AAAI-8154
+  - AAAI-8159
+  - AAAI-8166
+  - AAAI-8168
+z270A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-8179
+  - AAAI-8181
+  - AAAI-8186
+  - AAAI-8192
+  - AAAI-8202
+z271A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-8206
+  - AAAI-8207
+  - AAAI-821
+  - AAAI-8213
+  - AAAI-8216
+z272A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-8233
+  - AAAI-8236
+  - AAAI-8253
+  - AAAI-8265
+  - AAAI-8267
+z273A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-8279
+  - AAAI-8289
+  - AAAI-829
+  - AAAI-8293
+  - AAAI-83
+z274A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-830
+  - AAAI-8308
+  - AAAI-8309
+  - AAAI-831
+  - AAAI-8323
+z275A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-8325
+  - AAAI-833
+  - AAAI-8335
+  - AAAI-8343
+  - AAAI-8352
+z276A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-8353
+  - AAAI-8358
+  - AAAI-8365
+  - AAAI-8367
+  - AAAI-8373
+z277A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-838
+  - AAAI-8398
+  - AAAI-8401
+  - AAAI-8406
+  - AAAI-8413
+z278A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-8417
+  - AAAI-8418
+  - AAAI-8419
+  - AAAI-8428
+  - AAAI-8431
+z279A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-8437
+  - AAAI-844
+  - AAAI-8452
+  - AAAI-8469
+  - AAAI-8472
+z280A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-8474
+  - AAAI-8475
+  - AAAI-8483
+  - AAAI-8484
+  - AAAI-8488
+z281A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-8523
+  - AAAI-8524
+  - AAAI-8526
+  - AAAI-8537
+  - AAAI-8540
+z282A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-8541
+  - AAAI-8542
+  - AAAI-8545
+  - AAAI-8546
+  - AAAI-855
+z283A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-8554
+  - AAAI-8556
+  - AAAI-8558
+  - AAAI-8566
+  - AAAI-8575
+z284A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-8577
+  - AAAI-8589
+  - AAAI-86
+  - AAAI-8603
+  - AAAI-8606
+z285A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-8608
+  - AAAI-861
+  - AAAI-8610
+  - AAAI-8615
+  - AAAI-8617
+z286A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-8619
+  - AAAI-863
+  - AAAI-8636
+  - AAAI-8642
+  - AAAI-8648
+z287A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-8654
+  - AAAI-866
+  - AAAI-8662
+  - AAAI-8666
+  - AAAI-867
+z288A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-8677
+  - AAAI-8686
+  - AAAI-869
+  - AAAI-8692
+  - AAAI-870
+z289A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-8700
+  - AAAI-8707
+  - AAAI-871
+  - AAAI-8716
+  - AAAI-8720
+z290A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-8746
+  - AAAI-8769
+  - AAAI-8771
+  - AAAI-8779
+  - AAAI-8780
+z291A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-8787
+  - AAAI-8793
+  - AAAI-8795
+  - AAAI-8804
+  - AAAI-8813
+z292A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-8834
+  - AAAI-885
+  - AAAI-8882
+  - AAAI-8903
+  - AAAI-8907
+z293A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-8912
+  - AAAI-8922
+  - AAAI-8942
+  - AAAI-8954
+  - AAAI-896
+z294A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-8963
+  - AAAI-897
+  - AAAI-8970
+  - AAAI-8972
+  - AAAI-898
+z295A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-8983
+  - AAAI-8987
+  - AAAI-8990
+  - AAAI-9018
+  - AAAI-9028
+z296A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-9030
+  - AAAI-9032
+  - AAAI-9044
+  - AAAI-9069
+  - AAAI-907
+z297A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-9071
+  - AAAI-9078
+  - AAAI-9086
+  - AAAI-9088
+  - AAAI-9097
+z298A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-9099
+  - AAAI-9103
+  - AAAI-9104
+  - AAAI-9108
+  - AAAI-911
+z299A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-9134
+  - AAAI-9137
+  - AAAI-9150
+  - AAAI-9153
+  - AAAI-9155
+z300A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-9161
+  - AAAI-9192
+  - AAAI-9199
+  - AAAI-920
+  - AAAI-9205
+z301A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-9208
+  - AAAI-9214
+  - AAAI-9221
+  - AAAI-9225
+  - AAAI-9241
+z302A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-9242
+  - AAAI-9248
+  - AAAI-9254
+  - AAAI-9257
+  - AAAI-9262
+z303A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-9265
+  - AAAI-9290
+  - AAAI-9291
+  - AAAI-9295
+  - AAAI-932
+z304A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-9326
+  - AAAI-9330
+  - AAAI-9332
+  - AAAI-9350
+  - AAAI-9354
+z305A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-9365
+  - AAAI-9374
+  - AAAI-938
+  - AAAI-9385
+  - AAAI-9392
+z306A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-9401
+  - AAAI-942
+  - AAAI-9427
+  - AAAI-9429
+  - AAAI-943
+z307A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-9436
+  - AAAI-9440
+  - AAAI-9452
+  - AAAI-9457
+  - AAAI-9459
+z308A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-946
+  - AAAI-9475
+  - AAAI-9486
+  - AAAI-949
+  - AAAI-9500
+z309A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-9512
+  - AAAI-9535
+  - AAAI-9541
+  - AAAI-9549
+  - AAAI-955
+z310A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-9567
+  - AAAI-959
+  - AAAI-9602
+  - AAAI-9625
+  - AAAI-9654
+z311A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-9663
+  - AAAI-9686
+  - AAAI-9700
+  - AAAI-9702
+  - AAAI-9708
+z312A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-9714
+  - AAAI-9719
+  - AAAI-9720
+  - AAAI-9721
+  - AAAI-9722
+z313A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-9723
+  - AAAI-9724
+  - AAAI-9726
+  - AAAI-9727
+  - AAAI-9737
+z314A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-9740
+  - AAAI-9743
+  - AAAI-9746
+  - AAAI-9749
+  - AAAI-9753
+z315A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-9758
+  - AAAI-9759
+  - AAAI-9766
+  - AAAI-9767
+  - AAAI-9770
+z316A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-9772
+  - AAAI-9774
+  - AAAI-9783
+  - AAAI-9784
+  - AAAI-9785
+z317A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-9798
+  - AAAI-9807
+  - AAAI-9810
+  - AAAI-9813
+  - AAAI-9815
+z318A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-9817
+  - AAAI-9820
+  - AAAI-9821
+  - AAAI-9822
+  - AAAI-9826
+z319A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-9831
+  - AAAI-9835
+  - AAAI-9839
+  - AAAI-9842
+  - AAAI-9845
+z320A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-9856
+  - AAAI-9859
+  - AAAI-9862
+  - AAAI-9863
+  - AAAI-9866
+z321A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-9868
+  - AAAI-9869
+  - AAAI-9870
+  - AAAI-9871
+  - AAAI-9877
+z322A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-9880
+  - AAAI-9884
+  - AAAI-9885
+  - AAAI-9890
+  - AAAI-9891
+z323A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-9893
+  - AAAI-9903
+  - AAAI-9905
+  - AAAI-9906
+  - AAAI-9907
+z324A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-9910
+  - AAAI-9913
+  - AAAI-9917
+  - AAAI-9925
+  - AAAI-9928
+z325A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-9929
+  - AAAI-9933
+  - AAAI-9938
+  - AAAI-994
+  - AAAI-9940
+z326A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-9941
+  - AAAI-9942
+  - AAAI-9943
+  - AAAI-9948
+  - AAAI-995
+z327A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-9950
+  - AAAI-9952
+  - AAAI-9953
+  - AAAI-9957
+  - AAAI-996
+z328A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-9962
+  - AAAI-997
+  - AAAI-9971
+  - AAAI-9972
+  - AAAI-9976
+z329A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-9979
+  - AAAI-9980
+  - AAAI-9983
+  - AAAI-9984
+  - AAAI-9985
+z330A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-9986
+  - AAAI-9988
+  - AAAI-9994
+  - AAAI-9997
+  - AAAI-9998
+z331A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AAAI-9999
+  - AISI-1058
+  - AISI-1081
+  - AISI-1438
+  - AISI-2361
+z332A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AISI-2462
+  - AISI-2820
+  - AISI-3032
+  - AISI-3105
+  - AISI-3133
+z333A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AISI-3631
+  - AISI-3750
+  - AISI-3785
+  - AISI-3849
+  - AISI-4304
+z334A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AISI-4906
+  - AISI-5196
+  - AISI-5504
+  - AISI-5972
+  - AISI-6126
+z335A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AISI-6172
+  - AISI-6289
+  - AISI-6513
+  - AISI-6699
+  - AISI-6902
+z336A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AISI-7256
+  - AISI-7467
+  - AISI-7578
+  - AISI-8076
+  - AISI-8315
+z337A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AISI-843
+  - AISI-8682
+  - AISI-8710
+  - AISI-8731
+  - AISI-8774
+z338A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AISI-8961
+  - AISI-8975
+  - AISI-9334
+  - AISI-9345
+  - AISI-9362
+z339A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - AISI-9414
+  - DC-118
+  - DC-127
+  - DC-169
+  - DC-200
+z340A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - DC-246
+  - DC-260
+  - DC-276
+  - DC-281
+  - DC-304
+z341A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - DC-311
+  - DC-314
+  - DC-317
+  - DC-318
+  - DC-340
+z342A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - DC-415
+  - DC-423
+  - DC-429
+  - DC-79
+  - DEMO-104
+z343A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - DEMO-105
+  - DEMO-109
+  - DEMO-12
+  - DEMO-124
+  - DEMO-134
+z344A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - DEMO-135
+  - DEMO-153
+  - DEMO-155
+  - DEMO-157
+  - DEMO-159
+z345A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - DEMO-170
+  - DEMO-172
+  - DEMO-174
+  - DEMO-175
+  - DEMO-178
+z346A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - DEMO-196
+  - DEMO-212
+  - DEMO-219
+  - DEMO-227
+  - DEMO-232
+z347A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - DEMO-233
+  - DEMO-252
+  - DEMO-265
+  - DEMO-268
+  - DEMO-278
+z348A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - DEMO-284
+  - DEMO-298
+  - DEMO-313
+  - DEMO-319
+  - DEMO-321
+z349A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - DEMO-324
+  - DEMO-336
+  - DEMO-338
+  - DEMO-344
+  - DEMO-355
+z350A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - DEMO-363
+  - DEMO-367
+  - DEMO-394
+  - DEMO-395
+  - DEMO-398
+z351A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - DEMO-404
+  - DEMO-6
+  - DEMO-91
+  - DEMO-93
+  - DEMO-97
+z352A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - EAAI-16
+  - EAAI-18
+  - EAAI-20
+  - EAAI-21
+  - EAAI-23
+z353A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - EAAI-25
+  - EAAI-26
+  - EAAI-28
+  - EAAI-37
+  - EAAI-41
+z354A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - EAAI-42
+  - EAAI-43
+  - EAAI-47
+  - EAAI-51
+  - EAAI-53
+z355A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - EAAI-6
+  - EAAI-65
+  - EAAI-66
+  - EAAI-67
+  - EAAI-68
+z356A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - EAAI-71
+  - EAAI-75
+  - EAAI-78
+  - EAAI-84
+  - EAAI-85
+z357A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - EAAI-89
+  - EAAI-91
+  - EAAI-92
+  - EAAI-94
+  - EAAI-96
+z358A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - EAAI-97
+  - IAAI-100
+  - IAAI-101
+  - IAAI-104
+  - IAAI-105
+z359A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - IAAI-113
+  - IAAI-119
+  - IAAI-124
+  - IAAI-132
+  - IAAI-140
+z360A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - IAAI-142
+  - IAAI-145
+  - IAAI-146
+  - IAAI-149
+  - IAAI-151
+z361A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - IAAI-152
+  - IAAI-154
+  - IAAI-157
+  - IAAI-165
+  - IAAI-167
+z362A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - IAAI-17
+  - IAAI-171
+  - IAAI-174
+  - IAAI-176
+  - IAAI-179
+z363A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - IAAI-190
+  - IAAI-21
+  - IAAI-23
+  - IAAI-31
+  - IAAI-34
+z364A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - IAAI-37
+  - IAAI-43
+  - IAAI-55
+  - IAAI-59
+  - IAAI-60
+z365A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - IAAI-65
+  - IAAI-73
+  - IAAI-74
+  - IAAI-76
+  - IAAI-77
+z366A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - IAAI-84
+  - IAAI-87
+  - IAAI-89
+  - IAAI-92
+  - IAAI-93
+z367A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - IAAI-98
+  - IAAI-99
+  - SA-11
+  - SA-117
+  - SA-129
+z368A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - SA-131
+  - SA-138
+  - SA-140
+  - SA-141
+  - SA-143
+z369A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - SA-144
+  - SA-148
+  - SA-149
+  - SA-156
+  - SA-161
+z370A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - SA-163
+  - SA-165
+  - SA-166
+  - SA-167
+  - SA-168
+z371A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - SA-171
+  - SA-177
+  - SA-186
+  - SA-187
+  - SA-188
+z372A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - SA-192
+  - SA-193
+  - SA-197
+  - SA-201
+  - SA-206
+z373A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - SA-207
+  - SA-210
+  - SA-213
+  - SA-215
+  - SA-223
+z374A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - SA-229
+  - SA-234
+  - SA-235
+  - SA-237
+  - SA-239
+z375A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - SA-242
+  - SA-249
+  - SA-251
+  - SA-256
+  - SA-258
+z376A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - SA-263
+  - SA-267
+  - SA-273
+  - SA-274
+  - SA-277
+z377A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - SA-279
+  - SA-280
+  - SA-283
+  - SA-285
+  - SA-286
+z378A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - SA-287
+  - SA-290
+  - SA-292
+  - SA-293
+  - SA-297
+z379A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - SA-299
+  - SA-300
+  - SA-302
+  - SA-305
+  - SA-306
+z380A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - SA-308
+  - SA-309
+  - SA-315
+  - SA-333
+  - SA-345
+z381A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - SA-346
+  - SA-349
+  - SA-353
+  - SA-354
+  - SA-356
+z382A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - SA-357
+  - SA-358
+  - SA-360
+  - SA-368
+  - SA-370
+z383A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - SA-372
+  - SA-374
+  - SA-375
+  - SA-376
+  - SA-379
+z384A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - SA-380
+  - SA-381
+  - SA-385
+  - SA-386
+  - SA-388
+z385A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - SA-390
+  - SA-392
+  - SA-396
+  - SA-397
+  - SA-400
+z386A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - SA-403
+  - SA-406
+  - SA-407
+  - SA-411
+  - SA-413
+z387A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - SA-414
+  - SA-416
+  - SA-417
+  - SA-418
+  - SA-421
+z388A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - SA-436
+  - SA-69
+  - SMT-128
+  - SMT-230
+  - SMT-282
+z389A:
+  start_time: 2021-01-01 16:00:00+00:00
+  end_time: 2021-01-01 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - SMT-351
+  - SMT-362
+  - SMT-427
+  - SMT-432
+  - UC-10
+z390A:
+  start_time: 2021-01-02 16:00:00+00:00
+  end_time: 2021-01-02 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - UC-29
+  - UC-30
+  - UC-34
+  - UC-40
+  - UC-46
+z391A:
+  start_time: 2021-01-03 16:00:00+00:00
+  end_time: 2021-01-03 17:00:00+00:00
+  name: Zoom Q&A Session 1A
+  long_name: 'Zoom Q&A Session 1A: Sentiment Analysis, Stylistic Analysis, and Argument Mining'
+  zoom_link: https://www.google.cn/
+  papers:
+  - UC-47
+  - UC-49
+  - UC-56
+  - UC-59
+  - UC-66
