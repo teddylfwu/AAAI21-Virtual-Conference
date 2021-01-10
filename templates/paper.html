@@ -12,9 +12,9 @@
 <meta name="citation_conference_title" content="{{config.tagline|striptags|title}}" />
 <meta name="citation_inbook_title" content="{{config.proceedings_title}}" />
 <meta name="citation_abstract" content="{{paper.content.abstract}}" />
-{#{% for keyword in paper.content.keywords %}#}
-{#<meta name="citation_keywords" content="{{keyword}}" />#}
-{#{% endfor %}#}
+{% for keyword in paper.content.keywords %}
+<meta name="citation_keywords" content="{{keyword}}" />
+{% endfor %}
 <meta name="citation_pdf_url" content="{{paper.content.pdf_url | default("")}}" />
 
 <script src="static/js/persistor.js"></script>
@@ -95,11 +95,11 @@
         Demo
       </a>
       {% endif %}
-{#      {% if paper.content.program == "main" %}#}
+      {% if paper.content.program == "main" %}
       <a class="card-link" target="_blank" href="https://www.connectedpapers.com/conferece-redirect/main/{{ config.connected_papers_conference_name }}/{{paper.id}}/graph">
         Connected Papers
       </a>
-{#      {% endif %}#}
+      {% endif %}
 
       {% if paper.content.material %}
       {% for material in paper.content.material.split("|") %}
@@ -113,11 +113,11 @@
     </div>
     <p class="card-text text-center h5">
 
-{#      {% if paper.content.program == "main" %}#}
-{#     <a href="papers.html?program=main&track={{paper.content.track}}" class ="badge badge-pill badge-primary">{{ paper.content.track }}</a>#}
-{#     {% elif paper.content.program == "workshop" %}#}
-{#      <a href="papers.html?program=workshop&track={{paper.content.track}}" class ="badge badge-pill badge-primary">{{ paper.content.track }}</a>#}
-{#      {% endif %}#}
+      {% if paper.content.program == "main" %}
+     <a href="papers.html?program=main&track={{paper.content.track}}" class ="badge badge-pill badge-primary">{{ paper.content.track }}</a>
+     {% elif paper.content.program == "workshop" %}
+      <a href="papers.html?program=workshop&track={{paper.content.track}}" class ="badge badge-pill badge-primary">{{ paper.content.track }}</a>
+      {% endif %}
       <span class="badge badge-secondary">{{ paper.content.program }} Paper</span>
     </p>
 
@@ -156,41 +156,8 @@
   </div>
 </div>
 
-
-{% if paper.presentation_id_intro %}
-{{ components.section("Intro Video") }}
-    <div class="container" style="; padding: 0px;">
-  <div class="text-muted text-center">
-  </div>
-  <div class="row m-2">
-    <!-- Slides Live-->
-    <div class="col-md-12 col-xs-12 my-auto p-2" >
-      <div id="presentation-intro" class="slp my-auto"></div>
-      <script src='static/js/embed_presentation.js'></script>
-      <script>
-        embed = new SlidesLiveEmbed('presentation-intro', {
-        presentationId: '{{paper.presentation_id | default(config.default_presentation_id)}}',
-{#        presentationId: '38938822',#}
-        autoPlay: false, // change to true to autoplay the embedded presentation
-        verticalEnabled: false,
-        verticalWhenWidthLte: 500,
-        allowHiddenControlsWhenPaused: true,
-        hideTitle: true
-        });
-      </script>
-      <div class="text-muted">
-      NOTE: Video may display a random order of authors.
-      Correct author list is at the top of this page.
-      </div>
-    </div>
-
-  </div>
-</div>
-
-{% endif %}
 {% if paper.content.program != "findings" %}
 {% if paper.presentation_id %}
-{{ components.section("Video && Chat") }}
 <div class="container" style="; padding: 0px;">
   <div class="text-muted text-center">
   </div>
@@ -198,11 +165,10 @@
     <!-- Slides Live-->
     <div class="col-md-7 col-xs-12 my-auto p-2" >
       <div id="presentation-embed" class="slp my-auto"></div>
-      <script src='static/js/embed_presentation.js'></script>
+      <script src='https://slideslive.com/embed_presentation.js'></script>
       <script>
         embed = new SlidesLiveEmbed('presentation-embed', {
         presentationId: '{{paper.presentation_id | default(config.default_presentation_id)}}',
-{#        presentationId: '38938822',#}
         autoPlay: false, // change to true to autoplay the embedded presentation
         verticalEnabled: true,
         verticalWhenWidthLte: 500,
@@ -257,14 +223,14 @@
 </script>
 {% endif %}
 
-{#{% if config.connected_papers_conference_name and paper.content.program == "main" %}#}
-{#<div class="container">#}
-{#  {{ components.section("Connected Papers in EMNLP2020") }}#}
-{#  <iframe width="100%" height="600px" loading="lazy" style="border:none;"#}
-{#            src="https://www.connectedpapers.com/conferece-redirect/conference/{{ config.connected_papers_conference_name }}/{{ paper.id }}/graph">#}
-{#  </iframe>#}
-{#</div>#}
-{#{% endif %}#}
+{% if config.connected_papers_conference_name and paper.content.program == "main" %}
+<div class="container">
+  {{ components.section("Connected Papers in EMNLP2020") }}
+  <iframe width="100%" height="600px" loading="lazy" style="border:none;"
+            src="https://www.connectedpapers.com/conferece-redirect/conference/{{ config.connected_papers_conference_name }}/{{ paper.id }}/graph">
+  </iframe>
+</div>
+{% endif %}
 
 {% if paper_recs %}
 {{ components.section("Similar Papers") }}
@@ -279,15 +245,12 @@
           </a>
           <h6 class="card-subtitle text-muted" align="center">
              {% for a in recommended.content.authors %}
-             {{a}}
-                 {% if loop.last == False %}
-                     ,
-                 {% endif %}
+             {{a}},
              {% endfor %}
           </h6>
-{#          <center>#}
-{#              <img class="cards_img" src="{{recommended.card_image_path}}" onerror="javascript:this.onerror=null;this.src=''" width="80%"/>#}
-{#          </center>#}
+          <center>
+              <img class="cards_img" src="{{recommended.card_image_path}}" onerror="javascript:this.onerror=null;this.src=''" width="80%"/>
+          </center>
         </div>
       </div>
     </div>

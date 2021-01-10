@@ -560,33 +560,6 @@
 
 {%- endmacro %}
 
-{% macro uc_abstracts_group(tutorials_UC) -%}
-<div class="cards row">
-  {% for tutorial in tutorials_UC %}
-  <div class="col-md-6 col-sm-12 p-3">
-    <div class="card p-3 shadow p-3 mb-5 bg-light rounded"
-         style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">
-
-          <div class="m-3 text-muted text-center">
-            <h4>
-              <a href="undergraduate_c_abstract_{{tutorial.id}}.html" class="main-title" >
-                  {{tutorial.title}}
-              </a>
-            </h4>
-          </div>
-
-          <div class="m-3 text-muted text-center">
-            <span class="card-title h3">
-              {{ tutorial.organizers }}
-            </span>
-          </div>
-    </div>
-  </div>
-  {% endfor %}
-</div>
-
-{%- endmacro %}
-
 
 <!-- WIP (do not use) -->
 {% macro socialeventgroup(social_events) -%}

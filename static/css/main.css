@@ -68,7 +68,7 @@ body {
 
 .pp-card-header {
   font-family: "Lato";
-  height: 200px;
+  height: 340px;
   padding-top: 10px;
   padding-left: 15px;
   padding-right: 15px;
@@ -251,7 +251,7 @@ body .nav-pills .nav-link.active {
 
   .card-dimensions-detail {
     margin-bottom: 1.5em;
-    min-height: 28rem;
+    min-height: 40rem;
   }
 
   .btn-quickview {

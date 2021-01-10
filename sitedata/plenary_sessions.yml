@@ -1,40 +1,41 @@
 - UID: opening_remarks
   title: Opening Remarks
   day: Nov 16
-  image: static/images/aaai2021/AAAI-logo.png
+  image: static/images/emnlp2020/acl-logo.png
   presentation_id: '38942925'
   sessions:
   - name: P-Live Presentation
     start_time: 2020-11-16 14:45:00+00:00
     end_time: 2020-11-16 15:00:00+00:00
   rocketchat_channel: plenary-opening-remarks
-- UID: keynote_by_regina_barzilay
-  title: 'AAAI Squirrel Award for for Artificial Intelligence for the Benefit of Humanity'
+- UID: keynote_by_claire_cardie
+  title: 'Keynote: Information Extraction Through the Years: How Did We Get Here?'
   day: Nov 16
-  image: static/images/keynotes/regina_barzilay.png
+  image: static/images/keynotes/claire_cardie.jpg
   sessions:
   - name: P-Live Presentation
     start_time: 2020-11-16 15:00:00+00:00
     end_time: 2020-11-16 16:00:00+00:00
   rocketchat_channel: keynote-claire-cardie
-  abstract: "Regina Barzilay is a professor in the Department of Electrical Engineering and \
-  Computer Science and a member of the Computer Science and Artificial Intelligence Laboratory\
-  at the Massachusetts Institute of Technology. Her research interests are in natural language\
-  processing. Currently, Prof. Barzilay is focused on bringing the power of machine learning to oncology. \
-  In collaboration with physicians and her students, she is devising deep learning models that utilize imaging,\
-  free text, and structured data to identify trends that affect early diagnosis, treatment, and disease prevention.\
-  Prof. Barzilay is poised to play a leading role in creating new models that advance the capacity of computers to \
-  harness the power of human language data.
-\n\n
-    Regina Barzilay is a recipient of various awards including the MacArthur Fellowship, NSF Career Award, the MIT \
-  Technology Review TR-35 Award, Microsoft Faculty Fellowship and several Best Paper Awards in top NLP conferences. \
-  In 2017, she received a MacArthur fellowship, an ACL fellowship and an AAAI fellowship. Most recently, in 2020, she \
-  is the first recipient of the AAAI Squirrel AI Award for Artificial Intelligence for the Benefit of Humanity."
-  bio: "[Regina Barzilay](https://www.regina.csail.mit.edu/) Prof. Barzilay received her MS and BS from Ben-Gurion \
-  University of the Negev. She received her PhD in Computer Science from Columbia University, and spent a year as a \
-  postdoc at Cornell University.
-"
-  presenter: Regina Barzilay
+  abstract: In this talk, I'll examine the state of the NLP subfield of information
+    extraction from its inception almost 30 years ago to its current realization in
+    neural network models. Which aspects of the original formulation of the task are
+    more or less solved? In what ways are current state-of-the-art methods still falling
+    short? What's up next for information extraction?
+  bio: "[Claire Cardie](https://www.cs.cornell.edu/home/cardie/) is the John C. Ford\
+    \ Professor of Engineering in the Departments of Computer Science and Information\
+    \ Science at Cornell University. She has worked since the early 1990's on application\
+    \ of machine learning methods to problems in Natural Language Processing --- on\
+    \ topics ranging from information extraction, noun phrase coreference resolution,\
+    \ text summarization and question answering to the automatic analysis of opinions,\
+    \ argumentation, and deception in text. She has served on the executive committees\
+    \ of the ACL and AAAI and twice as secretary of NAACL. She has been Program Chair\
+    \ for ACL/COLING, EMNLP and CoNLL, and General Chair for ACL in 2018. Cardie was\
+    \ named a Fellow of the ACL in 2015 and a Fellow of the Association for Computing\
+    \ Machinery (ACM) in 2019. At Cornell, she led the development of the university's\
+    \ academic programs in Information Science and was the founding Chair of its Information\
+    \ Science Department."
+  presenter: Claire Cardie
   presentation_id: '38938634'
 - UID: industry_panel
   title: Industry Panel
@@ -62,54 +63,88 @@
     Saif Mohammad
   abstract: 'Publishing in an era of Responsible AI: How can NLP be proactive? Considerations
     and Implications. Moderated by Mona Diab.'
-- UID: keynote_by_daphne_koller
-  title: "Keynote: Digital Learning Coming to Life"
+- UID: keynote_by_rich_caruana
+  title: "Keynote: Friends Don\u2019t Let Friends Deploy Black-Box Models: The Importance\
+    \ of Intelligibility in Machine Learning"
   day: Nov 17
-  image: static/images/keynotes/daphne_koller.jpg
+  image: static/images/keynotes/rich_caruana.jpg
   sessions:
   - name: P-Live Presentation
     start_time: 2020-11-17 23:00:00+00:00
     end_time: 2020-11-18 00:00:00+00:00
-  rocketchat_channel: keynote-daphne-koller
-  abstract: "waiting for content"
-  bio: "[Daphne Koller](https://ai.stanford.edu/users/koller/) is CEO and Founder of insitro, \
-  a machine-learning enabled drug discovery company, and the co-founder of the online education platforms Engageli and Coursera.\
-   Daphne was the Rajeev Motwani Professor of Computer Science at Stanford University, the co-CEO and President of Coursera and Chief\
-    Computing Officer of Calico. Daphne was recognized as one of TIME Magazine’s 100 most influential people in 2012. She received the \
-    MacArthur Foundation Fellowship in 2004 and the ACM Prize in Computing in 2008. She was inducted into the National Academy of Engineering\
-     in 2011 and elected a fellow of the American Association for Artificial Intelligence in 2004, the American Academy of Arts and Sciences\
-      in 2014 and of the International Society of Computational Biology in 2017."
-  presenter: Daphne Koller
+  rocketchat_channel: keynote-rich-caruana
+  abstract: "In machine learning sometimes tradeoffs must be made between accuracy\
+    \ and intelligibility: the most accurate models usually are not very intelligible,\
+    \ and the most intelligible models usually are less accurate. This can limit the\
+    \ accuracy of models that can safely be deployed in mission-critical applications\
+    \ where being able to understand, validate, edit, and ultimately trust a model\
+    \ is important. We have been working on a learning method to escape this tradeoff\
+    \ that is as accurate as full complexity models such as boosted trees and random\
+    \ forests, but more intelligible than linear models. This makes it easy to understand\
+    \ what the model has learned and to edit the model when it learns inappropriate\
+    \ things. Making it possible for humans to understand and repair a model is critical\
+    \ because most training data has unexpected problems. I\u2019ll present several\
+    \ case studies where these high-accuracy GAMs discover surprising patterns in\
+    \ the data that would have made deploying a black-box model inappropriate. I\u2019\
+    ll also show how these models can be used to detect and correct bias. And if there\u2019\
+    s time, I\u2019ll briefly discuss using intelligible GAM models to predict COVID-19\
+    \ mortality."
+  bio: "[Rich Caruana](https://www.microsoft.com/en-us/research/people/rcaruana/)\
+    \ is a Senior Principal Researcher at Microsoft. His focus is on intelligible/transparent\
+    \ modeling, machine learning for medical decision making, deep learning, and computational\
+    \ ecology. Before joining Microsoft, Rich was on the faculty in Computer Science\
+    \ at Cornell, at UCLA's Medical School, and at CMU's Center for Learning and Discovery.\
+    \ Rich's Ph.D. is from CMU. His work on Multitask Learning helped create interest\
+    \ in a subfield of machine learning called Transfer Learning.  Rich received an\
+    \ NSF CAREER Award in 2004 (for Meta Clustering), best paper awards in 2005 (with\
+    \ Alex Niculescu-Mizil), 2007 (with Daria Sorokina), and 2014 (with Todd Kulesza,\
+    \ Saleema Amershi, Danyel Fisher, and Denis Charles), and co-chaired KDD in 2007\
+    \ with Xindong Wu. \""
+  presenter: Rich Caruana
   presentation_id: "38942829"
-- UID: keynote_by_michael_wooldridge
-  title: '2021 AAAI/EAAI-21 Outstanding Educator Award Lecture: Talking to the Public about AI.'
+- UID: keynote_by_janet_pierrehumbert
+  title: 'Keynote: Linguistic Behaviour and the Realistic Testing of NLP Systems.'
   presentation_id: "38942827"
   day: Nov 18
-  image: static/images/keynotes/michael_wooldridge.jpg
+  image: static/images/keynotes/janet_pierrehumbert.jpg
   sessions:
   - name: P-Live Presentation
     start_time: 2020-11-18 15:00:00+00:00
     end_time: 2020-11-18 16:00:00+00:00
   rocketchat_channel: keynote-janet-pierrehumbert
-  abstract: "Since everything went crazy in AI, around 2012, I, like many other members of our community,\
-   have frequently found myself put in the position of having to talk about our field to a non-specialist audience. \
-   I’ve been interviewed on TV and radio, and spoken to endless university committees, government committees, and industrial \
-   conferences. More recently, following the publication of my two popular science books (the Ladybird Expert Guide to \
-   AI [2018], and The Road to Conscious Machines [2020]), I’ve even begun speaking at a literary festivals (believe me, \
-   I never expected to be doing this as a PhD student studying multiagent systems back in 1989). In this talk, I will \
-   relate these experiences, the mistakes I made, and what I learned from them – how our field is perceived, what people\
-    fear, hope, and expect from it, and how best to communicate excitement about the very real progress we’ve made recently\
-     with a realistic understanding of where we are and where we are going.
-"
-  bio: "[Michael Wooldridge](https://www.cs.ox.ac.uk/people/michael.wooldridge/) is a Professor of Computer\
-   Science and Head of Department of Computer Science at the University of Oxford, and a programme director for AI at\
-    the Alan Turing Institute. He is a Fellow of the ACM, the Association for the Advancement of AI (AAAI), and the European\
-     Association for AI (EurAI). From 2014-16, he was President of the European Association for AI, and from 2015-17 he was\
-      President of the International Joint Conference on AI (IJCAI). As well as more than 400 technical articles on AI, he\
-       has published two popular science introductions to the field: The Ladybird Expert Guide to AI (2018), and The Road to\
-        Conscious Machines (Pelican, 2020).
-"
-  presenter: Michael Wooldridge
+  abstract: "To evaluate the performance of NLP systems, the standard is to use held-out\
+    \ test data. When the systems are deployed in real-world applications, they will\
+    \ only be successful if they perform well on examples that their architects never\
+    \ saw before. Many of these will be examples that nobody ever saw before; the\
+    \ central observation of generative linguistics, going back to von Humboldt, is\
+    \ that human language involves \"The infinite use of finite means\".\n    Predicting\
+    \ the real-world success of NLP systems thus comes down to predicting future human\
+    \ linguistic behaviour. In this talk, I will discuss some general characteristics\
+    \ of human linguistic behaviour, and the extent to which they are, or are not\
+    \ addressed in current NLP methodology. The topics I will address include: look-ahead\
+    \ and prediction; the role of categorization in building abstractions; effects\
+    \ of context; and variability across individuals."
+  bio: "[Janet Pierrehumbert](http://www.phon.ox.ac.uk/jpierrehumbert/) is the Professor\
+    \ of Language Modelling in the Department of Engineering Science at the University\
+    \ of Oxford. She received her BA in Linguistics and Mathematics at Harvard in\
+    \ 1975, and her Ph.D in Linguistics from MIT in 1980. Much of her Ph.D dissertation\
+    \ research on English prosody and intonation was carried out at AT&T Bell Laboratories,\
+    \ where she was also a Member of Technical Staff from 1982 to 1989. After she\
+    \ moved to Northwestern University in1989, her research program used a wide variety\
+    \ of experimental and computational methods to explore how lexical systems emerge\
+    \ in speech communities. She showed that the mental representations of words are\
+    \ at once abstract and phonetically detailed, and that social factors interact\
+    \ with cognitive factors as lexical patterns are learned, remembered, and generalized.\
+    \ Pierrehumbert joined the faculty at the University of Oxford in 2015 as a member\
+    \ of the interdisciplinary Oxford e-Research Centre. Her current research uses\
+    \ machine-learning methods to model the dynamics of on-line language. Her latest\
+    \ project, funded by the UK EPSRC, seeks to develop new NLP methods to characterize\
+    \ exaggeration, cohesion, and fragmentation in on-line forums.\n\nPierrehumbert\
+    \ is a Fellow of the Linguistic Society of America, the Cognitive Science Society,\
+    \ and the American Academy of Arts and Sciences. She was elected to the National\
+    \ Academy of Sciences in 2019. She is the recipient of the 2020 Medal for Scientific\
+    \ Achievement from the International Speech Communication Association."
+  presenter: Janet Pierrehumbert
 - UID: business_meeting
   presentation_id: "38942830"
   title: Business Meeting
