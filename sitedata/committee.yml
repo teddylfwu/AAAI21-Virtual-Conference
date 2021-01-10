@@ -3,74 +3,92 @@ committee:
   image: static/images/committee/1_Sven Koenig.jpg
   name: Sven Koenig
   role: AAAI Conference Committee Chair
+  pweb: http://idm-lab.org/
 - aff: Webank and Hong Kong University of Science and Technology, Hong Kong
   image: static/images/committee/2_Qiang Yang.jpg
   name: Qiang Yang
   role: AAAI-21 General Chair
+  pweb: http://www.cs.ust.hk/~qyang/
 - aff: University of British Columbia, Canada
   image: static/images/committee/3_Kevin Leyton-Brown.jpg
   name: Kevin Leyton-Brown
   role: AAAI-21 Program Cochairs
+  pweb: https://www.cs.ubc.ca/~kevinlb/
 - aff: Indian Institute of Technology Delhi, India
   image: static/images/committee/4_Mausam.jpg
   name: Mausam
   role: AAAI-21 Program Cochairs
+  pweb: https://www.cse.iitd.ac.in/~mausam/
 - aff: University of Southern California, USA
   image: static/images/committee/5_Yan Liu.jpg
   name: Yan Liu
   role: AAAI-21 Associate Program Chairs
+  pweb: https://viterbi-web.usc.edu/~liu32/
 - aff: "Universit\xE4t Basel, Switzerland"
   image: static/images/committee/6_Gabrielle Roger.jpg
   name: Gabrielle Roger
   role: AAAI-21 Associate Program Chairs
+  pweb: https://ai.dmi.unibas.ch/people/roeger/
 - aff: Shenzhen University, China
   image: static/images/committee/7_Weike Pan.jpg
   name: Weike Pan
   role: AAAI-21 Associate Conference Chairs for Virtual Operations
+  pweb: http://csse.szu.edu.cn/staff/panwk/index.html
 - aff: IBM, USA
   image: static/images/committee/8_Lingfei Wu.jpg
   name: Lingfei Wu
   role: AAAI-21 Associate Conference Chairs for Virtual Operations
+  pweb: https://sites.google.com/a/email.wm.edu/teddy-lfwu/ 
 - aff: IBM India Research Labs, India
   image: static/images/committee/9_Dinesh Raghu.jpg
   name: Dinesh Raghu
   role: AAAI-21 Workflow Chairs
+  pweb: https://researcher.watson.ibm.com/researcher/view.php?person=in-diraghu1
 - aff: Hong Kong University of Science and Technology, Hong Kong
   image: static/images/committee/10_Guangneng Hu.jpg
   name: Guangneng Hu
   role: AAAI-21 Workflow Chairs
+  pweb: http://home.cse.ust.hk/~ghuac/
 - aff: University of British Columbia, Canada
   image: static/images/committee/11_Hedayat Zarkoob.jpg
   name: Hedayat Zarkoob
   role: AAAI-21 Workflow Chairs
+  pweb: https://www.cs.ubc.ca/~hzarkoob/
 - aff: Norwegian University of Science and Technology, Norway
   image: static/images/committee/12_Odd Erik Gundersen.jpg
   name: Odd Erik Gundersen
   role: AAAI-21 Reproducibility Chair
+  pweb: https://www.ntnu.edu/employees/odderik
 - aff: TU Darmstadt, Germany
   image: static/images/committee/13_Kristian Kersting.jpg
   name: Kristian Kersting
   role: AAAI-21 Focus Area Chairs on Neuro-Symbolic AI
+  pweb: https://ml-research.github.io/people/kkersting/index.html
 - aff: Carnegie Mellon University, USA
   image: static/images/committee/14_Zico Kolter.jpg
   name: Zico Kolter
   role: AAAI-21 Focus Area Chairs on Neuro-Symbolic AI
+  pweb: https://zicokolter.com/
 - aff: Chinese Academy of Sciences, China
   image: static/images/committee/15_S. Kevin Zhou.jpg
   name: S. Kevin Zhou
   role: AAAI-21 Focus Area Chairs for AI Responses for Covid-19
+  pweb: https://scholar.google.com/citations?user=8eNm2GMAAAAJ&hl=en
 - aff: Johns Hopkins University, USA
   image: static/images/committee/16_Le Lu.jpg
   name: Le Lu
   role: AAAI-21 Focus Area Chairs for AI Responses for Covid-19
+  pweb: http://www.cs.jhu.edu/~lelu/
 - aff: Georgia Tech, USA
   image: static/images/committee/17_B. Aditya Prakash.jpg
   name: B. Aditya Prakash
   role: AAAI-21 Focus Area Chairs for AI Responses for Covid-19
+  pweb: https://cse.gatech.edu/people/b-aditya-prakash
 - aff: Massachusetts Institute of Technology, USA
   image: static/images/committee/18_David Karger.jpg
   name: David Karger
   role: Focus Area Chairs on AI for Conference Organization and Delivery
+  pweb: http://people.csail.mit.edu/karger/
 - aff: University of Toronto, Canada
   image: static/images/committee/19_Nisarg Shah.jpg
   name: Nisarg Shah
