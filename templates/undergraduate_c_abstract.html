@@ -11,6 +11,12 @@
     <h3 class="card-subtitle mb-2 text-muted text-center">
       {{ tutorial.organizers }}
     </h3>
+    {{ components.live_sessions(
+        tutorial.blocks,
+        tutorial.title,
+        "https://virtual.acl2020.org/tutorial_" + tutorial.id + ".html",
+        false) }}
+
   </div>
 </div>
 
@@ -26,7 +32,7 @@
   </div>
 </div>
 
-
+<script src="static/js/time-extend.js"></script>
 
 <script src="static/js/time-extend.js"></script>
 <script>

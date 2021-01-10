@@ -5,6 +5,92 @@
 {% block heading %}
 {{ components.section("Undergraduate Consortium") }}
 
+<div class="pp-card m-3" style="">
+    <div class="card-header">
+    <p>
+    Welcome to the Second AAAI Undergraduate Consortium (February 2, 2021) collocated with the Thirty-Fifth Conference on Artificial Intelligence (AAAI-21). The Undergraduate Consortium (AAAI-UC) offers undergraduate students an opportunity to enrich their conference experience by:
+    </p>
+    <ul>
+    <li>presenting and receiving critical feedback about their work in a professional, academic setting;</li>
+    <li>meeting prospective graduate advisors;</li>
+    <li>receiving mentoring about the advantages (and disadvantages) of pursuing graduate studies in AI as well as practical early career advice;</li>
+    <li>expanding their professional network to include AI experts, current graduate students, and undergraduate peers; and</li>
+    <li>providing advice, tools, and resources for successfully applying to and attending graduate school in an AI-related research.</li>
+    </ul>
+    <p>
+    The fourteen students accepted to participate in this program will also participate in the AAAI-21 Poster Sessions on Thursday, February 4. All interested AAAI-21 undergraduate student registrants are invited to observe the presentations.
+    </p>
+    <p>
+    The full Undergraduate Consortium schedule is included below.
+    </p>
+    <p>
+    AAAI gratefully acknowledges the generous grants from AI Journal and the National Science Foundation, which make this program possible.
+    </p>
+
+    <div class="text-center p-3">
+    <a href="https://aaai-uc.github.io/2021.html" target="_blank"  class="card-link">
+        External Site
+    </a>
+    <a href="https://123.com" target="_blank"  class="card-link">
+        Join Zoom Meeting
+    </a>
+    </div>
+    </div>
+</div>
+
+<div id="schedule" aria-labelledby="schedule">
+  <h2 class="card-title main-title text-center" style="">
+      AAAI-21 Undergraduate Consortium Schedule
+  </h2>
+  <h3 class="card-subtitle mb-2 text-muted text-center">
+      February 2, 2021
+  </h3>
+  <div class="card-body">
+    <table class="table table-bordered table-striped" style="font-size: small;">
+      <thead>
+        <tr>
+          <th scope="col" style="width: 30%;">Time</th>
+          <th scope="col" style="width: 40%;">Event</th>
+          <th scope="col">Hosts</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for tutorial in tutorials_OTHER %}
+        {% if tutorial.id == "OTHER" %}
+        {% for event in tutorial.sessions %}
+        {% if event.session_name == "Talk: Roles for Computing in Social Justice" %}
+            <tr>
+            <td>
+              {{event.day}}, <span class="session_times">{{event.time_string}}</span>
+            </td>
+          <td scope="row">{{event.session_name}}</td>
+          <td style="white-space: pre-wrap;"><a href="https://www2.eecs.berkeley.edu/Faculty/Homepages/rabebe.html">Dr. Rediet Abebe</a> (Faculty Panel Q&A)</td>
+        </tr>
+        {% elif event.session_name == "Talk: Wanted: You and Your Mind" %}
+            <tr>
+            <td>
+              {{event.day}}, <span class="session_times">{{event.time_string}}</span>
+            </td>
+          <td scope="row">{{event.session_name}}</td>
+          <td style="white-space: pre-wrap;"><a href="http://www.cs.utep.edu/agates/">Dr. Ann Gates</a> (Faculty Panel Q&A)</td>
+        </tr>
+        {% else %}
+        <tr>
+            <td>
+              {{event.day}}, <span class="session_times">{{event.time_string}}</span>
+            </td>
+          <td scope="row">{{event.session_name}}</td>
+          <td style="white-space: pre-wrap;">{{event.hosts}}</td>
+        </tr>
+        {% endif %}
+        {% endfor %}
+        {% endif %}
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+
 {% endblock %}
 
 {% block content %}

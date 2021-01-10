@@ -79,6 +79,7 @@ def doctoral_consortium():
 def undergraduate_consortium():
     data = _data()
     data["tutorials_UC"] = site_data["tutorials_UC"]
+    data["tutorials_OTHER"] = site_data["tutorials_OTHER"]
     return render_template("undergraduate_consortium.html", **data)
 
 
