@@ -7,8 +7,6 @@ tools/aws/cognito/aws_profile.yml
 # Byte-compiled / optimized / DLL files
 __pycache__/
 miniconf/__pycache__/
-scripts/rocketchat/__pycache__/
-scripts/rocketchat/config.yml
 *.py[cod]
 *$py.class
 
