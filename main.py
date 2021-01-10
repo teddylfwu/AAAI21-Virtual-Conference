@@ -78,12 +78,14 @@ def doctoral_consortium():
 @app.route("/undergraduate_consortium.html")
 def undergraduate_consortium():
     data = _data()
+    data["tutorials_UC"] = site_data["tutorials_UC"]
     return render_template("undergraduate_consortium.html", **data)
 
 
 @app.route("/diversity_programs.html")
 def diversity_programs():
     data = _data()
+    data["diversity_programs"] = site_data["socials"]
     return render_template("diversity_programs.html", **data)
 
 
@@ -201,7 +203,6 @@ def tutorials():
     data["tutorials_AH"] = site_data["tutorials_AH"]
     return render_template("tutorials.html", **data)
 
-
 @app.route("/workshops.html")
 def workshops():
     data = _data()
@@ -223,6 +224,11 @@ def socials():
     data["socials"] = site_data["socials"]
     return render_template("socials.html", **data)
 
+# @app.route("/diversity_programs.html")
+# def diversity_programs():
+#     data = _data()
+    
+#     return render_template("diversity_programs.html, **data")
 
 @app.route("/organizers.html")
 def organizers():
@@ -262,6 +268,12 @@ def tutorial(uid):
     data = _data()
     data["tutorial"] = by_uid["tutorials"][uid]
     return render_template("tutorial.html", **data)
+
+@app.route("/undergraduate_c_abstract_<uid>.html")
+def uc_abstract(uid):
+    data = _data()
+    data["tutorial"] = by_uid["tutorials"][uid]
+    return render_template("undergraduate_c_abstract.html", **data)
 
 
 @app.route("/workshop_<uid>.html")
@@ -309,28 +321,28 @@ def papers_program(program):
     return jsonify(papers_for_program)
 
 
-@app.route("/track_<program_name>_<track_name>.json")
-def track_json(program_name, track_name):
-    paper: Paper
-    if program_name == "workshop":
-        papers_for_track = None
-        for wsh in site_data["workshops"]:
-            if wsh.title == track_name:
-                papers_for_track = wsh.papers
-                break
-    else:
-        papers_for_track = [
-            paper
-            for paper in site_data["papers"]
-            if paper.content.track == track_name
-            and paper.content.program == program_name
-        ]
-    return jsonify(papers_for_track)
+# @app.route("/track_<program_name>_<track_name>.json")
+# def track_json(program_name, track_name):
+#     paper: Paper
+#     if program_name == "workshop":
+#         papers_for_track = None
+#         for wsh in site_data["workshops"]:
+#             if wsh.title == track_name:
+#                 papers_for_track = wsh.papers
+#                 break
+#     else:
+#         papers_for_track = [
+#             paper
+#             for paper in site_data["papers"]
+#             if paper.content.track == track_name
+#             and paper.content.program == program_name
+#         ]
+#     return jsonify(papers_for_track)
 
 
-@app.route("/static/<path:path>")
-def send_static(path):
-    return send_from_directory("static", path)
+# @app.route("/static/<path:path>")
+# def send_static(path):
+#     return send_from_directory("static", path)
 
 
 @app.route("/serve_<path>.json")
@@ -350,12 +362,12 @@ def generator():
         yield "paper", {"uid": paper.id}
     for program in site_data["programs"]:
         yield "papers_program", {"program": program}
-        for track in site_data["tracks"]:
-            yield "track_json", {"track_name": track, "program_name": program}
+        # for track in site_data["tracks"]:
+        #     yield "track_json", {"track_name": track, "program_name": program}
 
-    yield "papers_program", {"program": "workshop"}
-    for wsh in site_data["workshops"]:
-        yield "track_json", {"track_name": wsh.title, "program_name": "workshop"}
+    # yield "papers_program", {"program": "workshop"}
+    # for wsh in site_data["workshops"]:
+    #     yield "track_json", {"track_name": wsh.title, "program_name": "workshop"}
     plenary_session: PlenarySession
     for _, plenary_sessions_on_date in site_data["plenary_sessions"].items():
         for plenary_session in plenary_sessions_on_date:

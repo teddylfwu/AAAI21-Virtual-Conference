@@ -1,21 +1,22 @@
-{% set active_page = "Undergraduate Consortium" %}
 {% extends "base.html" %}
+{% set active_page = "Undergraduate Consortium" %}
+{% set page_title = "Undergraduate Consortium" %}
 
-{% block top %}
+{% block heading %}
+{{ components.section("Undergraduate Consortium") }}
 
 {% endblock %}
 
 {% block content %}
 
-<div class="row">
-  <div class="col-md-7 col-sm-12 pr-5 lead">
-    <p>Welcome to Undergraduate Consortium!<br><br>
-      Here is nothing left.
-    </p>
-  </div>
+<div class="tutorials">
+    {{ components.uc_abstracts_group(tutorials_UC) }}
 </div>
 
-{% endblock %}
-
-{% block footer %}
+<script src="static/js/time-extend.js"></script>
+<script>
+  $(document).ready(()=>{
+    add_local_tz('.session_times');
+  })
+</script>
 {% endblock %}

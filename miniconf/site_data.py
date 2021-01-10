@@ -119,6 +119,7 @@ class Paper:
     forum: str
     card_image_path: str
     presentation_id: str
+    presentation_id_intro: str
     content: PaperContent
 
     @property

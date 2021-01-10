@@ -474,13 +474,15 @@ const updateToolboxUI = (program, urlFilter, track) =>{
     // Update program selector UI
     document.querySelector(`input[name=program][value=${program}]`).checked = true;
 
-    if (["main", "workshop"].includes(program)) {
-        $("#track_selector").selectpicker('show');
-        $("#track_selector_placeholder").removeClass("d-lg-block");
-    } else{
-        $("#track_selector").selectpicker('hide');
-        $("#track_selector_placeholder").addClass("d-lg-block");
-    }
+    $("#track_selector").selectpicker('hide');
+    $("#track_selector_placeholder").addClass("d-lg-block");
+    // if (["main", "workshop"].includes(program)) {
+    //     $("#track_selector").selectpicker('show');
+    //     $("#track_selector_placeholder").removeClass("d-lg-block");
+    // } else{
+    //     $("#track_selector").selectpicker('hide');
+    //     $("#track_selector_placeholder").addClass("d-lg-block");
+    // }
 }
 
 /**
@@ -491,7 +493,7 @@ const start = (reset_track) => {
     reset_track = reset_track || false;
     
     const urlFilter = getUrlParameter("filter") || 'titles';
-    const program = getUrlParameter("program") || 'AISI'
+    const program = getUrlParameter("program") || 'Main'
     let default_track = program == "workshop"? "All workshops" : "All tracks";
     
     let track = getUrlParameter("track") || default_track;
@@ -666,8 +668,6 @@ const card_html = openreview => `
                 <h6 class="card-subtitle mb-2 text-muted">${openreview.content.authors.join(', ')}</h6>
                 
                 ${card_program_badge(openreview)}
-                
-                ${card_image(openreview, render_mode !== 'list')}
 
                 ${card_detail(openreview, (render_mode === 'detail'))}
             </div>
