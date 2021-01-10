@@ -448,7 +448,7 @@
 
   $(document).ready(function () {
     tippy("[data-tippy-content]", { trigger: "mouseenter focus" });
-    const program = getUrlParameter("program") || 'Main'
+    const program = getUrlParameter("program") || 'AISI'
     let track = ""
     if (program !== "workshop") {
         track = getUrlParameter("track") || 'All tracks'

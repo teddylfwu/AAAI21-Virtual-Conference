@@ -118,26 +118,7 @@
 {#     {% elif paper.content.program == "workshop" %}#}
 {#      <a href="papers.html?program=workshop&track={{paper.content.track}}" class ="badge badge-pill badge-primary">{{ paper.content.track }}</a>#}
 {#      {% endif %}#}
-        {% if paper.content.program == "Main" %}
       <span class="badge badge-secondary">{{ paper.content.program }} Paper</span>
-        {% elif paper.content.program == "AISI" %}
-      <span class="badge badge-secondary">AI for Social Impact Track Paper</span>
-        {% elif paper.content.program == "SMT" %}
-      <span class="badge badge-secondary">Senior Member Track Paper</span>
-        {% elif paper.content.program == "Demo" %}
-      <span class="badge badge-secondary">{{ paper.content.program }} Paper</span>
-        {% elif paper.content.program == "SA" %}
-      <span class="badge badge-secondary">Student Abstract and Poster Program Paper</span>
-        {% elif paper.content.program == "DC" %}
-      <span class="badge badge-secondary">Doctoral Consortium Paper</span>
-        {% elif paper.content.program == "UC" %}
-      <span class="badge badge-secondary">Undergraduate Consortium Paper</span>
-        {% elif paper.content.program == "IAAI" %}
-      <span class="badge badge-secondary">Innovative Applications of Artificial Intelligence Conference Paper</span>
-        {% elif paper.content.program == "EAAI" %}
-      <span class="badge badge-secondary">Symposium on Educational Advances in Artificial Intelligence Paper</span>
-        {% endif %}
-
     </p>
 
     {{ components.live_sessions(
