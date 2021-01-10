@@ -494,6 +494,10 @@ body .carousel-control-prev {
   background-color: #b8a9c9;
 }
 
+.fc-v-event.calendar-event-uc {
+  background-color: #42dbe3;
+}
+
 .fc-v-event.calendar-event-workshops {
   background-color: #fe9f6d;
 }

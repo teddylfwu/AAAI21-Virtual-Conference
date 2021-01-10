@@ -1120,7 +1120,7 @@
       His current research interests lie in the areas of computational intelligence,
       multi-agent systems, trust and security, temporal reasoning, formal methods.
   prerecorded: '38940826'
-- UID: UC-10
+- UID: UC-1
   title: 'Efficient Robust Music Genre Classification with Depthwise Separable Convolutions and Source Separation'
   organizers: Gabriel A Mersy
   info: |-
@@ -1133,20 +1133,20 @@
     </p>
   sessions:
     - name: AH9
-      start_time: 2021-02-03 17:00:00+00:00
-      end_time: 2021-02-03 20:00:00+00:00
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
     - name: AH9
-      start_time: 2021-02-03 17:00:00+00:00
-      end_time: 2021-02-03 20:00:00+00:00
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
   authors:
     - name: Gabriel A Mersy
       description: |+
         to be continued
-- UID: UC-29
+- UID: UC-2
   title: 'Text Analysis for Understanding Symptoms of Social Anxiety in Student Veterans'
   organizers: Morgan Byers, Vangelis Metsis
   info: |-
@@ -1159,20 +1159,20 @@
     </p>
   sessions:
     - name: AH9
-      start_time: 2021-02-03 17:00:00+00:00
-      end_time: 2021-02-03 20:00:00+00:00
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
     - name: AH9
-      start_time: 2021-02-03 17:00:00+00:00
-      end_time: 2021-02-03 20:00:00+00:00
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
   authors:
     - name: Morgan Byers, Vangelis Metsis
       description: |+
         to be continued
-- UID: UC-30
+- UID: UC-3
   title: 'Use of Computer Vision to Develop a Device to Assist Visually Impaired People with Social Distance'
   organizers: Lucas G Nadolskis
   info: |-
@@ -1199,20 +1199,20 @@
     </p>
   sessions:
     - name: AH9
-      start_time: 2021-02-03 17:00:00+00:00
-      end_time: 2021-02-03 20:00:00+00:00
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
     - name: AH9
-      start_time: 2021-02-03 17:00:00+00:00
-      end_time: 2021-02-03 20:00:00+00:00
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
   authors:
     - name: Morgan Byers, Vangelis Metsis
       description: |+
         to be continued
-- UID: UC-34
+- UID: UC-4
   title: 'Investigating Methods of Balancing Inequality and Efficiency in Ride Pooling'
   organizers: Naveen J Raman
   info: |-
@@ -1225,20 +1225,20 @@
     </p>
   sessions:
     - name: AH9
-      start_time: 2021-02-03 17:00:00+00:00
-      end_time: 2021-02-03 20:00:00+00:00
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
     - name: AH9
-      start_time: 2021-02-03 17:00:00+00:00
-      end_time: 2021-02-03 20:00:00+00:00
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
   authors:
     - name: Morgan Byers, Vangelis Metsis
       description: |+
         to be continued
-- UID: UC-40
+- UID: UC-5
   title: 'Bison Hacks the Yard: Assisting Underrepresented Students Overcome Impostor Syndrome with Augmented Reality and Artificial Intelligence'
   organizers: Nicole M Sullivan
   info: |-
@@ -1251,20 +1251,20 @@
     </p>
   sessions:
     - name: AH9
-      start_time: 2021-02-03 17:00:00+00:00
-      end_time: 2021-02-03 20:00:00+00:00
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
     - name: AH9
-      start_time: 2021-02-03 17:00:00+00:00
-      end_time: 2021-02-03 20:00:00+00:00
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
   authors:
     - name: Morgan Byers, Vangelis Metsis
       description: |+
         to be continued
-- UID: UC-46
+- UID: UC-6
   title: 'Analyzing Games with a Variable Number of Players'
   organizers: Madelyn Gatchel
   info: |-
@@ -1277,20 +1277,20 @@
     </p>
   sessions:
     - name: AH9
-      start_time: 2021-02-03 17:00:00+00:00
-      end_time: 2021-02-03 20:00:00+00:00
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
     - name: AH9
-      start_time: 2021-02-03 17:00:00+00:00
-      end_time: 2021-02-03 20:00:00+00:00
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
   authors:
     - name: Morgan Byers, Vangelis Metsis
       description: |+
         to be continued
-- UID: UC-47
+- UID: UC-7
   title: 'Affect-Aware Machine Learning Models for Detecting Deception'
   organizers: Leena Mathur
   info: |-
@@ -1303,20 +1303,20 @@
     </p>
   sessions:
     - name: AH9
-      start_time: 2021-02-03 17:00:00+00:00
-      end_time: 2021-02-03 20:00:00+00:00
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
     - name: AH9
-      start_time: 2021-02-03 17:00:00+00:00
-      end_time: 2021-02-03 20:00:00+00:00
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
   authors:
     - name: Morgan Byers, Vangelis Metsis
       description: |+
         to be continued
-- UID: UC-49
+- UID: UC-8
   title: 'Probabilistic Robustness Quantification of Neural Networks'
   organizers: Gopi Kishan, Apurva Narayan
   info: |-
@@ -1330,20 +1330,20 @@
     </p>
   sessions:
     - name: AH9
-      start_time: 2021-02-03 17:00:00+00:00
-      end_time: 2021-02-03 20:00:00+00:00
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
     - name: AH9
-      start_time: 2021-02-03 17:00:00+00:00
-      end_time: 2021-02-03 20:00:00+00:00
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
   authors:
     - name: Morgan Byers, Vangelis Metsis
       description: |+
         to be continued
-- UID: UC-56
+- UID: UC-9
   title: 'Evolving Spiking Circuit Motifs Using Weight Agnostic Neural Networks'
   organizers: Abrar Anwar
   info: |-
@@ -1356,20 +1356,20 @@
     </p>
   sessions:
     - name: AH9
-      start_time: 2021-02-03 17:00:00+00:00
-      end_time: 2021-02-03 20:00:00+00:00
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
     - name: AH9
-      start_time: 2021-02-03 17:00:00+00:00
-      end_time: 2021-02-03 20:00:00+00:00
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
   authors:
     - name: Morgan Byers, Vangelis Metsis
       description: |+
         to be continued
-- UID: UC-59
+- UID: UC-10
   title: 'The Price of Anarchy in ROSCAS with Risk Averse Agents'
   organizers: Christian  Ikeokwu
   info: |-
@@ -1382,20 +1382,20 @@
     </p>
   sessions:
     - name: AH9
-      start_time: 2021-02-03 17:00:00+00:00
-      end_time: 2021-02-03 20:00:00+00:00
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
     - name: AH9
-      start_time: 2021-02-03 17:00:00+00:00
-      end_time: 2021-02-03 20:00:00+00:00
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
   authors:
     - name: Morgan Byers, Vangelis Metsis
       description: |+
         to be continued
-- UID: UC-66
+- UID: UC-11
   title: 'Predictive Agent-Based Modeling of Natural Disasters Using Machine Learning'
   organizers: Favour Nerrise
   info: |-
@@ -1408,20 +1408,20 @@
     </p>
   sessions:
     - name: AH9
-      start_time: 2021-02-03 17:00:00+00:00
-      end_time: 2021-02-03 20:00:00+00:00
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
     - name: AH9
-      start_time: 2021-02-03 17:00:00+00:00
-      end_time: 2021-02-03 20:00:00+00:00
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
   authors:
     - name: Morgan Byers, Vangelis Metsis
       description: |+
         to be continued
-- UID: UC-71
+- UID: UC-12
   title: 'Exploration of Unknown Environments Using Deep Reinforcement Learning'
   organizers: Joseph McCalmon
   info: |-
@@ -1434,20 +1434,20 @@
     </p>
   sessions:
     - name: AH9
-      start_time: 2021-02-03 17:00:00+00:00
-      end_time: 2021-02-03 20:00:00+00:00
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
     - name: AH9
-      start_time: 2021-02-03 17:00:00+00:00
-      end_time: 2021-02-03 20:00:00+00:00
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
   authors:
     - name: Morgan Byers, Vangelis Metsis
       description: |+
         to be continued
-- UID: UC-76
+- UID: UC-13
   title: 'Using Remote Sensing Imagery and Machine Learning to Predict Poaching in Wildlife Conservation Parks'
   organizers: Rachel Guo
   info: |-
@@ -1460,20 +1460,20 @@
     </p>
   sessions:
     - name: AH9
-      start_time: 2021-02-03 17:00:00+00:00
-      end_time: 2021-02-03 20:00:00+00:00
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
     - name: AH9
-      start_time: 2021-02-03 17:00:00+00:00
-      end_time: 2021-02-03 20:00:00+00:00
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
   authors:
     - name: Morgan Byers, Vangelis Metsis
       description: |+
         to be continued
-- UID: UC-77
+- UID: UC-14
   title: 'MOTIF-Driven Contrastive Learning of Graph Representations'
   organizers: Arjun Subramonian
   info: |-
@@ -1486,29 +1486,45 @@
     </p>
   sessions:
     - name: AH9
-      start_time: 2021-02-03 17:00:00+00:00
-      end_time: 2021-02-03 20:00:00+00:00
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
     - name: AH9
-      start_time: 2021-02-03 17:00:00+00:00
-      end_time: 2021-02-03 20:00:00+00:00
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
   authors:
     - name: Morgan Byers, Vangelis Metsis
       description: |+
         to be continued
-- UID: OTHER
-  title: 'xxx'
-  organizers: Arjun Subramonian
+- UID: UC
+  title: 'Undergraduate Consortium'
+  organizers: " "
   info: |-
     to be continued
   rocketchat_channel: xxx
   prerecorded: '000'
   abstract: |-
     <p>
-    xxx
+        Welcome to the Second AAAI Undergraduate Consortium (February 2, 2021) collocated with the Thirty-Fifth Conference on Artificial Intelligence (AAAI-21). The Undergraduate Consortium (AAAI-UC) offers undergraduate students an opportunity to enrich their conference experience by:
+        </p>
+        <ul>
+        <li>presenting and receiving critical feedback about their work in a professional, academic setting;</li>
+        <li>meeting prospective graduate advisors;</li>
+        <li>receiving mentoring about the advantages (and disadvantages) of pursuing graduate studies in AI as well as practical early career advice;</li>
+        <li>expanding their professional network to include AI experts, current graduate students, and undergraduate peers; and</li>
+        <li>providing advice, tools, and resources for successfully applying to and attending graduate school in an AI-related research.</li>
+        </ul>
+        <p>
+        The fourteen students accepted to participate in this program will also participate in the AAAI-21 Poster Sessions on Thursday, February 4. All interested AAAI-21 undergraduate student registrants are invited to observe the presentations.
+        </p>
+        <p>
+        The full Undergraduate Consortium schedule is included below.
+        </p>
+        <p>
+        AAAI gratefully acknowledges the generous grants from AI Journal and the National Science Foundation, which make this program possible.
     </p>
   sessions:
     - name: "Opening remarks"

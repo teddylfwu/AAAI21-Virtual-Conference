@@ -177,10 +177,10 @@ def load_site_data(
             tutorial_AQ.append(item)
         if "AH" in item["UID"]:
             tutorial_AH.append(item)
+        if item["UID"] == "UC":
+            tutorial_OTHER.append(item)
         if "UC" in item["UID"]:
             tutorial_UC.append(item)
-        if "OTHER" in item["UID"]:
-            tutorial_OTHER.append(item)
 
     tutorials = build_tutorials(site_data["tutorials"])
 
@@ -416,27 +416,50 @@ def generate_tutorial_events(site_data: Dict[str, Any]):
 
     # Add tutorial sessions to calendar
     all_sessions: List[Dict[str, Any]] = []
+    uc_sessions: List[Dict[str, Any]] = []
     for tutorial in site_data["tutorials"]:
-        uid = tutorial["UID"]
-        blocks = compute_schedule_blocks(tutorial["sessions"])
+        if "UC" in tutorial["UID"]:
+            uid = tutorial["UID"]
+            blocks = compute_schedule_blocks(tutorial["sessions"])
 
-        for block in blocks:
-            min_start = min([t["start_time"] for t in block])
-            max_end = max([t["end_time"] for t in block])
-            event = {
-                "title": f"<b>{uid}: {tutorial['title']}</b><br/><i>{tutorial['organizers']}</i>",
-                "start": min_start,
-                "end": max_end,
-                "location": f"tutorial_{uid}.html",
-                "link": f"tutorial_{uid}.html",
-                "category": "time",
-                "type": "Tutorials",
-                "view": "day",
-            }
-            site_data["overall_calendar"].append(event)
-            assert min_start < max_end, "Session start after session end"
+            for block in blocks:
+                min_start = min([t["start_time"] for t in block])
+                max_end = max([t["end_time"] for t in block])
+                event = {
+                    "title": f"<b>{uid}: {tutorial['title']}</b><br/><i>{tutorial['organizers']}</i>",
+                    "start": min_start,
+                    "end": max_end,
+                    "location": f"undergraduate_c_abstract_{uid}.html",
+                    "link": f"undergraduate_c_abstract_{uid}.html",
+                    "category": "time",
+                    "type": "Undergraduate Consortium",
+                    "view": "day",
+                }
+                site_data["overall_calendar"].append(event)
+                assert min_start < max_end, "Session start after session end"
 
-        all_sessions.extend(tutorial["sessions"])
+            uc_sessions.extend(tutorial["sessions"])
+        else:
+            uid = tutorial["UID"]
+            blocks = compute_schedule_blocks(tutorial["sessions"])
+
+            for block in blocks:
+                min_start = min([t["start_time"] for t in block])
+                max_end = max([t["end_time"] for t in block])
+                event = {
+                    "title": f"<b>{uid}: {tutorial['title']}</b><br/><i>{tutorial['organizers']}</i>",
+                    "start": min_start,
+                    "end": max_end,
+                    "location": f"tutorial_{uid}.html",
+                    "link": f"tutorial_{uid}.html",
+                    "category": "time",
+                    "type": "Tutorials",
+                    "view": "day",
+                }
+                site_data["overall_calendar"].append(event)
+                assert min_start < max_end, "Session start after session end"
+
+            all_sessions.extend(tutorial["sessions"])
 
     blocks = compute_schedule_blocks(all_sessions)
 
@@ -453,6 +476,25 @@ def generate_tutorial_events(site_data: Dict[str, Any]):
             "link": "tutorials.html",
             "category": "time",
             "type": "Tutorials",
+            "view": "week",
+        }
+        site_data["overall_calendar"].append(event)
+
+    uc_blocks = compute_schedule_blocks(uc_sessions)
+
+    # Compute start and end of tutorial blocks
+    for block in uc_blocks:
+        min_start = min([t["start_time"] for t in block])
+        max_end = max([t["end_time"] for t in block])
+
+        event = {
+            "title": "Undergraduate Consortium",
+            "start": min_start,
+            "end": max_end,
+            "location": "undergraduate_consortium.html",
+            "link": "undergraduate_consortium.html",
+            "category": "time",
+            "type": "Undergraduate Consortium",
             "view": "week",
         }
         site_data["overall_calendar"].append(event)
@@ -630,6 +672,7 @@ def build_schedule(overall_calendar: List[Dict[str, Any]]) -> List[Dict[str, Any
             "QA Sessions",
             "Socials",
             "Sponsors",
+            "Undergraduate Consortium",
         }
     ]
 
@@ -652,6 +695,9 @@ def build_schedule(overall_calendar: List[Dict[str, Any]]) -> List[Dict[str, Any
             event["url"] = event["link"]
         elif event_type == "Sponsors":
             event["classNames"] = ["calendar-event-sponsors"]
+            event["url"] = event["link"]
+        elif event_type == "Undergraduate Consortium":
+            event["classNames"] = ["calendar-event-uc"]
             event["url"] = event["link"]
         else:
             event["classNames"] = ["calendar-event-other"]
