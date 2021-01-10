@@ -159,25 +159,25 @@
 
 
 
-{% if workshop.prerecorded_talks %}
-  <!-- Prerecorded Talk -->
-{{ components.section("Pre-recorded Plenary Talks") }}
-<div id="accordion">
-  {% for talk in workshop.prerecorded_talks %}
-  <div class="row m-2">
-    <div class="card col-md-12 col-xs-12 my-auto mp-2 bg-light">
-        <br/>
-        <p>
-          <a href="https://slideslive.com/{{talk.presentation_id}}" target="_blank"><b>{{talk.title}}</b></a>
-        </p>
-        <p>
-          <i>{{talk.speakers}}</i>
-        </p>
-    </div>
-  </div>
-  {% endfor %}
-</div>
-{% endif %}
+{#{% if workshop.prerecorded_talks %}#}
+{#  <!-- Prerecorded Talk -->#}
+{#{{ components.section("Pre-recorded Plenary Talks") }}#}
+{#<div id="accordion">#}
+{#  {% for talk in workshop.prerecorded_talks %}#}
+{#  <div class="row m-2">#}
+{#    <div class="card col-md-12 col-xs-12 my-auto mp-2 bg-light">#}
+{#        <br/>#}
+{#        <p>#}
+{#          <a href="https://slideslive.com/{{talk.presentation_id}}" target="_blank"><b>{{talk.title}}</b></a>#}
+{#        </p>#}
+{#        <p>#}
+{#          <i>{{talk.speakers}}</i>#}
+{#        </p>#}
+{#    </div>#}
+{#  </div>#}
+{#  {% endfor %}#}
+{#</div>#}
+{#{% endif %}#}
 
 <script src="static/js/time-extend.js"></script>
 <script>
