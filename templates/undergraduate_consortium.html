@@ -56,7 +56,6 @@
       </thead>
       <tbody>
         {% for tutorial in tutorials_OTHER %}
-        {% if tutorial.id == "OTHER" %}
         {% for event in tutorial.sessions %}
         {% if event.session_name == "Talk: Roles for Computing in Social Justice" %}
             <tr>
@@ -84,7 +83,6 @@
         </tr>
         {% endif %}
         {% endfor %}
-        {% endif %}
         {% endfor %}
       </tbody>
     </table>
