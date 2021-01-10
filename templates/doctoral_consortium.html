@@ -1,21 +1,119 @@
-{% set active_page = "Doctoral Consortium" %}
-{% extends "base.html" %}
+{#{% set active_page = "Doctoral Consortium" %}#}
+{#{% extends "base.html" %}#}
+{##}
+{#{% block top %}#}
+{##}
+{#{% endblock %}#}
+{##}
+{#{% block content %}#}
+{##}
+{#<div class="row">#}
+{#  <div class="col-md-7 col-sm-12 pr-5 lead">#}
+{#    <p>Welcome to Doctoral Consortium!<br><br>#}
+{#      Here is nothing left.#}
+{#    </p>#}
+{#  </div>#}
+{#</div>#}
+{##}
+{#{% endblock %}#}
+{##}
+{#{% block footer %}#}
+{#{% endblock %}#}
 
-{% block top %}
+{% extends "base.html" %}
+{% set active_page = "Doctoral Consortium" %}
+{% set page_title = "Doctoral Consortium" %}
+
+{% block heading %}
+{{ components.section("Doctoral Consortium") }}
+
+<div class="pp-card m-3" style="">
+    <div class="card-header">
+        <p>Welcome to the Twenty-Sixth AAAI/SIGAI Doctoral Consortium</p>
+        <p>February 2-3, 2021</p>
+        <p>Collocated with the Thirty-Fifth Conference on Artificial Intelligence (AAAI-21)</p>
+        <p>External site: https://aaaidc.github.io/dc2021/</p>
+        <p>The Twenty-Sixth AAAI/SIGAI Doctoral Consortium (DC) provides an opportunity for a group of Ph.D. students to discuss and explore their research interests and career objectives in an interdisciplinary workshop together with a panel of established researchers. The eighteen students accepted to participate in this program will also participate in the AAAI-21 Poster Sessions on Thursday, February 4. All interested AAAI-21 student registrants are invited to observe the presentations.</p>
+        <p>The full Doctoral Consortium schedule will be included below.</p>
+        <p>AAAI and SIGAI gratefully acknowledge the generous grant from the National Science Foundation, which makes this program possible.</p>
+        <p>Shiwali Mohan and Anna Reali</p>
+        <p>Doctoral Consortium Cochairs</p>
+    <div class="text-center p-3">
+    <a href="https://aaaidc.github.io/dc2021/" target="_blank"  class="card-link">
+        External Site
+    </a>
+    <a href="https://123.com" target="_blank"  class="card-link">
+        Join Zoom Meeting
+    </a>
+    </div>
+    </div>
+</div>
+
+{#<div id="schedule" aria-labelledby="schedule">#}
+{#  <h2 class="card-title main-title text-center" style="">#}
+{#      AAAI-21 Doctoral Consortium Schedule#}
+{#  </h2>#}
+{#  <h3 class="card-subtitle mb-2 text-muted text-center">#}
+{#      February 2-3, 2021#}
+{#  </h3>#}
+{#  <div class="card-body">#}
+{#    <table class="table table-bordered table-striped" style="font-size: small;">#}
+{#      <thead>#}
+{#        <tr>#}
+{#          <th scope="col" style="width: 30%;">Time</th>#}
+{#          <th scope="col" style="width: 40%;">Event</th>#}
+{#          <th scope="col">Hosts</th>#}
+{#        </tr>#}
+{#      </thead>#}
+{#      <tbody>#}
+{#        {% for tutorial in tutorials_OTHER %}#}
+{#        {% if tutorial.id == "OTHER" %}#}
+{#        {% for event in tutorial.sessions %}#}
+{#        {% if event.session_name == "Talk: Roles for Computing in Social Justice" %}#}
+{#            <tr>#}
+{#            <td>#}
+{#              {{event.day}}, <span class="session_times">{{event.time_string}}</span>#}
+{#            </td>#}
+{#          <td scope="row">{{event.session_name}}</td>#}
+{#          <td style="white-space: pre-wrap;"><a href="https://www2.eecs.berkeley.edu/Faculty/Homepages/rabebe.html">Dr. Rediet Abebe</a> (Faculty Panel Q&A)</td>#}
+{#        </tr>#}
+{#        {% elif event.session_name == "Talk: Wanted: You and Your Mind" %}#}
+{#            <tr>#}
+{#            <td>#}
+{#              {{event.day}}, <span class="session_times">{{event.time_string}}</span>#}
+{#            </td>#}
+{#          <td scope="row">{{event.session_name}}</td>#}
+{#          <td style="white-space: pre-wrap;"><a href="http://www.cs.utep.edu/agates/">Dr. Ann Gates</a> (Faculty Panel Q&A)</td>#}
+{#        </tr>#}
+{#        {% else %}#}
+{#        <tr>#}
+{#            <td>#}
+{#              {{event.day}}, <span class="session_times">{{event.time_string}}</span>#}
+{#            </td>#}
+{#          <td scope="row">{{event.session_name}}</td>#}
+{#          <td style="white-space: pre-wrap;">{{event.hosts}}</td>#}
+{#        </tr>#}
+{#        {% endif %}#}
+{#        {% endfor %}#}
+{#        {% endif %}#}
+{#        {% endfor %}#}
+{#      </tbody>#}
+{#    </table>#}
+{#  </div>#}
+{#</div>#}
 
 {% endblock %}
 
 {% block content %}
 
-<div class="row">
-  <div class="col-md-7 col-sm-12 pr-5 lead">
-    <p>Welcome to Doctoral Consortium!<br><br>
-      Here is nothing left.
-    </p>
-  </div>
-</div>
+{#<div class="tutorials">#}
+{#    {{ components.uc_abstracts_group(tutorials_DC) }}#}
+{#</div>#}
 
-{% endblock %}
-
-{% block footer %}
+<script src="static/js/time-extend.js"></script>
+<script>
+  $(document).ready(()=>{
+    add_local_tz('.session_times');
+  })
+</script>
 {% endblock %}
