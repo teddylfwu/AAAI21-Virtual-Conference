@@ -3,6 +3,7 @@
 {% extends "base.html" %}
 
 {% block heading %}
+
 {{ components.section("Organizers") }}
 <div class="text-muted text-center">
 Also check out our
@@ -16,5 +17,9 @@ and
 
 {{ components.organizergroup(committee) }}
 
-
+<!-- <style>
+    div.card.text-center.shadow:hover {
+     background-color: yellow;   
+    }
+</style> -->
 {% endblock %}
