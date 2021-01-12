@@ -134,15 +134,15 @@ def load_site_data(
     for p in site_data["AI for Social Impact Track_papers"]:
         p["program"] = "AISI"
     for p in site_data["Demos_papers"]:
-        p["program"] = "demo"
+        p["program"] = "Demo"
     for p in site_data["Doctoral Consortium_papers"]:
         p["program"] = "DC"
-    # for p in site_data["EAAI_papers"]:
-    #     p["program"] = "EAAI"
-    # for p in site_data["IAAI_papers"]:
-    #     p["program"] = "IAAI"
+    for p in site_data["EAAI_papers"]:
+        p["program"] = "EAAI"
+    for p in site_data["IAAI_papers"]:
+        p["program"] = "IAAI"
     for p in site_data["Main Track_papers"]:
-        p["program"] = "main"
+        p["program"] = "Main"
     for p in site_data["Senior Member Track_papers"]:
         p["program"] = "SMT"
     for p in site_data["Sister Conference_papers"]:
@@ -152,15 +152,19 @@ def load_site_data(
     for p in site_data["Undergraduate Consortium_papers"]:
         p["program"] = "UC"
 
-    site_data["programs"] = ["AI for Social Impact Track", "Demos", "Doctoral Consortium",
-                             "EAAI", "IAAI","Main Track","Senior Member Track","Sister Conference",
-                             "Student Abstracts","Undergraduate Consortium"]
+    site_data["programs"] = ["AISI", "Demo", "DC",
+                             "EAAI", "IAAI","Main","SMT","SC",
+                             "SA","UC"]
 
     # tutorials.html
     tutorial_MQ = []
     tutorial_MH = []
     tutorial_AQ = []
     tutorial_AH = []
+
+    # undergraduate_consortium.html
+    tutorial_UC = []
+    tutorial_OTHER = []
 
     for item in site_data["tutorials"]:
         if "MQ" in item["UID"]:
@@ -171,6 +175,10 @@ def load_site_data(
             tutorial_AQ.append(item)
         if "AH" in item["UID"]:
             tutorial_AH.append(item)
+        if "UC" in item["UID"]:
+            tutorial_UC.append(item)
+        if "OTHER" in item["UID"]:
+            tutorial_OTHER.append(item)
 
     tutorials = build_tutorials(site_data["tutorials"])
 
@@ -182,6 +190,8 @@ def load_site_data(
     site_data["tutorials_MH"] = build_tutorials(tutorial_MH)
     site_data["tutorials_AQ"] = build_tutorials(tutorial_AQ)
     site_data["tutorials_AH"] = build_tutorials(tutorial_AH)
+    site_data["tutorials_UC"] = build_tutorials(tutorial_UC)
+    site_data["tutorials_OTHER"] = build_tutorials(tutorial_OTHER)
     # tutorial_<uid>.html
     by_uid["tutorials"] = {tutorial.id: tutorial for tutorial in tutorials}
 
@@ -203,8 +213,8 @@ def load_site_data(
         raw_papers=site_data["AI for Social Impact Track_papers"]+
             site_data["Demos_papers"]+
             site_data["Doctoral Consortium_papers"]+
-            # site_data["EAAI_papers"]+
-            # site_data["IAAI_papers"]+
+            site_data["EAAI_papers"]+
+            site_data["IAAI_papers"]+
             site_data["Main Track_papers"]+
             site_data["Senior Member Track_papers"]+
             site_data["Sister Conference_papers"]+
@@ -514,7 +524,7 @@ def generate_paper_events(site_data: Dict[str, Any]):
 
         # Sessions are suffixd with subsession id
         all_grouped[uid[:-1]].append(session)
-
+    print(all_grouped)
     for uid, group in all_grouped.items():
         start_time = group[0]["start_time"]
         end_time = group[0]["end_time"]
@@ -711,6 +721,9 @@ def build_papers(
         end_time = session_info["end_time"]
 
         for paper_id in session_info["papers"]:
+
+            #TODO  continue deal with it when we get session data
+            # pass
             link = paper_id_to_link[paper_id]
 
             sessions_for_paper[paper_id].append(
@@ -730,13 +743,14 @@ def build_papers(
                 item["UID"], paper_images_path
             ),
             presentation_id=item.get("presentation_id", None),
+            presentation_id_intro=item.get("presentation_id_intro", None),
             content=PaperContent(
                 title=item["title"],
                 authors=extract_list_field(item, "authors"),
                 keywords=extract_list_field(item, "keywords"),
                 abstract=item["abstract"],
                 tldr=item["abstract"][:250] + "...",
-                pdf_url=item.get("pdf_url", ""),
+                pdf_url=item.get("pdf_url", "https://scholar.google.com/"),
                 demo_url=item.get("demo_url", ""),
                 material=item.get("material"),
                 track=normalize_track_name(item.get("track", "")),
@@ -756,8 +770,8 @@ def build_papers(
             "findings",
         ]:
             print(f"WARNING: presentation_id not set for {paper.id}")
-        if not paper.content.track:
-            print(f"WARNING: track not set for {paper.id}")
+        # if not paper.content.track:
+        #     print(f"WARNING: track not set for {paper.id}")
         if paper.presentation_id and len(paper.content.sessions) != 1:
             print(
                 f"WARNING: found {len(paper.content.sessions)} sessions for {paper.id}"
@@ -799,7 +813,9 @@ def build_qa_sessions(
             qa_subsession = QaSubSession(
                 name=s["long_name"].split(":")[-1].strip(),
                 link=s.get("zoom_link", "http://zoom.us"),
+                # TODO  make qa_session.html pass
                 papers=s["papers"],
+                # papers=[],
             )
             subsessions.append(qa_subsession)
 

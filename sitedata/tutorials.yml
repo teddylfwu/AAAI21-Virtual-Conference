@@ -12,7 +12,7 @@
         livestreamed on this page. It has a chat window that you can use to have
         discussions with the tutorial teachers and other attendees anytime during the
         conference.
-  rocketchat_channel: tutorial-MQ1
+  rocketchat_channel: MQ1ExplainableAIforSocietalEventPredictionsFoundationsMethodsandApplications
   sessions:
   - name: MQ1
     start_time: 2021-02-03 13:30:00+00:00
@@ -31,7 +31,7 @@
 
   - name: Yue Ning
     description: |+
-      is an Assistant Professor in the Department of Computer Science at Stevens Institute of Technology. She received her PhD degree in Computer Science from Virginia Tech. Her research interests are machine learning, data analytics, and social media analysis. 
+      is an Assistant Professor in the Department of Computer Science at Stevens Institute of Technology. She received her PhD degree in Computer Science from Virginia Tech. Her research interests are machine learning, data analytics, and social media analysis.
 
   - name: Huzefa Rangwala
     description: is the Lawrence Cranberg Faculty Fellow and Professor in the Department
@@ -45,9 +45,9 @@
   organizers: Ludovik Coba, Roberto Confalonieri and Markus Zanker
   abstract: |-
     <p>
-    In this tutorial we will provide a review of eXplainable Recommender Systems (XRSs), and a practical hands-on session using a recently developed software toolkit called RecoXplainer. RecoXplainer is a unified, extendable and easy to use Python toolkit that includes several explainability techniques that are useful for various groups of stakeholders. 
+    In this tutorial we will provide a review of eXplainable Recommender Systems (XRSs), and a practical hands-on session using a recently developed software toolkit called RecoXplainer. RecoXplainer is a unified, extendable and easy to use Python toolkit that includes several explainability techniques that are useful for various groups of stakeholders.
     <br />
-    The tutorial will be organized in two parts. The first part will provide the necessary background knowledge about Explainable AI and explanations techniques in recommender systems, such as model-based, post-hoc explanations, offline and online evaluation of explanations. The second part will consist of a hands-on session where attendees will be guided to the use of RecoXplainer, and to generate several examples of explainable recommendations. 
+    The tutorial will be organized in two parts. The first part will provide the necessary background knowledge about Explainable AI and explanations techniques in recommender systems, such as model-based, post-hoc explanations, offline and online evaluation of explanations. The second part will consist of a hands-on session where attendees will be guided to the use of RecoXplainer, and to generate several examples of explainable recommendations.
     <br />
     The target audience is assumed to have a certain acquaintance with recommender systems, Matrix Factorisation, and information retrieval. For the hands-on session a basic understanding of Python is required. A more advanced programming knowledge is required for those who would like to experiment with the toolkit, e.g., for inspecting the code to find advanced features, or to learn how to extend the current framework.
     </p>
@@ -56,7 +56,7 @@
         also has two live sessions that will be conducted on Zoom and will be livestreamed on this page. Additionally, it has
         a chat window that you can use to have discussions with the tutorial teachers and other attendees anytime during the
         conference.
-  rocketchat_channel: tutorial-MQ2
+  rocketchat_channel: MQ2AnExtensibleToolkitforExplainableRecommenderSystems
   sessions:
   - name: MQ2
     start_time: 2021-02-03 13:30:00+00:00
@@ -106,7 +106,7 @@
         also has two live sessions that will be conducted on Zoom and will be livestreamed on this page. Additionally, it has
         a chat window that you can use to have discussions with the tutorial teachers and other attendees anytime during the
         conference.
-  rocketchat_channel: tutorial-MQ3
+  rocketchat_channel: MQ3DeepRandomizedNeuralNetworks
   sessions:
   - name: MQ3
     start_time: 2021-02-03 13:30:00+00:00
@@ -142,7 +142,7 @@
         also has two live sessions that will be conducted on Zoom and will be livestreamed on this page. Additionally, it has
         a chat window that you can use to have discussions with the tutorial teachers and other attendees anytime during the
         conference.
-  rocketchat_channel: tutorial-MQ4
+  rocketchat_channel: MQ4EfficientNeuralArchitectureSearch
   sessions:
   - name: MQ4
     start_time: 2021-02-03 13:30:00+00:00
@@ -180,7 +180,7 @@
         also has two live sessions that will be conducted on Zoom and will be livestreamed on this page. Additionally, it has
         a chat window that you can use to have discussions with the tutorial teachers and other attendees anytime during the
         conference.
-  rocketchat_channel: tutorial-MH1
+  rocketchat_channel: MH1ArtificialIntelligenceforDrugDiscovery
   sessions:
   - name: MH1
     start_time: 2021-02-03 13:30:00+00:00
@@ -223,7 +223,7 @@
         also has two live sessions that will be conducted on Zoom and will be livestreamed on this page. Additionally, it has
         a chat window that you can use to have discussions with the tutorial teachers and other attendees anytime during the
         conference.
-  rocketchat_channel: tutorial-MH2
+  rocketchat_channel: MH2CommonsenseKnowledgeAcquisitionandRepresentation
   sessions:
   - name: MH2
     start_time: 2021-02-03 13:30:00+00:00
@@ -261,18 +261,18 @@
   organizers: Rayid Ghani, Pedro Saleiro and Kit Rodolfa
   abstract: |-
     <p>
-    There is a need for training AI researchers and practitioners on how to deal with bias and fairness in practice through the entire lifecycle of an AI system, from the early stages of a project up to maintaining the system in production. This tutorial will help participants learn how to think about overall fairness of an AI system, from project scoping (through informed discussions with stakeholders) to thinking about the right metrics (based on the use case context), to performing bias audits and exploring different bias reduction strategies, to continuous monitoring to assess the need for retraining. 
+    There is a need for training AI researchers and practitioners on how to deal with bias and fairness in practice through the entire lifecycle of an AI system, from the early stages of a project up to maintaining the system in production. This tutorial will help participants learn how to think about overall fairness of an AI system, from project scoping (through informed discussions with stakeholders) to thinking about the right metrics (based on the use case context), to performing bias audits and exploring different bias reduction strategies, to continuous monitoring to assess the need for retraining.
     <br />
-    The discussions, breakout sessions, and hands-on coding sessions will involve real-world case studies based on our work with over 100 government agencies and non-profits over the last several years and will include working through Python notebooks, taking the participants through each step of the process. 
+    The discussions, breakout sessions, and hands-on coding sessions will involve real-world case studies based on our work with over 100 government agencies and non-profits over the last several years and will include working through Python notebooks, taking the participants through each step of the process.
     <br />
-    The tutorial will have the following prerequisites: 1) prior programming experience in Python, and 2) prior experience in machine learning, with an understanding of different types of ML models as well as experience building those models. 
+    The tutorial will have the following prerequisites: 1) prior programming experience in Python, and 2) prior experience in machine learning, with an understanding of different types of ML models as well as experience building those models.
     </p>
   info: |-
     This tutorial has a prerecorded talk on this page (see below) that you can watch anytime during the conference. It
         also has two live sessions that will be conducted on Zoom and will be livestreamed on this page. Additionally, it has
         a chat window that you can use to have discussions with the tutorial teachers and other attendees anytime during the
         conference.
-  rocketchat_channel: tutorial-MH3
+  rocketchat_channel: MH3DealingwithBiasandFairnessinBuildingAISystems
   sessions:
   - name: MH3
     start_time: 2021-02-03 13:30:00+00:00
@@ -287,11 +287,11 @@
   authors:
   - name: Rayid Ghani
     description: |+
-      is a Distinguished Career Professor at CMU, working on the use of AI in solving public policy and social challenges in a fair and equitable manner. Rayid started the Data Science for Social Good Fellowship that trains people from around the world to work on AI problems with social impact. 
+      is a Distinguished Career Professor at CMU, working on the use of AI in solving public policy and social challenges in a fair and equitable manner. Rayid started the Data Science for Social Good Fellowship that trains people from around the world to work on AI problems with social impact.
 
   - name: Pedro Saleiro
     description: |+
-      is a Senior Research Manager at Feedzai where he leads the Fairness, Accountability, Transparency, and Ethics research group. He is responsible for several initiatives related to bias auditing and algorithmic fairness, model explainability and ML governance. Previously, Pedro worked with Rayid Ghani as postdoc at UChicago. 
+      is a Senior Research Manager at Feedzai where he leads the Fairness, Accountability, Transparency, and Ethics research group. He is responsible for several initiatives related to bias auditing and algorithmic fairness, model explainability and ML governance. Previously, Pedro worked with Rayid Ghani as postdoc at UChicago.
 
   - name: Kit Rodolfa
     description: is a Senior Research Scientist at CMU working with Rayid Ghani. He
@@ -313,7 +313,7 @@
         also has two live sessions that will be conducted on Zoom and will be livestreamed on this page. Additionally, it has
         a chat window that you can use to have discussions with the tutorial teachers and other attendees anytime during the
         conference.
-  rocketchat_channel: tutorial-MH4
+  rocketchat_channel: MH4DesigningAgentsPreferencesBeliefsandIdentities
   sessions:
   - name: MH4
     start_time: 2021-02-03 13:30:00+00:00
@@ -346,7 +346,7 @@
         also has two live sessions that will be conducted on Zoom and will be livestreamed on this page. Additionally, it has
         a chat window that you can use to have discussions with the tutorial teachers and other attendees anytime during the
         conference.
-  rocketchat_channel: tutorial-MH5
+  rocketchat_channel: MH5LearningwithSmallData
   sessions:
   - name: MH5
     start_time: 2021-02-03 13:30:00+00:00
@@ -395,7 +395,7 @@
         also has two live sessions that will be conducted on Zoom and will be livestreamed on this page. Additionally, it has
         a chat window that you can use to have discussions with the tutorial teachers and other attendees anytime during the
         conference.
-  rocketchat_channel: tutorial-MH6
+  rocketchat_channel: MH6MetaLearning
   sessions:
   - name: MH6
     start_time: 2021-02-03 13:30:00+00:00
@@ -436,7 +436,7 @@
         also has two live sessions that will be conducted on Zoom and will be livestreamed on this page. Additionally, it has
         a chat window that you can use to have discussions with the tutorial teachers and other attendees anytime during the
         conference.
-  rocketchat_channel: tutorial-MH7
+  rocketchat_channel: MH7RecentAdvancesinIntegratingMachineLearningandCombinatorialOptimization
   sessions:
   - name: MH7
     start_time: 2021-02-03 13:30:00+00:00
@@ -496,7 +496,7 @@
         also has two live sessions that will be conducted on Zoom and will be livestreamed on this page. Additionally, it has
         a chat window that you can use to have discussions with the tutorial teachers and other attendees anytime during the
         conference.
-  rocketchat_channel: tutorial-MH8
+  rocketchat_channel: MH8ResponsibleAIinIndustry
   sessions:
   - name: MH8
     start_time: 2021-02-03 13:30:00+00:00
@@ -533,16 +533,16 @@
     Wang
   abstract: |-
     <p>
-    Word vector embeddings have been shown to contain and amplify biases in data they are extracted from. Consequently, many techniques have been proposed to identify, mitigate, and attenuate these biases in word representations. In this tutorial, we will review a collection of state-of-the-art debiasing techniques. To aid this, we provide an open source web-based visualization tool and offer hands-on experience in exploring the effects of these debiasing techniques on the geometry of high-dimensional word vectors. To help understand how various debiasing techniques change the underlying geometry, we decompose each technique into interpretable sequences of primitive operations and study their effect on the word vectors using dimensionality reduction and interactive visual exploration. 
+    Word vector embeddings have been shown to contain and amplify biases in data they are extracted from. Consequently, many techniques have been proposed to identify, mitigate, and attenuate these biases in word representations. In this tutorial, we will review a collection of state-of-the-art debiasing techniques. To aid this, we provide an open source web-based visualization tool and offer hands-on experience in exploring the effects of these debiasing techniques on the geometry of high-dimensional word vectors. To help understand how various debiasing techniques change the underlying geometry, we decompose each technique into interpretable sequences of primitive operations and study their effect on the word vectors using dimensionality reduction and interactive visual exploration.
     <br />
-    Prerequisite Knowledge The attendees are expected to understand the basics of linear algebra and dimensionality reduction. Familiarity with basic NLP would be helpful but is not required. The audience is not assumed to have knowledge about bias in NLP; however, the tutorial will still be applicable to those who do. 
+    Prerequisite Knowledge The attendees are expected to understand the basics of linear algebra and dimensionality reduction. Familiarity with basic NLP would be helpful but is not required. The audience is not assumed to have knowledge about bias in NLP; however, the tutorial will still be applicable to those who do.
     </p>
   info: |-
     This tutorial has a prerecorded talk on this page (see below) that you can watch anytime during the conference. It
         also has two live sessions that will be conducted on Zoom and will be livestreamed on this page. Additionally, it has
         a chat window that you can use to have discussions with the tutorial teachers and other attendees anytime during the
         conference.
-  rocketchat_channel: tutorial-MH9
+  rocketchat_channel: MH9AVisualTourofBiasMitigationTechniquesforWordRepresentations
   sessions:
   - name: MH9
     start_time: 2021-02-03 13:30:00+00:00
@@ -557,19 +557,19 @@
   authors:
   - name: Sunipa Dev
     description: |+
-      received her PhD at the School of Computing at the University of Utah in Fall 2020 and is a CI Postdoctoral Fellow at UCLA. Her research focuses on understanding the structure of language representations and leveraging that to isolate and decouple associations and concept subspaces within. 
+      received her PhD at the School of Computing at the University of Utah in Fall 2020 and is a CI Postdoctoral Fellow at UCLA. Her research focuses on understanding the structure of language representations and leveraging that to isolate and decouple associations and concept subspaces within.
 
   - name: Jeff M. Phillips
     description: |+
-      is an Associate Professor at the School of Computing, and Director of the Utah Center for Data Science, at the University of Utah. He is an expert in the geometry of data, and actively publishes in top venues in machine learning & data mining, algorithms & geometry, and databases. 
+      is an Associate Professor at the School of Computing, and Director of the Utah Center for Data Science, at the University of Utah. He is an expert in the geometry of data, and actively publishes in top venues in machine learning & data mining, algorithms & geometry, and databases.
 
   - name: Archit Rathore
     description: |+
-      is a 4th year Ph.D. student at the School of Computing at the University of Utah. His current research focuses on probing machine learning models through visualization techniques to improve interpretability. 
+      is a 4th year Ph.D. student at the School of Computing at the University of Utah. His current research focuses on probing machine learning models through visualization techniques to improve interpretability.
 
   - name: Vivek Srikumar
     description: |+
-      is an Associate Professor at the School of Computing at the University of Utah. His research focuses on machine learning in the context of natural learning processing and has primarily been driven by questions arising from the need to reason about textual data with limited explicit supervision and to scale NLP to large problems. 
+      is an Associate Professor at the School of Computing at the University of Utah. His research focuses on machine learning in the context of natural learning processing and has primarily been driven by questions arising from the need to reason about textual data with limited explicit supervision and to scale NLP to large problems.
 
   - name: Bei Wang
     description: is an Assistant Professor at the School of Computing, a faculty member
@@ -592,7 +592,7 @@
         also has two live sessions that will be conducted on Zoom and will be livestreamed on this page. Additionally, it has
         a chat window that you can use to have discussions with the tutorial teachers and other attendees anytime during the
         conference.
-  rocketchat_channel: tutorial-AQ1
+  rocketchat_channel: AQ1ExplainingMachineLearningPredictions
   sessions:
   - name: AQ1
     start_time: 2021-02-03 17:00:00+00:00
@@ -632,7 +632,7 @@
         also has two live sessions that will be conducted on Zoom and will be livestreamed on this page. Additionally, it has
         a chat window that you can use to have discussions with the tutorial teachers and other attendees anytime during the
         conference.
-  rocketchat_channel: tutorial-AQ2
+  rocketchat_channel: AQ2TopologicalDataAnalysisinDocumentClassification
   sessions:
   - name: AQ2
     start_time: 2021-02-03 18:45:00+00:00
@@ -647,7 +647,7 @@
   authors:
   - name: Wlodek Zadrozny
     description: |+
-      is a Professor of Computer Science at UNC Charlotte, lifetime member of AAAI, and recipient of the 2013 AAAI Feigenbaum Prize. His research focuses on natural language processing, including mathematical methods in NLP. Prior UNCC, he was a researcher and manager at the IBM T.J. Watson Research Center. 
+      is a Professor of Computer Science at UNC Charlotte, lifetime member of AAAI, and recipient of the 2013 AAAI Feigenbaum Prize. His research focuses on natural language processing, including mathematical methods in NLP. Prior UNCC, he was a researcher and manager at the IBM T.J. Watson Research Center.
 
   - name: Shafie Gholizadeh
     description: ' is a quantitative associate at Wells Fargo & Company. He received
@@ -667,7 +667,7 @@
         also has two live sessions that will be conducted on Zoom and will be livestreamed on this page. Additionally, it has
         a chat window that you can use to have discussions with the tutorial teachers and other attendees anytime during the
         conference.
-  rocketchat_channel: tutorial-AH1
+  rocketchat_channel: AH1AIforCOVID19BattlingthePandemicwithComputationalIntelligence
   sessions:
   - name: AH1
     start_time: 2021-02-03 17:00:00+00:00
@@ -712,7 +712,7 @@
         also has two live sessions that will be conducted on Zoom and will be livestreamed on this page. Additionally, it has
         a chat window that you can use to have discussions with the tutorial teachers and other attendees anytime during the
         conference.
-  rocketchat_channel: tutorial-AH2
+  rocketchat_channel: AH2EventCentricNaturalLanguageUnderstanding
   sessions:
   - name: AH2
     start_time: 2021-02-03 17:00:00+00:00
@@ -759,14 +759,14 @@
     <p>
     The goal of this tutorial is to provide a systematic view of the current knowledge relating to explainability to several key outstanding concerns regarding the quality of Machine Learning (ML) models; in particular, robustness, privacy, and bias. We will discuss the ways in which explainability can inform questions about these aspects of model quality, and how methods for improving them that are emerging from recent research in the AI, Security, Privacy, and Fairness communities can in turn lead to better outcomes for explainability. Through presentation and live demonstrations, we will discuss recent research results from these communities, as well as several open questions of interest to the AI community.
     <br />
-    We aim to make these findings accessible to a general audience, including not only researchers who want to further engage with this area, but also practitioners who stand to benefit from the results, and policymakers who want to deepen their technical understanding of these important issues. Audience members should be familiar with supervised learning and have a working knowledge of gradient-based optimization techniques. Familiarity with Python and at least one deep learning framework is recommended but not required. 
+    We aim to make these findings accessible to a general audience, including not only researchers who want to further engage with this area, but also practitioners who stand to benefit from the results, and policymakers who want to deepen their technical understanding of these important issues. Audience members should be familiar with supervised learning and have a working knowledge of gradient-based optimization techniques. Familiarity with Python and at least one deep learning framework is recommended but not required.
     </p>
   info: |-
     This tutorial has a prerecorded talk on this page (see below) that you can watch anytime during the conference. It
         also has two live sessions that will be conducted on Zoom and will be livestreamed on this page. Additionally, it has
         a chat window that you can use to have discussions with the tutorial teachers and other attendees anytime during the
         conference.
-  rocketchat_channel: tutorial-AH3
+  rocketchat_channel: AH3FromExplainabilitytoModelQualityandBackAgain
   sessions:
   - name: AH3
     start_time: 2021-02-03 17:00:00+00:00
@@ -812,7 +812,7 @@
         also has two live sessions that will be conducted on Zoom and will be livestreamed on this page. Additionally, it has
         a chat window that you can use to have discussions with the tutorial teachers and other attendees anytime during the
         conference.
-  rocketchat_channel: tutorial-AH4
+  rocketchat_channel: AH4FromStatisticalRelationaltoNeuralSymbolicArtificialIntelligence
   sessions:
   - name: AH4
     start_time: 2021-02-03 17:00:00+00:00
@@ -857,7 +857,7 @@
         also has two live sessions that will be conducted on Zoom and will be livestreamed on this page. Additionally, it has
         a chat window that you can use to have discussions with the tutorial teachers and other attendees anytime during the
         conference.
-  rocketchat_channel: tutorial-AH5
+  rocketchat_channel: AH5GraphNeuralNetworks
   sessions:
   - name: AH5
     start_time: 2021-02-03 17:00:00+00:00
@@ -905,7 +905,7 @@
         also has two live sessions that will be conducted on Zoom and will be livestreamed on this page. Additionally, it has
         a chat window that you can use to have discussions with the tutorial teachers and other attendees anytime during the
         conference.
-  rocketchat_channel: tutorial-AH6
+  rocketchat_channel: AH6NewFrontiersofAutomatedMechanismDesignforPricingandAuctions
   sessions:
   - name: AH6
     start_time: 2021-02-03 17:00:00+00:00
@@ -948,7 +948,7 @@
         also has two live sessions that will be conducted on Zoom and will be livestreamed on this page. Additionally, it has
         a chat window that you can use to have discussions with the tutorial teachers and other attendees anytime during the
         conference.
-  rocketchat_channel: tutorial-AH7
+  rocketchat_channel: AH7OnExplainableAIFromTheorytoMotivationIndustrialApplicationsandCodingPractices
   sessions:
   - name: AH7
     start_time: 2021-02-03 17:00:00+00:00
@@ -1000,7 +1000,7 @@
         also has two live sessions that will be conducted on Zoom and will be livestreamed on this page. Additionally, it has
         a chat window that you can use to have discussions with the tutorial teachers and other attendees anytime during the
         conference.
-  rocketchat_channel: tutorial-AH8
+  rocketchat_channel: AH8RecentAdvancesinMultipleFacetsofPreferenceLearning
   sessions:
   - name: AH8
     start_time: 2021-02-03 17:00:00+00:00
@@ -1036,7 +1036,7 @@
         also has two live sessions that will be conducted on Zoom and will be livestreamed on this page. Additionally, it has
         a chat window that you can use to have discussions with the tutorial teachers and other attendees anytime during the
         conference.
-  rocketchat_channel: tutorial-AH9
+  rocketchat_channel: AH9SimplifyingandAutomatingParallelMachineLearningviaaProgrammableandComposable
   sessions:
   - name: AH9
     start_time: 2021-02-03 17:00:00+00:00
@@ -1080,7 +1080,7 @@
         also has two live sessions that will be conducted on Zoom and will be livestreamed on this page. Additionally, it has
         a chat window that you can use to have discussions with the tutorial teachers and other attendees anytime during the
         conference.
-  rocketchat_channel: tutorial-AH10
+  rocketchat_channel: AH10TowardsUbiquitousRecommenderSystemsDataApproachesandApplications
   sessions:
   - name: AH10
     start_time: 2021-02-03 17:00:00+00:00
@@ -1097,11 +1097,11 @@
   authors:
   - name: Shoujin Wang
     description: |+
-      is a research fellow at the Department of Computing, Macquarie University. His research interests include data mining, machine learning, and their general applications in recommender systems. He has delivered tutorials on recommender systems at IJCAI 2019, IJCAI 2020 and organized a workshop at ICDM 2020. 
+      is a research fellow at the Department of Computing, Macquarie University. His research interests include data mining, machine learning, and their general applications in recommender systems. He has delivered tutorials on recommender systems at IJCAI 2019, IJCAI 2020 and organized a workshop at ICDM 2020.
 
   - name: Liang Hu
     description: |+
-      is a research associate with Advanced Analytics Institute, University of Technology Sydney. His research interests include recommender systems, data mining, machine learning and general artificial intelligence. 
+      is a research associate with Advanced Analytics Institute, University of Technology Sydney. His research interests include recommender systems, data mining, machine learning and general artificial intelligence.
 
   - name: Yan Wang
     description: |+
@@ -1109,7 +1109,7 @@
 
   - name: Longbing Cao
     description: |+
-      is a Professor and an ARC future fellow at Advanced Analytics Institute (AAI), University of Technology Sydney. He received the 2019 Eureka Prizes for Excellence in Data Science. His research interests include data science, analytics and machine learning, and behavior informatics and their enterprise applications. 
+      is a Professor and an ARC future fellow at Advanced Analytics Institute (AAI), University of Technology Sydney. He received the 2019 Eureka Prizes for Excellence in Data Science. His research interests include data science, analytics and machine learning, and behavior informatics and their enterprise applications.
 
   - name: Michael Sheng
     description: |+
@@ -1120,3 +1120,448 @@
       His current research interests lie in the areas of computational intelligence,
       multi-agent systems, trust and security, temporal reasoning, formal methods.
   prerecorded: '38940826'
+- UID: UC-10
+  title: 'Efficient Robust Music Genre Classification with Depthwise Separable Convolutions and Source Separation'
+  organizers: Gabriel A Mersy
+  info: |-
+    to be continued
+  rocketchat_channel: xxx
+  prerecorded: '000'
+  abstract: |-
+    <p>
+    Given recent advances in deep music source separation, a feature representation method is proposed that combines source separation with a state-of-the-art representation learning technique that is suitably repurposed for computer audition (i.e. machine listening). A depthwise separable convolutional neural network is trained on a challenging electronic dance music (EDM) data set and its performance is compared to convolutional neural networks operating on both source separated and standard spectrograms. It is shown that source separation improves classification performance in a limited-data setting compared to the standard single spectrogram approach.
+    </p>
+  sessions:
+    - name: AH9
+      start_time: 2021-02-03 17:00:00+00:00
+      end_time: 2021-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+    - name: AH9
+      start_time: 2021-02-03 17:00:00+00:00
+      end_time: 2021-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+  authors:
+    - name: Gabriel A Mersy
+      description: |+
+        to be continued
+- UID: UC-29
+  title: 'Text Analysis for Understanding Symptoms of Social Anxiety in Student Veterans'
+  organizers: Morgan Byers, Vangelis Metsis
+  info: |-
+    to be continued
+  rocketchat_channel: xxx
+  prerecorded: '000'
+  abstract: |-
+    <p>
+    A significant portion of the veteran population suffers from PTSD, a mental illness that is often accompanied by social anxiety disorder. Student veterans are especially vulnerable as they struggle to adapt to a new, less structured college lifestyle. In order to assist psychologists and social workers in the treatment of social anxiety disorder we use machine learning to analyze transcribed interview text and apply topic modelling to highlight common stress factors for student veterans. The results detailed in this paper also have broader impacts in fields such as pedagogy and public health.
+    </p>
+  sessions:
+    - name: AH9
+      start_time: 2021-02-03 17:00:00+00:00
+      end_time: 2021-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+    - name: AH9
+      start_time: 2021-02-03 17:00:00+00:00
+      end_time: 2021-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+  authors:
+    - name: Morgan Byers, Vangelis Metsis
+      description: |+
+        to be continued
+- UID: UC-30
+  title: 'Use of Computer Vision to Develop a Device to Assist Visually Impaired People with Social Distance'
+  organizers: Lucas G Nadolskis
+  info: |-
+    to be continued
+  rocketchat_channel: xxx
+  prerecorded: '000'
+  abstract: |-
+    <p>
+    The project developed a device to assist blind and visually impaired
+    users in complying with social distance rules. The main challenge
+    was how to identify people from other objects and notify the user
+    accordingly. Equally ambiguous was how to best notify the user that a
+    person was violating the social distance rules.
+    The hardware used is a Raspberry Pi running an image classification
+    algorithm and hooked to a depth camera. The use of prediction labels and
+    accuracy combined with the distance calculated by the depth camera made
+    it possible to detect when a person was getting closer than 2 meters
+    (6 ft) to the user.
+    The device was tested both in daylight and at night, and with different
+    lighting conditions. The device responded with a accuracy close to 1.9 meters, which is very acceptable.
+    Testing showed that the camera is capable of identifying people coming
+    from a 30 degrees angle from either side at around 1.9 meters of distance,
+    giving a good range of object detection.
+    </p>
+  sessions:
+    - name: AH9
+      start_time: 2021-02-03 17:00:00+00:00
+      end_time: 2021-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+    - name: AH9
+      start_time: 2021-02-03 17:00:00+00:00
+      end_time: 2021-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+  authors:
+    - name: Morgan Byers, Vangelis Metsis
+      description: |+
+        to be continued
+- UID: UC-34
+  title: 'Investigating Methods of Balancing Inequality and Efficiency in Ride Pooling'
+  organizers: Naveen J Raman
+  info: |-
+    to be continued
+  rocketchat_channel: xxx
+  prerecorded: '000'
+  abstract: |-
+    <p>
+    Our research focuses on developing matching policies that match drivers and riders for ride-pooling services. We aim to develop policies that balance efficiency and various forms of fairness. We did this through two methods: new matching algorithms that include a fairness term in the objective function, and income redistribution methods based on the Shapley value of a driver. I tested these methods on New York City Taxicab data to evaluate their performance and found that they succeed in reducing certain forms of fairness.
+    </p>
+  sessions:
+    - name: AH9
+      start_time: 2021-02-03 17:00:00+00:00
+      end_time: 2021-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+    - name: AH9
+      start_time: 2021-02-03 17:00:00+00:00
+      end_time: 2021-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+  authors:
+    - name: Morgan Byers, Vangelis Metsis
+      description: |+
+        to be continued
+- UID: UC-40
+  title: 'Bison Hacks the Yard: Assisting Underrepresented Students Overcome Impostor Syndrome with Augmented Reality and Artificial Intelligence'
+  organizers: Nicole M Sullivan
+  info: |-
+    to be continued
+  rocketchat_channel: xxx
+  prerecorded: '000'
+  abstract: |-
+    <p>
+    The prevalence of impostor syndrome in computer science students from underrepresented backgrounds contributes to low retention rates. Bison Hacks the Yard is an augmented reality game that aims to reduce impostor syndrome in underrepresented students by presenting a novel way to strengthen their knowledge of fundamental data structures and providing specialized videos of Historically Black College or University alumni, sharing their struggles with impostor syndrome.
+    </p>
+  sessions:
+    - name: AH9
+      start_time: 2021-02-03 17:00:00+00:00
+      end_time: 2021-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+    - name: AH9
+      start_time: 2021-02-03 17:00:00+00:00
+      end_time: 2021-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+  authors:
+    - name: Morgan Byers, Vangelis Metsis
+      description: |+
+        to be continued
+- UID: UC-46
+  title: 'Analyzing Games with a Variable Number of Players'
+  organizers: Madelyn Gatchel
+  info: |-
+    to be continued
+  rocketchat_channel: xxx
+  prerecorded: '000'
+  abstract: |-
+    <p>
+    We introduce a novel technique that uses a multi-headed neural network to analyze symmetric games with a variable number of players. Many of the most impactful real-world applications of game theory, including kidney exchange, school choice, wildlife poaching prevention, and consumer protection, involve interactions with an unknown number of participants. Thus a normal-form game with a fixed number of players might be an insufficient model. Our research focuses on analyzing games with a variable number of players, where the number of participants falls in a specified range. We hypothesize that the payoffs in a game with x players are similar or related to the same game with x + 1 players, given a large value of x. With this hypothesis, we generalize prior work to analyze games with a large, variable number of players.
+    </p>
+  sessions:
+    - name: AH9
+      start_time: 2021-02-03 17:00:00+00:00
+      end_time: 2021-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+    - name: AH9
+      start_time: 2021-02-03 17:00:00+00:00
+      end_time: 2021-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+  authors:
+    - name: Morgan Byers, Vangelis Metsis
+      description: |+
+        to be continued
+- UID: UC-47
+  title: 'Affect-Aware Machine Learning Models for Detecting Deception'
+  organizers: Leena Mathur
+  info: |-
+    to be continued
+  rocketchat_channel: xxx
+  prerecorded: '000'
+  abstract: |-
+    <p>
+    Automated deception detection systems can enhance societal well-being by helping humans detect deceivers and support people in high-stakes situations across health, social work, and legal domains. Existing computational approaches for detecting deception have not leveraged dimensional representations of affect, specifically valence and arousal, expressed during communication. My research presents a novel analysis of the potential for including affect in machine learning models for detecting deception. My work informs and motivates the development of affect-aware machine learning approaches for modeling deception and other social behaviors during human interactions in-the-wild. This research, independently defined and conducted by me, is from work-in-progress towards my undergraduate thesis in the Department of Computer Science at the University of Southern California.
+    </p>
+  sessions:
+    - name: AH9
+      start_time: 2021-02-03 17:00:00+00:00
+      end_time: 2021-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+    - name: AH9
+      start_time: 2021-02-03 17:00:00+00:00
+      end_time: 2021-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+  authors:
+    - name: Morgan Byers, Vangelis Metsis
+      description: |+
+        to be continued
+- UID: UC-49
+  title: 'Probabilistic Robustness Quantification of Neural Networks'
+  organizers: Gopi Kishan, Apurva Narayan
+  info: |-
+    to be continued
+  rocketchat_channel: xxx
+  prerecorded: '000'
+  abstract: |-
+    <p>
+    Safety properties of neural networks are critical to their application in safety-critical domains. Quantification of their robustness against uncertainties is an upcoming area of research. In this work, we propose an approach for providing probabilistic guarantees on the performance of a trained neural network.
+    We present two novel metrics for probabilistic verification on training data distribution and test dataset. Given a trained neural network, we quantify the probability of the model to make errors on a random sample drawn from the training data distribution. Second, from the output logits of a sample test point, we measure its p-value on the learned logit distribution to quantify the confidence of the model at this test point. We compare our results with softmax based metric using the black-box adversarial attacks on a simple CNN architecture trained for MNIST digit classification.
+    </p>
+  sessions:
+    - name: AH9
+      start_time: 2021-02-03 17:00:00+00:00
+      end_time: 2021-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+    - name: AH9
+      start_time: 2021-02-03 17:00:00+00:00
+      end_time: 2021-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+  authors:
+    - name: Morgan Byers, Vangelis Metsis
+      description: |+
+        to be continued
+- UID: UC-56
+  title: 'Evolving Spiking Circuit Motifs Using Weight Agnostic Neural Networks'
+  organizers: Abrar Anwar
+  info: |-
+    to be continued
+  rocketchat_channel: xxx
+  prerecorded: '000'
+  abstract: |-
+    <p>
+    Neural architecture search (NAS) has emerged as an algorithmic method of developing neural network architectures. Weight Agnostic Neural Networks (WANNs) are an evolutionary-based NAS approach. Fundamentally, WANNs find network structures that are relatively insensitive to shifts in weight values and are typically much smaller than an equivalent performance dense network. Here, we extend the WANN framework to search for spiking circuits and in doing so investigate whether these circuit motifs can also yield task performance that is weight agnostic. We analyze properties such as the complexity of the solution, as well as performance. Our results successfully show the performance of spiking WANNs on several exemplar tasks.
+    </p>
+  sessions:
+    - name: AH9
+      start_time: 2021-02-03 17:00:00+00:00
+      end_time: 2021-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+    - name: AH9
+      start_time: 2021-02-03 17:00:00+00:00
+      end_time: 2021-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+  authors:
+    - name: Morgan Byers, Vangelis Metsis
+      description: |+
+        to be continued
+- UID: UC-59
+  title: 'The Price of Anarchy in ROSCAS with Risk Averse Agents'
+  organizers: Christian  Ikeokwu
+  info: |-
+    to be continued
+  rocketchat_channel: xxx
+  prerecorded: '000'
+  abstract: |-
+    <p>
+    Rotating Savings and Credit Associations (Roscas) are a widely documented informal financial organization that is often used in low-income communities with limited funding sources. Roscas have been shown to serve as a tool for economic empowerment and a way of mitigating adverse shocks to income for vulnerable communities. In this paper, I describe my contributions to a  research project in which we study the allocative efficiency of different Rosca structures and formats in the presence of risk-averse agents.
+    </p>
+  sessions:
+    - name: AH9
+      start_time: 2021-02-03 17:00:00+00:00
+      end_time: 2021-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+    - name: AH9
+      start_time: 2021-02-03 17:00:00+00:00
+      end_time: 2021-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+  authors:
+    - name: Morgan Byers, Vangelis Metsis
+      description: |+
+        to be continued
+- UID: UC-66
+  title: 'Predictive Agent-Based Modeling of Natural Disasters Using Machine Learning'
+  organizers: Favour Nerrise
+  info: |-
+    to be continued
+  rocketchat_channel: xxx
+  prerecorded: '000'
+  abstract: |-
+    <p>
+    Current applications of Agent-based Modeling (ABM) in natural phenomena like wildfire land suppression and hurricane forecasting are in monitoring emergent behavior patterns among large groups of people (Hilljegerdes 2018). However, current evacuation times and plans for natural disaster management leave underserved communities vulnerable to substantial financial and welfare losses, especially when false positives during current predictions continue to influence evacuation decisions. A Machine Learning ABM (ML-ABM) model of hurricane trajectories introduces a pioneering opportunity to capture complex physical processes associated with hurricanes while minimizing computational costs and errors, thereby providing more accurate real-time prediction of hurricanes for improved disaster management. Specifical-ly, ML-ABM leverages the strengths of conventional ma-chine learning (e.g., Recurrent Neural Networks or RNNs), augmenting it with the ability to model complex interactions using agent-based modeling, as has been shown useful in modeling complexities in wildfire propagation and suppression (Hu and Sun 2007). This Hurricane Track Prediction ML-ABM model aims to quickly model and predict hurricane tracks in only a few minutes while retaining some of the complex physical process interactions of real storms through feature engineering and deep learning. This work focuses on the implementation of an RNN with bidirectional time-distributed Long-Short Term Memory cells (Usmani 2018), accounting for positive and negative time direction in time series forecasting. The observations and predictions were represented as a multi-agent system in NetLogo for further emergent pattern analysis in expanded research by Ar-thur Drake et. al (2020). The model also evaluates benchmark comparisons against the National Hurricane Center’s 5-Year Average Forecast Errors and the BCD5 Error Model, a combined intensity and track prediction error model that utilizes best track input and models de-cay over land.
+    </p>
+  sessions:
+    - name: AH9
+      start_time: 2021-02-03 17:00:00+00:00
+      end_time: 2021-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+    - name: AH9
+      start_time: 2021-02-03 17:00:00+00:00
+      end_time: 2021-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+  authors:
+    - name: Morgan Byers, Vangelis Metsis
+      description: |+
+        to be continued
+- UID: UC-71
+  title: 'Exploration of Unknown Environments Using Deep Reinforcement Learning'
+  organizers: Joseph McCalmon
+  info: |-
+    to be continued
+  rocketchat_channel: xxx
+  prerecorded: '000'
+  abstract: |-
+    <p>
+    My research presents a method for efficient exploration of an outdoor, unknown area, which aims to achieve precise coverage of regions of interest within that area. While this method for autonomous exploration was designed for autonomous controllers in unmanned aerial vehicles (UAVs), the concepts apply to any vehicle which uses autonomous navigation. We consider an environment with areas of interest of various sizes littered throughout, and a reinforcement learning agent which is tasked with discovering and mapping these areas in an efficient manner.
+    </p>
+  sessions:
+    - name: AH9
+      start_time: 2021-02-03 17:00:00+00:00
+      end_time: 2021-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+    - name: AH9
+      start_time: 2021-02-03 17:00:00+00:00
+      end_time: 2021-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+  authors:
+    - name: Morgan Byers, Vangelis Metsis
+      description: |+
+        to be continued
+- UID: UC-76
+  title: 'Using Remote Sensing Imagery and Machine Learning to Predict Poaching in Wildlife Conservation Parks'
+  organizers: Rachel Guo
+  info: |-
+    to be continued
+  rocketchat_channel: xxx
+  prerecorded: '000'
+  abstract: |-
+    <p>
+    Illegal wildlife poaching is driving the loss of biodiversity. To combat poaching, rangers patrol expansive protected areas for illegal poaching activity. However, rangers often cannot comprehensively search such large parks. Thus, the Protection Assistant for Wildlife Security (PAWS) uses machine learning to help identify the areas with highest poaching risk. As PAWS is deployed to parks around the world, we recognized that many parks have limited resources for data collection and therefore have scarce feature sets. To ensure under-resourced parks have access to meaningful poaching predictions, we introduce the use of publicly available remote sensing data to extract features for parks. By employing this data from Google Earth Engine, we also incorporate previously unavailable dynamic data such as climate and primary production patterns to enrich predictions with seasonal trends. We automate the entire data-to-deployment pipeline and find that, with only using publicly available data, we recuperate prediction performance comparable to predictions made using features manually computed by park specialists. We conclude that the inclusion of satellite imagery creates for a robust system through which parks of any resource level can benefit from poaching risks for years to come.
+    </p>
+  sessions:
+    - name: AH9
+      start_time: 2021-02-03 17:00:00+00:00
+      end_time: 2021-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+    - name: AH9
+      start_time: 2021-02-03 17:00:00+00:00
+      end_time: 2021-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+  authors:
+    - name: Morgan Byers, Vangelis Metsis
+      description: |+
+        to be continued
+- UID: UC-77
+  title: 'MOTIF-Driven Contrastive Learning of Graph Representations'
+  organizers: Arjun Subramonian
+  info: |-
+    to be continued
+  rocketchat_channel: xxx
+  prerecorded: '000'
+  abstract: |-
+    <p>
+    We propose a MOTIF-driven contrastive framework to pretrain a graph neural network in a self-supervised manner so that it can automatically mine motifs from large graph datasets. Our framework achieves state-of-the-art results on various graph-level downstream tasks with few labels, like molecular property prediction.
+    </p>
+  sessions:
+    - name: AH9
+      start_time: 2021-02-03 17:00:00+00:00
+      end_time: 2021-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+    - name: AH9
+      start_time: 2021-02-03 17:00:00+00:00
+      end_time: 2021-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+  authors:
+    - name: Morgan Byers, Vangelis Metsis
+      description: |+
+        to be continued
+- UID: OTHER
+  title: 'xxx'
+  organizers: Arjun Subramonian
+  info: |-
+    to be continued
+  rocketchat_channel: xxx
+  prerecorded: '000'
+  abstract: |-
+    <p>
+    xxx
+    </p>
+  sessions:
+    - name: "Opening remarks"
+      start_time: 2021-02-02 16:00:00+00:00
+      end_time: 2021-02-02 16:15:00+00:00
+      zoom_link: 123.com
+      hosts: " "
+    - name: "Talk: Roles for Computing in Social Justice"
+      start_time: 2021-02-02 16:15:00+00:00
+      end_time: 2021-02-02 17:30:00+00:00
+      zoom_link: 123.com
+      hosts: <a href="https://www2.eecs.berkeley.edu/Faculty/Homepages/rabebe.html">Dr. Rediet Abebe</a>
+    - name: "Break"
+      start_time: 2021-02-02 17:30:00+00:00
+      end_time: 2021-02-02 17:45:00+00:00
+      zoom_link: 123.com
+      hosts: " "
+    - name: "UC Scholar Mixer"
+      start_time: 2021-02-02 17:45:00+00:00
+      end_time: 2021-02-02 19:00:00+00:00
+      zoom_link: 123.com
+      hosts: " "
+    - name: "Lunch Break"
+      start_time: 2021-02-02 19:00:00+00:00
+      end_time: 2021-02-02 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: " "
+    - name: "Talk: Wanted: You and Your Mind"
+      start_time: 2021-02-02 20:10:00+00:00
+      end_time: 2021-02-02 21:30:00+00:00
+      zoom_link: 123.com
+      hosts: <a href="http://www.cs.utep.edu/agates/">Dr. Ann Gates</a>
+    - name: "Break"
+      start_time: 2021-02-02 21:30:00+00:00
+      end_time: 2021-02-02 21:45:00+00:00
+      zoom_link: 123.com
+      hosts: " "
+    - name: "Grad Student Panel: What is grad school REALLY like?"
+      start_time: 2021-02-02 21:45:00+00:00
+      end_time: 2021-02-02 22:30:00+00:00
+      zoom_link: 123.com
+      hosts: " "
+    - name: "UC Poster Session"
+      start_time: 2021-02-02 22:30:00+00:00
+      end_time: 2021-02-03 00:50:00+00:00
+      zoom_link: 123.com
+      hosts: " "
+    - name: "Closing remarks"
+      start_time: 2021-02-03 00:50:00+00:00
+      end_time: 2021-02-03 01:00:00+00:00
+      zoom_link: 123.com
+      hosts: " "
+  authors:
+    - name: xxx
+      description: |+
+        to be continued
