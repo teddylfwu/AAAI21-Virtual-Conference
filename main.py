@@ -72,6 +72,7 @@ def eaai():
 @app.route("/doctoral_consortium.html")
 def doctoral_consortium():
     data = _data()
+    data["doctoral_consortium"] = site_data["doctoral_consortium"]
     return render_template("doctoral_consortium.html", **data)
 
 
