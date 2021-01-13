@@ -4,13 +4,24 @@
 
 {% block heading %}
 
+<style>
+    div.text-muted:hover {
+        background-color: rgb(175, 174, 174);
+    }
+
+    /* div#pinfo :hover {
+        background-color: rgb(175, 174, 174);
+    } */
+
+</style>
+
 {{ components.section("Organizers") }}
-<div class="text-muted text-center">
+<!-- <div class="text-muted text-center">
 Also check out our
 <a href="https://2020.emnlp.org/organizers/senior-program-committee" target="_blank">Senior Program Committee</a>
 and
 <a href="https://2020.emnlp.org/organizers/ethics-committee" target="_blank">Ethics Committee</a>.
-</div>
+</div> -->
 {% endblock %}
 
 {% block content %}

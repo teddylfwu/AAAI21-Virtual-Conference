@@ -93,11 +93,13 @@
   <div class="row mb-5 mt-3">
     {% for member in committee[role] %}
     <div class="col-md-3 col-xs-6">
-      <div class="card text-center shadow p-3 bg-light rounded h-100">
-        <div class="text-muted">
-          <a href="{{ member.pweb or 'none'}}"><img src="{{ member.image or "static/images/committee/placeholder.png" }}" class="rounded mx-auto my-3" style="height: 150px;" /></a>
-          <h5 class="card-title" align="center">{{member.name}}</h5>
+      <div class="card text-center shadow p-3 bg-light rounded h-100" id='pinfo'>
+        <a href="{{ member.pweb or 'none'}}">
+          <div class="text-muted">
+            <img src="{{ member.image or "static/images/committee/placeholder.png" }}" class="rounded mx-auto my-3" style="height: 150px;" />
+            <h5 class="card-title" align="center">{{member.name}}</h5>
           <div>
+        </a>
             <h6 class="card-subtitle text-muted">
               {{member.aff}}
             </h6>
