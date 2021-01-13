@@ -158,7 +158,7 @@ class CommitteeMember:
     name: str
     aff: str
     image: Optional[str]
-
+    pweb: str
 
 @dataclass(frozen=True)
 class TutorialSessionInfo:
