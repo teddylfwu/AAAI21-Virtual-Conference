@@ -158,7 +158,7 @@ class CommitteeMember:
     name: str
     aff: str
     image: Optional[str]
-
+    pweb: str
 
 @dataclass(frozen=True)
 class TutorialSessionInfo:
@@ -226,6 +226,21 @@ class Tutorial:
     rocketchat_channel: str
     sessions: List[TutorialSessionInfo]
     authors: List[TutorialAuthorInfo]
+    blocks: List[SessionInfo]
+    virtual_format_description: str
+
+@dataclass(frozen=True)
+class DoctoralConsortium:
+    id: str
+    title: str
+    organizers: List[str]
+    abstract: str
+    website: Optional[str]
+    material: Optional[str]
+    slides: Optional[str]
+    prerecorded: Optional[str]
+    rocketchat_channel: str
+    sessions: List[SessionInfo]
     blocks: List[SessionInfo]
     virtual_format_description: str
 

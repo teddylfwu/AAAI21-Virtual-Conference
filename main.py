@@ -72,6 +72,7 @@ def eaai():
 @app.route("/doctoral_consortium.html")
 def doctoral_consortium():
     data = _data()
+    data["doctoral_consortium"] = site_data["doctoral_consortium"]
     return render_template("doctoral_consortium.html", **data)
 
 
@@ -96,10 +97,10 @@ def gathers():
     return render_template("gathers.html", **data)
 
 
-@app.route("/ai_job_fail.html")
+@app.route("/ai_job_fair.html")
 def ai_job_fail():
     data = _data()
-    return render_template("ai_job_fail.html", **data)
+    return render_template("ai_job_fair.html", **data)
 
 
 @app.route("/reception.html")
