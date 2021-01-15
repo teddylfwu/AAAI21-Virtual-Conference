@@ -215,8 +215,8 @@ def workshops():
 @app.route("/sponsors.html")
 def sponsors():
     data = _data()
-    # data["sponsors"] = site_data["sponsors_by_level"]
-    # data["sponsor_levels"] = site_data["sponsor_levels"]
+    data["sponsors"] = site_data["sponsors_by_level"]
+    data["sponsor_levels"] = site_data["sponsor_levels"]
     return render_template("sponsors.html", **data)
 
 
