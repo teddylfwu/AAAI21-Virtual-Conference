@@ -1,224 +1,1567 @@
-- UID: T1
-  title: Interpreting Predictions of NLP Models
-  organizers: Eric Wallace, Matt Gardner, Sameer Singh
-  abstract: Although neural NLP models are highly expressive and empirically successful,
-    they also systematically fail in counterintuitive ways and are opaque in their
-    decision-making process. This tutorial will provide a background on interpretation
-    techniques, i.e., methods for explaining the predictions of NLP models. We will
-    first situate example-specific interpretations in the context of other ways to
-    understand models (e.g., probing, dataset analyses). Next, we will present a thorough
-    study of example-specific interpretations, including saliency maps, input perturbations
-    (e.g., LIME, input reduction), adversarial attacks, and influence functions. Alongside
-    these descriptions, we will walk through source code that creates and visualizes
-    interpretations for a diverse set of NLP tasks. Finally, we will discuss open
-    problems in the field, e.g., evaluating, extending, and improving interpretation
-    methods.
+- UID: MQ1
+  title: 'Explainable AI for Societal Event Predictions: Foundations, Methods, and
+    Applications'
+  organizers: Songgaojun Deng, Yue Ning and Huzefa Rangwala
+  abstract: |-
+    <p>
+    The goal of this tutorial is to bring together data scientists, AI researchers, and social scientists to discuss research problems and challenges in computational event modeling. Traditional machine learning models for societal event forecasting focus on predictive performance using structured data. We present new directions of interpretable AI/ML models for predictive analysis in dynamic, heterogeneous, and multi-source event data. The tutorial will cover technical material related to event detection, forecasting, and precursor identification with assumed preliminary knowledge in supervised learning, deep learning, and temporal event modeling. First, we will introduce formal definitions of event prediction and event precursors, along with a brief discussion on the methods applied in this field. Next, we will present recently developed deep learning methods including dynamic graph convolutional networks in event forecasting and actor (participant) inference. Last, we will discuss real-world applications based on temporal event modeling.
+    </p>
   info: |-
     This tutorial has slides that you see can anytime (It does not have any
         prerecorded talk). It will be conducted entirely live on Zoom and will be
         livestreamed on this page. It has a chat window that you can use to have
         discussions with the tutorial teachers and other attendees anytime during the
         conference.
-  rocketchat_channel: tutorial-1-interpreting-predictions
+  rocketchat_channel: MQ1ExplainableAIforSocietalEventPredictionsFoundationsMethodsandApplications
   sessions:
-  - name: Part 1
-    start_time: 2020-11-19 15:00:00+00:00
-    end_time: 2020-11-19 16:30:00+00:00
-    zoom_link: https://us02web.zoom.us/j/2637599975
-    hosts: Eric Wallace, Matt Gardner and Sameer Singh
-  - name: Q&A 1
-    start_time: 2020-11-19 16:30:00+00:00
-    end_time: 2020-11-19 17:00:00+00:00
-    zoom_link: https://us02web.zoom.us/j/2637599975
-  - name: BREAK
-    start_time: 2020-11-19 17:00:00+00:00
-    end_time: 2020-11-19 17:30:00+00:00
-    zoom_link: https://us02web.zoom.us/j/2637599975
-  - name: Part 2
-    start_time: 2020-11-19 17:30:00+00:00
-    end_time: 2020-11-19 19:00:00+00:00
-    zoom_link: https://us02web.zoom.us/j/2637599975
-  - name: Q&A 2
-    start_time: 2020-11-19 19:00:00+00:00
-    end_time: 2020-11-19 19:30:00+00:00
-    zoom_link: https://us02web.zoom.us/j/2637599975
-  website: https://www.ericswallace.com/interpretability
-- UID: T2
-  title: 'Fact-Checking, Fake News, Propaganda, and Media Bias: Truth Seeking in the
-    Post-Truth Era'
-  organizers: Preslav Nakov, Giovanni Da San Martino
-  abstract: |-
-    The rise of social media has democratized content creation and has made it easy for anybody to share and to spread information online. On the positive side, this has given rise to citizen journalism, thus enabling much faster dissemination of information compared to what was possible with newspapers, radio, and TV. On the negative side, stripping traditional media from their gate-keeping role has left the public unprotected against the spread of disinformation, which could now travel at breaking-news speed over the same democratic channel. This situation gave rise to the proliferation of false information specifically created to affect individual people's beliefs, and ultimately to influence major events such as political elections; it also set the dawn of the Post-Truth Era, where appeal to emotions has become more important than the truth. More recently, with the emergence of the COVID-19 pandemic, a new blending of medical and political misinformation and disinformation has given rise to the first global infodemic. Limiting the impact of these negative developments has become a major focus for journalists, social media companies, and regulatory authorities.
+  - name: MQ1
+    start_time: 2021-02-03 13:30:00+00:00
+    end_time: 2021-02-03 15:00:00+00:00
+    zoom_link: 123.com
+    hosts: Songgaojun Deng, Yue Ning and Huzefa Rangwala
+  - name: MQ1
+    start_time: 2021-02-03 13:30:00+00:00
+    end_time: 2021-02-03 15:00:00+00:00
+    zoom_link: 123.com
+    hosts: Songgaojun Deng, Yue Ning and Huzefa Rangwala
+  authors:
+  - name: Songgaojun Deng
+    description: |+
+      is a PhD candidate in the Department of Computer Science at Stevens Institute of Technology. Her research interests are machine learning and deep learning in social informatics and health informatics. Her current research focuses on developing graph neural networks to capture dynamic and interpretable graph-based patterns.
 
-    The tutorial offers an overview of the emerging and inter-connected research areas of fact-checking, misinformation, disinformation, “fake news”, propaganda, and media bias detection, with focus on text and on computational approaches. It further explores the general fact-checking pipeline and important elements thereof such as check-worthiness estimation, spotting previous fact-checked claims, stance detection, source reliability estimation, and detecting malicious users in social media. Finally, it covers some recent developments such as the emergence of large-scale pre-trained language models, and the challenges and opportunities they offer.
-  info: |-
-    This tutorial has a prerecorded talk on this page (see below) that you can watch anytime during the conference. It
-        also has two live sessions that will be conducted on Zoom and will be livestreamed on this page. Additionally, it has
-        a chat window that you can use to have discussions with the tutorial teachers and other attendees anytime during the
-        conference.
-  rocketchat_channel: tutorial-2-fact-checking
-  sessions:
-  - name: Q&A
-    start_time: 2020-11-19 10:00:00+00:00
-    end_time: 2020-11-19 11:00:00+00:00
-    zoom_link: https://us02web.zoom.us/j/7912953569
-    hosts: Preslav Nakov and Giovanni Da San Martino
-  - name: Q&A
-    start_time: 2020-11-19 14:00:00+00:00
-    end_time: 2020-11-19 15:00:00+00:00
-    zoom_link: https://us02web.zoom.us/j/7912953569
-  prerecorded: '38940825'
-  website: https://propaganda.math.unipd.it/emnlp20-tutorial
-- UID: T3
-  title: High Performance Natural Language Processing
-  organizers: Gabriel Ilharco, Cesar Ilharco, Iulia Turc, Tim Dettmers, Felipe Ferreira,
-    Kenton Lee
-  abstract: Scale has played a central role in the rapid progress natural language
-    processing has enjoyed in recent years. While benchmarks are dominated by ever
-    larger models, efficient hardware use is critical for their widespread adoption
-    and further progress in the field. In this cutting-edge tutorial, we will recapitulate
-    the state-of-the-art in natural language processing with scale in perspective.
-    After establishing these foundations, we will cover a wide range of techniques
-    for improving efficiency, including knowledge distillation, quantization, pruning,
-    more efficient architectures, along with case studies and practical implementation
-    tricks.
-  info: |-
-    This tutorial has a prerecorded talk on this page (see below) that you can watch anytime during the conference. It
-        also has two live sessions that will be conducted on Zoom and will be livestreamed on this page. Additionally, it has
-        a chat window that you can use to have discussions with the tutorial teachers and other attendees anytime during the
-        conference.
-  rocketchat_channel: tutorial-3-high-performance
-  sessions:
-  - name: Q&A
-    start_time: 2020-11-19 17:00:00+00:00
-    end_time: 2020-11-19 18:00:00+00:00
-    zoom_link: https://us02web.zoom.us/j/9096516638
-    hosts: Gabriel Ilharco, Cesar Ilharco, Iulia Turc, Tim Dettmers, Felipe Ferreira,
-      Kenton Lee
-  - name: Q&A
-    start_time: 2020-11-20 00:00:00+00:00
-    end_time: 2020-11-20 01:00:00+00:00
-    zoom_link: https://us02web.zoom.us/j/9096516638
+  - name: Yue Ning
+    description: |+
+      is an Assistant Professor in the Department of Computer Science at Stevens Institute of Technology. She received her PhD degree in Computer Science from Virginia Tech. Her research interests are machine learning, data analytics, and social media analysis.
+
+  - name: Huzefa Rangwala
+    description: is the Lawrence Cranberg Faculty Fellow and Professor in the Department
+      of Computer Science at George Mason University. His research interests are data
+      mining and machine learning applications in the areas of biological sciences,
+      learning sciences, and cyber-physical sciences involving fundamental contributions
+      of multitask learning, hierarchical classification, and recommender systems.
   prerecorded: '38940826'
-- UID: T4
-  title: 'Machine Reasoning: Technology, Dilemma and Future'
-  organizers: Nan Duan, Duyu Tang, Ming Zhou
-  abstract: Machine reasoning research aims to build interpretable AI systems that
-    can solve problems or draw conclusions from what they are told (i.e. facts and
-    observations) and already know (i.e. models, common sense and knowledge) under
-    certain constraints. In this tutorial, we will (1) describe the motivation of
-    this tutorial and give our definition on machine reasoning; (2) introduce typical
-    machine reasoning frameworks, including symbolic reasoning, probabilistic reasoning,
-    neural-symbolic reasoning and neural-evidence reasoning, and show their successful
-    applications in real-world scenarios; (3) talk about the dilemma between black-box
-    neural networks with state-of-the-art performance and machine reasoning approaches
-    with better interpretability; (4) summarize the content of this tutorial and discuss
-    possible future directions.
-  info: |-
-    This tutorial has a prerecorded talk on this page (see below) that you can watch anytime during the conference. It
-        also has two live sessions that will be conducted on Zoom and will be livestreamed on this page. Additionally, it has
-        a chat window that you can use to have discussions with the tutorial teachers and other attendees anytime during the
-        conference.
-  rocketchat_channel: tutorial-4-machine-reasoning
-  sessions:
-  - name: Q&A
-    start_time: 2020-11-19 09:00:00+00:00
-    end_time: 2020-11-19 10:00:00+00:00
-    zoom_link: https://us02web.zoom.us/j/4445879998
-    hosts: Nan Duan, Duyu Tang and Ming Zhou
-  - name: Q&A
-    start_time: 2020-11-20 01:00:00+00:00
-    end_time: 2020-11-20 02:00:00+00:00
-    zoom_link: https://us02web.zoom.us/j/4445879998
-  prerecorded: '38940827'
-- UID: T5
-  title: Representation, Learning and Reasoning on Spatial Language for Down-stream
-    NLP Tasks
-  organizers: Parisa Kordjamshidi, James Pustejovsky, Marie-Francine Moens
-  abstract: Understating spatial semantics expressed in natural language can become
-    highly complex in real-world applications. This includes applications of language
-    grounding, navigation, visual question answering, and more generic human-machine
-    interaction and dialogue systems. In many of such downstream tasks, explicit representation
-    of spatial concepts and relationships can improve the capabilities of machine
-    learning models in reasoning and deep language understanding. In this tutorial,
-    we overview the cutting-edge research results and existing challenges related
-    to spatial language understanding including semantic annotations,  existing corpora,
-    symbolic and sub-symbolic representations, qualitative spatial reasoning, spatial
-    common sense, deep and structured learning models.  We discuss the recent results
-    on the above-mentioned applications --that need spatial language learning and
-    reasoning -- and highlight the research gaps and future directions.
-  info: |-
-    This tutorial has a prerecorded talk on this page (see below) that you can watch anytime during the conference. It
-        also has two live sessions that will be conducted on Zoom and will be livestreamed on this page. Additionally, it has
-        a chat window that you can use to have discussions with the tutorial teachers and other attendees anytime during the
-        conference.
-  rocketchat_channel: tutorial-5-spatial-language
-  sessions:
-  - name: Q&A
-    start_time: 2020-11-20 17:00:00+00:00
-    end_time: 2020-11-20 18:00:00+00:00
-    zoom_link: https://us02web.zoom.us/j/8232538402
-    hosts: Parisa Kordjamshidi, James Pustejovsky and Marie-Francine Moens
-  - name: Q&A
-    start_time: 2020-11-21 00:00:00+00:00
-    end_time: 2020-11-21 01:00:00+00:00
-    zoom_link: https://us02web.zoom.us/j/8232538402
-  prerecorded: '38940828'
-  website: https://spatial-language-tutorial.github.io
-- UID: T6
-  title: Simultaneous Translation
-  organizers: Liang Huang, Colin Cherry, Mingbo Ma, Naveen Arivazhagan, Zhongjun He
+- UID: MQ2
+  title: An Extensible Toolkit for Explainable Recommender Systems
+  organizers: Ludovik Coba, Roberto Confalonieri and Markus Zanker
   abstract: |-
-    Simultaneous translation, which performs translation concurrently with the source speech, is widely useful in many scenarios such as international conferences, negotiations, press releases, legal proceedings, and medicine. This problem has long been considered one of the hardest problems in AI and one of its holy grails.
-    Recently, with rapid improvements in machine translation, speech recognition, and speech synthesis, there has been exciting progress towards simultaneous translation. This tutorial will focus on the design and evaluation of policies for simultaneous translation, to leave attendees with a deep technical understanding of the history, the recent advances, and the remaining challenges in this field.
+    <p>
+    In this tutorial we will provide a review of eXplainable Recommender Systems (XRSs), and a practical hands-on session using a recently developed software toolkit called RecoXplainer. RecoXplainer is a unified, extendable and easy to use Python toolkit that includes several explainability techniques that are useful for various groups of stakeholders.
+    <br />
+    The tutorial will be organized in two parts. The first part will provide the necessary background knowledge about Explainable AI and explanations techniques in recommender systems, such as model-based, post-hoc explanations, offline and online evaluation of explanations. The second part will consist of a hands-on session where attendees will be guided to the use of RecoXplainer, and to generate several examples of explainable recommendations.
+    <br />
+    The target audience is assumed to have a certain acquaintance with recommender systems, Matrix Factorisation, and information retrieval. For the hands-on session a basic understanding of Python is required. A more advanced programming knowledge is required for those who would like to experiment with the toolkit, e.g., for inspecting the code to find advanced features, or to learn how to extend the current framework.
+    </p>
   info: |-
     This tutorial has a prerecorded talk on this page (see below) that you can watch anytime during the conference. It
         also has two live sessions that will be conducted on Zoom and will be livestreamed on this page. Additionally, it has
         a chat window that you can use to have discussions with the tutorial teachers and other attendees anytime during the
         conference.
-  rocketchat_channel: tutorial-6-simultaneous-translation
+  rocketchat_channel: MQ2AnExtensibleToolkitforExplainableRecommenderSystems
   sessions:
-  - name: Q&A
-    start_time: 2020-11-20 18:00:00+00:00
-    end_time: 2020-11-20 19:00:00+00:00
-    zoom_link: https://us02web.zoom.us/j/9514558044
-    hosts: Liang Huang, Colin Cherry, Mingbo Ma, Naveen Arivazhagan and Zhongjun He
-  - name: Q&A
-    start_time: 2020-11-21 01:00:00+00:00
-    end_time: 2020-11-21 02:00:00+00:00
-    zoom_link: https://us02web.zoom.us/j/9514558044
-  prerecorded: '38940829'
-- UID: T7
-  title: The Amazing World of Neural Language Generation
-  organizers: Yangfeng Ji, Antoine Bosselut, Thomas Wolf, Asli Celikyilmaz
-  abstract: 'Neural Language Generation (NLG) -- using neural network models to generate
-    coherent text -- is among the most promising methods for automated text creation.  Recent
-    years have seen a paradigm shift in neural text generation, caused by the advances
-    in deep contextual language modeling (e.g., LSTMs, GPT, GPT2) and transfer learning
-    (e.g., ELMo, BERT). While these tools have dramatically improved the state of
-    NLG, particularly for low resources tasks, state-of-the-art NLG models still face
-    many challenges: a lack of diversity in generated text, commonsense violations
-    in depicted situations, difficulties in making use of factual information, and
-    difficulties in designing reliable evaluation metrics. In this tutorial, we will
-    present an overview of the current state-of-the-art in neural network architectures,
-    and how they shaped recent research directions in text generation. We will discuss
-    how and why these models succeed/fail at generating coherent text, and provide
-    insights on several applications.'
+  - name: MQ2
+    start_time: 2021-02-03 13:30:00+00:00
+    end_time: 2021-02-03 15:00:00+00:00
+    zoom_link: 123.com
+    hosts: Ludovik Coba, Roberto Confalonieri and Markus Zanker
+  - name: MQ2
+    start_time: 2021-02-03 13:30:00+00:00
+    end_time: 2021-02-03 15:00:00+00:00
+    zoom_link: 123.com
+    hosts: Ludovik Coba, Roberto Confalonieri and Markus Zanker
+  authors:
+  - name: Ludovik Coba
+    description: |+
+      is a post-doctoral researcher at the Free University of Bozen-Bolzano. He currently performs research in explainability and innovative algorithms for recommender systems. He publishes his results in venues like RecSys or IUI and journals like IT and Tourism, UMUAI or DKE.
+
+  - name: Roberto Confalonieri
+    description: |+
+      is Assistant Professor at the Free University of Bozen-Bolzano. His current research focuses on Explainable AI, in particular, on how the integration of symbolic and non-symbolic reasoning approaches can convey human-understandable explanations of black-box models.
+
+  - name: Markus Zanker
+    description: is a professor at the Faculty of Computer Science of the Free University
+      of Bozen-Bolzano, where he also served as vice dean for studies and director
+      for study programmes. Before moving to Bolzano he was an associate professor
+      at the Alpen-Adria-Universitaet Klagenfurt, Austria. His research focuses on
+      knowledge-based information systems supporting decision making processes such
+      as personalized information filtering and retrieval and product recommendation.
+      Until 2013 Markus Zanker was also a co-founder and director of a recommendation
+      service company for more than 10 years. He is an associate editor of Information
+      Technology & Tourism (Springer). Besides organizing numerous workshops in the
+      field, he was a program chair of the 4th ACM Conference on Recommender Systems
+      in 2010 and he co-chaired the 9th ACM Conference on Recommender Systems in 2015.
+  prerecorded: '38940826'
+- UID: MQ3
+  title: Deep Randomized Neural Networks
+  organizers: Claudio Gallicchio
+  abstract: |-
+    <p>
+    Deep Neural Networks (DNNs) are a fundamental tool in the modern development of Machine Learning. Beyond the merits of the training algorithms, a great part of DNNs success is due to the inherent properties of their layered architectures, i.e., to the introduced architectural biases. In this tutorial, we explore recent classes of DNN models wherein the majority of connections are randomized or more generally fixed according to some specific heuristic. Limiting the training algorithms to operate on a reduced set of weights implies intriguing features. Among them, the extreme efficiency of the learning processes is undoubtedly a striking advantage with respect to fully trained architectures. Besides, despite the involved simplifications, randomized neural systems possess remarkable properties both in practice, achieving state-of-the-art results in multiple domains, and theoretically, allowing to analyze intrinsic properties of neural architectures.
+    <br />
+    This tutorial covers all the major aspects regarding Deep Randomized Neural Networks, from feed-forward and convolutional neural networks, to dynamically recurrent deep neural systems for structures. The tutorial is targeted to both researchers and practitioners, from academia or industry, who are interested in developing DNNs that can be trained efficiently, and possibly embedded into low-powerful devices.
+    <br />
+    Requirements: basics on Machine Learning and DNNs.
+    </p>
   info: |-
     This tutorial has a prerecorded talk on this page (see below) that you can watch anytime during the conference. It
         also has two live sessions that will be conducted on Zoom and will be livestreamed on this page. Additionally, it has
         a chat window that you can use to have discussions with the tutorial teachers and other attendees anytime during the
         conference.
-  rocketchat_channel: tutorial-7-world-of-generation
+  rocketchat_channel: MQ3DeepRandomizedNeuralNetworks
   sessions:
-  - name: Q&A
-    start_time: 2020-11-20 19:00:00+00:00
-    end_time: 2020-11-20 20:00:00+00:00
-    zoom_link: https://us02web.zoom.us/j/9058998626
-    hosts: Yangfeng Ji, Antoine Bosselut, Thomas Wolf and Asli Celikyilmaz
-  - name: Q&A
-    start_time: 2020-11-21 01:00:00+00:00
-    end_time: 2020-11-21 02:00:00+00:00
-    zoom_link: https://us02web.zoom.us/j/9058998626
-  prerecorded: '38940830'
-  website: https://nlg-world.github.io
+  - name: MQ3
+    start_time: 2021-02-03 13:30:00+00:00
+    end_time: 2021-02-03 15:00:00+00:00
+    zoom_link: 123.com
+    hosts: Claudio Gallicchio
+  - name: MQ3
+    start_time: 2021-02-03 13:30:00+00:00
+    end_time: 2021-02-03 15:00:00+00:00
+    zoom_link: 123.com
+    hosts: Claudio Gallicchio
+  authors:
+  - name: Claudio Gallicchio
+    description: is Assistant Professor at the Department of Computer Science, University
+      of Pisa. His research interests include Machine Learning, Deep Learning, Randomized
+      Neural Networks, Reservoir Computing, Recurrent and Recursive Neural Networks,
+      Graph Neural Networks. He is founder and chair of the IEEE CIS Task Force on
+      Reservoir Computing.
+  prerecorded: '38940826'
+- UID: MQ4
+  title: Efficient Neural Architecture Search
+  organizers: Tejaswini Pedapati and Martin Wistuba
+  abstract: |-
+    <p>
+    With the advances and success of deep learning technology in solving complex AI problems, the natural step forward lies in building systems that automate the decisions required for setting up a deep learning pipeline. Tackling this automation is not only crucial for speeding up the deployment of deep learning models, it also helps in expanding the capabilities of models to other challenging scenarios like modelling with limited data or modelling under resource constraints. This tutorial seeks to provide a comprehensive overview of the approaches used in this regard by means of neural architecture search. It is also the first tutorial that strongly focuses on transfer and meta-learning, going beyond classic neural architecture search.
+    <br />
+    The tutorial is geared toward graduate students, AI researchers, and practitioners, who are interested in automating parts of their deep learning pipelines, want to learn about principles of automated machine learning and deep learning, and apply those principles to make their own work more effective and less arduous.
+    <br />
+    The prerequisite knowledge assumed of the audience includes basic understanding of deep learning, optimization, and machine learning concepts. Familiarity with some state-of-the-art convolutional neural network architecture can facilitate the understanding but is not required.
+    </p>
+  info: |-
+    This tutorial has a prerecorded talk on this page (see below) that you can watch anytime during the conference. It
+        also has two live sessions that will be conducted on Zoom and will be livestreamed on this page. Additionally, it has
+        a chat window that you can use to have discussions with the tutorial teachers and other attendees anytime during the
+        conference.
+  rocketchat_channel: MQ4EfficientNeuralArchitectureSearch
+  sessions:
+  - name: MQ4
+    start_time: 2021-02-03 13:30:00+00:00
+    end_time: 2021-02-03 15:00:00+00:00
+    zoom_link: 123.com
+    hosts: Tejaswini Pedapati and Martin Wistuba
+  - name: MQ4
+    start_time: 2021-02-03 13:30:00+00:00
+    end_time: 2021-02-03 15:00:00+00:00
+    zoom_link: 123.com
+    hosts: Tejaswini Pedapati and Martin Wistuba
+  authors:
+  - name: Tejaswini Pedapati
+    description: |+
+      works at IBM Research. Her research is focused on interpretability and automating deep learning. To that end, she was involved in developing tools and algorithms to provide these capabilities for IBM products. She has a masters' degree from Columbia University.
+
+  - name: Martin Wistuba
+    description: is a researcher at IBM Research, where he develops tools to automate
+      deep learning. Previously, he received his Ph.D. in Machine Learning from the
+      University of Hildesheim. His research interest includes AutoML, in particular
+      the idea of meta-knowledge transfer to speed up Bayesian optimization and Neural
+      Architecture Search.
+  prerecorded: '38940826'
+- UID: MH1
+  title: Artificial Intelligence for Drug Discovery
+  organizers: Jian Tang, Fei Wang and Feixiong Cheng
+  abstract: |-
+    <p>
+    Drug discovery is a long and costly process, taking on average 10 years and 2.5 billion dollars to develop a new drug. Artificial intelligence has the potential to significantly accelerate the process of drug discovery by analyzing a large amount of data generated in the biomedical domain. In this tutorial, we will provide a detailed introduction to key problems in drug discovery such as molecular property prediction, de novo molecular design and molecular optimization, retrosynthesis reaction and prediction, and drug repurposing and combination, and also key technique advancements with artificial intelligence for these problems. This tutorial can be served as introduction materials for both computer scientists interested in drug discovery as well as drug discovery practitioners for learning the latest AI techniques along this direction.
+    <br />
+    The intended audience for the tutorial is participants that want to get up-to-speed with recent advancements in AI for drug discovery. The tutorial is targeted towards an entry-level audience, with knowledge of the fundamentals of machine learning and deep learning; e.g., empirical risk minimization and familiarity with LSTMS or CNNs. However, we expect that experts in the area will also benefit from the tutorial's synthesis of disparate techniques and problems.
+    </p>
+  info: |-
+    This tutorial has a prerecorded talk on this page (see below) that you can watch anytime during the conference. It
+        also has two live sessions that will be conducted on Zoom and will be livestreamed on this page. Additionally, it has
+        a chat window that you can use to have discussions with the tutorial teachers and other attendees anytime during the
+        conference.
+  rocketchat_channel: MH1ArtificialIntelligenceforDrugDiscovery
+  sessions:
+  - name: MH1
+    start_time: 2021-02-03 13:30:00+00:00
+    end_time: 2021-02-03 16:45:00+00:00
+    zoom_link: 123.com
+    hosts: Jian Tang, Fei Wang and Feixiong Cheng
+  - name: MH1
+    start_time: 2021-02-03 13:30:00+00:00
+    end_time: 2021-02-03 16:45:00+00:00
+    zoom_link: 123.com
+    hosts: Jian Tang, Fei Wang and Feixiong Cheng
+  authors:
+  - name: Jian Tang
+    description: |+
+      is currently an assistant professor at Mila-Quebec AI Institute, led by Turing Award Winner Yoshua Bengio. His research focuses on graph representation learning, graph neural networks, drug discovery, and knowledge graphs. He is a recipient of the CIFAR AI Research Chair. He received the best paper award of ICML’14 and was nominated for the best paper of WWW’16. He published quite a few representative works on graph representation learning (including LINE, LargeVis, RotatE) and recently has been very actively working on graph representation learning for drug discovery.
+
+  - name: Fei Wang
+    description: |+
+      is currently an Associate Professor of Health Informatics in the Department of Population Health Sciences, Weill Cornell Medicine, Cornell University. His major research interest is data mining and its applications in health data science. He has published more than 250 papers in AI and medicine and has won 8 best paper awards at top international conferences on data mining and medical informatics. Dr. Wang is the recipient of the NSF CAREER Award in 2018, the inaugural research leadership award in IEEE International Conference on Health Informatics (ICHI) 2019.
+
+  - name: Feixiong Cheng
+    description: ", PhD, is a principal investigator with Cleveland Clinic\u2019s\
+      \ Genomic Medicine Institute. Dr. Cheng is working to develop computational\
+      \ and experimental network medicine technologies for advancing the characterization\
+      \ of disease heterogeneity, thereby approaching the goal of coordinated, patient-centered\
+      \ strategies to innovative diagnostics and therapeutics development. Dr. Cheng\
+      \ has received several awards, including NIH Pathway to Independence Award (K99/R00),\
+      \ SCI highly cited papers reward, and Vanderbilt Postdoc of the Year Honorable\
+      \ mention."
+  prerecorded: '38940826'
+- UID: MH2
+  title: Commonsense Knowledge Acquisition and Representation
+  organizers: Filip Ilievski, Antoine Bosselut, Simon Razniewski and Mayank Kejriwal
+  abstract: |-
+    <p>
+    The tutorial on Commonsense Knowledge Acquisition and Representation will consist of four main components, each covered by one of the presenters, followed by a discussion session. We will start by introducing our work on axiomatizating commonsense knowledge and comparing it to prior theories. The participants would then get familiar with the Commonsense Knowledge Graph (CSKG) (Ilievski et al., 2020), a recent resource that integrates seven diverse commonsense sources. Thirdly, we will discuss how commonsense knowledge can be automatically extracted, as well as qualified with DICE (Chalier et al., 2020) metrics like typicality and salience. We will use COMET (Bosselut et al., 2019) to improve the completeness of commonsense knowledge graphs based on language models, like BERT and GPT-2, and discuss how it can be leveraged on downstream question answering (QA) tasks. We will conclude the tutorial with a discussion of the way forward, and propose to combine language models (LMs), knowledge graphs (KGs), and axiomatization in the next-generation commonsense reasoning techniques. Prior knowledge expected from participants will be minimal. Some knowledge of machine learning and language modeling will be helpful, but not compulsory: we will introduce relevant machine learning concepts so that everyone has an opportunity to follow along.
+    </p>
+  info: |-
+    This tutorial has a prerecorded talk on this page (see below) that you can watch anytime during the conference. It
+        also has two live sessions that will be conducted on Zoom and will be livestreamed on this page. Additionally, it has
+        a chat window that you can use to have discussions with the tutorial teachers and other attendees anytime during the
+        conference.
+  rocketchat_channel: MH2CommonsenseKnowledgeAcquisitionandRepresentation
+  sessions:
+  - name: MH2
+    start_time: 2021-02-03 13:30:00+00:00
+    end_time: 2021-02-03 16:45:00+00:00
+    zoom_link: 123.com
+    hosts: Filip Ilievski, Antoine Bosselut, Simon Razniewski and Mayank Kejriwal
+  - name: MH2
+    start_time: 2021-02-03 13:30:00+00:00
+    end_time: 2021-02-03 16:45:00+00:00
+    zoom_link: 123.com
+    hosts: Filip Ilievski, Antoine Bosselut, Simon Razniewski and Mayank Kejriwal
+  authors:
+  - name: Filip Ilievski
+    description: |+
+      is a Computer Scientist within the USC Information Sciences Institute and Lecturer at the USC Viterbi School of Engineering. He obtained his Ph.D. at Vrije Universiteit Amsterdam. His research focuses on representing and consolidating commonsense knowledge and applying this knowledge to understand gaps in human communication.
+
+  - name: Antoine Bosselut
+    description: |+
+      is a Postdoctoral Researcher at Stanford University and will join EPFL as an Assistant Professor starting in Fall 2021. He completed his PhD at the University of Washington. His research interests are in building systems that can mix knowledge and language representations to solve problems in NLP, specializing in commonsense representation and reasoning.
+
+  - name: Simon Razniewski
+    description: |+
+      is senior researcher at the Max Planck Institute for Informatics in Saarbrücken, where he heads the knowledge base construction and quality area. He was previously assistant professor at the Free University of Bozen Bolzano. His research interests include commonsense knowledge base construction, information extraction, and data quality.
+
+  - name: Mayank Kejriwal
+    description: is a research assistant professor in the department of Industrial
+      and Systems Engineering at USC, and a research lead in the USC Information Sciences
+      Institute. His research focuses on knowledge graphs and their applications,
+      especially in social contexts such as fighting human trafficking and crisis
+      response.
+  prerecorded: '38940826'
+- UID: MH3
+  title: 'Dealing with Bias and Fairness in Building AI Systems: A Practical Hands-on
+    Tutorial'
+  organizers: Rayid Ghani, Pedro Saleiro and Kit Rodolfa
+  abstract: |-
+    <p>
+    There is a need for training AI researchers and practitioners on how to deal with bias and fairness in practice through the entire lifecycle of an AI system, from the early stages of a project up to maintaining the system in production. This tutorial will help participants learn how to think about overall fairness of an AI system, from project scoping (through informed discussions with stakeholders) to thinking about the right metrics (based on the use case context), to performing bias audits and exploring different bias reduction strategies, to continuous monitoring to assess the need for retraining.
+    <br />
+    The discussions, breakout sessions, and hands-on coding sessions will involve real-world case studies based on our work with over 100 government agencies and non-profits over the last several years and will include working through Python notebooks, taking the participants through each step of the process.
+    <br />
+    The tutorial will have the following prerequisites: 1) prior programming experience in Python, and 2) prior experience in machine learning, with an understanding of different types of ML models as well as experience building those models.
+    </p>
+  info: |-
+    This tutorial has a prerecorded talk on this page (see below) that you can watch anytime during the conference. It
+        also has two live sessions that will be conducted on Zoom and will be livestreamed on this page. Additionally, it has
+        a chat window that you can use to have discussions with the tutorial teachers and other attendees anytime during the
+        conference.
+  rocketchat_channel: MH3DealingwithBiasandFairnessinBuildingAISystems
+  sessions:
+  - name: MH3
+    start_time: 2021-02-03 13:30:00+00:00
+    end_time: 2021-02-03 16:45:00+00:00
+    zoom_link: 123.com
+    hosts: Rayid Ghani, Pedro Saleiro and Kit Rodolfa
+  - name: MH3
+    start_time: 2021-02-03 13:30:00+00:00
+    end_time: 2021-02-03 16:45:00+00:00
+    zoom_link: 123.com
+    hosts: Rayid Ghani, Pedro Saleiro and Kit Rodolfa
+  authors:
+  - name: Rayid Ghani
+    description: |+
+      is a Distinguished Career Professor at CMU, working on the use of AI in solving public policy and social challenges in a fair and equitable manner. Rayid started the Data Science for Social Good Fellowship that trains people from around the world to work on AI problems with social impact.
+
+  - name: Pedro Saleiro
+    description: |+
+      is a Senior Research Manager at Feedzai where he leads the Fairness, Accountability, Transparency, and Ethics research group. He is responsible for several initiatives related to bias auditing and algorithmic fairness, model explainability and ML governance. Previously, Pedro worked with Rayid Ghani as postdoc at UChicago.
+
+  - name: Kit Rodolfa
+    description: is a Senior Research Scientist at CMU working with Rayid Ghani. He
+      previously led the data science efforts at Devoted Health, served as Chief Data
+      Scientist at Hillary for America, and as Director of Digital Analytics for the
+      Office of Digital Strategy in the Obama White House.
+  prerecorded: '38940826'
+- UID: MH4
+  title: Designing Agents' Preferences, Beliefs, and Identities
+  organizers: Vincent Conitzer
+  abstract: |-
+    <p>
+    We often assume that each agent has a well-defined identity, well-defined preferences over outcomes, and well-defined beliefs about the world. However, when designing agents, we in fact need to specify where the boundaries between one agent and another in the system lie, what objective functions these agents aim to maximize, and to some extent even what belief formation processes they use. What is the right way to do so? As more and more AI systems are deployed in the world, this question becomes increasingly important. In this tutorial, I will show how it can be approached from the perspectives of decision theory, game theory, social choice theory, and the algorithmic and computational aspects of these fields. (No previous background required.)
+    <br />
+    AAAI'19 blue sky writeup on a subset of these ideas can be found <a href="https://users.cs.duke.edu/~conitzer/designingAAAI19.pdf">here</a>.
+    </p>
+  info: |-
+    This tutorial has a prerecorded talk on this page (see below) that you can watch anytime during the conference. It
+        also has two live sessions that will be conducted on Zoom and will be livestreamed on this page. Additionally, it has
+        a chat window that you can use to have discussions with the tutorial teachers and other attendees anytime during the
+        conference.
+  rocketchat_channel: MH4DesigningAgentsPreferencesBeliefsandIdentities
+  sessions:
+  - name: MH4
+    start_time: 2021-02-03 13:30:00+00:00
+    end_time: 2021-02-03 16:45:00+00:00
+    zoom_link: 123.com
+    hosts: Vincent Conitzer
+  - name: MH4
+    start_time: 2021-02-03 13:30:00+00:00
+    end_time: 2021-02-03 16:45:00+00:00
+    zoom_link: 123.com
+    hosts: Vincent Conitzer
+  authors:
+  - name: Vincent Conitzer
+    description: is the Kimberly J. Jenkins University Professor of New Technologies
+      and Professor of Computer Science, Professor of Economics, and Professor of
+      Philosophy at Duke University. He received the IJCAI Computers and Thought Award
+      in 2011, and is a Fellow of AAAI and ACM.
+  prerecorded: '38940826'
+- UID: MH5
+  title: Learning with Small Data
+  organizers: Huaxiu Yao, Fei Wang and Zhenhui Jessie Li
+  abstract: |-
+    <p>
+    In the era of big data, data-driven methods have become increasingly popular. The superior performance of these data-driven approaches relies on large-scale labeled training data. But many real-world applications often face the "small (labeled) data" challenge. For example, precision medicine aims to provide tailored treatment or management plans to individual patients, but we only have data from a limited number of individuals (patients). For another example, smart city technologies aim at using data to make better decisions in applications such as transportation, security, and energy. But a city is a highly complex, interconnected, and dynamic system and we often do not have enough data from different sources to model a holistic view at the city scale.
+    <br />
+    In this tutorial, we will review the trending machine learning techniques for learning with small (labeled) data. These techniques are organized from three aspects: (1) providing a comprehensive review of recent studies about knowledge generalization, transfer, and sharing; (2) introducing the cutting-edge techniques which focus on incorporating domain knowledge into machine learning models; (3) discussing the small data challenges and solutions in real-world applications on precision medicine and smart city.
+    </p>
+  info: |-
+    This tutorial has a prerecorded talk on this page (see below) that you can watch anytime during the conference. It
+        also has two live sessions that will be conducted on Zoom and will be livestreamed on this page. Additionally, it has
+        a chat window that you can use to have discussions with the tutorial teachers and other attendees anytime during the
+        conference.
+  rocketchat_channel: MH5LearningwithSmallData
+  sessions:
+  - name: MH5
+    start_time: 2021-02-03 13:30:00+00:00
+    end_time: 2021-02-03 16:45:00+00:00
+    zoom_link: 123.com
+    hosts: Huaxiu Yao, Fei Wang and Zhenhui Jessie Li
+  - name: MH5
+    start_time: 2021-02-03 13:30:00+00:00
+    end_time: 2021-02-03 16:45:00+00:00
+    zoom_link: 123.com
+    hosts: Huaxiu Yao, Fei Wang and Zhenhui Jessie Li
+  authors:
+  - name: Huaxiu Yao
+    description: |+
+      is currently a Ph.D. candidate of the College of Information Sciences and Technology at the Pennsylvania State University. He obtained his B.Eng. degree from the University of Electronic Science and Technology of China. He also spent time in Amazon A9, Salesforce Research, Alibaba DAMO Academy, Tencent AI Lab and Didi AI Labs. His current research goal is to enable agents to learn quickly and efficiently via knowledge transfer and structure exploration. He is also passionate about applying these methods for solving real-world problems, especially in smart city and E-commerce. He has published over 15 papers on top conferences and journals such as ICML, ICLR, NeurIPS, KDD, AAAI, WWW and WSDM. He has served as a program committee member in major machine learning and data mining conferences such as ICML, ICLR, NeurIPS, KDD, AAAI, IJCAI.
+
+  - name: Fei Wang
+    description: |+
+      is an Associate Professor at Department of Population Health Sciences, Weill Cornell Medicine, Cornell University. His major research interest is data mining, machine learning and their applications in health data science. He has published on the top venues of related areas such as ICML, KDD, NeurIPS, AAAI, JAMA Internal Medicine, Annals of Internal Medicine, etc. His papers have received over 13,400 citations so far with an H-index 57. His (or his students’) papers have won 7 best paper (or nomination) awards at international academic conferences. His team won the championship of the NIPS/Kaggle Challenge on Classification of Clinically Actionable Genetic Mutations in 2017 and Parkinson’s Progression Markers Initiative data challenge organized by Michael J. Fox Foundation in 2016. Dr. Wang is the recipient of the NSF CAREER Award in 2018, as well as the inaugural research leadership award in IEEE International Conference on Health Informatics (ICHI) 2019. Dr. Wang is the chair of the Knowledge Discovery and Data Mining working group in American Medical Informatics Association (AMIA). Dr. Wang’s research has been supported by funding agencies including NSF, NIH, ONR, NMRC, MJFF, AHA , PCORI and industries including Amazon, Google, Boehringer Ingelheim and MITRE.
+
+  - name: Zhenhui Li
+    description: is an associate professor of Information Sciences and Technology
+      at the Pennsylvania State University. Before joining Penn State, she received
+      her Ph.D. degree in Computer Science from University of Illinois Urbana-Champaign
+      in 2012. Her research has been focused on mining spatial-temporal data with
+      applications in transportation, ecology, environment, social science, and urban
+      computing. She is a passionate interdisciplinary researcher and has been actively
+      collaborating with cross-domain researchers. She has served as organizing committee
+      or senior program committee of many conferences including KDD, ICDM, SDM, CIKM,
+      and SIGSPATIAL. She has been regularly offering classes on data organizing and
+      data mining since 2012. Her classes have constantly received high student ratings.
+      She has received NSF CAREER award, junior faculty excellence in research, and
+      George J. McMurtry junior faculty excellence in teaching and learning award.
+  prerecorded: '38940826'
+- UID: MH6
+  title: Meta Learning
+  organizers: Iddo Drori and Joaquin Vanschoren
+  abstract: |-
+    <p>
+    Meta-learning allows machines to learn to learn new algorithms. It is an emerging and fast developing research area within machine learning with implications for all AI research. Recent successes include automatic model discovery, few-shot learning, multi-task learning, meta-reinforcement learning, as well as teaching machines to read, learn and reason. Just as humans do not learn new tasks from scratch, but rather draw on what they learn before, meta-learning is key to efficient and robust learning. This tutorial will cover important mathematical foundations of the field and its applications, including key methods underlying current state of the art in this fast-paced field that is increasingly relevant for a broad range of AAAI attendees.
+    <br />
+    The intended audience comprises both AI researchers and practitioners. For AI researchers, this tutorial presents a comprehensive overview of existing methods and how they are combined in novel ways. We explore the interactions between the sub-fields of meta-learning, automated machine learning, transfer learning, adaptation, multi-task learning, and continual learning. For practitioners and attendees from industry, we explain how meta-learning enables novel applications, such as building AI systems that learn models from very small amounts of data, that learn across tasks to get increasingly better, and enable disruptive applications.
+    </p>
+  info: |-
+    This tutorial has a prerecorded talk on this page (see below) that you can watch anytime during the conference. It
+        also has two live sessions that will be conducted on Zoom and will be livestreamed on this page. Additionally, it has
+        a chat window that you can use to have discussions with the tutorial teachers and other attendees anytime during the
+        conference.
+  rocketchat_channel: MH6MetaLearning
+  sessions:
+  - name: MH6
+    start_time: 2021-02-03 13:30:00+00:00
+    end_time: 2021-02-03 16:45:00+00:00
+    zoom_link: 123.com
+    hosts: Iddo Drori and Joaquin Vanschoren
+  - name: MH6
+    start_time: 2021-02-03 13:30:00+00:00
+    end_time: 2021-02-03 16:45:00+00:00
+    zoom_link: 123.com
+    hosts: Iddo Drori and Joaquin Vanschoren
+  authors:
+  - name: Iddo Drori
+    description: |+
+      is Lecturer at MIT EECS. He holds a Ph.D in Computer Science and did his postdoc at Stanford in Statistics. He was Associate Professor at Colman; Lecturer at Tel Aviv University; visiting and adjunct Associate Professor at NYU, Columbia University, and Cornell University, working on machine learning.
+
+  - name: Joaquin Vanschoren
+    description: "is Assistant Professor at the Eindhoven University of Technology,\
+      \ researching AutoML and metalearning. He founded the OpenML project, co-organizes\
+      \ the AutoML and metalearning workshops at ICML and NeurIPS, and co-presented\
+      \ the NeurIPS2018 AutoML tutorial. He\u2019s a founding member of ELLIS and\
+      \ CLAIRE, and action editor at JMLR."
+  prerecorded: '38940826'
+- UID: MH7
+  title: Recent Advances in Integrating Machine Learning and Combinatorial Optimization
+  organizers: "Elias Khalil, Andrea Lodi, Bistra Dilkina, Didier Ch\xA8\xA6telat,\
+    \ Maxime Gasse, Antoine Prouvost, Giulia Zarpellon and Laurent Charlin"
+  abstract: |-
+    <p>
+    This tutorial will provide an overview of the recent impact machine learning is having on combinatorial optimization, particularly under the Mixed Integer Programming (MIP) framework. Topics covered will include ML and reinforcement learning for predicting feasible solutions, improving exact solvers with ML, a software framework for learning in exact MIP solvers, and the emerging paradigm of decision-focused learning.
+    <br />
+    The tutorial targets both junior and senior researchers in two prominent areas of interest to the AAAI community:(1)Machine learning researchers looking for a challenging application domain, namely combinatorial optimization; (2) Optimization practitioners and researchers who may benefit from learning about recent advances in ML methods for improving combinatorial optimization algorithms.
+    <br />
+    Basic prerequisites of the tutorial include: (1) Combinatorial optimization: basic understanding of optimization modeling, algorithm design, computational complexity. (2) Machine learning: basic knowledge of paradigms such as supervised and reinforcement learning; common techniques such as neural networks.
+    </p>
+  info: |-
+    This tutorial has a prerecorded talk on this page (see below) that you can watch anytime during the conference. It
+        also has two live sessions that will be conducted on Zoom and will be livestreamed on this page. Additionally, it has
+        a chat window that you can use to have discussions with the tutorial teachers and other attendees anytime during the
+        conference.
+  rocketchat_channel: MH7RecentAdvancesinIntegratingMachineLearningandCombinatorialOptimization
+  sessions:
+  - name: MH7
+    start_time: 2021-02-03 13:30:00+00:00
+    end_time: 2021-02-03 16:45:00+00:00
+    zoom_link: 123.com
+    hosts: "Elias Khalil, Andrea Lodi, Bistra Dilkina, Didier Ch\xE9telat, Maxime\
+      \ Gasse, Antoine Prouvost, Giulia Zarpellon and Laurent Charlin"
+  - name: MH7
+    start_time: 2021-02-03 13:30:00+00:00
+    end_time: 2021-02-03 16:45:00+00:00
+    zoom_link: 123.com
+    hosts: "Elias Khalil, Andrea Lodi, Bistra Dilkina, Didier Ch\xE9telat, Maxime\
+      \ Gasse, Antoine Prouvost, Giulia Zarpellon and Laurent Charlin"
+  authors:
+  - name: Elias B. Khalil
+    description: |+
+      is an Assistant Professor of Industrial Engineering at the University of Toronto since July 2020. Prior to that, he was the IVADO Postdoctoral Scholar at Polytechnique Montréal. Elias obtained his Ph.D. from the College of Computing at Georgia Tech, where he was an IBM Ph.D. Fellow (2016). As Canada Excellence Research Chair in Data Science for Real-Time Decision-Making at Polytechnique Montréal, Dr. Andrea Lodi holds Canada’s main chair in operations research. He has been Herman Goldstine Fellow at IBM in 2005–2006. He is author of more than 80 publications in the top journals of Mathematical Optimization.
+
+  - name: Bistra Dilkina
+    description: |+
+      is a co-Director of the Center for AI in Society (CAIS) at the University of Southern California (USC), and an Associate Professor of Computer Science at the Viterbi School of Engineering. Her work spans discrete optimization, network design, and machine learning with a strong focus on sustainability applications.
+
+  - name: "Didier Ch\xE9telat"
+    description: |+
+      is a machine learning researcher at the Canada Excellence Research Chair in Data Science for Real Time Decision Making, under the leadership of Andrea Lodi. He obtained his Ph.D. in Statistics at Cornell University in 2015. His main research interests center around deep learning for combinatorial optimization.
+
+  - name: Maxime Gasse
+    description: |+
+      is a machine learning researcher within the Canada Excellence Research Chair in Data Science for Real-Time Decision-Making at Polytechnique Montréal, and also part of the MILA research institute on artificial intelligence. His research interests include probabilistic graphical models, structured prediction problems, questions regarding causality, and combinatorial optimization problems.
+
+  - name: Antoine Prouvost
+    description: |+
+      is a Ph.D. candidate in Polytechnique Montréal under supervision of Prof. Andrea Lodi at CERC DS4DM and Prof. Yoshua Bengio at Mila. I work at the interplay of deep learning and operations research, building combinatorial optimization algorithm that leverage machine learning to adapt to different problem structure.
+
+  - name: Giulia Zarpellon
+    description: |+
+      obtained her Ph.D. in Applied Mathematics at Polytechnique Montréal, under the supervision of Prof. Andrea Lodi, and a master’s degree in Mathematics at University of Padova. Her main research interests are in the integration of mathematical optimization and machine learning.
+
+  - name: Laurent Charlin
+    description: "is an assistant professor of artificial intelligence at HEC Montr\xE9\
+      al. He earned a master\u2019s and PhD respectively from the universities of\
+      \ Waterloo and Toronto and was a postdoc at Columbia, Princeton and McGill.\
+      \ He develops machine learning models to analyze large collections of data and\
+      \ help in decision-making."
+  prerecorded: '38940826'
+- UID: MH8
+  title: 'Responsible AI in Industry: Practical Challenges and Lessons Learned'
+  organizers: Krishnaram Kenthapadi, Ben Packer, Mehrnoosh Sameki and Nashlie Sephus
+  abstract: |-
+    <p>
+    Artificial Intelligence is increasingly being used in decisions and processes that are critical for individuals, businesses, and society, especially in areas such as hiring, lending, criminal justice, healthcare, and education. Recent ethical challenges and undesirable outcomes associated with AI systems have highlighted the need for regulations, best practices, and practical tools to help data scientists and ML developers build AI systems that are secure, privacy-preserving, transparent, explainable, fair, and accountable – to avoid unintended and potentially harmful consequences and compliance challenges.
+    <br />
+    In this tutorial, we will present an overview of responsible AI, highlighting model explainability, fairness, and privacy in AI, key regulations/laws, and techniques/tools for providing understanding around AI/ML systems. Then, we will focus on the application of explainability, fairness assessment/unfairness mitigation, and privacy techniques in industry, wherein we present practical challenges/guidelines for using such techniques effectively and lessons learned from deploying models for several web-scale machine learning and data mining applications. We will present case studies across different companies, spanning many industries and application domains. Finally, based on our experiences in industry, we will identify open problems and research directions for the AI community.
+    </p>
+  info: |-
+    This tutorial has a prerecorded talk on this page (see below) that you can watch anytime during the conference. It
+        also has two live sessions that will be conducted on Zoom and will be livestreamed on this page. Additionally, it has
+        a chat window that you can use to have discussions with the tutorial teachers and other attendees anytime during the
+        conference.
+  rocketchat_channel: MH8ResponsibleAIinIndustry
+  sessions:
+  - name: MH8
+    start_time: 2021-02-03 13:30:00+00:00
+    end_time: 2021-02-03 16:45:00+00:00
+    zoom_link: 123.com
+    hosts: Krishnaram Kenthapadi, Ben Packer, Mehrnoosh Sameki and Nashlie Sephus
+  - name: MH8
+    start_time: 2021-02-03 13:30:00+00:00
+    end_time: 2021-02-03 16:45:00+00:00
+    zoom_link: 123.com
+    hosts: Krishnaram Kenthapadi, Ben Packer, Mehrnoosh Sameki and Nashlie Sephus
+  authors:
+  - name: Krishnaram Kenthapadi
+    description: |+
+      is a Principal Scientist at Amazon AWS AI, where he leads the fairness, explainability, and privacy initiatives in Amazon AI platform. Previously, he held positions at LinkedIn AI and Microsoft Research. Krishnaram has published 40+ papers (2500+ citations; awards at conferences) and filed 140+ patents (30+ granted). He received his Ph.D. in Computer Science from Stanford University in 2006.
+
+  - name: Ben Packer
+    description: |+
+      is a Software Engineer in Research at Google AI, working on Fairness and Robustness at the intersection of research and product development, and has been involved in Google’s Machine Learning Fairness Education effort. Ben received his Ph.D. in Computer Science from the AI lab at Stanford University.
+
+  - name: Mehrnoosh Sameki
+    description: |+
+      is a senior technical program manager at Microsoft, responsible for leading the product efforts on machine learning interpretability and fairness within the Azure Machine Learning platform. She earned her PhD degree in computer science at Boston University, where she currently serves as an adjunct assistant professor and lecturer, offering courses in responsible AI. Previously, she was a data scientist in the retail space, incorporating data science and machine learning to enhance customers’ personalized shopping experiences.
+
+  - name: Nashlie Sephus
+    description: is the Applied Science manager for Amazon Artificial Intelligence
+      focusing on fairness and identifying biases in AWS AI technologies. She received
+      her Ph.D. from the School of Electrical and Computer Engineering at Georgia
+      Tech in 2014 and her B.S. from Mississippi State University in 2007.
+  prerecorded: '38940826'
+- UID: MH9
+  title: A Visual Tour of Bias Mitigation Techniques for Word Representations
+  organizers: Sunipa Dev, Jeff M. Phillips, Archit Rathore, Vivek Srikumar and Bei
+    Wang
+  abstract: |-
+    <p>
+    Word vector embeddings have been shown to contain and amplify biases in data they are extracted from. Consequently, many techniques have been proposed to identify, mitigate, and attenuate these biases in word representations. In this tutorial, we will review a collection of state-of-the-art debiasing techniques. To aid this, we provide an open source web-based visualization tool and offer hands-on experience in exploring the effects of these debiasing techniques on the geometry of high-dimensional word vectors. To help understand how various debiasing techniques change the underlying geometry, we decompose each technique into interpretable sequences of primitive operations and study their effect on the word vectors using dimensionality reduction and interactive visual exploration.
+    <br />
+    Prerequisite Knowledge The attendees are expected to understand the basics of linear algebra and dimensionality reduction. Familiarity with basic NLP would be helpful but is not required. The audience is not assumed to have knowledge about bias in NLP; however, the tutorial will still be applicable to those who do.
+    </p>
+  info: |-
+    This tutorial has a prerecorded talk on this page (see below) that you can watch anytime during the conference. It
+        also has two live sessions that will be conducted on Zoom and will be livestreamed on this page. Additionally, it has
+        a chat window that you can use to have discussions with the tutorial teachers and other attendees anytime during the
+        conference.
+  rocketchat_channel: MH9AVisualTourofBiasMitigationTechniquesforWordRepresentations
+  sessions:
+  - name: MH9
+    start_time: 2021-02-03 13:30:00+00:00
+    end_time: 2021-02-03 16:45:00+00:00
+    zoom_link: 123.com
+    hosts: Sunipa Dev, Jeff M. Phillips, Archit Rathore, Vivek Srikumar and Bei Wang
+  - name: MH9
+    start_time: 2021-02-03 13:30:00+00:00
+    end_time: 2021-02-03 16:45:00+00:00
+    zoom_link: 123.com
+    hosts: Sunipa Dev, Jeff M. Phillips, Archit Rathore, Vivek Srikumar and Bei Wang
+  authors:
+  - name: Sunipa Dev
+    description: |+
+      received her PhD at the School of Computing at the University of Utah in Fall 2020 and is a CI Postdoctoral Fellow at UCLA. Her research focuses on understanding the structure of language representations and leveraging that to isolate and decouple associations and concept subspaces within.
+
+  - name: Jeff M. Phillips
+    description: |+
+      is an Associate Professor at the School of Computing, and Director of the Utah Center for Data Science, at the University of Utah. He is an expert in the geometry of data, and actively publishes in top venues in machine learning & data mining, algorithms & geometry, and databases.
+
+  - name: Archit Rathore
+    description: |+
+      is a 4th year Ph.D. student at the School of Computing at the University of Utah. His current research focuses on probing machine learning models through visualization techniques to improve interpretability.
+
+  - name: Vivek Srikumar
+    description: |+
+      is an Associate Professor at the School of Computing at the University of Utah. His research focuses on machine learning in the context of natural learning processing and has primarily been driven by questions arising from the need to reason about textual data with limited explicit supervision and to scale NLP to large problems.
+
+  - name: Bei Wang
+    description: is an Assistant Professor at the School of Computing, a faculty member
+      in the Scientific Computing and Imaging (SCI) Institute, University of Utah.
+      Her research interests include data visualization, topological data analysis,
+      computational topology, computational geometry, machine learning, and data mining.
+  prerecorded: '38940826'
+- UID: AQ1
+  title: 'Explaining Machine Learning Predictions: State-of-the-Art, Challenges, and
+    Opportunities'
+  organizers: Himabindu Lakkaraju, Julius Adebayo and Sameer Singh
+  abstract: |-
+    <p>
+    As machine learning is deployed in all aspects of society, it has become increasingly important to ensure stakeholders understand and trust these models. Decision-makers must have a clear understanding of the model behavior so they can diagnose errors and potential biases in these models and decide when and how to employ them. However, most accurate models that are deployed in practice are not interpretable, making it difficult for users to understand where the predictions are coming from, and thus, difficult to trust. Recent work on explanation techniques in machine learning offers an attractive solution: they provide intuitive explanations for “any” machine learning model by approximating complex machine learning models with simpler ones.
+    <br />
+    In this tutorial, we discuss several post hoc explanation methods, and focus on their advantages and shortcomings. We cover three families of techniques: (a) single instance gradient-based attribution methods (saliency maps), (b) model agnostic explanations via perturbations, such as LIME and SHAP, and (c) surrogate modeling for global interpretability, such as MUSE. For each of these approaches, we provide their problem setup, prominent methods, example applications, and finally, discuss their vulnerabilities and shortcomings. We hope to provide a practical and insightful introduction to explainability in machine learning.
+    </p>
+  info: |-
+    This tutorial has a prerecorded talk on this page (see below) that you can watch anytime during the conference. It
+        also has two live sessions that will be conducted on Zoom and will be livestreamed on this page. Additionally, it has
+        a chat window that you can use to have discussions with the tutorial teachers and other attendees anytime during the
+        conference.
+  rocketchat_channel: AQ1ExplainingMachineLearningPredictions
+  sessions:
+  - name: AQ1
+    start_time: 2021-02-03 17:00:00+00:00
+    end_time: 2021-02-03 18:30:00+00:00
+    zoom_link: 123.com
+    hosts: Himabindu Lakkaraju, Julius Adebayo and Sameer Singh
+  - name: AQ1
+    start_time: 2021-02-03 17:00:00+00:00
+    end_time: 2021-02-03 18:30:00+00:00
+    zoom_link: 123.com
+    hosts: Himabindu Lakkaraju, Julius Adebayo and Sameer Singh
+  authors:
+  - name: Hima Lakkaraju
+    description: |+
+      is an Assistant Professor at Harvard University working on explaining complex machine learning models to decision-makers (e.g., judges, doctors). Hima was recently named in the 35 innovators under 35 by MIT Tech Review, and has given invited workshop talks at ICML, NeurIPS, AAAI, and CVPR. Website: https://himalakkaraju.github.io/
+
+  - name: Julius Adebayo
+    description: |+
+      is a Ph.D. student at MIT working on developing and understanding approaches that seek to make machine learning-based systems reliable when deployed. More broadly, he is interested in rigorous approaches to help develop models that are robust to spurious associations, distribution shifts, and align with ‘human’ values. Website: https://juliusadebayo.com/
+
+  - name: Sameer Singh
+    description: 'is an Assistant Professor at UC Irvine working on robustness and
+      interpretability of machine learning. Sameer has presented tutorials and invited
+      workshop talks at EMNLP, NeurIPS, NAACL, WSDM, ICLR, ACL, and AAAI, and received
+      paper awards at KDD 2016, ACL 2018, EMNLP 2019, AKBC 2020, and ACL 2020. Website:
+      http://sameersingh.org/'
+  prerecorded: '38940826'
+- UID: AQ2
+  title: Topological Data Analysis in Document Classification
+  organizers: Wlodek Zadrozny and Shafie Gholizadeh
+  abstract: |-
+    <p>
+    Topological Data Analysis (TDA) introduces methods that capture the underlying structure of shapes in data. Despite the old history in applied mathematics, utilization of topology in data science is relatively a new phenomenon. Within the last decade, TDA has been mostly examined in unsupervised machine learning tasks. As an alternative to the conventional algorithms, TDA has been often considered due to its capability to deal with high-dimensional data in different tasks including but not limited to clustering, dimensionality reduction or descriptive modeling. This tutorial will focus on applications of topological data analysis to text, and in particular to text classification. After introducing the fundamentals, we will show three ways in which topological information can be added to improve the accuracy of classification. More specifically, we explain three different methods of extracting topological features from textual documents, using as the underlying representations of text the two most popular methods, namely term frequency vectors and word embeddings, and also without using any conventional features. In addition, we show how even the simplest out of the box topological methods can be used to provide similarity judgments, e.g. topological plots of classical novels.
+    </p>
+  info: |-
+    This tutorial has a prerecorded talk on this page (see below) that you can watch anytime during the conference. It
+        also has two live sessions that will be conducted on Zoom and will be livestreamed on this page. Additionally, it has
+        a chat window that you can use to have discussions with the tutorial teachers and other attendees anytime during the
+        conference.
+  rocketchat_channel: AQ2TopologicalDataAnalysisinDocumentClassification
+  sessions:
+  - name: AQ2
+    start_time: 2021-02-03 18:45:00+00:00
+    end_time: 2021-02-03 20:00:00+00:00
+    zoom_link: 123.com
+    hosts: Wlodek Zadrozny and Shafie Gholizadeh
+  - name: AQ2
+    start_time: 2021-02-03 18:45:00+00:00
+    end_time: 2021-02-03 20:00:00+00:00
+    zoom_link: 123.com
+    hosts: Wlodek Zadrozny and Shafie Gholizadeh
+  authors:
+  - name: Wlodek Zadrozny
+    description: |+
+      is a Professor of Computer Science at UNC Charlotte, lifetime member of AAAI, and recipient of the 2013 AAAI Feigenbaum Prize. His research focuses on natural language processing, including mathematical methods in NLP. Prior UNCC, he was a researcher and manager at the IBM T.J. Watson Research Center.
+
+  - name: Shafie Gholizadeh
+    description: ' is a quantitative associate at Wells Fargo & Company. He received
+      his Ph.D. from University of North Carolina in Charlotte. His thesis examined
+      the feasibility of topological data analysis in text mining. A key focus of
+      his dissertation is on novel methods to extract homological features from text.'
+  prerecorded: '38940826'
+- UID: AH1
+  title: 'AI for COVID-19: Battling the Pandemic with Computational Intelligence'
+  organizers: Fei Wang
+  abstract: |-
+    <p>
+    The new coronavirus disease 2019 (COVID-19) has become a global pandemic. Since the initial outbreak from January 2020 in Wuhan, China, COVID-19 has demonstrated a high transmission rate and a diverse set of clinical characteristics (e.g., high rate of hospital and intensive care unit admission rates, multi-organ dysfunction for critically ill patients due to hyperinflammation, thrombosis, etc.). To understand the disease mechanism of COVID-19 and develop effective control, treatment and prevention strategies, researchers from related disciplines are making tremendous efforts on different aspects including epidemiology and public health, biology and genomic medicine, as well as clinical care and patient management. This tutorial will summarize the efforts on battling the pandemic with artificial intelligence. In particular, I will focus on how AI methods can derive insights on the prediction, treatment and prevention of COVID-19 on the following 4 tasks: 1) disease spread forecasting and policy impact assessment from news reports, government documents, census, meteorology and climate data, etc.; 2) contact tracing and individual behavior modeling from mobile and sensor data; 3) drug research and development from biomedical literature and multi-omics data; 4) patient care and management from longitudinal clinical records. I will also summarize the implications and envision how AI can advance human healthcare in the post-pandemic era.
+    </p>
+  info: |-
+    This tutorial has a prerecorded talk on this page (see below) that you can watch anytime during the conference. It
+        also has two live sessions that will be conducted on Zoom and will be livestreamed on this page. Additionally, it has
+        a chat window that you can use to have discussions with the tutorial teachers and other attendees anytime during the
+        conference.
+  rocketchat_channel: AH1AIforCOVID19BattlingthePandemicwithComputationalIntelligence
+  sessions:
+  - name: AH1
+    start_time: 2021-02-03 17:00:00+00:00
+    end_time: 2021-02-03 20:00:00+00:00
+    zoom_link: 123.com
+    hosts: Fei Wang
+  - name: AH1
+    start_time: 2021-02-03 17:00:00+00:00
+    end_time: 2021-02-03 20:00:00+00:00
+    zoom_link: 123.com
+    hosts: Fei Wang
+  authors:
+  - name: Fei Wang
+    description: "is an Associate Professor at Department of Population Health Sciences,\
+      \ Weill Cornell Medicine, Cornell University. His major research interest is\
+      \ data mining, machine learning and their applications in health data science.\
+      \ He has published on the top venues of related areas such as ICML, KDD, NeurIPS,\
+      \ AAAI, JAMA Internal Medicine, Annals of Internal Medicine, etc. His papers\
+      \ have received over 13,400 citations so far with an H-index 57. His (or his\
+      \ students\u2019) papers have won 7 best paper (or nomination) awards at international\
+      \ academic conferences. His team won the championship of the NIPS/Kaggle Challenge\
+      \ on Classification of Clinically Actionable Genetic Mutations in 2017 and Parkinson\u2019\
+      s Progression Markers Initiative data challenge organized by Michael J. Fox\
+      \ Foundation in 2016. Dr. Wang is the recipient of the NSF CAREER Award in 2018,\
+      \ as well as the inaugural research leadership award in IEEE International Conference\
+      \ on Health Informatics (ICHI) 2019. Dr. Wang is the chair of the Knowledge\
+      \ Discovery and Data Mining working group in American Medical Informatics Association\
+      \ (AMIA). Dr. Wang\u2019s research has been supported by funding agencies including\
+      \ NSF, NIH, ONR, NMRC, MJFF, AHA , PCORI and industries including Amazon, Google,\
+      \ Boehringer Ingelheim and MITRE."
+  prerecorded: '38940826'
+- UID: AH2
+  title: Event-Centric Natural Language Understanding
+  organizers: Muhao Chen, Hongming Zhang, Qiang Ning, Manling Li, Heng Ji and Dan
+    Roth
+  abstract: |-
+    <p>
+    This tutorial targets researchers and practitioners who are interested in AI technologies that help machines understand natural language text, particularly real-world events described in the text. These include methods to extract the internal structures of an event regarding its protagonist(s), participant(s) and properties, as well as external structures concerning memberships, temporal and causal relations of multiple events. This tutorial will provide audience with a systematic introduction of (i) knowledge representations of events, (ii) various methods for automated extraction, conceptualization and prediction of events and their relations, (iii) induction of event processes and properties, and (iv) a wide range of NLU and commonsense understanding tasks that benefit from aforementioned techniques. We will conclude the tutorial by outlining emerging research problems in this area.
+    </p>
+  info: |-
+    This tutorial has a prerecorded talk on this page (see below) that you can watch anytime during the conference. It
+        also has two live sessions that will be conducted on Zoom and will be livestreamed on this page. Additionally, it has
+        a chat window that you can use to have discussions with the tutorial teachers and other attendees anytime during the
+        conference.
+  rocketchat_channel: AH2EventCentricNaturalLanguageUnderstanding
+  sessions:
+  - name: AH2
+    start_time: 2021-02-03 17:00:00+00:00
+    end_time: 2021-02-03 20:00:00+00:00
+    zoom_link: 123.com
+    hosts: Muhao Chen, Hongming Zhang, Qiang Ning, Manling Li, Heng Ji and Dan Roth
+  - name: AH2
+    start_time: 2021-02-03 17:00:00+00:00
+    end_time: 2021-02-03 20:00:00+00:00
+    zoom_link: 123.com
+    hosts: Muhao Chen, Hongming Zhang, Qiang Ning, Manling Li, Heng Ji and Dan Roth
+  authors:
+  - name: Muhao Chen
+    description: |+
+      is a researcher at Information Sciences Institute, USC. He was a postdoctoral fellow in CIS, UPenn, and received his Ph.D. from UCLA Department of Computer Science in 2019. Muhao’s research focuses on data-driven machine learning approaches for processing structured and unstructured data, and extending their applications to NLU, KBC, computational biology and medicine. Additional information is available at <a href="http://muhaochen.github.io">here</a>.
+
+  - name: Hongming Zhang
+    description: |+
+      is a third-year Ph.D. student at HKUST and a visiting scholar at UPenn. His research focuses on commonsense reasoning and open domain event understanding. Additional information is available at <a href="https://www.cse.ust.hk/~hzhangal/">here</a>.
+
+  - name: Qiang Ning
+    description: |+
+      is an applied scientist on the Alexa Search team at Amazon. He was a research scientist on the AllenNLP team at AI2. He received his Ph.D. in 2019 from the Department of Electrical and Computer Engineering at University of Illinois at UrbanaChampaign (UIUC). His research interests include natural language understanding and learning from indirect supervision. Additional information is available at <a href="http://qiangning.info/">here</a>.
+
+  - name: Manlin Li
+    description: |+
+      is a third-year Ph.D. student at the Computer Science Department of the University of Illinois at UrbanaChampaign (UIUC). Her research interests lie in the general area of Natural Language Processing, with a special focus on multimedia. Additional information is available at <a href="https://limanling.github.io/">here</a>.
+
+  - name: Heng Ji
+    description: |+
+      is a professor at Computer Science Department, and an affiliated faculty member at Electrical and Computer Engineering Department of University of Illinois at Urbana-Champaign, she is also an Amazon Scholar. Her research interests focus on Natural Language Processing, especially on Multimedia Multilingual Information Extraction, Knowledge Base Population and Knowledge-driven Generation. Additional Information is available at <a href="http://blender.cs.illinois.edu/hengji.html ">here</a>.
+
+  - name: Dan Roth
+    description: is the Eduardo D. Glandt Distinguished Professor at CIS, UPenn, and
+      a Fellow of the AAAS, ACM, AAAI, and the ACL. Roth was recognized for major
+      conceptual and theoretical advances in the modeling of natural language understanding,
+      machine learning, and reasoning. Additional information is available at <a href="https://www.cis.upenn.edu/~danroth/">here</a>.
+  prerecorded: '38940826'
+- UID: AH3
+  title: From Explainability to Model Quality and Back Again
+  organizers: Anupam Datta, Matt Fredrikson, Klas Leino, Kaiji Lu, Shayak Sen and
+    Zifan Wang
+  abstract: |-
+    <p>
+    The goal of this tutorial is to provide a systematic view of the current knowledge relating to explainability to several key outstanding concerns regarding the quality of Machine Learning (ML) models; in particular, robustness, privacy, and bias. We will discuss the ways in which explainability can inform questions about these aspects of model quality, and how methods for improving them that are emerging from recent research in the AI, Security, Privacy, and Fairness communities can in turn lead to better outcomes for explainability. Through presentation and live demonstrations, we will discuss recent research results from these communities, as well as several open questions of interest to the AI community.
+    <br />
+    We aim to make these findings accessible to a general audience, including not only researchers who want to further engage with this area, but also practitioners who stand to benefit from the results, and policymakers who want to deepen their technical understanding of these important issues. Audience members should be familiar with supervised learning and have a working knowledge of gradient-based optimization techniques. Familiarity with Python and at least one deep learning framework is recommended but not required.
+    </p>
+  info: |-
+    This tutorial has a prerecorded talk on this page (see below) that you can watch anytime during the conference. It
+        also has two live sessions that will be conducted on Zoom and will be livestreamed on this page. Additionally, it has
+        a chat window that you can use to have discussions with the tutorial teachers and other attendees anytime during the
+        conference.
+  rocketchat_channel: AH3FromExplainabilitytoModelQualityandBackAgain
+  sessions:
+  - name: AH3
+    start_time: 2021-02-03 17:00:00+00:00
+    end_time: 2021-02-03 20:00:00+00:00
+    zoom_link: 123.com
+    hosts: Anupam Datta, Matt Fredrikson, Klas Leino, Kaiji Lu, Shayak Sen and Zifan
+      Wang
+  - name: AH3
+    start_time: 2021-02-03 17:00:00+00:00
+    end_time: 2021-02-03 20:00:00+00:00
+    zoom_link: 123.com
+    hosts: Anupam Datta, Matt Fredrikson, Klas Leino, Kaiji Lu, Shayak Sen and Zifan
+      Wang
+  authors:
+  - name: Anupam Datta
+    description: |+
+      is a Professor of Electrical & Computer Engineering and Computer Science at Carnegie Mellon University, Co-founder and Chief Scientist of Truera, Director of the Accountable Systems Lab. He received his Ph.D. of Computer Science from Stanford University. His research focuses on enabling real-world complex systems to be accountable for their behavior, especially as they pertain to privacy, fairness, and security.
+
+  - name: Matt Fredrikson
+    description: |+
+      is an Assistant Professor of Computer Science at Carnegie Mellon University, where his research aims to make machine learning systems more accountable and reliable by addressing fundamental problems of security, privacy, and fairness that emerge in real-world settings.
+
+  - name: Klas Leino
+    description: |+
+      is a PhD candidate in the Accountable Systems Lab at Carnegie Mellon University, advised by Matt Fredrikson. His research primarily concentrates on demystifying deep learning and understanding its weaknesses and vulnerabilities in order to improve the security, privacy, and transparency of deep neural networks.
+
+  - name: Shayak Sen
+    description: 'is Co-founder and Chief Technology Officer of Truera, a startup
+      providing enterprise-class platform that delivers explainability for Machine
+      Learning models. Shayak obtained his PhD in Computer Science from Carnegie Mellon
+      University where his research aims to make machine learning and big data systems
+      more explainable, privacy compliant, and fair. '
+  prerecorded: '38940826'
+- UID: AH4
+  title: From Statistical Relational to Neural Symbolic Artificial Intelligence
+  organizers: Luc De Raedt, Sebastijan Duman_i_, Robin Manhaeve and Giuseppe Marra
+  abstract: |-
+    <p>
+    The integration of learning and reasoning is one of the key challenges in artificial intelligence and machine learning today. The area neural symbolic computation tackles this challenge by integrating symbolic reasoning with neural networks. This tutorial will provide an introduction to Neural Symbolic Artificial Intelligence (NeSy) by drawing several parallels with another field that has a rich tradition in integrating learning and reasoning, namely Statistical Relational Artificial Intelligence (StarAI). The tutorial will discuss seven dimensions for introducing and categorizing several StarAI and NeSy approaches. By positioning a wide variety of systems along these dimensions, the tutorial makes it possible to underline common patterns and similarities between them. Interesting opportunities for further research will be described, by looking at areas across the dimensions that have not yet been covered. The tutorial is intended for artificial intelligence researchers and practitioners, as well as domain experts interested in the integration of symbolic reasoning and neural computation. Basic knowledge of logic and/or graphical models and/or neural computation at the level of an introductory course in AI will be helpful but is not a prerequisite.
+    </p>
+  info: |-
+    This tutorial has a prerecorded talk on this page (see below) that you can watch anytime during the conference. It
+        also has two live sessions that will be conducted on Zoom and will be livestreamed on this page. Additionally, it has
+        a chat window that you can use to have discussions with the tutorial teachers and other attendees anytime during the
+        conference.
+  rocketchat_channel: AH4FromStatisticalRelationaltoNeuralSymbolicArtificialIntelligence
+  sessions:
+  - name: AH4
+    start_time: 2021-02-03 17:00:00+00:00
+    end_time: 2021-02-03 20:00:00+00:00
+    zoom_link: 123.com
+    hosts: Luc De Raedt, Sebastijan Duman_i_, Robin Manhaeve and Giuseppe Marra
+  - name: AH4
+    start_time: 2021-02-03 17:00:00+00:00
+    end_time: 2021-02-03 20:00:00+00:00
+    zoom_link: 123.com
+    hosts: Luc De Raedt, Sebastijan Duman_i_, Robin Manhaeve and Giuseppe Marra
+  authors:
+  - name: Luc De Raedt
+    description: |+
+      is full professor at the Department of Computer Science, KU Leuven, and director of Leuven.AI, the newly founded KU Leuven Institute for AI. He is a guest professor at Örebro University in the Wallenberg AI, Autonomous Systems and Software Program. He received his PhD in Computer Science from KU Leuven (1991), and was full professor (C4) and Chair of Machine Learning at the Albert-Ludwigs-University Freiburg, Germany (1999-2006). His research interests are in Artificial Intelligence, Machine Learning and Data Mining, as well as their applications. He is well known for his contributions in the areas of learning and reasoning, in particular, for his work on probabilistic and inductive programming. He co-chaired important conferences such as ECMLPKDD 2001 and ICML 2005 (the European and International Conferences on Machine Learning), ECAI 2012 and will chair IJCAI in 2022 (the European and international AI conferences). He is on the editorial board of Artificial Intelligence, Machine Learning and the Journal of Machine Learning Research. He is a EurAI and AAAI fellow, and received an ERC Advanced Grant in 2015.
+
+  - name: "Sebastijan Duman\u010Di\u0107"
+    description: |+
+      is post-doctoral researcher in the DTAI research group at KU Leuven. His post-doctoral research is funded by the FWO’s junior post-doctoral fellowship. He obtained his PhD summa cum laude in the same group in 2018 under the supervision of Prof. Dr. Hendrik Blockeel. His PhD thesis has been awarded an honourable mention for the EurAI Distinguished Dissertation Award, organised by EurAI. His research focuses on program learning and the integration of symbolic and sub-symbolic approaches to AI.
+
+  - name: Robin Manhaeve
+    description: |+
+      is a PhD student in the Declarative Languages and Artificial Intelligence (DTAI) research group at KU Leuven. He obtained both a Master’s degree in Computer Science at KU Leuven. He has obtained funding from the FWO to perform research in the field of neural symbolic computation, and with this helped develop the DeepProbLog framework.
+
+  - name: Giuseppe Marra
+    description: is a post-doctoral researcher in the Declarative Languages and Artificial
+      Intelligence (DTAI) research group at KU Leuven. He obtained his PhD at the
+      University of Florence, Italy, defending a thesis titled "Merging Symbolic and
+      Sub-symbolic Reasoning with MiniMax Entropy Models". His research interests
+      focus on the integration between neural computation and relational reasoning,
+      with a particular focus on logical and probabilistic reasoning.
+  prerecorded: '38940826'
+- UID: AH5
+  title: 'Graph Neural Networks: Models and Applications'
+  organizers: Yao Ma, Wei Jin, Yiqi Wang, Tyler Derr and Jiliang Tang
+  abstract: |-
+    <p>
+    Graph structured data such as social networks and molecular graphs are ubiquitous in the real world. It is of great research importance to design advanced algorithms for representation learning on graph structured data so that downstream tasks can be facilitated. Graph Neural Networks (GNNs), which generalize the deep neural network models to graph structured data, pave a new way to effectively learn representations for graph structured data either from the node level or the graph level. Thanks to their strong representation learning capability, GNNs have gained practical significance in various applications ranging from recommendation, natural language processing to healthcare. It has become a hot research topic and attracted increasing attention from the machine learning and data mining community recently. This tutorial of GNNs is timely for AAAI 2021 and covers relevant and interesting topics, including representation learning on graph structured data using GNNs, the robustness of GNNs, the scalability of GNNs and applications based on GNNs.
+    </p>
+  info: |-
+    This tutorial has a prerecorded talk on this page (see below) that you can watch anytime during the conference. It
+        also has two live sessions that will be conducted on Zoom and will be livestreamed on this page. Additionally, it has
+        a chat window that you can use to have discussions with the tutorial teachers and other attendees anytime during the
+        conference.
+  rocketchat_channel: AH5GraphNeuralNetworks
+  sessions:
+  - name: AH5
+    start_time: 2021-02-03 17:00:00+00:00
+    end_time: 2021-02-03 20:00:00+00:00
+    zoom_link: 123.com
+    hosts: Yao Ma, Wei Jin, Yiqi Wang, Tyler Derr and Jiliang Tang
+  - name: AH5
+    start_time: 2021-02-03 17:00:00+00:00
+    end_time: 2021-02-03 20:00:00+00:00
+    zoom_link: 123.com
+    hosts: Yao Ma, Wei Jin, Yiqi Wang, Tyler Derr and Jiliang Tang
+  authors:
+  - name: Yao Ma
+    description: |+
+      is a Ph.D. student of Computer Science and Engineering at Michigan State University. His research interests include network embedding and graph neural networks for representation learning on graph-structured data. He has published innovative works in top-tier conferences such as WSDM, ASONAM, ICDM, SDM, WWW, KDD and IJCAI.
+
+  - name: Wei Jin
+    description: |+
+      is a CSE Ph.D. student at Michigan State University. He works on the area of graph neural networks including the theory foundations, model robustness and applications. He has published his research in top conference proceedings (e.g., KDD and WWW). He also delivered tutorials at AAAI’20 and KDD'20.
+
+  - name: Yiqi Wang
+    description: |+
+      is a Ph.D. student at Michigan State University. She is working on graph neural networks including fundamental algorithms and applications. She has published her research in top conference proceedings (e.g., WSDM and WWW). She also delivered tutorials at KDD'20.
+
+  - name: Tyler Derr
+    description: |+
+      is an Assistant Professor at Vanderbilt University. His research includes social network analysis, deep learning on graphs, and data science for social good. He gave a KDD’20 tutorial and BigData’19 workshop on Deep Graph Learning, received Best Reviewer Award at ICWSM’19, and Best Student Poster Award at SDM’19.
+
+  - name: Jiliang Tang
+    description: is an assistant professor at MSU. His research interests including
+      social computing, data mining and machine learning and their applications in
+      social media and education. He was the recipients of SIGKDD Rising Star Award
+      and NSF Career Award. His research received more than 12,000 citations with
+      h-index 55.
+  prerecorded: '38940826'
+- UID: AH6
+  title: New Frontiers of Automated Mechanism Design for Pricing and Auctions
+  organizers: Maria-Florina Balcan, Tuomas Sandholm and Ellen Vitercik
+  abstract: |-
+    <p>
+    Mechanism design is a field of game theory with significant real-world impact, encompassing areas such as pricing and auction design. Mechanisms are used in sales settings ranging from large-scale internet marketplaces to the US government's radio spectrum reallocation efforts. A powerful and prominent approach in this field is automated mechanism design, which uses optimization and machine learning to design mechanisms based on data. This automated approach helps overcome challenges faced by traditional, manual approaches to mechanism design, which have been stuck for decades due to inherent computational complexity challenges: the revenue-maximizing mechanism is not known even for just two items for sale! This workshop is focused on the rapidly growing area of automated mechanism design for revenue maximization. This encompasses both the foundations of batch and online learning (including statistical guarantees and optimization procedures), as well as real-world success stories.
+    </p>
+  info: |-
+    This tutorial has a prerecorded talk on this page (see below) that you can watch anytime during the conference. It
+        also has two live sessions that will be conducted on Zoom and will be livestreamed on this page. Additionally, it has
+        a chat window that you can use to have discussions with the tutorial teachers and other attendees anytime during the
+        conference.
+  rocketchat_channel: AH6NewFrontiersofAutomatedMechanismDesignforPricingandAuctions
+  sessions:
+  - name: AH6
+    start_time: 2021-02-03 17:00:00+00:00
+    end_time: 2021-02-03 20:00:00+00:00
+    zoom_link: 123.com
+    hosts: Maria-Florina Balcan, Tuomas Sandholm and Ellen Vitercik
+  - name: AH6
+    start_time: 2021-02-03 17:00:00+00:00
+    end_time: 2021-02-03 20:00:00+00:00
+    zoom_link: 123.com
+    hosts: Maria-Florina Balcan, Tuomas Sandholm and Ellen Vitercik
+  authors:
+  - name: Maria-Florina Balcan
+    description: |+
+      is the Cadence Design Systems Professor of Computer Science at Carnegie Mellon University, working in machine learning, algorithmic game theory, and algorithms. She has been Program Committee Co-chair for COLT 2014, ICML 2016, and NeurIPS 2020. She will be General Chair for ICML 2021.
+
+  - name: Tuomas Sandholm
+    description: |+
+      is Angel Jordan University Professor of Computer Science at Carnegie Mellon University and Co-Director of CMU AI. He is Founder and Director of the Electronic Marketplaces Laboratory. He is a successful serial entrepreneur. He has fielded over 800 combinatorial auctions, worth over $60 billion. He is Founder and CEO of Optimized Markets, Strategic Machine, and Strategy Robot.
+
+  - name: Ellen Vitercik
+    description: is a final-year PhD student at Carnegie Mellon University. Her research
+      interests include artificial intelligence, machine learning theory, and the
+      interface between economics and computation. She has received the IBM PhD Fellowship,
+      a fellowship from CMU's Center for Machine Learning and Health, and the NSF
+      Graduate Research Fellowship.
+  prerecorded: '38940826'
+- UID: AH7
+  title: 'On Explainable AI: From Theory to Motivation, Industrial Applications and
+    Coding Practices'
+  organizers: Freddy Lecue, Pasquale Minervini, Fosca Giannotti and Riccardo Guidotti
+  abstract: |-
+    <p>
+    The future of AI lies in enabling people to collaborate with machines to solve complex problems. Like any efficient collaboration, this requires good communication, trust, clarity and understanding. XAI (eXplainable AI) aims at addressing such challenges by combining the best of symbolic AI and traditional Machine Learning. Such topic has been studied for years by all different communities of AI, with different definitions, evaluation metrics, motivations and results.
+    <br />
+    This tutorial is a snapshot on the work of XAI to date, and surveys the work achieved by the AI community with a focus on machine learning and symbolic AI related approaches (given the halfday format).We will motivate the needs of XAI in real-world and large-scale application, while presenting state-of-the-art techniques, with best XAI coding practices. In the first part of the tutorial, we give an introduction to the different aspects of explanations in AI. We then focus the tutorial on two specific approaches: (i) XAI using machine learning and (ii) XAI using a combination of graph-based knowledge representation and machine learning. For both we get into the specifics of the approach, the state of the art and the research challenges for the next steps. The final part of the tutorial gives an overview of real-world applications of XAI as well as best XAI coding practices.
+    </p>
+  info: |-
+    This tutorial has a prerecorded talk on this page (see below) that you can watch anytime during the conference. It
+        also has two live sessions that will be conducted on Zoom and will be livestreamed on this page. Additionally, it has
+        a chat window that you can use to have discussions with the tutorial teachers and other attendees anytime during the
+        conference.
+  rocketchat_channel: AH7OnExplainableAIFromTheorytoMotivationIndustrialApplicationsandCodingPractices
+  sessions:
+  - name: AH7
+    start_time: 2021-02-03 17:00:00+00:00
+    end_time: 2021-02-03 20:00:00+00:00
+    zoom_link: 123.com
+    hosts: Freddy Lecue, Pasquale Minervini, Fosca Giannotti and Riccardo Guidotti
+  - name: AH7
+    start_time: 2021-02-03 17:00:00+00:00
+    end_time: 2021-02-03 20:00:00+00:00
+    zoom_link: 123.com
+    hosts: Freddy Lecue, Pasquale Minervini, Fosca Giannotti and Riccardo Guidotti
+  authors:
+  - name: Freddy Lecue
+    description: |+
+      (PhD 2008, Habilitation 2015) is a principal scientist and research manager in Artificial Intelligent systems, systems combining learning and reasoning capabilities, in Accenture Technology Labs, Dublin – Ireland. He is also a research associate at INRIA, in WIMMICS, Sophia Antipolis – France. Before joining Accenture Labs, he was a Research Scientist at IBM Research, Smarter Cities Technology Center (SCTC) in Dublin, Ireland, and lead investigator of the Knowledge Representation and Reasoning group. His main research interests are Explainable AI systems. The application domain of his current research is Smarter Cities, with a focus on Smart Transportation and Building. In particular, he is interested in exploiting and advancing Knowledge Representation and Reasoning methods for representing and inferring actionable insight from large, noisy, heterogeneous and big data. He has over 40 publications in refereed journals and conferences related to Artificial Intelligence (AAAI, ECAI, IJCAI, IUI) and Semantic Web (ESWC, ISWC), all describing new system to handle expressive semantic representation and reasoning. He co-organized the first three workshops on semantic cities (AAAI 2012, 2014, 2015, IJCAI 2013), and the first two tutorials on smart cities at AAAI 2015 and IJCAI 2016. Prior to joining IBM, Freddy Lecue was a Research Fellow (2008-2011) with the Centre for Service Research at The University of Manchester, UK. He has been awarded by a second prize for his Ph.D. thesis by the French Association for the Advancement of Artificial Intelligence in 2009, and has been recipient of the Best Research Paper Award at the ACM/IEEE Web Intelligence conference in 2008.
+
+  - name: Pasquale Minervini
+    description: |+
+      is a Research Associate at University College London (UCL), United Kingdom, working with the Machine Reading group led by Prof. Sebastian Riedel. He received a Ph.D. in Computer Science from University of Bari, Italy, with a thesis titled “Mining Methods for the Web of Data,” advised by Prof. Nicola Fanizzi. After obtaining his Ph.D., Pasquale worked as a postdoctoral researcher at University of Bari, Italy, and at the INSIGHT Centre for Data Analytics (INSIGHT), Galway, Ireland. At INSIGHT, he worked in the Knowledge Engineering and DIscovery (KEDI) group, composed by researchers and engineers from INSIGHT and Fujitsu Ireland Research and Innovation. Over the course of his research career, Pasquale published 29 peer-reviewed papers, including in top-tier AI conferences (such as UAI, AAAI, ICDM, CoNLL, ECML, and ESWC), receiving two best paper awards. He is the main inventor of a patent application assigned to Fujitsu Ltd.
+
+  - name: Fosca Giannotti
+    description: |+
+      is Director of Research at the Information Science and Technology Institute “A. Faedo” of the National Research Council, Pisa, Italy. Fosca is a scientist in Data mining and Machine Learning and Big Data Analytics. She leads the <a href=" http://kdd.isti.cnr.it ">Pisa KDD Lab</a> - Knowledge Discovery and Data Mining Laboratory, a joint research initiative of the University of Pisa and ISTI-CNR, founded in 1994 as one of the earliest research labs centered on data mining. Fosca’s research focus is on social mining from big data: human dynamics, social networks, diffusion of innovation, privacy enhancing technology and explainable AI. She has coordinated tens of research projects and industrial collaborations. Fosca is now the coordinator of <a href=" http://www.sobigdata.eu ">SoBigData</a>, the European research infrastructure on Big Data Analytics and Social Mining, an ecosystem of ten cutting edge European research centers providing an open platform for interdisciplinary data science and data-driven innovation. In 2012-2015 Fosca has been general chair of the Steering board of ECML-PKDD (European conference on Machine Learning) and is currently member of the steering committee EuADS (European Association on Data Science) and of the AIIS: Italian Lab. of Artificial Intelligence and Autonomous Systems
+
+  - name: Riccardo Guidotti
+    description: is currently a post-doc researcher at the Department of Computer
+      Science, University of Pisa, Italy and a member of the Knowledge Discovery and
+      Data Mining Laboratory (KDDLab), a joint research group with the Information
+      Science and Technology Institute of the National Research Council in Pisa. Riccardo
+      Guidotti was born in 1988 in Pitigliano (GR) Italy. In 2013 and 2010 he graduated
+      cum laude in Computer Science (MS and BS) at University of Pisa. He received
+      the PhD in Computer Science with a thesis on Personal Data Analytics in the
+      same institution. He won the IBM fellowship program and has been an intern in
+      IBM Research Dublin, Ireland in 2015. His research interests are in personal
+      data mining, clustering, explainable models, analysis of transactional data
+      related to recipes and to migration flows.
+  prerecorded: '38940826'
+- UID: AH8
+  title: Recent Advances in Multiple Facets of Preference Learning
+  organizers: Arun Rajkumar
+  abstract: |-
+    <p>
+    Analyzing preferences using pairwise/partially ordered data has a long history and has been core to several research areas including AI, statistics, operations research, game theory, social choice and theoretical computer science with a range of applications including ad-placement, voting, sports ranking, multi-criteria decision making among several others. Research in each of these areas has developed independently, typically, without a lot of interaction among them. The broad aim of this tutorial is to overview the exciting recent advances in preference learning with the aim of introducing tools and techniques across disciplines which will aid in fostering interdisciplinary AI research.
+    <br />
+    The target audience includes typical practitioners of AI who might have a high-level idea about preference learning but are not typically aware of the various challenging facets of the problem. The novelty of the tutorial lies in translating the different paradigms across communities into the language of AI so that it will benefit the ML/AI community. The tutorial will be self-contained and does not expect any prerequisites. Audience with basic knowledge of AI/ML would be able to follow most of the material.
+    </p>
+  info: |-
+    This tutorial has a prerecorded talk on this page (see below) that you can watch anytime during the conference. It
+        also has two live sessions that will be conducted on Zoom and will be livestreamed on this page. Additionally, it has
+        a chat window that you can use to have discussions with the tutorial teachers and other attendees anytime during the
+        conference.
+  rocketchat_channel: AH8RecentAdvancesinMultipleFacetsofPreferenceLearning
+  sessions:
+  - name: AH8
+    start_time: 2021-02-03 17:00:00+00:00
+    end_time: 2021-02-03 20:00:00+00:00
+    zoom_link: 123.com
+    hosts: Arun Rajkumar
+  - name: AH8
+    start_time: 2021-02-03 17:00:00+00:00
+    end_time: 2021-02-03 20:00:00+00:00
+    zoom_link: 123.com
+    hosts: Arun Rajkumar
+  authors:
+  - name: Arun Rajkumar
+    description: is currently an assistant professor at the Computer Science and Engineering
+      department of Indian Institute of Technology, Madras. His research interests
+      are broadly in the areas of statistical learning theory, machine learning with
+      a specific focus on ranking algorithms and online learning.
+  prerecorded: '38940826'
+- UID: AH9
+  title: Simplifying and Automating Parallel Machine Learning via a Programmable and
+    Composable Parallel ML System
+  organizers: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+  abstract: |-
+    <p>
+    ML scale-up is frequently underestimated. What does it really take to train an ML model, originally implemented for a single CPU/GPU, on multiple machines? A few pain points are: (1) Many new lines of code need to be written to convert the code to a distributed version; (2) Need to heavily tune the code to the satisfying system/statistical performance, which is an added process to model development; (3) Decide which/how many hardware resources to use to train and deploy the model; (4) From an organization's perspective, automate resource sharing between many users and jobs to satisfy user needs while maximizing resource utilization and minimizing cost.
+    <br />
+    In this tutorial, we will present improved techniques to automate distributed ML infrastructure. We plan the tutorial to cover three areas critical to ML parallelization: (1) Cataloging and standardizing parallel ML building blocks; (2) Representations and software frameworks for ML parallelism; (3) Algorithms and systems to automate ML parallelization and the resource allocation of ML jobs on shared clusters. By exposing unique characteristics of ML programs, and by dissecting successful cases to reveal how they can be harnessed, we present opportunities for ML researchers and practitioners to further shape and grow the area of SysML.
+    <br />
+    The audience should be familiar with ML and DL basics. Knowledge of TensorFlow, PyTorch, and distributed ML techniques is also helpful but not required.
+    </p>
+  info: |-
+    This tutorial has a prerecorded talk on this page (see below) that you can watch anytime during the conference. It
+        also has two live sessions that will be conducted on Zoom and will be livestreamed on this page. Additionally, it has
+        a chat window that you can use to have discussions with the tutorial teachers and other attendees anytime during the
+        conference.
+  rocketchat_channel: AH9SimplifyingandAutomatingParallelMachineLearningviaaProgrammableandComposable
+  sessions:
+  - name: AH9
+    start_time: 2021-02-03 17:00:00+00:00
+    end_time: 2021-02-03 20:00:00+00:00
+    zoom_link: 123.com
+    hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+  - name: AH9
+    start_time: 2021-02-03 17:00:00+00:00
+    end_time: 2021-02-03 20:00:00+00:00
+    zoom_link: 123.com
+    hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+  authors:
+  - name: Hao Zhang
+    description: |+
+      is currently a postdoc scholar at RISE lab, the University of California, Berkeley. Hao’s general research interest is in scalable machine learning. Hao completed his Ph.D. at CMU. Hao’s past works including AutoDist, Poseidon, Cavs are now being commercialized at the Pittsburgh-based startup Petuum Inc.
+
+  - name: Aurick Qiao
+    description: |+
+      is a Ph.D. candidate at CMU. His research interest is in resource management for distributed ML in shared-resource computing environments. Several of Aurick's work including Litz and Bosen are parts of the Petuum project. Aurick is also an Engineering Lead at Petuum, building scalable and easy-to-use systems for ML which “just works.”
+
+  - name: Qirong Ho
+    description: |+
+      is Co-Founder and CTO at Petuum, Inc., a technology startup from the Petuum distributed ML team at Carnegie Mellon University. He holds a Ph.D. from CMU, and his research interests are in distributed ML systems with a view towards correctness, performance guarantees, robustness, programmability and usability.
+
+  - name: Eric Xing
+    description: is a Professor at CMU, and the Founder, CEO, and Chief Scientist
+      of Petuum Inc. His main research interests are the development of ML and statistical
+      methodology, and large-scale computational system and architectures. He is an
+      AAAI Fellow and an IEEE Fellow.
+  prerecorded: '38940826'
+- UID: AH10
+  title: 'Towards Ubiquitous Recommender Systems: Data, Approaches, and Applications'
+  organizers: Shoujin Wang, Liang Hu, Yan Wang, Longbing Cao, Michael Sheng and Mehmet
+    Orgun
+  abstract: |-
+    <p>
+    This tutorial presents representative and state-of-the-art theories and approaches to build recommender systems (RS) and the ubiquitous applications of RS in nearly every aspect of our daily life, including eating, dressing, housing and travelling. To be specific, we will first present the background and foundations of RS, followed by the illustration of representative and advanced machine learning approaches that can be used for building RS, including latent factor models, deep learning models, graph learning models and knowledge graph models. Finally, we will demonstrate the ubiquity of RS by introducing the typical real-world applications of RS in both traditional domains, such as e-commerce, social network, and emerging domains including fashion industry, financial industry, and healthcare industry. Specifically, we will illustrate the domain characteristics and the data characteristics in each domain, and then introduce the appropriate RS approaches to generate recommendations for each specific domain based on the unique characteristics of the domain. We will conclude the tutorial by outlining future research directions in this area. No specific prerequisite knowledge is required, but a rudimentary knowledge of RS and some machine learning basic (e.g., factorization machine, deep learning) will be helpful.
+    </p>
+  info: |-
+    This tutorial has a prerecorded talk on this page (see below) that you can watch anytime during the conference. It
+        also has two live sessions that will be conducted on Zoom and will be livestreamed on this page. Additionally, it has
+        a chat window that you can use to have discussions with the tutorial teachers and other attendees anytime during the
+        conference.
+  rocketchat_channel: AH10TowardsUbiquitousRecommenderSystemsDataApproachesandApplications
+  sessions:
+  - name: AH10
+    start_time: 2021-02-03 17:00:00+00:00
+    end_time: 2021-02-03 20:00:00+00:00
+    zoom_link: 123.com
+    hosts: Shoujin Wang, Liang Hu, Yan Wang, Longbing Cao, Michael Sheng and Mehmet
+      Orgun
+  - name: AH10
+    start_time: 2021-02-03 17:00:00+00:00
+    end_time: 2021-02-03 20:00:00+00:00
+    zoom_link: 123.com
+    hosts: Shoujin Wang, Liang Hu, Yan Wang, Longbing Cao, Michael Sheng and Mehmet
+      Orgun
+  authors:
+  - name: Shoujin Wang
+    description: |+
+      is a research fellow at the Department of Computing, Macquarie University. His research interests include data mining, machine learning, and their general applications in recommender systems. He has delivered tutorials on recommender systems at IJCAI 2019, IJCAI 2020 and organized a workshop at ICDM 2020.
+
+  - name: Liang Hu
+    description: |+
+      is a research associate with Advanced Analytics Institute, University of Technology Sydney. His research interests include recommender systems, data mining, machine learning and general artificial intelligence.
+
+  - name: Yan Wang
+    description: |+
+      is a Professor at the Department of Computing, Macquarie University. His research interests include recommender systems, trust management/computing, social computing and services computing.
+
+  - name: Longbing Cao
+    description: |+
+      is a Professor and an ARC future fellow at Advanced Analytics Institute (AAI), University of Technology Sydney. He received the 2019 Eureka Prizes for Excellence in Data Science. His research interests include data science, analytics and machine learning, and behavior informatics and their enterprise applications.
+
+  - name: Michael Sheng
+    description: |+
+      is a full Professor and Head of Department of Computing at Macquarie University. His research interests include web of things, internet of things, big data analytics, web science, service-oriented computing, pervasive computing, sensor networks.
+
+  - name: Mehmet A. Orgun
+    description: is a Professor at the Department of Computing, Macquarie University.
+      His current research interests lie in the areas of computational intelligence,
+      multi-agent systems, trust and security, temporal reasoning, formal methods.
+  prerecorded: '38940826'
+- UID: UC-10
+  title: 'Efficient Robust Music Genre Classification with Depthwise Separable Convolutions and Source Separation'
+  organizers: Gabriel A Mersy
+  info: |-
+    to be continued
+  rocketchat_channel: xxx
+  prerecorded: '000'
+  abstract: |-
+    <p>
+    Given recent advances in deep music source separation, a feature representation method is proposed that combines source separation with a state-of-the-art representation learning technique that is suitably repurposed for computer audition (i.e. machine listening). A depthwise separable convolutional neural network is trained on a challenging electronic dance music (EDM) data set and its performance is compared to convolutional neural networks operating on both source separated and standard spectrograms. It is shown that source separation improves classification performance in a limited-data setting compared to the standard single spectrogram approach.
+    </p>
+  sessions:
+    - name: AH9
+      start_time: 2021-02-03 17:00:00+00:00
+      end_time: 2021-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+    - name: AH9
+      start_time: 2021-02-03 17:00:00+00:00
+      end_time: 2021-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+  authors:
+    - name: Gabriel A Mersy
+      description: |+
+        to be continued
+- UID: UC-29
+  title: 'Text Analysis for Understanding Symptoms of Social Anxiety in Student Veterans'
+  organizers: Morgan Byers, Vangelis Metsis
+  info: |-
+    to be continued
+  rocketchat_channel: xxx
+  prerecorded: '000'
+  abstract: |-
+    <p>
+    A significant portion of the veteran population suffers from PTSD, a mental illness that is often accompanied by social anxiety disorder. Student veterans are especially vulnerable as they struggle to adapt to a new, less structured college lifestyle. In order to assist psychologists and social workers in the treatment of social anxiety disorder we use machine learning to analyze transcribed interview text and apply topic modelling to highlight common stress factors for student veterans. The results detailed in this paper also have broader impacts in fields such as pedagogy and public health.
+    </p>
+  sessions:
+    - name: AH9
+      start_time: 2021-02-03 17:00:00+00:00
+      end_time: 2021-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+    - name: AH9
+      start_time: 2021-02-03 17:00:00+00:00
+      end_time: 2021-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+  authors:
+    - name: Morgan Byers, Vangelis Metsis
+      description: |+
+        to be continued
+- UID: UC-30
+  title: 'Use of Computer Vision to Develop a Device to Assist Visually Impaired People with Social Distance'
+  organizers: Lucas G Nadolskis
+  info: |-
+    to be continued
+  rocketchat_channel: xxx
+  prerecorded: '000'
+  abstract: |-
+    <p>
+    The project developed a device to assist blind and visually impaired
+    users in complying with social distance rules. The main challenge
+    was how to identify people from other objects and notify the user
+    accordingly. Equally ambiguous was how to best notify the user that a
+    person was violating the social distance rules.
+    The hardware used is a Raspberry Pi running an image classification
+    algorithm and hooked to a depth camera. The use of prediction labels and
+    accuracy combined with the distance calculated by the depth camera made
+    it possible to detect when a person was getting closer than 2 meters
+    (6 ft) to the user.
+    The device was tested both in daylight and at night, and with different
+    lighting conditions. The device responded with a accuracy close to 1.9 meters, which is very acceptable.
+    Testing showed that the camera is capable of identifying people coming
+    from a 30 degrees angle from either side at around 1.9 meters of distance,
+    giving a good range of object detection.
+    </p>
+  sessions:
+    - name: AH9
+      start_time: 2021-02-03 17:00:00+00:00
+      end_time: 2021-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+    - name: AH9
+      start_time: 2021-02-03 17:00:00+00:00
+      end_time: 2021-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+  authors:
+    - name: Morgan Byers, Vangelis Metsis
+      description: |+
+        to be continued
+- UID: UC-34
+  title: 'Investigating Methods of Balancing Inequality and Efficiency in Ride Pooling'
+  organizers: Naveen J Raman
+  info: |-
+    to be continued
+  rocketchat_channel: xxx
+  prerecorded: '000'
+  abstract: |-
+    <p>
+    Our research focuses on developing matching policies that match drivers and riders for ride-pooling services. We aim to develop policies that balance efficiency and various forms of fairness. We did this through two methods: new matching algorithms that include a fairness term in the objective function, and income redistribution methods based on the Shapley value of a driver. I tested these methods on New York City Taxicab data to evaluate their performance and found that they succeed in reducing certain forms of fairness.
+    </p>
+  sessions:
+    - name: AH9
+      start_time: 2021-02-03 17:00:00+00:00
+      end_time: 2021-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+    - name: AH9
+      start_time: 2021-02-03 17:00:00+00:00
+      end_time: 2021-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+  authors:
+    - name: Morgan Byers, Vangelis Metsis
+      description: |+
+        to be continued
+- UID: UC-40
+  title: 'Bison Hacks the Yard: Assisting Underrepresented Students Overcome Impostor Syndrome with Augmented Reality and Artificial Intelligence'
+  organizers: Nicole M Sullivan
+  info: |-
+    to be continued
+  rocketchat_channel: xxx
+  prerecorded: '000'
+  abstract: |-
+    <p>
+    The prevalence of impostor syndrome in computer science students from underrepresented backgrounds contributes to low retention rates. Bison Hacks the Yard is an augmented reality game that aims to reduce impostor syndrome in underrepresented students by presenting a novel way to strengthen their knowledge of fundamental data structures and providing specialized videos of Historically Black College or University alumni, sharing their struggles with impostor syndrome.
+    </p>
+  sessions:
+    - name: AH9
+      start_time: 2021-02-03 17:00:00+00:00
+      end_time: 2021-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+    - name: AH9
+      start_time: 2021-02-03 17:00:00+00:00
+      end_time: 2021-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+  authors:
+    - name: Morgan Byers, Vangelis Metsis
+      description: |+
+        to be continued
+- UID: UC-46
+  title: 'Analyzing Games with a Variable Number of Players'
+  organizers: Madelyn Gatchel
+  info: |-
+    to be continued
+  rocketchat_channel: xxx
+  prerecorded: '000'
+  abstract: |-
+    <p>
+    We introduce a novel technique that uses a multi-headed neural network to analyze symmetric games with a variable number of players. Many of the most impactful real-world applications of game theory, including kidney exchange, school choice, wildlife poaching prevention, and consumer protection, involve interactions with an unknown number of participants. Thus a normal-form game with a fixed number of players might be an insufficient model. Our research focuses on analyzing games with a variable number of players, where the number of participants falls in a specified range. We hypothesize that the payoffs in a game with x players are similar or related to the same game with x + 1 players, given a large value of x. With this hypothesis, we generalize prior work to analyze games with a large, variable number of players.
+    </p>
+  sessions:
+    - name: AH9
+      start_time: 2021-02-03 17:00:00+00:00
+      end_time: 2021-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+    - name: AH9
+      start_time: 2021-02-03 17:00:00+00:00
+      end_time: 2021-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+  authors:
+    - name: Morgan Byers, Vangelis Metsis
+      description: |+
+        to be continued
+- UID: UC-47
+  title: 'Affect-Aware Machine Learning Models for Detecting Deception'
+  organizers: Leena Mathur
+  info: |-
+    to be continued
+  rocketchat_channel: xxx
+  prerecorded: '000'
+  abstract: |-
+    <p>
+    Automated deception detection systems can enhance societal well-being by helping humans detect deceivers and support people in high-stakes situations across health, social work, and legal domains. Existing computational approaches for detecting deception have not leveraged dimensional representations of affect, specifically valence and arousal, expressed during communication. My research presents a novel analysis of the potential for including affect in machine learning models for detecting deception. My work informs and motivates the development of affect-aware machine learning approaches for modeling deception and other social behaviors during human interactions in-the-wild. This research, independently defined and conducted by me, is from work-in-progress towards my undergraduate thesis in the Department of Computer Science at the University of Southern California.
+    </p>
+  sessions:
+    - name: AH9
+      start_time: 2021-02-03 17:00:00+00:00
+      end_time: 2021-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+    - name: AH9
+      start_time: 2021-02-03 17:00:00+00:00
+      end_time: 2021-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+  authors:
+    - name: Morgan Byers, Vangelis Metsis
+      description: |+
+        to be continued
+- UID: UC-49
+  title: 'Probabilistic Robustness Quantification of Neural Networks'
+  organizers: Gopi Kishan, Apurva Narayan
+  info: |-
+    to be continued
+  rocketchat_channel: xxx
+  prerecorded: '000'
+  abstract: |-
+    <p>
+    Safety properties of neural networks are critical to their application in safety-critical domains. Quantification of their robustness against uncertainties is an upcoming area of research. In this work, we propose an approach for providing probabilistic guarantees on the performance of a trained neural network.
+    We present two novel metrics for probabilistic verification on training data distribution and test dataset. Given a trained neural network, we quantify the probability of the model to make errors on a random sample drawn from the training data distribution. Second, from the output logits of a sample test point, we measure its p-value on the learned logit distribution to quantify the confidence of the model at this test point. We compare our results with softmax based metric using the black-box adversarial attacks on a simple CNN architecture trained for MNIST digit classification.
+    </p>
+  sessions:
+    - name: AH9
+      start_time: 2021-02-03 17:00:00+00:00
+      end_time: 2021-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+    - name: AH9
+      start_time: 2021-02-03 17:00:00+00:00
+      end_time: 2021-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+  authors:
+    - name: Morgan Byers, Vangelis Metsis
+      description: |+
+        to be continued
+- UID: UC-56
+  title: 'Evolving Spiking Circuit Motifs Using Weight Agnostic Neural Networks'
+  organizers: Abrar Anwar
+  info: |-
+    to be continued
+  rocketchat_channel: xxx
+  prerecorded: '000'
+  abstract: |-
+    <p>
+    Neural architecture search (NAS) has emerged as an algorithmic method of developing neural network architectures. Weight Agnostic Neural Networks (WANNs) are an evolutionary-based NAS approach. Fundamentally, WANNs find network structures that are relatively insensitive to shifts in weight values and are typically much smaller than an equivalent performance dense network. Here, we extend the WANN framework to search for spiking circuits and in doing so investigate whether these circuit motifs can also yield task performance that is weight agnostic. We analyze properties such as the complexity of the solution, as well as performance. Our results successfully show the performance of spiking WANNs on several exemplar tasks.
+    </p>
+  sessions:
+    - name: AH9
+      start_time: 2021-02-03 17:00:00+00:00
+      end_time: 2021-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+    - name: AH9
+      start_time: 2021-02-03 17:00:00+00:00
+      end_time: 2021-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+  authors:
+    - name: Morgan Byers, Vangelis Metsis
+      description: |+
+        to be continued
+- UID: UC-59
+  title: 'The Price of Anarchy in ROSCAS with Risk Averse Agents'
+  organizers: Christian  Ikeokwu
+  info: |-
+    to be continued
+  rocketchat_channel: xxx
+  prerecorded: '000'
+  abstract: |-
+    <p>
+    Rotating Savings and Credit Associations (Roscas) are a widely documented informal financial organization that is often used in low-income communities with limited funding sources. Roscas have been shown to serve as a tool for economic empowerment and a way of mitigating adverse shocks to income for vulnerable communities. In this paper, I describe my contributions to a  research project in which we study the allocative efficiency of different Rosca structures and formats in the presence of risk-averse agents.
+    </p>
+  sessions:
+    - name: AH9
+      start_time: 2021-02-03 17:00:00+00:00
+      end_time: 2021-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+    - name: AH9
+      start_time: 2021-02-03 17:00:00+00:00
+      end_time: 2021-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+  authors:
+    - name: Morgan Byers, Vangelis Metsis
+      description: |+
+        to be continued
+- UID: UC-66
+  title: 'Predictive Agent-Based Modeling of Natural Disasters Using Machine Learning'
+  organizers: Favour Nerrise
+  info: |-
+    to be continued
+  rocketchat_channel: xxx
+  prerecorded: '000'
+  abstract: |-
+    <p>
+    Current applications of Agent-based Modeling (ABM) in natural phenomena like wildfire land suppression and hurricane forecasting are in monitoring emergent behavior patterns among large groups of people (Hilljegerdes 2018). However, current evacuation times and plans for natural disaster management leave underserved communities vulnerable to substantial financial and welfare losses, especially when false positives during current predictions continue to influence evacuation decisions. A Machine Learning ABM (ML-ABM) model of hurricane trajectories introduces a pioneering opportunity to capture complex physical processes associated with hurricanes while minimizing computational costs and errors, thereby providing more accurate real-time prediction of hurricanes for improved disaster management. Specifical-ly, ML-ABM leverages the strengths of conventional ma-chine learning (e.g., Recurrent Neural Networks or RNNs), augmenting it with the ability to model complex interactions using agent-based modeling, as has been shown useful in modeling complexities in wildfire propagation and suppression (Hu and Sun 2007). This Hurricane Track Prediction ML-ABM model aims to quickly model and predict hurricane tracks in only a few minutes while retaining some of the complex physical process interactions of real storms through feature engineering and deep learning. This work focuses on the implementation of an RNN with bidirectional time-distributed Long-Short Term Memory cells (Usmani 2018), accounting for positive and negative time direction in time series forecasting. The observations and predictions were represented as a multi-agent system in NetLogo for further emergent pattern analysis in expanded research by Ar-thur Drake et. al (2020). The model also evaluates benchmark comparisons against the National Hurricane Center’s 5-Year Average Forecast Errors and the BCD5 Error Model, a combined intensity and track prediction error model that utilizes best track input and models de-cay over land.
+    </p>
+  sessions:
+    - name: AH9
+      start_time: 2021-02-03 17:00:00+00:00
+      end_time: 2021-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+    - name: AH9
+      start_time: 2021-02-03 17:00:00+00:00
+      end_time: 2021-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+  authors:
+    - name: Morgan Byers, Vangelis Metsis
+      description: |+
+        to be continued
+- UID: UC-71
+  title: 'Exploration of Unknown Environments Using Deep Reinforcement Learning'
+  organizers: Joseph McCalmon
+  info: |-
+    to be continued
+  rocketchat_channel: xxx
+  prerecorded: '000'
+  abstract: |-
+    <p>
+    My research presents a method for efficient exploration of an outdoor, unknown area, which aims to achieve precise coverage of regions of interest within that area. While this method for autonomous exploration was designed for autonomous controllers in unmanned aerial vehicles (UAVs), the concepts apply to any vehicle which uses autonomous navigation. We consider an environment with areas of interest of various sizes littered throughout, and a reinforcement learning agent which is tasked with discovering and mapping these areas in an efficient manner.
+    </p>
+  sessions:
+    - name: AH9
+      start_time: 2021-02-03 17:00:00+00:00
+      end_time: 2021-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+    - name: AH9
+      start_time: 2021-02-03 17:00:00+00:00
+      end_time: 2021-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+  authors:
+    - name: Morgan Byers, Vangelis Metsis
+      description: |+
+        to be continued
+- UID: UC-76
+  title: 'Using Remote Sensing Imagery and Machine Learning to Predict Poaching in Wildlife Conservation Parks'
+  organizers: Rachel Guo
+  info: |-
+    to be continued
+  rocketchat_channel: xxx
+  prerecorded: '000'
+  abstract: |-
+    <p>
+    Illegal wildlife poaching is driving the loss of biodiversity. To combat poaching, rangers patrol expansive protected areas for illegal poaching activity. However, rangers often cannot comprehensively search such large parks. Thus, the Protection Assistant for Wildlife Security (PAWS) uses machine learning to help identify the areas with highest poaching risk. As PAWS is deployed to parks around the world, we recognized that many parks have limited resources for data collection and therefore have scarce feature sets. To ensure under-resourced parks have access to meaningful poaching predictions, we introduce the use of publicly available remote sensing data to extract features for parks. By employing this data from Google Earth Engine, we also incorporate previously unavailable dynamic data such as climate and primary production patterns to enrich predictions with seasonal trends. We automate the entire data-to-deployment pipeline and find that, with only using publicly available data, we recuperate prediction performance comparable to predictions made using features manually computed by park specialists. We conclude that the inclusion of satellite imagery creates for a robust system through which parks of any resource level can benefit from poaching risks for years to come.
+    </p>
+  sessions:
+    - name: AH9
+      start_time: 2021-02-03 17:00:00+00:00
+      end_time: 2021-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+    - name: AH9
+      start_time: 2021-02-03 17:00:00+00:00
+      end_time: 2021-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+  authors:
+    - name: Morgan Byers, Vangelis Metsis
+      description: |+
+        to be continued
+- UID: UC-77
+  title: 'MOTIF-Driven Contrastive Learning of Graph Representations'
+  organizers: Arjun Subramonian
+  info: |-
+    to be continued
+  rocketchat_channel: xxx
+  prerecorded: '000'
+  abstract: |-
+    <p>
+    We propose a MOTIF-driven contrastive framework to pretrain a graph neural network in a self-supervised manner so that it can automatically mine motifs from large graph datasets. Our framework achieves state-of-the-art results on various graph-level downstream tasks with few labels, like molecular property prediction.
+    </p>
+  sessions:
+    - name: AH9
+      start_time: 2021-02-03 17:00:00+00:00
+      end_time: 2021-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+    - name: AH9
+      start_time: 2021-02-03 17:00:00+00:00
+      end_time: 2021-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+  authors:
+    - name: Morgan Byers, Vangelis Metsis
+      description: |+
+        to be continued
+- UID: OTHER
+  title: 'xxx'
+  organizers: Arjun Subramonian
+  info: |-
+    to be continued
+  rocketchat_channel: xxx
+  prerecorded: '000'
+  abstract: |-
+    <p>
+    xxx
+    </p>
+  sessions:
+    - name: "Opening remarks"
+      start_time: 2021-02-02 16:00:00+00:00
+      end_time: 2021-02-02 16:15:00+00:00
+      zoom_link: 123.com
+      hosts: " "
+    - name: "Talk: Roles for Computing in Social Justice"
+      start_time: 2021-02-02 16:15:00+00:00
+      end_time: 2021-02-02 17:30:00+00:00
+      zoom_link: 123.com
+      hosts: <a href="https://www2.eecs.berkeley.edu/Faculty/Homepages/rabebe.html">Dr. Rediet Abebe</a>
+    - name: "Break"
+      start_time: 2021-02-02 17:30:00+00:00
+      end_time: 2021-02-02 17:45:00+00:00
+      zoom_link: 123.com
+      hosts: " "
+    - name: "UC Scholar Mixer"
+      start_time: 2021-02-02 17:45:00+00:00
+      end_time: 2021-02-02 19:00:00+00:00
+      zoom_link: 123.com
+      hosts: " "
+    - name: "Lunch Break"
+      start_time: 2021-02-02 19:00:00+00:00
+      end_time: 2021-02-02 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: " "
+    - name: "Talk: Wanted: You and Your Mind"
+      start_time: 2021-02-02 20:10:00+00:00
+      end_time: 2021-02-02 21:30:00+00:00
+      zoom_link: 123.com
+      hosts: <a href="http://www.cs.utep.edu/agates/">Dr. Ann Gates</a>
+    - name: "Break"
+      start_time: 2021-02-02 21:30:00+00:00
+      end_time: 2021-02-02 21:45:00+00:00
+      zoom_link: 123.com
+      hosts: " "
+    - name: "Grad Student Panel: What is grad school REALLY like?"
+      start_time: 2021-02-02 21:45:00+00:00
+      end_time: 2021-02-02 22:30:00+00:00
+      zoom_link: 123.com
+      hosts: " "
+    - name: "UC Poster Session"
+      start_time: 2021-02-02 22:30:00+00:00
+      end_time: 2021-02-03 00:50:00+00:00
+      zoom_link: 123.com
+      hosts: " "
+    - name: "Closing remarks"
+      start_time: 2021-02-03 00:50:00+00:00
+      end_time: 2021-02-03 01:00:00+00:00
+      zoom_link: 123.com
+      hosts: " "
+  authors:
+    - name: xxx
+      description: |+
+        to be continued

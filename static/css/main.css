@@ -28,6 +28,7 @@ body {
 
 .bg-emnlp .nav-link {
   color: #cecece !important;
+  white-space: nowrap;
 }
 
 .bg-emnlp .nav-link:hover,
@@ -67,7 +68,7 @@ body {
 
 .pp-card-header {
   font-family: "Lato";
-  height: 340px;
+  height: 200px;
   padding-top: 10px;
   padding-left: 15px;
   padding-right: 15px;
@@ -250,7 +251,7 @@ body .nav-pills .nav-link.active {
 
   .card-dimensions-detail {
     margin-bottom: 1.5em;
-    min-height: 40rem;
+    min-height: 28rem;
   }
 
   .btn-quickview {

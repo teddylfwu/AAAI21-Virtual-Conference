@@ -45,6 +45,88 @@ def home():
     return render_template("index.html", **data)
 
 
+@app.route("/invited_talks.html")
+def invited_talks():
+    data = _data()
+    return render_template("invited_talks.html", **data)
+
+
+@app.route("/awards.html")
+def awards():
+    data = _data()
+    return render_template("awards.html", **data)
+
+
+@app.route("/iaai.html")
+def iaai():
+    data = _data()
+    return render_template("iaai.html", **data)
+
+
+@app.route("/eaai.html")
+def eaai():
+    data = _data()
+    return render_template("eaai.html", **data)
+
+
+@app.route("/doctoral_consortium.html")
+def doctoral_consortium():
+    data = _data()
+    data["doctoral_consortium"] = site_data["doctoral_consortium"]
+    return render_template("doctoral_consortium.html", **data)
+
+
+@app.route("/undergraduate_consortium.html")
+def undergraduate_consortium():
+    data = _data()
+    data["tutorials_UC"] = site_data["tutorials_UC"]
+    data["tutorials_OTHER"] = site_data["tutorials_OTHER"]
+    return render_template("undergraduate_consortium.html", **data)
+
+
+@app.route("/diversity_programs.html")
+def diversity_programs():
+    data = _data()
+    data["diversity_programs"] = site_data["socials"]
+    return render_template("diversity_programs.html", **data)
+
+
+@app.route("/gathers.html")
+def gathers():
+    data = _data()
+    return render_template("gathers.html", **data)
+
+
+@app.route("/ai_job_fair.html")
+def ai_job_fail():
+    data = _data()
+    return render_template("ai_job_fair.html", **data)
+
+
+@app.route("/reception.html")
+def reception():
+    data = _data()
+    return render_template("reception.html", **data)
+
+
+@app.route("/faq.html")
+def faq():
+    data = _data()
+    return render_template("faq.html", **data)
+
+
+@app.route("/committees.html")
+def committees():
+    data = _data()
+    return render_template("committees.html", **data)
+
+
+@app.route("/help_desk.html")
+def help_desk():
+    data = _data()
+    return render_template("help_desk.html", **data)
+
+
 @app.route("/about.html")
 def about():
     data = _data()
@@ -117,8 +199,11 @@ def qa_sessions():
 def tutorials():
     data = _data()
     data["tutorials"] = site_data["tutorials"]
+    data["tutorials_MQ"] = site_data["tutorials_MQ"]
+    data["tutorials_MH"] = site_data["tutorials_MH"]
+    data["tutorials_AQ"] = site_data["tutorials_AQ"]
+    data["tutorials_AH"] = site_data["tutorials_AH"]
     return render_template("tutorials.html", **data)
-
 
 @app.route("/workshops.html")
 def workshops():
@@ -130,8 +215,8 @@ def workshops():
 @app.route("/sponsors.html")
 def sponsors():
     data = _data()
-    data["sponsors"] = site_data["sponsors_by_level"]
-    data["sponsor_levels"] = site_data["sponsor_levels"]
+    # data["sponsors"] = site_data["sponsors_by_level"]
+    # data["sponsor_levels"] = site_data["sponsor_levels"]
     return render_template("sponsors.html", **data)
 
 
@@ -141,6 +226,11 @@ def socials():
     data["socials"] = site_data["socials"]
     return render_template("socials.html", **data)
 
+# @app.route("/diversity_programs.html")
+# def diversity_programs():
+#     data = _data()
+    
+#     return render_template("diversity_programs.html, **data")
 
 @app.route("/organizers.html")
 def organizers():
@@ -180,6 +270,12 @@ def tutorial(uid):
     data = _data()
     data["tutorial"] = by_uid["tutorials"][uid]
     return render_template("tutorial.html", **data)
+
+@app.route("/undergraduate_c_abstract_<uid>.html")
+def uc_abstract(uid):
+    data = _data()
+    data["tutorial"] = by_uid["tutorials"][uid]
+    return render_template("undergraduate_c_abstract.html", **data)
 
 
 @app.route("/workshop_<uid>.html")
@@ -227,28 +323,28 @@ def papers_program(program):
     return jsonify(papers_for_program)
 
 
-@app.route("/track_<program_name>_<track_name>.json")
-def track_json(program_name, track_name):
-    paper: Paper
-    if program_name == "workshop":
-        papers_for_track = None
-        for wsh in site_data["workshops"]:
-            if wsh.title == track_name:
-                papers_for_track = wsh.papers
-                break
-    else:
-        papers_for_track = [
-            paper
-            for paper in site_data["papers"]
-            if paper.content.track == track_name
-            and paper.content.program == program_name
-        ]
-    return jsonify(papers_for_track)
+# @app.route("/track_<program_name>_<track_name>.json")
+# def track_json(program_name, track_name):
+#     paper: Paper
+#     if program_name == "workshop":
+#         papers_for_track = None
+#         for wsh in site_data["workshops"]:
+#             if wsh.title == track_name:
+#                 papers_for_track = wsh.papers
+#                 break
+#     else:
+#         papers_for_track = [
+#             paper
+#             for paper in site_data["papers"]
+#             if paper.content.track == track_name
+#             and paper.content.program == program_name
+#         ]
+#     return jsonify(papers_for_track)
 
 
-@app.route("/static/<path:path>")
-def send_static(path):
-    return send_from_directory("static", path)
+# @app.route("/static/<path:path>")
+# def send_static(path):
+#     return send_from_directory("static", path)
 
 
 @app.route("/serve_<path>.json")
@@ -268,12 +364,12 @@ def generator():
         yield "paper", {"uid": paper.id}
     for program in site_data["programs"]:
         yield "papers_program", {"program": program}
-        for track in site_data["tracks"]:
-            yield "track_json", {"track_name": track, "program_name": program}
+        # for track in site_data["tracks"]:
+        #     yield "track_json", {"track_name": track, "program_name": program}
 
-    yield "papers_program", {"program": "workshop"}
-    for wsh in site_data["workshops"]:
-        yield "track_json", {"track_name": wsh.title, "program_name": "workshop"}
+    # yield "papers_program", {"program": "workshop"}
+    # for wsh in site_data["workshops"]:
+    #     yield "track_json", {"track_name": wsh.title, "program_name": "workshop"}
     plenary_session: PlenarySession
     for _, plenary_sessions_on_date in site_data["plenary_sessions"].items():
         for plenary_session in plenary_sessions_on_date:

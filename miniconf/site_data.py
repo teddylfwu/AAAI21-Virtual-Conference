@@ -96,14 +96,15 @@ class PaperContent:
     material: str = None
 
     def __post_init__(self):
-        if self.program != "workshop" and self.program != "findings":
-            assert self.track, self
-        if self.pdf_url:
-            assert self.pdf_url.startswith("https://"), self.pdf_url
-        if self.demo_url:
-            assert self.demo_url.startswith("https://") or self.demo_url.startswith(
-                "http://"
-            ), self.demo_url
+        pass
+        # if self.program != "workshop" and self.program != "findings":
+        #     assert self.track, self
+        # if self.pdf_url:
+        #     assert self.pdf_url.startswith("https://"), self.pdf_url
+        # if self.demo_url:
+        #     assert self.demo_url.startswith("https://") or self.demo_url.startswith(
+        #         "http://"
+        #     ), self.demo_url
 
 
 @dataclass(frozen=True)
@@ -118,6 +119,7 @@ class Paper:
     forum: str
     card_image_path: str
     presentation_id: str
+    presentation_id_intro: str
     content: PaperContent
 
     @property
@@ -156,7 +158,7 @@ class CommitteeMember:
     name: str
     aff: str
     image: Optional[str]
-
+    pweb: str
 
 @dataclass(frozen=True)
 class TutorialSessionInfo:
@@ -197,6 +199,19 @@ class TutorialSessionInfo:
         start_date = f'{start.strftime("%b")} {start.day}'
         return start_date
 
+@dataclass(frozen=True)
+class TutorialAuthorInfo:
+    """The session information for a tutorial."""
+
+    author_name: str
+    author_description:str
+
+    def name(self) -> str:
+        return self.author_name
+
+    def description(self) -> str:
+        return self.author_description
+
 
 @dataclass(frozen=True)
 class Tutorial:
@@ -210,6 +225,22 @@ class Tutorial:
     prerecorded: Optional[str]
     rocketchat_channel: str
     sessions: List[TutorialSessionInfo]
+    authors: List[TutorialAuthorInfo]
+    blocks: List[SessionInfo]
+    virtual_format_description: str
+
+@dataclass(frozen=True)
+class DoctoralConsortium:
+    id: str
+    title: str
+    organizers: List[str]
+    abstract: str
+    website: Optional[str]
+    material: Optional[str]
+    slides: Optional[str]
+    prerecorded: Optional[str]
+    rocketchat_channel: str
+    sessions: List[SessionInfo]
     blocks: List[SessionInfo]
     virtual_format_description: str
 

@@ -1,19 +1,19 @@
-name: EMNLP2020
-tagline: The 2020 Conference on Empirical Methods <br/> in Natural Language Processing
-date: November 16 &ndash; 20 <br> 2020
+name: AAAI-2021
+tagline: 35th AAAI Conference on Artificial Intelligence <br> A Virtual Conference
+date: February 2 &ndash; 9, 2021
 proceedings_title: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing
-citation_date: November 2020
+citation_date: February 2021
 analytics: UA-179777566-1
-site_url: https://virtual.2020.emnlp.org
+site_url: https://aaai.org/Conferences/AAAI-21/
 logo:
-  image: static/images/emnlp2020/acl-logo.png
+  image: static/images/aaai2021/AAAI-logo.png
   height: 45px
-site_title: EMNLP2020
+site_title: AAAI-2021
 page_title:
-  prefix: 'EMNLP2020'
+  prefix: 'AAAI2021'
   separator: ': '
-background_image: static/images/emnlp2020/EMNLP-Banner-5.1.jpg
-organization: Association for Computational Linguistics
+background_image: static/images/aaai2021/AAAI-Banner.png
+organization: AAAI-21 Conference Committee
 
 # Path to the folder of paper images.
 paper_images_path: https://emnlp2020-public.s3.amazonaws.com/paper_images
@@ -21,11 +21,11 @@ paper_images_path: https://emnlp2020-public.s3.amazonaws.com/paper_images
 default_presentation_id: 38931484
 
 # Remove or change to your chat server.
-chat_server: emnlp2020.rocket.chat
+chat_server: aaai-21.rocket.chat
 channels_stats_server: https://emnlp2020-channels-stats.azure-api.net
 
 gather_town: https://www.virtualchair.net/events/emnlp2020
-connected_papers_conference_name: EMNLP2020
+connected_papers_conference_name: AAAI2021
 
 calendar:
   start: '2020-11-16'

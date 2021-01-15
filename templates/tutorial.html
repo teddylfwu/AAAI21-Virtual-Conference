@@ -17,11 +17,17 @@
       Description
     </a>
 
-    {% if tutorial.sessions %}
-    <a class="card-link" data-toggle="collapse" role="button" href="#schedule">
-      Schedule
+    {% if tutorial.authors %}
+    <a class="card-link" data-toggle="collapse" role="button" href="#author">
+      Author(s)
     </a>
     {% endif %}
+
+{#    {% if tutorial.sessions %}#}
+{#    <a class="card-link" data-toggle="collapse" role="button" href="#schedule">#}
+{#      Schedule#}
+{#    </a>#}
+{#    {% endif %}#}
 
     {% if tutorial.website %}
       <a href="{{tutorial.website}}" target="_blank"  class="card-link">
@@ -61,33 +67,51 @@
   </div>
 </div>
 
-<!-- Schedule -->
-{% if tutorial.sessions %}
-<div id="schedule" class="collapse" aria-labelledby="schedule">
+
+<!-- Author -->
+{% if tutorial.authors %}
+<div id="author" class="pp-card m-3 collapse hide">
   <div class="card-body">
-    <table class="table table-bordered table-striped" style="font-size: small;">
-      <thead>
-        <tr>
-          <th scope="col" style="width: 30%;">Time</th>
-          <th scope="col" style="width: 40%;">Event</th>
-          <th scope="col">Hosts</th>
-        </tr>
-      </thead>
-      <tbody>
-        {% for event in tutorial.sessions %}
-        <tr>
-            <td>
-              {{event.day}}, <span class="session_times">{{event.time_string}}</span>
-            </td>
-          <td scope="row">{{event.session_name}}</td>
-          <td style="white-space: pre-wrap;">{{event.hosts}}</td>
-        </tr>
+    <div class="card-text">
+      <div id="authorExample">
+        {% for author in tutorial.authors %}
+        <span class="font-weight-bold">{{author.author_name}}</span>
+        {{author.author_description|safe}} <br />
         {% endfor %}
-      </tbody>
-    </table>
+      </div>
+    </div>
+    <p></p>
   </div>
 </div>
 {% endif %}
+
+<!-- Schedule -->
+{#{% if tutorial.sessions %}#}
+{#<div id="schedule" class="collapse" aria-labelledby="schedule">#}
+{#  <div class="card-body">#}
+{#    <table class="table table-bordered table-striped" style="font-size: small;">#}
+{#      <thead>#}
+{#        <tr>#}
+{#          <th scope="col" style="width: 30%;">Time</th>#}
+{#          <th scope="col" style="width: 40%;">Event</th>#}
+{#          <th scope="col">Hosts</th>#}
+{#        </tr>#}
+{#      </thead>#}
+{#      <tbody>#}
+{#        {% for event in tutorial.sessions %}#}
+{#        <tr>#}
+{#            <td>#}
+{#              {{event.day}}, <span class="session_times">{{event.time_string}}</span>#}
+{#            </td>#}
+{#          <td scope="row">{{event.session_name}}</td>#}
+{#          <td style="white-space: pre-wrap;">{{event.hosts}}</td>#}
+{#        </tr>#}
+{#        {% endfor %}#}
+{#      </tbody>#}
+{#    </table>#}
+{#  </div>#}
+{#</div>#}
+{#{% endif %}#}
 <script src="static/js/time-extend.js"></script>
 
 <div class="container" style="background-color:white; padding: 0px;">
@@ -108,7 +132,7 @@
     {% endif %}
 
     <a class="btn btn-outline-danger"
-       href="https://{{config.chat_server}}/channel/{{tutorial.rocketchat_channel}}"
+       href="https://aaai-21.rocket.chat/channel/{{tutorial.rocketchat_channel}}"
        target="_blank"
        style="margin-left: 5px; margin-right: 5px">
       Chat
@@ -144,7 +168,7 @@
     <!-- RocketChat Channel -->
     <div class="col-md-{{ rocketchat_width }} col-xs-12 p-2">
       <div id="gitter" class="slp">
-        <iframe frameborder="0" src="https://{{config.chat_server}}/channel/{{tutorial.rocketchat_channel}}?layout=embedded" height="700px" width="100%" ></iframe>
+        <iframe frameborder="0" src="https://aaai-21.rocket.chat/channel/{{tutorial.rocketchat_channel}}?layout=embedded" height="700px" width="100%" ></iframe>
       </div>
     </div>
   </div>

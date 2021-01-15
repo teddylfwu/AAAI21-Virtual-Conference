@@ -93,11 +93,13 @@
   <div class="row mb-5 mt-3">
     {% for member in committee[role] %}
     <div class="col-md-3 col-xs-6">
-      <div class="card text-center shadow p-3 bg-light rounded h-100">
-        <div class="text-muted">
-          <img src="{{ member.image or "static/images/committee/placeholder.png" }}" class="rounded mx-auto my-3" style="height: 150px;" />
-          <h5 class="card-title" align="center">{{member.name}}</h5>
+      <div class="card text-center shadow p-3 bg-light rounded h-100" id='pinfo'>
+        <a href="{{ member.pweb or 'none'}}">
+          <div class="text-muted">
+            <img src="{{ member.image or "static/images/committee/placeholder.png" }}" class="rounded mx-auto my-3"/>
+            <h5 class="card-title" align="center">{{member.name}}</h5>
           <div>
+        </a>
             <h6 class="card-subtitle text-muted">
               {{member.aff}}
             </h6>
@@ -305,9 +307,167 @@
 
 {%- endmacro %}
 
-{% macro tutorialgroup(tutorials) -%}
+{% macro tutorialgroup(tutorials,tutorials_MQ,tutorials_MH,tutorials_AQ,tutorials_AH) -%}
+{#<div id="MQ_tutorials"><br /><br /><br /><br /></div>#}
+<div id="MQ_tutorials"></div>
+<div class="card p-3 shadow p-3 mb-5 bg-light rounded"
+         style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">
+    <div class="m-3 text-muted text-center">
+        <h3>
+            Morning Quarter-day Tutorials
+        </h3>
+    </div>
+{#    <div class="m-3 text-muted text-center"><a href="#" class="text-dark">Back to Top</a></div>#}
+</div>
 <div class="cards row">
-  {% for tutorial in tutorials %}
+  {% for tutorial in tutorials_MQ %}
+  <div class="col-md-6 col-sm-12 p-3">
+    <div class="card p-3 shadow p-3 mb-5 bg-light rounded"
+         style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">
+
+          <div class="m-3 text-muted text-center">
+            <h4>
+              <a href="tutorial_{{tutorial.id}}.html" class="main-title" >
+                {{tutorial.id}}: {{tutorial.title}}
+              </a>
+            </h4>
+          </div>
+
+          <div class="m-3 text-muted text-center">
+            <span class="card-title h3">
+              {{ tutorial.organizers }}
+            </span>
+          </div>
+        <div class="mx-4 text-left card-subtitle">
+
+
+          {% for session in tutorial.blocks %}
+          <div class="m-3 text-center">
+            {{session.session}}
+            <span class="session_times">{{session.time_string}}</span>
+          </div>
+          <div class="text-center text-muted text-monospace">
+            <div class="paper-cal-links">
+              <img src="static/images/calendar.svg" class="paper-detail-calendar" height="24px">
+              <span id="session-cal-link-{{ tutorial.id }}-{{loop.index}}"></span>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+<div id="MH_tutorials"><br /><br /><br /><br /></div>
+<div class="card p-3 shadow p-3 mb-5 bg-light rounded"
+         style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">
+    <div class="m-3 text-muted text-center">
+        <h3>
+            Morning Half-day Tutorials
+        </h3>
+    </div>
+    <div class="m-3 text-muted text-center"><a href="#" class="text-dark">Back to Top</a></div>
+</div>
+<div class="cards row">
+  {% for tutorial in tutorials_MH %}
+  <div class="col-md-6 col-sm-12 p-3">
+    <div class="card p-3 shadow p-3 mb-5 bg-light rounded"
+         style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">
+
+          <div class="m-3 text-muted text-center">
+            <h4>
+              <a href="tutorial_{{tutorial.id}}.html" class="main-title" >
+                {{tutorial.id}}: {{tutorial.title}}
+              </a>
+            </h4>
+          </div>
+
+          <div class="m-3 text-muted text-center">
+            <span class="card-title h3">
+              {{ tutorial.organizers }}
+            </span>
+          </div>
+        <div class="mx-4 text-left card-subtitle">
+
+
+          {% for session in tutorial.blocks %}
+          <div class="m-3 text-center">
+            {{session.session}}
+            <span class="session_times">{{session.time_string}}</span>
+          </div>
+          <div class="text-center text-muted text-monospace">
+            <div class="paper-cal-links">
+              <img src="static/images/calendar.svg" class="paper-detail-calendar" height="24px">
+              <span id="session-cal-link-{{ tutorial.id }}-{{loop.index}}"></span>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+<div id="AQ_tutorials"><br /><br /><br /><br /></div>
+<div class="card p-3 shadow p-3 mb-5 bg-light rounded"
+         style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">
+    <div class="m-3 text-muted text-center">
+        <h3>
+            Afternoon Quarter-day Tutorials
+        </h3>
+    </div>
+    <div class="m-3 text-muted text-center"><a href="#" class="text-dark">Back to Top</a></div>
+</div>
+<div class="cards row">
+  {% for tutorial in tutorials_AQ %}
+  <div class="col-md-6 col-sm-12 p-3">
+    <div class="card p-3 shadow p-3 mb-5 bg-light rounded"
+         style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">
+
+          <div class="m-3 text-muted text-center">
+            <h4>
+              <a href="tutorial_{{tutorial.id}}.html" class="main-title" >
+                {{tutorial.id}}: {{tutorial.title}}
+              </a>
+            </h4>
+          </div>
+
+          <div class="m-3 text-muted text-center">
+            <span class="card-title h3">
+              {{ tutorial.organizers }}
+            </span>
+          </div>
+        <div class="mx-4 text-left card-subtitle">
+
+
+          {% for session in tutorial.blocks %}
+          <div class="m-3 text-center">
+            {{session.session}}
+            <span class="session_times">{{session.time_string}}</span>
+          </div>
+          <div class="text-center text-muted text-monospace">
+            <div class="paper-cal-links">
+              <img src="static/images/calendar.svg" class="paper-detail-calendar" height="24px">
+              <span id="session-cal-link-{{ tutorial.id }}-{{loop.index}}"></span>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+<div id="AH_tutorials"><br /><br /><br /><br /></div>
+<div class="card p-3 shadow p-3 mb-5 bg-light rounded"
+         style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">
+    <div class="m-3 text-muted text-center">
+        <h3>
+            Afternoon Half-day Tutorials
+        </h3>
+    </div>
+    <div class="m-3 text-muted text-center"><a href="#" class="text-dark">Back to Top</a></div>
+</div>
+<div class="cards row">
+  {% for tutorial in tutorials_AH %}
   <div class="col-md-6 col-sm-12 p-3">
     <div class="card p-3 shadow p-3 mb-5 bg-light rounded"
          style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">
@@ -400,6 +560,99 @@
   {% endfor %}
 </script>
 
+{%- endmacro %}
+
+{% macro uc_abstracts_group(tutorials_UC) -%}
+<div class="cards row">
+  {% for uc in tutorials_UC %}
+  <div class="col-md-6 col-sm-12 p-3">
+    <div class="card p-3 shadow p-3 mb-5 bg-light rounded"
+         style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">
+
+          <div class="m-3 text-muted text-center">
+            <h4>
+              <a href="undergraduate_c_abstract_{{uc.id}}.html" class="main-title" >
+                {{uc.title}}
+              </a>
+            </h4>
+          </div>
+
+          <div class="m-3 text-muted text-center">
+            <span class="card-title h3">
+              {{ uc.organizers }}
+            </span>
+          </div>
+
+          {% for session in uc.blocks %}
+          <div class="m-3 text-center">
+            {{session.session}}
+            <span class="session_times">{{session.time_string}}</span>
+          </div>
+          <div class="text-center text-muted text-monospace">
+            <div class="paper-cal-links">
+              <img src="static/images/calendar.svg" class="paper-detail-calendar" height="24px">
+              <span id="session-cal-link-{{ uc.id }}-{{loop.index}}"></span>
+            </div>
+          </div>
+          {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+<script src="static/js/add-to-calendar.js"></script>
+<script>
+
+  let ouicalData;
+  let targetNode;
+  let calendarNodeInner;
+  let calendarNodeSpan;
+  let parser = new DOMParser();
+  let calendarNames = Array("google", "off365", "outlook", "ical");
+
+  {% for uc in tutorials_UC %}
+  {% for session in uc.blocks %}
+    // create a calendar by hand
+    ouicalData = addToCalendarData({
+      options: {
+        class: 'my-class',
+        id: 'my-id'                               // If you don't pass an id, one will be generated for you.
+      },
+      data: {
+        title: '{{ title }}'.replace("#", " "),
+
+        // Event start date
+        start: new Date("{{session.start_time_string}}"),
+        end: new Date("{{session.end_time_string}}"),
+        // duration: 120,                           // Event duration (IN MINUTES)
+        // allday: true,														// Override end time, duration and timezone, triggers 'all day'
+
+        // Event timezone. Will convert the given time to that zone
+        timezone: 'UTC',
+        // Event Address
+        {% if session.link %}
+          address: '{{session.link}}',
+        {% endif %}
+
+        // Event Description
+        // NOTE: Cannot use abstract because of it is multi-line. Need to format it.
+        description: 'https://virtual.2020.emnlp.org/uc_{{ uc.id }}.html'
+      }
+    });
+
+    targetNode = document.querySelector('#session-cal-link-{{ uc.id }}-{{ loop.index }}');
+    for (const name of calendarNames) {
+      calendarNodeInner = parser.parseFromString(ouicalData[name], "text/html");
+      calendarNodeSpan = document.createElement("span");
+      calendarNodeSpan.setAttribute("style", "padding: 2px");
+      calendarNodeSpan.appendChild(document.createTextNode("["));
+      calendarNodeSpan.appendChild(calendarNodeInner.getElementsByTagName("a")[0]);
+      calendarNodeSpan.appendChild(document.createTextNode("]"));
+      targetNode.appendChild(calendarNodeSpan);
+    }
+  {% endfor %}
+  {% endfor %}
+</script>
 {%- endmacro %}
 
 

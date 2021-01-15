@@ -36,7 +36,7 @@
   </a> .</strong>
     <br>
 
-    You can download a list of your favorite papers <a id="myLink" href="#" onclick="saveFavorites();">here</a>.
+{#    You can download a list of your favorite papers <a id="myLink" href="#" onclick="saveFavorites();">here</a>.#}
 
   </div>
 {% endblock %}
@@ -50,9 +50,9 @@
   <li class="nav-item">
     <a class="nav-link" href="papers_vis.html">Visualization</a>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="papers_keyword_vis.html">Browse Keywords</a>
-  </li>
+{#  <li class="nav-item">#}
+{#    <a class="nav-link" href="papers_keyword_vis.html">Browse Keywords</a>#}
+{#  </li>#}
   <li class="nav-item">
     <a class="nav-link" href="#" id="tabFavs"><i class="fas fa-star"></i> Favorites</a>
   </li>
@@ -61,7 +61,7 @@
 <div class="card" style="margin-bottom: 2.5em;">
   <div class="card-body">
 
-    <div id="papers_options" class="row" role="toolbar" aria-label="Toolbar with button groups">  
+    <div id="papers_options" class="row" role="toolbar" aria-label="Toolbar with button groups">
       <!-- Search bar -->
         <div class="col-lg-7">
           <div class="input-group flex-fill">
@@ -101,7 +101,7 @@
                 <input type="radio" name="options" value="authors" autocomplete="off" />
                 by author
               </label>
-    
+
               <button class="btn btn btn-outline-secondary typeahead_all_clear" type="button">
                 &times;
               </button>
@@ -122,62 +122,115 @@
 
     <!-- Bottoms-->
     <div class="button-box" style="margin-top: -0.7em;">
-      
+
       <div >
-        <div 
+        <div
             class="btn-group btn-group-toggle program_option mr-3 bottom-bar"
             data-toggle="buttons" >
-
-            <label class="btn btn-sm btn-outline-secondary active">
+            <label class="btn btn-sm btn-outline-secondary active"  data-tippy-content="Main Track" style="width: 4em;">
               <input
                   type="radio"
                   name="program"
-                  value="main"
+                  value="Main"
                   autocomplete="off"
               />
-              main
+              Main
             </label>
-            <label class="btn btn-sm btn-outline-secondary">
+            <label class="btn btn-sm btn-outline-secondary" data-tippy-content="AI for Social Impact Track" style="width: 4em;">
               <input
                 type="radio"
                 name="program"
-                value="demo"
+                value="AISI"
                 autocomplete="off"
               />
-              demo
+              AISI
             </label>
-            <label class="btn btn-sm btn-outline-secondary">
+            <label class="btn btn-sm btn-outline-secondary" data-tippy-content="Senior Member Track"  style="width: 4em;">
               <input
                 type="radio"
                 name="program"
-                value="findings"
+                value="SMT"
                 autocomplete="off"
               />
-              findings
+              SMT
             </label>
-            <label class="btn btn-sm btn-outline-secondary">
+            <label class="btn btn-sm btn-outline-secondary" data-tippy-content="Demonstrations"  style="width: 4em;">
               <input
                 type="radio"
                 name="program"
-                value="workshop"
+                value="Demo"
                 autocomplete="off"
               />
-              workshop
+              Demo
             </label>
-            <label class="btn btn-sm btn-outline-secondary">
+            <label class="btn btn-sm btn-outline-secondary" data-tippy-content="Student Abstract and Poster Program"  style="width: 4em;">
+              <input
+                type="radio"
+                name="program"
+                value="SA"
+                autocomplete="off"
+              />
+              SA
+            </label>
+            <label class="btn btn-sm btn-outline-secondary" data-tippy-content="Doctoral Consortium"  style="width: 4em;">
+              <input
+                type="radio"
+                name="program"
+                value="DC"
+                autocomplete="off"
+              />
+              DC
+            </label>
+            <label class="btn btn-sm btn-outline-secondary" data-tippy-content="Undergraduate Consortium"  style="width: 4em;">
+              <input
+                type="radio"
+                name="program"
+                value="UC"
+                autocomplete="off"
+              />
+              UC
+            </label>
+            <label class="btn btn-sm btn-outline-secondary" data-tippy-content="Innovative Applications of Artificial Intelligence Conference"  style="width: 4em;">
+              <input
+                type="radio"
+                name="program"
+                value="IAAI"
+                autocomplete="off"
+              />
+              IAAI
+            </label>
+            <label class="btn btn-sm btn-outline-secondary" data-tippy-content="Symposium on Educational Advances in Artificial Intelligence"   style="width: 4em;">
+              <input
+                type="radio"
+                name="program"
+                value="EAAI"
+                autocomplete="off"
+              />
+              EAAI
+            </label>
+{#            <label class="btn btn-sm btn-outline-secondary" data-tippy-content="sister conference papers"  style="width: 4em;">#}
+{#              <input#}
+{#                type="radio"#}
+{#                name="program"#}
+{#                value="SC"#}
+{#                autocomplete="off"#}
+{#              />#}
+{#              SC#}
+{#            </label>#}
+            <label class="btn btn-sm btn-outline-secondary" style="width: 4em;">
               <input
                 type="radio"
                 name="program"
                 value="all"
                 autocomplete="off"
               />
-              all
+              All
             </label>
         </div>
       </div>
-      
-      <div style="margin-right: 0.0em;">
-        <div 
+
+        <div style="margin-right: 0.0em;">
+        <div
             class="btn-group btn-group-toggle render_option mr-3 bottom-bar"
             data-toggle="buttons" >
 
@@ -191,15 +244,15 @@
               />
               compact
             </label>
-            <label class="btn btn-sm btn-outline-secondary">
-              <input
-                type="radio"
-                name="options"
-                value="compact"
-                autocomplete="off"
-              />
-              medium
-            </label>
+{#            <label class="btn btn-sm btn-outline-secondary">#}
+{#              <input#}
+{#                type="radio"#}
+{#                name="options"#}
+{#                value="compact"#}
+{#                autocomplete="off"#}
+{#              />#}
+{#              medium#}
+{#            </label>#}
             <label class="btn btn-sm btn-outline-secondary">
               <input
                 type="radio"
@@ -219,25 +272,84 @@
         </div>
       </div>
 
-      <div>
-        <div class="btn-group btn-group-toggle render_option pl-2 " data-toggle="buttons">
-          <label class="btn btn-sm btn-outline-secondary" data-tippy-content="Show/hide papers whose QA session is finished.">
-            <input type="checkbox" name="hide_qa_ended" display="none" onchange="hideQaEnded(allPapers, this)" />
-            QA not passed
-          </label>
-        </div>
-      </div>
+{#      <div>#}
+{#        <div class="btn-group btn-group-toggle render_option pl-2 " data-toggle="buttons">#}
+{#          <label class="btn btn-sm btn-outline-secondary" data-tippy-content="Show/hide papers whose QA session is finished.">#}
+{#            <input type="checkbox" name="hide_qa_ended" display="none" onchange="hideQaEnded(allPapers, this)" />#}
+{#            QA not passed#}
+{#          </label>#}
+{#        </div>#}
+{#      </div>#}
 
       <div>
         <div class="btn-group pl-2 ">
           <button class="btn btn-sm btn-outline-secondary reshuffle">shuffle</button>
         </div>
       </div>
+
     </div>
 
+{#    <div class="button-box" style="margin-top: 0.75em;">#}
+{#        <div style="margin-right: 0.0em;">#}
+{#        <div#}
+{#            class="btn-group btn-group-toggle render_option mr-3 bottom-bar"#}
+{#            data-toggle="buttons" >#}
+{##}
+{#            <label class="btn btn-sm btn-outline-secondary active">#}
+{#              <input#}
+{#                  type="radio"#}
+{#                  name="options"#}
+{#                  value="list"#}
+{#                  autocomplete="off"#}
+{#                  checked#}
+{#              />#}
+{#              compact#}
+{#            </label>#}
+{#            <label class="btn btn-sm btn-outline-secondary">#}
+{#              <input#}
+{#                type="radio"#}
+{#                name="options"#}
+{#                value="compact"#}
+{#                autocomplete="off"#}
+{#              />#}
+{#              medium#}
+{#            </label>#}
+{#            <label class="btn btn-sm btn-outline-secondary">#}
+{#              <input#}
+{#                type="radio"#}
+{#                name="options"#}
+{#                value="detail"#}
+{#                autocomplete="off"#}
+{#              />#}
+{#              detail#}
+{#            </label>#}
+{#        </div>#}
+{#      </div>#}
+{##}
+{##}
+{#      <div>#}
+{#        <div class="btn-group btn-group-toggle render_option" data-toggle="buttons">#}
+{#          <button class="btn btn-sm btn-outline-secondary visited">visited</button>#}
+{#        </div>#}
+{#      </div>#}
+{##}
+{#      <div>#}
+{#        <div class="btn-group btn-group-toggle render_option pl-2 " data-toggle="buttons">#}
+{#          <label class="btn btn-sm btn-outline-secondary" data-tippy-content="Show/hide papers whose QA session is finished.">#}
+{#            <input type="checkbox" name="hide_qa_ended" display="none" onchange="hideQaEnded(allPapers, this)" />#}
+{#            QA not passed#}
+{#          </label>#}
+{#        </div>#}
+{#      </div>#}
+{##}
+{#      <div>#}
+{#        <div class="btn-group pl-2 ">#}
+{#          <button class="btn btn-sm btn-outline-secondary reshuffle">shuffle</button>#}
+{#        </div>#}
+{#      </div>#}
+{#    </div>#}
 
-  
-    
+
     <!-- Shortcut Guide-->
     <div class="card-text shortcut-guide text-muted" style="font-size: 0.9rem; margin-bottom: -1em;">
       <br/>
@@ -275,7 +387,7 @@
         </div>
 
         <p class="text-muted" id="modalAuthors"></p>
-        
+
         <div style="float: left; margin-top: 0.2em;">
           <h6>
             <span class="badge badge-pill badge-secondary" id="modalPaperType" style="margin-right: 0.5em;"></span>
@@ -295,8 +407,8 @@
         <h6 id="modalAbstractHeader" class="text-muted">Abstract</h6>
         <p id="modalAbstract"></p>
 
-        <h6 id="modalKeywordsHeader" class="text-muted">Keywords</h6>
-        <p style="font-size: 1.3em; font-family: monospace;" id="modalKeywords"></p>
+{#        <h6 id="modalKeywordsHeader" class="text-muted">Keywords</h6>#}
+{#        <p style="font-size: 1.3em; font-family: monospace;" id="modalKeywords"></p>#}
 
         <h6 id="modalSessionsHeader" class="text-muted">Sessions</h6>
         <div style="display: flex;" id="modalSessions"></div>
@@ -336,14 +448,14 @@
 
   $(document).ready(function () {
     tippy("[data-tippy-content]", { trigger: "mouseenter focus" });
-    const program = getUrlParameter("program") || 'main'
+    const program = getUrlParameter("program") || 'Main'
     let track = ""
     if (program !== "workshop") {
         track = getUrlParameter("track") || 'All tracks'
     } else {
         track = getUrlParameter("track") || 'All workshops'
     }
-    
+
     updateTabs();
 
     start();

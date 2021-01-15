@@ -18,22 +18,21 @@
         Description
       </a>
 
-      {% if workshop.blocks %}
-      <a class="card-link" data-toggle="collapse" role="button" href="#schedule">
-        Schedule
-      </a>
-      {% endif %}
+{#      {% if workshop.blocks %}#}
+{#      <a class="card-link" data-toggle="collapse" role="button" href="#schedule">#}
+{#        Schedule#}
+{#      </a>#}
+{#      {% endif %}#}
 
-      <a href="papers.html?filter=titles&program=workshop&track={{workshop.title|quote_plus}}" target="_blank"  class="card-link">
-        Papers
-      </a>
+{#      <a href="papers.html?filter=titles&program=workshop&track={{workshop.title|quote_plus}}" target="_blank"  class="card-link">#}
+{#        Papers#}
+{#      </a>#}
 
       {% if workshop.website %}
       <a href="{{workshop.website}}" target="_blank"  class="card-link">
         External Website
       </a>
       {% endif %}
-
 
     </div>
 
@@ -72,34 +71,34 @@
 </div>
 
 <!-- Schedule -->
-{% if workshop.sessions %}
-<div id="schedule" class="collapse" aria-labelledby="schedule">
-  <div class="card-body">
-    <table class="table table-bordered table-striped" style="font-size: small;">
-      <thead>
-        <tr>
-          <th scope="col" style="width: 20%;">Time (PDT)</th>
-          <th scope="col" style="width: 50%;">Event</th>
-          <th scope="col">Hosts</th>
-        </tr>
-      </thead>
-      <tbody>
-        {% for event in workshop.sessions %}
-
-        <tr>
-            <td>
-              {{event.day}}, <span class="session_times">{{event.time_string}}</span>
-            </td>
-          <td scope="row" style="white-space: pre-wrap;">{{event.session_name | markdown}}</td>
-          <td style="white-space: pre-wrap;">{{event.hosts}}</td>
-        </tr>
-        {% endfor %}
-      </tbody>
-    </table>
-  </div>
-</div>
-{% endif %}
-<script src="static/js/time-extend.js"></script>
+{#{% if workshop.sessions %}#}
+{#<div id="schedule" class="collapse" aria-labelledby="schedule">#}
+{#  <div class="card-body">#}
+{#    <table class="table table-bordered table-striped" style="font-size: small;">#}
+{#      <thead>#}
+{#        <tr>#}
+{#          <th scope="col" style="width: 20%;">Time (PDT)</th>#}
+{#          <th scope="col" style="width: 50%;">Event</th>#}
+{#          <th scope="col">Hosts</th>#}
+{#        </tr>#}
+{#      </thead>#}
+{#      <tbody>#}
+{#        {% for event in workshop.sessions %}#}
+{##}
+{#        <tr>#}
+{#            <td>#}
+{#              {{event.day}}, <span class="session_times">{{event.time_string}}</span>#}
+{#            </td>#}
+{#          <td scope="row" style="white-space: pre-wrap;">{{event.session_name | markdown}}</td>#}
+{#          <td style="white-space: pre-wrap;">{{event.hosts}}</td>#}
+{#        </tr>#}
+{#        {% endfor %}#}
+{#      </tbody>#}
+{#    </table>#}
+{#  </div>#}
+{#</div>#}
+{#{% endif %}#}
+{#<script src="static/js/time-extend.js"></script>#}
 
 <div class="container" style="background-color:white; padding: 0px;">
   <div class="text-muted text-center">
@@ -160,25 +159,25 @@
 
 
 
-{% if workshop.prerecorded_talks %}
-  <!-- Prerecorded Talk -->
-{{ components.section("Pre-recorded Plenary Talks") }}
-<div id="accordion">
-  {% for talk in workshop.prerecorded_talks %}
-  <div class="row m-2">
-    <div class="card col-md-12 col-xs-12 my-auto mp-2 bg-light">
-        <br/>
-        <p>
-          <a href="https://slideslive.com/{{talk.presentation_id}}" target="_blank"><b>{{talk.title}}</b></a>
-        </p>
-        <p>
-          <i>{{talk.speakers}}</i>
-        </p>
-    </div>
-  </div>
-  {% endfor %}
-</div>
-{% endif %}
+{#{% if workshop.prerecorded_talks %}#}
+{#  <!-- Prerecorded Talk -->#}
+{#{{ components.section("Pre-recorded Plenary Talks") }}#}
+{#<div id="accordion">#}
+{#  {% for talk in workshop.prerecorded_talks %}#}
+{#  <div class="row m-2">#}
+{#    <div class="card col-md-12 col-xs-12 my-auto mp-2 bg-light">#}
+{#        <br/>#}
+{#        <p>#}
+{#          <a href="https://slideslive.com/{{talk.presentation_id}}" target="_blank"><b>{{talk.title}}</b></a>#}
+{#        </p>#}
+{#        <p>#}
+{#          <i>{{talk.speakers}}</i>#}
+{#        </p>#}
+{#    </div>#}
+{#  </div>#}
+{#  {% endfor %}#}
+{#</div>#}
+{#{% endif %}#}
 
 <script src="static/js/time-extend.js"></script>
 <script>

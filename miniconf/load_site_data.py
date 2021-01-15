@@ -25,8 +25,10 @@ from miniconf.site_data import (
     SocialEventOrganizers,
     Tutorial,
     TutorialSessionInfo,
+    TutorialAuthorInfo,
     Workshop,
     WorkshopPaper,
+    DoctoralConsortium,
 )
 
 
@@ -50,9 +52,17 @@ def load_site_data(
         # tutorials.html
         "tutorials",
         # papers.html
-        "main_papers",
-        "demo_papers",
-        "findings_papers",
+        "AI for Social Impact Track_papers",
+        "Demos_papers",
+        "Doctoral Consortium_papers",
+        "doctoral_consortium",
+        "EAAI_papers",
+        "IAAI_papers",
+        "Main Track_papers",
+        "Senior Member Track_papers",
+        "Sister Conference_papers",
+        "Student Abstracts_papers",
+        "Undergraduate Consortium_papers",
         "paper_recs",
         "papers_projection",
         "paper_sessions",
@@ -79,11 +89,11 @@ def load_site_data(
 
         extra_files.append(f)
         if typ == "json":
-            site_data[name] = json.load(open(f))
+            site_data[name] = json.load(open(f, encoding="utf-8"))
         elif typ in {"csv", "tsv"}:
-            site_data[name] = list(csv.DictReader(open(f)))
+            site_data[name] = list(csv.DictReader(open(f, encoding="utf-8")))
         elif typ == "yml":
-            site_data[name] = yaml.load(open(f).read(), Loader=yaml.SafeLoader)
+            site_data[name] = yaml.load(open(f, encoding="utf-8").read(), Loader=yaml.SafeLoader)
     assert set(site_data.keys()) == registered_sitedata, registered_sitedata - set(
         site_data.keys()
     )
@@ -123,25 +133,67 @@ def load_site_data(
     site_data["plenary_session_days"][0][-1] = "active"
 
     # Papers' progam to their data
-    for p in site_data["main_papers"]:
-        p["program"] = "main"
+    for p in site_data["AI for Social Impact Track_papers"]:
+        p["program"] = "AISI"
+    for p in site_data["Demos_papers"]:
+        p["program"] = "Demo"
+    for p in site_data["Doctoral Consortium_papers"]:
+        p["program"] = "DC"
+    for p in site_data["EAAI_papers"]:
+        p["program"] = "EAAI"
+    for p in site_data["IAAI_papers"]:
+        p["program"] = "IAAI"
+    for p in site_data["Main Track_papers"]:
+        p["program"] = "Main"
+    for p in site_data["Senior Member Track_papers"]:
+        p["program"] = "SMT"
+    for p in site_data["Sister Conference_papers"]:
+        p["program"] = "SC"
+    for p in site_data["Student Abstracts_papers"]:
+        p["program"] = "SA"
+    for p in site_data["Undergraduate Consortium_papers"]:
+        p["program"] = "UC"
 
-    for p in site_data["demo_papers"]:
-        p["program"] = "demo"
-
-    for p in site_data["findings_papers"]:
-        p["program"] = "findings"
-        p["paper_type"] = "Findings"
-        p["track"] = "Findings of EMNLP"
-
-    site_data["programs"] = ["main", "demo", "findings", "workshop"]
+    site_data["programs"] = ["AISI", "Demo", "DC",
+                             "EAAI", "IAAI","Main","SMT","SC",
+                             "SA","UC"]
 
     # tutorials.html
+    tutorial_MQ = []
+    tutorial_MH = []
+    tutorial_AQ = []
+    tutorial_AH = []
+
+    # undergraduate_consortium.html
+    tutorial_UC = []
+    tutorial_OTHER = []
+
+    for item in site_data["tutorials"]:
+        if "MQ" in item["UID"]:
+            tutorial_MQ.append(item)
+        if "MH" in item["UID"]:
+            tutorial_MH.append(item)
+        if "AQ" in item["UID"]:
+            tutorial_AQ.append(item)
+        if "AH" in item["UID"]:
+            tutorial_AH.append(item)
+        if "UC" in item["UID"]:
+            tutorial_UC.append(item)
+        if "OTHER" in item["UID"]:
+            tutorial_OTHER.append(item)
+
     tutorials = build_tutorials(site_data["tutorials"])
+
     site_data["tutorials"] = tutorials
     site_data["tutorial_calendar"] = build_tutorial_schedule(
         site_data["overall_calendar"]
     )
+    site_data["tutorials_MQ"] = build_tutorials(tutorial_MQ)
+    site_data["tutorials_MH"] = build_tutorials(tutorial_MH)
+    site_data["tutorials_AQ"] = build_tutorials(tutorial_AQ)
+    site_data["tutorials_AH"] = build_tutorials(tutorial_AH)
+    site_data["tutorials_UC"] = build_tutorials(tutorial_UC)
+    site_data["tutorials_OTHER"] = build_tutorials(tutorial_OTHER)
     # tutorial_<uid>.html
     by_uid["tutorials"] = {tutorial.id: tutorial for tutorial in tutorials}
 
@@ -154,21 +206,33 @@ def load_site_data(
     # workshop_<uid>.html
     by_uid["workshops"] = {workshop.id: workshop for workshop in workshops}
 
+    # Doctoral Consortium
+    doctoral_consortium=build_tutorials(site_data["doctoral_consortium"])
+    site_data["doctoral_consortium"] = doctoral_consortium
+
     # socials.html
     social_events = build_socials(site_data["socials"])
     site_data["socials"] = social_events
 
     # papers.{html,json}
     papers = build_papers(
-        raw_papers=site_data["main_papers"]
-        + site_data["demo_papers"]
-        + site_data["findings_papers"],
+        raw_papers=site_data["AI for Social Impact Track_papers"]+
+            site_data["Demos_papers"]+
+            site_data["Doctoral Consortium_papers"]+
+            site_data["EAAI_papers"]+
+            site_data["IAAI_papers"]+
+            site_data["Main Track_papers"]+
+            site_data["Senior Member Track_papers"]+
+            site_data["Sister Conference_papers"]+
+            site_data["Student Abstracts_papers"]+
+            site_data["Undergraduate Consortium_papers"],
         paper_sessions=site_data["paper_sessions"],
         paper_recs=site_data["paper_recs"],
         paper_images_path=site_data["config"]["paper_images_path"],
     )
-    for wsh in site_data["workshops"]:
-        papers.extend(wsh.papers)
+    # remove workshop paper in papers.html
+    # for wsh in site_data["workshops"]:
+    #     papers.extend(wsh.papers)
     site_data["papers"] = papers
 
     site_data["tracks"] = list(
@@ -191,7 +255,6 @@ def load_site_data(
         assert paper.id not in papers_by_uid, paper.id
         papers_by_uid[paper.id] = paper
     by_uid["papers"] = papers_by_uid
-
     # serve_papers_projection.json
     all_paper_ids_with_projection = {
         item["id"] for item in site_data["papers_projection"]
@@ -467,7 +530,7 @@ def generate_paper_events(site_data: Dict[str, Any]):
 
         # Sessions are suffixd with subsession id
         all_grouped[uid[:-1]].append(session)
-
+    print(all_grouped)
     for uid, group in all_grouped.items():
         start_time = group[0]["start_time"]
         end_time = group[0]["end_time"]
@@ -664,6 +727,9 @@ def build_papers(
         end_time = session_info["end_time"]
 
         for paper_id in session_info["papers"]:
+
+            #TODO  continue deal with it when we get session data
+            # pass
             link = paper_id_to_link[paper_id]
 
             sessions_for_paper[paper_id].append(
@@ -683,13 +749,14 @@ def build_papers(
                 item["UID"], paper_images_path
             ),
             presentation_id=item.get("presentation_id", None),
+            presentation_id_intro=item.get("presentation_id_intro", None),
             content=PaperContent(
                 title=item["title"],
                 authors=extract_list_field(item, "authors"),
                 keywords=extract_list_field(item, "keywords"),
                 abstract=item["abstract"],
                 tldr=item["abstract"][:250] + "...",
-                pdf_url=item.get("pdf_url", ""),
+                pdf_url=item.get("pdf_url", "https://scholar.google.com/"),
                 demo_url=item.get("demo_url", ""),
                 material=item.get("material"),
                 track=normalize_track_name(item.get("track", "")),
@@ -709,8 +776,8 @@ def build_papers(
             "findings",
         ]:
             print(f"WARNING: presentation_id not set for {paper.id}")
-        if not paper.content.track:
-            print(f"WARNING: track not set for {paper.id}")
+        # if not paper.content.track:
+        #     print(f"WARNING: track not set for {paper.id}")
         if paper.presentation_id and len(paper.content.sessions) != 1:
             print(
                 f"WARNING: found {len(paper.content.sessions)} sessions for {paper.id}"
@@ -752,7 +819,9 @@ def build_qa_sessions(
             qa_subsession = QaSubSession(
                 name=s["long_name"].split(":")[-1].strip(),
                 link=s.get("zoom_link", "http://zoom.us"),
+                # TODO  make qa_session.html pass
                 papers=s["papers"],
+                # papers=[],
             )
             subsessions.append(qa_subsession)
 
@@ -817,6 +886,13 @@ def build_tutorials(raw_tutorials: List[Dict[str, Any]]) -> List[Tutorial]:
                     zoom_link=session.get("zoom_link"),
                 )
                 for session in item.get("sessions")
+            ],
+            authors=[
+                TutorialAuthorInfo(
+                    author_name=author.get("name"),
+                    author_description=author.get("description"),
+                )
+                for author in item.get("authors")
             ],
             blocks=build_tutorial_blocks(item),
             virtual_format_description=item["info"],
@@ -919,6 +995,54 @@ def build_workshops(
 
     return workshops
 
+def build_doctoral_consortium(raw_doctoral_consortiums: List[Dict[str, Any]]) -> List[DoctoralConsortium]:
+    def build_doctoral_consortium_blocks(t: Dict[str, Any]) -> List[SessionInfo]:
+        blocks = compute_schedule_blocks(t["sessions"])
+        result = []
+        for i, block in enumerate(blocks):
+            min_start = min([t["start_time"] for t in block])
+            max_end = max([t["end_time"] for t in block])
+
+            assert all(s["zoom_link"] == block[0]["zoom_link"] for s in block)
+
+            result.append(
+                SessionInfo(
+                    session_name=f"T-Live Session {i+1}",
+                    start_time=min_start,
+                    end_time=max_end,
+                    link=block[0]["zoom_link"],
+                )
+            )
+        return result
+
+    return [
+        DoctoralConsortium(
+            id=item["UID"],
+            title=item["title"],
+            organizers=item["organizers"],
+            abstract=item["abstract"],
+            website=item.get("website", None),
+            material=item.get("material", None),
+            slides=item.get("slides", None),
+            prerecorded=item.get("prerecorded", ""),
+            rocketchat_channel=item.get("rocketchat_channel", ""),
+            sessions=[
+                SessionInfo(
+                    session_name=session.get("name"),
+                    start_time=session.get("start_time"),
+                    end_time=session.get("end_time"),
+                    hosts=session.get("hosts", ""),
+                    livestream_id=session.get("livestream_id"),
+                    zoom_link=session.get("zoom_link"),
+                )
+                for session in item.get("sessions")
+            ],
+            blocks=build_doctoral_consortium_blocks(item),
+            virtual_format_description=item["info"],
+        )
+        for item in raw_doctoral_consortiums
+    ]
+
 
 def build_socials(raw_socials: List[Dict[str, Any]]) -> List[SocialEvent]:
     return [
@@ -988,6 +1112,7 @@ def build_sponsors(site_data, by_uid, display_time_format) -> None:
 
         grouped_publications: Dict[str, List[Any]] = defaultdict(list)
         for paper_id in publications:
+            if paper_id not in by_uid["papers"]: continue
             paper = by_uid["papers"][paper_id]
             grouped_publications[paper.content.paper_type].append(paper)
 
@@ -1027,7 +1152,7 @@ def compute_schedule_blocks(
     # Based on
     # https://stackoverflow.com/questions/54713564/how-to-find-gaps-given-a-number-of-start-and-end-datetime-objects
     if len(events) <= 1:
-        return events
+        return [events]
 
     # sort by start times
     events = sorted(events, key=lambda x: x["start_time"])
