@@ -187,7 +187,7 @@
       <script src='static/js/embed_presentation.js'></script>
       <script>
         embed = new SlidesLiveEmbed('presentation-intro', {
-        presentationId: '{{paper.presentation_id | default(config.default_presentation_id)}}',
+        presentationId: '{{paper.presentation_id_intro | default(config.default_presentation_id)}}',
 {#        presentationId: '38938822',#}
         autoPlay: false, // change to true to autoplay the embedded presentation
         verticalEnabled: false,
@@ -303,9 +303,9 @@
                  {% endif %}
              {% endfor %}
           </h6>
-{#          <center>#}
-{#              <img class="cards_img" src="{{recommended.card_image_path}}" onerror="javascript:this.onerror=null;this.src=''" width="80%"/>#}
-{#          </center>#}
+          <center>
+              <img class="cards_img" src="{{recommended.card_image_path}}" onerror="javascript:this.onerror=null;this.src=''" width="80%"/>
+          </center>
         </div>
       </div>
     </div>

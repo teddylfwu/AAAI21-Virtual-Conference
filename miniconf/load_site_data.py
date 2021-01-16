@@ -229,6 +229,7 @@ def load_site_data(
         paper_sessions=site_data["paper_sessions"],
         paper_recs=site_data["paper_recs"],
         paper_images_path=site_data["config"]["paper_images_path"],
+        default_image_path=site_data["config"]["logo"]["image"]
     )
     # remove workshop paper in papers.html
     # for wsh in site_data["workshops"]:
@@ -684,8 +685,16 @@ def normalize_track_name(track_name: str) -> str:
     return track_name
 
 
-def get_card_image_path_for_paper(paper_id: str, paper_images_path: str) -> str:
-    return f"{paper_images_path}/{paper_id}.png"
+def get_card_image_path_for_paper(paper_id: str, paper_images_path: str, default_image_path: str) -> str:
+    file_name = f"{paper_images_path}/{paper_id}.png"
+    dir_path = os.path.dirname(os.path.abspath(__file__))
+    # get root path
+    root_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    abs_file_name = os.path.join(root_path,file_name)
+    if os.path.exists(abs_file_name):
+        return f"{paper_images_path}/{paper_id}.png"
+    else:
+        return default_image_path
 
 
 def build_papers(
@@ -693,6 +702,7 @@ def build_papers(
     paper_sessions: Dict[str, Any],
     paper_recs: Dict[str, List[str]],
     paper_images_path: str,
+    default_image_path: str
 ) -> List[Paper]:
     """Builds the site_data["papers"].
 
@@ -746,7 +756,7 @@ def build_papers(
             id=item["UID"],
             forum=item["UID"],
             card_image_path=get_card_image_path_for_paper(
-                item["UID"], paper_images_path
+                item["UID"], paper_images_path, default_image_path
             ),
             presentation_id=item.get("presentation_id", None),
             presentation_id_intro=item.get("presentation_id_intro", None),
