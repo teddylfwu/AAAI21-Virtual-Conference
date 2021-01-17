@@ -56,7 +56,6 @@
       </thead>
       <tbody>
         {% for tutorial in tutorials_OTHER %}
-        {% if tutorial.id == "OTHER" %}
         {% for event in tutorial.sessions %}
         {% if event.session_name == "Talk: Roles for Computing in Social Justice" %}
             <tr>
@@ -84,11 +83,22 @@
         </tr>
         {% endif %}
         {% endfor %}
-        {% endif %}
         {% endfor %}
       </tbody>
     </table>
   </div>
+</div>
+
+<div class="container" style="background-color:white; padding: 0px;">
+  <div class="text-muted text-center">
+  You can open <a href="https://{{config.chat_server}}/channel/Meetings_UndergraduateConsortium" target="_blank">Undergraduate Consortium</a>
+  channel in a separate window.
+  </div>
+
+  <div id="gitter" class="slp">
+        <iframe frameborder="0" src="https://{{config.chat_server}}/channel/Meetings_UndergraduateConsortium?layout=embedded" height="700px" width="100%" ></iframe>
+  </div>
+
 </div>
 
 {% endblock %}
