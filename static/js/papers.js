@@ -670,7 +670,7 @@ const card_html = openreview => `
                 <h6 class="card-subtitle mb-2 text-muted">${openreview.content.authors.join(', ')}</h6>
                 
                 ${card_program_badge(openreview)}
-
+                ${card_image(openreview, render_mode !== 'list')}
                 ${card_detail(openreview, (render_mode === 'detail'))}
             </div>
 
