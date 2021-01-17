@@ -32,7 +32,7 @@
         <p>Welcome to the Twenty-Sixth AAAI/SIGAI Doctoral Consortium</p>
         <p>February 2-3, 2021</p>
         <p>Collocated with the Thirty-Fifth Conference on Artificial Intelligence (AAAI-21)</p>
-{#        <p>External site: https://aaaidc.github.io/dc2021/</p>#}
+        <p>External site: https://aaaidc.github.io/dc2021/</p>
         <p>The Twenty-Sixth AAAI/SIGAI Doctoral Consortium (DC) provides an opportunity for a group of Ph.D. students to discuss and explore their research interests and career objectives in an interdisciplinary workshop together with a panel of established researchers. The eighteen students accepted to participate in this program will also participate in the AAAI-21 Poster Sessions on Thursday, February 4. All interested AAAI-21 student registrants are invited to observe the presentations.</p>
         <p>The full Doctoral Consortium schedule will be included below.</p>
         <p>AAAI and SIGAI gratefully acknowledge the generous grant from the National Science Foundation, which makes this program possible.</p>
@@ -49,106 +49,62 @@
     </div>
 </div>
 
-<div id="schedule" aria-labelledby="schedule">
-  <h2 class="card-title main-title text-center" style="">
-      AAAI-21 Doctoral Consortium Schedule
-  </h2>
-  <h3 class="card-subtitle mb-2 text-muted text-center">
-      February 2-3, 2021
-  </h3>
-  <div class="card-body">
-    <table class="table table-bordered table-striped" style="font-size: small;">
-      <thead>
-        <tr>
-          <th scope="col" style="width: 30%;">Time</th>
-          <th scope="col" style="width: 40%;">Event</th>
-          <th scope="col">Hosts</th>
-        </tr>
-      </thead>
-      <tbody>
-        {% for dc in doctoral_consortium %}
-        {% if dc.id == "Schedule" %}
-        {% for event in dc.sessions %}
-        <tr>
-            <td>
-              {{event.day}}, <span class="session_times">{{event.time_string}}</span>
-            </td>
-          <td scope="row">{{event.session_name}}</td>
-          <td style="white-space: pre-wrap;">{{event.hosts}}</td>
-        </tr>
-        {% endfor %}
-        {% endif %}
-        {% endfor %}
-      </tbody>
-    </table>
-  </div>
-</div>
+{#<div id="schedule" aria-labelledby="schedule">#}
+{#  <h2 class="card-title main-title text-center" style="">#}
+{#      AAAI-21 Doctoral Consortium Schedule#}
+{#  </h2>#}
+{#  <h3 class="card-subtitle mb-2 text-muted text-center">#}
+{#      February 2-3, 2021#}
+{#  </h3>#}
+{#  <div class="card-body">#}
+{#    <table class="table table-bordered table-striped" style="font-size: small;">#}
+{#      <thead>#}
+{#        <tr>#}
+{#          <th scope="col" style="width: 30%;">Time</th>#}
+{#          <th scope="col" style="width: 40%;">Event</th>#}
+{#          <th scope="col">Hosts</th>#}
+{#        </tr>#}
+{#      </thead>#}
+{#      <tbody>#}
+{#        {% for tutorial in tutorials_OTHER %}#}
+{#        {% if tutorial.id == "OTHER" %}#}
+{#        {% for event in tutorial.sessions %}#}
+{#        {% if event.session_name == "Talk: Roles for Computing in Social Justice" %}#}
+{#            <tr>#}
+{#            <td>#}
+{#              {{event.day}}, <span class="session_times">{{event.time_string}}</span>#}
+{#            </td>#}
+{#          <td scope="row">{{event.session_name}}</td>#}
+{#          <td style="white-space: pre-wrap;"><a href="https://www2.eecs.berkeley.edu/Faculty/Homepages/rabebe.html">Dr. Rediet Abebe</a> (Faculty Panel Q&A)</td>#}
+{#        </tr>#}
+{#        {% elif event.session_name == "Talk: Wanted: You and Your Mind" %}#}
+{#            <tr>#}
+{#            <td>#}
+{#              {{event.day}}, <span class="session_times">{{event.time_string}}</span>#}
+{#            </td>#}
+{#          <td scope="row">{{event.session_name}}</td>#}
+{#          <td style="white-space: pre-wrap;"><a href="http://www.cs.utep.edu/agates/">Dr. Ann Gates</a> (Faculty Panel Q&A)</td>#}
+{#        </tr>#}
+{#        {% else %}#}
+{#        <tr>#}
+{#            <td>#}
+{#              {{event.day}}, <span class="session_times">{{event.time_string}}</span>#}
+{#            </td>#}
+{#          <td scope="row">{{event.session_name}}</td>#}
+{#          <td style="white-space: pre-wrap;">{{event.hosts}}</td>#}
+{#        </tr>#}
+{#        {% endif %}#}
+{#        {% endfor %}#}
+{#        {% endif %}#}
+{#        {% endfor %}#}
+{#      </tbody>#}
+{#    </table>#}
+{#  </div>#}
+{#</div>#}
 
 {% endblock %}
 
 {% block content %}
-
-{% for dc in doctoral_consortium %}
-{% if dc.id == "Schedule" %}
-<div class="container" style="background-color:white; padding: 0px;">
-  <div class="text-muted text-center">
-  You can open the
-  {% if dc.livestream %}
-  <a href="https://slideslive.com/{{dc.livestream}}" target="_blank">livestream video</a>
-  and
-  {% endif %}
-  the
-  <a href="https://{{config.chat_server}}/channel/{{dc.rocketchat_channel}}" target="_blank">
-    #{{ dc.rocketchat_channel }}
-  </a>
-  channel
-  {% if dc.livestream %}
-  in separate windows.
-  {% else %}
-  in a separate window.
-  {% endif %}
-
-  </div>
-
-  <div class="row m-2">
-  {% if dc.livestream %}
-<!-- Livestreaming -->
-    <div class="col-md-7 col-xs-12 my-auto p-2" >
-      <div id="presentation-embed" class="slp my-auto"></div>
-      <script src='https://slideslive.com/embed_presentation.js'></script>
-      <script>
-        embed = new SlidesLiveEmbed('presentation-embed', {
-        presentationId: '{{dc.livestream}}',
-        autoPlay: false, // change to true to autoplay the embedded presentation
-        verticalEnabled: true,
-        verticalWhenWidthLte: 500,
-        allowHiddenControlsWhenPaused: true,
-        hideTitle: true
-        });
-      </script>
-    </div>
-
-    <!-- Chat -->
-    <br/>
-    <div class="col-md-5 col-xs-12 p-2">
-      <div id="gitter" class="slp">
-        <iframe frameborder="0" src="https://{{config.chat_server}}/channel/{{dc.rocketchat_channel}}?layout=embedded" height="700px" width="100%" ></iframe>
-      </div>
-    </div>
-  {% else %}
-  <div class="container" style="background-color:white; padding: 0px;">
-
-
-    <!-- Chat -->
-      <div id="gitter" class="slp">
-        <iframe frameborder="0" src="https://{{config.chat_server}}/channel/{{dc.rocketchat_channel}}?layout=embedded" height="700px" width="100%" ></iframe>
-      </div>
-  </div>
-  {% endif %}
-</div>
-{% endif %}
-{% endfor %}
-
 
 {#<div class="tutorials">#}
 {#    {{ components.uc_abstracts_group(tutorials_DC) }}#}

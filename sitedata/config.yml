@@ -12,7 +12,7 @@ site_title: AAAI-2021
 page_title:
   prefix: 'AAAI2021'
   separator: ': '
-background_image: static/images/aaai2021/AAAI-Banner.png
+background_image: static/images/aaai2021/AAAI-logo-nocaption.jpg
 organization: AAAI-21 Conference Committee
 
 # Path to the folder of paper images.

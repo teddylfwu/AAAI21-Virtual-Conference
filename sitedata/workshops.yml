@@ -78,8 +78,8 @@
 
 - UID: WS-5
   title: "W5: Combating Online Hostile Posts in Regional Languages during Emergency Situations (CONSTRAINT-2021)"
-  organizers: "Tanmoy Chakraborty, Kai Shu, H. Russell Bernard, Huan Liu, and Md Shad Akhtar"
-  abstract: "Online hostile posts (e.g., hate speech, fake news, etc.) can have severe consequences, and therefore, its detection is of paramount importance for societal causes. Another important aspect is early detection and prevention of hostile posts in response to a critical/emergency situation (e.g., COVID-19, US presidential election) where the (mis)information spreads rapidly. Moreover, hostile posts are not limited to English; instead, they are available in a variety of regional/local languages (e.g., Indian, some European languages, etc.). The challenges in automatic identification of the hostile posts are more critical in case of these regional languages - primarily because of the lack of resources for such languages. With the CONSTRAINT-2021 workshop, we aim to attract the attention of the research communities to these important aspects of the hostile posts detection and provide a platform for the high-quality research in this domain."
+  organizers: "Tanmoy Chakraborty and Md Shad Akhtar"
+  abstract: "With the CONSTRAINT-2021 workshop, we aim to attract the attention of the research communities to these important aspects of the hostile posts detection and provide a platform for the high-quality research in this domain."
   website: http://lcs2.iiitd.edu.in/CONSTRAINT-2021/
   rocketchat_channel: W5CONSTRAINT2021
   alias: W5CONSTRAINT2021
@@ -173,7 +173,7 @@
 
 - UID: WS-10
   title: "W10: 9th Dialog System Technology Challenge (DSTC-9)"
-  organizers: "Abhinav Rastogi, Yun-Nung (Vivian) Chen, Chulaka Gunasekara, Seokhwan Kim and Luis Fernando D'Haro"
+  organizers: "Abhinav Rastogi and Yun-Nung (Vivian) Chen"
   abstract: "DSTC, the Dialog System Technology Challenge, has been a premier research competition for dialog systems since its inception in 2013. Given the remarkable success of the first eight challenges, we are organizing the ninth edition of DSTC this year and we will have a wrap-up workshop at AAAI-21."
   website: https://sites.google.com/dstc.community/dstc9/
   rocketchat_channel: W10DialogSystemTechnologyChallenge
@@ -197,7 +197,7 @@
 - UID: WS-11
   title: "W11: Explainable Agency in Artificial Intelligence"
   organizers: "Prashan Madumal, Silvia Tulli, David Aha and Rosina Weber"
-  abstract: "As AI-enabled systems have become increasingly applied to critical societal problems with tangible consequences and influence, calls for explainability and interpretability of these systems have also become increasingly prevalent. Explainable AI (XAI) attempts to alleviate concerns of transparency, trust, and ethics in AI by making them accountable, interpretable, and explainable to humans. This workshop aims to address these concepts from the perspective of Explainable Agency, and bring together researchers and practitioners working in different facets of XAI from diverse backgrounds to share challenges, new directions, and recent research in the field. We especially welcome research from fields including (but not limited to) AI, human‐computer interaction, human-robot interaction, cognitive science, human factors, and philosophy."
+  abstract: "As artificial intelligence has become tightly intervened in the society having tangible consequences and influence, calls for explainability and interpretability of these systems has also become increasingly prevalent. Explainable AI (XAI) attempts to alleviate concerns of transparency, trust and ethics in AI by making them accountable, interpretable and explainable to humans. This workshop aims to encapsulate these concepts under the umbrella of Explainable Agency and bring together researchers and practitioners working in different facets of explainable AI from diverse backgrounds to share challenges, new directions and recent research in the field. We especially welcome research from fields including but not limited to artificial intelligence, human-computer interaction, human-robot interaction, cognitive science, human factors and philosophy."
   website: https://sites.google.com/view/xaiworkshop/topic
   rocketchat_channel: W11ExplainableAgencyinArtificialIntelligence
   alias: W11ExplainableAgencyinArtificialIntelligence
@@ -480,7 +480,7 @@
 - UID: WS-26
   title: "W26: Trustworthy AI for Healthcare"
   organizers: Pengtao Xie, Marinka Zitnik, Byron Wallace, Jennifer G. Dy and Eric Xing
-  abstract: "AI for healthcare has emerged into a very active research area in the past few years and has made significant progress. While existing results are encouraging, not too many clinical AI solutions are deployed in hospitals or actively utilized by physicians. A major problem is that existing clinical AI methods are less trustworthy. For example, existing approaches make clinical decisions in a black-box way, which renders the decisions difficult to understand and less transparent. Existing solutions are not robust to small perturbations or potentially adversarial attacks, which raises security and privacy concerns. All these problems render the existing solutions less trustworthy. In this workshop, we aim to address the trustworthy issues of clinical AI solutions and facilitate discussions and collaborations in developing trustworthy AI methods that are reliable and more acceptable to physicians."
+  abstract: "AI for healthcare has emerged into a very active research area in the past few years and has made significant progress. While existing results are encouraging, not too many clinical AI solutions are deployed in hospitals or actively utilized by physicians. A major problem is that existing clinical AI methods are less trustworthy. For example, existing approaches make clinical decisions in a black-box way, which renders the decisions difficult to understand and less transparent. Existing solutions are not robust to small perturbations or potentially adversarial attacks, which raises security and privacy concerns. In addition, existing methods are often biased to specific ethnic groups or subpopulations. As a result, physicians are reluctant to use these solutions since clinical decisions are mission-critical and have to be made with high trust and reliability."
   website: https://taih20.github.io/
   rocketchat_channel: W26TrustworthyAIforHealthcare
   alias: W26TrustworthyAIforHealthcare

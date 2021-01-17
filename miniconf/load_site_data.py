@@ -29,10 +29,13 @@ from miniconf.site_data import (
     TutorialAuthorInfo,
     Workshop,
     WorkshopPaper,
+<<<<<<< HEAD
     DoctoralConsortium,
     Award,
     Awardee,
     Demonstrations
+=======
+>>>>>>> fix
 )
 
 
@@ -59,7 +62,6 @@ def load_site_data(
         "AI for Social Impact Track_papers",
         "Demos_papers",
         "Doctoral Consortium_papers",
-        "doctoral_consortium",
         "EAAI_papers",
         "IAAI_papers",
         "Main Track_papers",
@@ -213,6 +215,7 @@ def load_site_data(
     # workshop_<uid>.html
     by_uid["workshops"] = {workshop.id: workshop for workshop in workshops}
 
+<<<<<<< HEAD
     # Doctoral Consortium
     doctoral_consortium=build_doctoral_consortium(site_data["doctoral_consortium"])
     site_data["doctoral_consortium"] = doctoral_consortium
@@ -222,6 +225,9 @@ def load_site_data(
     site_data["demonstrations"] = demonstrations
 
     # socials.html/diversity_programs.html
+=======
+    # socials.html
+>>>>>>> fix
     social_events = build_socials(site_data["socials"])
     site_data["socials"] = social_events
 
@@ -1153,6 +1159,7 @@ def build_workshops(
 
     return workshops
 
+<<<<<<< HEAD
 def build_doctoral_consortium(raw_doctoral_consortiums: List[Dict[str, Any]]) -> List[DoctoralConsortium]:
     def build_doctoral_consortium_blocks(t: Dict[str, Any]) -> List[SessionInfo]:
         blocks = compute_schedule_blocks(t["sessions"])
@@ -1247,6 +1254,8 @@ def build_demonstrations(raw_demonstrations: List[Dict[str, Any]]) -> List[Demon
         )
         for item in raw_demonstrations
     ]
+=======
+>>>>>>> fix
 
 def build_socials(raw_socials: List[Dict[str, Any]]) -> List[SocialEvent]:
     return [

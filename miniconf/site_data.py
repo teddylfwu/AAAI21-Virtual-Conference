@@ -158,7 +158,7 @@ class CommitteeMember:
     name: str
     aff: str
     image: Optional[str]
-    pweb: str
+
 
 @dataclass(frozen=True)
 class TutorialSessionInfo:
@@ -229,6 +229,7 @@ class Tutorial:
     blocks: List[SessionInfo]
     virtual_format_description: str
 
+<<<<<<< HEAD
 @dataclass(frozen=True)
 class DoctoralConsortium:
     id: str
@@ -259,6 +260,8 @@ class Demonstrations:
     blocks: List[SessionInfo]
     virtual_format_description: str
 
+=======
+>>>>>>> fix
 
 @dataclass(frozen=True)
 class WorkshopPaper:
