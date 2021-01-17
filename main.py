@@ -54,6 +54,7 @@ def invited_talks():
 @app.route("/awards.html")
 def awards():
     data = _data()
+    data['awards'] = site_data['awards']
     return render_template("awards.html", **data)
 
 
