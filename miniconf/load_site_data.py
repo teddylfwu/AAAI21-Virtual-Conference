@@ -6,6 +6,7 @@ import json
 import os
 from collections import OrderedDict, defaultdict
 from datetime import timedelta
+# from scripts.dataentry.tutorials import Session
 from typing import Any, DefaultDict, Dict, List, Optional, Tuple
 
 import jsons
@@ -29,6 +30,8 @@ from miniconf.site_data import (
     Workshop,
     WorkshopPaper,
     DoctoralConsortium,
+    Award,
+    Awardee
 )
 
 
@@ -74,6 +77,7 @@ def load_site_data(
         # sponsors.html
         "sponsors",
         # about.html
+        "awards",
         "code_of_conduct",
         "faq",
     }
@@ -210,9 +214,13 @@ def load_site_data(
     doctoral_consortium=build_tutorials(site_data["doctoral_consortium"])
     site_data["doctoral_consortium"] = doctoral_consortium
 
-    # socials.html
+    # socials.html/diversity_programs.html
     social_events = build_socials(site_data["socials"])
     site_data["socials"] = social_events
+
+    # organization awards
+    awards = build_awards(site_data['awards'])
+    site_data['awards'] = awards
 
     # papers.{html,json}
     papers = build_papers(
@@ -312,6 +320,28 @@ def build_committee(
 
     return committee_by_role
 
+def build_awards(raw_awards: List[Dict[str, Any]]) -> List[Award]:
+    # print(raw_awards)
+    return [
+        Award(
+            id=award["id"],
+            name=award["name"],
+            description=award["description"],
+            awardees=[Awardee(
+                name=awardee['name'],
+                id=awardee['id'],
+                description=awardee['description'] if 'description' in awardee.keys() else None,
+                image=awardee['image'] if 'image' in awardee.keys() else None,
+                organization=awardee['organization'],
+                talk=SessionInfo(session_name = awardee['talk'][0]['session_name'], 
+                                start_time=awardee['talk'][0]['start_time'],
+                                end_time=awardee['talk'][0]['end_time'],
+                                link=awardee['talk'][0]['link']) 
+                                if 'talk' in awardee.keys() else None
+            ) for awardee in award['awardees']]
+        )
+        for award in raw_awards
+    ]
 
 def build_plenary_sessions(
     raw_plenary_sessions: List[Dict[str, Any]],
