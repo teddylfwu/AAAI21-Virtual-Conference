@@ -91,6 +91,12 @@ def student_abstract_program():
     data["tutorials_OTHER"] = site_data["tutorials_OTHER"]
     return render_template("student_abstract_program.html", **data)
 
+@app.route("/demonstrations.html")
+def demonstrations():
+    data = _data()
+    data["demonstrations"] = site_data["demonstrations"]
+    return render_template("demonstrations.html", **data)
+
 @app.route("/diversity_programs.html")
 def diversity_programs():
     data = _data()

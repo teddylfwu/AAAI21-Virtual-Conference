@@ -1,0 +1,160 @@
+{% extends "base.html" %}
+{% set active_page = "Demonstrations" %}
+{% set page_title = "Demonstrations" %}
+
+{% block heading %}
+{{ components.section("Demonstrations") }}
+
+<div class="pp-card m-3" style="">
+    <div class="card-header">
+        <p>Welcome to the AAAI-21 Demonstration Program!</p>
+        <p>The AAAI-21 Demonstrations Program is intended to foster discussion and exchange of ideas among researchers and practitioners from academia and industry by presenting software and hardware systems and research prototypes of such systems, including their capabilities and workings. All accepted demos are scheduled for presentation February 4-7. Accepted demonstrations also have a short paper available for viewing throughout the conference.</p>
+        <p>Demo presentations will fall in the conference-wide poster/demo session time slots:</p>
+        <p>
+            8:45 - 10:30 AM PST <br />
+            4:45 - 6:30 PM PST <br />
+            12:45 - 2:30 AM PST
+        </p>
+        <p>Each demo poster will be available during all three time segments on the day it is scheduled. We have encouraged presenters to be present in at least two of the three presentation windows.</p>
+        <p>Kartik Talamadupula and Cynthia Matuszek</p>
+        <p>Demonstrations Program Cochairs</p>
+    </div>
+</div>
+
+<h2 class="card-title main-title text-center" style="">
+      AAAI-21 Demonstration Schedule
+</h2>
+
+<div class="accordion" id="accordionExample">
+    <div class="text-center p-3">
+    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        February 4
+    </button>
+    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+        February 5
+    </button>
+    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+        February 6
+    </button>
+    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+        February 7
+    </button>
+</div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+  <h3 class="card-title main-title text-center">
+      February 4
+  </h3>
+  <div class="card-body">
+    <table class="table table-bordered table-striped" style="font-size: small;">
+      <thead>
+        <tr>
+          <th scope="col" style="width: 60%;">Paper</th>
+          <th scope="col">Authors</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td scope="row"><a href="paper_SA-11.html">SA-11: Towards Sample Efficient Agents through Algorithmic Alignment (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Mingxuan Li, Michael Littman</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+  <h3 class="card-title main-title text-center">
+      February 5
+  </h3>
+  <div class="card-body">
+    <table class="table table-bordered table-striped" style="font-size: small;">
+      <thead>
+        <tr>
+          <th scope="col" style="width: 60%;">Paper</th>
+          <th scope="col">Authors</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td scope="row"><a href="paper_SA-197.html">SA-197: Domain Generalisation with Domain Augmented Supervised Contrastive Learning (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Hoang Son Le, Rini Akmeliawati, Gustavo Carneiro</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+  <h3 class="card-title main-title text-center">
+      February 6
+  </h3>
+  <div class="card-body">
+    <table class="table table-bordered table-striped" style="font-size: small;">
+      <thead>
+        <tr>
+          <th scope="col" style="width: 60%;">Paper</th>
+          <th scope="col">Authors</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td scope="row"><a href="paper_SA-285.html">SA-285: Attention Beam: An Image Captioning Approach (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Anubhav Shrimal, Tanmoy Chakraborty</td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+</div>
+
+    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+  <h3 class="card-title main-title text-center">
+      February 7
+  </h3>
+  <div class="card-body">
+    <table class="table table-bordered table-striped" style="font-size: small;">
+      <thead>
+        <tr>
+          <th scope="col" style="width: 60%;">Paper</th>
+          <th scope="col">Authors</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td scope="row"><a href="paper_SA-372.html">SA-372: Reinforcement Based Learning on Classification Task Yields Better Generalization and Adversarial Accuracy (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Shashi Kant Gupta</td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+</div>
+</div>
+
+{#<div class="row m-2">#}
+{#  <div class="col-md-7 col-xs-12 my-auto p-2">#}
+{#      <div class="text-muted text-center">#}
+{#        You can open <a href="https://{{config.chat_server}}/channel/Events_StudentAbstractProgram" target="_blank">Student Abstract Program</a>#}
+{#        channel in a separate window.#}
+{#      </div>#}
+{#  </div>#}
+{##}
+{#  <div class="col-md-5 col-xs-12 p-2">#}
+{#      <div id="gitter" class="slp">#}
+{#        <iframe frameborder="0" src="https://aaai-21.rocket.chat/channel/Events_StudentAbstractProgram?layout=embedded" height="700px" width="100%" ></iframe>#}
+{#      </div>#}
+{#  </div>#}
+{#</div>#}
+
+{% endblock %}
+
+{% block content %}
+
+<script src="static/js/time-extend.js"></script>
+<script>
+  $(document).ready(()=>{
+    add_local_tz('.session_times');
+  })
+</script>
+{% endblock %}

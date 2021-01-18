@@ -244,6 +244,21 @@ class DoctoralConsortium:
     blocks: List[SessionInfo]
     virtual_format_description: str
 
+@dataclass(frozen=True)
+class Demonstrations:
+    id: str
+    title: str
+    organizers: List[str]
+    abstract: str
+    website: Optional[str]
+    material: Optional[str]
+    slides: Optional[str]
+    prerecorded: Optional[str]
+    rocketchat_channel: str
+    sessions: List[SessionInfo]
+    blocks: List[SessionInfo]
+    virtual_format_description: str
+
 
 @dataclass(frozen=True)
 class WorkshopPaper:
