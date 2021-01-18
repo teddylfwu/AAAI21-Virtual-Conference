@@ -84,6 +84,12 @@ def undergraduate_consortium():
     data["tutorials_OTHER"] = site_data["tutorials_OTHER"]
     return render_template("undergraduate_consortium.html", **data)
 
+@app.route("/student_abstract_program.html")
+def student_abstract_program():
+    data = _data()
+    data["tutorials_UC"] = site_data["tutorials_UC"]
+    data["tutorials_OTHER"] = site_data["tutorials_OTHER"]
+    return render_template("student_abstract_program.html", **data)
 
 @app.route("/diversity_programs.html")
 def diversity_programs():
