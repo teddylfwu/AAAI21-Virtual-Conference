@@ -1,6 +1,6 @@
 # Deployment with AWS
 
-This document describes how to deploy this project on AWS. It is basically follow EMNLP-2020's practice.
+This document describes how to deploy this project on AWS. It basically follows EMNLP-2020's practice.
 
 We will use the following parts:
 
@@ -34,7 +34,7 @@ We recommend to do the pipeline IN ORDER.
     * lambda related
     * S3 related
     
-    If you are not confident, you can add ``AdministratorAccess`` (but I don't recommend to do that...).
+    If you are not confident about the permissions, you can add ``AdministratorAccess`` (although I don't recommend doing that).
 3. Goto ``Users``, create a user ``aaai2021user`` belong to ``aaai2021conf`` group. Add all permission in ``aaai2021conf``.
 Please note down the user id and password (you can only download when you create).
 
@@ -42,13 +42,13 @@ Please note down the user id and password (you can only download when you create
 1. In ``Email Addresses``, add the email address and verify it.
 2. In ``Sending Statistics``, if you find that your SES permission is ``sandbox``, please promote your account's sending limit.
 The aws will ask you some questions through support.
-3. Send test emails to anyone who is not in verified ``Email Addresses`` list.
+3. Send test emails to anyone who is not on the verified ``Email Addresses`` list.
 
 ### SSL certificate
-Create a SSL certificate in [AWS Certificate Manager](https://aws.amazon.com/de/certificate-manager/) . 
+Create SSL certificates in [AWS Certificate Manager](https://aws.amazon.com/de/certificate-manager/). 
 We create two certificates:
-    * virtual.2021.aaai.org
-    * signin.2021.aaai.org
+   * virtual.2021.aaai.org
+   * signin.2021.aaai.org
 
 Then verify them through domain administrators' email. Please remind them to approve. 
 
@@ -82,7 +82,7 @@ We recommend to keep the ``Amazon Cognito domain`` empty.
 We use the [cloudfront-authorization-at-edge](https://github.com/aws-samples/cloudfront-authorization-at-edge) 
 AWS sample. We found it easiest to deploy it via [the Serverless Application Repository](https://console.aws.amazon.com/lambda/home#/create/app?applicationId=arn:aws:serverlessrepo:us-east-1:520945424137:applications/cloudfront-authorization-at-edge).
 
-Since it will do automatically, so don't mind.
+It will do automatically.
 
 1. Go to [Cloudfront template](https://console.aws.amazon.com/lambda/home#/create/app?applicationId=arn:aws:serverlessrepo:us-east-1:520945424137:applications/cloudfront-authorization-at-edge).
 
@@ -107,8 +107,8 @@ Now you can visit it through domain name.
 Now you have finished the setup of AWS. You need to add the content to S3 bucket. 
 We find it really convenient to synchronize the website with the github repo through ``github action``.
 
-What's more, it need a additional computer to be the 'communicator' between github and AWS. Since it will be fully 
-controlled by others, we recommend to create a ec2 instance in AWS (the cheapest one is ok). You need to write down the 
+What's more, it needs an additional computer to be the 'communicator' between github and AWS. Since it will be fully 
+controlled by others, we recommend creating an ec2 instance in AWS (the cheapest one is ok). You need to write down the 
 ssh public key and private key.
 
 This repository comes with an action to build and deploy this repository automatically. To set it up, do the following:
@@ -119,13 +119,9 @@ This repository comes with an action to build and deploy this repository automat
 2. Go to ``Action`` in github repo page, you can find the workflow.
 3. Go to ``Setting``, then ``Deploy keys``. Add the ssh public key and enable ``Allow write access``:
     * name: ec2, value: public_key
-4. Go to ``Setting``, then ``Secrets``, create the following five scres
+4. Go to ``Setting``, then ``Secrets``, create the following five secrets
 
 This repository comes with an action to build and deploy this repository automatically. To set it up, do the following:
-
-1. Create a SSH key pair locally
-2. In the repository settings under `Deploy keys`, add the just generated public key
-3. In the repository settings under `Secrets`, create the following secrets:
     * name: AWS_ACCESS_KEY_ID, value: aws role's key id
     * name: AWS_SECRET_ACCESS_KEY, value: aws role's secret
     * name: AWS_CLOUDFRONT_DISTRIBUTION_ID, value: cloudfront's ID
@@ -134,7 +130,8 @@ This repository comes with an action to build and deploy this repository automat
 <p align="center">
   <img src="img/github_secrets.png">
 </p>
-4. Submit a commit to the branch and you can find the building works. After building, you can visit the website's domain name.
+
+Submit a commit to the branch and you can find the building works. After building, you can visit the website's domain name.
 You can find your website show the correct pages.
 
 ## RocketChat
@@ -147,7 +144,7 @@ We develop some tools based on emnlp-2020 to manage users.
 Now it supports:
    * create users in batch
    * export all users (only emails)
-   * reset specific password for user
+   * reset a specific password for user
 
 Please see this part's [README.md](https://github.com/teddylfwu/AAAI21-Virtual-Conference/blob/develop/tools/aws/cognito/README.md)
 
