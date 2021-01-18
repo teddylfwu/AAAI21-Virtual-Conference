@@ -54,6 +54,7 @@ def invited_talks():
 @app.route("/awards.html")
 def awards():
     data = _data()
+    data['awards'] = site_data['awards']
     return render_template("awards.html", **data)
 
 
@@ -83,6 +84,12 @@ def undergraduate_consortium():
     data["tutorials_OTHER"] = site_data["tutorials_OTHER"]
     return render_template("undergraduate_consortium.html", **data)
 
+@app.route("/student_abstract_program.html")
+def student_abstract_program():
+    data = _data()
+    data["tutorials_UC"] = site_data["tutorials_UC"]
+    data["tutorials_OTHER"] = site_data["tutorials_OTHER"]
+    return render_template("student_abstract_program.html", **data)
 
 @app.route("/diversity_programs.html")
 def diversity_programs():
@@ -97,10 +104,10 @@ def gathers():
     return render_template("gathers.html", **data)
 
 
-@app.route("/ai_job_fail.html")
+@app.route("/ai_job_fair.html")
 def ai_job_fail():
     data = _data()
-    return render_template("ai_job_fail.html", **data)
+    return render_template("ai_job_fair.html", **data)
 
 
 @app.route("/reception.html")
@@ -215,8 +222,8 @@ def workshops():
 @app.route("/sponsors.html")
 def sponsors():
     data = _data()
-    # data["sponsors"] = site_data["sponsors_by_level"]
-    # data["sponsor_levels"] = site_data["sponsor_levels"]
+    data["sponsors"] = site_data["sponsors_by_level"]
+    data["sponsor_levels"] = site_data["sponsor_levels"]
     return render_template("sponsors.html", **data)
 
 

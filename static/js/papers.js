@@ -638,8 +638,10 @@ const card_fav_btn_html = (is_fav) => {
 
 const program_to_badge_class = new Map()
 program_to_badge_class["AISI"] = "primary";
-program_to_badge_class["main"] = "dark";
-program_to_badge_class["demo"] = "primary";
+program_to_badge_class["IAAI"] = "danger";
+program_to_badge_class["EAAI"] = "danger";
+program_to_badge_class["Main"] = "primary";
+program_to_badge_class["Demo"] = "warning";
 program_to_badge_class["DC"] = "success";
 program_to_badge_class["SMT"] = "danger";
 program_to_badge_class["SC"] = "warning";
@@ -668,7 +670,7 @@ const card_html = openreview => `
                 <h6 class="card-subtitle mb-2 text-muted">${openreview.content.authors.join(', ')}</h6>
                 
                 ${card_program_badge(openreview)}
-
+                ${card_image(openreview, render_mode !== 'list')}
                 ${card_detail(openreview, (render_mode === 'detail'))}
             </div>
 

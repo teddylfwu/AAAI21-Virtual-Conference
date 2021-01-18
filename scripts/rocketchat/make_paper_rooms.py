@@ -36,7 +36,7 @@ def read_papers(fname):
     if typ == "json":
         res = json.load(open(fname))
     elif typ in {"csv", "tsv"}:
-        res = list(csv.DictReader(open(fname)))
+        res = list(csv.DictReader(open(fname, encoding="utf-8")))
     elif typ == "yml":
         res = yaml.load(open(fname).read(), Loader=yaml.SafeLoader)
     else:
@@ -45,12 +45,19 @@ def read_papers(fname):
 
 
 def connect_rocket_API(config, session):
+    # rocket = RocketChat(
+    #     user_id=config["user_id"],
+    #     auth_token=config["auth_token"],
+    #     server_url=config["server"],
+    #     session=session,
+    # )
     rocket = RocketChat(
-        user_id=config["user_id"],
-        auth_token=config["auth_token"],
+        config["user_id"],
+        config["auth_token"],
         server_url=config["server"],
         session=session,
     )
+
     return rocket
 
 

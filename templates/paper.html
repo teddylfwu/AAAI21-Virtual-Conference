@@ -96,11 +96,10 @@
       </a>
       {% endif %}
 {#      {% if paper.content.program == "main" %}#}
-      <a class="card-link" target="_blank" href="https://www.connectedpapers.com/conferece-redirect/main/{{ config.connected_papers_conference_name }}/{{paper.id}}/graph">
-        Connected Papers
-      </a>
+{#      <a class="card-link" target="_blank" href="https://www.connectedpapers.com/conferece-redirect/main/{{ config.connected_papers_conference_name }}/{{paper.id}}/graph">#}
+{#        Connected Papers#}
+{#      </a>#}
 {#      {% endif %}#}
-
       {% if paper.content.material %}
       {% for material in paper.content.material.split("|") %}
         <span class="card-link d-inline-block">{{ material|markdown }}</span>
@@ -118,7 +117,26 @@
 {#     {% elif paper.content.program == "workshop" %}#}
 {#      <a href="papers.html?program=workshop&track={{paper.content.track}}" class ="badge badge-pill badge-primary">{{ paper.content.track }}</a>#}
 {#      {% endif %}#}
-      <span class="badge badge-secondary">{{ paper.content.program }} Paper</span>
+        {% if paper.content.program == "Main" %}
+      <span class="badge badge-secondary">Main Track</span>
+        {% elif paper.content.program == "AISI" %}
+      <span class="badge badge-secondary">AI for Social Impact Track</span>
+        {% elif paper.content.program == "SMT" %}
+      <span class="badge badge-secondary">Senior Member Track</span>
+        {% elif paper.content.program == "Demo" %}
+      <span class="badge badge-secondary">Demonstrations</span>
+        {% elif paper.content.program == "SA" %}
+      <span class="badge badge-secondary">Student Abstract and Poster Program</span>
+        {% elif paper.content.program == "DC" %}
+      <span class="badge badge-secondary">Doctoral Consortium</span>
+        {% elif paper.content.program == "UC" %}
+      <span class="badge badge-secondary">Undergraduate Consortium</span>
+        {% elif paper.content.program == "IAAI" %}
+      <span class="badge badge-secondary">Innovative Applications of Artificial Intelligence Conference</span>
+        {% elif paper.content.program == "EAAI" %}
+      <span class="badge badge-secondary">Symposium on Educational Advances in Artificial Intelligence</span>
+        {% endif %}
+
     </p>
 
     {{ components.live_sessions(
@@ -129,17 +147,17 @@
 
         <p class="card-text text-center h5 pt-2">
 
-    {% if paper.presentation_id %}
-      <span>
-      You can open the
-    <a href="https://slideslive.com/{{paper.presentation_id}}" target="_blank">pre-recorded video</a>
-    and the
-    <a href="https://{{config.chat_server}}/channel/{{paper.rocketchat_channel}}"
-       target="_blank">#{{paper.rocketchat_channel}}</a>
-    channel
-    in separate windows.
-    </span>
-    {% endif %}
+{#    {% if paper.presentation_id %}#}
+{#      <span>#}
+{#      You can open the#}
+{#    <a href="https://slideslive.com/{{paper.presentation_id}}" target="_blank">pre-recorded video</a>#}
+{#    and the#}
+{#    <a href="https://{{config.chat_server}}/channel/{{paper.rocketchat_channel}}"#}
+{#       target="_blank">#{{paper.rocketchat_channel}}</a>#}
+{#    channel#}
+{#    in separate windows.#}
+{#    </span>#}
+{#    {% endif %}#}
     </p>
 
   </div>
@@ -169,7 +187,7 @@
       <script src='static/js/embed_presentation.js'></script>
       <script>
         embed = new SlidesLiveEmbed('presentation-intro', {
-        presentationId: '{{paper.presentation_id | default(config.default_presentation_id)}}',
+        presentationId: '{{paper.presentation_id_intro | default(config.default_presentation_id)}}',
 {#        presentationId: '38938822',#}
         autoPlay: false, // change to true to autoplay the embedded presentation
         verticalEnabled: false,
@@ -285,9 +303,9 @@
                  {% endif %}
              {% endfor %}
           </h6>
-{#          <center>#}
-{#              <img class="cards_img" src="{{recommended.card_image_path}}" onerror="javascript:this.onerror=null;this.src=''" width="80%"/>#}
-{#          </center>#}
+          <center>
+              <img class="cards_img" src="{{recommended.card_image_path}}" onerror="javascript:this.onerror=null;this.src=''" width="80%"/>
+          </center>
         </div>
       </div>
     </div>
