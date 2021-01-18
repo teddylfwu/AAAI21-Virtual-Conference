@@ -139,16 +139,16 @@ committee:
   name: Nathan Sturtevant
   role: Senior Member Track Cochairs
   pweb: https://apps.ualberta.ca/directory/person/nathanst
-- aff: French National Institute for Agricultural Research | INRA, France
-  image: static/images/committee/29_Thomas Schiex.jpg
-  name: Thomas Schiex
-  role: Sister Conference Track Chair
-  pweb: https://www.researchgate.net/profile/Thomas_Schiex
-- aff: University of California, Irvine, USA
-  image: static/images/committee/30_Alexander Ihler.jpg
-  name: Alexander Ihler
-  role: Sister Conference Track Chair
-  pweb: https://www.ics.uci.edu/~ihler/
+  #- aff: French National Institute for Agricultural Research | INRA, France
+  #image: static/images/committee/29_Thomas Schiex.jpg
+  #name: Thomas Schiex
+  #role: Sister Conference Track Chair
+  #pweb: https://www.researchgate.net/profile/Thomas_Schiex
+  #- aff: University of California, Irvine, USA
+  #image: static/images/committee/30_Alexander Ihler.jpg
+  #name: Alexander Ihler
+  #role: Sister Conference Track Chair
+  #pweb: https://www.ics.uci.edu/~ihler/
 - aff: IHMC and Tulane University, USA
   image: static/images/committee/31_K. Brent Venable.jpg
   name: K. Brent Venable
