@@ -455,16 +455,28 @@ def generate_tutorial_events(site_data: Dict[str, Any]):
             for block in blocks:
                 min_start = min([t["start_time"] for t in block])
                 max_end = max([t["end_time"] for t in block])
-                event = {
-                    "title": f"<b>{uid}: {tutorial['title']}</b><br/><i>{tutorial['organizers']}</i>",
-                    "start": min_start,
-                    "end": max_end,
-                    "location": f"undergraduate_consortium.html",
-                    "link": f"undergraduate_consortium.html",
-                    "category": "time",
-                    "type": "Undergraduate Consortium",
-                    "view": "day",
-                }
+                if uid == "UC":
+                    event = {
+                        "title": f"<b>{uid}: {tutorial['title']}</b><br/><i>{tutorial['organizers']}</i>",
+                        "start": min_start,
+                        "end": max_end,
+                        "location": f"undergraduate_consortium.html",
+                        "link": f"undergraduate_consortium.html",
+                        "category": "time",
+                        "type": "Undergraduate Consortium",
+                        "view": "day",
+                    }
+                else:
+                    event = {
+                        "title": f"<b>{uid}: {tutorial['title']}</b><br/><i>{tutorial['organizers']}</i>",
+                        "start": min_start,
+                        "end": max_end,
+                        "location": f"paper_{uid}.html",
+                        "link": f"paper_{uid}.html",
+                        "category": "time",
+                        "type": "Undergraduate Consortium",
+                        "view": "day",
+                    }
                 site_data["overall_calendar"].append(event)
                 assert min_start < max_end, "Session start after session end"
 
