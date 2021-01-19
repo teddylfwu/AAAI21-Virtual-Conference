@@ -394,6 +394,14 @@ def generator():
     for workshop in site_data["workshops"]:
         yield "workshop", {"uid": workshop.id}
 
+    # demonstrations: Demonstrations
+    # for demonstration in site_data["demonstrations"]:
+    #     yield "demonstration", {"uid": demonstration.id}
+
+    # doctoral_consortium: Doctoral_consortium
+    # for doctoral_consortium in site_data["doctoral_consortium"]:
+    #     yield "doctoral_consortium", {"uid": doctoral_consortium.id}
+
     for sponsor in site_data["sponsors"]:
         if "landingpage" in sponsor:
             continue

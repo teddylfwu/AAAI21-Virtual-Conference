@@ -113,6 +113,7 @@ def load_site_data(
     generate_plenary_events(site_data)
     generate_tutorial_events(site_data)
     generate_workshop_events(site_data)
+    generate_dc_events(site_data)
     generate_paper_events(site_data)
     generate_social_events(site_data)
 
@@ -213,7 +214,7 @@ def load_site_data(
     by_uid["workshops"] = {workshop.id: workshop for workshop in workshops}
 
     # Doctoral Consortium
-    doctoral_consortium=build_tutorials(site_data["doctoral_consortium"])
+    doctoral_consortium=build_doctoral_consortium(site_data["doctoral_consortium"])
     site_data["doctoral_consortium"] = doctoral_consortium
 
     # Demonstrations
@@ -547,6 +548,55 @@ def generate_tutorial_events(site_data: Dict[str, Any]):
         }
         site_data["overall_calendar"].append(event)
 
+def generate_dc_events(site_data: Dict[str, Any]):
+    """ We add sessions from tutorials and compute the overall dc blocks for the weekly view. """
+
+    # Add tutorial sessions to calendar
+    all_sessions: List[Dict[str, Any]] = []
+    for dc in site_data["doctoral_consortium"]:
+        uid = dc["UID"]
+        blocks = compute_schedule_blocks(dc["sessions"])
+
+        for block in blocks:
+            min_start = min([t["start_time"] for t in block])
+            max_end = max([t["end_time"] for t in block])
+            event = {
+                "title": f"<b>{uid}: {dc['title']}</b><br/><i>{dc['organizers']}</i>",
+                "start": min_start,
+                "end": max_end,
+                "location": f"doctoral_consortium.html",
+                "link": f"doctoral_consortium.html",
+                "category": "time",
+                "type": "Doctoral Consortium",
+                "view": "day",
+            }
+            site_data["overall_calendar"].append(event)
+            assert min_start < max_end, "Session start after session end"
+
+        all_sessions.extend(dc["sessions"])
+
+    blocks = compute_schedule_blocks(all_sessions)
+
+    # Compute start and end of tutorial blocks
+    for block in blocks:
+        min_start = min([t["start_time"] for t in block])
+        max_end = max([t["end_time"] for t in block])
+
+        event = {
+            "title": "Doctoral Consortium",
+            "start": min_start,
+            "end": max_end,
+            "location": "doctoral_consortium.html",
+            "link": "doctoral_consortium.html",
+            "category": "time",
+            "type": "Doctoral Consortium",
+            "view": "week",
+        }
+        site_data["overall_calendar"].append(event)
+        # print("*******************************")
+        # for e in site_data["overall_calendar"]:
+        #     print(e)
+
 
 def generate_workshop_events(site_data: Dict[str, Any]):
     """ We add sessions from workshops and compute the overall workshops blocks for the weekly view. """
@@ -721,6 +771,7 @@ def build_schedule(overall_calendar: List[Dict[str, Any]]) -> List[Dict[str, Any
             "Socials",
             "Sponsors",
             "Undergraduate Consortium",
+            "Doctoral Consortium",
         }
     ]
 
@@ -746,6 +797,9 @@ def build_schedule(overall_calendar: List[Dict[str, Any]]) -> List[Dict[str, Any
             event["url"] = event["link"]
         elif event_type == "Undergraduate Consortium":
             event["classNames"] = ["calendar-event-uc"]
+            event["url"] = event["link"]
+        elif event_type == "Doctoral Consortium":
+            event["classNames"] = ["calendar-event-dc"]
             event["url"] = event["link"]
         else:
             event["classNames"] = ["calendar-event-other"]
@@ -1136,8 +1190,7 @@ def build_doctoral_consortium(raw_doctoral_consortiums: List[Dict[str, Any]]) ->
                     start_time=session.get("start_time"),
                     end_time=session.get("end_time"),
                     hosts=session.get("hosts", ""),
-                    livestream_id=session.get("livestream_id"),
-                    zoom_link=session.get("zoom_link"),
+                    link=session.get("zoom_link", ""),
                 )
                 for session in item.get("sessions")
             ],
