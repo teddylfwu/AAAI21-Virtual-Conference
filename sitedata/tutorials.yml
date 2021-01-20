@@ -15,13 +15,13 @@
   rocketchat_channel: MQ1ExplainableAIforSocietalEventPredictionsFoundationsMethodsandApplications
   sessions:
   - name: MQ1
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 15:00:00+00:00
+    start_time: 2021-02-03 16:30:00+00:00
+    end_time: 2021-02-03 18:00:00+00:00
     zoom_link: 123.com
     hosts: Songgaojun Deng, Yue Ning and Huzefa Rangwala
   - name: MQ1
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 15:00:00+00:00
+    start_time: 2021-02-03 16:30:00+00:00
+    end_time: 2021-02-03 18:00:00+00:00
     zoom_link: 123.com
     hosts: Songgaojun Deng, Yue Ning and Huzefa Rangwala
   authors:
@@ -55,13 +55,13 @@
   rocketchat_channel: MQ2AnExtensibleToolkitforExplainableRecommenderSystems
   sessions:
   - name: MQ2
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 15:00:00+00:00
+    start_time: 2021-02-03 16:30:00+00:00
+    end_time: 2021-02-03 18:00:00+00:00
     zoom_link: 123.com
     hosts: Ludovik Coba, Roberto Confalonieri and Markus Zanker
   - name: MQ2
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 15:00:00+00:00
+    start_time: 2021-02-03 16:30:00+00:00
+    end_time: 2021-02-03 18:00:00+00:00
     zoom_link: 123.com
     hosts: Ludovik Coba, Roberto Confalonieri and Markus Zanker
   authors:
@@ -105,13 +105,13 @@
   rocketchat_channel: MQ3DeepRandomizedNeuralNetworks
   sessions:
   - name: MQ3
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 15:00:00+00:00
+    start_time: 2021-02-03 18:15:00+00:00
+    end_time: 2021-02-03 19:45:00+00:00
     zoom_link: 123.com
     hosts: Claudio Gallicchio
   - name: MQ3
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 15:00:00+00:00
+    start_time: 2021-02-03 18:15:00+00:00
+    end_time: 2021-02-03 19:45:00+00:00
     zoom_link: 123.com
     hosts: Claudio Gallicchio
   authors:
@@ -141,13 +141,13 @@
   rocketchat_channel: MQ4EfficientNeuralArchitectureSearch
   sessions:
   - name: MQ4
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 15:00:00+00:00
+    start_time: 2021-02-03 18:15:00+00:00
+    end_time: 2021-02-03 19:45:00+00:00
     zoom_link: 123.com
     hosts: Tejaswini Pedapati and Martin Wistuba
   - name: MQ4
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 15:00:00+00:00
+    start_time: 2021-02-03 18:15:00+00:00
+    end_time: 2021-02-03 19:45:00+00:00
     zoom_link: 123.com
     hosts: Tejaswini Pedapati and Martin Wistuba
   authors:
@@ -179,13 +179,13 @@
   rocketchat_channel: MH1ArtificialIntelligenceforDrugDiscovery
   sessions:
   - name: MH1
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
+    start_time: 2021-02-03 16:30:00+00:00
+    end_time: 2021-02-03 19:45:00+00:00
     zoom_link: 123.com
     hosts: Jian Tang, Fei Wang and Feixiong Cheng
   - name: MH1
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
+    start_time: 2021-02-03 16:30:00+00:00
+    end_time: 2021-02-03 19:45:00+00:00
     zoom_link: 123.com
     hosts: Jian Tang, Fei Wang and Feixiong Cheng
   authors:
@@ -222,13 +222,13 @@
   rocketchat_channel: MH2CommonsenseKnowledgeAcquisitionandRepresentation
   sessions:
   - name: MH2
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
+    start_time: 2021-02-03 16:30:00+00:00
+    end_time: 2021-02-03 19:45:00+00:00
     zoom_link: 123.com
     hosts: Filip Ilievski, Antoine Bosselut, Simon Razniewski and Mayank Kejriwal
   - name: MH2
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
+    start_time: 2021-02-03 16:30:00+00:00
+    end_time: 2021-02-03 19:45:00+00:00
     zoom_link: 123.com
     hosts: Filip Ilievski, Antoine Bosselut, Simon Razniewski and Mayank Kejriwal
   authors:
@@ -271,13 +271,13 @@
   rocketchat_channel: MH3DealingwithBiasandFairnessinBuildingAISystems
   sessions:
   - name: MH3
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
+    start_time: 2021-02-03 16:30:00+00:00
+    end_time: 2021-02-03 19:45:00+00:00
     zoom_link: 123.com
     hosts: Rayid Ghani, Pedro Saleiro and Kit Rodolfa
   - name: MH3
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
+    start_time: 2021-02-03 16:30:00+00:00
+    end_time: 2021-02-03 19:45:00+00:00
     zoom_link: 123.com
     hosts: Rayid Ghani, Pedro Saleiro and Kit Rodolfa
   authors:
@@ -312,13 +312,13 @@
   rocketchat_channel: MH4DesigningAgentsPreferencesBeliefsandIdentities
   sessions:
   - name: MH4
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
+    start_time: 2021-02-03 16:30:00+00:00
+    end_time: 2021-02-03 19:45:00+00:00
     zoom_link: 123.com
     hosts: Vincent Conitzer
   - name: MH4
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
+    start_time: 2021-02-03 16:30:00+00:00
+    end_time: 2021-02-03 19:45:00+00:00
     zoom_link: 123.com
     hosts: Vincent Conitzer
   authors:
@@ -345,13 +345,13 @@
   rocketchat_channel: MH5LearningwithSmallData
   sessions:
   - name: MH5
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
+    start_time: 2021-02-03 16:30:00+00:00
+    end_time: 2021-02-03 19:45:00+00:00
     zoom_link: 123.com
     hosts: Huaxiu Yao, Fei Wang and Zhenhui Jessie Li
   - name: MH5
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
+    start_time: 2021-02-03 16:30:00+00:00
+    end_time: 2021-02-03 19:45:00+00:00
     zoom_link: 123.com
     hosts: Huaxiu Yao, Fei Wang and Zhenhui Jessie Li
   authors:
@@ -394,13 +394,13 @@
   rocketchat_channel: MH6MetaLearning
   sessions:
   - name: MH6
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
+    start_time: 2021-02-03 16:30:00+00:00
+    end_time: 2021-02-03 19:45:00+00:00
     zoom_link: 123.com
     hosts: Iddo Drori and Joaquin Vanschoren
   - name: MH6
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
+    start_time: 2021-02-03 16:30:00+00:00
+    end_time: 2021-02-03 19:45:00+00:00
     zoom_link: 123.com
     hosts: Iddo Drori and Joaquin Vanschoren
   authors:
@@ -435,14 +435,14 @@
   rocketchat_channel: MH7RecentAdvancesinIntegratingMachineLearningandCombinatorialOptimization
   sessions:
   - name: MH7
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
+    start_time: 2021-02-03 16:30:00+00:00
+    end_time: 2021-02-03 19:45:00+00:00
     zoom_link: 123.com
     hosts: "Elias Khalil, Andrea Lodi, Bistra Dilkina, Didier Ch\xE9telat, Maxime\
       \ Gasse, Antoine Prouvost, Giulia Zarpellon and Laurent Charlin"
   - name: MH7
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
+    start_time: 2021-02-03 16:30:00+00:00
+    end_time: 2021-02-03 19:45:00+00:00
     zoom_link: 123.com
     hosts: "Elias Khalil, Andrea Lodi, Bistra Dilkina, Didier Ch\xE9telat, Maxime\
       \ Gasse, Antoine Prouvost, Giulia Zarpellon and Laurent Charlin"
@@ -495,13 +495,13 @@
   rocketchat_channel: MH8ResponsibleAIinIndustry
   sessions:
   - name: MH8
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
+    start_time: 2021-02-03 16:30:00+00:00
+    end_time: 2021-02-03 19:45:00+00:00
     zoom_link: 123.com
     hosts: Krishnaram Kenthapadi, Ben Packer, Mehrnoosh Sameki and Nashlie Sephus
   - name: MH8
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
+    start_time: 2021-02-03 16:30:00+00:00
+    end_time: 2021-02-03 19:45:00+00:00
     zoom_link: 123.com
     hosts: Krishnaram Kenthapadi, Ben Packer, Mehrnoosh Sameki and Nashlie Sephus
   authors:
@@ -539,13 +539,13 @@
   rocketchat_channel: MH9AVisualTourofBiasMitigationTechniquesforWordRepresentations
   sessions:
   - name: MH9
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
+    start_time: 2021-02-03 16:30:00+00:00
+    end_time: 2021-02-03 19:45:00+00:00
     zoom_link: 123.com
     hosts: Sunipa Dev, Jeff M. Phillips, Archit Rathore, Vivek Srikumar and Bei Wang
   - name: MH9
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
+    start_time: 2021-02-03 16:30:00+00:00
+    end_time: 2021-02-03 19:45:00+00:00
     zoom_link: 123.com
     hosts: Sunipa Dev, Jeff M. Phillips, Archit Rathore, Vivek Srikumar and Bei Wang
   authors:
@@ -589,13 +589,13 @@
   rocketchat_channel: AQ1ExplainingMachineLearningPredictions
   sessions:
   - name: AQ1
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 18:30:00+00:00
+    start_time: 2021-02-03 20:00:00+00:00
+    end_time: 2021-02-03 21:30:00+00:00
     zoom_link: 123.com
     hosts: Himabindu Lakkaraju, Julius Adebayo and Sameer Singh
   - name: AQ1
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 18:30:00+00:00
+    start_time: 2021-02-03 20:00:00+00:00
+    end_time: 2021-02-03 21:30:00+00:00
     zoom_link: 123.com
     hosts: Himabindu Lakkaraju, Julius Adebayo and Sameer Singh
   authors:
@@ -629,13 +629,13 @@
   rocketchat_channel: AQ2TopologicalDataAnalysisinDocumentClassification
   sessions:
   - name: AQ2
-    start_time: 2021-02-03 18:45:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
+    start_time: 2021-02-03 21:45:00+00:00
+    end_time: 2021-02-03 23:00:00+00:00
     zoom_link: 123.com
     hosts: Wlodek Zadrozny and Shafie Gholizadeh
   - name: AQ2
-    start_time: 2021-02-03 18:45:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
+    start_time: 2021-02-03 21:45:00+00:00
+    end_time: 2021-02-03 23:00:00+00:00
     zoom_link: 123.com
     hosts: Wlodek Zadrozny and Shafie Gholizadeh
   authors:
@@ -664,13 +664,13 @@
   rocketchat_channel: AH1AIforCOVID19BattlingthePandemicwithComputationalIntelligence
   sessions:
   - name: AH1
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
+    start_time: 2021-02-03 20:00:00+00:00
+    end_time: 2021-02-03 23:00:00+00:00
     zoom_link: 123.com
     hosts: Fei Wang
   - name: AH1
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
+    start_time: 2021-02-03 20:00:00+00:00
+    end_time: 2021-02-03 23:00:00+00:00
     zoom_link: 123.com
     hosts: Fei Wang
   authors:
@@ -709,13 +709,13 @@
   rocketchat_channel: AH2EventCentricNaturalLanguageUnderstanding
   sessions:
   - name: AH2
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
+    start_time: 2021-02-03 20:00:00+00:00
+    end_time: 2021-02-03 23:00:00+00:00
     zoom_link: 123.com
     hosts: Muhao Chen, Hongming Zhang, Qiang Ning, Manling Li, Heng Ji and Dan Roth
   - name: AH2
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
+    start_time: 2021-02-03 20:00:00+00:00
+    end_time: 2021-02-03 23:00:00+00:00
     zoom_link: 123.com
     hosts: Muhao Chen, Hongming Zhang, Qiang Ning, Manling Li, Heng Ji and Dan Roth
   authors:
@@ -763,14 +763,14 @@
   rocketchat_channel: AH3FromExplainabilitytoModelQualityandBackAgain
   sessions:
   - name: AH3
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
+    start_time: 2021-02-03 20:00:00+00:00
+    end_time: 2021-02-03 23:00:00+00:00
     zoom_link: 123.com
     hosts: Anupam Datta, Matt Fredrikson, Klas Leino, Kaiji Lu, Shayak Sen and Zifan
       Wang
   - name: AH3
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
+    start_time: 2021-02-03 20:00:00+00:00
+    end_time: 2021-02-03 23:00:00+00:00
     zoom_link: 123.com
     hosts: Anupam Datta, Matt Fredrikson, Klas Leino, Kaiji Lu, Shayak Sen and Zifan
       Wang
@@ -809,13 +809,13 @@
   rocketchat_channel: AH4FromStatisticalRelationaltoNeuralSymbolicArtificialIntelligence
   sessions:
   - name: AH4
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
+    start_time: 2021-02-03 20:00:00+00:00
+    end_time: 2021-02-03 23:00:00+00:00
     zoom_link: 123.com
     hosts: Luc De Raedt, Sebastijan Dumancic, Robin Manhaeve and Giuseppe Marra
   - name: AH4
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
+    start_time: 2021-02-03 20:00:00+00:00
+    end_time: 2021-02-03 23:00:00+00:00
     zoom_link: 123.com
     hosts: Luc De Raedt, Sebastijan Dumancic, Robin Manhaeve and Giuseppe Marra
   authors:
@@ -854,13 +854,13 @@
   rocketchat_channel: AH5GraphNeuralNetworks
   sessions:
   - name: AH5
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
+    start_time: 2021-02-03 20:00:00+00:00
+    end_time: 2021-02-03 23:00:00+00:00
     zoom_link: 123.com
     hosts: Yao Ma, Wei Jin, Yiqi Wang, Tyler Derr and Jiliang Tang
   - name: AH5
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
+    start_time: 2021-02-03 20:00:00+00:00
+    end_time: 2021-02-03 23:00:00+00:00
     zoom_link: 123.com
     hosts: Yao Ma, Wei Jin, Yiqi Wang, Tyler Derr and Jiliang Tang
   authors:
@@ -902,13 +902,13 @@
   rocketchat_channel: AH6NewFrontiersofAutomatedMechanismDesignforPricingandAuctions
   sessions:
   - name: AH6
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
+    start_time: 2021-02-03 20:00:00+00:00
+    end_time: 2021-02-03 23:00:00+00:00
     zoom_link: 123.com
     hosts: Maria-Florina Balcan, Tuomas Sandholm and Ellen Vitercik
   - name: AH6
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
+    start_time: 2021-02-03 20:00:00+00:00
+    end_time: 2021-02-03 23:00:00+00:00
     zoom_link: 123.com
     hosts: Maria-Florina Balcan, Tuomas Sandholm and Ellen Vitercik
   authors:
@@ -945,13 +945,13 @@
   rocketchat_channel: AH7OnExplainableAIFromTheorytoMotivationIndustrialApplicationsandCodingPractices
   sessions:
   - name: AH7
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
+    start_time: 2021-02-03 20:00:00+00:00
+    end_time: 2021-02-03 23:00:00+00:00
     zoom_link: 123.com
     hosts: Freddy Lecue, Pasquale Minervini, Fosca Giannotti and Riccardo Guidotti
   - name: AH7
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
+    start_time: 2021-02-03 20:00:00+00:00
+    end_time: 2021-02-03 23:00:00+00:00
     zoom_link: 123.com
     hosts: Freddy Lecue, Pasquale Minervini, Fosca Giannotti and Riccardo Guidotti
   authors:
@@ -997,13 +997,13 @@
   rocketchat_channel: AH8RecentAdvancesinMultipleFacetsofPreferenceLearning
   sessions:
   - name: AH8
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
+    start_time: 2021-02-03 20:00:00+00:00
+    end_time: 2021-02-03 23:00:00+00:00
     zoom_link: 123.com
     hosts: Arun Rajkumar
   - name: AH8
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
+    start_time: 2021-02-03 20:00:00+00:00
+    end_time: 2021-02-03 23:00:00+00:00
     zoom_link: 123.com
     hosts: Arun Rajkumar
   authors:
@@ -1033,13 +1033,13 @@
   rocketchat_channel: AH9SimplifyingandAutomatingParallelMachineLearningviaaProgrammableandComposable
   sessions:
   - name: AH9
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
+    start_time: 2021-02-03 20:00:00+00:00
+    end_time: 2021-02-03 23:00:00+00:00
     zoom_link: 123.com
     hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
   - name: AH9
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
+    start_time: 2021-02-03 20:00:00+00:00
+    end_time: 2021-02-03 23:00:00+00:00
     zoom_link: 123.com
     hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
   authors:
@@ -1077,14 +1077,14 @@
   rocketchat_channel: AH10TowardsUbiquitousRecommenderSystemsDataApproachesandApplications
   sessions:
   - name: AH10
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
+    start_time: 2021-02-03 20:00:00+00:00
+    end_time: 2021-02-03 23:00:00+00:00
     zoom_link: 123.com
     hosts: Shoujin Wang, Liang Hu, Yan Wang, Longbing Cao, Michael Sheng and Mehmet
       Orgun
   - name: AH10
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
+    start_time: 2021-02-03 20:00:00+00:00
+    end_time: 2021-02-03 23:00:00+00:00
     zoom_link: 123.com
     hosts: Shoujin Wang, Liang Hu, Yan Wang, Longbing Cao, Michael Sheng and Mehmet
       Orgun
