@@ -170,6 +170,28 @@ def load_site_data(
     tutorial_AQ = []
     tutorial_AH = []
 
+    # IAAI poster presentation
+    iaai_poster_schedule = {}
+    iaai_poster_schedule['February 4, Thursday'] = {}
+    iaai_poster_schedule['February 5, Friday'] = {}
+    iaai_poster_schedule['February 6, Saturday'] = {}
+    iaai_poster_schedule['February 4, Thursday']['Aerospace'] = [74,132,171]
+    iaai_poster_schedule['February 4, Thursday']['Commerce'] = [23,84,87,92,93,101,140,179,190]
+    iaai_poster_schedule['February 4, Thursday']['Security'] = [98,113,142]
+    iaai_poster_schedule['February 5, Friday']['General'] = [104]
+    iaai_poster_schedule['February 5, Friday']['Engineering'] = [100,105,165,176]
+    iaai_poster_schedule['February 5, Friday']['Knowledge'] = [21,37,59,65,119,151,157,174]
+    iaai_poster_schedule['February 5, Friday']['Natural Language Processing'] = [89]
+    iaai_poster_schedule['February 5, Friday']['Prediction'] = [43,55]
+    iaai_poster_schedule['February 6, Saturday']['Artificial Intelligence'] = [17,31,60,73,167]
+    iaai_poster_schedule['February 6, Saturday']['Bioscience'] = [76,77,124,145,146,149]
+    iaai_poster_schedule['February 6, Saturday']['COVID'] = [152,154]
+    iaai_poster_schedule['February 6, Saturday']['Driving'] = [34]
+    iaai_poster_schedule['February 6, Saturday']['Intelligent Technology'] = [99]
+
+    site_data["iaai_poster_schedule"] = iaai_poster_schedule
+
+
     # undergraduate_consortium.html
     tutorial_UC = []
     tutorial_OTHER = []
