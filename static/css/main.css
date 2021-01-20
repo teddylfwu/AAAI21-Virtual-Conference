@@ -68,7 +68,7 @@ body {
 
 .pp-card-header {
   font-family: "Lato";
-  height: 200px;
+  height: 380px;
   padding-top: 10px;
   padding-left: 15px;
   padding-right: 15px;
@@ -492,6 +492,10 @@ body .carousel-control-prev {
 
 .fc-v-event.calendar-event-tutorial {
   background-color: #b8a9c9;
+}
+
+.fc-v-event.calendar-event-uc {
+  background-color: #42dbe3;
 }
 
 .fc-v-event.calendar-event-workshops {

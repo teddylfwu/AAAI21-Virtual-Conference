@@ -3,211 +3,264 @@ committee:
   image: static/images/committee/1_Sven Koenig.jpg
   name: Sven Koenig
   role: AAAI Conference Committee Chair
+  pweb: http://idm-lab.org/
 - aff: Webank and Hong Kong University of Science and Technology, Hong Kong
   image: static/images/committee/2_Qiang Yang.jpg
   name: Qiang Yang
   role: AAAI-21 General Chair
+  pweb: http://www.cs.ust.hk/~qyang/
 - aff: University of British Columbia, Canada
   image: static/images/committee/3_Kevin Leyton-Brown.jpg
   name: Kevin Leyton-Brown
   role: AAAI-21 Program Cochairs
+  pweb: https://www.cs.ubc.ca/~kevinlb/
 - aff: Indian Institute of Technology Delhi, India
   image: static/images/committee/4_Mausam.jpg
   name: Mausam
   role: AAAI-21 Program Cochairs
+  pweb: https://www.cse.iitd.ac.in/~mausam/
 - aff: University of Southern California, USA
   image: static/images/committee/5_Yan Liu.jpg
   name: Yan Liu
   role: AAAI-21 Associate Program Chairs
+  pweb: https://viterbi-web.usc.edu/~liu32/
 - aff: "Universit\xE4t Basel, Switzerland"
   image: static/images/committee/6_Gabrielle Roger.jpg
   name: Gabrielle Roger
   role: AAAI-21 Associate Program Chairs
+  pweb: https://ai.dmi.unibas.ch/people/roeger/
 - aff: Shenzhen University, China
   image: static/images/committee/7_Weike Pan.jpg
   name: Weike Pan
   role: AAAI-21 Associate Conference Chairs for Virtual Operations
+  pweb: http://csse.szu.edu.cn/staff/panwk/index.html
 - aff: IBM, USA
   image: static/images/committee/8_Lingfei Wu.jpg
   name: Lingfei Wu
   role: AAAI-21 Associate Conference Chairs for Virtual Operations
+  pweb: https://sites.google.com/a/email.wm.edu/teddy-lfwu/ 
 - aff: IBM India Research Labs, India
   image: static/images/committee/9_Dinesh Raghu.jpg
   name: Dinesh Raghu
   role: AAAI-21 Workflow Chairs
+  pweb: https://researcher.watson.ibm.com/researcher/view.php?person=in-diraghu1
 - aff: Hong Kong University of Science and Technology, Hong Kong
   image: static/images/committee/10_Guangneng Hu.jpg
   name: Guangneng Hu
   role: AAAI-21 Workflow Chairs
+  pweb: http://home.cse.ust.hk/~ghuac/
 - aff: University of British Columbia, Canada
   image: static/images/committee/11_Hedayat Zarkoob.jpg
   name: Hedayat Zarkoob
   role: AAAI-21 Workflow Chairs
+  pweb: https://www.cs.ubc.ca/~hzarkoob/
 - aff: Norwegian University of Science and Technology, Norway
   image: static/images/committee/12_Odd Erik Gundersen.jpg
   name: Odd Erik Gundersen
   role: AAAI-21 Reproducibility Chair
+  pweb: https://www.ntnu.edu/employees/odderik
 - aff: TU Darmstadt, Germany
   image: static/images/committee/13_Kristian Kersting.jpg
   name: Kristian Kersting
   role: AAAI-21 Focus Area Chairs on Neuro-Symbolic AI
+  pweb: https://ml-research.github.io/people/kkersting/index.html
 - aff: Carnegie Mellon University, USA
   image: static/images/committee/14_Zico Kolter.jpg
   name: Zico Kolter
   role: AAAI-21 Focus Area Chairs on Neuro-Symbolic AI
+  pweb: https://zicokolter.com/
 - aff: Chinese Academy of Sciences, China
   image: static/images/committee/15_S. Kevin Zhou.jpg
   name: S. Kevin Zhou
   role: AAAI-21 Focus Area Chairs for AI Responses for Covid-19
+  pweb: https://scholar.google.com/citations?user=8eNm2GMAAAAJ&hl=en
 - aff: Johns Hopkins University, USA
   image: static/images/committee/16_Le Lu.jpg
   name: Le Lu
   role: AAAI-21 Focus Area Chairs for AI Responses for Covid-19
+  pweb: http://www.cs.jhu.edu/~lelu/
 - aff: Georgia Tech, USA
   image: static/images/committee/17_B. Aditya Prakash.jpg
   name: B. Aditya Prakash
   role: AAAI-21 Focus Area Chairs for AI Responses for Covid-19
+  pweb: https://cse.gatech.edu/people/b-aditya-prakash
 - aff: Massachusetts Institute of Technology, USA
   image: static/images/committee/18_David Karger.jpg
   name: David Karger
   role: Focus Area Chairs on AI for Conference Organization and Delivery
+  pweb: http://people.csail.mit.edu/karger/
 - aff: University of Toronto, Canada
   image: static/images/committee/19_Nisarg Shah.jpg
   name: Nisarg Shah
   role: Focus Area Chairs on AI for Conference Organization and Delivery
+  pweb: https://www.cs.toronto.edu/~nisarg/
 - aff: 'Wadhwani Institute for Artificial Intelligence, India '
   image: static/images/committee/20_P. Anandan.jpg
   name: P. Anandan
   role: AAAI-21 Special Track on AI for Social Impact Cochairs
+  pweb: https://www.linkedin.com/in/panandan/
 - aff: Carnegie Mellon University, USA
   image: static/images/committee/21_Fei Fang.jpg
   name: Fei Fang
   role: AAAI-21 Special Track on AI for Social Impact Cochairs
+  pweb: https://www.isri.cmu.edu/people/core-faculty/fang-fei.html
 - aff: Facebook Research, USA
   image: static/images/committee/22_Eric Sodomka.jpg
   name: Eric Sodomka
   role: AAAI-21 Special Track on AI for Social Impact Cochairs
+  pweb: https://www.linkedin.com/in/eric-sodomka-82806220/
 - aff: TU Delft, Netherlands
   image: static/images/committee/23_Neil Yorke-Smith.jpg
   name: Neil Yorke-Smith
   role: IAAI-21 Conference Cochairs
+  pweb: https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/software-technology/algorithmics/people/neil-yorke-smith/
 - aff: General Electric, USA
   image: static/images/committee/24_Meinolff Sellmann.jpg
   name: Meinolff Sellmann
   role: IAAI-21 Conference Cochairs
+  pweb: https://www.ge.com/research/people/meinolf-sellmann
 - aff: St. Lawrence University, USA
   image: static/images/committee/25_Lisa Torrey.jpg
   name: Lisa Torrey
   role: EAAI-21 Symposium Cochairs
+  pweb: https://www.stlawu.edu/people/lisa-torrey
 - aff: Princeton University, USA
-  image: static/images/committee/26_Michael Guerzhoy.jpg
+  image: static/images/committee/26_Michael Guerzhoy_2.jpg
   name: Michael Guerzhoy
   role: EAAI-21 Symposium Cochairs
+  pweb: http://guerzhoy.princeton.edu/
 - aff: University of Southern California, USA
   image: static/images/committee/27_Sven Koenig.jpg
   name: Sven Koenig
   role: Senior Member Track Cochairs
+  pweb: http://idm-lab.org/
 - aff: University of Alberta, Canada
   image: static/images/committee/28_Nathan Sturtevant.jpg
   name: Nathan Sturtevant
   role: Senior Member Track Cochairs
-- aff: French National Institute for Agricultural Research | INRA, France
-  image: static/images/committee/29_Thomas Schiex.jpg
-  name: Thomas Schiex
-  role: Sister Conference Track Chair
-- aff: University of California, Irvine, USA
-  image: static/images/committee/30_Alexander Ihler.jpg
-  name: Alexander Ihler
-  role: Sister Conference Track Chair
+  pweb: https://apps.ualberta.ca/directory/person/nathanst
+  #- aff: French National Institute for Agricultural Research | INRA, France
+  #image: static/images/committee/29_Thomas Schiex.jpg
+  #name: Thomas Schiex
+  #role: Sister Conference Track Chair
+  #pweb: https://www.researchgate.net/profile/Thomas_Schiex
+  #- aff: University of California, Irvine, USA
+  #image: static/images/committee/30_Alexander Ihler.jpg
+  #name: Alexander Ihler
+  #role: Sister Conference Track Chair
+  #pweb: https://www.ics.uci.edu/~ihler/
 - aff: IHMC and Tulane University, USA
   image: static/images/committee/31_K. Brent Venable.jpg
   name: K. Brent Venable
   role: Tutorial Forum Cochairs
+  pweb: https://www.ihmc.us/groups/bvenable/
 - aff: IIT Madras, India
   image: static/images/committee/32_Balaraman Ravindran.jpg
   name: Balaraman Ravindran
   role: Tutorial Forum Cochairs
+  pweb: https://www.cse.iitm.ac.in/~ravi/
 - aff: University of South Carolina, USA
   image: static/images/committee/33_Biplav Srivastava.jpg
   name: Biplav Srivastava
   role: Workshop Program Cochairs
+  pweb: https://www.sc.edu/study/colleges_schools/engineering_and_computing/faculty-staff/srivastava.php
 - aff: University of Pennsylvania, USA
   image: static/images/committee/34_Lyle Ungar.jpg
   name: Lyle Ungar
   role: Workshop Program Cochairs
+  pweb: https://www.cis.upenn.edu/~ungar/
 - aff: IBM, USA
   image: static/images/committee/35_Kartik Talamadupula.jpg
   name: Kartik Talamadupula
   role: Demonstration Cochairs
+  pweb: https://researcher.watson.ibm.com/researcher/view.php?person=us-krtalamad
 - aff: University of Maryland Baltimore County, USA
   image: static/images/committee/36_Cynthia Matuszek.jpg
   name: Cynthia Matuszek
   role: Demonstration Cochairs
+  pweb: https://www.csee.umbc.edu/people/faculty/cynthia-matuszek/
 - aff: Politecnico di Milano | Polimi, Italy
   image: static/images/committee/37_Nicola Gatti.jpg
   name: Nicola Gatti
   role: Student Abstract Cochairs
+  pweb: https://www.gametheory.polimi.it/nicola-gatti.html
 - aff: Washington State University, USA
   image: static/images/committee/38_Jana Doppa.jpg
   name: Jana Doppa
   role: Student Abstract Cochairs
+  pweb: https://eecs.wsu.edu/~jana/
 - aff: PARC, USA
   image: static/images/committee/39_Shiwali Mohan.jpg
   name: Shiwali Mohan
   role: Doctoral Consortium Cochairs
+  pweb: https://www.shiwali.me/
 - aff: "Escola Polit\xE9cnica of the Universidade de S\xE3o Paulo, Brazil"
   image: static/images/committee/40_Anna Reali.jpg
   name: Anna Reali
   role: Doctoral Consortium Cochairs
+  pweb: https://pcs.usp.br/anna/en/
 - aff: Harvey Mudd College, USA
   image: static/images/committee/41_Jim Boerkoel.jpg
   name: Jim Boerkoel
   role: Undergraduate Consortium Cochairs
+  pweb: https://www.cs.hmc.edu/~boerkoel/
 - aff: Wentworth Institute of Technology, USA
   image: static/images/committee/42_Mehmet Ergezer.jpg
   name: Mehmet Ergezer
   role: Undergraduate Consortium Cochairs
+  pweb: https://wit.edu/memo-ergezer
 - aff: Colby College, USA
   image: static/images/committee/43_Eric Aaron.jpg
   name: Eric Aaron
   role: Undergraduate Consortium Cochairs
+  pweb: https://cs.colby.edu/eaaron/
 - aff: University of Minnesota, USA
   image: static/images/committee/44_Maria Gini.jpg
   name: Maria Gini
   role: Diversity and Inclusion Chairs
+  pweb: https://www-users.cs.umn.edu/~gini/
 - aff: Temple University, USA
   image: static/images/committee/45_Richard Souvenir.jpg
   name: Richard Souvenir
   role: Diversity and Inclusion Chairs
+  pweb: https://cis.temple.edu/user/442
 - aff: Carnegie Mellon University, USA
   image: static/images/committee/46_Dave Touretzky.jpg
   name: Dave Touretzky
   role: K-12 Student Outreach Cochairs
+  pweb: https://www.cs.cmu.edu/~dst/
 - aff: University of Florida, USA
   image: static/images/committee/47_Christina Gardner-McCune.jpg
   name: Christina Gardner-McCune
   role: K-12 Student Outreach Cochairs
+  pweb: https://www.cise.ufl.edu/gardner-mccune-christina/
 - aff: University of Maryland, USA
   image: static/images/committee/48_John Dickerson.jpg
   name: John Dickerson
   role: Job Fair Cochairs
+  pweb: https://www.cs.umd.edu/people/dickerson
 - aff: University of Virginia, USA
   image: static/images/committee/49_Michael Albert.jpg
   name: Michael Albert
   role: Job Fair Cochairs
+  pweb: https://www.darden.virginia.edu/faculty-research/directory/michael-albert
 - aff: University of Alberta, Canada
   image: static/images/committee/50_Matthew E. Taylor.jpg
   name: Matthew E. Taylor
   role: Job Fair Cochairs
+  pweb: https://drmatttaylor.net/
 - aff: Northwestern Polytechnic University, China
   image: static/images/committee/51_Xuelong Li.jpg
   name: Xuelong Li
   role: Sponsor Chairs
+  pweb: https://scholar.google.com/citations?user=ahUibskAAAAJ&hl=en
 - aff: University College Cork, Ireland
   image: "static/images/committee/52_Barry O\u2019Sullivan.jpg"
   name: "Barry O\u2019Sullivan"
   role: Sponsor Chairs
+  pweb: http://osullivan.ucc.ie/
 - aff: Nanjing University, China
   image: static/images/committee/53_Yang Yu.jpg
   name: Yang Yu
   role: Sponsor Chairs
+  pweb: http://www.lamda.nju.edu.cn/yuy/default.aspx?AspxAutoDetectCookieSupport=1

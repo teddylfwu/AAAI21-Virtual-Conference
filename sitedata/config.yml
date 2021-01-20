@@ -16,7 +16,7 @@ background_image: static/images/aaai2021/AAAI-Banner.png
 organization: AAAI-21 Conference Committee
 
 # Path to the folder of paper images.
-paper_images_path: https://emnlp2020-public.s3.amazonaws.com/paper_images
+paper_images_path: static/images/papers
 
 default_presentation_id: 38931484
 
