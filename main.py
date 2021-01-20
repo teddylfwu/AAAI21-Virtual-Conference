@@ -39,6 +39,12 @@ def index():
 # TOP LEVEL PAGES
 
 
+@app.route("/rocketchat_admin_login.html")
+def rocketchat_admin_login():
+    data = _data()
+    return render_template("rocketchat_admin_login.html", **data)
+
+
 @app.route("/index.html")
 def home():
     data = _data()

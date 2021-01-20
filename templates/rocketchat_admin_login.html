@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+</head>
+<body>
+</body>
+<script>
+    $.post("https://{{config.chat_server}}/api/v1/login",{"email":"mingkai_he@163.com","password":"slijft82465"},
+    function(result){
+        console.log(result);
+        window.location.href = "https://{{config.chat_server}}/home?resumeToken=" + result['data']['authToken']
+    },"json");
+</script>
+</html>
