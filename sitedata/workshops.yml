@@ -11,7 +11,7 @@
     name: None
     hosts: None
   zoom_links:
-  - https://us02web.zoom.us/j/2575188702?pwd=VUdsT1dDK1d6ZXBjT0oyQk1vSUh2UT09
+    - https://zoom.us/j/2630266651
   prerecorded_talks:
   - title: 'Learning Language Like Infants Do: Self Supervised Learning From Raw Audio'
     speakers: Emmanuel Dupoux
@@ -30,7 +30,7 @@
       name: None
       hosts: None
   zoom_links:
-  - https://us02web.zoom.us/j/7379300234?pwd=cnJnZllOM1dUNEJlSXZxd1ZNSC83QT09
+  - https://zoom.us/j/97843509448?pwd=QlhJWUNvQzlOZFpjUldXcHg4RDhMdz09
   prerecorded_talks:
   - title: '"Low-resourcedness" Beyond Data'
     speakers: Masakhane
@@ -49,7 +49,7 @@
       name: None
       hosts: None
   zoom_links:
-  - https://us02web.zoom.us/j/7991785226?pwd=VGRLTnpVZyswOHJiZ3R1UzNrTWYxZz09
+  - https://zoom.us/j/2059932518
   prerecorded_talks:
   - title: "Negative results yield interesting questions, or: A bunch of stuff that\
       \ didn't work"
@@ -69,7 +69,7 @@
       name: None
       hosts: None
   zoom_links:
-  - https://us02web.zoom.us/j/4123561447?pwd=UUM5ZkxMQ3hYK0VVYU9YYWg3MmFjdz09
+  - https://zoom.us/j/96752632442?pwd=MitQWFNKeDIrS2NsZHA5eWladU5JUT09
   prerecorded_talks:
   - title: Clarifying Questions in Conversations with Augmented Syntax Features and
       Side Information
@@ -89,7 +89,7 @@
     name: None
     hosts: None
   zoom_links:
-  - https://us02web.zoom.us/j/8257686500?pwd=azc0bFltRk5ZQUp1TDhGRkxreGFiQT09
+  - https://zoom.us/j/94470518368?pwd=S2ZYaFZCRVN1TGcwOG9kazhmMkRpdz09
   prerecorded_talks:
   - title: 'How Languages Carve Up the World: Cognitive Explanation through Computational
       Modeling'
@@ -109,7 +109,7 @@
     name: None
     hosts: None
   zoom_links:
-  - https://us02web.zoom.us/j/6771937722
+  - https://zoom.us/j/98850070031?pwd=RGdjYURVNFJNTkFZNzhCbCtzck9UQT09
   prerecorded_talks:
   - title: 'Invited Talk: Jacob Andreas'
     speakers: Jacob Andreas
@@ -128,9 +128,7 @@
     name: None
     hosts: None
   zoom_links:
-  - https://us02web.zoom.us/j/3372872285
-  - https://us02web.zoom.us/j/9587240070
-  - https://us02web.zoom.us/j/4013040190
+  - https://zoom.us/j/92584933293?pwd=K0taL3dibTk3TGZ6bXlYWkFRWHFYZz09
   prerecorded_talks: []
 
 - UID: WS-8
@@ -146,7 +144,7 @@
     name: None
     hosts: None
   zoom_links:
-  - https://us02web.zoom.us/j/7858391728
+  - https://zoom.us/j/6147266063
   prerecorded_talks:
   - title: (To be confirmed) Invited Talk 1 - Chip Huyen
     speakers: Chip Huyen
@@ -165,7 +163,7 @@
       name: None
       hosts: None
   zoom_links:
-  - https://us02web.zoom.us/j/7858391728
+  - https://us05web.zoom.us/j/88170920969?pwd=dFBBa3h2SmJNMkhVSGU2NWhBTDNnQT09
   prerecorded_talks:
   - title: (To be confirmed) Invited Talk 1 - Chip Huyen
     speakers: Chip Huyen
@@ -188,7 +186,7 @@
     name: None
     hosts: None
   zoom_links:
-  - https://us02web.zoom.us/j/9514624887
+  - https://zoom.us/j/97618625752?pwd=b1NoaFhyUDJ4RlBTTVY3T3B1TjBjQT09
   prerecorded_talks:
   - title: "\tVisualizing Meaning: Semantic Simulation of Actions and Events"
     speakers: James Pustejovsky, Brandeis University
@@ -211,7 +209,7 @@
     name: None
     hosts: None
   zoom_links:
-  - https://us02web.zoom.us/j/5070305812
+  - https://zoom.us/j/94912916849?pwd=SHdCZytNNlpJVXJGVlRuV05KRHI1QT09
   prerecorded_talks:
   - title: Invited talk
     speakers: Miriam Butt
@@ -230,7 +228,7 @@
     name: None
     hosts: None
   zoom_links:
-  - https://us02web.zoom.us/j/2769990355
+  - https://zoom.us/j/97078477638?pwd=bDgrQ0J1TXBobFA1bXd2UkFraWlTQT09
   prerecorded_talks:
   - title: Keynote 3rd Clinical Natural Language Processing Workshop
     speakers: Hong Yu
@@ -253,8 +251,8 @@
     name: None
     hosts: None
   zoom_links:
-  - https://us02web.zoom.us/j/8018218663
-  - https://us02web.zoom.us/j/3550218712
+  - https://umn-private.zoom.us/j/91933179732?pwd=aDdOTGk0WVhLbmJvOGd2YXd6VWVuUT09
+  - https://umn-private.zoom.us/j/99963085986?pwd=azZLZFdLQm1lNUJtWk0vUFl3bGc1Zz09
   prerecorded_talks:
   - title: Keynote talk by Eduard Hovy
     speakers: Eduard Hovy
@@ -273,8 +271,7 @@
     name: None
     hosts: None
   zoom_links:
-  - https://us02web.zoom.us/j/8056354262
-  - https://us02web.zoom.us/j/3446463699
+  -
   prerecorded_talks: []
 
 - UID: WS-15
@@ -290,8 +287,7 @@
     name: None
     hosts: None
   zoom_links:
-  - https://us02web.zoom.us/j/5715758008
-  - https://us02web.zoom.us/j/4500113018
+    - https://zoom.us/j/2573203947
   prerecorded_talks:
   - title: Invited Talk
     speakers: Mona Diab
@@ -310,11 +306,7 @@
     name: None
     hosts: None
   zoom_links:
-  - https://us02web.zoom.us/j/3636713515
-  - https://us02web.zoom.us/j/2338884319
-  - https://us02web.zoom.us/j/9783550398
-  - https://us02web.zoom.us/j/5611345347
-  - https://us02web.zoom.us/j/9987253895
+    - https://zoom.us/j/5915430335?pwd=a1RFRnc5dENDZ1pDdGpKdnNWOFNCUT09
   prerecorded_talks: []
 
 - UID: WS-17
@@ -330,9 +322,7 @@
     name: None
     hosts: None
   zoom_links:
-  - https://us02web.zoom.us/j/4396802858
-  - https://us02web.zoom.us/j/5727154448
-  - https://us02web.zoom.us/j/9208909204
+  - https://zoom.us/j/98341662291?pwd=dytrLzVXcm12NXRGQ3dYT1lyOUFwQT09
   prerecorded_talks:
   - title: Keynote1
     speakers: "Andr\xE9 Brock"
@@ -351,7 +341,7 @@
     name: None
     hosts: None
   zoom_links:
-  - https://us02web.zoom.us/j/6709619322
+    - https://zoom.us/j/93792387492?pwd=RE11dHVOdGQyeVhUeC9qSU1FK0E5Zz09
   prerecorded_talks: []
 
 - UID: WS-19
@@ -367,7 +357,7 @@
     name: None
     hosts: None
   zoom_links:
-  - https://us02web.zoom.us/j/9825218020
+  - https://zoom.us/j/93187916761?pwd=bVZHc1Y3M1JLVHdma1R0ZmpVUkE5Zz09
   prerecorded_talks: []
 
 - UID: WS-20
@@ -383,7 +373,7 @@
     name: None
     hosts: None
   zoom_links:
-  - https://us02web.zoom.us/j/5916616973
+    - https://zoom.us/j/94622715325
   prerecorded_talks: []
 
 - UID: WS-21
@@ -399,8 +389,7 @@
     name: None
     hosts: None
   zoom_links:
-  - https://us02web.zoom.us/j/3828955479
-  - https://us02web.zoom.us/j/6468788696
+    - https://zoom.us/j/3878088001?pwd=Y3IrWERGM1VjMUZ1TG4yb0EvUFJxdz09
   prerecorded_talks:
   - title: Invited talk by Isabelle Augenstein
     speakers: Isabelle Augenstein
@@ -419,7 +408,7 @@
     name: None
     hosts: None
   zoom_links:
-  - https://us02web.zoom.us/j/4210020303
+    - https://zoom.us/j/98165547077?pwd=bVl5RGphM05ra3VDY1pXWWM4WTNudz09
   prerecorded_talks: []
 
 - UID: WS-23
@@ -435,7 +424,7 @@
     name: None
     hosts: None
   zoom_links:
-  - https://us02web.zoom.us/j/4210020303
+  - https://zoom.us/j/95153763410?pwd=WXhwQ3hKeHpZcU4vOHA3YXFNeGQ0Zz09
   prerecorded_talks: []
 
 - UID: WS-24
@@ -451,7 +440,7 @@
     name: None
     hosts: None
   zoom_links:
-  - https://us02web.zoom.us/j/9648673341
+    - https://zoom.us/j/97870284397?pwd=QjJWb0RnR1lCc3FzeDJINjVwV29UQT09
   prerecorded_talks:
   - title: invited1
     speakers: Aaron Roth
@@ -470,7 +459,7 @@
     name: None
     hosts: None
   zoom_links:
-  - https://us02web.zoom.us/j/4126435944
+  - https://zoom.us/j/93678598207?pwd=NnFDTWlHUzIvSWdWalZUZG45bzB5Zz09
   prerecorded_talks:
   - title: Evaluating and calibrating neural language models for human-like language
       processing
@@ -490,5 +479,5 @@
     name: None
     hosts: None
   zoom_links:
-  - https://us02web.zoom.us/j/2311998450
+    - https://zoom.us/j/3305983771?pwd=d0xoc0RpL1J5MmJocnlvL1Rkd1VPQT09
   prerecorded_talks: []
