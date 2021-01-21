@@ -176,6 +176,7 @@
 
 
 {% if paper.presentation_id_intro %}
+{% if paper.id != "DISS-2019"%}
 {{ components.section("Intro Video") }}
     <div class="container" style="; padding: 0px;">
   <div class="text-muted text-center">
@@ -201,12 +202,74 @@
       Correct author list is at the top of this page.
       </div>
     </div>
-
   </div>
 </div>
+{% endif %}
 
 {% endif %}
 {% if paper.content.program != "findings" %}
+{% if paper.id == "DISS-2019" %}
+    {{ components.section("Video && Chat") }}
+    <div class="container" style="; padding: 0px;">
+      <div class="text-muted text-center">
+      </div>
+     <div class="row m-2">
+    <!-- Slides Live-->
+    <div class="col-md-12 col-xs-12 my-auto p-2" >
+      <div id="presentation-intro" class="slp my-auto"></div>
+      <script src='static/js/embed_presentation.js'></script>
+      <script>
+        embed = new SlidesLiveEmbed('presentation-intro', {
+        presentationId: '{{paper.presentation_id_intro | default(config.default_presentation_id)}}',
+{#        presentationId: '38938822',#}
+        autoPlay: false, // change to true to autoplay the embedded presentation
+        verticalEnabled: false,
+        verticalWhenWidthLte: 500,
+        allowHiddenControlsWhenPaused: true,
+        hideTitle: true
+        });
+      </script>
+      <div class="text-muted">
+      NOTE: Video may display a random order of authors.
+      Correct author list is at the top of this page.
+      </div>
+    </div>
+  </div>
+</div>
+
+      <div class="row m-2">
+        <!-- Slides Live-->
+
+        <div class="col-md-7 col-xs-12 my-auto p-2" >
+          <div id="presentation-embed" class="slp my-auto"></div>
+          <script src='static/js/embed_presentation.js'></script>
+          <script>
+            embed = new SlidesLiveEmbed('presentation-embed', {
+            presentationId: '{{paper.presentation_id | default(config.default_presentation_id)}}',
+            autoPlay: false, // change to true to autoplay the embedded presentation
+            verticalEnabled: true,
+            verticalWhenWidthLte: 500,
+            allowHiddenControlsWhenPaused: true,
+            hideTitle: true
+            });
+          </script>
+
+          <div class="text-muted">
+          NOTE: Video may display a random order of authors.
+          Correct author list is at the top of this page.
+          </div>
+        </div>
+
+        <!-- Chat -->
+        <div class="col-md-5 col-xs-12 p-2">
+          <div id="gitter" class="slp">
+            <iframe frameborder="0" src="https://{{config.chat_server}}/channel/{{paper.rocketchat_channel}}?layout=embedded" height="700px" width="100%" ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+{% else %}
 {% if paper.presentation_id %}
 {{ components.section("Video && Chat") }}
 <div class="container" style="; padding: 0px;">
@@ -257,6 +320,7 @@
 {#      <iframe frameborder="0" src="https://{{config.chat_server}}/channel/{{paper.rocketchat_channel}}?layout=embedded" height="700px" width="100%" ></iframe>#}
 {#    </div>#}
 {#</div>#}
+{% endif %}
 {% endif %}
 {% endif %}
 

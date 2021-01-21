@@ -63,6 +63,7 @@ def load_site_data(
         "Sister Conference_papers",
         "Student Abstracts_papers",
         "Undergraduate Consortium_papers",
+        "awards",
         "paper_recs",
         "papers_projection",
         "paper_sessions",
@@ -153,10 +154,12 @@ def load_site_data(
         p["program"] = "SA"
     for p in site_data["Undergraduate Consortium_papers"]:
         p["program"] = "UC"
+    for p in site_data["awards"]:
+        p["program"] = "Award"
 
     site_data["programs"] = ["AISI", "Demo", "DC",
                              "EAAI", "IAAI","Main","SMT","SC",
-                             "SA","UC"]
+                             "SA","UC","Award"]
 
     # tutorials.html
     tutorial_MQ = []
@@ -225,6 +228,7 @@ def load_site_data(
             site_data["Senior Member Track_papers"]+
             site_data["Sister Conference_papers"]+
             site_data["Student Abstracts_papers"]+
+            site_data["awards"]+
             site_data["Undergraduate Consortium_papers"],
         paper_sessions=site_data["paper_sessions"],
         paper_recs=site_data["paper_recs"],
