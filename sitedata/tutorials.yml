@@ -17,12 +17,12 @@
   - name: MQ1
     start_time: 2021-02-03 16:30:00+00:00
     end_time: 2021-02-03 18:00:00+00:00
-    zoom_link: 123.com
+    zoom_link: https://zoom.us/j/99406422855
     hosts: Songgaojun Deng, Yue Ning and Huzefa Rangwala
   - name: MQ1
     start_time: 2021-02-03 16:30:00+00:00
     end_time: 2021-02-03 18:00:00+00:00
-    zoom_link: 123.com
+    zoom_link: https://zoom.us/j/99406422855
     hosts: Songgaojun Deng, Yue Ning and Huzefa Rangwala
   authors:
   - name: Songgaojun Deng
@@ -57,12 +57,12 @@
   - name: MQ2
     start_time: 2021-02-03 16:30:00+00:00
     end_time: 2021-02-03 18:00:00+00:00
-    zoom_link: 123.com
+    zoom_link: https://zoom.us/j/95066614220?pwd=M1FITS9Ca0c4K05NTkdmTTF2dHVMQT09
     hosts: Ludovik Coba, Roberto Confalonieri and Markus Zanker
   - name: MQ2
     start_time: 2021-02-03 16:30:00+00:00
     end_time: 2021-02-03 18:00:00+00:00
-    zoom_link: 123.com
+    zoom_link: https://zoom.us/j/95066614220?pwd=M1FITS9Ca0c4K05NTkdmTTF2dHVMQT09
     hosts: Ludovik Coba, Roberto Confalonieri and Markus Zanker
   authors:
   - name: Ludovik Coba
@@ -107,12 +107,12 @@
   - name: MQ3
     start_time: 2021-02-03 18:15:00+00:00
     end_time: 2021-02-03 19:45:00+00:00
-    zoom_link: 123.com
+    zoom_link: https://zoom.us/j/96880418412?pwd=MWhacTZYNnFvMTJiNU5FeEowQ0ZGZz09
     hosts: Claudio Gallicchio
   - name: MQ3
     start_time: 2021-02-03 18:15:00+00:00
     end_time: 2021-02-03 19:45:00+00:00
-    zoom_link: 123.com
+    zoom_link: https://zoom.us/j/96880418412?pwd=MWhacTZYNnFvMTJiNU5FeEowQ0ZGZz09
     hosts: Claudio Gallicchio
   authors:
   - name: Claudio Gallicchio
@@ -143,12 +143,12 @@
   - name: MQ4
     start_time: 2021-02-03 18:15:00+00:00
     end_time: 2021-02-03 19:45:00+00:00
-    zoom_link: 123.com
+    zoom_link: https://zoom.us/j/96170510624?pwd=ODhMMkE1N1B4NjJpbG9NOFZ5aXJndz09
     hosts: Tejaswini Pedapati and Martin Wistuba
   - name: MQ4
     start_time: 2021-02-03 18:15:00+00:00
     end_time: 2021-02-03 19:45:00+00:00
-    zoom_link: 123.com
+    zoom_link: https://zoom.us/j/96170510624?pwd=ODhMMkE1N1B4NjJpbG9NOFZ5aXJndz09
     hosts: Tejaswini Pedapati and Martin Wistuba
   authors:
   - name: Tejaswini Pedapati
@@ -181,12 +181,12 @@
   - name: MH1
     start_time: 2021-02-03 16:30:00+00:00
     end_time: 2021-02-03 19:45:00+00:00
-    zoom_link: 123.com
+    zoom_link: https://zoom.us/j/97294013574?pwd=eGczSTN0Z2JvM1IrR1c3TGdpdW5TUT09
     hosts: Jian Tang, Fei Wang and Feixiong Cheng
   - name: MH1
     start_time: 2021-02-03 16:30:00+00:00
     end_time: 2021-02-03 19:45:00+00:00
-    zoom_link: 123.com
+    zoom_link: https://zoom.us/j/97294013574?pwd=eGczSTN0Z2JvM1IrR1c3TGdpdW5TUT09
     hosts: Jian Tang, Fei Wang and Feixiong Cheng
   authors:
   - name: Jian Tang
@@ -224,12 +224,12 @@
   - name: MH2
     start_time: 2021-02-03 16:30:00+00:00
     end_time: 2021-02-03 19:45:00+00:00
-    zoom_link: 123.com
+    zoom_link: https://zoom.us/j/97745299851?pwd=bGhGU3RJSWR2U3BpQ2xXVndhMzRjQT09
     hosts: Filip Ilievski, Antoine Bosselut, Simon Razniewski and Mayank Kejriwal
   - name: MH2
     start_time: 2021-02-03 16:30:00+00:00
     end_time: 2021-02-03 19:45:00+00:00
-    zoom_link: 123.com
+    zoom_link: https://zoom.us/j/97745299851?pwd=bGhGU3RJSWR2U3BpQ2xXVndhMzRjQT09
     hosts: Filip Ilievski, Antoine Bosselut, Simon Razniewski and Mayank Kejriwal
   authors:
   - name: Filip Ilievski
@@ -273,12 +273,12 @@
   - name: MH3
     start_time: 2021-02-03 16:30:00+00:00
     end_time: 2021-02-03 19:45:00+00:00
-    zoom_link: 123.com
+    zoom_link: https://zoom.us/j/93488082947?pwd=WTZXUytiVmRURnFRUkg5WlRQYjgwdz09
     hosts: Rayid Ghani, Pedro Saleiro and Kit Rodolfa
   - name: MH3
     start_time: 2021-02-03 16:30:00+00:00
     end_time: 2021-02-03 19:45:00+00:00
-    zoom_link: 123.com
+    zoom_link: https://zoom.us/j/93488082947?pwd=WTZXUytiVmRURnFRUkg5WlRQYjgwdz09
     hosts: Rayid Ghani, Pedro Saleiro and Kit Rodolfa
   authors:
   - name: Rayid Ghani
@@ -314,12 +314,12 @@
   - name: MH4
     start_time: 2021-02-03 16:30:00+00:00
     end_time: 2021-02-03 19:45:00+00:00
-    zoom_link: 123.com
+    zoom_link: https://duke.zoom.us/j/97846637744
     hosts: Vincent Conitzer
   - name: MH4
     start_time: 2021-02-03 16:30:00+00:00
     end_time: 2021-02-03 19:45:00+00:00
-    zoom_link: 123.com
+    zoom_link: https://duke.zoom.us/j/97846637744
     hosts: Vincent Conitzer
   authors:
   - name: Vincent Conitzer
@@ -347,12 +347,12 @@
   - name: MH5
     start_time: 2021-02-03 16:30:00+00:00
     end_time: 2021-02-03 19:45:00+00:00
-    zoom_link: 123.com
+    zoom_link: https://zoom.us/j/92068188163?pwd=bUNRV0hGVW8vVzVnR3dBSlZjR2pDUT09
     hosts: Huaxiu Yao, Fei Wang and Zhenhui Jessie Li
   - name: MH5
     start_time: 2021-02-03 16:30:00+00:00
     end_time: 2021-02-03 19:45:00+00:00
-    zoom_link: 123.com
+    zoom_link: https://zoom.us/j/92068188163?pwd=bUNRV0hGVW8vVzVnR3dBSlZjR2pDUT09
     hosts: Huaxiu Yao, Fei Wang and Zhenhui Jessie Li
   authors:
   - name: Huaxiu Yao
@@ -396,12 +396,12 @@
   - name: MH6
     start_time: 2021-02-03 16:30:00+00:00
     end_time: 2021-02-03 19:45:00+00:00
-    zoom_link: 123.com
+    zoom_link: "https://mit.zoom.us/j/95396543325\u200B"
     hosts: Iddo Drori and Joaquin Vanschoren
   - name: MH6
     start_time: 2021-02-03 16:30:00+00:00
     end_time: 2021-02-03 19:45:00+00:00
-    zoom_link: 123.com
+    zoom_link: "https://mit.zoom.us/j/95396543325\u200B"
     hosts: Iddo Drori and Joaquin Vanschoren
   authors:
   - name: Iddo Drori
@@ -437,13 +437,13 @@
   - name: MH7
     start_time: 2021-02-03 16:30:00+00:00
     end_time: 2021-02-03 19:45:00+00:00
-    zoom_link: 123.com
+    zoom_link: https://zoom.us/j/93086707776?pwd=cGduaXVieXZySWY2MWlNNTZtcUltdz09
     hosts: "Elias Khalil, Andrea Lodi, Bistra Dilkina, Didier Ch\xE9telat, Maxime\
       \ Gasse, Antoine Prouvost, Giulia Zarpellon and Laurent Charlin"
   - name: MH7
     start_time: 2021-02-03 16:30:00+00:00
     end_time: 2021-02-03 19:45:00+00:00
-    zoom_link: 123.com
+    zoom_link: https://zoom.us/j/93086707776?pwd=cGduaXVieXZySWY2MWlNNTZtcUltdz09
     hosts: "Elias Khalil, Andrea Lodi, Bistra Dilkina, Didier Ch\xE9telat, Maxime\
       \ Gasse, Antoine Prouvost, Giulia Zarpellon and Laurent Charlin"
   authors:
@@ -497,12 +497,12 @@
   - name: MH8
     start_time: 2021-02-03 16:30:00+00:00
     end_time: 2021-02-03 19:45:00+00:00
-    zoom_link: 123.com
+    zoom_link: Missing
     hosts: Krishnaram Kenthapadi, Ben Packer, Mehrnoosh Sameki and Nashlie Sephus
   - name: MH8
     start_time: 2021-02-03 16:30:00+00:00
     end_time: 2021-02-03 19:45:00+00:00
-    zoom_link: 123.com
+    zoom_link: Missing
     hosts: Krishnaram Kenthapadi, Ben Packer, Mehrnoosh Sameki and Nashlie Sephus
   authors:
   - name: Krishnaram Kenthapadi
@@ -541,13 +541,13 @@
   - name: MH9
     start_time: 2021-02-03 16:30:00+00:00
     end_time: 2021-02-03 19:45:00+00:00
-    zoom_link: 123.com
-    hosts: Sunipa Dev, Jeff M. Phillips, Archit Rathore, Vivek Srikumar and Bei Wang
+    zoom_link: https://zoom.us/j/96736919986?pwd=WHc3UW02NjhVTnFWeGR1T1JaZzlDUT09
+    hosts: Archit Rathore, Sunipa Dev, Jeff M. Phillips, Vivek Srikumar and Bei Wang
   - name: MH9
     start_time: 2021-02-03 16:30:00+00:00
     end_time: 2021-02-03 19:45:00+00:00
-    zoom_link: 123.com
-    hosts: Sunipa Dev, Jeff M. Phillips, Archit Rathore, Vivek Srikumar and Bei Wang
+    zoom_link: https://zoom.us/j/96736919986?pwd=WHc3UW02NjhVTnFWeGR1T1JaZzlDUT09
+    hosts: Archit Rathore, Sunipa Dev, Jeff M. Phillips, Vivek Srikumar and Bei Wang
   authors:
   - name: Archit Rathore
     description: |+
@@ -591,12 +591,12 @@
   - name: AQ1
     start_time: 2021-02-03 20:00:00+00:00
     end_time: 2021-02-03 21:30:00+00:00
-    zoom_link: 123.com
+    zoom_link: https://zoom.us/j/92929612243?pwd=RmVRUjZ2S0pqelNvUDVXYm1nSXoxZz09
     hosts: Himabindu Lakkaraju, Julius Adebayo and Sameer Singh
   - name: AQ1
     start_time: 2021-02-03 20:00:00+00:00
     end_time: 2021-02-03 21:30:00+00:00
-    zoom_link: 123.com
+    zoom_link: https://zoom.us/j/92929612243?pwd=RmVRUjZ2S0pqelNvUDVXYm1nSXoxZz09
     hosts: Himabindu Lakkaraju, Julius Adebayo and Sameer Singh
   authors:
   - name: Hima Lakkaraju
@@ -631,12 +631,12 @@
   - name: AQ2
     start_time: 2021-02-03 21:45:00+00:00
     end_time: 2021-02-03 23:00:00+00:00
-    zoom_link: 123.com
+    zoom_link: https://zoom.us/j/97010538599?pwd=L01meTNsQytCVTNFaWZpLzVGR0JPUT09
     hosts: Wlodek Zadrozny and Shafie Gholizadeh
   - name: AQ2
     start_time: 2021-02-03 21:45:00+00:00
     end_time: 2021-02-03 23:00:00+00:00
-    zoom_link: 123.com
+    zoom_link: https://zoom.us/j/97010538599?pwd=L01meTNsQytCVTNFaWZpLzVGR0JPUT09
     hosts: Wlodek Zadrozny and Shafie Gholizadeh
   authors:
   - name: Wlodek Zadrozny
@@ -666,12 +666,12 @@
   - name: AH1
     start_time: 2021-02-03 20:00:00+00:00
     end_time: 2021-02-03 23:00:00+00:00
-    zoom_link: 123.com
+    zoom_link: Missing
     hosts: Fei Wang
   - name: AH1
     start_time: 2021-02-03 20:00:00+00:00
     end_time: 2021-02-03 23:00:00+00:00
-    zoom_link: 123.com
+    zoom_link: Missing
     hosts: Fei Wang
   authors:
   - name: Fei Wang
@@ -711,12 +711,12 @@
   - name: AH2
     start_time: 2021-02-03 20:00:00+00:00
     end_time: 2021-02-03 23:00:00+00:00
-    zoom_link: 123.com
+    zoom_link: https://zoom.us/j/97920850057?pwd=aktWYmlVMm12VGpYT1F2TUovdnJ0Zz09
     hosts: Muhao Chen, Hongming Zhang, Qiang Ning, Manling Li, Heng Ji and Dan Roth
   - name: AH2
     start_time: 2021-02-03 20:00:00+00:00
     end_time: 2021-02-03 23:00:00+00:00
-    zoom_link: 123.com
+    zoom_link: https://zoom.us/j/97920850057?pwd=aktWYmlVMm12VGpYT1F2TUovdnJ0Zz09
     hosts: Muhao Chen, Hongming Zhang, Qiang Ning, Manling Li, Heng Ji and Dan Roth
   authors:
   - name: Muhao Chen
@@ -765,13 +765,13 @@
   - name: AH3
     start_time: 2021-02-03 20:00:00+00:00
     end_time: 2021-02-03 23:00:00+00:00
-    zoom_link: 123.com
+    zoom_link: Missing
     hosts: Anupam Datta, Matt Fredrikson, Klas Leino, Kaiji Lu, Shayak Sen and Zifan
       Wang
   - name: AH3
     start_time: 2021-02-03 20:00:00+00:00
     end_time: 2021-02-03 23:00:00+00:00
-    zoom_link: 123.com
+    zoom_link: Missing
     hosts: Anupam Datta, Matt Fredrikson, Klas Leino, Kaiji Lu, Shayak Sen and Zifan
       Wang
   authors:
@@ -811,12 +811,12 @@
   - name: AH4
     start_time: 2021-02-03 20:00:00+00:00
     end_time: 2021-02-03 23:00:00+00:00
-    zoom_link: 123.com
+    zoom_link: https://zoom.us/j/96086805412?pwd=Ti81M0ovSGdjL0tCZmdSd0drMGRYZz09
     hosts: Luc De Raedt, Sebastijan Dumancic, Robin Manhaeve and Giuseppe Marra
   - name: AH4
     start_time: 2021-02-03 20:00:00+00:00
     end_time: 2021-02-03 23:00:00+00:00
-    zoom_link: 123.com
+    zoom_link: https://zoom.us/j/96086805412?pwd=Ti81M0ovSGdjL0tCZmdSd0drMGRYZz09
     hosts: Luc De Raedt, Sebastijan Dumancic, Robin Manhaeve and Giuseppe Marra
   authors:
   - name: Luc De Raedt
@@ -856,12 +856,12 @@
   - name: AH5
     start_time: 2021-02-03 20:00:00+00:00
     end_time: 2021-02-03 23:00:00+00:00
-    zoom_link: 123.com
+    zoom_link: https://msu.zoom.us/j/98603385337
     hosts: Yao Ma, Wei Jin, Yiqi Wang, Tyler Derr and Jiliang Tang
   - name: AH5
     start_time: 2021-02-03 20:00:00+00:00
     end_time: 2021-02-03 23:00:00+00:00
-    zoom_link: 123.com
+    zoom_link: https://msu.zoom.us/j/98603385337
     hosts: Yao Ma, Wei Jin, Yiqi Wang, Tyler Derr and Jiliang Tang
   authors:
   - name: Yao Ma
@@ -904,12 +904,12 @@
   - name: AH6
     start_time: 2021-02-03 20:00:00+00:00
     end_time: 2021-02-03 23:00:00+00:00
-    zoom_link: 123.com
+    zoom_link: https://zoom.us/j/98341160115?pwd=MHVqYnBkS1pwenN6eXlHeHBoSEI3dz09
     hosts: Maria-Florina Balcan, Tuomas Sandholm and Ellen Vitercik
   - name: AH6
     start_time: 2021-02-03 20:00:00+00:00
     end_time: 2021-02-03 23:00:00+00:00
-    zoom_link: 123.com
+    zoom_link: https://zoom.us/j/98341160115?pwd=MHVqYnBkS1pwenN6eXlHeHBoSEI3dz09
     hosts: Maria-Florina Balcan, Tuomas Sandholm and Ellen Vitercik
   authors:
   - name: Maria-Florina Balcan
@@ -947,12 +947,12 @@
   - name: AH7
     start_time: 2021-02-03 20:00:00+00:00
     end_time: 2021-02-03 23:00:00+00:00
-    zoom_link: 123.com
+    zoom_link: https://zoom.us/j/95951179872?pwd=bDhSei9EeDhPenhYQjcwaVhFTEFBQT09
     hosts: Freddy Lecue, Pasquale Minervini, Fosca Giannotti and Riccardo Guidotti
   - name: AH7
     start_time: 2021-02-03 20:00:00+00:00
     end_time: 2021-02-03 23:00:00+00:00
-    zoom_link: 123.com
+    zoom_link: https://zoom.us/j/95951179872?pwd=bDhSei9EeDhPenhYQjcwaVhFTEFBQT09
     hosts: Freddy Lecue, Pasquale Minervini, Fosca Giannotti and Riccardo Guidotti
   authors:
   - name: Freddy Lecue
@@ -999,12 +999,12 @@
   - name: AH8
     start_time: 2021-02-03 20:00:00+00:00
     end_time: 2021-02-03 23:00:00+00:00
-    zoom_link: 123.com
+    zoom_link: https://zoom.us/j/98620923026?pwd=SmVxTVBKc05jOTBMd05uZmE5Ui9IZz09
     hosts: Arun Rajkumar
   - name: AH8
     start_time: 2021-02-03 20:00:00+00:00
     end_time: 2021-02-03 23:00:00+00:00
-    zoom_link: 123.com
+    zoom_link: https://zoom.us/j/98620923026?pwd=SmVxTVBKc05jOTBMd05uZmE5Ui9IZz09
     hosts: Arun Rajkumar
   authors:
   - name: Arun Rajkumar
@@ -1035,12 +1035,12 @@
   - name: AH9
     start_time: 2021-02-03 20:00:00+00:00
     end_time: 2021-02-03 23:00:00+00:00
-    zoom_link: 123.com
+    zoom_link: https://zoom.us/j/91501806002?pwd=dnRqcjBpL1oxQzQzSC9PRXNVNlVFdz09
     hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
   - name: AH9
     start_time: 2021-02-03 20:00:00+00:00
     end_time: 2021-02-03 23:00:00+00:00
-    zoom_link: 123.com
+    zoom_link: https://zoom.us/j/91501806002?pwd=dnRqcjBpL1oxQzQzSC9PRXNVNlVFdz09
     hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
   authors:
   - name: Hao Zhang
@@ -1079,13 +1079,13 @@
   - name: AH10
     start_time: 2021-02-03 20:00:00+00:00
     end_time: 2021-02-03 23:00:00+00:00
-    zoom_link: 123.com
+    zoom_link: https://macquarie.zoom.us/j/82808050654?pwd=a1o3VDJueXNQSEI5bGNvZFA2eW9KQT09
     hosts: Shoujin Wang, Liang Hu, Yan Wang, Longbing Cao, Michael Sheng and Mehmet
       Orgun
   - name: AH10
     start_time: 2021-02-03 20:00:00+00:00
     end_time: 2021-02-03 23:00:00+00:00
-    zoom_link: 123.com
+    zoom_link: https://macquarie.zoom.us/j/82808050654?pwd=a1o3VDJueXNQSEI5bGNvZFA2eW9KQT09
     hosts: Shoujin Wang, Liang Hu, Yan Wang, Longbing Cao, Michael Sheng and Mehmet
       Orgun
   authors:
