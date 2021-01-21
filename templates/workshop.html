@@ -42,11 +42,20 @@
         Zoom Link
         </a>
       {% elif workshop.zoom_links|length > 1 %}
-        {% for zoom_link in workshop.zoom_links %}
-        <a href="{{ zoom_link }}" target="_blank"  class="card-link">
-        Zoom Link  {{ loop.index }}
-        </a>
-        {% endfor %}
+          {% if workshop.title ==  'W13: 5th International Workshop on Health Intelligence (W3PHIAI-21)' %}
+              <a href="{{ workshop.zoom_links[0] }}" target="_blank"  class="card-link">
+                Zoom Link (February 8)
+              </a>
+              <a href="{{ workshop.zoom_links[1] }}" target="_blank"  class="card-link">
+                Zoom Link (February 9)
+              </a>
+          {% else %}
+            {% for zoom_link in workshop.zoom_links %}
+            <a href="{{ zoom_link }}" target="_blank"  class="card-link">
+            Zoom Link  {{ loop.index }}
+            </a>
+            {% endfor %}
+          {% endif %}
       {% endif %}
     </div>
 
