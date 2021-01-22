@@ -185,7 +185,7 @@
   awardees:
     - name: "DL-Lite: Tractable Description Logics for Ontologies"
       id: ae1
-      link: https://www.aaai.org/Papers/AAAI/2005/AAAI05-094.pdf
+      link: https://virtual.2021.aaai.org/paper_CLASSIC-2021.html
       organization: Diego Calvanese, Giuseppe De Giacomo, Domenico Lembo, Maurizio Lenzerini, and Riccardo Rosati
       description: For proposing basic knowledge representation languages with low complexity of reasoning that have had significant impact beyond AI into semantic foundations for the Web
       talk:
@@ -204,6 +204,7 @@
       id: ae1
       organization: Massachusetts Institute of Technology, USA
       description: For his work entitled Learning to See the Physical World
+      paperlink: https://virtual.2021.aaai.org/paper_DISS-2019.html
       talk:
         - session_name: Poster Presentation
           start_time: 2021-02-05 00:00:00+00:00
