@@ -66,11 +66,12 @@
             <div class="m-3 text-muted">
               {{session.session}}
               <span class="session_times">{{session.time_string}}</span>
-              {% if plenary_session.presentation_id or session.presentation_id %}
-                [<a href="plenary_session_{{plenary_session.id}}.html"   class="card-link">Watch video</a>]
-              {% else %}
-                [<a href="livestream.html"   class="card-link">Join Livestream</a>]
-              {% endif %}
+{#              {% if plenary_session.presentation_id or session.presentation_id %}#}
+{#                [<a href="plenary_session_{{plenary_session.id}}.html"   class="card-link">Watch video</a>]#}
+{#              {% else %}#}
+{#                [<a href="livestream.html"   class="card-link">Join Livestream</a>]#}
+{#              {% endif %}#}
+                [<a href="livestream.html"   class="card-link">Watch video</a>]
             </div>
             {% endfor %}
 
