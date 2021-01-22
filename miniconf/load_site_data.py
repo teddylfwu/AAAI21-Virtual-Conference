@@ -366,6 +366,7 @@ def build_awards(raw_awards: List[Dict[str, Any]]) -> List[Award]:
                 id=awardee['id'],
                 link=awardee['link'] if 'link' in awardee.keys() else None,
                 description=awardee['description'] if 'description' in awardee.keys() else None,
+                paperlink=awardee['paperlink'] if 'paperlink' in awardee.keys() else None,
                 image=awardee['image'] if 'image' in awardee.keys() else None,
                 organization=awardee['organization'],
                 talk=SessionInfo(session_name = awardee['talk'][0]['session_name'], 

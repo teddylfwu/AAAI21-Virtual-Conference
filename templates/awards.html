@@ -61,7 +61,11 @@
                 </div>
                 {% if ae.description %}
                 <div class="m-3 text-muted">
-                <p>{{ ae.description }}</p>
+                <p>{{ ae.description }}
+                {% if ae.paperlink %}
+                  <a href='{{ae.paperlink}}'> [Paper] </a>
+                {% endif %}
+              </p>
               </div>
                 {% endif %}
                 
