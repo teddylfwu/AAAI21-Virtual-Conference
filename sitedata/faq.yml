@@ -22,8 +22,9 @@ FAQ:
       - Question: How do I register for RocketChat?
         Answer: "You will use your AAAI-2021 virtual conference website account to log in to RocketChat.
         Do not create a new account for RocketChat, the text-chat tool that is embedded throughout the site."
-      - Question: Which channel(s) should I join?
-        Answer: "Please see the explanation on the channels in [this document](static/pdf/rocketchat_channels.pdf)."
+      #- Question: Which channel(s) should I join?
+      #  Answer: "Please see the explanation on the channels in [this document](static/pdf/rocketchat_channels.pdf)."
+      
       - Question: How can I find other people to chat with during the conference?
         Answer: "The socials are one way to interact and discuss with others.
          We will also allow participants to make channels on RocketChat.
