@@ -62,15 +62,20 @@
 <!-- Title -->
 <div class="card m-3" style="">
   <div class="card-header">
-    <h2 class="card-title main-title text-center" style="color: black">
-        {% if paper.id == "CLASSIC-2021" %}
-            2021 AAAI Classic Paper Award
+      {% if paper.id == "CLASSIC-2021" %}
+          <h2 class="card-title main-title text-center" style="color: black">
+            DL-Lite: Tractable Description Logics for Ontologies
+          </h2>
+          <h3 class="card-subtitle mb-2 text-muted text-center">2021 AAAI Classic Paper Award<br></h3>
         {% elif paper.id == "DISS-2019" %}
-            2019 AAAI/ACM SIGAI Dissertation Award
+          <h2 class="card-title main-title text-center" style="color: black">
+            Learning to See the Physical World
+          </h2>
+          <h3 class="card-subtitle mb-2 text-muted text-center"> 2019 AAAI/ACM SIGAI Dissertation Award<br></h3>
+        {% else %}
+          <h2 class="card-title main-title text-center" style="color: black">    {{paper.content.title}}</h2>
         {% endif %}
-        <br>
-        {{paper.content.title}}
-    </h2>
+
     <h3 class="card-subtitle mb-2 text-muted text-center">
       {% for author in paper.content.authors %}
       <a href="papers.html?filter=authors&search={{author}}&program=all" class="text-primary"
