@@ -24,7 +24,6 @@ FAQ:
         Do not create a new account for RocketChat, the text-chat tool that is embedded throughout the site."
       #- Question: Which channel(s) should I join?
       #  Answer: "Please see the explanation on the channels in [this document](static/pdf/rocketchat_channels.pdf)."
-      
       - Question: How can I find other people to chat with during the conference?
         Answer: "The socials are one way to interact and discuss with others.
          We will also allow participants to make channels on RocketChat.
@@ -34,7 +33,7 @@ FAQ:
       - Question: How do I use Zoom in the browser instead of the App?
         Answer: "Zoom is used for the Q&A sessions for the individual papers, which you can join using the Zoom app or within the browser. Clicking on the link will ask you to open the video in the Zoom app. If you want to use Zoom in the browser, simply wait a few seconds after clicking the Video link and it will open a browser-based session."
       - Question: What tools and systems requirements are needed?
-        Answer: "To access the site you will need a modern browser. This site has been tested with Chrome 80.0+, Brave 1.4.95, Firefox 73.0, and browsers built on Chromium 80.0+. 
+        Answer: "To access the site you will need a modern browser. This site has been tested with Chrome 80.0+, Brave 1.4.95, Firefox 73.0, and browsers built on Chromium 80.0+."
       - Question: If you're using the web browser Brave...
         Answer: "Please turn down Shields for virtual.2021.aaai.org, since they interfere with the RocketChat integration."
       - Question: If you're using the web browser Chrome...
