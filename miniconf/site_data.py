@@ -318,6 +318,7 @@ class AwardTalk:
 class Awardee:
     id: str
     name: str
+    link: str
     organization: str
     image: str = None
     description: str = None

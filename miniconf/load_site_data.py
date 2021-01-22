@@ -364,6 +364,7 @@ def build_awards(raw_awards: List[Dict[str, Any]]) -> List[Award]:
             awardees=[Awardee(
                 name=awardee['name'],
                 id=awardee['id'],
+                link=awardee['link'] if 'link' in awardee.keys() else None,
                 description=awardee['description'] if 'description' in awardee.keys() else None,
                 image=awardee['image'] if 'image' in awardee.keys() else None,
                 organization=awardee['organization'],
