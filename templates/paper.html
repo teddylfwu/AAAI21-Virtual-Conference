@@ -63,7 +63,13 @@
 <div class="card m-3" style="">
   <div class="card-header">
     <h2 class="card-title main-title text-center" style="color: black">
-      {{paper.content.title}}
+        {% if paper.id == "CLASSIC-2021" %}
+            2021 AAAI Classic Paper Award
+        {% elif paper.id == "DISS-2019" %}
+            2019 AAAI/ACM SIGAI Dissertation Award
+        {% endif %}
+        <br>
+        {{paper.content.title}}
     </h2>
     <h3 class="card-subtitle mb-2 text-muted text-center">
       {% for author in paper.content.authors %}
