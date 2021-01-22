@@ -24,6 +24,7 @@
     <h2 style="margin-top: 30px"> Recipents </h2>
 
     {% for award in awards %}
+    
     <h4  id="{{ award.name }}" style="padding-top: 80px; margin-top: -70px;">{{ award.name }}</h4>
     {% for ae in award.awardees %}
 
@@ -33,7 +34,7 @@
             <div class="row">
               <div class="col-md-2 col-sm-5">
                 {% if ae.image %}
-                <img src="{{ ae.image }}" width="100%" class="mt-3">
+                <img src="static/images/awards/{{ ae.image }}" width="100%" class="mt-3">
                 {% else %}
                 <img src="static/images/aaai2021/AAAI-logo.png" width="100%" class="mt-3">
                 {% endif %}
@@ -41,9 +42,16 @@
               <div class="col-md-10 col-sm-6">
                 <div class="m-3 text-muted">
                   <h4>
+                    {% if ae.link %}
+                    <a href={{ae.link}}>
+                    <p class="main-title">
+                      {{ ae.name }}
+                    </p></a>
+                    {% else %}
                     <p class="main-title">
                       {{ ae.name }}
                     </p>
+                    {% endif%}
                   </h4>
                 </div>
                 <div class="m-3 text-muted">
