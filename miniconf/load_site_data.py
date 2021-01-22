@@ -63,7 +63,7 @@ def load_site_data(
         "Sister Conference_papers",
         "Student Abstracts_papers",
         "Undergraduate Consortium_papers",
-        "awards",
+        "award_papers",
         "paper_recs",
         "papers_projection",
         "paper_sessions",
@@ -154,7 +154,7 @@ def load_site_data(
         p["program"] = "SA"
     for p in site_data["Undergraduate Consortium_papers"]:
         p["program"] = "UC"
-    for p in site_data["awards"]:
+    for p in site_data["award_papers"]:
         p["program"] = "Award"
 
     site_data["programs"] = ["AISI", "Demo", "DC",
@@ -228,7 +228,7 @@ def load_site_data(
             site_data["Senior Member Track_papers"]+
             site_data["Sister Conference_papers"]+
             site_data["Student Abstracts_papers"]+
-            site_data["awards"]+
+            site_data["award_papers"]+
             site_data["Undergraduate Consortium_papers"],
         paper_sessions=site_data["paper_sessions"],
         paper_recs=site_data["paper_recs"],
