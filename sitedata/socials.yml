@@ -9,7 +9,7 @@
   website:  https://sites.google.com/view/ai4be
   rocketchat_channel: TBD
   location: takes place online
-  zoom_link: /
+  zoom_link: 
   sessions:
   - name: ""
     start_time: 2021-02-09 06:00:00-08:00
@@ -25,7 +25,7 @@
   website: https://www.circuitinstitute.org/aaai21
   rocketchat_channel: TBD
   location: takes place online
-  zoom_link: /
+  zoom_link: 
   sessions:
   - name: ""
     start_time: 2021-02-05 11:30:00-08:00
@@ -41,7 +41,7 @@
   website: https://blackinai.github.io/#/
   rocketchat_channel: TBD
   location: takes place online
-  zoom_link: /
+  zoom_link: 
   sessions:
   - name: ""
     start_time: 2021-02-09 15:30:00-08:00
@@ -60,7 +60,7 @@
   website: https://sites.google.com/view/gender-identity-and-ai/home
   rocketchat_channel: TBD
   location: takes place online
-  zoom_link: /
+  zoom_link: 
   sessions:
   - name: ""
     start_time: 2021-02-08 08:30:00-08:00
@@ -78,7 +78,7 @@
   website: https://docs.google.com/document/d/1CTHDlQGuC-lSyaSaOHUsre6gyNZ3fpirEC90uL61Brg/edit#
   rocketchat_channel: TBD
   location: takes place online
-  zoom_link: /
+  zoom_link: 
   sessions:
   - name: ""
     start_time: 2021-02-08 07:00:00-08:00
@@ -96,7 +96,7 @@
   website: https://sites.google.com/view/latinxperiences/home
   rocketchat_channel: TBD
   location: takes place online
-  zoom_link: /
+  zoom_link: 
   sessions:
   - name: ""
     start_time: 2021-02-04 12:00:00-08:00
@@ -113,7 +113,7 @@
   website: http://www.pages.drexel.edu/~rw37/midcar2021
   rocketchat_channel: TBD
   location: takes place online
-  zoom_link: /
+  zoom_link: 
   sessions:
   - name: ""
     start_time: 2021-02-06 11:00:00-08:00
@@ -143,7 +143,7 @@
   website: https://researcher.watson.ibm.com/researcher/view_group.php?id=10599
   rocketchat_channel: TBD
   location: takes place Online
-  zoom_link: /
+  zoom_link: 
   sessions:
   - name: ""
     start_time: 2021-02-09 06:30:00-08:00
@@ -200,7 +200,7 @@
   website: http://www.diverseinai.com
   rocketchat_channel: TBD
   location: takes place online
-  zoom_link: /
+  zoom_link: 
   sessions:
   - name: ""
     start_time: 2021-02-09 07:30:00-08:00
