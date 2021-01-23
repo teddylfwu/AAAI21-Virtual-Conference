@@ -180,6 +180,9 @@
       <div id="abstractExample">
         <span class="font-weight-bold">Abstract:</span>
         {{paper.content.abstract}}
+          {% if paper.id=="CLASSIC-2021" %}
+          <br><br>The Classic Paper Award was established in 1999 to honor the author(s) of paper(s) deemed most influential, chosen from a specific conference year. The 2021 award is being given for the most influential paper from the Twentieth National Conference on Artificial Intelligence, held in 2005 in Pittsburgh, Pennsylvania, USA. The authors of the following paper are being specifically honored for proposing basic knowledge representation languages with low complexity of reasoning that have had significant impact beyond AI into semantic foundations for the Web.
+          {% endif %}
       </div>
     </div>
   </div>
