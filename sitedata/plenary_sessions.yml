@@ -1,6 +1,6 @@
 - UID: opening_remarks
   title: Opening Remarks
-  day: Nov 16
+  day: Feb 4
   image: static/images/aaai2021/AAAI-logo.png
   presentation_id: '38942925'
   sessions:
@@ -10,7 +10,7 @@
   rocketchat_channel: plenary-opening-remarks
 - UID: keynote_by_regina_barzilay
   title: 'AAAI Squirrel Award for for Artificial Intelligence for the Benefit of Humanity'
-  day: Nov 16
+  day: Feb 4
   image: static/images/keynotes/regina_barzilay.png
   sessions:
   - name: P-Live Presentation
@@ -38,7 +38,7 @@
   presentation_id: '38938634'
 - UID: industry_panel
   title: Industry Panel
-  day: Nov 16
+  day: Feb 4
   image: static/images/emnlp2020/acl-logo.png
   sessions:
   - name: P-Live Presentation
@@ -50,7 +50,7 @@
     \ Jo\xE3o Gra\xE7a"
 - UID: ethics_panel_discussion
   title: Ethics Panel Discussion
-  day: Nov 17
+  day: Feb 5
   image: static/images/emnlp2020/acl-logo.png
   sessions:
   - name: P-Live Presentation
@@ -64,7 +64,7 @@
     and Implications. Moderated by Mona Diab.'
 - UID: keynote_by_daphne_koller
   title: "Keynote: Digital Learning Coming to Life"
-  day: Nov 17
+  day: Feb 5
   image: static/images/keynotes/daphne_koller.jpg
   sessions:
   - name: P-Live Presentation
@@ -84,7 +84,7 @@
 - UID: keynote_by_michael_wooldridge
   title: '2021 AAAI/EAAI-21 Outstanding Educator Award Lecture: Talking to the Public about AI.'
   presentation_id: "38942827"
-  day: Nov 18
+  day: Feb 6
   image: static/images/keynotes/michael_wooldridge.jpg
   sessions:
   - name: P-Live Presentation
@@ -113,7 +113,7 @@
 - UID: business_meeting
   presentation_id: "38942830"
   title: Business Meeting
-  day: Nov 19
+  day: Feb 7
   image: static/images/emnlp2020/acl-logo.png
   sessions:
   - name: P-Live Presentation
@@ -123,7 +123,7 @@
 - UID: best_paper_awards_and_closing
   title: Best Paper Awards and Closing
   presentation_id: "38942830"
-  day: Nov 19
+  day: Feb 7
   image: static/images/emnlp2020/acl-logo.png
   sessions:
   - name: P-Live Presentation
