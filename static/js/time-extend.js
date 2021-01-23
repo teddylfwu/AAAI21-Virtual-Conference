@@ -1,6 +1,7 @@
 add_local_tz = (selector) => {
   const regex_time = new RegExp("\\((.*)-(.*) (.*)\\)");
-  const guess_tz = moment.tz.guess(true);
+  // const guess_tz = moment.tz.guess(true);
+  const guess_tz = "America/Los_Angeles";
 
   $(selector).each(function () {
     const t = $(this).text();
