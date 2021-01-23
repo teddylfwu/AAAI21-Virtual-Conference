@@ -67,6 +67,7 @@ def load_site_data(
         "Sister Conference_papers",
         "Student Abstracts_papers",
         "Undergraduate Consortium_papers",
+        "award_papers",
         "paper_recs",
         "papers_projection",
         "paper_sessions",
@@ -160,16 +161,40 @@ def load_site_data(
         p["program"] = "SA"
     for p in site_data["Undergraduate Consortium_papers"]:
         p["program"] = "UC"
+    for p in site_data["award_papers"]:
+        p["program"] = "Award"
 
     site_data["programs"] = ["AISI", "Demo", "DC",
                              "EAAI", "IAAI","Main","SMT","SC",
-                             "SA","UC"]
+                             "SA","UC","Award"]
 
     # tutorials.html
     tutorial_MQ = []
     tutorial_MH = []
     tutorial_AQ = []
     tutorial_AH = []
+
+    # IAAI poster presentation
+    iaai_poster_schedule = {}
+    iaai_poster_schedule['February 4, Thursday'] = {}
+    iaai_poster_schedule['February 5, Friday'] = {}
+    iaai_poster_schedule['February 6, Saturday'] = {}
+    iaai_poster_schedule['February 4, Thursday']['Aerospace'] = [74,132,171]
+    iaai_poster_schedule['February 4, Thursday']['Commerce'] = [23,84,87,92,93,101,140,179,190]
+    iaai_poster_schedule['February 4, Thursday']['Security'] = [98,113,142]
+    iaai_poster_schedule['February 5, Friday']['General'] = [104]
+    iaai_poster_schedule['February 5, Friday']['Engineering'] = [100,105,165,176]
+    iaai_poster_schedule['February 5, Friday']['Knowledge'] = [21,37,59,65,119,151,157,174]
+    iaai_poster_schedule['February 5, Friday']['Natural Language Processing'] = [89]
+    iaai_poster_schedule['February 5, Friday']['Prediction'] = [43,55]
+    iaai_poster_schedule['February 6, Saturday']['Artificial Intelligence'] = [17,31,60,73,167]
+    iaai_poster_schedule['February 6, Saturday']['Bioscience'] = [76,77,124,145,146,149]
+    iaai_poster_schedule['February 6, Saturday']['COVID'] = [152,154]
+    iaai_poster_schedule['February 6, Saturday']['Driving'] = [34]
+    iaai_poster_schedule['February 6, Saturday']['Intelligent Technology'] = [99]
+
+    site_data["iaai_poster_schedule"] = iaai_poster_schedule
+
 
     # undergraduate_consortium.html
     tutorial_UC = []
@@ -240,6 +265,7 @@ def load_site_data(
             site_data["Senior Member Track_papers"]+
             site_data["Sister Conference_papers"]+
             site_data["Student Abstracts_papers"]+
+            site_data["award_papers"]+
             site_data["Undergraduate Consortium_papers"],
         paper_sessions=site_data["paper_sessions"],
         paper_recs=site_data["paper_recs"],
@@ -338,7 +364,9 @@ def build_awards(raw_awards: List[Dict[str, Any]]) -> List[Award]:
             awardees=[Awardee(
                 name=awardee['name'],
                 id=awardee['id'],
+                link=awardee['link'] if 'link' in awardee.keys() else None,
                 description=awardee['description'] if 'description' in awardee.keys() else None,
+                paperlink=awardee['paperlink'] if 'paperlink' in awardee.keys() else None,
                 image=awardee['image'] if 'image' in awardee.keys() else None,
                 organization=awardee['organization'],
                 talk=SessionInfo(session_name = awardee['talk'][0]['session_name'], 

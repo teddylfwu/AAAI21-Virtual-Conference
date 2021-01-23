@@ -24,16 +24,31 @@
     opacity: 0.5;
     border-radius: 4px 0 0 0;
   }
+    .ctagcloud li {
+        display:inline-block;
+        text-transform:uppercase;
+        font-size:1rem;
+        font-weight:600;
+        margin:4px;
+        padding:8px 16px;
+        -webkit-border-radius:3px;
+        -moz-border-radius:3px;
+        border-radius:3px;
+        background:rgba(0,0,0,0.05);
+        -webkit-transition:all 0.2s ease-in-out;
+        -moz-transition:all 0.2s ease-in-out;
+        transition:all 0.2s ease-in-out
+    }
 </style>
 
 <div class="jumbotron jumbotron-fluid back" style="padding-bottom: 5px;">
   <div class="row header p-6 m-5">
     <div class="p-1 mx-auto text-center text-white col-md-9 col-sm-12">
       <h2>
-{#        {{config.tagline|safe}}#}
+        {{config.tagline|safe}}
       </h2>
       <h2 class="p-5">
-{#        {{config.date|safe}}#}
+        {{config.date|safe}}
       </h2>
     </div>
   </div>
@@ -45,43 +60,142 @@
 
 <div class="row">
   <div class="col-md-7 col-sm-12 pr-5 lead">
-    <p>Welcome to AAAI2021!<br><br>
-      Here is how to use this website to find live events (at fixed times) plus pre-recorded talks you can watch anytime.
+      <ul class="ctagcloud">
+        <li>
+            <a href="https://aaai.org/Conferences/code-of-conduct.php">AAAI Code of Conduct for Conferences and Events</a>
+            <br>
+            <span style="text-transform: none;">For inquiries about the code of conduct, please contact <a href="mailto:aaaiethics@aaai.org">aaaiethics@aaai.org</a></span>
+        </li>
+    </ul>
+    <p>For general inquiries about the AAAI-21 program, please write to <a href="mailto:aaai21@aaai.org">aaai21@aaai.org</a>.</p>
+
+    <p>Welcome to AAAI-21!<br><br>
+      This page describes how to use this website to find live events (at fixed times) plus pre-recorded talks you can watch anytime.
     </p>
     <dl>
       <dt>Schedule</dt>
       <dd>Use the <a class="text" href="schedule.html" >Schedule</a> to find live sessions and set your timezone.
       </dd>
       <dt>Plenary Sessions</dt>
-      <dd>Plenary Sessions include Keynote Talks and the Business meeting (pre-recorded talks + live Q&A), plus Awards ceremonies.
-        <!-- Use the <a class="text" href="livestream.html" >Livestream</a> to watch live sessions in real time. -->
-        Pre-recorded videos are available under <a class="text" href="plenary_sessions.html" >Plenary Sessions</a>.
-      </dd>
-      <dt>Main Conference Papers</dt>
-      <dd>Each <a class="text" href="papers.html" >paper</a> has a pre-recorded 7-12 minute talk,
-        one live Q&A video sessions (on Zoom or in Gather.Town) at different times, and a linked RocketChat channel (for chatting anytime with the author).
-        This includes <a class="text" href="papers.html?filter=titles&program=demo&track=All+tracks" >System Demonstrations</a> papers</a>.
-      </dd>
-      <dt>Tutorials and Workshops</dt>
-      <dd>The 7 <a class="text" href="tutorials.html" >tutorials</a> and 25 <a class="text" href="workshops.html" >workshops</a> (November 19-20)  are all included under conference registration.
-        Some are fully pre-recorded, others include live sessions as well!
-      </dd>
-      <dt> Gather.town</dt>
-      <dd>Join the virtual conference venue in  <a class="text" href="{{ config.gather_town }}" target="_blank">Gather.Town</a>!
-        Come <a href="https://emnlp2020-public.s3.amazonaws.com/guides/EMNLP+Virtual+Chair+Pre-event+communications.pdf">here</a>
-        to learn a bit about accessing EMNLP events in Gather.Town, via 'Virtual Chair'."
-      </dd>
-      <dt> Sponsors</dt>
-      <dd>Meet our <a class="text" href="sponsors.html" >sponsors</a>.</dd>
-      <dt>Chat</dt>
-      <dd>Chat with attendees using various <a class="text" href="chat.html" >RocketChat</a> channels!
-        When you access RocketChat for the first time, click on 'Login via EMNLP2020 account' and your EMNLP2020 credentials will be automatically used to log you in to RocketChat.</dd>
-      <dt>Socials</dt>
-      <dd>Meet new people using <a class="text" href="socials.html" >social events</a> throughout the week.</dd>
-      <dt> Help</dt>
-      <dd> Look under <a class="text" href="about.html" >Help</a> for FAQs and technical support.</dd>
-      <dt> Social Media</dt>
-      <dd> Use the hashtag  <span style="font-weight: bold; font-family: 'Consolas', 'Deja Vu Sans Mono', 'Bitstream Vera Sans Mono', monospace;">#emnlp2020</span></dd>
+{#      <dd>Plenary Sessions include Keynote Talks and the Business meeting (pre-recorded talks + live Q&A), plus Awards ceremonies.#}
+{#        <!-- Use the <a class="text" href="livestream.html" >Livestream</a> to watch live sessions in real time. -->#}
+{#        Pre-recorded videos are available under <a class="text" href="plenary_sessions.html" >Plenary Sessions</a>.#}
+{#      #}
+{#      </dd>#}
+        <dd>
+            Plenary Sessions include the Conference Welcome and Awards, Keynote and Invited Talks, Invited Panels, and special community events, such as the Organizational Awards Ceremony.
+            Some pre-recorded videos may be available for <a class="text" href="plenary_sessions.html" >Plenary Sessions</a>.
+
+        </dd>
+
+       <dt>Conference Papers</dt>
+        <dd>
+            Preliminary PDFs for all accepted papers for the following tracks are available via this site: <a class="text" href="papers.html?filter=titles&program=Main&track=All+tracks" >AAAI Main Track</a>, <a class="text" href="papers.html?filter=titles&program=AISI&track=All+tracks" >AAAI Special Track on AI for Social Impact</a>, <a class="text" href="papers.html?filter=titles&program=IAAI&track=All+tracks" >IAAI-21</a>,  <a class="text" href="papers.html?filter=titles&program=EAAI&track=All+tracks" >EAAI-21</a>, <a class="text" href="papers.html?filter=titles&program=SMT&track=All+tracks" >Senior Member Talks</a>, <a class="text" href="papers.html?filter=titles&program=Demo&track=All+tracks" >Demonstrations</a>, <a class="text" href="papers.html?filter=titles&program=SA&track=All+tracks" >Student Abstract Program</a>, <a class="text" href="papers.html?filter=titles&program=DC&track=All+tracks" >Doctoral Consortium</a>, and the <a class="text" href="papers.html?filter=titles&program=UC&track=All+tracks" >Undergraduate Consortium</a>.
+        </dd>
+
+        <dt>AAAI-21/IAAI-21 Conference Pre-recorded Talks</dt>
+        <dd>
+            Each AAAI-21 conference paper has a pre-recorded 20-minute talk, a pre-recorded 1-minute introductory talk (for a summary of the paper), and an associated poster session.
+            <br>
+            Each IAAI-21 conference paper has a pre-recorded 20-minute talk, a pre-recorded 2-minute introductory talk (for a summary of the paper), and an associated poster session.
+            <br>
+            Pre-recorded talks for the following programs are also available: Senior Member Talks, Demonstrations, Student Abstract Program, Doctoral Consortium, the Classic Paper Award Talk, and the AAAI/ACM SIGAI Dissertation Award Talk. Live Q&A video sessions (Zoom/Gather.Town) will be available via the assigned poster session times, as well as a linked RocketChat channel (for chatting anytime with the author).
+        </dd>
+
+        <dt>EAAI-21 Symposium</dt>
+        <dd>
+            The EAAI-21 will be conducted live via Zoom. All conference registrants are welcome.
+        </dd>
+
+        <dt>Doctoral and Undergraduate Consortia</dt>
+        <dd>
+            The <a class="text" href="doctoral_consortium.html">Doctoral</a> and <a class="text" href="undergraduate_consortium.html">Undergraduate</a> Consortia will be conducted live via Zoom. All AAAI-21 registrants are welcome.
+        </dd>
+
+        <dt>Tutorials and Workshops</dt>
+        <dd>
+            AAAI includes (25) <a class="text" href="tutorials.html">tutorials</a> on February 3 and (26) <a class="text" href="workshops.html">workshops</a> on February 8-9, which are open to all registered attendees. Most will be live sessions, accessible via the posted Zoom link.
+        </dd>
+
+        <dt>Diversity Events</dt>
+        <dd>
+            AAAI features 11 Diversity and Inclusion events throughout the February 2-9 conference period. Most are open to conference registrants, and accessible via the posted Zoom link.
+        </dd>
+
+        <dt>Poster Sessions</dt>
+        <dd>
+            Conference-wide poster sessions will be held February 4-6, and will include posters from all programs listed above under Conference Papers. Poster sessions are scheduled for the following times:
+            <li>
+                8:45 - 10:30 AM PST
+            </li>
+            <li>
+                4:45 - 6:30 PM PST
+            </li>
+            <li>
+                12:45 - 2:30 AM PST
+            </li>
+            Authors are encouraged to be available during two sessions each day.
+        </dd>
+
+        <dt>Sponsors/Exhibitors/Job Fair</dt>
+        <dd>
+            AAAI is grateful to all of its sponsors for their support of all aspects of the conference program. Please visit our sponsors and exhibitor booths during the following times, February 4-6:
+            <li>
+                10:00 - 12:30 AM PST
+            </li>
+            <li>
+                6:00 - 8:30 PM PST
+            </li>
+            <li>
+                2:00 - 4:30 AM PST
+            </li>
+            Be sure to attend the AAAI/ACM SIGAI Job Fair on Saturday, February 6 during the following hours.
+            <li>10:30 - 12:30 am PST</li>
+            <li>6:30 - 8:30 pm PST</li>
+            <li>2:30 - 4:30 am PST</li>
+        </dd>
+
+        <dt>Chat</dt>
+        <dd>
+            Chat with attendees using various RocketChat channels! When you access RocketChat for the first time, click on 'Login via AAAI2021 account' and your AAAI2021 credentials will be automatically used to log you in to RocketChat.
+        </dd>
+
+        <dt>Help</dt>
+        <dd>
+            Look under <a class="text" href="about.html">Help</a> for FAQs and technical support.
+        </dd>
+
+        <dt>Social Media</dt>
+        <dd> Use the hashtag  <span style="font-weight: bold; font-family: 'Consolas', 'Deja Vu Sans Mono', 'Bitstream Vera Sans Mono', monospace;">#AAAI2021</span></dd>
+
+
+{#      <dt>Main Conference Papers</dt>#}
+{#      <dd>Each <a class="text" href="papers.html" >paper</a> has a pre-recorded 7-12 minute talk,#}
+{#        one live Q&A video sessions (on Zoom or in Gather.Town) at different times, and a linked RocketChat channel (for chatting anytime with the author).#}
+{#        This includes <a class="text" href="papers.html?filter=titles&program=demo&track=All+tracks" >System Demonstrations</a> papers</a>.#}
+{#      </dd>#}
+
+{##}
+{#      <dt>Tutorials and Workshops</dt>#}
+{#      <dd>The 7 <a class="text" href="tutorials.html" >tutorials</a> and 25 <a class="text" href="workshops.html" >workshops</a> (November 19-20)  are all included under conference registration.#}
+{#        Some are fully pre-recorded, others include live sessions as well!#}
+{#      </dd>#}
+{#      <dt> Gather.town</dt>#}
+{#      <dd>Join the virtual conference venue in  <a class="text" href="{{ config.gather_town }}" target="_blank">Gather.Town</a>!#}
+{#        Come <a href="https://emnlp2020-public.s3.amazonaws.com/guides/EMNLP+Virtual+Chair+Pre-event+communications.pdf">here</a>#}
+{#        to learn a bit about accessing EMNLP events in Gather.Town, via 'Virtual Chair'."#}
+{#      </dd>#}
+{#      <dt> Sponsors</dt>#}
+{#      <dd>Meet our <a class="text" href="sponsors.html" >sponsors</a>.</dd>#}
+{#      <dt>Chat</dt>#}
+{#      <dd>Chat with attendees using various <a class="text" href="chat.html" >RocketChat</a> channels!#}
+{#        When you access RocketChat for the first time, click on 'Login via EMNLP2020 account' and your EMNLP2020 credentials will be automatically used to log you in to RocketChat.</dd>#}
+{#      <dt>Socials</dt>#}
+{#      <dd>Meet new people using <a class="text" href="socials.html" >social events</a> throughout the week.</dd>#}
+{#      <dt> Help</dt>#}
+{#      <dd> Look under <a class="text" href="about.html" >Help</a> for FAQs and technical support.</dd>#}
+{#      <dt> Social Media</dt>#}
+{#      <dd> Use the hashtag  <span style="font-weight: bold; font-family: 'Consolas', 'Deja Vu Sans Mono', 'Bitstream Vera Sans Mono', monospace;">#emnlp2020</span></dd>#}
     </dl>
   </div>
   <!-- <div class="col-md-1"></div> -->
@@ -103,19 +217,17 @@
 <br/>
 
 
-<a class="text-muted">
-The <a href="https://github.com/acl-org/emnlp-2020-virtual-conference" >EMNLP2020 virtual conference website</a>
+<p class="text-muted">
+The AAAI2021 virtual conference website
 uses <a href="https://github.com/Mini-Conf/Mini-Conf" >MiniConf</a> built by Hendrik Strobelt and Sasha Rush that
-  was extended by the <a href="https://github.com/acl-org/acl-2020-virtual-conference" >amazing team of ACL 2020</a>.
-The EMNLP2020 infrastructure committee is very grateful to the
-<a href="https://emnlp2020-public.s3.amazonaws.com/emnlp2020_volunteers.pdf" >volunteers</a>
-and contributors whose valuable contributions to building the virtual infrastructure made the conference possible.
+  was extended by the <a href="https://github.com/acl-org/acl-2020-virtual-conference" >ACL 2020</a> and
+    <a href="https://github.com/acl-org/emnlp-2020-virtual-conference">EMNLP 2020</a>.
+The AAAI2021 infrastructure committee is very grateful to the volunteers and contributors whose valuable contributions to building the virtual infrastructure made the conference possible.
 We would also like to thank <a href="https://desilinguist.org/">Nitin Madnani</a> for his advice and IT
   support regarding the virtual infrastructure. We also want to thank
   AI2  for contributing the <a href="https://github.com/allenai/specter">SPECTER model</a>
-  used in the "Similar Papers" feature, David Wadden et al. for <a href="https://github.com/dwadden/dygiepp">DyGIE++</a>
-  that generated paper keywords for us and the team of <a href="https://www.connectedpapers.com/">Connected Papers</a>
-  for providing us with citation graphs.
+  used in the "Similar Papers" feature, and David Wadden et al. for <a href="https://github.com/dwadden/dygiepp">DyGIE++</a>
+  that generated paper keywords for us.
 
 </p>
 

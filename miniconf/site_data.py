@@ -318,7 +318,9 @@ class AwardTalk:
 class Awardee:
     id: str
     name: str
+    link: str
     organization: str
+    paperlink: str = None
     image: str = None
     description: str = None
     talk: SessionInfo = None

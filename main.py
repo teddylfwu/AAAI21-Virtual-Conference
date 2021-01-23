@@ -61,6 +61,9 @@ def awards():
 @app.route("/iaai.html")
 def iaai():
     data = _data()
+    data["IAAI_papers"] = site_data["IAAI_papers"]
+    data["iaai_poster_schedule"] = site_data["iaai_poster_schedule"]
+
     return render_template("iaai.html", **data)
 
 
