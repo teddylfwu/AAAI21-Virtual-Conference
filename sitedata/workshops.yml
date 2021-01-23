@@ -270,8 +270,8 @@
     end_time: 2021-2-8 13:00:00+00:00
     name: None
     hosts: None
-  zoom_links: https://zoom.us/j/9316297282
-  -
+  zoom_links:
+  - https://zoom.us/j/9316297282
   prerecorded_talks: []
 
 - UID: WS-15
