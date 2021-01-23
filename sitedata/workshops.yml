@@ -1,22 +1,3 @@
-- UID: WS-1
-  title: "W1: Affective Content Analysis (AffCon)"
-  organizers: "Niyati Chhaya, Kokil Jaidka, Jennifer Healey, Lyle Ungar and Atanu R Sinha"
-  abstract: "AffCon-2021 is the fourth Affective Content Analysis workshop @ AAAI. The workshop series (i) builds upon the state of the art in neural and AI methods, for modeling affect in interpersonal interactions and behaviors and (ii) brings a confluence of research viewpoints representing several disciplines."
-  website: https://sites.google.com/view/affcon2021
-  rocketchat_channel: W1AffectiveContentAnalysis
-  alias: W1AffectiveContentAnalysis
-  sessions:
-  - start_time: 2021-2-9 12:00:00+00:00
-    end_time: 2021-2-9 13:00:00+00:00
-    name: None
-    hosts: None
-  zoom_links:
-    - https://zoom.us/j/2630266651
-  prerecorded_talks:
-  - title: 'Learning Language Like Infants Do: Self Supervised Learning From Raw Audio'
-    speakers: Emmanuel Dupoux
-    presentation_id: '38940786'
-
 - UID: WS-2
   title: "W2: AI for Behavior Change"
   organizers: "Lyle Ungar, Sendhil Mullainathan, Eric Tchetgen Tchetgen and Rahul Ladhania"
@@ -24,6 +5,7 @@
   website: https://ai4bc.github.io/ai4bc21/
   rocketchat_channel: W2AIforBehaviorChange
   alias: W2AIforBehaviorChange
+  day: Feb 8
   sessions:
     - start_time: 2021-2-8 12:00:00+00:00
       end_time: 2021-2-8 13:00:00+00:00
@@ -36,6 +18,26 @@
     speakers: Masakhane
     presentation_id: '38940745'
 
+- UID: WS-1
+  title: "W1: Affective Content Analysis (AffCon)"
+  organizers: "Niyati Chhaya, Kokil Jaidka, Jennifer Healey, Lyle Ungar and Atanu R Sinha"
+  abstract: "AffCon-2021 is the fourth Affective Content Analysis workshop @ AAAI. The workshop series (i) builds upon the state of the art in neural and AI methods, for modeling affect in interpersonal interactions and behaviors and (ii) brings a confluence of research viewpoints representing several disciplines."
+  website: https://sites.google.com/view/affcon2021
+  rocketchat_channel: W1AffectiveContentAnalysis
+  alias: W1AffectiveContentAnalysis
+  day: Feb 9
+  sessions:
+  - start_time: 2021-2-9 12:00:00+00:00
+    end_time: 2021-2-9 13:00:00+00:00
+    name: None
+    hosts: None
+  zoom_links:
+    - https://zoom.us/j/2630266651
+  prerecorded_talks:
+  - title: 'Learning Language Like Infants Do: Self Supervised Learning From Raw Audio'
+    speakers: Emmanuel Dupoux
+    presentation_id: '38940786'
+
 - UID: WS-3
   title: "W3: AI for Urban Mobility"
   organizers: "Lukas Chrpa , Mauro Vallati, Scott Sanner, Stephen S. Smith and Baher Abdulhai"
@@ -43,6 +45,7 @@
   website: http://aium2021.felk.cvut.cz/
   rocketchat_channel: W3AIforUrbanMobility
   alias: W3AIforUrbanMobility
+  day: Feb 8
   sessions:
     - start_time: 2021-2-8 12:00:00+00:00
       end_time: 2021-2-8 13:00:00+00:00
@@ -63,6 +66,7 @@
   website: http://safeaiw.org/
   rocketchat_channel: W4ArtificialIntelligenceSafety
   alias: W4ArtificialIntelligenceSafety
+  day: Feb 8
   sessions:
     - start_time: 2021-2-8 12:00:00+00:00
       end_time: 2021-2-8 13:00:00+00:00
@@ -83,6 +87,7 @@
   website: http://lcs2.iiitd.edu.in/CONSTRAINT-2021/
   rocketchat_channel: W5CONSTRAINT2021
   alias: W5CONSTRAINT2021
+  day: Feb 8
   sessions:
   - start_time: 2021-2-8 12:00:00+00:00
     end_time: 2021-2-8 13:00:00+00:00
@@ -103,6 +108,7 @@
   website: https://usc-isi-i2.github.io/AAAI21workshop/
   rocketchat_channel: W6CommonsenseKnowledgeGraphs
   alias: W6CommonsenseKnowledgeGraphs
+  day: Feb 8
   sessions:
   - start_time: 2021-2-8 12:00:00+00:00
     end_time: 2021-2-8 13:00:00+00:00
@@ -122,6 +128,7 @@
   website: https://ritual.uh.edu/aaai-21-workshop-on-content-authoring-and-design/
   rocketchat_channel: W7ContentAuthoringandDesign
   alias: W7ContentAuthoringandDesign
+  day: Feb 8
   sessions:
   - start_time: 2021-2-8 12:00:00+00:00
     end_time: 2021-2-8 13:00:00+00:00
@@ -138,6 +145,7 @@
   website: http://deep-learning-graphs.bitbucket.io/dlg-aaai21/
   rocketchat_channel: W8DeepLearningonGraphs
   alias: W8DeepLearningonGraphs
+  day: Feb 8
   sessions:
   - start_time: 2021-2-8 12:00:00+00:00
     end_time: 2021-2-8 13:00:00+00:00
@@ -157,6 +165,7 @@
   website: http://shapingsmarttechnology.org
   rocketchat_channel: W9DesigningAIforTelehealth
   alias: W9DesigningAIforTelehealth
+  day: Feb 8
   sessions:
     - start_time: 2021-2-8 12:00:00+00:00
       end_time: 2021-2-8 13:00:00+00:00
@@ -176,6 +185,7 @@
   website: https://sites.google.com/dstc.community/dstc9/
   rocketchat_channel: W10DialogSystemTechnologyChallenge
   alias: W10DialogSystemTechnologyChallenge
+  day: Feb 8
   sessions:
   - start_time: 2021-2-8 12:00:00+00:00
     end_time: 2021-2-8 13:00:00+00:00
@@ -199,6 +209,7 @@
   website: https://sites.google.com/view/xaiworkshop/topic
   rocketchat_channel: W11ExplainableAgencyinArtificialIntelligence
   alias: W11ExplainableAgencyinArtificialIntelligence
+  day: Feb 8
   sessions:
   - start_time: 2021-2-8 12:00:00+00:00
     end_time: 2021-2-8 13:00:00+00:00
@@ -222,6 +233,7 @@
   website: https://sites.google.com/view/gclr2021/
   rocketchat_channel: W12GraphsandMoreComplexStructuresforLearningandReasoning
   alias: W12GraphsandMoreComplexStructuresforLearningandReasoning
+  day: Feb 9
   sessions:
   - start_time: 2021-2-9 12:00:00+00:00
     end_time: 2021-2-9 13:00:00+00:00
@@ -241,6 +253,7 @@
   website: http://w3phiai2021.w3phi.com/
   rocketchat_channel: W13InternationalWorkshoponHealthIntelligence
   alias: W13InternationalWorkshoponHealthIntelligence
+  day: Feb 8
   sessions:
   - start_time: 2021-2-8 12:00:00+00:00
     end_time: 2021-2-8 13:00:00+00:00
@@ -265,13 +278,14 @@
   website: https://sites.google.com/view/aaai2021workshop/home
   rocketchat_channel: W14HybridArtificialIntelligence
   alias: W14HybridArtificialIntelligence
+  day: Feb 8
   sessions:
   - start_time: 2021-2-8 12:00:00+00:00
     end_time: 2021-2-8 13:00:00+00:00
     name: None
     hosts: None
   zoom_links:
-  -
+  - https://zoom.us/j/9316297282
   prerecorded_talks: []
 
 - UID: WS-15
@@ -281,6 +295,7 @@
   website: https://sites.google.com/view/tipce-2021/home
   rocketchat_channel: W15ImaginingPostCOVIDEducationwithAI
   alias: W15ImaginingPostCOVIDEducationwithAI
+  day: Feb 9
   sessions:
   - start_time: 2021-2-9 12:00:00+00:00
     end_time: 2021-2-9 13:00:00+00:00
@@ -300,6 +315,7 @@
   website: https://aaai-kdf.github.io/kdf2021
   rocketchat_channel: W16KnowledgeDiscoveryfromUnstructuredDatainFinancialServices
   alias: W16KnowledgeDiscoveryfromUnstructuredDatainFinancialServices
+  day: Feb 9
   sessions:
   - start_time: 2021-2-9 12:00:00+00:00
     end_time: 2021-2-9 13:00:00+00:00
@@ -316,6 +332,7 @@
   website: https://www.cs.cmu.edu/~sef/AAAI-2021-Workshop.htm
   rocketchat_channel: W17LearningNetworkArchitectureDuringTraining
   alias: W17LearningNetworkArchitectureDuringTraining
+  day: Feb 8
   sessions:
   - start_time: 2021-2-8 12:00:00+00:00
     end_time: 2021-2-8 13:00:00+00:00
@@ -335,6 +352,7 @@
   website: https://metalearning.chalearn.org/
   rocketchat_channel: W18MetaLearningandCoHostedCompetition
   alias: W18MetaLearningandCoHostedCompetition
+  day: Feb 9
   sessions:
   - start_time: 2021-2-9 12:00:00+00:00
     end_time: 2021-2-9 13:00:00+00:00
@@ -351,6 +369,7 @@
   website: http://iab-rubric.org/mel4cv/
   rocketchat_channel: W19MetaLearningforComputerVision
   alias: W19MetaLearningforComputerVision
+  day: Feb 8
   sessions:
   - start_time: 2021-2-8 12:00:00+00:00
     end_time: 2021-2-8 13:00:00+00:00
@@ -367,6 +386,7 @@
   website: http://www.planrec.org/PAIR/Resources.html
   rocketchat_channel: W20PlanActivityandIntentRecognition
   alias: W20PlanActivityandIntentRecognition
+  day: Feb 9
   sessions:
   - start_time: 2021-2-9 12:00:00+00:00
     end_time: 2021-2-9 13:00:00+00:00
@@ -383,6 +403,7 @@
   website: https://ppai21.github.io/
   rocketchat_channel: W21PrivacyPreservingArtificialIntelligence
   alias: W21PrivacyPreservingArtificialIntelligence
+  day: Feb 9
   sessions:
   - start_time: 2021-2-9 12:00:00+00:00
     end_time: 2021-2-9 13:00:00+00:00
@@ -402,6 +423,7 @@
   website: https://sites.google.com/view/deep-dial2021
   rocketchat_channel: W22DEEPDIAL21
   alias: W22DEEPDIAL21
+  day: Feb 9
   sessions:
   - start_time: 2021-2-9 12:00:00+00:00
     end_time: 2021-2-9 13:00:00+00:00
@@ -418,6 +440,7 @@
   website: http://aaai-rlg.mlanctot.info/
   rocketchat_channel: W23ReinforcementLearninginGames
   alias: W23ReinforcementLearninginGames
+  day: Feb 8
   sessions:
   - start_time: 2021-2-8 12:00:00+00:00
     end_time: 2021-2-8 13:00:00+00:00
@@ -434,6 +457,7 @@
   website: https://sites.google.com/view/sdu-aaai21/home
   rocketchat_channel: W24ScientificDocumentUnderstanding
   alias: W24ScientificDocumentUnderstanding
+  day: Feb 9
   sessions:
   - start_time: 2021-2-9 12:00:00+00:00
     end_time: 2021-2-9 13:00:00+00:00
@@ -453,6 +477,7 @@
   website: http://federated-learning.org/rseml2021/
   rocketchat_channel: W25TowardsRobustSecureandEfficientMachineLearning
   alias: W25TowardsRobustSecureandEfficientMachineLearning
+  day: Feb 8
   sessions:
   - start_time: 2021-2-8 12:00:00+00:00
     end_time: 2021-2-8 13:00:00+00:00
@@ -473,6 +498,7 @@
   website: https://taih20.github.io/
   rocketchat_channel: W26TrustworthyAIforHealthcare
   alias: W26TrustworthyAIforHealthcare
+  day: Feb 9
   sessions:
   - start_time: 2021-2-9 12:00:00+00:00
     end_time: 2021-2-9 13:00:00+00:00

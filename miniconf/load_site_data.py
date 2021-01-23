@@ -236,7 +236,17 @@ def load_site_data(
     )
     site_data["workshops"] = workshops
     # workshop_<uid>.html
-    by_uid["workshops"] = {workshop.id: workshop for workshop in workshops}
+    # by_uid["workshops"] = {workshop.id: workshop for workshop in workshops}
+    by_uid["workshops"] = {
+        workshop.id: workshop
+        for _, workshops_on_date in workshops.items()
+        for workshop in workshops_on_date
+    }
+
+    site_data["workshop_days"] = [
+        [day.replace(" ", "").lower(), day, ""] for day in workshops
+    ]
+    site_data["workshop_days"][0][-1] = "active"
 
     # Doctoral Consortium
     doctoral_consortium=build_doctoral_consortium(site_data["doctoral_consortium"])
@@ -1151,7 +1161,9 @@ def build_workshops(
                 )
             )
 
-    workshops: List[Workshop] = [
+    workshops: DefaultDict[str, List[Workshop]] = defaultdict(list)
+    for item in raw_workshops:
+        workshops[item["day"]].append(
         Workshop(
             id=item["UID"],
             title=item["title"],
@@ -1164,6 +1176,7 @@ def build_workshops(
             prerecorded_talks=item.get("prerecorded_talks"),
             rocketchat_channel=item["rocketchat_channel"],
             zoom_links=item.get("zoom_links", []),
+            day=item["day"],
             sessions=[
                 SessionInfo(
                     session_name=session.get("name", ""),
@@ -1176,8 +1189,7 @@ def build_workshops(
             ],
             blocks=build_workshop_blocks(item),
         )
-        for item in raw_workshops
-    ]
+    )
 
     return workshops
 

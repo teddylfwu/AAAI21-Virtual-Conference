@@ -277,6 +277,7 @@ class Workshop:
     organizers: List[str]
     abstract: str
     website: str
+    day: str
     livestream: Optional[str]
     papers: List[WorkshopPaper]
     schedule: List[Dict[str, Any]]
