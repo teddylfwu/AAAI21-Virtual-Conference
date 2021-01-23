@@ -235,17 +235,22 @@
             </span>
           </div>
 
+
           {% for session in workshop.blocks %}
-          <div class="m-3 text-center">
-            {{session.session}}
-            <span class="session_times">{{session.time_string}}</span>
-          </div>
-          <div class="text-center text-muted text-monospace">
-            <div class="paper-cal-links">
-              <img src="static/images/calendar.svg" class="paper-detail-calendar" height="24px">
-              <span id="session-cal-link-{{ workshop.id }}-{{loop.index}}"></span>
-            </div>
-          </div>
+              {% if workshop.id == "WS-9" or workshop.id == "WS-11" or workshop.id == "WS-12" or workshop.id == "WS-13" or workshop.id == "WS-17" or workshop.id == "WS-19" or workshop.id == "WS-20" %}
+                  <div class="m-3 text-center">Live Session (to be decided)</div>
+              {% else %}
+                  <div class="m-3 text-center">
+                    {{session.session}}
+                    <span class="session_times">{{session.time_string}}</span>
+                  </div>
+              {% endif %}
+              <div class="text-center text-muted text-monospace">
+                <div class="paper-cal-links">
+                  <img src="static/images/calendar.svg" class="paper-detail-calendar" height="24px">
+                  <span id="session-cal-link-{{ workshop.id }}-{{loop.index}}"></span>
+                </div>
+              </div>
           {% endfor %}
     </div>
   </div>
@@ -255,12 +260,12 @@
 <script src="static/js/add-to-calendar.js"></script>
 <script>
 
-  let ouicalData;
-  let targetNode;
-  let calendarNodeInner;
-  let calendarNodeSpan;
-  let parser = new DOMParser();
-  let calendarNames = Array("google", "off365", "outlook", "ical");
+  var ouicalData;
+  var targetNode;
+  var calendarNodeInner;
+  var calendarNodeSpan;
+  var parser = new DOMParser();
+  var calendarNames = Array("google", "off365", "outlook", "ical");
 
   {% for workshop in workshops %}
   {% for session in workshop.blocks %}
@@ -288,7 +293,7 @@
 
         // Event Description
         // NOTE: Cannot use abstract because of it is multi-line. Need to format it.
-        description: 'https://virtual.2020.emnlp.org/workshop_{{ workshop.id }}.html'
+        description: 'https://virtual.2021.aaai.org/workshop_{{ workshop.id }}.html'
       }
     });
 
