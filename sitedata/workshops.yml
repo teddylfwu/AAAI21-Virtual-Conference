@@ -1,22 +1,3 @@
-- UID: WS-1
-  title: "W1: Affective Content Analysis (AffCon)"
-  organizers: "Niyati Chhaya, Kokil Jaidka, Jennifer Healey, Lyle Ungar and Atanu R Sinha"
-  abstract: "AffCon-2021 is the fourth Affective Content Analysis workshop @ AAAI. The workshop series (i) builds upon the state of the art in neural and AI methods, for modeling affect in interpersonal interactions and behaviors and (ii) brings a confluence of research viewpoints representing several disciplines."
-  website: https://sites.google.com/view/affcon2021
-  rocketchat_channel: W1AffectiveContentAnalysis
-  alias: W1AffectiveContentAnalysis
-  sessions:
-  - start_time: 2021-2-9 12:00:00+00:00
-    end_time: 2021-2-9 13:00:00+00:00
-    name: None
-    hosts: None
-  zoom_links:
-  - https://us02web.zoom.us/j/2575188702?pwd=VUdsT1dDK1d6ZXBjT0oyQk1vSUh2UT09
-  prerecorded_talks:
-  - title: 'Learning Language Like Infants Do: Self Supervised Learning From Raw Audio'
-    speakers: Emmanuel Dupoux
-    presentation_id: '38940786'
-
 - UID: WS-2
   title: "W2: AI for Behavior Change"
   organizers: "Lyle Ungar, Sendhil Mullainathan, Eric Tchetgen Tchetgen and Rahul Ladhania"
@@ -24,17 +5,38 @@
   website: https://ai4bc.github.io/ai4bc21/
   rocketchat_channel: W2AIforBehaviorChange
   alias: W2AIforBehaviorChange
+  day: Feb 8
   sessions:
     - start_time: 2021-2-8 12:00:00+00:00
       end_time: 2021-2-8 13:00:00+00:00
       name: None
       hosts: None
   zoom_links:
-  - https://us02web.zoom.us/j/7379300234?pwd=cnJnZllOM1dUNEJlSXZxd1ZNSC83QT09
+  - https://zoom.us/j/97843509448?pwd=QlhJWUNvQzlOZFpjUldXcHg4RDhMdz09
   prerecorded_talks:
   - title: '"Low-resourcedness" Beyond Data'
     speakers: Masakhane
     presentation_id: '38940745'
+
+- UID: WS-1
+  title: "W1: Affective Content Analysis (AffCon)"
+  organizers: "Niyati Chhaya, Kokil Jaidka, Jennifer Healey, Lyle Ungar and Atanu R Sinha"
+  abstract: "AffCon-2021 is the fourth Affective Content Analysis workshop @ AAAI. The workshop series (i) builds upon the state of the art in neural and AI methods, for modeling affect in interpersonal interactions and behaviors and (ii) brings a confluence of research viewpoints representing several disciplines."
+  website: https://sites.google.com/view/affcon2021
+  rocketchat_channel: W1AffectiveContentAnalysis
+  alias: W1AffectiveContentAnalysis
+  day: Feb 9
+  sessions:
+  - start_time: 2021-2-9 12:00:00+00:00
+    end_time: 2021-2-9 13:00:00+00:00
+    name: None
+    hosts: None
+  zoom_links:
+    - https://zoom.us/j/2630266651
+  prerecorded_talks:
+  - title: 'Learning Language Like Infants Do: Self Supervised Learning From Raw Audio'
+    speakers: Emmanuel Dupoux
+    presentation_id: '38940786'
 
 - UID: WS-3
   title: "W3: AI for Urban Mobility"
@@ -43,13 +45,14 @@
   website: http://aium2021.felk.cvut.cz/
   rocketchat_channel: W3AIforUrbanMobility
   alias: W3AIforUrbanMobility
+  day: Feb 8
   sessions:
     - start_time: 2021-2-8 12:00:00+00:00
       end_time: 2021-2-8 13:00:00+00:00
       name: None
       hosts: None
   zoom_links:
-  - https://us02web.zoom.us/j/7991785226?pwd=VGRLTnpVZyswOHJiZ3R1UzNrTWYxZz09
+  - https://zoom.us/j/2059932518
   prerecorded_talks:
   - title: "Negative results yield interesting questions, or: A bunch of stuff that\
       \ didn't work"
@@ -63,13 +66,14 @@
   website: http://safeaiw.org/
   rocketchat_channel: W4ArtificialIntelligenceSafety
   alias: W4ArtificialIntelligenceSafety
+  day: Feb 8
   sessions:
     - start_time: 2021-2-8 12:00:00+00:00
       end_time: 2021-2-8 13:00:00+00:00
       name: None
       hosts: None
   zoom_links:
-  - https://us02web.zoom.us/j/4123561447?pwd=UUM5ZkxMQ3hYK0VVYU9YYWg3MmFjdz09
+  - https://zoom.us/j/96752632442?pwd=MitQWFNKeDIrS2NsZHA5eWladU5JUT09
   prerecorded_talks:
   - title: Clarifying Questions in Conversations with Augmented Syntax Features and
       Side Information
@@ -83,13 +87,14 @@
   website: http://lcs2.iiitd.edu.in/CONSTRAINT-2021/
   rocketchat_channel: W5CONSTRAINT2021
   alias: W5CONSTRAINT2021
+  day: Feb 8
   sessions:
   - start_time: 2021-2-8 12:00:00+00:00
     end_time: 2021-2-8 13:00:00+00:00
     name: None
     hosts: None
   zoom_links:
-  - https://us02web.zoom.us/j/8257686500?pwd=azc0bFltRk5ZQUp1TDhGRkxreGFiQT09
+  - https://zoom.us/j/94470518368?pwd=S2ZYaFZCRVN1TGcwOG9kazhmMkRpdz09
   prerecorded_talks:
   - title: 'How Languages Carve Up the World: Cognitive Explanation through Computational
       Modeling'
@@ -103,13 +108,14 @@
   website: https://usc-isi-i2.github.io/AAAI21workshop/
   rocketchat_channel: W6CommonsenseKnowledgeGraphs
   alias: W6CommonsenseKnowledgeGraphs
+  day: Feb 8
   sessions:
   - start_time: 2021-2-8 12:00:00+00:00
     end_time: 2021-2-8 13:00:00+00:00
     name: None
     hosts: None
   zoom_links:
-  - https://us02web.zoom.us/j/6771937722
+  - https://zoom.us/j/98850070031?pwd=RGdjYURVNFJNTkFZNzhCbCtzck9UQT09
   prerecorded_talks:
   - title: 'Invited Talk: Jacob Andreas'
     speakers: Jacob Andreas
@@ -122,15 +128,14 @@
   website: https://ritual.uh.edu/aaai-21-workshop-on-content-authoring-and-design/
   rocketchat_channel: W7ContentAuthoringandDesign
   alias: W7ContentAuthoringandDesign
+  day: Feb 8
   sessions:
   - start_time: 2021-2-8 12:00:00+00:00
     end_time: 2021-2-8 13:00:00+00:00
     name: None
     hosts: None
   zoom_links:
-  - https://us02web.zoom.us/j/3372872285
-  - https://us02web.zoom.us/j/9587240070
-  - https://us02web.zoom.us/j/4013040190
+  - https://zoom.us/j/92584933293?pwd=K0taL3dibTk3TGZ6bXlYWkFRWHFYZz09
   prerecorded_talks: []
 
 - UID: WS-8
@@ -140,13 +145,14 @@
   website: http://deep-learning-graphs.bitbucket.io/dlg-aaai21/
   rocketchat_channel: W8DeepLearningonGraphs
   alias: W8DeepLearningonGraphs
+  day: Feb 8
   sessions:
   - start_time: 2021-2-8 12:00:00+00:00
     end_time: 2021-2-8 13:00:00+00:00
     name: None
     hosts: None
   zoom_links:
-  - https://us02web.zoom.us/j/7858391728
+  - https://zoom.us/j/6147266063
   prerecorded_talks:
   - title: (To be confirmed) Invited Talk 1 - Chip Huyen
     speakers: Chip Huyen
@@ -159,13 +165,14 @@
   website: http://shapingsmarttechnology.org
   rocketchat_channel: W9DesigningAIforTelehealth
   alias: W9DesigningAIforTelehealth
+  day: Feb 8
   sessions:
     - start_time: 2021-2-8 12:00:00+00:00
       end_time: 2021-2-8 13:00:00+00:00
       name: None
       hosts: None
   zoom_links:
-  - https://us02web.zoom.us/j/7858391728
+  - https://us05web.zoom.us/j/88170920969?pwd=dFBBa3h2SmJNMkhVSGU2NWhBTDNnQT09
   prerecorded_talks:
   - title: (To be confirmed) Invited Talk 1 - Chip Huyen
     speakers: Chip Huyen
@@ -178,6 +185,7 @@
   website: https://sites.google.com/dstc.community/dstc9/
   rocketchat_channel: W10DialogSystemTechnologyChallenge
   alias: W10DialogSystemTechnologyChallenge
+  day: Feb 8
   sessions:
   - start_time: 2021-2-8 12:00:00+00:00
     end_time: 2021-2-8 13:00:00+00:00
@@ -188,7 +196,7 @@
     name: None
     hosts: None
   zoom_links:
-  - https://us02web.zoom.us/j/9514624887
+  - https://zoom.us/j/97618625752?pwd=b1NoaFhyUDJ4RlBTTVY3T3B1TjBjQT09
   prerecorded_talks:
   - title: "\tVisualizing Meaning: Semantic Simulation of Actions and Events"
     speakers: James Pustejovsky, Brandeis University
@@ -201,6 +209,7 @@
   website: https://sites.google.com/view/xaiworkshop/topic
   rocketchat_channel: W11ExplainableAgencyinArtificialIntelligence
   alias: W11ExplainableAgencyinArtificialIntelligence
+  day: Feb 8
   sessions:
   - start_time: 2021-2-8 12:00:00+00:00
     end_time: 2021-2-8 13:00:00+00:00
@@ -211,7 +220,7 @@
     name: None
     hosts: None
   zoom_links:
-  - https://us02web.zoom.us/j/5070305812
+  - https://zoom.us/j/94912916849?pwd=SHdCZytNNlpJVXJGVlRuV05KRHI1QT09
   prerecorded_talks:
   - title: Invited talk
     speakers: Miriam Butt
@@ -224,13 +233,14 @@
   website: https://sites.google.com/view/gclr2021/
   rocketchat_channel: W12GraphsandMoreComplexStructuresforLearningandReasoning
   alias: W12GraphsandMoreComplexStructuresforLearningandReasoning
+  day: Feb 9
   sessions:
   - start_time: 2021-2-9 12:00:00+00:00
     end_time: 2021-2-9 13:00:00+00:00
     name: None
     hosts: None
   zoom_links:
-  - https://us02web.zoom.us/j/2769990355
+  - https://zoom.us/j/97078477638?pwd=bDgrQ0J1TXBobFA1bXd2UkFraWlTQT09
   prerecorded_talks:
   - title: Keynote 3rd Clinical Natural Language Processing Workshop
     speakers: Hong Yu
@@ -243,6 +253,7 @@
   website: http://w3phiai2021.w3phi.com/
   rocketchat_channel: W13InternationalWorkshoponHealthIntelligence
   alias: W13InternationalWorkshoponHealthIntelligence
+  day: Feb 8
   sessions:
   - start_time: 2021-2-8 12:00:00+00:00
     end_time: 2021-2-8 13:00:00+00:00
@@ -253,8 +264,8 @@
     name: None
     hosts: None
   zoom_links:
-  - https://us02web.zoom.us/j/8018218663
-  - https://us02web.zoom.us/j/3550218712
+  - https://umn-private.zoom.us/j/91933179732?pwd=aDdOTGk0WVhLbmJvOGd2YXd6VWVuUT09
+  - https://umn-private.zoom.us/j/99963085986?pwd=azZLZFdLQm1lNUJtWk0vUFl3bGc1Zz09
   prerecorded_talks:
   - title: Keynote talk by Eduard Hovy
     speakers: Eduard Hovy
@@ -267,14 +278,14 @@
   website: https://sites.google.com/view/aaai2021workshop/home
   rocketchat_channel: W14HybridArtificialIntelligence
   alias: W14HybridArtificialIntelligence
+  day: Feb 8
   sessions:
   - start_time: 2021-2-8 12:00:00+00:00
     end_time: 2021-2-8 13:00:00+00:00
     name: None
     hosts: None
   zoom_links:
-  - https://us02web.zoom.us/j/8056354262
-  - https://us02web.zoom.us/j/3446463699
+  - https://zoom.us/j/9316297282
   prerecorded_talks: []
 
 - UID: WS-15
@@ -284,14 +295,14 @@
   website: https://sites.google.com/view/tipce-2021/home
   rocketchat_channel: W15ImaginingPostCOVIDEducationwithAI
   alias: W15ImaginingPostCOVIDEducationwithAI
+  day: Feb 9
   sessions:
   - start_time: 2021-2-9 12:00:00+00:00
     end_time: 2021-2-9 13:00:00+00:00
     name: None
     hosts: None
   zoom_links:
-  - https://us02web.zoom.us/j/5715758008
-  - https://us02web.zoom.us/j/4500113018
+    - https://zoom.us/j/2573203947
   prerecorded_talks:
   - title: Invited Talk
     speakers: Mona Diab
@@ -304,35 +315,31 @@
   website: https://aaai-kdf.github.io/kdf2021
   rocketchat_channel: W16KnowledgeDiscoveryfromUnstructuredDatainFinancialServices
   alias: W16KnowledgeDiscoveryfromUnstructuredDatainFinancialServices
+  day: Feb 9
   sessions:
   - start_time: 2021-2-9 12:00:00+00:00
     end_time: 2021-2-9 13:00:00+00:00
     name: None
     hosts: None
   zoom_links:
-  - https://us02web.zoom.us/j/3636713515
-  - https://us02web.zoom.us/j/2338884319
-  - https://us02web.zoom.us/j/9783550398
-  - https://us02web.zoom.us/j/5611345347
-  - https://us02web.zoom.us/j/9987253895
+    - https://zoom.us/j/5915430335?pwd=a1RFRnc5dENDZ1pDdGpKdnNWOFNCUT09
   prerecorded_talks: []
 
 - UID: WS-17
   title: "W17: Learning Network Architecture during Training"
   organizers: Scott E. Fahlman, Kate Farrahi, George Magoulas, Edouard Oyallon, Bhiksha Raj Ramakrishnan and Dean Alderucci
-  abstract: "Finding an effective way to design an appropriate neural network architecture is a fundamental problem and one of the biggest challenges researchers and practitioners still face. Despite advances in computation, fine tuning a neural network remains a time-consuming task. Although approaches such as network pruning and training populations of networks automatically can help, the process is far from optimal. This workshop focuses on innovative approaches that aim to learn the neural architecture during training. This topic encompasses forms of Neural Architecture Search (NAS) in which the properties of each architecture, after some training, are used to guide the selection of the next architecture to be tried. This topic also encompasses techniques that augment or alter the network as training progresses. An example of the latter is the Cascade Correlation algorithm, as well as others that incrementally build or modify a neural network during training."
+  abstract: "A fundamental problem in the use of artificial neural networks is that the first step is to guess the network architecture. Fine tuning a neural network is very time consuming and far from optimal. Hyperparameters such as the number of layers, the number of nodes in each layer, the pattern of connectivity, and the presence and placement of elements such as memory cells, recurrent connections, and convolutional elements are all manually selected. If it turns out that the architecture is not appropriate for the task, the user must repeatedly adjust the architecture and retrain the network until an acceptable architecture has been obtained."
   website: https://www.cs.cmu.edu/~sef/AAAI-2021-Workshop.htm
   rocketchat_channel: W17LearningNetworkArchitectureDuringTraining
   alias: W17LearningNetworkArchitectureDuringTraining
+  day: Feb 8
   sessions:
   - start_time: 2021-2-8 12:00:00+00:00
     end_time: 2021-2-8 13:00:00+00:00
     name: None
     hosts: None
   zoom_links:
-  - https://us02web.zoom.us/j/4396802858
-  - https://us02web.zoom.us/j/5727154448
-  - https://us02web.zoom.us/j/9208909204
+  - https://zoom.us/j/98341662291?pwd=dytrLzVXcm12NXRGQ3dYT1lyOUFwQT09
   prerecorded_talks:
   - title: Keynote1
     speakers: "Andr\xE9 Brock"
@@ -345,13 +352,14 @@
   website: https://metalearning.chalearn.org/
   rocketchat_channel: W18MetaLearningandCoHostedCompetition
   alias: W18MetaLearningandCoHostedCompetition
+  day: Feb 9
   sessions:
   - start_time: 2021-2-9 12:00:00+00:00
     end_time: 2021-2-9 13:00:00+00:00
     name: None
     hosts: None
   zoom_links:
-  - https://us02web.zoom.us/j/6709619322
+    - https://zoom.us/j/93792387492?pwd=RE11dHVOdGQyeVhUeC9qSU1FK0E5Zz09
   prerecorded_talks: []
 
 - UID: WS-19
@@ -361,13 +369,14 @@
   website: http://iab-rubric.org/mel4cv/
   rocketchat_channel: W19MetaLearningforComputerVision
   alias: W19MetaLearningforComputerVision
+  day: Feb 8
   sessions:
   - start_time: 2021-2-8 12:00:00+00:00
     end_time: 2021-2-8 13:00:00+00:00
     name: None
     hosts: None
   zoom_links:
-  - https://us02web.zoom.us/j/9825218020
+  - https://zoom.us/j/93187916761?pwd=bVZHc1Y3M1JLVHdma1R0ZmpVUkE5Zz09
   prerecorded_talks: []
 
 - UID: WS-20
@@ -377,13 +386,14 @@
   website: http://www.planrec.org/PAIR/Resources.html
   rocketchat_channel: W20PlanActivityandIntentRecognition
   alias: W20PlanActivityandIntentRecognition
+  day: Feb 9
   sessions:
   - start_time: 2021-2-9 12:00:00+00:00
     end_time: 2021-2-9 13:00:00+00:00
     name: None
     hosts: None
   zoom_links:
-  - https://us02web.zoom.us/j/5916616973
+    - https://zoom.us/j/94622715325
   prerecorded_talks: []
 
 - UID: WS-21
@@ -393,14 +403,14 @@
   website: https://ppai21.github.io/
   rocketchat_channel: W21PrivacyPreservingArtificialIntelligence
   alias: W21PrivacyPreservingArtificialIntelligence
+  day: Feb 9
   sessions:
   - start_time: 2021-2-9 12:00:00+00:00
     end_time: 2021-2-9 13:00:00+00:00
     name: None
     hosts: None
   zoom_links:
-  - https://us02web.zoom.us/j/3828955479
-  - https://us02web.zoom.us/j/6468788696
+    - https://zoom.us/j/3878088001?pwd=Y3IrWERGM1VjMUZ1TG4yb0EvUFJxdz09
   prerecorded_talks:
   - title: Invited talk by Isabelle Augenstein
     speakers: Isabelle Augenstein
@@ -413,13 +423,14 @@
   website: https://sites.google.com/view/deep-dial2021
   rocketchat_channel: W22DEEPDIAL21
   alias: W22DEEPDIAL21
+  day: Feb 9
   sessions:
   - start_time: 2021-2-9 12:00:00+00:00
     end_time: 2021-2-9 13:00:00+00:00
     name: None
     hosts: None
   zoom_links:
-  - https://us02web.zoom.us/j/4210020303
+    - https://zoom.us/j/98165547077?pwd=bVl5RGphM05ra3VDY1pXWWM4WTNudz09
   prerecorded_talks: []
 
 - UID: WS-23
@@ -429,13 +440,14 @@
   website: http://aaai-rlg.mlanctot.info/
   rocketchat_channel: W23ReinforcementLearninginGames
   alias: W23ReinforcementLearninginGames
+  day: Feb 8
   sessions:
   - start_time: 2021-2-8 12:00:00+00:00
     end_time: 2021-2-8 13:00:00+00:00
     name: None
     hosts: None
   zoom_links:
-  - https://us02web.zoom.us/j/4210020303
+  - https://zoom.us/j/95153763410?pwd=WXhwQ3hKeHpZcU4vOHA3YXFNeGQ0Zz09
   prerecorded_talks: []
 
 - UID: WS-24
@@ -445,13 +457,14 @@
   website: https://sites.google.com/view/sdu-aaai21/home
   rocketchat_channel: W24ScientificDocumentUnderstanding
   alias: W24ScientificDocumentUnderstanding
+  day: Feb 9
   sessions:
   - start_time: 2021-2-9 12:00:00+00:00
     end_time: 2021-2-9 13:00:00+00:00
     name: None
     hosts: None
   zoom_links:
-  - https://us02web.zoom.us/j/9648673341
+    - https://zoom.us/j/97870284397?pwd=QjJWb0RnR1lCc3FzeDJINjVwV29UQT09
   prerecorded_talks:
   - title: invited1
     speakers: Aaron Roth
@@ -464,13 +477,14 @@
   website: http://federated-learning.org/rseml2021/
   rocketchat_channel: W25TowardsRobustSecureandEfficientMachineLearning
   alias: W25TowardsRobustSecureandEfficientMachineLearning
+  day: Feb 8
   sessions:
   - start_time: 2021-2-8 12:00:00+00:00
     end_time: 2021-2-8 13:00:00+00:00
     name: None
     hosts: None
   zoom_links:
-  - https://us02web.zoom.us/j/4126435944
+  - https://zoom.us/j/93678598207?pwd=NnFDTWlHUzIvSWdWalZUZG45bzB5Zz09
   prerecorded_talks:
   - title: Evaluating and calibrating neural language models for human-like language
       processing
@@ -484,11 +498,12 @@
   website: https://taih20.github.io/
   rocketchat_channel: W26TrustworthyAIforHealthcare
   alias: W26TrustworthyAIforHealthcare
+  day: Feb 9
   sessions:
   - start_time: 2021-2-9 12:00:00+00:00
     end_time: 2021-2-9 13:00:00+00:00
     name: None
     hosts: None
   zoom_links:
-  - https://us02web.zoom.us/j/2311998450
+    - https://zoom.us/j/3305983771?pwd=d0xoc0RpL1J5MmJocnlvL1Rkd1VPQT09
   prerecorded_talks: []

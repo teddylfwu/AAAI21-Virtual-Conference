@@ -15,14 +15,14 @@
   rocketchat_channel: MQ1ExplainableAIforSocietalEventPredictionsFoundationsMethodsandApplications
   sessions:
   - name: MQ1
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 15:00:00+00:00
-    zoom_link: 123.com
+    start_time: 2021-02-03 16:30:00+00:00
+    end_time: 2021-02-03 18:00:00+00:00
+    zoom_link: https://zoom.us/j/99406422855
     hosts: Songgaojun Deng, Yue Ning and Huzefa Rangwala
   - name: MQ1
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 15:00:00+00:00
-    zoom_link: 123.com
+    start_time: 2021-02-03 16:30:00+00:00
+    end_time: 2021-02-03 18:00:00+00:00
+    zoom_link: https://zoom.us/j/99406422855
     hosts: Songgaojun Deng, Yue Ning and Huzefa Rangwala
   authors:
   - name: Songgaojun Deng
@@ -45,11 +45,7 @@
   organizers: Ludovik Coba, Roberto Confalonieri and Markus Zanker
   abstract: |-
     <p>
-    In this tutorial we will provide a review of eXplainable Recommender Systems (XRSs), and a practical hands-on session using a recently developed software toolkit called RecoXplainer. RecoXplainer is a unified, extendable and easy to use Python toolkit that includes several explainability techniques that are useful for various groups of stakeholders.
-    <br />
-    The tutorial will be organized in two parts. The first part will provide the necessary background knowledge about Explainable AI and explanations techniques in recommender systems, such as model-based, post-hoc explanations, offline and online evaluation of explanations. The second part will consist of a hands-on session where attendees will be guided to the use of RecoXplainer, and to generate several examples of explainable recommendations.
-    <br />
-    The target audience is assumed to have a certain acquaintance with recommender systems, Matrix Factorisation, and information retrieval. For the hands-on session a basic understanding of Python is required. A more advanced programming knowledge is required for those who would like to experiment with the toolkit, e.g., for inspecting the code to find advanced features, or to learn how to extend the current framework.
+    In this tutorial we will provide an introduction to eXplainable Recommender Systems (XRSs), and a practical hands-on session exemplifying the use of RecoXplainer. RecoXplainer is a unified, extendable and easy to use Python toolkit that includes several explainability techniques that are useful for various groups of stakeholders. The tutorial will be organised in two parts. The first part provides the necessary background about explainability and explainable AI, eXplainable Recommender Systems, and different categories and formats of explanations. The second part consists of an overview of RecoXplainer, and several implemented techniques for explaining recommendations (e.g., model-based, post-hoc explanations) and evaluate explanations. Tutorial's attendees will be guided to the use of RecoXplainer, and to generate several examples of explainable recommendations. The target audience is assumed to have a certain acquaintance with recommender systems, and collaborative filtering. For the hands-on session, a basic understanding of Python is required.
     </p>
   info: |-
     This tutorial has a prerecorded talk on this page (see below) that you can watch anytime during the conference. It
@@ -59,14 +55,14 @@
   rocketchat_channel: MQ2AnExtensibleToolkitforExplainableRecommenderSystems
   sessions:
   - name: MQ2
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 15:00:00+00:00
-    zoom_link: 123.com
+    start_time: 2021-02-03 16:30:00+00:00
+    end_time: 2021-02-03 18:00:00+00:00
+    zoom_link: https://zoom.us/j/95066614220?pwd=M1FITS9Ca0c4K05NTkdmTTF2dHVMQT09
     hosts: Ludovik Coba, Roberto Confalonieri and Markus Zanker
   - name: MQ2
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 15:00:00+00:00
-    zoom_link: 123.com
+    start_time: 2021-02-03 16:30:00+00:00
+    end_time: 2021-02-03 18:00:00+00:00
+    zoom_link: https://zoom.us/j/95066614220?pwd=M1FITS9Ca0c4K05NTkdmTTF2dHVMQT09
     hosts: Ludovik Coba, Roberto Confalonieri and Markus Zanker
   authors:
   - name: Ludovik Coba
@@ -109,14 +105,14 @@
   rocketchat_channel: MQ3DeepRandomizedNeuralNetworks
   sessions:
   - name: MQ3
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 15:00:00+00:00
-    zoom_link: 123.com
+    start_time: 2021-02-03 18:15:00+00:00
+    end_time: 2021-02-03 19:45:00+00:00
+    zoom_link: https://zoom.us/j/96880418412?pwd=MWhacTZYNnFvMTJiNU5FeEowQ0ZGZz09
     hosts: Claudio Gallicchio
   - name: MQ3
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 15:00:00+00:00
-    zoom_link: 123.com
+    start_time: 2021-02-03 18:15:00+00:00
+    end_time: 2021-02-03 19:45:00+00:00
+    zoom_link: https://zoom.us/j/96880418412?pwd=MWhacTZYNnFvMTJiNU5FeEowQ0ZGZz09
     hosts: Claudio Gallicchio
   authors:
   - name: Claudio Gallicchio
@@ -145,14 +141,14 @@
   rocketchat_channel: MQ4EfficientNeuralArchitectureSearch
   sessions:
   - name: MQ4
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 15:00:00+00:00
-    zoom_link: 123.com
+    start_time: 2021-02-03 18:15:00+00:00
+    end_time: 2021-02-03 19:45:00+00:00
+    zoom_link: https://zoom.us/j/96170510624?pwd=ODhMMkE1N1B4NjJpbG9NOFZ5aXJndz09
     hosts: Tejaswini Pedapati and Martin Wistuba
   - name: MQ4
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 15:00:00+00:00
-    zoom_link: 123.com
+    start_time: 2021-02-03 18:15:00+00:00
+    end_time: 2021-02-03 19:45:00+00:00
+    zoom_link: https://zoom.us/j/96170510624?pwd=ODhMMkE1N1B4NjJpbG9NOFZ5aXJndz09
     hosts: Tejaswini Pedapati and Martin Wistuba
   authors:
   - name: Tejaswini Pedapati
@@ -183,14 +179,14 @@
   rocketchat_channel: MH1ArtificialIntelligenceforDrugDiscovery
   sessions:
   - name: MH1
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
+    start_time: 2021-02-03 16:30:00+00:00
+    end_time: 2021-02-03 19:45:00+00:00
+    zoom_link: https://zoom.us/j/97294013574?pwd=eGczSTN0Z2JvM1IrR1c3TGdpdW5TUT09
     hosts: Jian Tang, Fei Wang and Feixiong Cheng
   - name: MH1
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
+    start_time: 2021-02-03 16:30:00+00:00
+    end_time: 2021-02-03 19:45:00+00:00
+    zoom_link: https://zoom.us/j/97294013574?pwd=eGczSTN0Z2JvM1IrR1c3TGdpdW5TUT09
     hosts: Jian Tang, Fei Wang and Feixiong Cheng
   authors:
   - name: Jian Tang
@@ -216,7 +212,7 @@
   organizers: Filip Ilievski, Antoine Bosselut, Simon Razniewski and Mayank Kejriwal
   abstract: |-
     <p>
-    The tutorial on Commonsense Knowledge Acquisition and Representation will consist of four main components, each covered by one of the presenters, followed by a discussion session. We will start by introducing our work on axiomatizating commonsense knowledge and comparing it to prior theories. The participants would then get familiar with the Commonsense Knowledge Graph (CSKG) (Ilievski et al., 2020), a recent resource that integrates seven diverse commonsense sources. Thirdly, we will discuss how commonsense knowledge can be automatically extracted, as well as qualified with DICE (Chalier et al., 2020) metrics like typicality and salience. We will use COMET (Bosselut et al., 2019) to improve the completeness of commonsense knowledge graphs based on language models, like BERT and GPT-2, and discuss how it can be leveraged on downstream question answering (QA) tasks. We will conclude the tutorial with a discussion of the way forward, and propose to combine language models (LMs), knowledge graphs (KGs), and axiomatization in the next-generation commonsense reasoning techniques. Prior knowledge expected from participants will be minimal. Some knowledge of machine learning and language modeling will be helpful, but not compulsory: we will introduce relevant machine learning concepts so that everyone has an opportunity to follow along.
+    The tutorial will consist of four main components, each covered by one of the presenters, followed by a discussion session. We will start by introducing theories on an axiomatization of commonsense knowledge. Next, we will cover efforts to harmonize nodes and relations across heterogeneous commonsense sources, as well as the impact of such consolidation on downstream reasoning tasks. Thirdly, we will discuss how commonsense knowledge can be automatically extracted from text, as well as quantitatively and qualitatively contextualized. Then, we will discuss how large-scale models, such as BERT, GPT-2, and T5, learn to implicitly represent an abundance of commonsense knowledge from reading the web. Also, how this knowledge can be extracted through carefully-designed language prompting, or through fine-tuning on knowledge graph tuples. We will conclude the tutorial with a discussion of the way forward, and propose to combine language models, knowledge graphs, and axiomatization in the next-generation commonsense reasoning techniques.
     </p>
   info: |-
     This tutorial has a prerecorded talk on this page (see below) that you can watch anytime during the conference. It
@@ -226,14 +222,14 @@
   rocketchat_channel: MH2CommonsenseKnowledgeAcquisitionandRepresentation
   sessions:
   - name: MH2
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
+    start_time: 2021-02-03 16:30:00+00:00
+    end_time: 2021-02-03 19:45:00+00:00
+    zoom_link: https://zoom.us/j/97745299851?pwd=bGhGU3RJSWR2U3BpQ2xXVndhMzRjQT09
     hosts: Filip Ilievski, Antoine Bosselut, Simon Razniewski and Mayank Kejriwal
   - name: MH2
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
+    start_time: 2021-02-03 16:30:00+00:00
+    end_time: 2021-02-03 19:45:00+00:00
+    zoom_link: https://zoom.us/j/97745299851?pwd=bGhGU3RJSWR2U3BpQ2xXVndhMzRjQT09
     hosts: Filip Ilievski, Antoine Bosselut, Simon Razniewski and Mayank Kejriwal
   authors:
   - name: Filip Ilievski
@@ -275,14 +271,14 @@
   rocketchat_channel: MH3DealingwithBiasandFairnessinBuildingAISystems
   sessions:
   - name: MH3
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
+    start_time: 2021-02-03 16:30:00+00:00
+    end_time: 2021-02-03 19:45:00+00:00
+    zoom_link: https://zoom.us/j/93488082947?pwd=WTZXUytiVmRURnFRUkg5WlRQYjgwdz09
     hosts: Rayid Ghani, Pedro Saleiro and Kit Rodolfa
   - name: MH3
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
+    start_time: 2021-02-03 16:30:00+00:00
+    end_time: 2021-02-03 19:45:00+00:00
+    zoom_link: https://zoom.us/j/93488082947?pwd=WTZXUytiVmRURnFRUkg5WlRQYjgwdz09
     hosts: Rayid Ghani, Pedro Saleiro and Kit Rodolfa
   authors:
   - name: Rayid Ghani
@@ -316,14 +312,14 @@
   rocketchat_channel: MH4DesigningAgentsPreferencesBeliefsandIdentities
   sessions:
   - name: MH4
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
+    start_time: 2021-02-03 16:30:00+00:00
+    end_time: 2021-02-03 19:45:00+00:00
+    zoom_link: https://duke.zoom.us/j/97846637744
     hosts: Vincent Conitzer
   - name: MH4
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
+    start_time: 2021-02-03 16:30:00+00:00
+    end_time: 2021-02-03 19:45:00+00:00
+    zoom_link: https://duke.zoom.us/j/97846637744
     hosts: Vincent Conitzer
   authors:
   - name: Vincent Conitzer
@@ -349,14 +345,14 @@
   rocketchat_channel: MH5LearningwithSmallData
   sessions:
   - name: MH5
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
+    start_time: 2021-02-03 16:30:00+00:00
+    end_time: 2021-02-03 19:45:00+00:00
+    zoom_link: https://zoom.us/j/92068188163?pwd=bUNRV0hGVW8vVzVnR3dBSlZjR2pDUT09
     hosts: Huaxiu Yao, Fei Wang and Zhenhui Jessie Li
   - name: MH5
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
+    start_time: 2021-02-03 16:30:00+00:00
+    end_time: 2021-02-03 19:45:00+00:00
+    zoom_link: https://zoom.us/j/92068188163?pwd=bUNRV0hGVW8vVzVnR3dBSlZjR2pDUT09
     hosts: Huaxiu Yao, Fei Wang and Zhenhui Jessie Li
   authors:
   - name: Huaxiu Yao
@@ -398,14 +394,14 @@
   rocketchat_channel: MH6MetaLearning
   sessions:
   - name: MH6
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
+    start_time: 2021-02-03 16:30:00+00:00
+    end_time: 2021-02-03 19:45:00+00:00
+    zoom_link: "https://mit.zoom.us/j/95396543325\u200B"
     hosts: Iddo Drori and Joaquin Vanschoren
   - name: MH6
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
+    start_time: 2021-02-03 16:30:00+00:00
+    end_time: 2021-02-03 19:45:00+00:00
+    zoom_link: "https://mit.zoom.us/j/95396543325\u200B"
     hosts: Iddo Drori and Joaquin Vanschoren
   authors:
   - name: Iddo Drori
@@ -439,15 +435,15 @@
   rocketchat_channel: MH7RecentAdvancesinIntegratingMachineLearningandCombinatorialOptimization
   sessions:
   - name: MH7
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
+    start_time: 2021-02-03 16:30:00+00:00
+    end_time: 2021-02-03 19:45:00+00:00
+    zoom_link: https://zoom.us/j/93086707776?pwd=cGduaXVieXZySWY2MWlNNTZtcUltdz09
     hosts: "Elias Khalil, Andrea Lodi, Bistra Dilkina, Didier Ch\xE9telat, Maxime\
       \ Gasse, Antoine Prouvost, Giulia Zarpellon and Laurent Charlin"
   - name: MH7
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
+    start_time: 2021-02-03 16:30:00+00:00
+    end_time: 2021-02-03 19:45:00+00:00
+    zoom_link: https://zoom.us/j/93086707776?pwd=cGduaXVieXZySWY2MWlNNTZtcUltdz09
     hosts: "Elias Khalil, Andrea Lodi, Bistra Dilkina, Didier Ch\xE9telat, Maxime\
       \ Gasse, Antoine Prouvost, Giulia Zarpellon and Laurent Charlin"
   authors:
@@ -499,14 +495,14 @@
   rocketchat_channel: MH8ResponsibleAIinIndustry
   sessions:
   - name: MH8
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
+    start_time: 2021-02-03 16:30:00+00:00
+    end_time: 2021-02-03 19:45:00+00:00
+    zoom_link: Missing
     hosts: Krishnaram Kenthapadi, Ben Packer, Mehrnoosh Sameki and Nashlie Sephus
   - name: MH8
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
+    start_time: 2021-02-03 16:30:00+00:00
+    end_time: 2021-02-03 19:45:00+00:00
+    zoom_link: Missing
     hosts: Krishnaram Kenthapadi, Ben Packer, Mehrnoosh Sameki and Nashlie Sephus
   authors:
   - name: Krishnaram Kenthapadi
@@ -529,13 +525,11 @@
   prerecorded: '38940826'
 - UID: MH9
   title: A Visual Tour of Bias Mitigation Techniques for Word Representations
-  organizers: Sunipa Dev, Jeff M. Phillips, Archit Rathore, Vivek Srikumar and Bei
+  organizers: Archit Rathore, Sunipa Dev, Jeff M. Phillips, Vivek Srikumar and Bei
     Wang
   abstract: |-
     <p>
     Word vector embeddings have been shown to contain and amplify biases in data they are extracted from. Consequently, many techniques have been proposed to identify, mitigate, and attenuate these biases in word representations. In this tutorial, we will review a collection of state-of-the-art debiasing techniques. To aid this, we provide an open source web-based visualization tool and offer hands-on experience in exploring the effects of these debiasing techniques on the geometry of high-dimensional word vectors. To help understand how various debiasing techniques change the underlying geometry, we decompose each technique into interpretable sequences of primitive operations and study their effect on the word vectors using dimensionality reduction and interactive visual exploration.
-    <br />
-    Prerequisite Knowledge The attendees are expected to understand the basics of linear algebra and dimensionality reduction. Familiarity with basic NLP would be helpful but is not required. The audience is not assumed to have knowledge about bias in NLP; however, the tutorial will still be applicable to those who do.
     </p>
   info: |-
     This tutorial has a prerecorded talk on this page (see below) that you can watch anytime during the conference. It
@@ -545,16 +539,20 @@
   rocketchat_channel: MH9AVisualTourofBiasMitigationTechniquesforWordRepresentations
   sessions:
   - name: MH9
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: Sunipa Dev, Jeff M. Phillips, Archit Rathore, Vivek Srikumar and Bei Wang
+    start_time: 2021-02-03 16:30:00+00:00
+    end_time: 2021-02-03 19:45:00+00:00
+    zoom_link: https://zoom.us/j/96736919986?pwd=WHc3UW02NjhVTnFWeGR1T1JaZzlDUT09
+    hosts: Archit Rathore, Sunipa Dev, Jeff M. Phillips, Vivek Srikumar and Bei Wang
   - name: MH9
-    start_time: 2021-02-03 13:30:00+00:00
-    end_time: 2021-02-03 16:45:00+00:00
-    zoom_link: 123.com
-    hosts: Sunipa Dev, Jeff M. Phillips, Archit Rathore, Vivek Srikumar and Bei Wang
+    start_time: 2021-02-03 16:30:00+00:00
+    end_time: 2021-02-03 19:45:00+00:00
+    zoom_link: https://zoom.us/j/96736919986?pwd=WHc3UW02NjhVTnFWeGR1T1JaZzlDUT09
+    hosts: Archit Rathore, Sunipa Dev, Jeff M. Phillips, Vivek Srikumar and Bei Wang
   authors:
+  - name: Archit Rathore
+    description: |+
+      is a 4th year Ph.D. student at the School of Computing at the University of Utah. His current research focuses on probing machine learning models through visualization techniques to improve interpretability.
+
   - name: Sunipa Dev
     description: |+
       received her PhD at the School of Computing at the University of Utah in Fall 2020 and is a CI Postdoctoral Fellow at UCLA. Her research focuses on understanding the structure of language representations and leveraging that to isolate and decouple associations and concept subspaces within.
@@ -562,10 +560,6 @@
   - name: Jeff M. Phillips
     description: |+
       is an Associate Professor at the School of Computing, and Director of the Utah Center for Data Science, at the University of Utah. He is an expert in the geometry of data, and actively publishes in top venues in machine learning & data mining, algorithms & geometry, and databases.
-
-  - name: Archit Rathore
-    description: |+
-      is a 4th year Ph.D. student at the School of Computing at the University of Utah. His current research focuses on probing machine learning models through visualization techniques to improve interpretability.
 
   - name: Vivek Srikumar
     description: |+
@@ -595,30 +589,30 @@
   rocketchat_channel: AQ1ExplainingMachineLearningPredictions
   sessions:
   - name: AQ1
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 18:30:00+00:00
-    zoom_link: 123.com
+    start_time: 2021-02-03 20:00:00+00:00
+    end_time: 2021-02-03 21:30:00+00:00
+    zoom_link: https://zoom.us/j/92929612243?pwd=RmVRUjZ2S0pqelNvUDVXYm1nSXoxZz09
     hosts: Himabindu Lakkaraju, Julius Adebayo and Sameer Singh
   - name: AQ1
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 18:30:00+00:00
-    zoom_link: 123.com
+    start_time: 2021-02-03 20:00:00+00:00
+    end_time: 2021-02-03 21:30:00+00:00
+    zoom_link: https://zoom.us/j/92929612243?pwd=RmVRUjZ2S0pqelNvUDVXYm1nSXoxZz09
     hosts: Himabindu Lakkaraju, Julius Adebayo and Sameer Singh
   authors:
   - name: Hima Lakkaraju
     description: |+
-      is an Assistant Professor at Harvard University working on explaining complex machine learning models to decision-makers (e.g., judges, doctors). Hima was recently named in the 35 innovators under 35 by MIT Tech Review, and has given invited workshop talks at ICML, NeurIPS, AAAI, and CVPR. Website: https://himalakkaraju.github.io/
+      is an Assistant Professor at Harvard University working on explaining complex machine learning models to decision-makers (e.g., judges, doctors). Hima was recently named in the 35 innovators under 35 by MIT Tech Review, and has given invited workshop talks at ICML, NeurIPS, AAAI, and CVPR. <a href="https://himalakkaraju.github.io/"> Website </a>.
 
   - name: Julius Adebayo
     description: |+
-      is a Ph.D. student at MIT working on developing and understanding approaches that seek to make machine learning-based systems reliable when deployed. More broadly, he is interested in rigorous approaches to help develop models that are robust to spurious associations, distribution shifts, and align with ‘human’ values. Website: https://juliusadebayo.com/
+      is a Ph.D. student at MIT working on developing and understanding approaches that seek to make machine learning-based systems reliable when deployed. More broadly, he is interested in rigorous approaches to help develop models that are robust to spurious associations, distribution shifts, and align with ‘human’ values. <a href="https://juliusadebayo.com/"> Website </a>.
 
   - name: Sameer Singh
-    description: 'is an Assistant Professor at UC Irvine working on robustness and
+    description: is an Assistant Professor at UC Irvine working on robustness and
       interpretability of machine learning. Sameer has presented tutorials and invited
       workshop talks at EMNLP, NeurIPS, NAACL, WSDM, ICLR, ACL, and AAAI, and received
-      paper awards at KDD 2016, ACL 2018, EMNLP 2019, AKBC 2020, and ACL 2020. Website:
-      http://sameersingh.org/'
+      paper awards at KDD 2016, ACL 2018, EMNLP 2019, AKBC 2020, and ACL 2020. <a
+      href="http://sameersingh.org/"> Website </a>.
   prerecorded: '38940826'
 - UID: AQ2
   title: Topological Data Analysis in Document Classification
@@ -635,14 +629,14 @@
   rocketchat_channel: AQ2TopologicalDataAnalysisinDocumentClassification
   sessions:
   - name: AQ2
-    start_time: 2021-02-03 18:45:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
+    start_time: 2021-02-03 21:45:00+00:00
+    end_time: 2021-02-03 23:00:00+00:00
+    zoom_link: https://zoom.us/j/97010538599?pwd=L01meTNsQytCVTNFaWZpLzVGR0JPUT09
     hosts: Wlodek Zadrozny and Shafie Gholizadeh
   - name: AQ2
-    start_time: 2021-02-03 18:45:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
+    start_time: 2021-02-03 21:45:00+00:00
+    end_time: 2021-02-03 23:00:00+00:00
+    zoom_link: https://zoom.us/j/97010538599?pwd=L01meTNsQytCVTNFaWZpLzVGR0JPUT09
     hosts: Wlodek Zadrozny and Shafie Gholizadeh
   authors:
   - name: Wlodek Zadrozny
@@ -670,14 +664,14 @@
   rocketchat_channel: AH1AIforCOVID19BattlingthePandemicwithComputationalIntelligence
   sessions:
   - name: AH1
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
+    start_time: 2021-02-03 20:00:00+00:00
+    end_time: 2021-02-03 23:00:00+00:00
+    zoom_link: Missing
     hosts: Fei Wang
   - name: AH1
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
+    start_time: 2021-02-03 20:00:00+00:00
+    end_time: 2021-02-03 23:00:00+00:00
+    zoom_link: Missing
     hosts: Fei Wang
   authors:
   - name: Fei Wang
@@ -715,14 +709,14 @@
   rocketchat_channel: AH2EventCentricNaturalLanguageUnderstanding
   sessions:
   - name: AH2
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
+    start_time: 2021-02-03 20:00:00+00:00
+    end_time: 2021-02-03 23:00:00+00:00
+    zoom_link: https://zoom.us/j/97920850057?pwd=aktWYmlVMm12VGpYT1F2TUovdnJ0Zz09
     hosts: Muhao Chen, Hongming Zhang, Qiang Ning, Manling Li, Heng Ji and Dan Roth
   - name: AH2
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
+    start_time: 2021-02-03 20:00:00+00:00
+    end_time: 2021-02-03 23:00:00+00:00
+    zoom_link: https://zoom.us/j/97920850057?pwd=aktWYmlVMm12VGpYT1F2TUovdnJ0Zz09
     hosts: Muhao Chen, Hongming Zhang, Qiang Ning, Manling Li, Heng Ji and Dan Roth
   authors:
   - name: Muhao Chen
@@ -769,15 +763,15 @@
   rocketchat_channel: AH3FromExplainabilitytoModelQualityandBackAgain
   sessions:
   - name: AH3
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
+    start_time: 2021-02-03 20:00:00+00:00
+    end_time: 2021-02-03 23:00:00+00:00
+    zoom_link: Missing
     hosts: Anupam Datta, Matt Fredrikson, Klas Leino, Kaiji Lu, Shayak Sen and Zifan
       Wang
   - name: AH3
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
+    start_time: 2021-02-03 20:00:00+00:00
+    end_time: 2021-02-03 23:00:00+00:00
+    zoom_link: Missing
     hosts: Anupam Datta, Matt Fredrikson, Klas Leino, Kaiji Lu, Shayak Sen and Zifan
       Wang
   authors:
@@ -802,7 +796,7 @@
   prerecorded: '38940826'
 - UID: AH4
   title: From Statistical Relational to Neural Symbolic Artificial Intelligence
-  organizers: Luc De Raedt, Sebastijan Duman_i_, Robin Manhaeve and Giuseppe Marra
+  organizers: Luc De Raedt, Sebastijan Dumancic, Robin Manhaeve and Giuseppe Marra
   abstract: |-
     <p>
     The integration of learning and reasoning is one of the key challenges in artificial intelligence and machine learning today. The area neural symbolic computation tackles this challenge by integrating symbolic reasoning with neural networks. This tutorial will provide an introduction to Neural Symbolic Artificial Intelligence (NeSy) by drawing several parallels with another field that has a rich tradition in integrating learning and reasoning, namely Statistical Relational Artificial Intelligence (StarAI). The tutorial will discuss seven dimensions for introducing and categorizing several StarAI and NeSy approaches. By positioning a wide variety of systems along these dimensions, the tutorial makes it possible to underline common patterns and similarities between them. Interesting opportunities for further research will be described, by looking at areas across the dimensions that have not yet been covered. The tutorial is intended for artificial intelligence researchers and practitioners, as well as domain experts interested in the integration of symbolic reasoning and neural computation. Basic knowledge of logic and/or graphical models and/or neural computation at the level of an introductory course in AI will be helpful but is not a prerequisite.
@@ -815,21 +809,21 @@
   rocketchat_channel: AH4FromStatisticalRelationaltoNeuralSymbolicArtificialIntelligence
   sessions:
   - name: AH4
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Luc De Raedt, Sebastijan Duman_i_, Robin Manhaeve and Giuseppe Marra
+    start_time: 2021-02-03 20:00:00+00:00
+    end_time: 2021-02-03 23:00:00+00:00
+    zoom_link: https://zoom.us/j/96086805412?pwd=Ti81M0ovSGdjL0tCZmdSd0drMGRYZz09
+    hosts: Luc De Raedt, Sebastijan Dumancic, Robin Manhaeve and Giuseppe Marra
   - name: AH4
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
-    hosts: Luc De Raedt, Sebastijan Duman_i_, Robin Manhaeve and Giuseppe Marra
+    start_time: 2021-02-03 20:00:00+00:00
+    end_time: 2021-02-03 23:00:00+00:00
+    zoom_link: https://zoom.us/j/96086805412?pwd=Ti81M0ovSGdjL0tCZmdSd0drMGRYZz09
+    hosts: Luc De Raedt, Sebastijan Dumancic, Robin Manhaeve and Giuseppe Marra
   authors:
   - name: Luc De Raedt
     description: |+
       is full professor at the Department of Computer Science, KU Leuven, and director of Leuven.AI, the newly founded KU Leuven Institute for AI. He is a guest professor at Örebro University in the Wallenberg AI, Autonomous Systems and Software Program. He received his PhD in Computer Science from KU Leuven (1991), and was full professor (C4) and Chair of Machine Learning at the Albert-Ludwigs-University Freiburg, Germany (1999-2006). His research interests are in Artificial Intelligence, Machine Learning and Data Mining, as well as their applications. He is well known for his contributions in the areas of learning and reasoning, in particular, for his work on probabilistic and inductive programming. He co-chaired important conferences such as ECMLPKDD 2001 and ICML 2005 (the European and International Conferences on Machine Learning), ECAI 2012 and will chair IJCAI in 2022 (the European and international AI conferences). He is on the editorial board of Artificial Intelligence, Machine Learning and the Journal of Machine Learning Research. He is a EurAI and AAAI fellow, and received an ERC Advanced Grant in 2015.
 
-  - name: "Sebastijan Duman\u010Di\u0107"
+  - name: Sebastijan Dumancic
     description: |+
       is post-doctoral researcher in the DTAI research group at KU Leuven. His post-doctoral research is funded by the FWO’s junior post-doctoral fellowship. He obtained his PhD summa cum laude in the same group in 2018 under the supervision of Prof. Dr. Hendrik Blockeel. His PhD thesis has been awarded an honourable mention for the EurAI Distinguished Dissertation Award, organised by EurAI. His research focuses on program learning and the integration of symbolic and sub-symbolic approaches to AI.
 
@@ -850,7 +844,7 @@
   organizers: Yao Ma, Wei Jin, Yiqi Wang, Tyler Derr and Jiliang Tang
   abstract: |-
     <p>
-    Graph structured data such as social networks and molecular graphs are ubiquitous in the real world. It is of great research importance to design advanced algorithms for representation learning on graph structured data so that downstream tasks can be facilitated. Graph Neural Networks (GNNs), which generalize the deep neural network models to graph structured data, pave a new way to effectively learn representations for graph structured data either from the node level or the graph level. Thanks to their strong representation learning capability, GNNs have gained practical significance in various applications ranging from recommendation, natural language processing to healthcare. It has become a hot research topic and attracted increasing attention from the machine learning and data mining community recently. This tutorial of GNNs is timely for AAAI 2021 and covers relevant and interesting topics, including representation learning on graph structured data using GNNs, the robustness of GNNs, the scalability of GNNs and applications based on GNNs.
+    Graph structured data such as social networks and molecular graphs are ubiquitous in the real world. It is of great research importance to design advanced algorithms for representation learning on graph-structured data so that downstream tasks can be facilitated. Graph Neural Networks (GNNs), which generalize the deep neural network models to graph-structured data, pave a new way to effectively learn representations for graph-structured data either from the node level or the graph level. Thanks to their strong representation learning capability, GNNs have gained practical significance in various applications ranging from recommendation, natural language processing to healthcare. It has become a hot research topic and attracted increasing attention from the machine learning and data mining community recently. This tutorial of GNNs is timely for AAAI 2021 and covers relevant and interesting topics, including representation learning on graph-structured data using GNNs, self-supervised learning of GNNs, the robustness of GNNs, the scalability of GNNs, and applications based on GNNs.
     </p>
   info: |-
     This tutorial has a prerecorded talk on this page (see below) that you can watch anytime during the conference. It
@@ -860,14 +854,14 @@
   rocketchat_channel: AH5GraphNeuralNetworks
   sessions:
   - name: AH5
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
+    start_time: 2021-02-03 20:00:00+00:00
+    end_time: 2021-02-03 23:00:00+00:00
+    zoom_link: https://msu.zoom.us/j/98603385337
     hosts: Yao Ma, Wei Jin, Yiqi Wang, Tyler Derr and Jiliang Tang
   - name: AH5
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
+    start_time: 2021-02-03 20:00:00+00:00
+    end_time: 2021-02-03 23:00:00+00:00
+    zoom_link: https://msu.zoom.us/j/98603385337
     hosts: Yao Ma, Wei Jin, Yiqi Wang, Tyler Derr and Jiliang Tang
   authors:
   - name: Yao Ma
@@ -908,14 +902,14 @@
   rocketchat_channel: AH6NewFrontiersofAutomatedMechanismDesignforPricingandAuctions
   sessions:
   - name: AH6
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
+    start_time: 2021-02-03 20:00:00+00:00
+    end_time: 2021-02-03 23:00:00+00:00
+    zoom_link: https://zoom.us/j/98341160115?pwd=MHVqYnBkS1pwenN6eXlHeHBoSEI3dz09
     hosts: Maria-Florina Balcan, Tuomas Sandholm and Ellen Vitercik
   - name: AH6
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
+    start_time: 2021-02-03 20:00:00+00:00
+    end_time: 2021-02-03 23:00:00+00:00
+    zoom_link: https://zoom.us/j/98341160115?pwd=MHVqYnBkS1pwenN6eXlHeHBoSEI3dz09
     hosts: Maria-Florina Balcan, Tuomas Sandholm and Ellen Vitercik
   authors:
   - name: Maria-Florina Balcan
@@ -951,14 +945,14 @@
   rocketchat_channel: AH7OnExplainableAIFromTheorytoMotivationIndustrialApplicationsandCodingPractices
   sessions:
   - name: AH7
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
+    start_time: 2021-02-03 20:00:00+00:00
+    end_time: 2021-02-03 23:00:00+00:00
+    zoom_link: https://zoom.us/j/95951179872?pwd=bDhSei9EeDhPenhYQjcwaVhFTEFBQT09
     hosts: Freddy Lecue, Pasquale Minervini, Fosca Giannotti and Riccardo Guidotti
   - name: AH7
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
+    start_time: 2021-02-03 20:00:00+00:00
+    end_time: 2021-02-03 23:00:00+00:00
+    zoom_link: https://zoom.us/j/95951179872?pwd=bDhSei9EeDhPenhYQjcwaVhFTEFBQT09
     hosts: Freddy Lecue, Pasquale Minervini, Fosca Giannotti and Riccardo Guidotti
   authors:
   - name: Freddy Lecue
@@ -1003,14 +997,14 @@
   rocketchat_channel: AH8RecentAdvancesinMultipleFacetsofPreferenceLearning
   sessions:
   - name: AH8
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
+    start_time: 2021-02-03 20:00:00+00:00
+    end_time: 2021-02-03 23:00:00+00:00
+    zoom_link: https://zoom.us/j/98620923026?pwd=SmVxTVBKc05jOTBMd05uZmE5Ui9IZz09
     hosts: Arun Rajkumar
   - name: AH8
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
+    start_time: 2021-02-03 20:00:00+00:00
+    end_time: 2021-02-03 23:00:00+00:00
+    zoom_link: https://zoom.us/j/98620923026?pwd=SmVxTVBKc05jOTBMd05uZmE5Ui9IZz09
     hosts: Arun Rajkumar
   authors:
   - name: Arun Rajkumar
@@ -1039,14 +1033,14 @@
   rocketchat_channel: AH9SimplifyingandAutomatingParallelMachineLearningviaaProgrammableandComposable
   sessions:
   - name: AH9
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
+    start_time: 2021-02-03 20:00:00+00:00
+    end_time: 2021-02-03 23:00:00+00:00
+    zoom_link: https://zoom.us/j/91501806002?pwd=dnRqcjBpL1oxQzQzSC9PRXNVNlVFdz09
     hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
   - name: AH9
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
+    start_time: 2021-02-03 20:00:00+00:00
+    end_time: 2021-02-03 23:00:00+00:00
+    zoom_link: https://zoom.us/j/91501806002?pwd=dnRqcjBpL1oxQzQzSC9PRXNVNlVFdz09
     hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
   authors:
   - name: Hao Zhang
@@ -1073,7 +1067,7 @@
     Orgun
   abstract: |-
     <p>
-    This tutorial presents representative and state-of-the-art theories and approaches to build recommender systems (RS) and the ubiquitous applications of RS in nearly every aspect of our daily life, including eating, dressing, housing and travelling. To be specific, we will first present the background and foundations of RS, followed by the illustration of representative and advanced machine learning approaches that can be used for building RS, including latent factor models, deep learning models, graph learning models and knowledge graph models. Finally, we will demonstrate the ubiquity of RS by introducing the typical real-world applications of RS in both traditional domains, such as e-commerce, social network, and emerging domains including fashion industry, financial industry, and healthcare industry. Specifically, we will illustrate the domain characteristics and the data characteristics in each domain, and then introduce the appropriate RS approaches to generate recommendations for each specific domain based on the unique characteristics of the domain. We will conclude the tutorial by outlining future research directions in this area. No specific prerequisite knowledge is required, but a rudimentary knowledge of RS and some machine learning basic (e.g., factorization machine, deep learning) will be helpful.
+    This tutorial presents representative and state-of-the-art theories and approaches to build recommender systems (RS) and the ubiquitous applications of RS in nearly every aspect of our daily life, including eating, dressing, housing and travelling. To be specific, we will first present the background and foundations of RS, followed by the illustration of representative and advanced machine learning approaches that can be used for building RS, including latent factor models, deep learning models, graph learning models and knowledge graph models. Finally, we will demonstrate the ubiquity of RS by introducing the typical real-world applications of RS in both traditional domains, such as e-commerce, social network, and emerging domains including fashion industry, financial industry, and healthcare industry. We will conclude the tutorial by outlining future research directions in this area. No specific prerequisite knowledge is required, but a rudimentary knowledge of RS and some machine learning basic (e.g., factorization machine, deep learning) will be helpful.
     </p>
   info: |-
     This tutorial has a prerecorded talk on this page (see below) that you can watch anytime during the conference. It
@@ -1083,15 +1077,15 @@
   rocketchat_channel: AH10TowardsUbiquitousRecommenderSystemsDataApproachesandApplications
   sessions:
   - name: AH10
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
+    start_time: 2021-02-03 20:00:00+00:00
+    end_time: 2021-02-03 23:00:00+00:00
+    zoom_link: https://macquarie.zoom.us/j/82808050654?pwd=a1o3VDJueXNQSEI5bGNvZFA2eW9KQT09
     hosts: Shoujin Wang, Liang Hu, Yan Wang, Longbing Cao, Michael Sheng and Mehmet
       Orgun
   - name: AH10
-    start_time: 2021-02-03 17:00:00+00:00
-    end_time: 2021-02-03 20:00:00+00:00
-    zoom_link: 123.com
+    start_time: 2021-02-03 20:00:00+00:00
+    end_time: 2021-02-03 23:00:00+00:00
+    zoom_link: https://macquarie.zoom.us/j/82808050654?pwd=a1o3VDJueXNQSEI5bGNvZFA2eW9KQT09
     hosts: Shoujin Wang, Liang Hu, Yan Wang, Longbing Cao, Michael Sheng and Mehmet
       Orgun
   authors:
@@ -1133,13 +1127,13 @@
     </p>
   sessions:
     - name: AH9
-      start_time: 2021-02-03 17:00:00+00:00
-      end_time: 2021-02-03 20:00:00+00:00
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
     - name: AH9
-      start_time: 2021-02-03 17:00:00+00:00
-      end_time: 2021-02-03 20:00:00+00:00
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
   authors:
@@ -1159,13 +1153,13 @@
     </p>
   sessions:
     - name: AH9
-      start_time: 2021-02-03 17:00:00+00:00
-      end_time: 2021-02-03 20:00:00+00:00
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
     - name: AH9
-      start_time: 2021-02-03 17:00:00+00:00
-      end_time: 2021-02-03 20:00:00+00:00
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
   authors:
@@ -1199,13 +1193,13 @@
     </p>
   sessions:
     - name: AH9
-      start_time: 2021-02-03 17:00:00+00:00
-      end_time: 2021-02-03 20:00:00+00:00
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
     - name: AH9
-      start_time: 2021-02-03 17:00:00+00:00
-      end_time: 2021-02-03 20:00:00+00:00
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
   authors:
@@ -1225,13 +1219,13 @@
     </p>
   sessions:
     - name: AH9
-      start_time: 2021-02-03 17:00:00+00:00
-      end_time: 2021-02-03 20:00:00+00:00
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
     - name: AH9
-      start_time: 2021-02-03 17:00:00+00:00
-      end_time: 2021-02-03 20:00:00+00:00
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
   authors:
@@ -1251,13 +1245,13 @@
     </p>
   sessions:
     - name: AH9
-      start_time: 2021-02-03 17:00:00+00:00
-      end_time: 2021-02-03 20:00:00+00:00
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
     - name: AH9
-      start_time: 2021-02-03 17:00:00+00:00
-      end_time: 2021-02-03 20:00:00+00:00
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
   authors:
@@ -1277,13 +1271,13 @@
     </p>
   sessions:
     - name: AH9
-      start_time: 2021-02-03 17:00:00+00:00
-      end_time: 2021-02-03 20:00:00+00:00
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
     - name: AH9
-      start_time: 2021-02-03 17:00:00+00:00
-      end_time: 2021-02-03 20:00:00+00:00
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
   authors:
@@ -1303,13 +1297,13 @@
     </p>
   sessions:
     - name: AH9
-      start_time: 2021-02-03 17:00:00+00:00
-      end_time: 2021-02-03 20:00:00+00:00
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
     - name: AH9
-      start_time: 2021-02-03 17:00:00+00:00
-      end_time: 2021-02-03 20:00:00+00:00
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
   authors:
@@ -1330,13 +1324,13 @@
     </p>
   sessions:
     - name: AH9
-      start_time: 2021-02-03 17:00:00+00:00
-      end_time: 2021-02-03 20:00:00+00:00
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
     - name: AH9
-      start_time: 2021-02-03 17:00:00+00:00
-      end_time: 2021-02-03 20:00:00+00:00
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
   authors:
@@ -1356,13 +1350,13 @@
     </p>
   sessions:
     - name: AH9
-      start_time: 2021-02-03 17:00:00+00:00
-      end_time: 2021-02-03 20:00:00+00:00
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
     - name: AH9
-      start_time: 2021-02-03 17:00:00+00:00
-      end_time: 2021-02-03 20:00:00+00:00
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
   authors:
@@ -1382,13 +1376,13 @@
     </p>
   sessions:
     - name: AH9
-      start_time: 2021-02-03 17:00:00+00:00
-      end_time: 2021-02-03 20:00:00+00:00
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
     - name: AH9
-      start_time: 2021-02-03 17:00:00+00:00
-      end_time: 2021-02-03 20:00:00+00:00
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
   authors:
@@ -1408,13 +1402,13 @@
     </p>
   sessions:
     - name: AH9
-      start_time: 2021-02-03 17:00:00+00:00
-      end_time: 2021-02-03 20:00:00+00:00
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
     - name: AH9
-      start_time: 2021-02-03 17:00:00+00:00
-      end_time: 2021-02-03 20:00:00+00:00
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
   authors:
@@ -1434,13 +1428,13 @@
     </p>
   sessions:
     - name: AH9
-      start_time: 2021-02-03 17:00:00+00:00
-      end_time: 2021-02-03 20:00:00+00:00
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
     - name: AH9
-      start_time: 2021-02-03 17:00:00+00:00
-      end_time: 2021-02-03 20:00:00+00:00
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
   authors:
@@ -1460,13 +1454,13 @@
     </p>
   sessions:
     - name: AH9
-      start_time: 2021-02-03 17:00:00+00:00
-      end_time: 2021-02-03 20:00:00+00:00
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
     - name: AH9
-      start_time: 2021-02-03 17:00:00+00:00
-      end_time: 2021-02-03 20:00:00+00:00
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
   authors:
@@ -1486,29 +1480,45 @@
     </p>
   sessions:
     - name: AH9
-      start_time: 2021-02-03 17:00:00+00:00
-      end_time: 2021-02-03 20:00:00+00:00
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
     - name: AH9
-      start_time: 2021-02-03 17:00:00+00:00
-      end_time: 2021-02-03 20:00:00+00:00
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
   authors:
     - name: Morgan Byers, Vangelis Metsis
       description: |+
         to be continued
-- UID: OTHER
-  title: 'xxx'
-  organizers: Arjun Subramonian
+- UID: UC
+  title: 'Undergraduate Consortium'
+  organizers: " "
   info: |-
     to be continued
   rocketchat_channel: xxx
   prerecorded: '000'
   abstract: |-
     <p>
-    xxx
+        Welcome to the Second AAAI Undergraduate Consortium (February 2, 2021) collocated with the Thirty-Fifth Conference on Artificial Intelligence (AAAI-21). The Undergraduate Consortium (AAAI-UC) offers undergraduate students an opportunity to enrich their conference experience by:
+        </p>
+        <ul>
+        <li>presenting and receiving critical feedback about their work in a professional, academic setting;</li>
+        <li>meeting prospective graduate advisors;</li>
+        <li>receiving mentoring about the advantages (and disadvantages) of pursuing graduate studies in AI as well as practical early career advice;</li>
+        <li>expanding their professional network to include AI experts, current graduate students, and undergraduate peers; and</li>
+        <li>providing advice, tools, and resources for successfully applying to and attending graduate school in an AI-related research.</li>
+        </ul>
+        <p>
+        The fourteen students accepted to participate in this program will also participate in the AAAI-21 Poster Sessions on Thursday, February 4. All interested AAAI-21 undergraduate student registrants are invited to observe the presentations.
+        </p>
+        <p>
+        The full Undergraduate Consortium schedule is included below.
+        </p>
+        <p>
+        AAAI gratefully acknowledges the generous grants from AI Journal and the National Science Foundation, which make this program possible.
     </p>
   sessions:
     - name: "Opening remarks"

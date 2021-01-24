@@ -1,17 +1,96 @@
 {% set active_page = "Awards" %}
 {% extends "base.html" %}
 
-{% block top %}
-
+{% block heading %}
+{{ components.section("AAAI Organization Awards") }}
 {% endblock %}
-
 {% block content %}
 
+
 <div class="row">
-  <div class="col-md-7 col-sm-12 pr-5 lead">
-    <p>Welcome to Awards!<br><br>
-      Here is nothing left.
-    </p>
+  <div class="col-md-12 col-sm-12 pr-5 lead">
+    <h2 style="margin-bottom:20px"> Awards </h2>
+    {% for award in awards %}
+    <!-- <a href="#"class="card-title" >
+      {{award.name}}
+    <a> -->
+      <div class="col-md-9 col-sm-9 pr-3 lead">
+    <p><a href="#{{ award.name }}">{{ award.name }}</a></p>
+    </div>
+    {% endfor %}
+  </div>
+  
+  <div class="col-md-12 col-sm-12 pr-5 lead">
+    <h2 style="margin-top: 30px"> Recipients </h2>
+
+    {% for award in awards %}
+    
+    <h4  id="{{ award.name }}" style="padding-top: 80px; margin-top: -70px;">{{ award.name }}</h4>
+    {% for ae in award.awardees %}
+
+    <div class="row p-4">
+      <div class="col-md-12">
+        <div class="card p-3 shadow bg-light rounded">
+            <div class="row">
+              <div class="col-md-2 col-sm-5">
+                {% if ae.image %}
+                <img src="static/images/awards/{{ ae.image }}" width="100%" class="mt-3">
+                {% else %}
+                <img src="static/images/aaai2021/AAAI-logo.png" width="100%" class="mt-3">
+                {% endif %}
+              </div>
+              <div class="col-md-10 col-sm-6">
+                <div class="m-3 text-muted">
+                  <h4>
+                    {% if ae.link %}
+                    <a href={{ae.link}}>
+                    <p class="main-title">
+                      {{ ae.name }}
+                    </p></a>
+                    {% else %}
+                    <p class="main-title">
+                      {{ ae.name }}
+                    </p>
+                    {% endif%}
+                  </h4>
+                </div>
+                <div class="m-3 text-muted">
+                  <span class="card-title h3">
+                    {{ ae.organization }}
+                  </span>
+                </div>
+                {% if ae.description %}
+                <div class="m-3 text-muted">
+                <p>{{ ae.description }}
+                {% if ae.paperlink %}
+                  <a href='{{ae.paperlink}}'> [Paper] </a>
+                {% endif %}
+              </p>
+              </div>
+                {% endif %}
+                
+                {% if ae.talk %}
+                <div class="m-3 text-muted">
+                  {{ae.talk.session_name}}: {{ ae.talk.day }}
+                  <span class="session_times">{{ae.talk.time_string}}</span>
+                  
+                    [<a href="{{ae.talk.link}}" class="card-link">Link</a>]
+                  
+                </div>
+                {% endif %}
+    
+                
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+<!--     
+      <p> {{ ae.name }}</p>
+      <p> {{ ae.orgnaization }}</p>
+      <p> {{ ae.description}} </p> -->
+    {% endfor %}
+    {% endfor %}
   </div>
 </div>
 

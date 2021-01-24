@@ -1,6 +1,8 @@
 # secrets
-tools/aws/cognito/aws_profile.yml
+#tools/aws/cognito/aws_profile.yml
 
+.DS_Store
+doc/.DS_Store
 
 # IDE
 .idea

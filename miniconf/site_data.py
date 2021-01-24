@@ -252,6 +252,21 @@ class DoctoralConsortium:
     blocks: List[SessionInfo]
     virtual_format_description: str
 
+@dataclass(frozen=True)
+class Demonstrations:
+    id: str
+    title: str
+    organizers: List[str]
+    abstract: str
+    website: Optional[str]
+    material: Optional[str]
+    slides: Optional[str]
+    prerecorded: Optional[str]
+    rocketchat_channel: str
+    sessions: List[SessionInfo]
+    blocks: List[SessionInfo]
+    virtual_format_description: str
+
 
 @dataclass(frozen=True)
 class WorkshopPaper:
@@ -270,6 +285,7 @@ class Workshop:
     organizers: List[str]
     abstract: str
     website: str
+    day: str
     livestream: Optional[str]
     papers: List[WorkshopPaper]
     schedule: List[Dict[str, Any]]
@@ -298,6 +314,33 @@ class SocialEvent:
     rocketchat_channel: str
     website: str
     zoom_link: str
+
+@dataclass(frozen=True)
+class AwardTalk:
+    session_name: str
+    start_time: datetime
+    end_time: datetime
+    link: str
+
+
+@dataclass(frozen=True)
+class Awardee:
+    id: str
+    name: str
+    link: str
+    organization: str
+    paperlink: str = None
+    image: str = None
+    description: str = None
+    talk: SessionInfo = None
+
+@dataclass(frozen=True)
+class Award:
+    id: str
+    name: str
+    awardees: List[Awardee]
+    description: str = None
+    
 
 
 @dataclass(frozen=True)

@@ -54,12 +54,16 @@ def invited_talks():
 @app.route("/awards.html")
 def awards():
     data = _data()
+    data['awards'] = site_data['awards']
     return render_template("awards.html", **data)
 
 
 @app.route("/iaai.html")
 def iaai():
     data = _data()
+    data["IAAI_papers"] = site_data["IAAI_papers"]
+    data["iaai_poster_schedule"] = site_data["iaai_poster_schedule"]
+
     return render_template("iaai.html", **data)
 
 
@@ -83,6 +87,18 @@ def undergraduate_consortium():
     data["tutorials_OTHER"] = site_data["tutorials_OTHER"]
     return render_template("undergraduate_consortium.html", **data)
 
+@app.route("/student_abstract_program.html")
+def student_abstract_program():
+    data = _data()
+    data["tutorials_UC"] = site_data["tutorials_UC"]
+    data["tutorials_OTHER"] = site_data["tutorials_OTHER"]
+    return render_template("student_abstract_program.html", **data)
+
+@app.route("/demonstrations.html")
+def demonstrations():
+    data = _data()
+    data["demonstrations"] = site_data["demonstrations"]
+    return render_template("demonstrations.html", **data)
 
 @app.route("/diversity_programs.html")
 def diversity_programs():
@@ -208,14 +224,15 @@ def tutorials():
 def workshops():
     data = _data()
     data["workshops"] = site_data["workshops"]
+    data["workshop_days"] = site_data["workshop_days"]
     return render_template("workshops.html", **data)
 
 
 @app.route("/sponsors.html")
 def sponsors():
     data = _data()
-    # data["sponsors"] = site_data["sponsors_by_level"]
-    # data["sponsor_levels"] = site_data["sponsor_levels"]
+    data["sponsors"] = site_data["sponsors_by_level"]
+    data["sponsor_levels"] = site_data["sponsor_levels"]
     return render_template("sponsors.html", **data)
 
 
@@ -377,8 +394,19 @@ def generator():
     for tutorial in site_data["tutorials"]:
         yield "tutorial", {"uid": tutorial.id}
     workshop: Workshop
-    for workshop in site_data["workshops"]:
-        yield "workshop", {"uid": workshop.id}
+    # for workshop in site_data["workshops"]:
+    #     yield "workshop", {"uid": workshop.id}
+    for _, workshops_on_date in site_data["workshops"].items():
+        for workshop in workshops_on_date:
+            yield "workshop", {"uid": workshop.id}
+
+    # demonstrations: Demonstrations
+    # for demonstration in site_data["demonstrations"]:
+    #     yield "demonstration", {"uid": demonstration.id}
+
+    # doctoral_consortium: Doctoral_consortium
+    # for doctoral_consortium in site_data["doctoral_consortium"]:
+    #     yield "doctoral_consortium", {"uid": doctoral_consortium.id}
 
     for sponsor in site_data["sponsors"]:
         if "landingpage" in sponsor:
