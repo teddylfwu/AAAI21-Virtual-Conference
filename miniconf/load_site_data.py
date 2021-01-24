@@ -280,7 +280,7 @@ def load_site_data(
             site_data["Student Abstracts_papers"]+
             site_data["award_papers"]+
             site_data["Undergraduate Consortium_papers"],
-        paper_sessions=site_data["poster_infos"],
+        poster_infos=site_data["poster_infos"],
         paper_recs=site_data["paper_recs"],
         paper_images_path=site_data["config"]["paper_images_path"],
         default_image_path=site_data["config"]["logo"]["image"]
@@ -889,7 +889,7 @@ def get_card_image_path_for_paper(paper_id: str, paper_images_path: str, default
 
 def build_papers(
     raw_papers: List[Dict[str, str]],
-    paper_sessions: Dict[str, Any],
+    poster_infos: Dict[str, Any],
     paper_recs: Dict[str, List[str]],
     paper_images_path: str,
     default_image_path: str
@@ -910,7 +910,7 @@ def build_papers(
     # build the lookup from (paper, slot) to zoom_link
     paper_id_to_link: Dict[str, str] = {}
 
-    for session_id, session in paper_sessions.items():
+    for session_id, session in poster_infos.items():
         for paper_id in session["papers"]:
             paper_id_to_link[paper_id] = "www.baidu.com" #TODO gather town link
     #
