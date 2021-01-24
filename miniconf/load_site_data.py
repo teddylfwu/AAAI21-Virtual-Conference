@@ -908,12 +908,11 @@ def build_papers(
 
     """
     # build the lookup from (paper, slot) to zoom_link
-    # paper_id_to_link: Dict[str, str] = {}
-    #
-    # for session_id, session in paper_sessions.items():
-    #     for paper_id in session["papers"]:
-    #         assert paper_id not in paper_id_to_link, paper_id
-    #         paper_id_to_link[paper_id] = "www.baidu.com" #TODO gather town link
+    paper_id_to_link: Dict[str, str] = {}
+
+    for session_id, session in paper_sessions.items():
+        for paper_id in session["papers"]:
+            paper_id_to_link[paper_id] = "www.baidu.com" #TODO gather town link
     #
     # # build the lookup from paper to slots
     # sessions_for_paper: DefaultDict[str, List[SessionInfo]] = defaultdict(list)
@@ -933,7 +932,6 @@ def build_papers(
     #                 link=link,
     #             )
     #         )
-
     papers = [
         Paper(
             id=item["UID"],
@@ -965,12 +963,11 @@ def build_papers(
                 cluster=item.get("cluster", "unknown"),
                 position=int(float(item.get("position", 0))),
                 cluster_name=item.get("cluster_name", "unknown"),
-
+                gather_town_link= paper_id_to_link[item["UID"]] if item['UID'] in paper_id_to_link else "",
             ),
         )
         for item in raw_papers
     ]
-
     # throw warnings for missing information
     # for paper in papers:
     #     if not paper.presentation_id and paper.content.program not in [
