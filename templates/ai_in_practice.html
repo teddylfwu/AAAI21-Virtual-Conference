@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% set active_page = "AiInPractice" %}
+{% set page_title = "AiInPractice" %}
+
+{% block heading %}
+{{ components.section("Ai in Practice Panels") }}
+
+
+{% endblock %}
+
+{% block content %}
+
+<script src="static/js/time-extend.js"></script>
+<script>
+  $(document).ready(()=>{
+    add_local_tz('.session_times');
+  })
+</script>
+{% endblock %}
