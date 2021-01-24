@@ -1081,6 +1081,7 @@
   <img src="static/images/calendar.svg" class="paper-detail-calendar" height="24px">
   <span id="session-cal-link-1"></span>
   </div>
+  </div>
     <div class="text-center text-muted text-monospace">
   <div class="paper-cal-links">
   <span class="session_times">{{paper.content.date2}} {{paper.content.time2}} PST</span>
@@ -1154,7 +1155,6 @@ for (const name of calendarNames) {
   calendarNodeSpan.appendChild(document.createTextNode("]"));
   targetNode.appendChild(calendarNodeSpan);
 }
-
 
 </script>
 {%- endmacro %}
