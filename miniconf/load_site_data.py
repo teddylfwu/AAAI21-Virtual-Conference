@@ -112,19 +112,21 @@ def load_site_data(
     # index.html
     site_data["committee"] = build_committee(site_data["committee"]["committee"])
 
-    overall_schedule_week = copy.deepcopy(site_data["overall_calendar"])
-    for event in overall_schedule_week:
-        event["view"] = "day"
-    site_data["overall_calendar"].extend(overall_schedule_week)
+    # overall_schedule_week = copy.deepcopy(site_data["overall_calendar"])
+    # for event in overall_schedule_week:
+    #     event["view"] = "day"
+    # site_data["overall_calendar"].extend(overall_schedule_week)
 
 
     # schedule.html
-    # generate_plenary_events(site_data)
-    #
-    # generate_tutorial_events(site_data)
-    # generate_workshop_events(site_data)
-    # generate_dc_events(site_data)
-    # generate_paper_events(site_data)
+    generate_plenary_events(site_data)   # cha-cha Plenary
+    generate_tutorial_events(site_data)  # chenqian  Tutorials
+    generate_workshop_events(site_data)  # haiying   Workshops
+    generate_dc_events(site_data)        # haiying   Doctoral Consortium
+    # TODO: generate_uc_events(site_data)  chenqian   Undergraduate Consortium
+    generate_paper_events(site_data)     # en-yue, mingkai  Posters
+    # TODO: generate_diversity_events(site_data) # liu-xiao  Diversity and Inclusion
+
     # generate_social_events(site_data)
 
 
@@ -475,10 +477,11 @@ def generate_plenary_events(site_data: Dict[str, Any]):
                 "location": f"plenary_session_{uid}.html",
                 "link": f"plenary_session_{uid}.html",
                 "category": "time",
-                "type": "Plenary Sessions",
+                "type": "Plenary",
                 "view": "day",
             }
-            # site_data["overall_calendar"].append(event)
+            print(event)
+            site_data["overall_calendar"].append(event)
             assert start < end, "Session start after session end"
 
             all_sessions.append(session)
@@ -587,7 +590,7 @@ def generate_tutorial_events(site_data: Dict[str, Any]):
             "type": "Tutorials",
             "view": "week",
         }
-        # site_data["overall_calendar"].append(event)
+        site_data["overall_calendar"].append(event)
 
     uc_blocks = compute_schedule_blocks(uc_sessions)
 
@@ -606,7 +609,7 @@ def generate_tutorial_events(site_data: Dict[str, Any]):
             "type": "Undergraduate Consortium",
             "view": "week",
         }
-        # site_data["overall_calendar"].append(event)
+        site_data["overall_calendar"].append(event)
 
 def generate_dc_events(site_data: Dict[str, Any]):
     """ We add sessions from tutorials and compute the overall dc blocks for the weekly view. """
@@ -652,7 +655,7 @@ def generate_dc_events(site_data: Dict[str, Any]):
             "type": "Doctoral Consortium",
             "view": "week",
         }
-        # site_data["overall_calendar"].append(event)
+        site_data["overall_calendar"].append(event)
         # print("*******************************")
         # for e in site_data["overall_calendar"]:
         #     print(e)
@@ -701,7 +704,7 @@ def generate_workshop_events(site_data: Dict[str, Any]):
             "type": "Workshops",
             "view": "week",
         }
-        # site_data["overall_calendar"].append(event)
+        site_data["overall_calendar"].append(event)
 
 
 def generate_paper_events(site_data: Dict[str, Any]):
@@ -760,7 +763,7 @@ def generate_paper_events(site_data: Dict[str, Any]):
             "type": "QA Sessions",
             "view": "week",
         }
-        # site_data["overall_calendar"].append(event)
+        site_data["overall_calendar"].append(event)
 
 
 def generate_social_events(site_data: Dict[str, Any]):
@@ -788,7 +791,7 @@ def generate_social_events(site_data: Dict[str, Any]):
                 "location": "",
                 "link": f"socials.html",
                 "category": "time",
-                "type": "Socials",
+                "type": "Diversity and Inclusion",
                 "view": "day",
             }
             site_data["overall_calendar"].append(event)
@@ -814,7 +817,7 @@ def generate_social_events(site_data: Dict[str, Any]):
             "type": "Socials",
             "view": "week",
         }
-        # site_data["overall_calendar"].append(event)
+        site_data["overall_calendar"].append(event)
 
 
 def build_schedule(overall_calendar: List[Dict[str, Any]]) -> List[Dict[str, Any]]:

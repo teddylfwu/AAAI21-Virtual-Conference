@@ -65,7 +65,7 @@
   link: plenary_sessions.html#tab-feb4
   category: time
   calendarId: '---'
-  type: Plenary-Invited Talks
+  type: Plenary
   view: week
 
 - title: "<b>AAAI-21 Poster Sessions: AAAI, IAAI, DC, UC, SA, Demos, Classic Paper Award</b>"
@@ -95,7 +95,7 @@
   link: plenary_sessions.html#tab-feb4
   category: time
   calendarId: '---'
-  type: Plenary-Panels
+  type: Plenary
   view: week
 
 - title: "<b>Diversity and Inclusion: LatinXperiences. Community Building for Latinx researchers</b>"
@@ -125,7 +125,7 @@
   link: plenary_sessions.html#tab-feb4
   category: time
   calendarId: '---'
-  type: Plenary-Invited Talks
+  type: Plenary
   view: week
 
 - title: "<b>Diversity and Inclusion: Try AI</b>"
@@ -165,7 +165,7 @@
   link: plenary_sessions.html#tab-feb4
   category: time
   calendarId: '---'
-  type: Plenary-Invited Talks
+  type: Plenary
   view: week
 
 - title: "<b>AAAI-21 Poster Sessions: AAAI, IAAI, DC, UC, SA, Demos, Classic Paper Award</b>"
@@ -195,7 +195,7 @@
   link: plenary_sessions.html#tab-feb4
   category: time
   calendarId: '---'
-  type: Plenary-Panels
+  type: Plenary
   view: week
 
 - title: "<b>AAAI-21 Poster Sessions: AAAI, IAAI, SA, Demos, Dissertation Award</b>"
@@ -225,7 +225,7 @@
   link: plenary_sessions.html#tab-feb4
   category: time
   calendarId: '---'
-  type: Plenary-Panels
+  type: Plenary
   view: week
 
 - title: "<b>Diversity and Inclusion: Accelerating the Pipeline of Trailblazing STEM Students</b>"
@@ -255,7 +255,7 @@
   link: plenary_sessions.html#tab-feb4
   category: time
   calendarId: '---'
-  type: Plenary-Panels
+  type: Plenary
   view: week
 
 - title: "<b>Diversity and Inclusion: Try AI</b>"
@@ -295,7 +295,7 @@
   link: plenary_sessions.html#tab-feb5
   category: time
   calendarId: '---'
-  type: Plenary-Panels
+  type: Plenary
   view: week
 
 - title: "<b>AAAI-21 Poster Sessions: AAAI, IAAI, SA, Demos, Dissertation Award</b>"
@@ -325,7 +325,7 @@
   link: plenary_sessions.html#tab-feb6
   category: time
   calendarId: '---'
-  type: Plenary-Invited Talks
+  type: Plenary
   view: week
 
 - title: "<b>AAAI-21 Poster Sessions: AAAI, IAAI, SA, Demos</b>"
@@ -365,7 +365,7 @@
   link: plenary_sessions.html#tab-feb6
   category: time
   calendarId: '---'
-  type: Plenary-Panels
+  type: Plenary
   view: week
 
 - title: "<b>Diversity and Inclusion: 2021 Mid-Career Diversity Virtual Discussion (MIDCAR)</b>"
@@ -385,7 +385,7 @@
   link: plenary_sessions.html#tab-feb6
   category: time
   calendarId: '---'
-  type: Plenary-Invited Talks
+  type: Plenary
   view: week
 
 - title: "<b>AAAI-21 Poster Sessions: AAAI, IAAI, SA, Demos</b>"
@@ -425,7 +425,7 @@
   link: plenary_sessions.html#tab-feb6
   category: time
   calendarId: '---'
-  type: Plenary-Invited Talks
+  type: Plenary
   view: week
 
 - title: "<b>AAAI-21 Poster Sessions: AAAI, IAAI, SA, Demos</b>"
@@ -465,7 +465,7 @@
   link: plenary_sessions.html#tab-feb7
   category: time
   calendarId: '---'
-  type: Plenary-Panels
+  type: Plenary
   view: week
 
 - title: "<b>AAAI-21 Poster Sessions: AAAI, SA, Demos</b>"
@@ -485,7 +485,7 @@
   link: plenary_sessions.html#tab-feb7
   category: time
   calendarId: '---'
-  type: Plenary-Invited Talks
+  type: Plenary
   view: week
 
 - title: "<b>AAAI-21 Poster Sessions: AAAI, SA, Demos</b>"
@@ -505,7 +505,7 @@
   link: plenary_sessions.html#tab-feb7
   category: time
   calendarId: '---'
-  type: Plenary-Panels
+  type: Plenary
   view: week
 
 - title: "<b>AAAI-21 Poster Sessions: AAAI, SA, Demos</b>"
