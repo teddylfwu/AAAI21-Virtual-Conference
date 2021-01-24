@@ -112,13 +112,23 @@ def load_site_data(
     # index.html
     site_data["committee"] = build_committee(site_data["committee"]["committee"])
 
+    # overall_schedule_week = copy.deepcopy(site_data["overall_calendar"])
+    # for event in overall_schedule_week:
+    #     event["view"] = "day"
+    # site_data["overall_calendar"].extend(overall_schedule_week)
+
+
     # schedule.html
-    generate_plenary_events(site_data)
-    generate_tutorial_events(site_data)
-    generate_workshop_events(site_data)
-    generate_dc_events(site_data)
-    generate_paper_events(site_data)
-    generate_social_events(site_data)
+    generate_plenary_events(site_data)   # cha-cha Plenary
+    generate_tutorial_events(site_data)  # chenqian  Tutorials
+    generate_workshop_events(site_data)  # haiying   Workshops
+    generate_dc_events(site_data)        # haiying   Doctoral Consortium
+    # TODO: generate_uc_events(site_data)  chenqian   Undergraduate Consortium
+    generate_paper_events(site_data)     # en-yue, mingkai  Posters
+    # TODO: generate_diversity_events(site_data) # liu-xiao  Diversity and Inclusion
+
+    # generate_social_events(site_data)
+
 
     site_data["calendar"] = build_schedule(site_data["overall_calendar"])
     site_data["event_types"] = list(
@@ -467,9 +477,10 @@ def generate_plenary_events(site_data: Dict[str, Any]):
                 "location": f"plenary_session_{uid}.html",
                 "link": f"plenary_session_{uid}.html",
                 "category": "time",
-                "type": "Plenary Sessions",
+                "type": "Plenary",
                 "view": "day",
             }
+            print(event)
             site_data["overall_calendar"].append(event)
             assert start < end, "Session start after session end"
 
@@ -497,7 +508,7 @@ def generate_plenary_events(site_data: Dict[str, Any]):
             "type": "Plenary Sessions",
             "view": "week",
         }
-        site_data["overall_calendar"].append(event)
+        # site_data["overall_calendar"].append(event)
 
 
 def generate_tutorial_events(site_data: Dict[str, Any]):
@@ -723,7 +734,7 @@ def generate_paper_events(site_data: Dict[str, Any]):
 
         # Sessions are suffixd with subsession id
         all_grouped[uid[:-1]].append(session)
-    # print(all_grouped)
+
     for uid, group in all_grouped.items():
         start_time = group[0]["start_time"]
         end_time = group[0]["end_time"]
@@ -780,7 +791,7 @@ def generate_social_events(site_data: Dict[str, Any]):
                 "location": "",
                 "link": f"socials.html",
                 "category": "time",
-                "type": "Socials",
+                "type": "Diversity and Inclusion",
                 "view": "day",
             }
             site_data["overall_calendar"].append(event)
@@ -811,53 +822,65 @@ def generate_social_events(site_data: Dict[str, Any]):
 
 def build_schedule(overall_calendar: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
 
-    events = [
-        copy.deepcopy(event)
-        for event in overall_calendar
-        if event["type"]
-        in {
-            "Plenary Sessions",
-            "Tutorials",
-            "Workshops",
-            "QA Sessions",
-            "Socials",
-            "Sponsors",
-            "Undergraduate Consortium",
-            "Doctoral Consortium",
-        }
-    ]
+    event_type = list(
+        {event["type"] for event in overall_calendar}
+    )
+    events = copy.deepcopy(overall_calendar)
+
+    # events = [
+    #     copy.deepcopy(event)
+    #     for event in overall_calendar
+    #     if event["type"]
+    #     in {
+    #         "Plenary Sessions",
+    #         "Tutorials",
+    #         "Workshops",
+    #         "QA Sessions",
+    #         "Socials",
+    #         "Sponsors",
+    #         "Undergraduate Consortium",
+    #         "Doctoral Consortium",
+    #     }
+    # ]
+    
+    classnames = []
 
     for event in events:
         event_type = event["type"]
-        if event_type == "Plenary Sessions":
-            event["classNames"] = ["calendar-event-plenary"]
-            event["url"] = event["link"]
-        elif event_type == "Tutorials":
-            event["classNames"] = ["calendar-event-tutorial"]
-            event["url"] = event["link"]
-        elif event_type == "Workshops":
-            event["classNames"] = ["calendar-event-workshops"]
-            event["url"] = event["link"]
-        elif event_type == "QA Sessions":
-            event["classNames"] = ["calendar-event-qa"]
-            event["url"] = event["link"]
-        elif event_type == "Socials":
-            event["classNames"] = ["calendar-event-socials"]
-            event["url"] = event["link"]
-        elif event_type == "Sponsors":
-            event["classNames"] = ["calendar-event-sponsors"]
-            event["url"] = event["link"]
-        elif event_type == "Undergraduate Consortium":
-            event["classNames"] = ["calendar-event-uc"]
-            event["url"] = event["link"]
-        elif event_type == "Doctoral Consortium":
-            event["classNames"] = ["calendar-event-dc"]
-            event["url"] = event["link"]
-        else:
-            event["classNames"] = ["calendar-event-other"]
-            event["url"] = event["link"]
+        event["classNames"] = ["calendar-event-" + event_type.lower().replace(" ", "").replace("/", "")]
+        classnames.append(event["classNames"][0])
 
-        event["classNames"].append("calendar-event")
+        event["url"] = event["link"]
+        # if event_type == "Plenary Sessions":
+        #     event["classNames"] = ["calendar-event-plenary"]
+        #     event["url"] = event["link"]
+        # elif event_type == "Tutorials":
+        #     event["classNames"] = ["calendar-event-tutorial"]
+        #     event["url"] = event["link"]
+        # elif event_type == "Workshops":
+        #     event["classNames"] = ["calendar-event-workshops"]
+        #     event["url"] = event["link"]
+        # elif event_type == "QA Sessions":
+        #     event["classNames"] = ["calendar-event-qa"]
+        #     event["url"] = event["link"]
+        # elif event_type == "Socials":
+        #     event["classNames"] = ["calendar-event-socials"]
+        #     event["url"] = event["link"]
+        # elif event_type == "Sponsors":
+        #     event["classNames"] = ["calendar-event-sponsors"]
+        #     event["url"] = event["link"]
+        # elif event_type == "Undergraduate Consortium":
+        #     event["classNames"] = ["calendar-event-uc"]
+        #     event["url"] = event["link"]
+        # elif event_type == "Doctoral Consortium":
+        #     event["classNames"] = ["calendar-event-dc"]
+        #     event["url"] = event["link"]
+        # else:
+        #     event["classNames"] = ["calendar-event-other"]
+        #     event["url"] = event["link"]
+        #
+
+        # event["classNames"].append("calendar-event")
     return events
 
 

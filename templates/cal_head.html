@@ -37,6 +37,10 @@
           start: '{{ config.calendar.start }}',
           end: '{{ config.calendar.end }}'
         },
+          validRange: {
+            start: '{{ config.calendar.start }}',
+          end: '{{ config.calendar.end }}'
+          },
         headerToolbar: {
           left: 'prev,next today',
           center: 'title',
@@ -45,6 +49,7 @@
         slotEventOverlap: false,
         slotDuration: "00:30:00",
         height: "auto",
+          firstDay: 2,
         events: function(info, successCallback, failureCallback) {
             // We need to change the time zone manually,
             // we cannot use static event data
@@ -96,6 +101,7 @@
         },
         // Render HTML from title as HTML
         eventContent: function( arg ) {
+            console.log(arg, "ppppp")
  	        return { html: arg.event.title }
         },
         datesSet: function( dateInfo ) {

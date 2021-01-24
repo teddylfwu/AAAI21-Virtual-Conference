@@ -160,7 +160,7 @@ def build_paper_sessions():
         link = row["join_link"]
         assert real_session_id not in session_id_to_zooms
         session_id_to_zooms[real_session_id] = link
-        print(real_session_id)
+        # print(real_session_id)
 
     sessions = {}
     papers_in_session = defaultdict(list)
