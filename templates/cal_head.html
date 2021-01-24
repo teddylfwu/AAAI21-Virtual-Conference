@@ -13,6 +13,8 @@
       // var uniqEvents = [...new Set(events.map(x=>x.type))]
       //  ["Tutorials", "Plenary Sessions", "Workshops", "Socials", "QA Sessions"]
 
+      console.log("{{ config.calendar.start }}")
+
       var calendarEl = document.getElementById('calendar');
       var calendar = new FullCalendar.Calendar(calendarEl, {
         initialView: initial_view,
@@ -37,6 +39,10 @@
           start: '{{ config.calendar.start }}',
           end: '{{ config.calendar.end }}'
         },
+          validRange: {
+            start: '{{ config.calendar.start }}',
+          end: '{{ config.calendar.end }}'
+          },
         headerToolbar: {
           left: 'prev,next today',
           center: 'title',
@@ -96,6 +102,7 @@
         },
         // Render HTML from title as HTML
         eventContent: function( arg ) {
+            console.log(arg, "ppppp")
  	        return { html: arg.event.title }
         },
         datesSet: function( dateInfo ) {

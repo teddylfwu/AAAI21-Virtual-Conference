@@ -178,12 +178,23 @@ def papers_keyword_vis():
     data["tracks"] = site_data["tracks"]
     return render_template("papers_keyword_vis.html", **data)
 
-
+import datetime
 @app.route("/schedule.html")
 def schedule():
     data = _data()
     data["calendar"] = site_data["calendar"]
     data["event_types"] = site_data["event_types"]
+    print("--------------")
+    print(data["event_types"])
+    # data["event_types"].append("")
+    #print(data.keys())
+
+    # print(len(data["calendar"]))
+    # for cl in data["calendar"]:
+    #     print(cl, "==========")
+    #data["calendar"][0]["start"] = datetime.datetime(2020, 11, 18, 6, 0, tzinfo=datetime.timezone.utc)
+    #data["calendar"][0]["end"] = datetime.datetime(2020, 11, 18, 9, 0, tzinfo=datetime.timezone.utc)
+    #print(data["calendar"][0])
     return render_template("schedule.html", **data)
 
 
