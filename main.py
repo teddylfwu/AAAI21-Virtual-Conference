@@ -63,7 +63,7 @@ def iaai():
     data = _data()
     data["IAAI_papers"] = site_data["IAAI_papers"]
     data["iaai_poster_schedule"] = site_data["iaai_poster_schedule"]
-
+    data["iaai_poster_schedule_days"] = site_data["iaai_poster_schedule_days"]
     return render_template("iaai.html", **data)
 
 
