@@ -112,13 +112,23 @@ def load_site_data(
     # index.html
     site_data["committee"] = build_committee(site_data["committee"]["committee"])
 
+    # overall_schedule_week = copy.deepcopy(site_data["overall_calendar"])
+    # for event in overall_schedule_week:
+    #     event["view"] = "day"
+    # site_data["overall_calendar"].extend(overall_schedule_week)
+
+
     # schedule.html
-    generate_plenary_events(site_data)
-    generate_tutorial_events(site_data)
-    generate_workshop_events(site_data)
-    generate_dc_events(site_data)
-    generate_paper_events(site_data)
-    generate_social_events(site_data)
+    generate_plenary_events(site_data)   # cha-cha Plenary
+    generate_tutorial_events(site_data)  # chenqian  Tutorials
+    generate_workshop_events(site_data)  # haiying   Workshops
+    generate_dc_events(site_data)        # haiying   Doctoral Consortium
+    # TODO: generate_uc_events(site_data)  chenqian   Undergraduate Consortium
+    generate_paper_events(site_data)     # en-yue, mingkai  Posters
+    # TODO: generate_diversity_events(site_data) # liu-xiao  Diversity and Inclusion
+
+    # generate_social_events(site_data)
+
 
     site_data["calendar"] = build_schedule(site_data["overall_calendar"])
     site_data["event_types"] = list(
@@ -178,24 +188,34 @@ def load_site_data(
 
     # IAAI poster presentation
     iaai_poster_schedule = {}
-    iaai_poster_schedule['February 4, Thursday'] = {}
-    iaai_poster_schedule['February 5, Friday'] = {}
-    iaai_poster_schedule['February 6, Saturday'] = {}
-    iaai_poster_schedule['February 4, Thursday']['Aerospace'] = [74,132,171]
-    iaai_poster_schedule['February 4, Thursday']['Commerce'] = [23,84,87,92,93,101,140,179,190]
-    iaai_poster_schedule['February 4, Thursday']['Security'] = [98,113,142]
-    iaai_poster_schedule['February 5, Friday']['General'] = [104]
-    iaai_poster_schedule['February 5, Friday']['Engineering'] = [100,105,165,176]
-    iaai_poster_schedule['February 5, Friday']['Knowledge'] = [21,37,59,65,119,151,157,174]
-    iaai_poster_schedule['February 5, Friday']['Natural Language Processing'] = [89]
-    iaai_poster_schedule['February 5, Friday']['Prediction'] = [43,55]
-    iaai_poster_schedule['February 6, Saturday']['Artificial Intelligence'] = [17,31,60,73,167]
-    iaai_poster_schedule['February 6, Saturday']['Bioscience'] = [76,77,124,145,146,149]
-    iaai_poster_schedule['February 6, Saturday']['COVID'] = [152,154]
-    iaai_poster_schedule['February 6, Saturday']['Driving'] = [34]
-    iaai_poster_schedule['February 6, Saturday']['Intelligent Technology'] = [99]
+    iaai_poster_schedule['Feb 4'] = {}
+    iaai_poster_schedule['Feb 5'] = {}
+    iaai_poster_schedule['Feb 6'] = {}
+    iaai_poster_schedule['Feb 4']['Aerospace'] = [74,132,171]
+    iaai_poster_schedule['Feb 4']['Commerce'] = [23,84,87,92,93,101,140,179,190]
+    iaai_poster_schedule['Feb 4']['Security'] = [98,113,142]
+    iaai_poster_schedule['Feb 5']['General'] = [104]
+    iaai_poster_schedule['Feb 5']['Engineering'] = [100,105,165,176]
+    iaai_poster_schedule['Feb 5']['Knowledge'] = [21,37,59,65,119,151,157,174]
+    iaai_poster_schedule['Feb 5']['Natural Language Processing'] = [89]
+    iaai_poster_schedule['Feb 5']['Prediction'] = [43,55]
+    iaai_poster_schedule['Feb 6']['Artificial Intelligence'] = [17,31,60,73,167]
+    iaai_poster_schedule['Feb 6']['Bioscience'] = [76,77,124,145,146,149]
+    iaai_poster_schedule['Feb 6']['COVID'] = [152,154]
+    iaai_poster_schedule['Feb 6']['Driving'] = [34]
+    iaai_poster_schedule['Feb 6']['Intelligent Technology'] = [99]
 
     site_data["iaai_poster_schedule"] = iaai_poster_schedule
+    site_data["iaai_poster_schedule_days"] = [[day] for day in list(iaai_poster_schedule.keys())]
+    site_data["iaai_poster_schedule_days"] = site_data['plenary_session_days'][:-1]
+    # site_data["iaai_poster_schedule_days"] = [1,2,3,4]
+    site_data["iaai_poster_schedule_days"][0][-1] = "active"
+    # for i in range(len(site_data["iaai_poster_schedule_days"])):
+    #     site_data["iaai_poster_schedule_days"][i][-1] = "active"
+    # site_data["iaai_poster_schedule_days"] = site_data['plenary_session_days'][:]
+
+
+        # [[day.replace(" ", "").lower(), day, ""] for day in iaai_poster_schedule.keys()]
 
 
     # undergraduate_consortium.html
@@ -457,9 +477,10 @@ def generate_plenary_events(site_data: Dict[str, Any]):
                 "location": f"plenary_session_{uid}.html",
                 "link": f"plenary_session_{uid}.html",
                 "category": "time",
-                "type": "Plenary Sessions",
+                "type": "Plenary",
                 "view": "day",
             }
+            print(event)
             site_data["overall_calendar"].append(event)
             assert start < end, "Session start after session end"
 
@@ -487,7 +508,7 @@ def generate_plenary_events(site_data: Dict[str, Any]):
             "type": "Plenary Sessions",
             "view": "week",
         }
-        site_data["overall_calendar"].append(event)
+        # site_data["overall_calendar"].append(event)
 
 
 def generate_tutorial_events(site_data: Dict[str, Any]):
@@ -713,7 +734,7 @@ def generate_paper_events(site_data: Dict[str, Any]):
 
         # Sessions are suffixd with subsession id
         all_grouped[uid[:-1]].append(session)
-    # print(all_grouped)
+
     for uid, group in all_grouped.items():
         start_time = group[0]["start_time"]
         end_time = group[0]["end_time"]
@@ -770,7 +791,7 @@ def generate_social_events(site_data: Dict[str, Any]):
                 "location": "",
                 "link": f"socials.html",
                 "category": "time",
-                "type": "Socials",
+                "type": "Diversity and Inclusion",
                 "view": "day",
             }
             site_data["overall_calendar"].append(event)
@@ -801,53 +822,65 @@ def generate_social_events(site_data: Dict[str, Any]):
 
 def build_schedule(overall_calendar: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
 
-    events = [
-        copy.deepcopy(event)
-        for event in overall_calendar
-        if event["type"]
-        in {
-            "Plenary Sessions",
-            "Tutorials",
-            "Workshops",
-            "QA Sessions",
-            "Socials",
-            "Sponsors",
-            "Undergraduate Consortium",
-            "Doctoral Consortium",
-        }
-    ]
+    event_type = list(
+        {event["type"] for event in overall_calendar}
+    )
+    events = copy.deepcopy(overall_calendar)
+
+    # events = [
+    #     copy.deepcopy(event)
+    #     for event in overall_calendar
+    #     if event["type"]
+    #     in {
+    #         "Plenary Sessions",
+    #         "Tutorials",
+    #         "Workshops",
+    #         "QA Sessions",
+    #         "Socials",
+    #         "Sponsors",
+    #         "Undergraduate Consortium",
+    #         "Doctoral Consortium",
+    #     }
+    # ]
+    
+    classnames = []
 
     for event in events:
         event_type = event["type"]
-        if event_type == "Plenary Sessions":
-            event["classNames"] = ["calendar-event-plenary"]
-            event["url"] = event["link"]
-        elif event_type == "Tutorials":
-            event["classNames"] = ["calendar-event-tutorial"]
-            event["url"] = event["link"]
-        elif event_type == "Workshops":
-            event["classNames"] = ["calendar-event-workshops"]
-            event["url"] = event["link"]
-        elif event_type == "QA Sessions":
-            event["classNames"] = ["calendar-event-qa"]
-            event["url"] = event["link"]
-        elif event_type == "Socials":
-            event["classNames"] = ["calendar-event-socials"]
-            event["url"] = event["link"]
-        elif event_type == "Sponsors":
-            event["classNames"] = ["calendar-event-sponsors"]
-            event["url"] = event["link"]
-        elif event_type == "Undergraduate Consortium":
-            event["classNames"] = ["calendar-event-uc"]
-            event["url"] = event["link"]
-        elif event_type == "Doctoral Consortium":
-            event["classNames"] = ["calendar-event-dc"]
-            event["url"] = event["link"]
-        else:
-            event["classNames"] = ["calendar-event-other"]
-            event["url"] = event["link"]
+        event["classNames"] = ["calendar-event-" + event_type.lower().replace(" ", "").replace("/", "")]
+        classnames.append(event["classNames"][0])
 
-        event["classNames"].append("calendar-event")
+        event["url"] = event["link"]
+        # if event_type == "Plenary Sessions":
+        #     event["classNames"] = ["calendar-event-plenary"]
+        #     event["url"] = event["link"]
+        # elif event_type == "Tutorials":
+        #     event["classNames"] = ["calendar-event-tutorial"]
+        #     event["url"] = event["link"]
+        # elif event_type == "Workshops":
+        #     event["classNames"] = ["calendar-event-workshops"]
+        #     event["url"] = event["link"]
+        # elif event_type == "QA Sessions":
+        #     event["classNames"] = ["calendar-event-qa"]
+        #     event["url"] = event["link"]
+        # elif event_type == "Socials":
+        #     event["classNames"] = ["calendar-event-socials"]
+        #     event["url"] = event["link"]
+        # elif event_type == "Sponsors":
+        #     event["classNames"] = ["calendar-event-sponsors"]
+        #     event["url"] = event["link"]
+        # elif event_type == "Undergraduate Consortium":
+        #     event["classNames"] = ["calendar-event-uc"]
+        #     event["url"] = event["link"]
+        # elif event_type == "Doctoral Consortium":
+        #     event["classNames"] = ["calendar-event-dc"]
+        #     event["url"] = event["link"]
+        # else:
+        #     event["classNames"] = ["calendar-event-other"]
+        #     event["url"] = event["link"]
+        #
+
+        # event["classNames"].append("calendar-event")
     return events
 
 
