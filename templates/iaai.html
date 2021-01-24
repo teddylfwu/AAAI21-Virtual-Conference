@@ -1,12 +1,10 @@
 {% set active_page = "IAAI" %}
 {% extends "base.html" %}
 
-{% block top %}
 
-{% endblock %}
 
-{% block content %}
-{% endblock %}
+{#{% block content %}#}
+{#{% endblock %}#}
 
 
 {% set page_title = "IAAI" %}
@@ -18,6 +16,7 @@
 {% block heading %}
 {{ components.section("The Thirty-Third Annual Conference on Innovative Applications of Artificial Intelligence (IAAI)") }}
 {#<div class="row">#}
+
 <div class="pp-card m-3" style="">
 <div class="card-header">
 
@@ -36,8 +35,12 @@ The Thirty-Third Annual Conference on Innovative Applications of Artificial Inte
 IAAI also features the Robert S. Engelmore Memorial Award Lecture by Tuomas Sandholm and the IAAI-21 / AAAI-21 Joint Invited Talk by Kai-Fu Lee.
 
         <br><br>
-Neil Yorke-Smith and Meinolf Sellmann<br>
-IAAI-21 Conference Cochairs</p>
+        Finally, IAAI is pleased to present the 2021 edition of AI in Practice, comprising three plenary session panels on February 4-6. For more information, please see the <a href="https://virtual.2021.aaai.org/ai_in_practice.html">AI in Practice Program Schedule</a>.
+<br><br>
+        Neil Yorke-Smith and Meinolf Sellmann<br>
+IAAI-21 Conference Cochairs<br>
+    Thiago Serra<br>
+AI in Practice Chair</p>
 {#    {{ components.section("EAAI-21 Program Schedule") }}#}
 {#      <p style="text-align: center"><em>last updated: January 7, 2021</em></p>#}
 </div>
@@ -78,19 +81,35 @@ Dr. Kai-Fu Lee is a former artificial intelligence researcher, former head of Go
     <p>
 Details are coming January 18.
             </p>
+{#{{ iaai_poster_schedule_days }}#}
+{#    <br>#}
+{#    {{ iaai_poster_schedule }}#}
+    {% endblock %}
 
-<div id="schedule" aria-labelledby="schedule">
+
+
+{% block tabs %}
+        <div id="schedule" aria-labelledby="schedule">
   <h2 class="card-title main-title text-center" style="">
       IAAI-21 Poster Presentation Schedule
   </h2>
-{#  <h3 class="card-subtitle mb-2 text-muted text-center">#}
-{#      February 4-6, 2021#}
-{#  </h3>#}
-      {% for myday in iaai_poster_schedule %}
-                <h3 class="card-subtitle mb-2 text-muted text-center" style="text-align: center">
-                     <br>  <p style="text-align: center">  {{ myday}}</p><br>
-  </h3>
-  <div class="row">
+    </div>
+{{ components.tabs(iaai_poster_schedule_days) }}
+    <br>
+{% endblock %}
+    <br>
+{% block content %}
+<div class="tab-content" id="nav-tabContent">
+  {% for (tab_id, day, active) in iaai_poster_schedule_days %}
+  <div
+    class="tab-pane fade {{ 'active show' if active else '' }}"
+    id="tab-{{ tab_id }}"
+    role="tabpanel"
+    aria-labelledby="nav-profile-tab"
+  >
+    <div id="{{ tab_id }}">
+      <div class="plenary_sessions">
+            <div class="row">
     <table class="table table-bordered table-striped" style="font-size: small;">
       <thead>
         <tr>
@@ -100,9 +119,9 @@ Details are coming January 18.
         </tr>
       </thead>
       <tbody>
-            {% for theme in iaai_poster_schedule[myday] %}
+            {% for theme in iaai_poster_schedule[day] %}
                             <tr> <td colspan="3" align="center">{{ theme }}</td>      </tr>
-                    {% for paper in iaai_poster_schedule[myday][theme] %}
+                    {% for paper in iaai_poster_schedule[day][theme] %}
         <tr>
             <td>
               IAAI-{{paper}}
@@ -120,24 +139,79 @@ Details are coming January 18.
                 {% endif %}
             {% endfor %}
         </tr>
-        {% endfor %}
+                {% endfor %}
               {% endfor %}
 
       </tbody>
     </table>
 
 
+{#        {{ components.plenarysessiongroup(plenary_sessions[day]) }}#}
+      </div>
+    </div>
   </div>
-{% endfor %}
+  </div>
+  {% endfor %}
+
 </div>
 
-
-</div>
-
-
+<br>
+{#<div id="schedule" aria-labelledby="schedule">#}
+{#  <h2 class="card-title main-title text-center" style="">#}
+{#      IAAI-21 Poster Presentation Schedule#}
+{#  </h2>#}
+{#  <h3 class="card-subtitle mb-2 text-muted text-center">#}
+{#      February 4-6, 2021#}
+{#  </h3>#}
+{#      {% for myday in iaai_poster_schedule %}#}
+{#                <h3 class="card-subtitle mb-2 text-muted text-center" style="text-align: center">#}
+{#                     <br>  <p style="text-align: center">  {{ myday}}</p><br>#}
+{#  </h3>#}
+{#  <div class="row">#}
+{#    <table class="table table-bordered table-striped" style="font-size: small;">#}
+{#      <thead>#}
+{#        <tr>#}
+{#          <th scope="col" style="width: 8%;">Paper ID</th>#}
+{#          <th scope="col" style="width: 60%;">Title</th>#}
+{#          <th scope="col">Authors</th>#}
+{#        </tr>#}
+{#      </thead>#}
+{#      <tbody>#}
+{#            {% for theme in iaai_poster_schedule[myday] %}#}
+{#                            <tr> <td colspan="3" align="center">{{ theme }}</td>      </tr>#}
+{#                    {% for paper in iaai_poster_schedule[myday][theme] %}#}
+{#        <tr>#}
+{#            <td>#}
+{#              IAAI-{{paper}}#}
+{#                <span class="session_times">{{}}</span>#}
+{#            </td>#}
+{#            {% for mypaper in IAAI_papers %}#}
+{#                {% if 'IAAI-'+paper.__str__() == mypaper.UID %}#}
+{#                   <td scope="row">   <a href={{ mypaper.pdf_url }}>#}
+{#    <div style="height:100%;width:100%">#}
+{#      {{mypaper.title}}#}
+{#    </div>#}
+{#  </a></td>#}
+{#                    <td scope="row">{{mypaper.title}}</td>#}
+{#                    <td style="white-space: pre-wrap;">{{ mypaper.authors | replace("|",', ') }}</td>#}
+{#                {% endif %}#}
+{#            {% endfor %}#}
+{#        </tr>#}
+{#        {% endfor %}#}
+{#              {% endfor %}#}
+{##}
+{#      </tbody>#}
+{#    </table>#}
+{##}
+{##}
+{#  </div>#}
+{#{% endfor %}#}
+{#</div>#}
 
 
 {% endblock %}
 
-{% block footer %}
-{% endblock %}
+
+
+
+
