@@ -62,9 +62,20 @@
 <!-- Title -->
 <div class="card m-3" style="">
   <div class="card-header">
-    <h2 class="card-title main-title text-center" style="color: black">
-      {{paper.content.title}}
-    </h2>
+      {% if paper.id == "CLASSIC-2021" %}
+          <h2 class="card-title main-title text-center" style="color: black">
+            DL-Lite: Tractable Description Logics for Ontologies
+          </h2>
+          <h3 class="card-subtitle mb-2 text-muted text-center">2021 AAAI Classic Paper Award<br></h3>
+        {% elif paper.id == "DISS-2019" %}
+          <h2 class="card-title main-title text-center" style="color: black">
+            Learning to See the Physical World
+          </h2>
+          <h3 class="card-subtitle mb-2 text-muted text-center"> 2019 AAAI/ACM SIGAI Dissertation Award<br></h3>
+        {% else %}
+          <h2 class="card-title main-title text-center" style="color: black">    {{paper.content.title}}</h2>
+        {% endif %}
+
     <h3 class="card-subtitle mb-2 text-muted text-center">
       {% for author in paper.content.authors %}
       <a href="papers.html?filter=authors&search={{author}}&program=all" class="text-primary"
@@ -139,10 +150,8 @@
 
     </p>
 
-    {{ components.live_sessions(
-        paper.content.sessions,
-        paper.content.title,
-        "https://virtual.2020.emnlp.org/paper_" + paper.id + ".html",
+    {{ components.poster_info(
+        paper,
         false) }}
 
         <p class="card-text text-center h5 pt-2">
@@ -169,6 +178,9 @@
       <div id="abstractExample">
         <span class="font-weight-bold">Abstract:</span>
         {{paper.content.abstract}}
+          {% if paper.id=="CLASSIC-2021" %}
+          <br><br>The Classic Paper Award was established in 1999 to honor the author(s) of paper(s) deemed most influential, chosen from a specific conference year. The 2021 award is being given for the most influential paper from the Twentieth National Conference on Artificial Intelligence, held in 2005 in Pittsburgh, Pennsylvania, USA. The authors of the following paper are being specifically honored for proposing basic knowledge representation languages with low complexity of reasoning that have had significant impact beyond AI into semantic foundations for the Web.
+          {% endif %}
       </div>
     </div>
   </div>

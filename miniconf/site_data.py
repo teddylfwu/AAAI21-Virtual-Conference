@@ -73,13 +73,13 @@ class SessionInfo:
             return "unknown"
 
 
+
 @dataclass(frozen=True)
 class PaperContent:
     """The content of a paper.
 
     Needs to be synced with static/js/papers.js and static/js/paper_vis.js.
     """
-
     # needs to be synced with
     title: str
     authors: List[str]
@@ -93,6 +93,15 @@ class PaperContent:
     sessions: List[SessionInfo]
     similar_paper_uids: List[str]
     program: str
+    date1: str = None
+    time1: str = None
+    date2: str = None
+    time2: str = None
+    room: str = None
+    cluster: str = None
+    position: int = None
+    cluster_name: str = None
+    gather_town_link: str = None
     material: str = None
 
     def __post_init__(self):
@@ -121,10 +130,90 @@ class Paper:
     presentation_id: str
     presentation_id_intro: str
     content: PaperContent
-
     @property
     def rocketchat_channel(self) -> str:
         return f"paper-{self.id.replace('.', '-')}"
+
+    @property
+    def date1_start_time_string(self) -> str:
+        datetime_to_str = {
+            '4-Feb 08:45AM-10:30AM':"2021-02-04 08:45:00",
+            '4-Feb 04:45PM-06:30PM':"2021-02-04 16:45:00",
+            '5-Feb 12:45AM-02:30AM':"2021-02-05 00:45:00",
+            '5-Feb 08:45AM-10:30AM':"2021-02-05 08:45:00",
+            '5-Feb 04:45PM-06:30PM':"2021-02-05 16:45:00",
+            '6-Feb 12:45AM-02:30AM':"2021-02-06 00:45:00",
+            '6-Feb 08:45AM-10:30AM':"2021-02-06 08:45:00",
+            '6-Feb 04:45PM-06:30PM':"2021-02-06 16:45:00",
+            '7-Feb 12:45AM-02:30AM':"2021-02-07 00:45:00",
+            '7-Feb 08:45AM-10:30AM':"2021-02-07 08:45:00",
+            '7-Feb 04:45PM-06:30PM':"2021-02-07 16:45:00",
+            '8-Feb 12:45AM-02:30AM':"2021-02-08 00:45:00",
+            "unknown unknown": ""
+        }
+        time = self.content.date1 + " " + self.content.time1
+        return datetime_to_str[time]
+
+    @property
+    def date1_end_time_string(self) -> str:
+        datetime_to_str = {
+            '4-Feb 08:45AM-10:30AM':"2021-02-04 10:30:00",
+            '4-Feb 04:45PM-06:30PM':"2021-02-04 18:30:00",
+            '5-Feb 12:45AM-02:30AM':"2021-02-05 02:30:00",
+            '5-Feb 08:45AM-10:30AM':"2021-02-05 10:30:00",
+            '5-Feb 04:45PM-06:30PM':"2021-02-05 18:30:00",
+            '6-Feb 12:45AM-02:30AM':"2021-02-06 02:30:00",
+            '6-Feb 08:45AM-10:30AM':"2021-02-06 10:30:00",
+            '6-Feb 04:45PM-06:30PM':"2021-02-06 18:30:00",
+            '7-Feb 12:45AM-02:30AM':"2021-02-07 02:30:00",
+            '7-Feb 08:45AM-10:30AM':"2021-02-07 10:30:00",
+            '7-Feb 04:45PM-06:30PM':"2021-02-07 18:30:00",
+            '8-Feb 12:45AM-02:30AM':"2021-02-08 02:30:00",
+            "unknown unknown": ""
+        }
+        time = self.content.date1 + " " + self.content.time1
+        return datetime_to_str[time]
+
+    @property
+    def date2_start_time_string(self) -> str:
+        datetime_to_str = {
+            '4-Feb 08:45AM-10:30AM':"2021-02-04 08:45:00",
+            '4-Feb 04:45PM-06:30PM':"2021-02-04 16:45:00",
+            '5-Feb 12:45AM-02:30AM':"2021-02-05 00:45:00",
+            '5-Feb 08:45AM-10:30AM':"2021-02-05 08:45:00",
+            '5-Feb 04:45PM-06:30PM':"2021-02-05 16:45:00",
+            '6-Feb 12:45AM-02:30AM':"2021-02-06 00:45:00",
+            '6-Feb 08:45AM-10:30AM':"2021-02-06 08:45:00",
+            '6-Feb 04:45PM-06:30PM':"2021-02-06 16:45:00",
+            '7-Feb 12:45AM-02:30AM':"2021-02-07 00:45:00",
+            '7-Feb 08:45AM-10:30AM':"2021-02-07 08:45:00",
+            '7-Feb 04:45PM-06:30PM':"2021-02-07 16:45:00",
+            '8-Feb 12:45AM-02:30AM':"2021-02-08 00:45:00",
+            "unknown unknown": ""
+        }
+        time = self.content.date2 + " " + self.content.time2
+        return datetime_to_str[time]
+
+    @property
+    def date2_end_time_string(self) -> str:
+        datetime_to_str = {
+            '4-Feb 08:45AM-10:30AM':"2021-02-04 10:30:00",
+            '4-Feb 04:45PM-06:30PM':"2021-02-04 18:30:00",
+            '5-Feb 12:45AM-02:30AM':"2021-02-05 02:30:00",
+            '5-Feb 08:45AM-10:30AM':"2021-02-05 10:30:00",
+            '5-Feb 04:45PM-06:30PM':"2021-02-05 18:30:00",
+            '6-Feb 12:45AM-02:30AM':"2021-02-06 02:30:00",
+            '6-Feb 08:45AM-10:30AM':"2021-02-06 10:30:00",
+            '6-Feb 04:45PM-06:30PM':"2021-02-06 18:30:00",
+            '7-Feb 12:45AM-02:30AM':"2021-02-07 02:30:00",
+            '7-Feb 08:45AM-10:30AM':"2021-02-07 10:30:00",
+            '7-Feb 04:45PM-06:30PM':"2021-02-07 18:30:00",
+            '8-Feb 12:45AM-02:30AM':"2021-02-08 02:30:00",
+            "unknown unknown": ""
+        }
+        time = self.content.date2 + " " + self.content.time2
+        return datetime_to_str[time]
+
 
 
 @dataclass(frozen=True)
@@ -360,3 +449,13 @@ class QaSession:
     def day(self) -> str:
         start_time = self.start_time.astimezone(pytz.utc)
         return start_time.strftime("%b %d")
+
+@dataclass(frozen=True)
+class PosterInfo:
+    uid: str
+    time: str
+    room: str
+    cluster: str
+    cluster_name: str
+    gather_town_link: str
+    papers: List[str]
