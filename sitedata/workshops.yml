@@ -7,8 +7,8 @@
   alias: W2AIforBehaviorChange
   day: Feb 8
   sessions:
-    - start_time: 2021-2-8 11:00:00-05:00
-      end_time: 2021-2-8 19:00:00-05:00
+    - start_time: 2021-2-8 08:00:00-08:00
+      end_time: 2021-2-8 16:00:00-08:00
       name: None
       hosts: None
   zoom_links:
@@ -27,8 +27,8 @@
   alias: W1AffectiveContentAnalysis
   day: Feb 9
   sessions:
-  - start_time: 2021-2-9 8:00:00-05:00
-    end_time: 2021-2-9 13:00:00-05:00
+  - start_time: 2021-2-9 05:00:00-08:00
+    end_time: 2021-2-9 10:00:00-08:00
     name: None
     hosts: None
   zoom_links:
@@ -49,7 +49,7 @@
   day: Feb 8
   sessions:
     - start_time: 2021-2-8 9:00:00-08:00
-      end_time: 2021-2-8 18:00:00-08:00
+      end_time: 2021-2-8 17:00:00-08:00
       name: None
       hosts: None
   zoom_links:
@@ -69,8 +69,8 @@
   alias: W4ArtificialIntelligenceSafety
   day: Feb 8
   sessions:
-    - start_time: 2021-2-8 08:00:00+00:00
-      end_time: 2021-2-8 16:30:00+00:00
+    - start_time: 2021-2-8 12:00:00-08:00
+      end_time: 2021-2-8 20:30:00-08:00
       name: None
       hosts: None
   zoom_links:
@@ -90,12 +90,8 @@
   alias: W5CONSTRAINT2021
   day: Feb 8
   sessions:
-  - start_time: 2021-2-8 7:30:00-05:00
-    end_time: 2021-2-8 23:59:00-05:00
-    name: None
-    hosts: None
-  - start_time: 2021-2-9 00:00:00-05:00
-    end_time: 2021-2-9 00:40:00-05:00
+  - start_time: 2021-2-8 4:30:00-08:00
+    end_time: 2021-2-8 21:40:00-08:00
     name: None
     hosts: None
   zoom_links:
@@ -135,8 +131,8 @@
   alias: W7ContentAuthoringandDesign
   day: Feb 8
   sessions:
-  - start_time: 2021-2-8 09:00:00+00:00
-    end_time: 2021-2-8 15:20:00+00:00
+  - start_time: 2021-2-8 09:00:00-08:00
+    end_time: 2021-2-8 15:20:00-08:00
     name: None
     hosts: None
   zoom_links:
@@ -152,12 +148,8 @@
   alias: W8DeepLearningonGraphs
   day: Feb 8
   sessions:
-  - start_time: 2021-2-8 08:00:00+00:00
-    end_time: 2021-2-8 12:00:00+00:00
-    name: None
-    hosts: None
-  - start_time: 2021-2-8 13:00:00+00:00
-    end_time: 2021-2-8 17:30:00+00:00
+  - start_time: 2021-2-8 08:00:00-08:00
+    end_time: 2021-2-8 17:00:00-08:00
     name: None
     hosts: None
   zoom_links:
@@ -176,8 +168,8 @@
   alias: W9DesigningAIforTelehealth
   day: Feb 8
   sessions:
-    - start_time: 2021-2-8 12:00:00+00:00
-      end_time: 2021-2-8 13:00:00+00:00
+    - start_time: 2021-2-8 12:00:00-08:00
+      end_time: 2021-2-8 21:00:00-08:00
       name: None
       hosts: None
   zoom_links:
@@ -197,11 +189,11 @@
   day: Feb 8
   sessions:
   - start_time: 2021-2-8 13:00:00-08:00
-    end_time: 2021-2-8 20:30:00-08:00
+    end_time: 2021-2-8 21:00:00-08:00
     name: None
     hosts: None
   - start_time: 2021-2-9 13:00:00-08:00
-    end_time: 2021-2-9 19:50:00-08:00
+    end_time: 2021-2-9 21:00:00-08:00
     name: None
     hosts: None
   zoom_links:
@@ -220,12 +212,8 @@
   alias: W11ExplainableAgencyinArtificialIntelligence
   day: Feb 8
   sessions:
-  - start_time: 2021-2-8 12:00:00+00:00
-    end_time: 2021-2-8 13:00:00+00:00
-    name: None
-    hosts: None
-  - start_time: 2021-2-9 12:00:00+00:00
-    end_time: 2021-2-9 13:00:00+00:00
+  - start_time: 2021-2-8 07:00:00-08:00
+    end_time: 2021-2-8 17:40:00-08:00
     name: None
     hosts: None
   zoom_links:
@@ -244,8 +232,8 @@
   alias: W12GraphsandMoreComplexStructuresforLearningandReasoning
   day: Feb 9
   sessions:
-  - start_time: 2021-2-9 12:00:00+00:00
-    end_time: 2021-2-9 13:00:00+00:00
+  - start_time: 2021-2-9 06:00:00-08:00
+    end_time: 2021-2-9 14:30:00-08:00
     name: None
     hosts: None
   zoom_links:
@@ -264,12 +252,8 @@
   alias: W13InternationalWorkshoponHealthIntelligence
   day: Feb 8
   sessions:
-  - start_time: 2021-2-8 12:00:00+00:00
-    end_time: 2021-2-8 13:00:00+00:00
-    name: None
-    hosts: None
-  - start_time: 2021-2-9 12:00:00+00:00
-    end_time: 2021-2-9 13:00:00+00:00
+  - start_time: 2021-2-8 08:00:00-08:00
+    end_time: 2021-2-8 16:00:00-08:00
     name: None
     hosts: None
   zoom_links:
@@ -306,8 +290,8 @@
   alias: W15ImaginingPostCOVIDEducationwithAI
   day: Feb 9
   sessions:
-  - start_time: 2021-2-9 09:00:00-05:00
-    end_time: 2021-2-9 18:30:00-05:00
+  - start_time: 2021-2-9 06:00:00-08:00
+    end_time: 2021-2-9 15:30:00-08:00
     name: None
     hosts: None
   zoom_links:
@@ -326,8 +310,8 @@
   alias: W16KnowledgeDiscoveryfromUnstructuredDatainFinancialServices
   day: Feb 9
   sessions:
-  - start_time: 2021-2-9 08:50:00-05:00
-    end_time: 2021-2-9 17:00:00-05:00
+  - start_time: 2021-2-9 05:15:00-08:00
+    end_time: 2021-2-9 14:00:00-08:00
     name: None
     hosts: None
   zoom_links:
@@ -343,8 +327,8 @@
   alias: W17LearningNetworkArchitectureDuringTraining
   day: Feb 8
   sessions:
-  - start_time: 2021-2-8 12:00:00+00:00
-    end_time: 2021-2-8 13:00:00+00:00
+  - start_time: 2021-2-8 06:00:00-08:00
+    end_time: 2021-2-8 13:00:00-08:00
     name: None
     hosts: None
   zoom_links:
@@ -380,8 +364,8 @@
   alias: W19MetaLearningforComputerVision
   day: Feb 8
   sessions:
-  - start_time: 2021-2-8 12:00:00+00:00
-    end_time: 2021-2-8 13:00:00+00:00
+  - start_time: 2021-2-8 12:00:00-08:00
+    end_time: 2021-2-8 13:00:00-08:00
     name: None
     hosts: None
   zoom_links:
@@ -397,8 +381,8 @@
   alias: W20PlanActivityandIntentRecognition
   day: Feb 9
   sessions:
-  - start_time: 2021-2-9 12:00:00+00:00
-    end_time: 2021-2-9 13:00:00+00:00
+  - start_time: 2021-2-9 07:00:00-08:00
+    end_time: 2021-2-9 15:30:00-08:00
     name: None
     hosts: None
   zoom_links:
@@ -414,12 +398,12 @@
   alias: W21PrivacyPreservingArtificialIntelligence
   day: Feb 8
   sessions:
-  - start_time: 2021-2-8 08:50:00-05:00
-    end_time: 2021-2-8 17:00:00-05:00
+  - start_time: 2021-2-8 05:50:00-08:00
+    end_time: 2021-2-8 14:30:00-08:00
     name: None
     hosts: None
-  - start_time: 2021-2-9 09:00:00-05:00
-    end_time: 2021-2-9 17:00:00-05:00
+  - start_time: 2021-2-9 06:00:00-08:00
+    end_time: 2021-2-9 15:30:00-08:00
     name: None
     hosts: None
   zoom_links:
@@ -438,8 +422,8 @@
   alias: W22DEEPDIAL21
   day: Feb 9
   sessions:
-  - start_time: 2021-2-9 09:00:00-05:00
-    end_time: 2021-2-9 15:30:00-05:00
+  - start_time: 2021-2-9 05:45:00-08:00
+    end_time: 2021-2-9 14:00:00-08:00
     name: None
     hosts: None
   zoom_links:
@@ -456,7 +440,7 @@
   day: Feb 8
   sessions:
   - start_time: 2021-2-8 06:00:00-08:00
-    end_time: 2021-2-8 11:40:00-08:00
+    end_time: 2021-2-8 14:00:00-08:00
     name: None
     hosts: None
   zoom_links:
@@ -473,7 +457,7 @@
   day: Feb 9
   sessions:
   - start_time: 2021-2-9 09:00:00-08:00
-    end_time: 2021-2-9 15:20:00-08:00
+    end_time: 2021-2-9 16:00:00-08:00
     name: None
     hosts: None
   zoom_links:
@@ -514,10 +498,6 @@
   day: Feb 9
   sessions:
   - start_time: 2021-2-9 08:30:00-08:00
-    end_time: 2021-2-9 12:30:00-08:00
-    name: None
-    hosts: None
-  - start_time: 2021-2-9 13:30:00-08:00
     end_time: 2021-2-9 18:50:00-08:00
     name: None
     hosts: None
