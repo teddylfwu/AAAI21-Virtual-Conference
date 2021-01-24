@@ -73,13 +73,13 @@ class SessionInfo:
             return "unknown"
 
 
+
 @dataclass(frozen=True)
 class PaperContent:
     """The content of a paper.
 
     Needs to be synced with static/js/papers.js and static/js/paper_vis.js.
     """
-
     # needs to be synced with
     title: str
     authors: List[str]
@@ -93,6 +93,14 @@ class PaperContent:
     sessions: List[SessionInfo]
     similar_paper_uids: List[str]
     program: str
+    date1: str = None
+    time1: str = None
+    date2: str = None
+    time2: str = None
+    room: str = None
+    cluster: str = None
+    position: int = None
+    cluster_name: str = None
     material: str = None
 
     def __post_init__(self):
@@ -317,3 +325,13 @@ class QaSession:
     def day(self) -> str:
         start_time = self.start_time.astimezone(pytz.utc)
         return start_time.strftime("%b %d")
+
+@dataclass(frozen=True)
+class PosterInfo:
+    uid: str
+    time: str
+    room: str
+    cluster: str
+    cluster_name: str
+    gather_town_link: str
+    papers: List[str]

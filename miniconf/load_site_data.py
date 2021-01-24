@@ -29,6 +29,7 @@ from miniconf.site_data import (
     Workshop,
     WorkshopPaper,
     DoctoralConsortium,
+    PosterInfo,
 )
 
 
@@ -64,6 +65,7 @@ def load_site_data(
         "Student Abstracts_papers",
         "Undergraduate Consortium_papers",
         "award_papers",
+        "poster_infos",
         "paper_recs",
         "papers_projection",
         "paper_sessions",
@@ -218,6 +220,7 @@ def load_site_data(
     site_data["socials"] = social_events
 
     # papers.{html,json}
+    # print(site_data["Main Track_papers"])
     papers = build_papers(
         raw_papers=site_data["AI for Social Impact Track_papers"]+
             site_data["Demos_papers"]+
@@ -230,7 +233,7 @@ def load_site_data(
             site_data["Student Abstracts_papers"]+
             site_data["award_papers"]+
             site_data["Undergraduate Consortium_papers"],
-        paper_sessions=site_data["paper_sessions"],
+        paper_sessions=site_data["poster_infos"],
         paper_recs=site_data["paper_recs"],
         paper_images_path=site_data["config"]["paper_images_path"],
         default_image_path=site_data["config"]["logo"]["image"]
@@ -276,16 +279,17 @@ def load_site_data(
     # sponsors.html
     build_sponsors(site_data, by_uid, display_time_format)
 
-    # qa_sessions.html
-    site_data["qa_sessions"], site_data["qa_session_days"] = build_qa_sessions(
-        site_data["paper_sessions"]
+    # main_aisi_smt.html
+    site_data["poster_info_by_day"], site_data["poster_days"] = build_poster_infos(
+        site_data["poster_infos"],by_uid["papers"]
     )
-    site_data["qa_sessions_by_day"] = {
-        day: list(sessions)
-        for day, sessions in itertools.groupby(
-            site_data["qa_sessions"], lambda qa: qa.day
-        )
-    }
+
+    # site_data["main_aisi_smt_by_day"] = {
+    #     day: list(sessions)
+    #     for day, sessions in itertools.groupby(
+    #         site_data["main_aisi_smt"], lambda qa: qa.day
+    #     )
+    # }
 
     print("Data Successfully Loaded")
     return extra_files
@@ -535,7 +539,7 @@ def generate_paper_events(site_data: Dict[str, Any]):
 
         # Sessions are suffixd with subsession id
         all_grouped[uid[:-1]].append(session)
-    print(all_grouped)
+    # print(all_grouped)
     for uid, group in all_grouped.items():
         start_time = group[0]["start_time"]
         end_time = group[0]["end_time"]
@@ -559,7 +563,7 @@ def generate_paper_events(site_data: Dict[str, Any]):
             "start": start_time,
             "end": end_time,
             "location": "",
-            "link": f"qa_sessions.html#tab-{tab_id}",
+            "link": f"main_aisi_smt.html#tab-{tab_id}",
             "category": "time",
             "type": "QA Sessions",
             "view": "week",
@@ -722,38 +726,31 @@ def build_papers(
 
     """
     # build the lookup from (paper, slot) to zoom_link
-    paper_id_to_link: Dict[str, str] = {}
-
-    for session_id, session in paper_sessions.items():
-        for paper_id in session["papers"]:
-            assert paper_id not in paper_id_to_link, paper_id
-            if session_id.startswith("z"):
-                paper_id_to_link[paper_id] = session.get("zoom_link")
-            elif session_id.startswith("g"):
-                paper_id_to_link[
-                    paper_id
-                ] = "https://www.virtualchair.net/events/emnlp2020"
-
-    # build the lookup from paper to slots
-    sessions_for_paper: DefaultDict[str, List[SessionInfo]] = defaultdict(list)
-    for session_name, session_info in paper_sessions.items():
-        start_time = session_info["start_time"]
-        end_time = session_info["end_time"]
-
-        for paper_id in session_info["papers"]:
-
-            #TODO  continue deal with it when we get session data
-            # pass
-            link = paper_id_to_link[paper_id]
-
-            sessions_for_paper[paper_id].append(
-                SessionInfo(
-                    session_name=session_name,
-                    start_time=start_time,
-                    end_time=end_time,
-                    link=link,
-                )
-            )
+    # paper_id_to_link: Dict[str, str] = {}
+    #
+    # for session_id, session in paper_sessions.items():
+    #     for paper_id in session["papers"]:
+    #         assert paper_id not in paper_id_to_link, paper_id
+    #         paper_id_to_link[paper_id] = "www.baidu.com" #TODO gather town link
+    #
+    # # build the lookup from paper to slots
+    # sessions_for_paper: DefaultDict[str, List[SessionInfo]] = defaultdict(list)
+    # for session_name, session_info in paper_sessions.items():
+    #     start_time = session_info["start_time"]
+    #     end_time = session_info["end_time"]
+    #
+    #     for paper_id in session_info["papers"]:
+    #         #TODO  continue deal with it when we get session data
+    #         # pass
+    #         link = paper_id_to_link[paper_id]
+    #         sessions_for_paper[paper_id].append(
+    #             SessionInfo(
+    #                 session_name=session_name,
+    #                 start_time=start_time,
+    #                 end_time=end_time,
+    #                 link=link,
+    #             )
+    #         )
 
     papers = [
         Paper(
@@ -775,31 +772,78 @@ def build_papers(
                 material=item.get("material"),
                 track=normalize_track_name(item.get("track", "")),
                 paper_type=item.get("paper_type", ""),
-                sessions=sessions_for_paper[item["UID"]],
+                sessions=[],
                 similar_paper_uids=paper_recs.get(item["UID"], [item["UID"]]),
                 program=item["program"],
+                date1=item.get("date1", "unknown"),
+                time1=item.get("time1", "unknown"),
+                date2=item.get("date2", "unknown"),
+                time2=item.get("time2", "unknown"),
+                room=item.get("room", "unknown"),
+                cluster=item.get("cluster", "unknown"),
+                position=int(float(item.get("position", 0))),
+                cluster_name=item.get("cluster_name", "unknown"),
+
             ),
         )
         for item in raw_papers
     ]
 
     # throw warnings for missing information
-    for paper in papers:
-        if not paper.presentation_id and paper.content.program not in [
-            "demo",
-            "findings",
-        ]:
-            print(f"WARNING: presentation_id not set for {paper.id}")
-        # if not paper.content.track:
-        #     print(f"WARNING: track not set for {paper.id}")
-        if paper.presentation_id and len(paper.content.sessions) != 1:
-            print(
-                f"WARNING: found {len(paper.content.sessions)} sessions for {paper.id}"
-            )
-        if not paper.content.similar_paper_uids:
-            print(f"WARNING: empty similar_paper_uids for {paper.id}")
+    # for paper in papers:
+    #     if not paper.presentation_id and paper.content.program not in [
+    #         "demo",
+    #         "findings",
+    #     ]:
+    #         print(f"WARNING: presentation_id not set for {paper.id}")
+    #     if not paper.content.track:
+    #         print(f"WARNING: track not set for {paper.id}")
+    #     if paper.presentation_id and len(paper.content.sessions) != 1:
+    #         print(
+    #             f"WARNING: found {len(paper.content.sessions)} sessions for {paper.id}"
+    #         )
+    #     if not paper.content.similar_paper_uids:
+    #         print(f"WARNING: empty similar_paper_uids for {paper.id}")
 
     return papers
+
+
+def build_poster_infos(
+    raw_paper_sessions: Dict[str, Any],by_uid
+) -> Tuple[List[QaSession], List[Tuple[str, str, str]]]:
+
+    poster_infos_by_day: Dict[str, List[Dict[str, Any]]] = defaultdict(list)
+    day_map = {"A":"Feb 4","B":"Feb 4","C":"Feb 4","D":"Feb 5","E":"Feb 5","F":"Feb 5",
+               "G":"Feb 6","H":"Feb 6","I":"Feb 6","J":"Feb 7","K":"Feb 7","L":"Feb 7"}
+    for uid, rs in raw_paper_sessions.items():
+        day_id = uid.split("-")[0]
+        room = uid[2:-2]
+        cluster = uid.split("-")[-1]
+        day = day_map[day_id]
+        papers = rs["papers"]
+        papers.sort(key=lambda x:by_uid[x].content.position)
+        poster_info = PosterInfo(
+            uid = uid,
+            room = room,
+            time = rs["time"],
+            cluster = cluster,
+            cluster_name = rs["cluster_name"],
+            gather_town_link=rs.get("gather_town_link", "http://zoom.us"),
+            papers=rs["papers"],
+            # papers=[],
+        )
+        poster_infos_by_day[day].append(poster_info)
+
+    for day in poster_infos_by_day.keys():
+        poster_infos_by_day[day].sort(key=lambda x:(x.room,x.time,x.cluster))
+    poster_days = []
+    days = ["Feb 4","Feb 5","Feb 6","Feb 7"]
+    for i, day in enumerate(sorted(days)):
+        poster_days.append(
+            (day.replace(" ", "").lower(), day, "active" if i == 0 else "")
+        )
+
+    return poster_infos_by_day, poster_days
 
 
 def build_qa_sessions(

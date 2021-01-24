@@ -185,14 +185,13 @@ def plenary_sessions():
     return render_template("plenary_sessions.html", **data)
 
 
-@app.route("/qa_sessions.html")
-def qa_sessions():
+@app.route("/main_aisi_smt.html")
+def poster_info():
     data = _data()
-    data["qa_session_days"] = site_data["qa_session_days"]
-    data["qa_sessions"] = site_data["qa_sessions_by_day"]
-
+    data["poster_days"] = site_data["poster_days"]
+    data["poster_info"] = site_data["poster_info_by_day"]
     data["papers"] = by_uid["papers"]
-    return render_template("qa_sessions.html", **data)
+    return render_template("main_aisi_smt.html", **data)
 
 
 @app.route("/tutorials.html")

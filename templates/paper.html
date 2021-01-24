@@ -150,10 +150,15 @@
 
     </p>
 
-    {{ components.live_sessions(
-        paper.content.sessions,
-        paper.content.title,
-        "https://virtual.2020.emnlp.org/paper_" + paper.id + ".html",
+    {{ components.poster_info(
+        paper.content.date1,
+        paper.content.time1,
+        paper.content.date2,
+        paper.content.time2,
+        paper.content.room,
+        paper.content.cluster,
+        paper.content.position,
+        paper.content.cluster_name,
         false) }}
 
         <p class="card-text text-center h5 pt-2">
