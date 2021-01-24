@@ -13,8 +13,6 @@
       // var uniqEvents = [...new Set(events.map(x=>x.type))]
       //  ["Tutorials", "Plenary Sessions", "Workshops", "Socials", "QA Sessions"]
 
-      console.log("{{ config.calendar.start }}")
-
       var calendarEl = document.getElementById('calendar');
       var calendar = new FullCalendar.Calendar(calendarEl, {
         initialView: initial_view,
@@ -51,6 +49,7 @@
         slotEventOverlap: false,
         slotDuration: "00:30:00",
         height: "auto",
+          firstDay: 2,
         events: function(info, successCallback, failureCallback) {
             // We need to change the time zone manually,
             // we cannot use static event data
