@@ -1507,6 +1507,7 @@ def build_sponsors(site_data, by_uid, display_time_format) -> None:
         "Silver",
         "Bronze",
         "Supporter",
+        "Exhibitor",
         "Publisher",
         "Diversity & Inclusion: Champion",
         "Diversity & Inclusion: In-Kind",
