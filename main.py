@@ -113,10 +113,10 @@ def diversity_programs():
     return render_template("diversity_programs.html", **data)
 
 
-@app.route("/gathers.html")
+@app.route("/meet_with_a_fellow.html")
 def gathers():
     data = _data()
-    return render_template("gathers.html", **data)
+    return render_template("meet_with_a_fellow.html", **data)
 
 
 @app.route("/ai_job_fair.html")
