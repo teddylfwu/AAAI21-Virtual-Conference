@@ -579,43 +579,43 @@ def generate_tutorial_events(site_data: Dict[str, Any]):
 
             all_sessions.extend(tutorial["sessions"])
 
-    blocks = compute_schedule_blocks(all_sessions)
-
-    # Compute start and end of tutorial blocks
-    for block in blocks:
-        min_start = min([t["start_time"] for t in block])
-        max_end = max([t["end_time"] for t in block])
-
-        event = {
-            "title": "Tutorials",
-            "start": min_start,
-            "end": max_end,
-            "location": "tutorials.html",
-            "link": "tutorials.html",
-            "category": "time",
-            "type": "Tutorials",
-            "view": "week",
-        }
-        site_data["overall_calendar"].append(event)
-
-    uc_blocks = compute_schedule_blocks(uc_sessions)
-
-    # Compute start and end of tutorial blocks
-    for block in uc_blocks:
-        min_start = min([t["start_time"] for t in block])
-        max_end = max([t["end_time"] for t in block])
-
-        event = {
-            "title": "Undergraduate Consortium",
-            "start": min_start,
-            "end": max_end,
-            "location": "undergraduate_consortium.html",
-            "link": "undergraduate_consortium.html",
-            "category": "time",
-            "type": "Undergraduate Consortium",
-            "view": "week",
-        }
-        site_data["overall_calendar"].append(event)
+    # blocks = compute_schedule_blocks(all_sessions)
+    #
+    # # Compute start and end of tutorial blocks
+    # for block in blocks:
+    #     min_start = min([t["start_time"] for t in block])
+    #     max_end = max([t["end_time"] for t in block])
+    #
+    #     event = {
+    #         "title": "Tutorials",
+    #         "start": min_start,
+    #         "end": max_end,
+    #         "location": "tutorials.html",
+    #         "link": "tutorials.html",
+    #         "category": "time",
+    #         "type": "Tutorials",
+    #         "view": "week",
+    #     }
+    #     site_data["overall_calendar"].append(event)
+    #
+    # uc_blocks = compute_schedule_blocks(uc_sessions)
+    #
+    # # Compute start and end of tutorial blocks
+    # for block in uc_blocks:
+    #     min_start = min([t["start_time"] for t in block])
+    #     max_end = max([t["end_time"] for t in block])
+    #
+    #     event = {
+    #         "title": "Undergraduate Consortium",
+    #         "start": min_start,
+    #         "end": max_end,
+    #         "location": "undergraduate_consortium.html",
+    #         "link": "undergraduate_consortium.html",
+    #         "category": "time",
+    #         "type": "Undergraduate Consortium",
+    #         "view": "week",
+    #     }
+    #     site_data["overall_calendar"].append(event)
 
 def generate_dc_events(site_data: Dict[str, Any]):
     """ We add sessions from tutorials and compute the overall dc blocks for the weekly view. """
