@@ -36,13 +36,14 @@ Conference-wide poster sessions will be held February 4-7, and will include post
         <div id="{{ tab_id }}">
             <div class="plenary_sessions">
                 {% for poster in poster_info[day] %}
+                <div id="{{ poster.room }}-{{ poster.cluster }}" style="position: relative;top: -80px;"></div>
                 <div class="row p-4 col-md-12">
 
                     <a name="{{ poster.uid }}">
                         <h5>Room:
                             {{poster.room}},
                             <span>{{poster.session}} </span>
-                            <span class="session_times">{{poster.time}} PST</span>
+                            <span class="session_times">{{poster.time1}} PST/ {{poster.time2}} PST</span>
                         </h5>
 
                     </a>

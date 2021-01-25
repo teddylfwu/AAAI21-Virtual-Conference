@@ -4,7 +4,7 @@ import os
 from typing import Any, Dict
 from urllib.parse import quote_plus
 
-from flask import Flask, jsonify, redirect, render_template, send_from_directory
+from flask import Flask, jsonify, redirect, render_template, send_from_directory,request
 from flask_frozen import Freezer
 from flaskext.markdown import Markdown
 
@@ -203,8 +203,22 @@ def plenary_sessions():
 
 @app.route("/main_aisi_smt.html")
 def poster_info():
+    tab_id = request.args.get("tab_id","")
     data = _data()
-    data["poster_days"] = site_data["poster_days"]
+    # data["poster_days"] = site_data["poster_days"]
+    poster_days = []
+    days = ["Feb 4","Feb 5","Feb 6","Feb 7"]
+    for i, day in enumerate(sorted(days)):
+        tab = day.replace(" ", "").lower()
+        if tab_id == "":
+            poster_days.append(
+                (tab, day, "active" if i==0 else "")
+            )
+        else:
+            poster_days.append(
+                (tab, day, "active" if tab == tab_id else "")
+            )
+    data["poster_days"] = poster_days
     data["poster_info"] = site_data["poster_info_by_day"]
     data["papers"] = by_uid["papers"]
     return render_template("main_aisi_smt.html", **data)

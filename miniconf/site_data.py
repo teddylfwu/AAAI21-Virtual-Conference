@@ -149,7 +149,8 @@ class Paper:
             '7-Feb 08:45AM-10:30AM':"2021-02-07 08:45:00",
             '7-Feb 04:45PM-06:30PM':"2021-02-07 16:45:00",
             '8-Feb 12:45AM-02:30AM':"2021-02-08 00:45:00",
-            "unknown unknown": ""
+            "unknown unknown": "",
+            " ": ""
         }
         time = self.content.date1 + " " + self.content.time1
         return datetime_to_str[time]
@@ -169,7 +170,8 @@ class Paper:
             '7-Feb 08:45AM-10:30AM':"2021-02-07 10:30:00",
             '7-Feb 04:45PM-06:30PM':"2021-02-07 18:30:00",
             '8-Feb 12:45AM-02:30AM':"2021-02-08 02:30:00",
-            "unknown unknown": ""
+            "unknown unknown": "",
+            " ": ""
         }
         time = self.content.date1 + " " + self.content.time1
         return datetime_to_str[time]
@@ -189,7 +191,8 @@ class Paper:
             '7-Feb 08:45AM-10:30AM':"2021-02-07 08:45:00",
             '7-Feb 04:45PM-06:30PM':"2021-02-07 16:45:00",
             '8-Feb 12:45AM-02:30AM':"2021-02-08 00:45:00",
-            "unknown unknown": ""
+            "unknown unknown": "",
+            " ": ""
         }
         time = self.content.date2 + " " + self.content.time2
         return datetime_to_str[time]
@@ -209,7 +212,8 @@ class Paper:
             '7-Feb 08:45AM-10:30AM':"2021-02-07 10:30:00",
             '7-Feb 04:45PM-06:30PM':"2021-02-07 18:30:00",
             '8-Feb 12:45AM-02:30AM':"2021-02-08 02:30:00",
-            "unknown unknown": ""
+            "unknown unknown": "",
+            " ": ""
         }
         time = self.content.date2 + " " + self.content.time2
         return datetime_to_str[time]
@@ -453,7 +457,8 @@ class QaSession:
 @dataclass(frozen=True)
 class PosterInfo:
     uid: str
-    time: str
+    time1: str
+    time2: str
     room: str
     cluster: str
     cluster_name: str
