@@ -719,57 +719,41 @@ def generate_paper_events(site_data: Dict[str, Any]):
 
     all_grouped: Dict[str, List[Any]] = defaultdict(list)
     for uid, session in site_data["paper_sessions"].items():
-        start = session["start_time"]
-        end = session["end_time"]
+        day = uid[0]
+        cluster = uid[-1]
+        room = uid[2:-2]
+        session["cluster"] = cluster
+        session["room"] = room
+        all_grouped[day].append(session)
+    for day in all_grouped.keys():
+        all_grouped[day].sort(key=lambda x: (x["room"],x["cluster"]))
+        for session in all_grouped[day]:
+            start = session["start_time"]
+            end = session["end_time"]
+            room = session["room"]
+            cluster = session["cluster"]
+            cluster_name = session['cluster_name']
+            if "D1" in room:
+                tab_id = "feb4"
+            if "D2" in room:
+                tab_id = "feb5"
+            if "D3" in room:
+                tab_id = "feb6"
+            if "D4" in room:
+                tab_id = "feb7"
+            event = {
+                "title": f"<b>Room:{room}, Cluser:{cluster}</b><br><i>{cluster_name}<i>",
+                "start": start,
+                "end": end,
+                "location": "",
+                "link": f"main_aisi_smt.html?tab_id={tab_id}#{room}-{cluster}",
+                "category": "time",
+                "type": "Posters",
+                "view": "day",
+            }
+            site_data["overall_calendar"].append(event)
 
-        parts = session["long_name"].split(":", 1)
-
-        event = {
-            "title": f"<b>{parts[0]}</b><br>{parts[1]}",
-            "start": start,
-            "end": end,
-            "location": "",
-            "link": f"papers.html?session={uid}&program=all",
-            "category": "time",
-            "type": "QA Sessions",
-            "view": "day",
-        }
-        site_data["overall_calendar"].append(event)
-
-        assert start < end, "Session start after session end"
-
-        # Sessions are suffixd with subsession id
-        all_grouped[uid[:-1]].append(session)
-
-    for uid, group in all_grouped.items():
-        start_time = group[0]["start_time"]
-        end_time = group[0]["end_time"]
-        assert all(s["start_time"] == start_time for s in group)
-        assert all(s["end_time"] == end_time for s in group)
-
-        number = uid[1:]
-        tab_id = (
-            start_time.astimezone(pytz.utc).strftime("%b %d").replace(" ", "").lower()
-        )
-
-        if uid.startswith("z"):
-            name = f"Zoom Q&A Session {number}"
-        elif uid.startswith("g"):
-            name = f"Gather Session {number}"
-        else:
-            raise Exception("Invalid session type")
-
-        event = {
-            "title": name,
-            "start": start_time,
-            "end": end_time,
-            "location": "",
-            "link": f"main_aisi_smt.html#tab-{tab_id}",
-            "category": "time",
-            "type": "QA Sessions",
-            "view": "week",
-        }
-        site_data["overall_calendar"].append(event)
+            assert start < end, "Session start after session end"
 
 
 def generate_social_events(site_data: Dict[str, Any]):
@@ -1031,19 +1015,20 @@ def build_poster_infos(
 ) -> Tuple[List[QaSession], List[Tuple[str, str, str]]]:
 
     poster_infos_by_day: Dict[str, List[Dict[str, Any]]] = defaultdict(list)
-    day_map = {"A":"Feb 4","B":"Feb 4","C":"Feb 4","D":"Feb 5","E":"Feb 5","F":"Feb 5",
-               "G":"Feb 6","H":"Feb 6","I":"Feb 6","J":"Feb 7","K":"Feb 7","L":"Feb 7"}
+    # day_map = {"A":"Feb 4","B":"Feb 4","C":"Feb 4","D":"Feb 5","E":"Feb 5","F":"Feb 5",
+    #            "G":"Feb 6","H":"Feb 6","I":"Feb 6","J":"Feb 7","K":"Feb 7","L":"Feb 7"}
+    day_map = {"D1":"Feb 4","D2":"Feb 5","D3":"Feb 6","D4":"Feb 7"}
     for uid, rs in raw_paper_sessions.items():
-        day_id = uid.split("-")[0]
-        room = uid[2:-2]
+        room = uid[:-2]
         cluster = uid.split("-")[-1]
-        day = day_map[day_id]
+        day = day_map[uid.split("-")[1]]
         papers = rs["papers"]
         papers.sort(key=lambda x:by_uid[x].content.position)
         poster_info = PosterInfo(
             uid = uid,
             room = room,
-            time = rs["time"],
+            time1 = rs["time1"],
+            time2 = rs["time2"],
             cluster = cluster,
             cluster_name = rs["cluster_name"],
             gather_town_link=rs.get("gather_town_link", "http://zoom.us"),
@@ -1053,7 +1038,7 @@ def build_poster_infos(
         poster_infos_by_day[day].append(poster_info)
 
     for day in poster_infos_by_day.keys():
-        poster_infos_by_day[day].sort(key=lambda x:(x.room,x.time,x.cluster))
+        poster_infos_by_day[day].sort(key=lambda x:(x.room,x.cluster))
     poster_days = []
     days = ["Feb 4","Feb 5","Feb 6","Feb 7"]
     for i, day in enumerate(sorted(days)):
