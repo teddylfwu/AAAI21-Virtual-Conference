@@ -335,7 +335,7 @@
   link: eaai.html
   category: time
   calendarId: '---'
-  type: Posters
+  type: EAAI
   view: week
 
 - title: "<b>AAAI-21 Poster Sessions: AAAI, IAAI, SA, Demos</b>"
@@ -495,7 +495,7 @@
   link: eaai.html
   category: time
   calendarId: '---'
-  type: Posters
+  type: EAAI
   view: week
 
 - title: "<b>AAAI-21 Invited Talk: Daphne Koller</b>"
