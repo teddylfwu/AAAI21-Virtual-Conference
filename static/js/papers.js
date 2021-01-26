@@ -388,7 +388,7 @@ const render = () => {
 
     const urlFilter = getUrlParameter("filter") || 'titles';
     const urlSearch = getUrlParameter("search");
-    console.log(urlSearch);
+    // console.log(urlSearch);
     if ((urlSearch !== '') || updateSession()) {
         filters[urlFilter] = urlSearch;
         $('.typeahead_all').val(urlSearch);
@@ -399,7 +399,7 @@ const render = () => {
     Object.keys(filters)
       .forEach(k => {filters[k] ? f_test.push([k, filters[k]]) : null})
 
-     console.log(f_test, filters, "--- f_test, filters");
+     // console.log(f_test, filters, "--- f_test, filters");
     if (f_test.length === 0 && showFavs != '1') {
         // $('#progressBar').hide();
         setTimeout(()=>{updateCards(allPapers)}, 50);
