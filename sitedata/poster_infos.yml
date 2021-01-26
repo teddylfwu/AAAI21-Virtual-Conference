@@ -355,8 +355,6 @@ AB-D2-R1-D:
     - AAAI-829
     - AAAI-943
     - AAAI-1346
-    - AAAI-1625
-    - AAAI-5368
     - AAAI-5401
     - AAAI-6121
     - AAAI-8106
@@ -563,18 +561,6 @@ AB-D3-R1-G:
     - AAAI-6939
     - AAAI-9242
     - AAAI-10336
-AB-D3-R1-H:
-    time1: '6-Feb 08:45AM-10:30AM'
-    time2: '7-Feb 12:45AM-02:30AM'
-    cluster_name: ''
-    gather_town_link: 
-    papers:
-    - AAAI-1413
-    - AAAI-2261
-    - AAAI-2698
-    - AAAI-3245
-    - AAAI-7695
-    - AAAI-7940
 AB-D3-R1-J:
     time1: '6-Feb 08:45AM-10:30AM'
     time2: '7-Feb 12:45AM-02:30AM'
@@ -626,7 +612,7 @@ AB-D3-R1-C:
 AB-D3-R1-D:
     time1: '6-Feb 08:45AM-10:30AM'
     time2: '7-Feb 12:45AM-02:30AM'
-    cluster_name: 'Social Choice / Voting'
+    cluster_name: 'Social Choice / Voting / Fair Division'
     gather_town_link: 
     papers:
     - AAAI-412
@@ -634,6 +620,8 @@ AB-D3-R1-D:
     - AAAI-2327
     - AAAI-2414
     - AAAI-7731
+    - AAAI-1625
+    - AAAI-5368
 AB-D3-R2-A:
     time1: '6-Feb 08:45AM-10:30AM'
     time2: '7-Feb 12:45AM-02:30AM'
