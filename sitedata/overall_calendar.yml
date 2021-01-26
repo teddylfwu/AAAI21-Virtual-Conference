@@ -21,8 +21,8 @@
 - title: "<b>Diversity and Inclusion: Try AI</b>"
   start: 2021-02-03 00:00:00+00:00
   end: 2021-02-03 01:00:00+00:00
-  location: diversity_programs.html#tab-feb3
-  link: diversity_programs.html#tab-feb3
+  location: diversity_programs.html#tab-feb2
+  link: diversity_programs.html#tab-feb2
   category: time
   calendarId: '---'
   type: Diversity and Inclusion
@@ -87,6 +87,16 @@
   calendarId: '---'
   type: Sponsors/Exhibitors
   view: week
+
+- title: "<b>Sponsor/Exhibit Program</b>"
+  start: 2021-02-04 10:00:00-08:00
+  end: 2021-02-04 12:30:00-08:00
+  location: sponsors.html
+  link: sponsors.html
+  category: time
+  calendarId: '---'
+  type: Sponsors/Exhibitors
+  view: day
 
 - title: "<b>IAAI-21 AI in Practice Panel</b>"
   start: 2021-02-04 10:30:00-08:00
@@ -158,6 +168,16 @@
   type: Sponsors/Exhibitors
   view: week
 
+- title: "<b>Sponsor/Exhibit Program</b>"
+  start: 2021-02-04 18:00:00-08:00
+  end: 2021-02-04 20:00:00-08:00
+  location: sponsors.html
+  link: sponsors.html
+  category: time
+  calendarId: '---'
+  type: Sponsors/Exhibitors
+  view: day
+
 - title: "<b>AAAI-21 Invited Talk: Luke Zettlemoyer</b>"
   start: 2021-02-04 23:30:00-08:00
   end: 2021-02-05 00:45:00-08:00
@@ -188,6 +208,16 @@
   type: Sponsors/Exhibitors
   view: week
 
+- title: "<b>Sponsor/Exhibit Program</b>"
+  start: 2021-02-05 02:00:00-08:00
+  end: 2021-02-05 04:30:00-08:00
+  location: sponsors.html
+  link: sponsors.html
+  category: time
+  calendarId: '---'
+  type: Sponsors/Exhibitors
+  view: day
+
 - title: "<b>AAAI-21 Invited Panel: Governments Panel 1</b>"
   start: 2021-02-05 07:30:00-08:00
   end: 2021-02-05 08:45:00-08:00
@@ -217,6 +247,16 @@
   calendarId: '---'
   type: Sponsors/Exhibitors
   view: week
+
+- title: "<b>Sponsor/Exhibit Program</b>"
+  start: 2021-02-05 10:00:00-08:00
+  end: 2021-02-05 12:30:00-08:00
+  location: sponsors.html
+  link: sponsors.html
+  category: time
+  calendarId: '---'
+  type: Sponsors/Exhibitors
+  view: day
 
 - title: "<b>IAAI-21 AI in Practice Panel</b>"
   start: 2021-02-05 10:30:00-08:00
@@ -288,6 +328,16 @@
   type: Sponsors/Exhibitors
   view: week
 
+- title: "<b>Sponsor/Exhibit Program</b>"
+  start: 2021-02-05 18:00:00-08:00
+  end: 2021-02-05 20:30:00-08:00
+  location: sponsors.html
+  link: sponsors.html
+  category: time
+  calendarId: '---'
+  type: Sponsors/Exhibitors
+  view: day
+
 - title: "<b>AAAI-21 Invited Panel: Governments Panel 3</b>"
   start: 2021-02-05 11:30:00-08:00
   end: 2021-02-06 00:45:00-08:00
@@ -318,6 +368,16 @@
   type: Sponsors/Exhibitors
   view: week
 
+- title: "<b>Sponsor/Exhibit Program</b>"
+  start: 2021-02-06 02:00:00-08:00
+  end: 2021-02-06 04:30:00-08:00
+  location: sponsors.html
+  link: sponsors.html
+  category: time
+  calendarId: '---'
+  type: Sponsors/Exhibitors
+  view: day
+
 - title: "<b>AAAI-21 Invited Talk: Latanya Sweeney</b>"
   start: 2021-02-06 07:30:00-08:00
   end: 2021-02-06 08:45:00-08:00
@@ -337,6 +397,16 @@
   calendarId: '---'
   type: EAAI
   view: week
+
+- title: "<b>EAAI-21</b>"
+  start: 2021-02-06 09:30:00-08:00
+  end: 2021-02-06 17:15:00-08:00
+  location: eaai.html
+  link: eaai.html
+  category: time
+  calendarId: '---'
+  type: EAAI
+  view: day
 
 - title: "<b>AAAI-21 Poster Sessions: AAAI, IAAI, SA, Demos</b>"
   start: 2021-02-06 08:45:00-08:00
@@ -358,6 +428,16 @@
   type: Sponsors/Exhibitors
   view: week
 
+- title: "<b>Sponsor/Exhibit Program</b>"
+  start: 2021-02-06 10:45:00-08:00
+  end: 2021-02-06 12:30:00-08:00
+  location: sponsors.html
+  link: sponsors.html
+  category: time
+  calendarId: '---'
+  type: Sponsors/Exhibitors
+  view: day
+
 - title: "<b>Job Fair</b>"
   start: 2021-02-06 10:30:00-08:00
   end: 2021-02-06 12:30:00-08:00
@@ -367,6 +447,16 @@
   calendarId: '---'
   type: AI Job Fair
   view: week
+
+- title: "<b>Job Fair</b>"
+  start: 2021-02-06 10:30:00-08:00
+  end: 2021-02-06 12:30:00-08:00
+  location: ai_job_fair.html
+  link: ai_job_fair.html
+  category: time
+  calendarId: '---'
+  type: AI Job Fair
+  view: day
 
 - title: "<b>IAAI-21 AI in Practice Panel</b>"
   start: 2021-02-06 10:30:00-08:00
@@ -418,6 +508,16 @@
   type: Sponsors/Exhibitors
   view: week
 
+- title: "<b>Sponsor/Exhibit Program</b>"
+  start: 2021-02-06 18:00:00-08:00
+  end: 2021-02-06 20:30:00-08:00
+  location: sponsors.html
+  link: sponsors.html
+  category: time
+  calendarId: '---'
+  type: Sponsors/Exhibitors
+  view: day
+
 - title: "<b>Job Fair</b>"
   start: 2021-02-06 18:30:00-08:00
   end: 2021-02-06 20:30:00-08:00
@@ -427,6 +527,16 @@
   calendarId: '---'
   type: AI Job Fair
   view: week
+
+- title: "<b>Job Fair</b>"
+  start: 2021-02-06 18:30:00-08:00
+  end: 2021-02-06 20:30:00-08:00
+  location: ai_job_fair.html
+  link: ai_job_fair.html
+  category: time
+  calendarId: '---'
+  type: AI Job Fair
+  view: day
 
 - title: "<b>AAAI-21 Invited Talk: Kai-Fu Lee</b>"
   start: 2021-02-06 23:30:00-08:00
@@ -458,6 +568,16 @@
   type: Sponsors/Exhibitors
   view: week
 
+- title: "<b>Sponsor/Exhibit Program</b>"
+  start: 2021-02-07 02:00:00-08:00
+  end: 2021-02-07 04:30:00-08:00
+  location: sponsors.html
+  link: sponsors.html
+  category: time
+  calendarId: '---'
+  type: Sponsors/Exhibitors
+  view: day
+
 - title: "<b>Job Fair</b>"
   start: 2021-02-07 02:30:00-08:00
   end: 2021-02-07 04:30:00-08:00
@@ -467,6 +587,16 @@
   calendarId: '---'
   type: AI Job Fair
   view: week
+
+- title: "<b>Job Fair</b>"
+  start: 2021-02-07 02:30:00-08:00
+  end: 2021-02-07 04:30:00-08:00
+  location: ai_job_fair.html
+  link: ai_job_fair.html
+  category: time
+  calendarId: '---'
+  type: AI Job Fair
+  view: day
 
 - title: "<b>AAAI-21 Invited Panel: Neuro-Symbolic Panel</b>"
   start: 2021-02-07 07:30:00-08:00
@@ -497,6 +627,16 @@
   calendarId: '---'
   type: EAAI
   view: week
+
+- title: "<b>EAAI-21</b>"
+  start: 2021-02-07 10:00:00-08:00
+  end: 2021-02-07 18:00:00-08:00
+  location: eaai.html
+  link: eaai.html
+  category: time
+  calendarId: '---'
+  type: EAAI
+  view: day
 
 - title: "<b>AAAI-21 Invited Talk: Daphne Koller</b>"
   start: 2021-02-07 15:30:00-08:00
