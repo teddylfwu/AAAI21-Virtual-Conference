@@ -350,7 +350,7 @@
   
           {% for session in social.sessions %}
             <div class="m-3 text-muted text-center">
-            {{session.session}}
+            Session {{session.name}}: {{ session.start_time.strftime("%b") }} {{ session.start_time.day }}
             <span class="session_times">{{session.time_string}}</span>
             {% if session.link %}
               <div>
