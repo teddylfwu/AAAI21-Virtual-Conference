@@ -416,10 +416,10 @@ def build_awards(raw_awards: List[Dict[str, Any]]) -> List[Award]:
                 paperlink=awardee['paperlink'] if 'paperlink' in awardee.keys() else None,
                 image=awardee['image'] if 'image' in awardee.keys() else None,
                 organization=awardee['organization'],
-                talk=SessionInfo(session_name = awardee['talk'][0]['session_name'], 
-                                start_time=awardee['talk'][0]['start_time'],
-                                end_time=awardee['talk'][0]['end_time'],
-                                link=awardee['talk'][0]['link']) 
+                talk=[SessionInfo(session_name = awardee['talk'][idx]['session_name'], 
+                                start_time=awardee['talk'][idx]['start_time'],
+                                end_time=awardee['talk'][idx]['end_time'],
+                                link=awardee['talk'][idx]['link']) for idx in range(len(awardee['talk']))]
                                 if 'talk' in awardee.keys() else None
             ) for awardee in award['awardees']]
         )

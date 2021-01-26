@@ -151,7 +151,7 @@
 
 - name: Try AI
   description: Try AI is committed to offering programs that explore the potential application of artificial intelligence (AI) in society, increase diversity in computer science, and build meaningful research connections. As part of the Try AI Speaker Series, join us for three unique discussions featuring leading AI professionals. Through this program, we hope to provide students the opportunity to learn about the career journey of AI researchers and explore their own AI ideas and questions. Each event will be limited to 20 students to ensure we can have meaningful discussions. The program is open to 10th - 12th graders and first and second year undergraduate students. Prior knowledge of AI is not required to participate. Check out www.try-ai.org for registration details and further info.
-  UID: A8
+  UID: A9
   organizers:
     members:
     - Elizabeth Bondi
@@ -174,7 +174,7 @@
 
 - name: Women’s Mentoring Session
   description: The women's mentoring session offers female students in AI the opportunity to meet with leading women in our field. It is a venue for discussing issues relevant to pursuing a successful career in AI, including but not limited to, strategies for being successful in graduate school, how to navigate the job market, the trade-offs between working in academia versus industry, work-life balance, and so on. Through candid discussions we hope that participants will establish relationships that will persist beyond this single event. No submissions are required, but this event is open to registered participants only. This year's event will be virtual, taking place on Friday, February 5, 1:30 - 3:00 PM PT. Please check our website for future updates about mentors, discussion topics, and instructions for joining.
-  UID: A9
+  UID: A10
   organizers:
     members:
     - Maria Chang
@@ -191,7 +191,7 @@
 
 - name: The Second Workshop on Artificial Intelligence – Diversity, Belonging, Equity, and Inclusion (AIDBEI)
   description: This workshop is the second in the series of workshops organized by Diverse In AI, an affinity group which aims to foster links between participants from underrepresented populations, which in artificial intelligence includes but is not limited to women, LGBTQ+ persons, and people of color (e.g., Black in AI, WiML, LatinX in AI, Queer in AI). This workshop aims to bring together these communities to strive to achieve the intersecting goals through interdisciplinary collaborations. This shall help in the dissemination of benefits to all underserved communities in the field of AI and further help in mentoring students/future technologists belonging to isolated, underprivileged, and underrepresented communities. The workshop will include some presentations, a panel discussion, and an online social event open to everyone, using the gather town software for one-to-one and many-to-many interaction and networking through multiple communities. A mentoring sub-event will be offered to junior attendees during the online social event in order to encourage interactions.
-  UID: A10
+  UID: A11
   organizers:
     members:
     - Deepti Lamba
@@ -205,3 +205,23 @@
   - name: ""
     start_time: 2021-02-09 07:30:00-08:00
     end_time: 2021-02-09 13:30:00-08:00
+  
+- name: Queer in AI Social
+  description: The Queer in AI social is an event for queer and trans individuals and allies in AI to share their experiences, network with others, and discuss queer and trans issues in research. This social will be hosted on Gather.town. All event information will remain confidential to respect the privacy and safety of participants. People of all identities, including allies, are invited to attend!
+  UID: A12
+  organizers:
+    members:
+    - Arjun Subramonian
+    - William Agnew
+  image: static/images/aaai2021/AAAI-logo.png
+  website: https://queerinai.org/aaai-2021
+  rocketchat_channel: TBD
+  location: takes place online
+  zoom_link: 
+  sessions:
+  - name: "1"
+    start_time: 2021-02-03 08:00:00-08:00
+    end_time: 2021-02-03 09:00:00-08:00
+  - name: "2"
+    start_time: 2021-02-03 18:00:00-08:00
+    end_time: 2021-02-03 19:00:00-08:00
