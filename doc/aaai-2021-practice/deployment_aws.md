@@ -122,17 +122,19 @@ This repository comes with an action to build and deploy this repository automat
 4. Go to ``Setting``, then ``Secrets``, create the following five secrets
 
 This repository comes with an action to build and deploy this repository automatically. To set it up, do the following:
-    * name: AWS_ACCESS_KEY_ID, value: aws role's key id
-    * name: AWS_SECRET_ACCESS_KEY, value: aws role's secret
-    * name: AWS_CLOUDFRONT_DISTRIBUTION_ID, value: cloudfront's ID
-    * name: CI_TOKEN, value: ssh private key
-    * name: AWS_S3_BUCKET: value: aws S3's url, eg: s3://serverlessrepo-aaai2021-s3bucket-1gv17xyhbpiy4
+   * name: AWS_ACCESS_KEY_ID, value: aws role's key id
+   * name: AWS_SECRET_ACCESS_KEY, value: aws role's secret
+   * name: AWS_CLOUDFRONT_DISTRIBUTION_ID, value: cloudfront's ID
+   * name: CI_TOKEN, value: ssh private key
+   * name: AWS_S3_BUCKET: value: aws S3's url, eg: s3://serverlessrepo-aaai2021-s3bucket-1gv17xyhbpiy4
 <p align="center">
   <img src="img/github_secrets.png">
 </p>
 
 Submit a commit to the branch and you can find the building works. After building, you can visit the website's domain name.
 You can find your website show the correct pages.
+
+Please refer to [key-value file](https://github.com/teddylfwu/AAAI21-Virtual-Conference/blob/develop/doc/aaai-2021-practice/img/key-value.txt).
 
 ## RocketChat
 

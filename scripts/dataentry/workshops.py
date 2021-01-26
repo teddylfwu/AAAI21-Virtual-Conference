@@ -151,7 +151,8 @@ def build_workshops_basics() -> List[Dict[str, Any]]:
             entry["zoom_links"] = zooms[title]
         else:
 
-            print(title)
+            # print(title)
+            pass
 
         data.append(entry)
 
@@ -286,7 +287,7 @@ def generate_workshop_papers(slideslive: pd.DataFrame):
             fixed_papers[title] = i
         elif title in fixed_papers:
             idx = fixed_papers[title]
-            print(title, idx, len(titles))
+            # print(title, idx, len(titles))
             assert titles[idx] == title
             presentation_ids[idx] = presentation_id
             continue
@@ -335,7 +336,7 @@ def generate_workshop_papers(slideslive: pd.DataFrame):
     unmatched_df = pd.DataFrame(unmatched)
     unmatched_df.to_csv("yamls/unmatched_workshop_papers.csv", index=False)
 
-    print("Unmatched", len(unmatched), len(uid_to_anthology_paper))
+    # print("Unmatched", len(unmatched), len(uid_to_anthology_paper))
 
     abstracts = []
     urls = []

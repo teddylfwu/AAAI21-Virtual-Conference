@@ -29,12 +29,7 @@
 {% block heading %}
    {{ components.section("Papers") }}
   <div class="text-muted text-center">
-  The <a href="schedule.html" target="_blank">Schedule</a> page shows the timing of QA/Demo sessions.
-    <br>
-  <strong>To see a list of all paper Q&A sessions, please visit our <a href="qa_sessions.html">
-    Q&A session overview
-  </a> .</strong>
-    <br>
+  To see a list of poster sessions, please visit our poster session overview for <a href="main_aisi_smt.html" target="_blank">Main Track, AI for Social Impact Track and Senior Member Track</a>, <a href="demonstrations.html" target="_blank">Demonstrations</a>, <a href="student_abstract_program.html" target="_blank">Student Abstract</a>, <a href="doctoral_consortium.html" target="_blank">Doctoral Consortium</a>, <a href="undergraduate_consortium.html" target="_blank">Undergraduate Consortium</a>, and <a href="iaai.html" target="_blank">IAAI</a>.
 
 {#    You can download a list of your favorite papers <a id="myLink" href="#" onclick="saveFavorites();">here</a>.#}
 
@@ -217,7 +212,7 @@
 {#              />#}
 {#              SC#}
 {#            </label>#}
-            <label class="btn btn-sm btn-outline-secondary" data-tippy-content="Awards"   style="width: 4.5em;">
+            <label class="btn btn-sm btn-outline-secondary" data-tippy-content="2021 AAAI Classic Paper Award and 2019 AAAI/ACM SIGAI Dissertation Award"   style="width: 4.5em;">
               <input
                 type="radio"
                 name="program"
@@ -456,6 +451,7 @@
   }
 
   $(document).ready(function () {
+      $('#progressBar').hide();
     tippy("[data-tippy-content]", { trigger: "mouseenter focus" });
     const program = getUrlParameter("program") || 'Main'
     let track = ""
@@ -467,7 +463,7 @@
 
     updateTabs();
 
-    start();
+{#    start();#}
   });
 
   $('#track_selector').on('changed.bs.select', function (e, clickedIndex, isSelected, previousValue) {

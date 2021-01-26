@@ -485,38 +485,73 @@ body .carousel-control-prev {
   }
 }
 
+.fc-v-event.calendar-event-aijobfair {
+  background-color: bisque;
+  border-color: bisque;
+}
+
+.fc-v-event.calendar-event-plenary-panels {
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+
 .fc-v-event.calendar-event-plenary {
   background-color: #82b74b;
   border-color: #82b74b;
 }
 
-.fc-v-event.calendar-event-tutorial {
-  background-color: #b8a9c9;
+.fc-v-event.calendar-event-eaai {
+  background-color: #26ffbc;
+  border-color: #26ffbc;
 }
 
-.fc-v-event.calendar-event-uc {
+.fc-v-event.calendar-event-diversityandinclusion {
+  background-color: #00a1f1;
+  border-color: #00a1f1;
+}
+
+.fc-v-event.calendar-event-posters {
+  background-color: #86989b;
+  border-color: #86989b;
+}
+
+
+.fc-v-event.calendar-event-tutorials {
+  background-color: #b8a9c9;
+  border-color: #b8a9c9;
+}
+
+.fc-v-event.calendar-event-undergraduateconsortium {
   background-color: #42dbe3;
+  border-color: #42dbe3;
+}
+.fc-v-event.calendar-event-doctoralconsortium{
+  background-color: #82b74b;
+  border-color: #82b74b;
 }
 
 .fc-v-event.calendar-event-workshops {
   background-color: #fe9f6d;
+  border-color: #fe9f6d;
 }
 
 /* background-color: #d64161;*/
-.fc-v-event.calendar-event-qa {
-  background-color: #86989b;
-}
+/*.fc-v-event.calendar-event-qa {*/
+/*  background-color: #86989b;*/
+/*}*/
 
-.fc-v-event.calendar-event-socials {
-  background-color: #00a1f1;
-}
+/*.fc-v-event.calendar-event-socials {*/
+/*  background-color: #00a1f1;*/
+/*}*/
 
-.fc-v-event.calendar-event-sponsors {
+.fc-v-event.calendar-event-sponsorsexhibitors {
   background-color: #ffa500;
+  border-color: #ffa500;
 }
 
 .fc-v-event.calendar-event-other {
   background-color: #6699ff;
+  border-color: #6699ff;
 }
 
 .fc-v-event.calendar-event {

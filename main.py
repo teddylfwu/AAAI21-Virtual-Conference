@@ -4,7 +4,7 @@ import os
 from typing import Any, Dict
 from urllib.parse import quote_plus
 
-from flask import Flask, jsonify, redirect, render_template, send_from_directory
+from flask import Flask, jsonify, redirect, render_template, send_from_directory,request
 from flask_frozen import Freezer
 from flaskext.markdown import Markdown
 
@@ -63,7 +63,7 @@ def iaai():
     data = _data()
     data["IAAI_papers"] = site_data["IAAI_papers"]
     data["iaai_poster_schedule"] = site_data["iaai_poster_schedule"]
-
+    data["iaai_poster_schedule_days"] = site_data["iaai_poster_schedule_days"]
     return render_template("iaai.html", **data)
 
 
@@ -109,14 +109,15 @@ def ai_in_practice():
 @app.route("/diversity_programs.html")
 def diversity_programs():
     data = _data()
-    data["diversity_programs"] = site_data["socials"]
+    data["diversity_programs"] = site_data["diversity_programs"]
+    data["diversity_programs_days"] = site_data["diversity_programs_days"]
     return render_template("diversity_programs.html", **data)
 
 
-@app.route("/gathers.html")
+@app.route("/meet_with_a_fellow.html")
 def gathers():
     data = _data()
-    return render_template("gathers.html", **data)
+    return render_template("meet_with_a_fellow.html", **data)
 
 
 @app.route("/ai_job_fair.html")
@@ -199,6 +200,20 @@ def livestream():
     return render_template("livestream.html", **data)
 
 
+@app.route("/invited_panels_program.html")
+def invited_panels():
+    data = _data()
+    data["invited_panels"] = site_data["invited_panels"]
+    data["invited_panels_days"] = site_data["invited_panels_days"]
+    return render_template("invited_panels_program.html", **data)
+
+@app.route("/invited_speaker_program.html")
+def invited_speaker():
+    data = _data()
+    data["invited_speakers"] = site_data["invited_speakers"]
+    data["invited_speakers_days"] = site_data["invited_speakers_days"]
+    return render_template("invited_speaker_program.html", **data)
+
 @app.route("/plenary_sessions.html")
 def plenary_sessions():
     data = _data()
@@ -207,14 +222,27 @@ def plenary_sessions():
     return render_template("plenary_sessions.html", **data)
 
 
-@app.route("/qa_sessions.html")
-def qa_sessions():
+@app.route("/main_aisi_smt.html")
+def poster_info():
+    tab_id = request.args.get("tab_id","")
     data = _data()
-    data["qa_session_days"] = site_data["qa_session_days"]
-    data["qa_sessions"] = site_data["qa_sessions_by_day"]
-
+    # data["poster_days"] = site_data["poster_days"]
+    poster_days = []
+    days = ["Feb 4","Feb 5","Feb 6","Feb 7"]
+    for i, day in enumerate(sorted(days)):
+        tab = day.replace(" ", "").lower()
+        if tab_id == "":
+            poster_days.append(
+                (tab, day, "active" if i==0 else "")
+            )
+        else:
+            poster_days.append(
+                (tab, day, "active" if tab == tab_id else "")
+            )
+    data["poster_days"] = poster_days
+    data["poster_info"] = site_data["poster_info_by_day"]
     data["papers"] = by_uid["papers"]
-    return render_template("qa_sessions.html", **data)
+    return render_template("main_aisi_smt.html", **data)
 
 
 @app.route("/tutorials.html")

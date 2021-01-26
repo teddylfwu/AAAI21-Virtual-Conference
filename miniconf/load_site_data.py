@@ -30,6 +30,7 @@ from miniconf.site_data import (
     Workshop,
     WorkshopPaper,
     DoctoralConsortium,
+    PosterInfo,
     Award,
     Awardee,
     Demonstrations,
@@ -69,6 +70,7 @@ def load_site_data(
         "Student Abstracts_papers",
         "Undergraduate Consortium_papers",
         "award_papers",
+        "poster_infos",
         "paper_recs",
         "papers_projection",
         "paper_sessions",
@@ -112,13 +114,23 @@ def load_site_data(
     # index.html
     site_data["committee"] = build_committee(site_data["committee"]["committee"])
 
+    # overall_schedule_week = copy.deepcopy(site_data["overall_calendar"])
+    # for event in overall_schedule_week:
+    #     event["view"] = "day"
+    # site_data["overall_calendar"].extend(overall_schedule_week)
+
+
     # schedule.html
-    generate_plenary_events(site_data)
-    generate_tutorial_events(site_data)
-    generate_workshop_events(site_data)
-    generate_dc_events(site_data)
-    generate_paper_events(site_data)
+    generate_plenary_events(site_data)   # cha-cha Plenary
+    generate_tutorial_events(site_data)  # chenqian  Tutorials
+    generate_workshop_events(site_data)  # haiying   Workshops
+    generate_dc_events(site_data)        # haiying   Doctoral Consortium
+    # TODO: generate_uc_events(site_data)  chenqian   Undergraduate Consortium
+    generate_paper_events(site_data)     # en-yue, mingkai  Posters
+    # TODO: generate_diversity_events(site_data) # liu-xiao  Diversity and Inclusion
+
     generate_social_events(site_data)
+
 
     site_data["calendar"] = build_schedule(site_data["overall_calendar"])
     site_data["event_types"] = list(
@@ -127,6 +139,14 @@ def load_site_data(
 
     # plenary_sessions.html
     plenary_sessions = build_plenary_sessions(
+        raw_plenary_sessions=site_data["plenary_sessions"],
+        raw_plenary_videos={"opening_remarks": site_data["opening_remarks"]},
+    )
+    invited_panels = build_invited_panels_sessions(
+        raw_plenary_sessions=site_data["plenary_sessions"],
+        raw_plenary_videos={"opening_remarks": site_data["opening_remarks"]},
+    )
+    invited_speakers = build_invited_speakers_sessions(
         raw_plenary_sessions=site_data["plenary_sessions"],
         raw_plenary_videos={"opening_remarks": site_data["opening_remarks"]},
     )
@@ -141,6 +161,22 @@ def load_site_data(
         [day.replace(" ", "").lower(), day, ""] for day in plenary_sessions
     ]
     site_data["plenary_session_days"][0][-1] = "active"
+
+
+    # invited panels
+
+    site_data["invited_panels"] = invited_panels
+    site_data["invited_panels_days"] = [
+        [day.replace(" ", "").lower(), day, ""] for day in invited_panels
+    ]
+    site_data["invited_panels_days"][0][-1] = "active"
+
+    # invited speaker
+    site_data["invited_speakers"] = invited_speakers
+    site_data["invited_speakers_days"] = [
+        [day.replace(" ", "").lower(), day, ""] for day in invited_speakers
+    ]
+    site_data["invited_speakers_days"][0][-1] = "active"
 
     # Papers' progam to their data
     for p in site_data["AI for Social Impact Track_papers"]:
@@ -178,24 +214,34 @@ def load_site_data(
 
     # IAAI poster presentation
     iaai_poster_schedule = {}
-    iaai_poster_schedule['February 4, Thursday'] = {}
-    iaai_poster_schedule['February 5, Friday'] = {}
-    iaai_poster_schedule['February 6, Saturday'] = {}
-    iaai_poster_schedule['February 4, Thursday']['Aerospace'] = [74,132,171]
-    iaai_poster_schedule['February 4, Thursday']['Commerce'] = [23,84,87,92,93,101,140,179,190]
-    iaai_poster_schedule['February 4, Thursday']['Security'] = [98,113,142]
-    iaai_poster_schedule['February 5, Friday']['General'] = [104]
-    iaai_poster_schedule['February 5, Friday']['Engineering'] = [100,105,165,176]
-    iaai_poster_schedule['February 5, Friday']['Knowledge'] = [21,37,59,65,119,151,157,174]
-    iaai_poster_schedule['February 5, Friday']['Natural Language Processing'] = [89]
-    iaai_poster_schedule['February 5, Friday']['Prediction'] = [43,55]
-    iaai_poster_schedule['February 6, Saturday']['Artificial Intelligence'] = [17,31,60,73,167]
-    iaai_poster_schedule['February 6, Saturday']['Bioscience'] = [76,77,124,145,146,149]
-    iaai_poster_schedule['February 6, Saturday']['COVID'] = [152,154]
-    iaai_poster_schedule['February 6, Saturday']['Driving'] = [34]
-    iaai_poster_schedule['February 6, Saturday']['Intelligent Technology'] = [99]
+    iaai_poster_schedule['Feb 4'] = {}
+    iaai_poster_schedule['Feb 5'] = {}
+    iaai_poster_schedule['Feb 6'] = {}
+    iaai_poster_schedule['Feb 4']['Aerospace'] = [74,132,171]
+    iaai_poster_schedule['Feb 4']['Commerce'] = [23,84,87,92,93,101,140,179,190]
+    iaai_poster_schedule['Feb 4']['Security'] = [98,113,142]
+    iaai_poster_schedule['Feb 5']['General'] = [104]
+    iaai_poster_schedule['Feb 5']['Engineering'] = [100,105,165,176]
+    iaai_poster_schedule['Feb 5']['Knowledge'] = [21,37,59,65,119,151,157,174]
+    iaai_poster_schedule['Feb 5']['Natural Language Processing'] = [89]
+    iaai_poster_schedule['Feb 5']['Prediction'] = [43,55]
+    iaai_poster_schedule['Feb 6']['Artificial Intelligence'] = [17,31,60,73,167]
+    iaai_poster_schedule['Feb 6']['Bioscience'] = [76,77,124,145,146,149]
+    iaai_poster_schedule['Feb 6']['COVID'] = [152,154]
+    iaai_poster_schedule['Feb 6']['Driving'] = [34]
+    iaai_poster_schedule['Feb 6']['Intelligent Technology'] = [99]
 
     site_data["iaai_poster_schedule"] = iaai_poster_schedule
+    site_data["iaai_poster_schedule_days"] = [[day] for day in list(iaai_poster_schedule.keys())]
+    site_data["iaai_poster_schedule_days"] = site_data['plenary_session_days'][:-1]
+    # site_data["iaai_poster_schedule_days"] = [1,2,3,4]
+    site_data["iaai_poster_schedule_days"][0][-1] = "active"
+    # for i in range(len(site_data["iaai_poster_schedule_days"])):
+    #     site_data["iaai_poster_schedule_days"][i][-1] = "active"
+    # site_data["iaai_poster_schedule_days"] = site_data['plenary_session_days'][:]
+
+
+        # [[day.replace(" ", "").lower(), day, ""] for day in iaai_poster_schedule.keys()]
 
 
     # undergraduate_consortium.html
@@ -263,14 +309,22 @@ def load_site_data(
     site_data["ai_in_practice"] = ai_in_practice
 
     # socials.html/diversity_programs.html
-    social_events = build_socials(site_data["socials"])
-    site_data["socials"] = social_events
-
+    diversity_programs = build_socials(site_data["socials"])
+    site_data["diversity_programs"] = diversity_programs
+    by_uid["diversity_programs"] = {
+        dp.id: dp for _, dp_day in diversity_programs.items() for dp in dp_day
+    }
+    site_data["diversity_programs_days"] = [
+        [day.replace(" ", "").lower(), day, ""] for day in diversity_programs
+    ]
+    site_data["diversity_programs_days"].sort()
+    site_data["diversity_programs_days"][0][-1] = "active"
     # organization awards
     awards = build_awards(site_data['awards'])
     site_data['awards'] = awards
 
     # papers.{html,json}
+    # print(site_data["Main Track_papers"])
     papers = build_papers(
         raw_papers=site_data["AI for Social Impact Track_papers"]+
             site_data["Demos_papers"]+
@@ -283,7 +337,7 @@ def load_site_data(
             site_data["Student Abstracts_papers"]+
             site_data["award_papers"]+
             site_data["Undergraduate Consortium_papers"],
-        paper_sessions=site_data["paper_sessions"],
+        poster_infos=site_data["poster_infos"],
         paper_recs=site_data["paper_recs"],
         paper_images_path=site_data["config"]["paper_images_path"],
         default_image_path=site_data["config"]["logo"]["image"]
@@ -329,16 +383,17 @@ def load_site_data(
     # sponsors.html
     build_sponsors(site_data, by_uid, display_time_format)
 
-    # qa_sessions.html
-    site_data["qa_sessions"], site_data["qa_session_days"] = build_qa_sessions(
-        site_data["paper_sessions"]
+    # main_aisi_smt.html
+    site_data["poster_info_by_day"], site_data["poster_days"] = build_poster_infos(
+        site_data["poster_infos"],by_uid["papers"]
     )
-    site_data["qa_sessions_by_day"] = {
-        day: list(sessions)
-        for day, sessions in itertools.groupby(
-            site_data["qa_sessions"], lambda qa: qa.day
-        )
-    }
+
+    # site_data["main_aisi_smt_by_day"] = {
+    #     day: list(sessions)
+    #     for day, sessions in itertools.groupby(
+    #         site_data["main_aisi_smt"], lambda qa: qa.day
+    #     )
+    # }
 
     print("Data Successfully Loaded")
     return extra_files
@@ -385,10 +440,10 @@ def build_awards(raw_awards: List[Dict[str, Any]]) -> List[Award]:
                 paperlink=awardee['paperlink'] if 'paperlink' in awardee.keys() else None,
                 image=awardee['image'] if 'image' in awardee.keys() else None,
                 organization=awardee['organization'],
-                talk=SessionInfo(session_name = awardee['talk'][0]['session_name'], 
-                                start_time=awardee['talk'][0]['start_time'],
-                                end_time=awardee['talk'][0]['end_time'],
-                                link=awardee['talk'][0]['link']) 
+                talk=[SessionInfo(session_name = awardee['talk'][idx]['session_name'], 
+                                start_time=awardee['talk'][idx]['start_time'],
+                                end_time=awardee['talk'][idx]['end_time'],
+                                link=awardee['talk'][idx]['link']) for idx in range(len(awardee['talk']))]
                                 if 'talk' in awardee.keys() else None
             ) for awardee in award['awardees']]
         )
@@ -442,6 +497,103 @@ def build_plenary_sessions(
     return plenary_sessions
 
 
+def build_invited_panels_sessions(
+    raw_plenary_sessions: List[Dict[str, Any]],
+    raw_plenary_videos: Dict[str, List[Dict[str, Any]]],
+) -> DefaultDict[str, List[PlenarySession]]:
+
+    plenary_videos: DefaultDict[str, List[PlenaryVideo]] = defaultdict(list)
+    for plenary_id, videos in raw_plenary_videos.items():
+        for item in videos:
+            if 'panel' in item["UID"]:
+                plenary_videos[plenary_id].append(
+                    PlenaryVideo(
+                        id=item["UID"],
+                        title=item["title"],
+                        speakers=item["speakers"],
+                        presentation_id=item["presentation_id"],
+                    )
+                )
+
+    plenary_sessions: DefaultDict[str, List[PlenarySession]] = defaultdict(list)
+    for item in raw_plenary_sessions:
+        if 'panel' in item["UID"]:
+            plenary_sessions[item["day"]].append(
+            PlenarySession(
+                id=item["UID"],
+                title=item["title"],
+                image=item["image"],
+                day=item["day"],
+                sessions=[
+                    SessionInfo(
+                        session_name=session.get("name"),
+                        start_time=session.get("start_time"),
+                        end_time=session.get("end_time"),
+                        link=session.get("zoom_link"),
+                    )
+                    for session in item.get("sessions")
+                ],
+                presenter=item.get("presenter"),
+                institution=item.get("institution"),
+                abstract=item.get("abstract"),
+                bio=item.get("bio"),
+                presentation_id=item.get("presentation_id"),
+                rocketchat_channel=item.get("rocketchat_channel"),
+                videos=plenary_videos.get(item["UID"]),
+            )
+            )
+
+    return plenary_sessions
+
+def build_invited_speakers_sessions(
+    raw_plenary_sessions: List[Dict[str, Any]],
+    raw_plenary_videos: Dict[str, List[Dict[str, Any]]],
+) -> DefaultDict[str, List[PlenarySession]]:
+
+    plenary_videos: DefaultDict[str, List[PlenaryVideo]] = defaultdict(list)
+    for plenary_id, videos in raw_plenary_videos.items():
+        for item in videos:
+            if 'speaker' in item["UID"]:
+                plenary_videos[plenary_id].append(
+                    PlenaryVideo(
+                        id=item["UID"],
+                        title=item["title"],
+                        speakers=item["speakers"],
+                        presentation_id=item["presentation_id"],
+                    )
+                )
+
+    plenary_sessions: DefaultDict[str, List[PlenarySession]] = defaultdict(list)
+    for item in raw_plenary_sessions:
+        if 'speaker' in item["UID"]:
+            plenary_sessions[item["day"]].append(
+            PlenarySession(
+                id=item["UID"],
+                title=item["title"],
+                image=item["image"],
+                day=item["day"],
+                sessions=[
+                    SessionInfo(
+                        session_name=session.get("name"),
+                        start_time=session.get("start_time"),
+                        end_time=session.get("end_time"),
+                        link=session.get("zoom_link"),
+                    )
+                    for session in item.get("sessions")
+                ],
+                presenter=item.get("presenter"),
+                institution=item.get("institution"),
+                abstract=item.get("abstract"),
+                bio=item.get("bio"),
+                presentation_id=item.get("presentation_id"),
+                rocketchat_channel=item.get("rocketchat_channel"),
+                videos=plenary_videos.get(item["UID"]),
+            )
+            )
+
+    return plenary_sessions
+
+
 def generate_plenary_events(site_data: Dict[str, Any]):
     """ We add sessions from the plenary for the weekly and daily view. """
     # Add plenary sessions to calendar
@@ -459,9 +611,10 @@ def generate_plenary_events(site_data: Dict[str, Any]):
                 "location": f"plenary_session_{uid}.html",
                 "link": f"plenary_session_{uid}.html",
                 "category": "time",
-                "type": "Plenary Sessions",
+                "type": "Plenary",
                 "view": "day",
             }
+            print(event)
             site_data["overall_calendar"].append(event)
             assert start < end, "Session start after session end"
 
@@ -489,7 +642,7 @@ def generate_plenary_events(site_data: Dict[str, Any]):
             "type": "Plenary Sessions",
             "view": "week",
         }
-        site_data["overall_calendar"].append(event)
+        # site_data["overall_calendar"].append(event)
 
 
 def generate_tutorial_events(site_data: Dict[str, Any]):
@@ -554,43 +707,43 @@ def generate_tutorial_events(site_data: Dict[str, Any]):
 
             all_sessions.extend(tutorial["sessions"])
 
-    blocks = compute_schedule_blocks(all_sessions)
-
-    # Compute start and end of tutorial blocks
-    for block in blocks:
-        min_start = min([t["start_time"] for t in block])
-        max_end = max([t["end_time"] for t in block])
-
-        event = {
-            "title": "Tutorials",
-            "start": min_start,
-            "end": max_end,
-            "location": "tutorials.html",
-            "link": "tutorials.html",
-            "category": "time",
-            "type": "Tutorials",
-            "view": "week",
-        }
-        site_data["overall_calendar"].append(event)
-
-    uc_blocks = compute_schedule_blocks(uc_sessions)
-
-    # Compute start and end of tutorial blocks
-    for block in uc_blocks:
-        min_start = min([t["start_time"] for t in block])
-        max_end = max([t["end_time"] for t in block])
-
-        event = {
-            "title": "Undergraduate Consortium",
-            "start": min_start,
-            "end": max_end,
-            "location": "undergraduate_consortium.html",
-            "link": "undergraduate_consortium.html",
-            "category": "time",
-            "type": "Undergraduate Consortium",
-            "view": "week",
-        }
-        site_data["overall_calendar"].append(event)
+    # blocks = compute_schedule_blocks(all_sessions)
+    #
+    # # Compute start and end of tutorial blocks
+    # for block in blocks:
+    #     min_start = min([t["start_time"] for t in block])
+    #     max_end = max([t["end_time"] for t in block])
+    #
+    #     event = {
+    #         "title": "Tutorials",
+    #         "start": min_start,
+    #         "end": max_end,
+    #         "location": "tutorials.html",
+    #         "link": "tutorials.html",
+    #         "category": "time",
+    #         "type": "Tutorials",
+    #         "view": "week",
+    #     }
+    #     site_data["overall_calendar"].append(event)
+    #
+    # uc_blocks = compute_schedule_blocks(uc_sessions)
+    #
+    # # Compute start and end of tutorial blocks
+    # for block in uc_blocks:
+    #     min_start = min([t["start_time"] for t in block])
+    #     max_end = max([t["end_time"] for t in block])
+    #
+    #     event = {
+    #         "title": "Undergraduate Consortium",
+    #         "start": min_start,
+    #         "end": max_end,
+    #         "location": "undergraduate_consortium.html",
+    #         "link": "undergraduate_consortium.html",
+    #         "category": "time",
+    #         "type": "Undergraduate Consortium",
+    #         "view": "week",
+    #     }
+    #     site_data["overall_calendar"].append(event)
 
 def generate_dc_events(site_data: Dict[str, Any]):
     """ We add sessions from tutorials and compute the overall dc blocks for the weekly view. """
@@ -694,57 +847,41 @@ def generate_paper_events(site_data: Dict[str, Any]):
 
     all_grouped: Dict[str, List[Any]] = defaultdict(list)
     for uid, session in site_data["paper_sessions"].items():
-        start = session["start_time"]
-        end = session["end_time"]
+        day = uid[0]
+        cluster = uid[-1]
+        room = uid[2:-2]
+        session["cluster"] = cluster
+        session["room"] = room
+        all_grouped[day].append(session)
+    for day in all_grouped.keys():
+        all_grouped[day].sort(key=lambda x: (x["room"],x["cluster"]))
+        for session in all_grouped[day]:
+            start = session["start_time"]
+            end = session["end_time"]
+            room = session["room"]
+            cluster = session["cluster"]
+            cluster_name = session['cluster_name']
+            if "D1" in room:
+                tab_id = "feb4"
+            if "D2" in room:
+                tab_id = "feb5"
+            if "D3" in room:
+                tab_id = "feb6"
+            if "D4" in room:
+                tab_id = "feb7"
+            event = {
+                "title": f"<b>Room:{room}, Cluser:{cluster}</b><br><i>{cluster_name}<i>",
+                "start": start,
+                "end": end,
+                "location": "",
+                "link": f"main_aisi_smt.html?tab_id={tab_id}#{room}-{cluster}",
+                "category": "time",
+                "type": "Posters",
+                "view": "day",
+            }
+            site_data["overall_calendar"].append(event)
 
-        parts = session["long_name"].split(":", 1)
-
-        event = {
-            "title": f"<b>{parts[0]}</b><br>{parts[1]}",
-            "start": start,
-            "end": end,
-            "location": "",
-            "link": f"papers.html?session={uid}&program=all",
-            "category": "time",
-            "type": "QA Sessions",
-            "view": "day",
-        }
-        site_data["overall_calendar"].append(event)
-
-        assert start < end, "Session start after session end"
-
-        # Sessions are suffixd with subsession id
-        all_grouped[uid[:-1]].append(session)
-    print(all_grouped)
-    for uid, group in all_grouped.items():
-        start_time = group[0]["start_time"]
-        end_time = group[0]["end_time"]
-        assert all(s["start_time"] == start_time for s in group)
-        assert all(s["end_time"] == end_time for s in group)
-
-        number = uid[1:]
-        tab_id = (
-            start_time.astimezone(pytz.utc).strftime("%b %d").replace(" ", "").lower()
-        )
-
-        if uid.startswith("z"):
-            name = f"Zoom Q&A Session {number}"
-        elif uid.startswith("g"):
-            name = f"Gather Session {number}"
-        else:
-            raise Exception("Invalid session type")
-
-        event = {
-            "title": name,
-            "start": start_time,
-            "end": end_time,
-            "location": "",
-            "link": f"qa_sessions.html#tab-{tab_id}",
-            "category": "time",
-            "type": "QA Sessions",
-            "view": "week",
-        }
-        site_data["overall_calendar"].append(event)
+            assert start < end, "Session start after session end"
 
 
 def generate_social_events(site_data: Dict[str, Any]):
@@ -758,21 +895,25 @@ def generate_social_events(site_data: Dict[str, Any]):
             end = session["end_time"]
 
             uid = social["UID"]
-            if uid.startswith("B"):
-                name = "<b>Birds of a Feather</b><br>" + social["name"]
-            elif uid.startswith("A"):
-                name = "<b>Affinity group meeting</b><br>" + social["name"]
-            else:
-                name = social["name"]
-
+            # if uid.startswith("B"):
+            #     name = "<b>Birds of a Feather</b><br>" + social["name"]
+            # elif uid.startswith("A"):
+            #     name = "<b>Affinity group meeting</b><br>" + social["name"]
+            # else:
+            name = social["name"]
+            # day = session.day.replace(" ", "").lower()
+            # start_time = start.astimezone(pytz.utc)
+            day = f'{start.strftime("%b")} {start.day}'
+            day = day.replace(" ", "")
+            # print(day)
             event = {
                 "title": name,
                 "start": start,
                 "end": end,
                 "location": "",
-                "link": f"socials.html",
+                "link": "diversity_programs.html#tab-{}".format(day),
                 "category": "time",
-                "type": "Socials",
+                "type": "Diversity and Inclusion",
                 "view": "day",
             }
             site_data["overall_calendar"].append(event)
@@ -784,72 +925,84 @@ def generate_social_events(site_data: Dict[str, Any]):
     blocks = compute_schedule_blocks(all_sessions)
 
     # Compute start and end of tutorial blocks
-    for block in blocks:
-        min_start = min([t["start_time"] for t in block])
-        max_end = max([t["end_time"] for t in block])
+    # for block in blocks:
+    #     min_start = min([t["start_time"] for t in block])
+    #     max_end = max([t["end_time"] for t in block])
 
-        event = {
-            "title": f"Socials",
-            "start": min_start,
-            "end": max_end,
-            "location": "",
-            "link": f"socials.html",
-            "category": "time",
-            "type": "Socials",
-            "view": "week",
-        }
-        site_data["overall_calendar"].append(event)
+    #     event = {
+    #         "title": f"Diversity Programs",
+    #         "start": min_start,
+    #         "end": max_end,
+    #         "location": "",
+    #         "link": f"diversity_programs.html",
+    #         "category": "time",
+    #         "type": "Diversity and Inclusion",
+    #         "view": "week",
+    #     }
+    #     site_data["overall_calendar"].append(event)
 
 
 def build_schedule(overall_calendar: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
 
-    events = [
-        copy.deepcopy(event)
-        for event in overall_calendar
-        if event["type"]
-        in {
-            "Plenary Sessions",
-            "Tutorials",
-            "Workshops",
-            "QA Sessions",
-            "Socials",
-            "Sponsors",
-            "Undergraduate Consortium",
-            "Doctoral Consortium",
-        }
-    ]
+    event_type = list(
+        {event["type"] for event in overall_calendar}
+    )
+    events = copy.deepcopy(overall_calendar)
+
+    # events = [
+    #     copy.deepcopy(event)
+    #     for event in overall_calendar
+    #     if event["type"]
+    #     in {
+    #         "Plenary Sessions",
+    #         "Tutorials",
+    #         "Workshops",
+    #         "QA Sessions",
+    #         "Socials",
+    #         "Sponsors",
+    #         "Undergraduate Consortium",
+    #         "Doctoral Consortium",
+    #     }
+    # ]
+    
+    classnames = []
 
     for event in events:
         event_type = event["type"]
-        if event_type == "Plenary Sessions":
-            event["classNames"] = ["calendar-event-plenary"]
-            event["url"] = event["link"]
-        elif event_type == "Tutorials":
-            event["classNames"] = ["calendar-event-tutorial"]
-            event["url"] = event["link"]
-        elif event_type == "Workshops":
-            event["classNames"] = ["calendar-event-workshops"]
-            event["url"] = event["link"]
-        elif event_type == "QA Sessions":
-            event["classNames"] = ["calendar-event-qa"]
-            event["url"] = event["link"]
-        elif event_type == "Socials":
-            event["classNames"] = ["calendar-event-socials"]
-            event["url"] = event["link"]
-        elif event_type == "Sponsors":
-            event["classNames"] = ["calendar-event-sponsors"]
-            event["url"] = event["link"]
-        elif event_type == "Undergraduate Consortium":
-            event["classNames"] = ["calendar-event-uc"]
-            event["url"] = event["link"]
-        elif event_type == "Doctoral Consortium":
-            event["classNames"] = ["calendar-event-dc"]
-            event["url"] = event["link"]
-        else:
-            event["classNames"] = ["calendar-event-other"]
-            event["url"] = event["link"]
+        event["classNames"] = ["calendar-event-" + event_type.lower().replace(" ", "").replace("/", "")]
+        classnames.append(event["classNames"][0])
 
-        event["classNames"].append("calendar-event")
+        event["url"] = event["link"]
+        # if event_type == "Plenary Sessions":
+        #     event["classNames"] = ["calendar-event-plenary"]
+        #     event["url"] = event["link"]
+        # elif event_type == "Tutorials":
+        #     event["classNames"] = ["calendar-event-tutorial"]
+        #     event["url"] = event["link"]
+        # elif event_type == "Workshops":
+        #     event["classNames"] = ["calendar-event-workshops"]
+        #     event["url"] = event["link"]
+        # elif event_type == "QA Sessions":
+        #     event["classNames"] = ["calendar-event-qa"]
+        #     event["url"] = event["link"]
+        # elif event_type == "Socials":
+        #     event["classNames"] = ["calendar-event-socials"]
+        #     event["url"] = event["link"]
+        # elif event_type == "Sponsors":
+        #     event["classNames"] = ["calendar-event-sponsors"]
+        #     event["url"] = event["link"]
+        # elif event_type == "Undergraduate Consortium":
+        #     event["classNames"] = ["calendar-event-uc"]
+        #     event["url"] = event["link"]
+        # elif event_type == "Doctoral Consortium":
+        #     event["classNames"] = ["calendar-event-dc"]
+        #     event["url"] = event["link"]
+        # else:
+        #     event["classNames"] = ["calendar-event-other"]
+        #     event["url"] = event["link"]
+        #
+
+        # event["classNames"].append("calendar-event")
     return events
 
 
@@ -891,7 +1044,7 @@ def get_card_image_path_for_paper(paper_id: str, paper_images_path: str, default
 
 def build_papers(
     raw_papers: List[Dict[str, str]],
-    paper_sessions: Dict[str, Any],
+    poster_infos: Dict[str, Any],
     paper_recs: Dict[str, List[str]],
     paper_images_path: str,
     default_image_path: str
@@ -912,37 +1065,28 @@ def build_papers(
     # build the lookup from (paper, slot) to zoom_link
     paper_id_to_link: Dict[str, str] = {}
 
-    for session_id, session in paper_sessions.items():
+    for session_id, session in poster_infos.items():
         for paper_id in session["papers"]:
-            assert paper_id not in paper_id_to_link, paper_id
-            if session_id.startswith("z"):
-                paper_id_to_link[paper_id] = session.get("zoom_link")
-            elif session_id.startswith("g"):
-                paper_id_to_link[
-                    paper_id
-                ] = "https://www.virtualchair.net/events/emnlp2020"
-
-    # build the lookup from paper to slots
-    sessions_for_paper: DefaultDict[str, List[SessionInfo]] = defaultdict(list)
-    for session_name, session_info in paper_sessions.items():
-        start_time = session_info["start_time"]
-        end_time = session_info["end_time"]
-
-        for paper_id in session_info["papers"]:
-
-            #TODO  continue deal with it when we get session data
-            # pass
-            link = paper_id_to_link[paper_id]
-
-            sessions_for_paper[paper_id].append(
-                SessionInfo(
-                    session_name=session_name,
-                    start_time=start_time,
-                    end_time=end_time,
-                    link=link,
-                )
-            )
-
+            paper_id_to_link[paper_id] = "www.baidu.com" #TODO gather town link
+    #
+    # # build the lookup from paper to slots
+    # sessions_for_paper: DefaultDict[str, List[SessionInfo]] = defaultdict(list)
+    # for session_name, session_info in paper_sessions.items():
+    #     start_time = session_info["start_time"]
+    #     end_time = session_info["end_time"]
+    #
+    #     for paper_id in session_info["papers"]:
+    #         #TODO  continue deal with it when we get session data
+    #         # pass
+    #         link = paper_id_to_link[paper_id]
+    #         sessions_for_paper[paper_id].append(
+    #             SessionInfo(
+    #                 session_name=session_name,
+    #                 start_time=start_time,
+    #                 end_time=end_time,
+    #                 link=link,
+    #             )
+    #         )
     papers = [
         Paper(
             id=item["UID"],
@@ -963,31 +1107,78 @@ def build_papers(
                 material=item.get("material"),
                 track=normalize_track_name(item.get("track", "")),
                 paper_type=item.get("paper_type", ""),
-                sessions=sessions_for_paper[item["UID"]],
+                sessions=[],
                 similar_paper_uids=paper_recs.get(item["UID"], [item["UID"]]),
                 program=item["program"],
+                date1=item.get("date1", "unknown"),
+                time1=item.get("time1", "unknown"),
+                date2=item.get("date2", "unknown"),
+                time2=item.get("time2", "unknown"),
+                room=item.get("room", "unknown"),
+                cluster=item.get("cluster", "unknown"),
+                position=int(float(item.get("position", 0))),
+                cluster_name=item.get("cluster_name", "unknown"),
+                gather_town_link= paper_id_to_link[item["UID"]] if item['UID'] in paper_id_to_link else "",
             ),
         )
         for item in raw_papers
     ]
-
     # throw warnings for missing information
-    for paper in papers:
-        if not paper.presentation_id and paper.content.program not in [
-            "demo",
-            "findings",
-        ]:
-            print(f"WARNING: presentation_id not set for {paper.id}")
-        # if not paper.content.track:
-        #     print(f"WARNING: track not set for {paper.id}")
-        if paper.presentation_id and len(paper.content.sessions) != 1:
-            print(
-                f"WARNING: found {len(paper.content.sessions)} sessions for {paper.id}"
-            )
-        if not paper.content.similar_paper_uids:
-            print(f"WARNING: empty similar_paper_uids for {paper.id}")
+    # for paper in papers:
+    #     if not paper.presentation_id and paper.content.program not in [
+    #         "demo",
+    #         "findings",
+    #     ]:
+    #         print(f"WARNING: presentation_id not set for {paper.id}")
+    #     if not paper.content.track:
+    #         print(f"WARNING: track not set for {paper.id}")
+    #     if paper.presentation_id and len(paper.content.sessions) != 1:
+    #         print(
+    #             f"WARNING: found {len(paper.content.sessions)} sessions for {paper.id}"
+    #         )
+    #     if not paper.content.similar_paper_uids:
+    #         print(f"WARNING: empty similar_paper_uids for {paper.id}")
 
     return papers
+
+
+def build_poster_infos(
+    raw_paper_sessions: Dict[str, Any],by_uid
+) -> Tuple[List[QaSession], List[Tuple[str, str, str]]]:
+
+    poster_infos_by_day: Dict[str, List[Dict[str, Any]]] = defaultdict(list)
+    # day_map = {"A":"Feb 4","B":"Feb 4","C":"Feb 4","D":"Feb 5","E":"Feb 5","F":"Feb 5",
+    #            "G":"Feb 6","H":"Feb 6","I":"Feb 6","J":"Feb 7","K":"Feb 7","L":"Feb 7"}
+    day_map = {"D1":"Feb 4","D2":"Feb 5","D3":"Feb 6","D4":"Feb 7"}
+    for uid, rs in raw_paper_sessions.items():
+        room = uid[:-2]
+        cluster = uid.split("-")[-1]
+        day = day_map[uid.split("-")[1]]
+        papers = rs["papers"]
+        papers.sort(key=lambda x:by_uid[x].content.position)
+        poster_info = PosterInfo(
+            uid = uid,
+            room = room,
+            time1 = rs["time1"],
+            time2 = rs["time2"],
+            cluster = cluster,
+            cluster_name = rs["cluster_name"],
+            gather_town_link=rs.get("gather_town_link", "http://zoom.us"),
+            papers=rs["papers"],
+            # papers=[],
+        )
+        poster_infos_by_day[day].append(poster_info)
+
+    for day in poster_infos_by_day.keys():
+        poster_infos_by_day[day].sort(key=lambda x:(x.room,x.cluster))
+    poster_days = []
+    days = ["Feb 4","Feb 5","Feb 6","Feb 7"]
+    for i, day in enumerate(sorted(days)):
+        poster_days.append(
+            (day.replace(" ", "").lower(), day, "active" if i == 0 else "")
+        )
+
+    return poster_infos_by_day, poster_days
 
 
 def build_qa_sessions(
@@ -1342,33 +1533,72 @@ def build_ai_in_practice(raw_ai_in_practice: List[Dict[str, Any]]) -> List[AiInP
         for item in raw_ai_in_practice
     ]
 
-def build_socials(raw_socials: List[Dict[str, Any]]) -> List[SocialEvent]:
-    return [
-        SocialEvent(
-            id=item["UID"],
-            name=item["name"],
-            description=item["description"],
-            image=item.get("image"),
-            location=item.get("location"),
-            organizers=SocialEventOrganizers(
-                members=item["organizers"]["members"],
-                website=item["organizers"].get("website", ""),
-            ),
-            sessions=[
-                SessionInfo(
-                    session_name=session.get("name"),
-                    start_time=session.get("start_time"),
-                    end_time=session.get("end_time"),
-                    link=session.get("link"),
+def build_socials(raw_socials: List[Dict[str, Any]]) -> DefaultDict[str, List[SocialEvent]]:
+    socials: DefaultDict[str, List[SocialEvent]] = defaultdict(list)
+    for item in raw_socials:
+        event = SocialEvent(
+                    id=item["UID"],
+                    name=item["name"],
+                    description=item["description"],
+                    image=item.get("image"),
+                    location=item.get("location"),
+                    organizers=SocialEventOrganizers(
+                        members=item["organizers"]["members"],
+                        website=item["organizers"].get("website", ""),
+                    ),
+                    sessions=[
+                        SessionInfo(
+                            session_name=session.get("name"),
+                            start_time=session.get("start_time"),
+                            end_time=session.get("end_time"),
+                            link=session.get("link"),
+                        )
+                        for session in item["sessions"]
+                    ],
+                    rocketchat_channel=item.get("rocketchat_channel", ""),
+                    website=item.get("website", ""),
+                    zoom_link=item.get("zoom_link"),
                 )
-                for session in item["sessions"]
-            ],
-            rocketchat_channel=item.get("rocketchat_channel", ""),
-            website=item.get("website", ""),
-            zoom_link=item.get("zoom_link"),
-        )
-        for item in raw_socials
-    ]
+        days = set()
+        for session in event.sessions:
+            # print(session.start_time.month, session.start_time.day)
+            # return
+            day = f'{session.start_time.strftime("%b")} {session.start_time.day}'
+            days.add(day)
+        days = list(days)
+        # print(days)
+        # print('---------------')
+        
+        for d in days:
+            socials[d].append(event)
+        # print(len(socials['Feb 3']))
+    return socials
+    # return [
+    #     SocialEvent(
+    #         id=item["UID"],
+    #         name=item["name"],
+    #         description=item["description"],
+    #         image=item.get("image"),
+    #         location=item.get("location"),
+    #         organizers=SocialEventOrganizers(
+    #             members=item["organizers"]["members"],
+    #             website=item["organizers"].get("website", ""),
+    #         ),
+    #         sessions=[
+    #             SessionInfo(
+    #                 session_name=session.get("name"),
+    #                 start_time=session.get("start_time"),
+    #                 end_time=session.get("end_time"),
+    #                 link=session.get("link"),
+    #             )
+    #             for session in item["sessions"]
+    #         ],
+    #         rocketchat_channel=item.get("rocketchat_channel", ""),
+    #         website=item.get("website", ""),
+    #         zoom_link=item.get("zoom_link"),
+    #     )
+    #     for item in raw_socials
+    # ]
 
 
 def build_sponsors(site_data, by_uid, display_time_format) -> None:
@@ -1433,6 +1663,7 @@ def build_sponsors(site_data, by_uid, display_time_format) -> None:
         "Silver",
         "Bronze",
         "Supporter",
+        "Exhibitor",
         "Publisher",
         "Diversity & Inclusion: Champion",
         "Diversity & Inclusion: In-Kind",

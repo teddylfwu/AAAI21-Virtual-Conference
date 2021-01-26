@@ -491,13 +491,13 @@ const updateToolboxUI = (program, urlFilter, track) =>{
 const start = (reset_track) => {
     
     reset_track = reset_track || false;
-    
+
     const urlFilter = getUrlParameter("filter") || 'titles';
     const program = getUrlParameter("program") || 'Main'
     let default_track = program == "workshop"? "All workshops" : "All tracks";
-    
+
     let track = getUrlParameter("track") || default_track;
-    if (reset_track) 
+    if (reset_track)
         track = default_track;
 
     setQueryStringParameter("filter", urlFilter);
@@ -521,7 +521,7 @@ const start = (reset_track) => {
         shuffleArray(papers);
 
         allPapers = papers;
-        
+
         calcAllKeys(allPapers, allKeys);
 
         let tracks = [];
@@ -530,7 +530,7 @@ const start = (reset_track) => {
         else if (program == "workshop")
             tracks = allWorkshops;
         updateTrackList(tracks, track);
-        
+
         setTypeAhead(urlFilter,
           allKeys, filters, render);
 

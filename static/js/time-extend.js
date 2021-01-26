@@ -1,6 +1,7 @@
 add_local_tz = (selector) => {
   const regex_time = new RegExp("\\((.*)-(.*) (.*)\\)");
-  const guess_tz = moment.tz.guess(true);
+  // const guess_tz = moment.tz.guess(true);
+  const guess_tz = "America/Los_Angeles";
 
   $(selector).each(function () {
     const t = $(this).text();
@@ -34,7 +35,7 @@ add_local_tz = (selector) => {
         start_dd_str = `(${start_dd}d)`;
       }
       $(this).text(
-        `${res[1]}-${res[2]} ${res[3]} / ${local_start_and_tz}${start_dd_str}-${local_end_and_tz}${end_dd_str}`
+        `${local_start_and_tz}-${local_end_and_tz}`
       );
     }
   });

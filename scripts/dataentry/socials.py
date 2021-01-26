@@ -72,7 +72,7 @@ def generate_socials():
         website = ws["B4"].value
         name = id_to_name[uid]
 
-        print(uid)
+        # print(uid)
 
         images = {
             "A1": "static/images/socials/queer_in_ai.png",
@@ -164,7 +164,7 @@ def generate_socials():
                 "start_time": start,
                 "end_time": end,
             }
-            print(df.columns)
+            # print(df.columns)
             if "Zoom Link" in df.columns.values:
                 e["link"] = row["Zoom Link"]
 

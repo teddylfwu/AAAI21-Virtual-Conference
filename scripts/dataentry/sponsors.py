@@ -46,7 +46,8 @@ def main():
             assert sponsor["name"] in zoom_names[i], (sponsor["name"], zoom_names[i])
             sponsor["zoom_link"] = zooms[i]
         else:
-            print(sponsor_name, sponsor["zoom_link"])
+            # print(sponsor_name, sponsor["zoom_link"])
+            pass
 
     yaml.scalarstring.walk_tree(sponsors)
 
