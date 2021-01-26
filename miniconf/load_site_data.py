@@ -129,7 +129,7 @@ def load_site_data(
     generate_paper_events(site_data)     # en-yue, mingkai  Posters
     # TODO: generate_diversity_events(site_data) # liu-xiao  Diversity and Inclusion
 
-    # generate_social_events(site_data)
+    generate_social_events(site_data)
 
 
     site_data["calendar"] = build_schedule(site_data["overall_calendar"])
@@ -295,7 +295,6 @@ def load_site_data(
     ]
     site_data["diversity_programs_days"].sort()
     site_data["diversity_programs_days"][0][-1] = "active"
-
     # organization awards
     awards = build_awards(site_data['awards'])
     site_data['awards'] = awards
@@ -775,19 +774,23 @@ def generate_social_events(site_data: Dict[str, Any]):
             end = session["end_time"]
 
             uid = social["UID"]
-            if uid.startswith("B"):
-                name = "<b>Birds of a Feather</b><br>" + social["name"]
-            elif uid.startswith("A"):
-                name = "<b>Affinity group meeting</b><br>" + social["name"]
-            else:
-                name = social["name"]
-
+            # if uid.startswith("B"):
+            #     name = "<b>Birds of a Feather</b><br>" + social["name"]
+            # elif uid.startswith("A"):
+            #     name = "<b>Affinity group meeting</b><br>" + social["name"]
+            # else:
+            name = social["name"]
+            # day = session.day.replace(" ", "").lower()
+            # start_time = start.astimezone(pytz.utc)
+            day = f'{start.strftime("%b")} {start.day}'
+            day = day.replace(" ", "")
+            # print(day)
             event = {
                 "title": name,
                 "start": start,
                 "end": end,
                 "location": "",
-                "link": f"socials.html",
+                "link": "diversity_programs.html#tab-{}".format(day),
                 "category": "time",
                 "type": "Diversity and Inclusion",
                 "view": "day",
@@ -801,21 +804,21 @@ def generate_social_events(site_data: Dict[str, Any]):
     blocks = compute_schedule_blocks(all_sessions)
 
     # Compute start and end of tutorial blocks
-    for block in blocks:
-        min_start = min([t["start_time"] for t in block])
-        max_end = max([t["end_time"] for t in block])
+    # for block in blocks:
+    #     min_start = min([t["start_time"] for t in block])
+    #     max_end = max([t["end_time"] for t in block])
 
-        event = {
-            "title": f"Socials",
-            "start": min_start,
-            "end": max_end,
-            "location": "",
-            "link": f"socials.html",
-            "category": "time",
-            "type": "Socials",
-            "view": "week",
-        }
-        site_data["overall_calendar"].append(event)
+    #     event = {
+    #         "title": f"Diversity Programs",
+    #         "start": min_start,
+    #         "end": max_end,
+    #         "location": "",
+    #         "link": f"diversity_programs.html",
+    #         "category": "time",
+    #         "type": "Diversity and Inclusion",
+    #         "view": "week",
+    #     }
+    #     site_data["overall_calendar"].append(event)
 
 
 def build_schedule(overall_calendar: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
@@ -1437,10 +1440,12 @@ def build_socials(raw_socials: List[Dict[str, Any]]) -> DefaultDict[str, List[So
                 )
         days = set()
         for session in event.sessions:
-
-            day = session.day
+            # print(session.start_time.month, session.start_time.day)
+            # return
+            day = f'{session.start_time.strftime("%b")} {session.start_time.day}'
             days.add(day)
         days = list(days)
+        # print(days)
         # print('---------------')
         
         for d in days:
