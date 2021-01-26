@@ -541,7 +541,7 @@ def generate_tutorial_events(site_data: Dict[str, Any]):
                 max_end = max([t["end_time"] for t in block])
                 if uid == "UC":
                     event = {
-                        "title": f"<b>{uid}: {tutorial['title']}</b><br/><i>{tutorial['organizers']}</i>",
+                        "title": f"<b>AAAI-21 Tutorial Forum</b><br/><b>{uid}: {tutorial['title']}</b><br/><i>{tutorial['organizers']}</i>",
                         "start": min_start,
                         "end": max_end,
                         "location": f"undergraduate_consortium.html",
@@ -552,7 +552,7 @@ def generate_tutorial_events(site_data: Dict[str, Any]):
                     }
                 else:
                     event = {
-                        "title": f"<b>{uid}: {tutorial['title']}</b><br/><i>{tutorial['organizers']}</i>",
+                        "title": f"<b>AAAI-21 Tutorial Forum</b><br/><b>{uid}: {tutorial['title']}</b><br/><i>{tutorial['organizers']}</i>",
                         "start": min_start,
                         "end": max_end,
                         "location": f"paper_{uid}.html",
@@ -573,7 +573,7 @@ def generate_tutorial_events(site_data: Dict[str, Any]):
                 min_start = min([t["start_time"] for t in block])
                 max_end = max([t["end_time"] for t in block])
                 event = {
-                    "title": f"<b>{uid}: {tutorial['title']}</b><br/><i>{tutorial['organizers']}</i>",
+                    "title": f"<b>AAAI-21 Tutorial Forum</b><br/>{uid}: {tutorial['title']}</b><br/><i>{tutorial['organizers']}</i>",
                     "start": min_start,
                     "end": max_end,
                     "location": f"tutorial_{uid}.html",

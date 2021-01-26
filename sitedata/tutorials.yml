@@ -497,12 +497,12 @@
   - name: MH8
     start_time: 2021-02-03 16:30:00+00:00
     end_time: 2021-02-03 19:45:00+00:00
-    zoom_link: Missing
+    zoom_link: https://zoom.us/j/97402595202?pwd=VjU0R1BDWmx1dSt0NXVrT2NZOTVqUT09
     hosts: Krishnaram Kenthapadi, Ben Packer, Mehrnoosh Sameki and Nashlie Sephus
   - name: MH8
     start_time: 2021-02-03 16:30:00+00:00
     end_time: 2021-02-03 19:45:00+00:00
-    zoom_link: Missing
+    zoom_link: https://zoom.us/j/97402595202?pwd=VjU0R1BDWmx1dSt0NXVrT2NZOTVqUT09
     hosts: Krishnaram Kenthapadi, Ben Packer, Mehrnoosh Sameki and Nashlie Sephus
   authors:
   - name: Krishnaram Kenthapadi
@@ -666,12 +666,12 @@
   - name: AH1
     start_time: 2021-02-03 20:00:00+00:00
     end_time: 2021-02-03 23:00:00+00:00
-    zoom_link: Missing
+    zoom_link: https://zoom.us/j/8844753692?pwd=dkxQRVJyY3FGYWdpaW9iU2xLTkdUZz09
     hosts: Fei Wang
   - name: AH1
     start_time: 2021-02-03 20:00:00+00:00
     end_time: 2021-02-03 23:00:00+00:00
-    zoom_link: Missing
+    zoom_link: https://zoom.us/j/8844753692?pwd=dkxQRVJyY3FGYWdpaW9iU2xLTkdUZz09
     hosts: Fei Wang
   authors:
   - name: Fei Wang
@@ -711,12 +711,12 @@
   - name: AH2
     start_time: 2021-02-03 20:00:00+00:00
     end_time: 2021-02-03 23:00:00+00:00
-    zoom_link: https://zoom.us/j/97920850057?pwd=aktWYmlVMm12VGpYT1F2TUovdnJ0Zz09
+    zoom_link: https://zoom.us/j/94350131452?pwd=bVZVYmFuVTVjOU1JYmR1Z3ZJdDFudz09
     hosts: Muhao Chen, Hongming Zhang, Qiang Ning, Manling Li, Heng Ji and Dan Roth
   - name: AH2
     start_time: 2021-02-03 20:00:00+00:00
     end_time: 2021-02-03 23:00:00+00:00
-    zoom_link: https://zoom.us/j/97920850057?pwd=aktWYmlVMm12VGpYT1F2TUovdnJ0Zz09
+    zoom_link: https://zoom.us/j/94350131452?pwd=bVZVYmFuVTVjOU1JYmR1Z3ZJdDFudz09
     hosts: Muhao Chen, Hongming Zhang, Qiang Ning, Manling Li, Heng Ji and Dan Roth
   authors:
   - name: Muhao Chen
@@ -765,13 +765,13 @@
   - name: AH3
     start_time: 2021-02-03 20:00:00+00:00
     end_time: 2021-02-03 23:00:00+00:00
-    zoom_link: Missing
+    zoom_link: https://zoom.us/j/97920850057?pwd=aktWYmlVMm12VGpYT1F2TUovdnJ0Zz09
     hosts: Anupam Datta, Matt Fredrikson, Klas Leino, Kaiji Lu, Shayak Sen and Zifan
       Wang
   - name: AH3
     start_time: 2021-02-03 20:00:00+00:00
     end_time: 2021-02-03 23:00:00+00:00
-    zoom_link: Missing
+    zoom_link: https://zoom.us/j/97920850057?pwd=aktWYmlVMm12VGpYT1F2TUovdnJ0Zz09
     hosts: Anupam Datta, Matt Fredrikson, Klas Leino, Kaiji Lu, Shayak Sen and Zifan
       Wang
   authors:
