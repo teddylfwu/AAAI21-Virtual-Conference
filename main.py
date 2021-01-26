@@ -109,7 +109,8 @@ def ai_in_practice():
 @app.route("/diversity_programs.html")
 def diversity_programs():
     data = _data()
-    data["diversity_programs"] = site_data["socials"]
+    data["diversity_programs"] = site_data["diversity_programs"]
+    data["diversity_programs_days"] = site_data["diversity_programs_days"]
     return render_template("diversity_programs.html", **data)
 
 

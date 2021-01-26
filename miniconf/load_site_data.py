@@ -285,8 +285,16 @@ def load_site_data(
     site_data["ai_in_practice"] = ai_in_practice
 
     # socials.html/diversity_programs.html
-    social_events = build_socials(site_data["socials"])
-    site_data["socials"] = social_events
+    diversity_programs = build_socials(site_data["socials"])
+    site_data["diversity_programs"] = diversity_programs
+    by_uid["diversity_programs"] = {
+        dp.id: dp for _, dp_day in diversity_programs.items() for dp in dp_day
+    }
+    site_data["diversity_programs_days"] = [
+        [day.replace(" ", "").lower(), day, ""] for day in diversity_programs
+    ]
+    site_data["diversity_programs_days"].sort()
+    site_data["diversity_programs_days"][0][-1] = "active"
 
     # organization awards
     awards = build_awards(site_data['awards'])
@@ -1401,33 +1409,70 @@ def build_ai_in_practice(raw_ai_in_practice: List[Dict[str, Any]]) -> List[AiInP
         for item in raw_ai_in_practice
     ]
 
-def build_socials(raw_socials: List[Dict[str, Any]]) -> List[SocialEvent]:
-    return [
-        SocialEvent(
-            id=item["UID"],
-            name=item["name"],
-            description=item["description"],
-            image=item.get("image"),
-            location=item.get("location"),
-            organizers=SocialEventOrganizers(
-                members=item["organizers"]["members"],
-                website=item["organizers"].get("website", ""),
-            ),
-            sessions=[
-                SessionInfo(
-                    session_name=session.get("name"),
-                    start_time=session.get("start_time"),
-                    end_time=session.get("end_time"),
-                    link=session.get("link"),
+def build_socials(raw_socials: List[Dict[str, Any]]) -> DefaultDict[str, List[SocialEvent]]:
+    socials: DefaultDict[str, List[SocialEvent]] = defaultdict(list)
+    for item in raw_socials:
+        event = SocialEvent(
+                    id=item["UID"],
+                    name=item["name"],
+                    description=item["description"],
+                    image=item.get("image"),
+                    location=item.get("location"),
+                    organizers=SocialEventOrganizers(
+                        members=item["organizers"]["members"],
+                        website=item["organizers"].get("website", ""),
+                    ),
+                    sessions=[
+                        SessionInfo(
+                            session_name=session.get("name"),
+                            start_time=session.get("start_time"),
+                            end_time=session.get("end_time"),
+                            link=session.get("link"),
+                        )
+                        for session in item["sessions"]
+                    ],
+                    rocketchat_channel=item.get("rocketchat_channel", ""),
+                    website=item.get("website", ""),
+                    zoom_link=item.get("zoom_link"),
                 )
-                for session in item["sessions"]
-            ],
-            rocketchat_channel=item.get("rocketchat_channel", ""),
-            website=item.get("website", ""),
-            zoom_link=item.get("zoom_link"),
-        )
-        for item in raw_socials
-    ]
+        days = set()
+        for session in event.sessions:
+
+            day = session.day
+            days.add(day)
+        days = list(days)
+        # print('---------------')
+        
+        for d in days:
+            socials[d].append(event)
+        # print(len(socials['Feb 3']))
+    return socials
+    # return [
+    #     SocialEvent(
+    #         id=item["UID"],
+    #         name=item["name"],
+    #         description=item["description"],
+    #         image=item.get("image"),
+    #         location=item.get("location"),
+    #         organizers=SocialEventOrganizers(
+    #             members=item["organizers"]["members"],
+    #             website=item["organizers"].get("website", ""),
+    #         ),
+    #         sessions=[
+    #             SessionInfo(
+    #                 session_name=session.get("name"),
+    #                 start_time=session.get("start_time"),
+    #                 end_time=session.get("end_time"),
+    #                 link=session.get("link"),
+    #             )
+    #             for session in item["sessions"]
+    #         ],
+    #         rocketchat_channel=item.get("rocketchat_channel", ""),
+    #         website=item.get("website", ""),
+    #         zoom_link=item.get("zoom_link"),
+    #     )
+    #     for item in raw_socials
+    # ]
 
 
 def build_sponsors(site_data, by_uid, display_time_format) -> None:
