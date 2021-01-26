@@ -388,6 +388,7 @@ const render = () => {
 
     const urlFilter = getUrlParameter("filter") || 'titles';
     const urlSearch = getUrlParameter("search");
+    // console.log(urlSearch);
     if ((urlSearch !== '') || updateSession()) {
         filters[urlFilter] = urlSearch;
         $('.typeahead_all').val(urlSearch);
@@ -398,7 +399,7 @@ const render = () => {
     Object.keys(filters)
       .forEach(k => {filters[k] ? f_test.push([k, filters[k]]) : null})
 
-    //  console.log(f_test, filters, "--- f_test, filters");
+     // console.log(f_test, filters, "--- f_test, filters");
     if (f_test.length === 0 && showFavs != '1') {
         // $('#progressBar').hide();
         setTimeout(()=>{updateCards(allPapers)}, 50);
@@ -414,7 +415,13 @@ const render = () => {
                 let i = 0;
                 while (i < f_test.length && pass_test) {
                     if (f_test[i][0] === 'titles') {
-                        pass_test &= d.content['title'].toLowerCase()
+                        var d_content = "";
+                        if(d.content["title"].indexOf("+")!=-1){
+                            d_content = d.content['title'].replace("\+\+","  ");
+                        }else{
+                            d_content = d.content['title'];
+                        }
+                        pass_test &= d_content.toLowerCase()
                             .indexOf(f_test[i][1].toLowerCase()) > -1;
 
                     } else {

@@ -870,7 +870,7 @@ def generate_paper_events(site_data: Dict[str, Any]):
             if "D4" in room:
                 tab_id = "feb7"
             event = {
-                "title": f"<b>Room:{room}, Cluser:{cluster}</b><br><i>{cluster_name}<i>",
+                "title": f"<b>Poster Session</b><br><span>Room:{room}, Cluser:{cluster}</span><br><i>{cluster_name}<i>",
                 "start": start,
                 "end": end,
                 "location": "",
