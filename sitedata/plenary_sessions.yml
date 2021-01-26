@@ -8,7 +8,7 @@
     start_time: 2020-11-16 14:45:00+00:00
     end_time: 2020-11-16 15:00:00+00:00
   rocketchat_channel: plenary-opening-remarks
-- UID: keynote_by_regina_barzilay
+- UID: speaker_by_regina_barzilay
   title: 'A Tale of Two Translations'
   day: Feb 4
   image: static/images/keynotes/regina_barzilay.png
@@ -40,7 +40,7 @@
 "
   presenter: Regina Barzilay
   presentation_id: '38938634'
-- UID: keynote_by_daphne_koller
+- UID: speaker_by_daphne_koller
   title: "Keynote: Digital Learning Coming to Life"
   day: Feb 5
   image: static/images/keynotes/daphne_koller.jpg
@@ -60,7 +60,7 @@
       in 2014 and of the International Society of Computational Biology in 2017."
   presenter: Daphne Koller
   presentation_id: "38942829"
-- UID: keynote_by_michael_wooldridge
+- UID: speaker_by_michael_wooldridge
   title: '2021 AAAI/EAAI-21 Outstanding Educator Award Lecture: Talking to the Public about AI.'
   presentation_id: "38942827"
   day: Feb 6
@@ -99,7 +99,7 @@
     start_time: 2020-11-19 01:50:00+00:00
     end_time: 2020-11-19 02:20:00+00:00
   rocketchat_channel: plenary-best-paper-awards-and-closing
-- UID: keynote_by_luke_zettlemoyer
+- UID: speaker_by_luke_zettlemoyer
   title: 'Recent Advances in Language Model Pretraining'
   presentation_id: "38942827"
   day: Feb 4
@@ -114,8 +114,8 @@
   bio: "[Luke Zettlemoyer](https://www.cs.washington.edu/people/faculty/lsz) is a Professor in the Paul G. Allen School of Computer Science & Engineering at the University of Washington, and a Research Scientist at Facebook. His research focuses on empirical methods for natural language semantics, and involves designing machine learning algorithms, introducing new tasks and datasets, and, most recently, studying how to best develop self-supervision signals for pre-training. Honors include multiple paper awards, a PECASE award, and an Allen Distinguished Investigator Award. Luke received his PhD from MIT and was a postdoc at the University of Edinburgh.
 
 "
-  presenter: Michael Wooldridge
-- UID: keynote_by_tuomas_sandholm
+  presenter: Luke Zettlemoyer
+- UID: speaker_by_tuomas_sandholm
   title: 'IAAI-21 Robert S. Engelmore Memorial Award Lecture'
   presentation_id: "38942827"
   day: Feb 4
@@ -138,7 +138,7 @@
 
 "
   presenter: Tuomas Sandholm
-- UID: keynote_by_kaifu_lee
+- UID: speaker_by_kaifu_lee
   title: 'AI Infusion Investment Outlook'
   presentation_id: "38942827"
   day: Feb 4
@@ -153,7 +153,7 @@
 
   "
   presenter: Kai-Fu Lee
-- UID: keynote_AI_response_covid_19
+- UID: panel_AI_response_covid_19
   title: 'AI Responses to the Covid-19 Pandemic'
   presentation_id: "38942827"
   day: Feb 4
@@ -185,7 +185,7 @@
   presenter: "
   Panelists: Dinggang Shen, Ben Goldacre, Kizzmekia Corbett, Eili Klein
   "
-- UID: keynote_neuro_symbolic_AI_panel
+- UID: panel_neuro_symbolic_AI_panel
   title: 'Neuro-Symbolic AI Panel'
   presentation_id: "38942827"
   day: Feb 4
@@ -212,7 +212,7 @@ Panelists: Matthew Botvinick (DeepMind and University College London), Leslie Pa
   presenter: "
 Panelists: Matthew Botvinick, Leslie Pack Kaelbling, Marta Kwiatkowska
   "
-- UID: keynote_gov_1
+- UID: panel_gov_1
   title: 'Governments 1 Panel: Government AI Strategy Panel'
   presentation_id: "38942827"
   day: Feb 4
@@ -238,7 +238,7 @@ Dragos Tudorache is a Member of the European Parliament (Renew Europe) and the E
   presenter: "
 Panelists: Gabriela Ramos, Sana Khareghani, Drago Tudorache
   "
-- UID: keynote_gov_2
+- UID: panel_gov_2
   title: 'Governments 2 Panel: Government AI Strategy Panel'
   presentation_id: "38942827"
   day: Feb 4
@@ -265,7 +265,7 @@ Elissa Strome is the Executive Director of the CIFAR Pan-Canadian AI Strategy, w
   presenter: "
 Panelists: Sukyung Park, Lynne Parker, Elissa Strome
   "
-- UID: keynote_gov_3
+- UID: panel_gov_3
   title: 'Governments 3 Panel: Government AI Strategy Panel'
   presentation_id: "38942827"
   day: Feb 4

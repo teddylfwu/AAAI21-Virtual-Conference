@@ -142,6 +142,14 @@ def load_site_data(
         raw_plenary_sessions=site_data["plenary_sessions"],
         raw_plenary_videos={"opening_remarks": site_data["opening_remarks"]},
     )
+    invited_panels = build_invited_panels_sessions(
+        raw_plenary_sessions=site_data["plenary_sessions"],
+        raw_plenary_videos={"opening_remarks": site_data["opening_remarks"]},
+    )
+    invited_speakers = build_invited_speakers_sessions(
+        raw_plenary_sessions=site_data["plenary_sessions"],
+        raw_plenary_videos={"opening_remarks": site_data["opening_remarks"]},
+    )
 
     site_data["plenary_sessions"] = plenary_sessions
     by_uid["plenary_sessions"] = {
@@ -153,6 +161,22 @@ def load_site_data(
         [day.replace(" ", "").lower(), day, ""] for day in plenary_sessions
     ]
     site_data["plenary_session_days"][0][-1] = "active"
+
+
+    # invited panels
+
+    site_data["invited_panels"] = invited_panels
+    site_data["invited_panels_days"] = [
+        [day.replace(" ", "").lower(), day, ""] for day in invited_panels
+    ]
+    site_data["invited_panels_days"][0][-1] = "active"
+
+    # invited speaker
+    site_data["invited_speakers"] = invited_speakers
+    site_data["invited_speakers_days"] = [
+        [day.replace(" ", "").lower(), day, ""] for day in invited_speakers
+    ]
+    site_data["invited_speakers_days"][0][-1] = "active"
 
     # Papers' progam to their data
     for p in site_data["AI for Social Impact Track_papers"]:
@@ -462,6 +486,103 @@ def build_plenary_sessions(
                 videos=plenary_videos.get(item["UID"]),
             )
         )
+
+    return plenary_sessions
+
+
+def build_invited_panels_sessions(
+    raw_plenary_sessions: List[Dict[str, Any]],
+    raw_plenary_videos: Dict[str, List[Dict[str, Any]]],
+) -> DefaultDict[str, List[PlenarySession]]:
+
+    plenary_videos: DefaultDict[str, List[PlenaryVideo]] = defaultdict(list)
+    for plenary_id, videos in raw_plenary_videos.items():
+        for item in videos:
+            if 'panel' in item["UID"]:
+                plenary_videos[plenary_id].append(
+                    PlenaryVideo(
+                        id=item["UID"],
+                        title=item["title"],
+                        speakers=item["speakers"],
+                        presentation_id=item["presentation_id"],
+                    )
+                )
+
+    plenary_sessions: DefaultDict[str, List[PlenarySession]] = defaultdict(list)
+    for item in raw_plenary_sessions:
+        if 'panel' in item["UID"]:
+            plenary_sessions[item["day"]].append(
+            PlenarySession(
+                id=item["UID"],
+                title=item["title"],
+                image=item["image"],
+                day=item["day"],
+                sessions=[
+                    SessionInfo(
+                        session_name=session.get("name"),
+                        start_time=session.get("start_time"),
+                        end_time=session.get("end_time"),
+                        link=session.get("zoom_link"),
+                    )
+                    for session in item.get("sessions")
+                ],
+                presenter=item.get("presenter"),
+                institution=item.get("institution"),
+                abstract=item.get("abstract"),
+                bio=item.get("bio"),
+                presentation_id=item.get("presentation_id"),
+                rocketchat_channel=item.get("rocketchat_channel"),
+                videos=plenary_videos.get(item["UID"]),
+            )
+            )
+
+    return plenary_sessions
+
+def build_invited_speakers_sessions(
+    raw_plenary_sessions: List[Dict[str, Any]],
+    raw_plenary_videos: Dict[str, List[Dict[str, Any]]],
+) -> DefaultDict[str, List[PlenarySession]]:
+
+    plenary_videos: DefaultDict[str, List[PlenaryVideo]] = defaultdict(list)
+    for plenary_id, videos in raw_plenary_videos.items():
+        for item in videos:
+            if 'speaker' in item["UID"]:
+                plenary_videos[plenary_id].append(
+                    PlenaryVideo(
+                        id=item["UID"],
+                        title=item["title"],
+                        speakers=item["speakers"],
+                        presentation_id=item["presentation_id"],
+                    )
+                )
+
+    plenary_sessions: DefaultDict[str, List[PlenarySession]] = defaultdict(list)
+    for item in raw_plenary_sessions:
+        if 'speaker' in item["UID"]:
+            plenary_sessions[item["day"]].append(
+            PlenarySession(
+                id=item["UID"],
+                title=item["title"],
+                image=item["image"],
+                day=item["day"],
+                sessions=[
+                    SessionInfo(
+                        session_name=session.get("name"),
+                        start_time=session.get("start_time"),
+                        end_time=session.get("end_time"),
+                        link=session.get("zoom_link"),
+                    )
+                    for session in item.get("sessions")
+                ],
+                presenter=item.get("presenter"),
+                institution=item.get("institution"),
+                abstract=item.get("abstract"),
+                bio=item.get("bio"),
+                presentation_id=item.get("presentation_id"),
+                rocketchat_channel=item.get("rocketchat_channel"),
+                videos=plenary_videos.get(item["UID"]),
+            )
+            )
 
     return plenary_sessions
 
