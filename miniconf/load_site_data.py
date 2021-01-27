@@ -693,7 +693,7 @@ def generate_tutorial_events(site_data: Dict[str, Any]):
                 min_start = min([t["start_time"] for t in block])
                 max_end = max([t["end_time"] for t in block])
                 event = {
-                    "title": f"<b>AAAI-21 Tutorial Forum</b><br/>{uid}: {tutorial['title']}</b><br/><i>{tutorial['organizers']}</i>",
+                    "title": f"<b>Tutorial Forum</b><br/>{uid}: {tutorial['title']}</b><br/><i>{tutorial['organizers']}</i>",
                     "start": min_start,
                     "end": max_end,
                     "location": f"tutorial_{uid}.html",
@@ -758,7 +758,7 @@ def generate_dc_events(site_data: Dict[str, Any]):
             min_start = min([t["start_time"] for t in block])
             max_end = max([t["end_time"] for t in block])
             event = {
-                "title": f"<b>{uid}: {dc['title']}</b><br/><i>{dc['organizers']}</i>",
+                "title": f"<b>Doctoral Consortium</b>",
                 "start": min_start,
                 "end": max_end,
                 "location": f"doctoral_consortium.html",
@@ -774,25 +774,22 @@ def generate_dc_events(site_data: Dict[str, Any]):
 
     blocks = compute_schedule_blocks(all_sessions)
 
-    # Compute start and end of tutorial blocks
-    for block in blocks:
-        min_start = min([t["start_time"] for t in block])
-        max_end = max([t["end_time"] for t in block])
-
-        event = {
-            "title": "Doctoral Consortium",
-            "start": min_start,
-            "end": max_end,
-            "location": "doctoral_consortium.html",
-            "link": "doctoral_consortium.html",
-            "category": "time",
-            "type": "Doctoral Consortium",
-            "view": "week",
-        }
-        site_data["overall_calendar"].append(event)
-        # print("*******************************")
-        # for e in site_data["overall_calendar"]:
-        #     print(e)
+    # # Compute start and end of tutorial blocks
+    # for block in blocks:
+    #     min_start = min([t["start_time"] for t in block])
+    #     max_end = max([t["end_time"] for t in block])
+    #
+    #     event = {
+    #         "title": "Doctoral Consortium",
+    #         "start": min_start,
+    #         "end": max_end,
+    #         "location": "doctoral_consortium.html",
+    #         "link": "doctoral_consortium.html",
+    #         "category": "time",
+    #         "type": "Doctoral Consortium",
+    #         "view": "week",
+    #     }
+    #     site_data["overall_calendar"].append(event)
 
 
 def generate_workshop_events(site_data: Dict[str, Any]):
@@ -823,22 +820,22 @@ def generate_workshop_events(site_data: Dict[str, Any]):
 
     blocks = compute_schedule_blocks(all_sessions)
 
-    # Compute start and end of workshop blocks
-    for block in blocks:
-        min_start = min([t["start_time"] for t in block])
-        max_end = max([t["end_time"] for t in block])
-
-        event = {
-            "title": "Workshops",
-            "start": min_start,
-            "end": max_end,
-            "location": "workshops.html",
-            "link": "workshops.html",
-            "category": "time",
-            "type": "Workshops",
-            "view": "week",
-        }
-        site_data["overall_calendar"].append(event)
+    # # Compute start and end of workshop blocks
+    # for block in blocks:
+    #     min_start = min([t["start_time"] for t in block])
+    #     max_end = max([t["end_time"] for t in block])
+    #
+    #     event = {
+    #         "title": "Workshops",
+    #         "start": min_start,
+    #         "end": max_end,
+    #         "location": "workshops.html",
+    #         "link": "workshops.html",
+    #         "category": "time",
+    #         "type": "Workshops",
+    #         "view": "week",
+    #     }
+    #     site_data["overall_calendar"].append(event)
 
 
 def generate_paper_events(site_data: Dict[str, Any]):

@@ -55,35 +55,45 @@
   </div>
 </div>
 
-<div id="details" class="pp-card m-3 collapse hide">
+<div class="pp-card m-3">
   <div class="card-body">
+    <div id="details" class="pp-card m-3 collapse show">
     <div class="card-text">
       <div id="abstractExample">
         <span class="font-weight-bold">Abstract:</span>
-        {{tutorial.abstract|safe}} <br />
+        {{tutorial.abstract|safe}}
       </div>
     </div>
-    <p></p>
-  </div>
-</div>
-
-
-<!-- Author -->
-{% if tutorial.authors %}
-<div id="author" class="pp-card m-3 collapse hide">
-  <div class="card-body">
+    </div>
+    <div id="author" class="pp-card m-3 collapse hide">
     <div class="card-text">
       <div id="authorExample">
         {% for author in tutorial.authors %}
         <span class="font-weight-bold">{{author.author_name}}</span>
-        {{author.author_description|safe}} <br />
+        {{author.author_description|safe}}<br />
         {% endfor %}
       </div>
     </div>
-    <p></p>
+    </div>
   </div>
 </div>
-{% endif %}
+
+
+{#<!-- Author -->#}
+{#{% if tutorial.authors %}#}
+{#<div id="author" class="pp-card m-3 collapse hide">#}
+{#  <div class="card-body">#}
+{#    <div class="card-text">#}
+{#      <div id="authorExample">#}
+{#        {% for author in tutorial.authors %}#}
+{#        <span class="font-weight-bold">{{author.author_name}}</span>#}
+{#        {{author.author_description|safe}}<br />#}
+{#        {% endfor %}#}
+{#      </div>#}
+{#    </div>#}
+{#  </div>#}
+{#</div>#}
+{#{% endif %}#}
 
 <!-- Schedule -->
 {#{% if tutorial.sessions %}#}
@@ -117,8 +127,8 @@
 <div class="container" style="background-color:white; padding: 0px;">
   <div class="row m-2">
     <div class="col-md-12 col-xs-12 my-auto p-2" >
-      <b>Information about the virtual format of this tutorial: </b>
-      {{tutorial.virtual_format_description}}
+{#      <b>Information about the virtual format of this tutorial: </b>#}
+{#      {{tutorial.virtual_format_description}}#}
     </div>
   </div>
 

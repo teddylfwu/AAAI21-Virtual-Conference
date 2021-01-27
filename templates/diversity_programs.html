@@ -3,6 +3,7 @@
 {% set page_title = "Diversity Programs" %}
 
 {% block heading %}
+
 {{ components.section("Diversity Programs") }}
 <div class="row">
     <div class="col-md-12 col-sm-12 pr-5 lead">
@@ -38,7 +39,7 @@
 
     <div id="{{ tab_id }}">
       <div class="plenary_sessions">
-        {{ components.diversitygroup(diversity_programs[day]) }}
+        {{ components.diversitygroup(diversity_programs[day], tab_id) }}
       </div>
     </div>
   </div>

@@ -126,10 +126,10 @@ def ai_job_fail():
     return render_template("ai_job_fair.html", **data)
 
 
-@app.route("/reception.html")
-def reception():
-    data = _data()
-    return render_template("reception.html", **data)
+#@app.route("/reception.html")
+#def reception():
+#    data = _data()
+#    return render_template("reception.html", **data)
 
 
 @app.route("/faq.html")
@@ -427,6 +427,14 @@ def generator():
             yield "plenary_session", {"uid": plenary_session.id}
     tutorial: Tutorial
     for tutorial in site_data["tutorials"]:
+        yield "tutorial", {"uid": tutorial.id}
+    for tutorial in site_data["tutorials_MQ"]:
+        yield "tutorial", {"uid": tutorial.id}
+    for tutorial in site_data["tutorials_MH"]:
+        yield "tutorial", {"uid": tutorial.id}
+    for tutorial in site_data["tutorials_AQ"]:
+        yield "tutorial", {"uid": tutorial.id}
+    for tutorial in site_data["tutorials_AH"]:
         yield "tutorial", {"uid": tutorial.id}
     workshop: Workshop
     # for workshop in site_data["workshops"]:
