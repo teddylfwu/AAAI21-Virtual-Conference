@@ -1,6 +1,6 @@
-- UID: Schedule
-  title: 'xxx'
-  organizers: Arjun Subramonian
+- UID: DoctoralConsortium
+  title:  Doctoral Consortium
+  organizers:
   info: |-
     to be continued
   rocketchat_channel: Events_DoctoralConsortium
