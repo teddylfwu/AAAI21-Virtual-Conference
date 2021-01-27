@@ -7,7 +7,21 @@
 
 
 {% block heading %}
-{{ components.section("Invited Panels Program") }}
+{{ components.section("AAAI-21 Invited Panels Program") }}
+    <div class="pp-card m-3" style="">
+    <div class="card-header">
+        <p>Welcome to the AAAI-21 Invited Panels Program!</p>
+        <p>AAAI-21 is pleased to present the following series of invited panels:<br>
+
+AI Responses to the Covid-19 Pandemic<br>
+Neuro-Symbolic AI Panel<br>
+Governments 1 Panel: Government AI Strategy Panel<br>
+Governments 2 Panel: Government AI Strategy Panel<br>
+Governments 3 Panel: Government AI Strategy Panel<br>
+
+(For information about the IAAI-21 AI in Practice Panels, please see <a href="ai_in_practice.html">URL</a>.)
+    </div>
+    </div>
 <!-- Uncomment this block after all livestream events are over.
 <div class="text-muted text-center">
   You can now watch recorded livestream <a href="livestream.html" >here</a>.
@@ -40,7 +54,7 @@
 
     <div id="{{ tab_id }}">
       <div class="plenary_sessions">
-        {{ components.plenarysessiongroup(invited_panels[day]) }}
+        {{ components.panelsessiongroup(invited_panels[day]) }}
       </div>
     </div>
   </div>
