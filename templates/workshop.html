@@ -34,14 +34,16 @@
       </a>
       {% endif %}
 
-    </div>
-
-    <div class="text-center pt-n2 pb-3">
       {% if workshop.zoom_links| length == 1  %}
         <a href="{{ workshop.zoom_links[0] }}" target="_blank"  class="card-link">
         Zoom Link
         </a>
-      {% elif workshop.zoom_links|length > 1 %}
+      {% endif %}
+
+    </div>
+
+    <div class="text-center pt-n2 pb-3">
+      {% if workshop.zoom_links|length > 1 %}
           {% if workshop.title ==  'W13: 5th International Workshop on Health Intelligence (W3PHIAI-21)' %}
               <a href="{{ workshop.zoom_links[0] }}" target="_blank"  class="card-link">
                 Zoom Link (February 8)
