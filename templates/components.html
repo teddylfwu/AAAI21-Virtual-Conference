@@ -487,7 +487,7 @@
 
 {%- endmacro %}
 
-{% macro diversitygroup(diversity_programs) -%}
+{% macro diversitygroup(diversity_programs, tab) -%}
 <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
   <div id="day">
   <div class="speakers">
@@ -544,7 +544,7 @@
               <div class="text-center text-muted text-monospace">
                 <div class="paper-cal-links">
                   <img src="static/images/calendar.svg" class="paper-detail-calendar" height="24px">
-                  <span id="session-cal-link-{{ social.id }}-{{loop.index}}"></span>
+                  <span id="session-cal-link-{{ social.id }}-{{ loop.index }}-{{tab}}-{{ session.start_time.day }}"></span>
                 </div>
               </div>
   
@@ -579,55 +579,55 @@
   </div>
   <script src="static/js/add-to-calendar.js"></script>
   <script>
-  
-    let ouicalData;
-    let targetNode;
-    let calendarNodeInner;
-    let calendarNodeSpan;
-    let parser = new DOMParser();
-    let calendarNames = Array("google", "off365", "outlook", "ical");
-  
+
+    var ouicalData;
+    var targetNode;
+    var calendarNodeInner;
+    var calendarNodeSpan;
+    var parser = new DOMParser();
+    var calendarNames = Array("google", "off365", "outlook", "ical");
+    
     {% for social in diversity_programs %}
-      {% for session in social.sessions %}
-        // create a calendar by hand
-        ouicalData = addToCalendarData({
-          options: {
-            class: 'my-class',
-            id: 'my-id'                               // If you don't pass an id, one will be generated for you.
-          },
-          data: {
-            title: '{{ social.name }}'.replace("#", " "),
+    {% for session in social.sessions%}
+      // create a calendar by hand
+      ouicalData = addToCalendarData({
+        options: {
+          class: 'my-class',
+          id: 'my-id'                               // If you don't pass an id, one will be generated for you.
+        },
+        data: {
+          title: '{{ session.name }}'.replace("#", " "),
   
-            // Event start date
-            start: new Date("{{session.start_time_string}}"),
-            end: new Date("{{session.end_time_string}}"),
-            // duration: 120,                           // Event duration (IN MINUTES)
-            // allday: true,														// Override end time, duration and timezone, triggers 'all day'
+          // Event start date
+          start: new Date("{{session.start_time_string}}"),
+          end: new Date("{{session.end_time_string}}"),
+          // duration: 120,                           // Event duration (IN MINUTES)
+          // allday: true,														// Override end time, duration and timezone, triggers 'all day'
   
-            // Event timezone. Will convert the given time to that zone
-            timezone: 'UTC',
-            // Event Address
-            {% if session.link %}
-              address: '{{session.link}}',
-            {% endif %}
+          // Event timezone. Will convert the given time to that zone
+          timezone: 'UTC',
+          // Event Address
+          {% if session.link %}
+            address: '{{session.link}}',
+          {% endif %}
   
-            // Event Description
-            // NOTE: Cannot use abstract because of it is multi-line. Need to format it.
-            description: '{{ social.description }}'
-          }
-        });
-  
-        targetNode = document.querySelector('#session-cal-link-{{ social.id }}-{{ loop.index }}');
-        for (const name of calendarNames) {
-          calendarNodeInner = parser.parseFromString(ouicalData[name], "text/html");
-          calendarNodeSpan = document.createElement("span");
-          calendarNodeSpan.setAttribute("style", "padding: 2px");
-          calendarNodeSpan.appendChild(document.createTextNode("["));
-          calendarNodeSpan.appendChild(calendarNodeInner.getElementsByTagName("a")[0]);
-          calendarNodeSpan.appendChild(document.createTextNode("]"));
-          targetNode.appendChild(calendarNodeSpan);
+          // Event Description
+          // NOTE: Cannot use abstract because of it is multi-line. Need to format it.
+          description: "{{social.description}}"
         }
-      {% endfor %}
+      });
+  
+      targetNode = document.querySelector("#session-cal-link-{{ social.id }}-{{ loop.index }}-{{ tab }}-{{ session.start_time.day }}");
+      for (const name of calendarNames) {
+        calendarNodeInner = parser.parseFromString(ouicalData[name], "text/html");
+        calendarNodeSpan = document.createElement("span");
+        calendarNodeSpan.setAttribute("style", "padding: 2px");
+        calendarNodeSpan.appendChild(document.createTextNode("["));
+        calendarNodeSpan.appendChild(calendarNodeInner.getElementsByTagName("a")[0]);
+        calendarNodeSpan.appendChild(document.createTextNode("]"));
+        targetNode.appendChild(calendarNodeSpan);
+      }
+    {% endfor %}
     {% endfor %}
   </script>
 {%- endmacro %}
