@@ -126,10 +126,10 @@ def ai_job_fail():
     return render_template("ai_job_fair.html", **data)
 
 
-@app.route("/reception.html")
-def reception():
-    data = _data()
-    return render_template("reception.html", **data)
+#@app.route("/reception.html")
+#def reception():
+#    data = _data()
+#    return render_template("reception.html", **data)
 
 
 @app.route("/faq.html")
