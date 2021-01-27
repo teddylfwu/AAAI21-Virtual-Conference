@@ -7,7 +7,33 @@
 
 
 {% block heading %}
-{{ components.section("Invited Speakers Program") }}
+{{ components.section("AAAI-21 / IAAI-21 / EAAI-21 Invited Speaker Program") }}
+<div class="pp-card m-3" style="">
+    <div class="card-header">
+        <p>Welcome to the AAAI-21 Invited Speaker Program!</p>
+        <p>AAAI-21 is pleased to present the following series of distinguished speakers:<br>
+Regina Barzilay<br>
+Daphne Koller<br>
+Kai-Fu Lee<br>
+Tuomas Sandlholm (talk title and blurb ending)<br>
+Latanya Sweeney (this information is pending)<br>
+Luke Zettlemoyer<br>
+Michael Wooldridge (EAAI-21)
+<br />
+    </div>
+</div>
+{#    Welcome to the AAAI-21 Invited Speaker Program!#}
+{##}
+{#<br>#}
+{#AAAI-21 is pleased to present the following series of distinguished speakers:#}
+
+{#Regina Barzilay#}
+{#Daphne Koller#}
+{#Kai-Fu Lee#}
+{#Tuomas Sandlholm (talk title and blurb ending)#}
+{#Latanya Sweeney (this information is pending)#}
+{#Luke Zettlemoyer#}
+{#Michael Wooldridge (EAAI-21)#}
 <!-- Uncomment this block after all livestream events are over.
 <div class="text-muted text-center">
   You can now watch recorded livestream <a href="livestream.html" >here</a>.
@@ -40,7 +66,7 @@
 
     <div id="{{ tab_id }}">
       <div class="plenary_sessions">
-        {{ components.plenarysessiongroup(invited_speakers[day]) }}
+        {{ components.speakersessiongroup(invited_speakers[day]) }}
       </div>
     </div>
   </div>
