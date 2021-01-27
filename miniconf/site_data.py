@@ -38,7 +38,7 @@ class SessionInfo:
 
     @property
     def session(self) -> str:
-        start_time = self.start_time.astimezone(pytz.utc)
+        start_time = self.start_time.astimezone(pytz.timezone("America/Los_Angeles"))
 
         start_date = f'{start_time.strftime("%b")} {start_time.day}'
         if self.session_name.startswith("D"):

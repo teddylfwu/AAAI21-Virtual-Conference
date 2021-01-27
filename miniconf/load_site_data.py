@@ -808,7 +808,7 @@ def generate_workshop_events(site_data: Dict[str, Any]):
             max_end = max([t["end_time"] for t in block])
 
             event = {
-                "title": f"<b>{workshop['title']}</b><br/> <i>{workshop['organizers']}</i>",
+                "title": f"<b>Workshop</b><br/> <b>{workshop['title']}</b><br/> <i>{workshop['organizers']}</i>",
                 "start": min_start,
                 "end": max_end,
                 "location": f"workshop_{uid}.html",
