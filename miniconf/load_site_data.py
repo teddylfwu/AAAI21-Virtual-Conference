@@ -758,7 +758,7 @@ def generate_dc_events(site_data: Dict[str, Any]):
             min_start = min([t["start_time"] for t in block])
             max_end = max([t["end_time"] for t in block])
             event = {
-                "title": f"<b>Doctoral Consortium</b><br/><b>{uid}: {dc['title']}</b><br/><i>{dc['organizers']}</i>",
+                "title": f"<b>Doctoral Consortium</b>",
                 "start": min_start,
                 "end": max_end,
                 "location": f"doctoral_consortium.html",
