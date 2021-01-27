@@ -139,67 +139,81 @@
 
 {% block content %}
 
-{% for dc in doctoral_consortium %}
-{% if dc.id == "Schedule" %}
-<div class="container" style="background-color:white; padding: 0px;">
-  <div class="text-muted text-center">
-  You can open the
-  {% if dc.livestream %}
-  <a href="https://slideslive.com/{{dc.livestream}}" target="_blank">livestream video</a>
-  and
-  {% endif %}
-  the
-  <a href="https://{{config.chat_server}}/channel/{{dc.rocketchat_channel}}" target="_blank">
-    #{{ dc.rocketchat_channel }}
-  </a>
-  channel
-  {% if dc.livestream %}
-  in separate windows.
-  {% else %}
-  in a separate window.
-  {% endif %}
+{#{% for dc in doctoral_consortium %}#}
+{#{% if dc.id == "Schedule" %}#}
+{#<div class="container" style="background-color:white; padding: 0px;">#}
+{#  <div class="text-muted text-center">#}
+{#  You can open the#}
+{#  {% if dc.livestream %}#}
+{#  <a href="https://slideslive.com/{{dc.livestream}}" target="_blank">livestream video</a>#}
+{#  and#}
+{#  {% endif %}#}
+{#  the#}
+{#  <a href="https://{{config.chat_server}}/channel/{{dc.rocketchat_channel}}" target="_blank">#}
+{#    #{{ dc.rocketchat_channel }}#}
+{#  </a>#}
+{#  channel#}
+{#  {% if dc.livestream %}#}
+{#  in separate windows.#}
+{#  {% else %}#}
+{#  in a separate window.#}
+{#  {% endif %}#}
+{##}
+{#  </div>#}
+{##}
+{#  <div class="row m-2">#}
+{#  {% if dc.livestream %}#}
+{#<!-- Livestreaming -->#}
+{#    <div class="col-md-7 col-xs-12 my-auto p-2" >#}
+{#      <div id="presentation-embed" class="slp my-auto"></div>#}
+{#      <script src='https://slideslive.com/embed_presentation.js'></script>#}
+{#      <script>#}
+{#        embed = new SlidesLiveEmbed('presentation-embed', {#}
+{#        presentationId: '{{dc.livestream}}',#}
+{#        autoPlay: false, // change to true to autoplay the embedded presentation#}
+{#        verticalEnabled: true,#}
+{#        verticalWhenWidthLte: 500,#}
+{#        allowHiddenControlsWhenPaused: true,#}
+{#        hideTitle: true#}
+{#        });#}
+{#      </script>#}
+{#    </div>#}
+{##}
+{#    <!-- Chat -->#}
+{#    <br/>#}
+{#    <div class="col-md-5 col-xs-12 p-2">#}
+{#      <div id="gitter" class="slp">#}
+{#        <iframe frameborder="0" src="https://{{config.chat_server}}/channel/{{dc.rocketchat_channel}}?layout=embedded" height="700px" width="100%" ></iframe>#}
+{#      </div>#}
+{#    </div>#}
+{#  {% else %}#}
+{#  <div class="container" style="background-color:white; padding: 0px;">#}
+{##}
+{##}
+{#    <!-- Chat -->#}
+{#      <div id="gitter" class="slp">#}
+{#        <iframe frameborder="0" src="https://{{config.chat_server}}/channel/{{dc.rocketchat_channel}}?layout=embedded" height="700px" width="100%" ></iframe>#}
+{#      </div>#}
+{#  </div>#}
+{#  {% endif %}#}
+{#</div>#}
+{#{% endif %}#}
+{#{% endfor %}#}
 
+<div class="row m-2">
+  <div class="col-md-7 col-xs-12 my-auto p-2">
+      <div class="text-muted text-center">
+        You can open <a href="https://{{config.chat_server}}/channel/Events_DoctoralConsortium" target="_blank">Doctoral Consortium</a>
+        channel in a separate window.
+      </div>
   </div>
 
-  <div class="row m-2">
-  {% if dc.livestream %}
-<!-- Livestreaming -->
-    <div class="col-md-7 col-xs-12 my-auto p-2" >
-      <div id="presentation-embed" class="slp my-auto"></div>
-      <script src='https://slideslive.com/embed_presentation.js'></script>
-      <script>
-        embed = new SlidesLiveEmbed('presentation-embed', {
-        presentationId: '{{dc.livestream}}',
-        autoPlay: false, // change to true to autoplay the embedded presentation
-        verticalEnabled: true,
-        verticalWhenWidthLte: 500,
-        allowHiddenControlsWhenPaused: true,
-        hideTitle: true
-        });
-      </script>
-    </div>
-
-    <!-- Chat -->
-    <br/>
-    <div class="col-md-5 col-xs-12 p-2">
+  <div class="col-md-5 col-xs-12 p-2">
       <div id="gitter" class="slp">
-        <iframe frameborder="0" src="https://{{config.chat_server}}/channel/{{dc.rocketchat_channel}}?layout=embedded" height="700px" width="100%" ></iframe>
-      </div>
-    </div>
-  {% else %}
-  <div class="container" style="background-color:white; padding: 0px;">
-
-
-    <!-- Chat -->
-      <div id="gitter" class="slp">
-        <iframe frameborder="0" src="https://{{config.chat_server}}/channel/{{dc.rocketchat_channel}}?layout=embedded" height="700px" width="100%" ></iframe>
+        <iframe frameborder="0" src="https://aaai-21.rocket.chat/channel/Events_DoctoralConsortium?layout=embedded" height="700px" width="100%" ></iframe>
       </div>
   </div>
-  {% endif %}
 </div>
-{% endif %}
-{% endfor %}
-
 
 {#<div class="tutorials">#}
 {#    {{ components.uc_abstracts_group(tutorials_DC) }}#}
