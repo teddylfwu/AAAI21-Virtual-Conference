@@ -303,6 +303,7 @@ Panelists: Matthew Botvinick, Leslie Pack Kaelbling, Marta Kwiatkowska, Luis Lam
 
 - UID: ForecastingInUnprecedentedTimes
   title: 'AI in Practice Panel: Forecasting in Unprecedented Times'
+  presentation_id: ""
   day: Feb 4
   image: [static/images/aiinpractice/PANEL 1 - Chi Zhang.jpeg,PANEL 1 - Jagannath Putrevu.JPG,static/images/aiinpractice/PANEL 1 - Polly Mitchell-Guthrie.jpg,static/images/aiinpractice/PANEL 1 - Ruben Lobel copy.jpg]
   sessions:
