@@ -518,7 +518,7 @@
         {% endif %}
   
         <div class="mx-4 text-left card-subtitle">
-          <p>{{social.description|safe}}</p>
+          <p>{{social.description.replace('\n', '<br/>')|safe}}</p>
   
           <p class="text-center">This event {{ social.location }}.</p>
   
@@ -613,10 +613,10 @@
   
           // Event Description
           // NOTE: Cannot use abstract because of it is multi-line. Need to format it.
-          description: "{{social.description}}"
+          description: String("{{ social.description.replace('\n', '\\n') }}")
         }
       });
-  
+      
       targetNode = document.querySelector("#session-cal-link-{{ social.id }}-{{ loop.index }}-{{ tab }}-{{ session.start_time.day }}");
       for (const name of calendarNames) {
         calendarNodeInner = parser.parseFromString(ouicalData[name], "text/html");
