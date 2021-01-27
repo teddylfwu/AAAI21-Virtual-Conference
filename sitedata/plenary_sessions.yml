@@ -301,11 +301,11 @@ Panelists: Matthew Botvinick, Leslie Pack Kaelbling, Marta Kwiatkowska, Luis Lam
     end_time: 2020-11-19 02:20:00+00:00
   rocketchat_channel: plenary-best-paper-awards-and-closing
 
-- UID: ForecastingInUnprecedentedTimes
+- UID: panel_ForecastingInUnprecedentedTimes
   title: 'AI in Practice Panel: Forecasting in Unprecedented Times'
   presentation_id: ""
   day: Feb 4
-  image: [static/images/aiinpractice/PANEL 1 - Chi Zhang.jpeg,PANEL 1 - Jagannath Putrevu.JPG,static/images/aiinpractice/PANEL 1 - Polly Mitchell-Guthrie.jpg,static/images/aiinpractice/PANEL 1 - Ruben Lobel copy.jpg]
+  image: [static/images/aiinpractice/PANEL 1 - Chi Zhang.jpeg,static/images/aiinpractice/PANEL 1 - Jagannath Putrevu.JPG,static/images/aiinpractice/PANEL 1 - Polly Mitchell-Guthrie.jpg,static/images/aiinpractice/PANEL 1 - Ruben Lobel copy.jpg]
   sessions:
   - name:
     start_time: 2021-02-04 23:00:00-08:00
@@ -332,7 +332,7 @@ Moderator: Thiago Serra, Assistant Professor, Bucknell University
 Panelists: Ruben Lobel, Data Science Lead, Airbnb; Polly Mitchell-Guthrie, VP, Kinaxis; Jagannath Putrevu, Engineering Lead, Instacart; Chi Zhang, Senior Data Scientist, Doordash
   "
 
-- UID: EmergingUsesOfAIInReal-TimeAutomation
+- UID: panel_EmergingUsesOfAIInReal-TimeAutomation
   title: 'AI in Practice Panel: Emerging Uses of AI in Real-Time Automation'
   presentation_id: ""
   day: Feb 5
@@ -363,11 +363,11 @@ Moderator: Ryan J. O'Neil, CTO, nextmv
 Panelists: Apeksha Kumavat, Chief Engineer, Gatik; Ethan McCreadie, Engineering Lead, goPuff; Brandon Minor, CEO, Tangram Vision; Carolyn Mooney, CEO, nextmv; Sebastian Quintero, Project Lead, Mercado Libre
   "
 
-- UID: AIApplicationsInFinance
+- UID: panel_AIApplicationsInFinance
   title: 'AI in Practice Panel: AI Applications in Finance: Risks and Challenges in Deploying Real-World Businesses Solutions'
   presentation_id: ""
   day: Feb 6
-  image: [static/images/aiinpractice/PANEL 3 - Adriano Koshiyama.jpg,static/images/aiinpractice/PANEL 3 - Adriano Koshiyama.jpg]
+  image: [static/images/aiinpractice/PANEL 3 - Adriano Koshiyama.jpg,static/images/aiinpractice/PANEL 3 - Alexander Denev.jpg]
   sessions:
   - name:
     start_time: 2021-02-06 11:00:00-08:00
