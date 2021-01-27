@@ -69,13 +69,64 @@
         {% for dc in doctoral_consortium %}
         {% if dc.id == "Schedule" %}
         {% for event in dc.sessions %}
-        <tr>
-            <td>
-              {{event.day}}, <span class="session_times">{{event.time_string}}</span>
-            </td>
-          <td scope="row">{{event.session_name}}</td>
-          <td style="white-space: pre-wrap;">{{event.hosts}}</td>
-        </tr>
+        {% if event.session_name == "Session 1" and event.day == "Feb 2" %}
+            <tr>
+                <td>
+                  {{event.day}}, <span class="session_times">{{event.time_string}}</span>
+                </td>
+                <td scope="row"><b>Session 1</b><br />1. Effective Clustering of scRNA-seq Data to Identify Biomarkers without User Input<br />2. Safety Assurance for Systems with Machine Learning Components<br />3. Constraint-Driven Learning of Logic Programs</td>
+              <td style="white-space: pre-wrap;">1. Speaker: Hussain Chowdhury, Mentor: Jay Thiagrajan, Buddy: Rolf Morel <br />2. Speaker: Chelsea Sidrane, Mentor: Matthijs T. J. Spaan, Buddy: Puspita Mazumdar<br />3. Speaker: Rolf Morel, Mentor: Luc De Raedt, Buddy: Hussain Chowdhry
+              </td>
+            </tr>
+        {% elif event.session_name == "Session 2" and event.day == "Feb 2" %}
+            <tr>
+                <td>
+                  {{event.day}}, <span class="session_times">{{event.time_string}}</span>
+                </td>
+                <td scope="row"><b>Session 2</b><br />1. Artificial Intelligence and Machine Learning forautonomous agents that learn to plan and operatein unpredictable dynamic environments<br />2. Screening for Depressed Individuals by Using Multimodal Social Media Data</td>
+                <td style="white-space: pre-wrap;">1. Speaker: Leonardo Lamana, Mentor: Felipe Meneguzzi, Buddy: Sagir Muhammad Yusuf <br />2. Speaker: Paulo Mann, Mentor: Maria Chang, Buddy: Preeti Ramaraj</td>
+            </tr>
+        {% elif event.session_name == "Session 3" and event.day == "Feb 3" %}
+            <tr>
+                <td>
+                  {{event.day}}, <span class="session_times">{{event.time_string}}</span>
+                </td>
+                <td scope="row"><b>Session 3</b><br />1. AI for Social Good: Between My Research and the Real World<br />2. How Human Centered AI Will Contribute Towards Intelligent Gaming Systems<br />3. Perception Beyond Sensors Under Uncertainty</td>
+                <td style="white-space: pre-wrap;">1. Speaker: Zheyuan Ryan Shi, Mentor: Shiwali Mohan, Buddy: Dario Guidotti <br />2. Speaker: Yilei Zeng, Mentor: Mark O. Riedl, Buddy: Mehrnoosh Mirtaheri<br />3. Speaker: Masha Itkina, Mentor: Sven Koenig, Buddy: Ivan Stelmakh</td>
+            </tr>
+        {% elif event.session_name == "Session 1" and event.day == "Feb 3" %}
+            <tr>
+                <td>
+                  {{event.day}}, <span class="session_times">{{event.time_string}}</span>
+                </td>
+                <td scope="row"><b>Session 1</b><br />1. Effect of Alterations on Face Recognition Algorithms<br />2. Multi-agent Reinforcement Learning for Decentralized Coalition Formation Games<br />3. Multi-agent Reinforcement Learning for Decentralized Coalition Formation Games<br />4. Engagement Assessment for Robot-Assisted Therapy Adaptation for Children with ASD</td>
+                <td style="white-space: pre-wrap;">1. Speaker: Puspita Mazumdar, Mentor: Bhavya Kailkhura, Buddy: Chelsea Sidrane <br />2. Speaker: Kshitija Taywade, Mentor: Balaraman Ravindran, Buddy: Nazerke Rakhymbayeva<br />3. Speaker: Sagir Muhammad Yusuf, Mentor: Biplav Srivastava, Buddy: Leonardo Lamanna<br />4. Speaker: Nazerke Rakhymbayeva, Mentor: Maria Gini, Buddy: Kshitija Taywade</td>
+            </tr>
+        {% elif event.session_name == "Session 2" and event.day == "Feb 3" %}
+            <tr>
+                <td>
+                  {{event.day}}, <span class="session_times">{{event.time_string}}</span>
+                </td>
+                <td scope="row"><b>Session 2</b><br />1. Towards Fair, Equitable, and Efficient Peer Review<br />2. Verification and Repair of Neural Networks<br />3. Relational Learning to Capture the Dynamics and Sparsity of Knowledge Graphs</td>
+                <td style="white-space: pre-wrap;">1. Speaker: Ivan Stelmakh, Mentor: Ece Kamar, Buddy: Masha Itkina <br />2. Speaker: Dario Guidotti, Mentor: Eric Eaton, Buddy: Zheyuan Ryan Shi<br />3. Speaker: Mehrnoosh Mirtaheri, Mentor: Pin-Yu Chen, Buddy: Yilei Zeng</td>
+            </tr>
+        {% elif event.session_name == "Session 3" and event.day == "Feb 4" %}
+            <tr>
+                <td>
+                  {{event.day}}, <span class="session_times">{{event.time_string}}</span>
+                </td>
+                <td scope="row"><b>Session 3</b><br />1. Robots that Help Humans Build Better Mental Models of Robots<br />2. A Computational Approach to Sign Language Understanding<br />3. Creating Interpretable Data-Driven Approaches for Remote Health Monitoring</td>
+                <td style="white-space: pre-wrap;">1. Speaker: Preeti Ramaraj, Mentor: Laura Hiatt, Buddy: Paulo Mann <br />2. Speaker: Tejaswini Ananthanarayana, Mentor: Shirin Sohrabi, Buddy: Alireza Ghods<br />3. Speaker: Alireza Ghods, Mentor: Rushil Anirudh, Buddy: Tejaswini Ananthanarayana</td>
+            </tr>
+        {% else %}
+            <tr>
+                <td>
+                  {{event.day}}, <span class="session_times">{{event.time_string}}</span>
+                </td>
+              <td scope="row">{{event.session_name}}</td>
+              <td style="white-space: pre-wrap;">{{event.hosts}}</td>
+            </tr>
+        {% endif %}
         {% endfor %}
         {% endif %}
         {% endfor %}
