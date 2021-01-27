@@ -244,7 +244,7 @@
               <div class="text-center text-muted text-monospace">
                 <div class="paper-cal-links">
                   <img src="static/images/calendar.svg" class="paper-detail-calendar" height="24px">
-                  <span id="session-cal-link-{{ workshop.id }}-{{loop.index}}"></span>
+                  <span id="session-cal-link-{{ workshop.id }}-{{loop.index}}-{{workshop.day.replace(" ", "").lower()}}"></span>
                 </div>
               </div>
           {% endfor %}
@@ -293,7 +293,7 @@
       }
     });
 
-    targetNode = document.querySelector('#session-cal-link-{{ workshop.id }}-{{ loop.index }}');
+    targetNode = document.querySelector('#session-cal-link-{{ workshop.id }}-{{ loop.index }}-{{workshop.day.replace(" ", "").lower()}}');
     for (const name of calendarNames) {
       calendarNodeInner = parser.parseFromString(ouicalData[name], "text/html");
       calendarNodeSpan = document.createElement("span");

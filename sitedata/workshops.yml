@@ -203,6 +203,30 @@
     speakers: James Pustejovsky, Brandeis University
     presentation_id: '38940086'
 
+- UID: WS-10
+  title: "W10: 9th Dialog System Technology Challenge (DSTC-9)"
+  organizers: "Abhinav Rastogi, Yun-Nung (Vivian) Chen, Chulaka Gunasekara, Seokhwan Kim and Luis Fernando D'Haro"
+  abstract: "DSTC, the Dialog System Technology Challenge, has been a premier research competition for dialog systems since its inception in 2013. Given the remarkable success of the first eight challenges, we are organizing the ninth edition of DSTC this year and we will have a wrap-up workshop at AAAI-21."
+  website: https://sites.google.com/dstc.community/dstc9/
+  rocketchat_channel: W10DialogSystemTechnologyChallenge
+  alias: W10DialogSystemTechnologyChallenge
+  day: Feb 9
+  sessions:
+  - start_time: 2021-2-8 13:00:00-08:00
+    end_time: 2021-2-8 21:00:00-08:00
+    name: None
+    hosts: None
+  - start_time: 2021-2-9 13:00:00-08:00
+    end_time: 2021-2-9 21:00:00-08:00
+    name: None
+    hosts: None
+  zoom_links:
+  - https://zoom.us/j/97618625752?pwd=b1NoaFhyUDJ4RlBTTVY3T3B1TjBjQT09
+  prerecorded_talks:
+  - title: "\tVisualizing Meaning: Semantic Simulation of Actions and Events"
+    speakers: James Pustejovsky, Brandeis University
+    presentation_id: '38940086'
+
 - UID: WS-11
   title: "W11: Explainable Agency in Artificial Intelligence"
   organizers: "Prashan Madumal, Silvia Tulli, David Aha and Rosina Weber"
@@ -397,6 +421,30 @@
   rocketchat_channel: W21PrivacyPreservingArtificialIntelligence
   alias: W21PrivacyPreservingArtificialIntelligence
   day: Feb 8
+  sessions:
+  - start_time: 2021-2-8 05:50:00-08:00
+    end_time: 2021-2-8 14:30:00-08:00
+    name: None
+    hosts: None
+  - start_time: 2021-2-9 06:00:00-08:00
+    end_time: 2021-2-9 15:30:00-08:00
+    name: None
+    hosts: None
+  zoom_links:
+    - https://zoom.us/j/3878088001?pwd=Y3IrWERGM1VjMUZ1TG4yb0EvUFJxdz09
+  prerecorded_talks:
+  - title: Invited talk by Isabelle Augenstein
+    speakers: Isabelle Augenstein
+    presentation_id: '38940145'
+
+- UID: WS-21
+  title: "W21: Workshop on Privacy-Preserving Artificial Intelligence (PPAI-21)"
+  organizers: "Ferdinando Fioretto, Pascal Van Hentenryck and Richard W. Evans"
+  abstract: "The second AAAI Workshop on Privacy-Preserving Artificial Intelligence (PPAI-21) builds on the success of last year’s AAAI PPAI to provide a platform for researchers, AI practitioners, and policymakers to discuss technical and societal issues and present solutions related to privacy in AI applications. The workshop will focus on both the theoretical and practical challenges related to the design of privacy-preserving AI systems and algorithms. In addition to the outstanding technical program, PPAI-21 provides a number of prominent invited speakers (including, John M. Abowd, Aswin Machanavajjhala, Steven Wu, Nicolas Papernot, and Reza Shokri), two exciting tutorials on recent advances of differential privacy (by Audra McMillan) and on private federated learning (by Brendan McMahan, Kallista Bonawitz, and Peter Kairouz) as well as a panel discussion."
+  website: https://ppai21.github.io/
+  rocketchat_channel: W21PrivacyPreservingArtificialIntelligence
+  alias: W21PrivacyPreservingArtificialIntelligence
+  day: Feb 9
   sessions:
   - start_time: 2021-2-8 05:50:00-08:00
     end_time: 2021-2-8 14:30:00-08:00
