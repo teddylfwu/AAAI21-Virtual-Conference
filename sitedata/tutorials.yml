@@ -39,7 +39,7 @@
       mining and machine learning applications in the areas of biological sciences,
       learning sciences, and cyber-physical sciences involving fundamental contributions
       of multitask learning, hierarchical classification, and recommender systems.
-  prerecorded: '38940826'
+  prerecorded: '38951749'
 - UID: MQ2
   title: An Extensible Toolkit for Explainable Recommender Systems
   organizers: Ludovik Coba, Roberto Confalonieri and Markus Zanker
@@ -85,7 +85,7 @@
       Technology & Tourism (Springer). Besides organizing numerous workshops in the
       field, he was a program chair of the 4th ACM Conference on Recommender Systems
       in 2010 and he co-chaired the 9th ACM Conference on Recommender Systems in 2015.
-  prerecorded: '38940826'
+  prerecorded: '38951750'
 - UID: MQ3
   title: Deep Randomized Neural Networks
   organizers: Claudio Gallicchio
@@ -121,7 +121,7 @@
       Neural Networks, Reservoir Computing, Recurrent and Recursive Neural Networks,
       Graph Neural Networks. He is founder and chair of the IEEE CIS Task Force on
       Reservoir Computing.
-  prerecorded: '38940826'
+  prerecorded: '38951751'
 - UID: MQ4
   title: Efficient Neural Architecture Search
   organizers: Tejaswini Pedapati and Martin Wistuba
@@ -161,7 +161,7 @@
       University of Hildesheim. His research interest includes AutoML, in particular
       the idea of meta-knowledge transfer to speed up Bayesian optimization and Neural
       Architecture Search.
-  prerecorded: '38940826'
+  prerecorded: '38951752'
 - UID: MH1
   title: Artificial Intelligence for Drug Discovery
   organizers: Jian Tang, Fei Wang and Feixiong Cheng
@@ -206,7 +206,7 @@
       \ has received several awards, including NIH Pathway to Independence Award (K99/R00),\
       \ SCI highly cited papers reward, and Vanderbilt Postdoc of the Year Honorable\
       \ mention."
-  prerecorded: '38940826'
+  prerecorded: '38951740'
 - UID: MH2
   title: Commonsense Knowledge Acquisition and Representation
   organizers: Filip Ilievski, Antoine Bosselut, Simon Razniewski and Mayank Kejriwal
@@ -250,7 +250,7 @@
       Institute. His research focuses on knowledge graphs and their applications,
       especially in social contexts such as fighting human trafficking and crisis
       response.
-  prerecorded: '38940826'
+  prerecorded: '38951741'
 - UID: MH3
   title: 'Dealing with Bias and Fairness in Building AI Systems: A Practical Hands-on
     Tutorial'
@@ -294,7 +294,7 @@
       previously led the data science efforts at Devoted Health, served as Chief Data
       Scientist at Hillary for America, and as Director of Digital Analytics for the
       Office of Digital Strategy in the Obama White House.
-  prerecorded: '38940826'
+  prerecorded: '38951742'
 - UID: MH4
   title: Designing Agents' Preferences, Beliefs, and Identities
   organizers: Vincent Conitzer
@@ -327,7 +327,7 @@
       and Professor of Computer Science, Professor of Economics, and Professor of
       Philosophy at Duke University. He received the IJCAI Computers and Thought Award
       in 2011, and is a Fellow of AAAI and ACM.
-  prerecorded: '38940826'
+  prerecorded: '38951743'
 - UID: MH5
   title: Learning with Small Data
   organizers: Huaxiu Yao, Fei Wang and Zhenhui Jessie Li
@@ -376,7 +376,7 @@
       data mining since 2012. Her classes have constantly received high student ratings.
       She has received NSF CAREER award, junior faculty excellence in research, and
       George J. McMurtry junior faculty excellence in teaching and learning award.
-  prerecorded: '38940826'
+  prerecorded: '38951744'
 - UID: MH6
   title: Meta Learning
   organizers: Iddo Drori and Joaquin Vanschoren
@@ -414,7 +414,7 @@
       \ the AutoML and metalearning workshops at ICML and NeurIPS, and co-presented\
       \ the NeurIPS2018 AutoML tutorial. He\u2019s a founding member of ELLIS and\
       \ CLAIRE, and action editor at JMLR."
-  prerecorded: '38940826'
+  prerecorded: '38951745'
 - UID: MH7
   title: Recent Advances in Integrating Machine Learning and Combinatorial Optimization
   organizers: "Elias Khalil, Andrea Lodi, Bistra Dilkina, Didier Ch\xA8\xA6telat,\
@@ -477,7 +477,7 @@
       \ Waterloo and Toronto and was a postdoc at Columbia, Princeton and McGill.\
       \ He develops machine learning models to analyze large collections of data and\
       \ help in decision-making."
-  prerecorded: '38940826'
+  prerecorded: '38951746'
 - UID: MH8
   title: 'Responsible AI in Industry: Practical Challenges and Lessons Learned'
   organizers: Krishnaram Kenthapadi, Ben Packer, Mehrnoosh Sameki and Nashlie Sephus
@@ -522,7 +522,7 @@
       focusing on fairness and identifying biases in AWS AI technologies. She received
       her Ph.D. from the School of Electrical and Computer Engineering at Georgia
       Tech in 2014 and her B.S. from Mississippi State University in 2007.
-  prerecorded: '38940826'
+  prerecorded: '38951747'
 - UID: MH9
   title: A Visual Tour of Bias Mitigation Techniques for Word Representations
   organizers: Archit Rathore, Sunipa Dev, Jeff M. Phillips, Vivek Srikumar and Bei
@@ -570,7 +570,7 @@
       in the Scientific Computing and Imaging (SCI) Institute, University of Utah.
       Her research interests include data visualization, topological data analysis,
       computational topology, computational geometry, machine learning, and data mining.
-  prerecorded: '38940826'
+  prerecorded: '38951748'
 - UID: AQ1
   title: 'Explaining Machine Learning Predictions: State-of-the-Art, Challenges, and
     Opportunities'
@@ -613,7 +613,7 @@
       workshop talks at EMNLP, NeurIPS, NAACL, WSDM, ICLR, ACL, and AAAI, and received
       paper awards at KDD 2016, ACL 2018, EMNLP 2019, AKBC 2020, and ACL 2020. <a
       href="http://sameersingh.org/"> Website </a>.
-  prerecorded: '38940826'
+  prerecorded: '38951763'
 - UID: AQ2
   title: Topological Data Analysis in Document Classification
   organizers: Wlodek Zadrozny and Shafie Gholizadeh
@@ -648,7 +648,7 @@
       his Ph.D. from University of North Carolina in Charlotte. His thesis examined
       the feasibility of topological data analysis in text mining. A key focus of
       his dissertation is on novel methods to extract homological features from text.'
-  prerecorded: '38940826'
+  prerecorded: '38951764'
 - UID: AH1
   title: 'AI for COVID-19: Battling the Pandemic with Computational Intelligence'
   organizers: Fei Wang
@@ -692,7 +692,7 @@
       \ (AMIA). Dr. Wang\u2019s research has been supported by funding agencies including\
       \ NSF, NIH, ONR, NMRC, MJFF, AHA , PCORI and industries including Amazon, Google,\
       \ Boehringer Ingelheim and MITRE."
-  prerecorded: '38940826'
+  prerecorded: '38951753'
 - UID: AH2
   title: Event-Centric Natural Language Understanding
   organizers: Muhao Chen, Hongming Zhang, Qiang Ning, Manling Li, Heng Ji and Dan
@@ -744,7 +744,7 @@
       a Fellow of the AAAS, ACM, AAAI, and the ACL. Roth was recognized for major
       conceptual and theoretical advances in the modeling of natural language understanding,
       machine learning, and reasoning. Additional information is available at <a href="https://www.cis.upenn.edu/~danroth/">here</a>.
-  prerecorded: '38940826'
+  prerecorded: '38951754'
 - UID: AH3
   title: From Explainability to Model Quality and Back Again
   organizers: Anupam Datta, Matt Fredrikson, Klas Leino, Kaiji Lu, Shayak Sen and
@@ -793,7 +793,7 @@
       Learning models. Shayak obtained his PhD in Computer Science from Carnegie Mellon
       University where his research aims to make machine learning and big data systems
       more explainable, privacy compliant, and fair. '
-  prerecorded: '38940826'
+  prerecorded: '38951755'
 - UID: AH4
   title: From Statistical Relational to Neural Symbolic Artificial Intelligence
   organizers: Luc De Raedt, Sebastijan Dumancic, Robin Manhaeve and Giuseppe Marra
@@ -838,7 +838,7 @@
       Sub-symbolic Reasoning with MiniMax Entropy Models". His research interests
       focus on the integration between neural computation and relational reasoning,
       with a particular focus on logical and probabilistic reasoning.
-  prerecorded: '38940826'
+  prerecorded: '38951756'
 - UID: AH5
   title: 'Graph Neural Networks: Models and Applications'
   organizers: Yao Ma, Wei Jin, Yiqi Wang, Tyler Derr and Jiliang Tang
@@ -886,7 +886,7 @@
       social media and education. He was the recipients of SIGKDD Rising Star Award
       and NSF Career Award. His research received more than 12,000 citations with
       h-index 55.
-  prerecorded: '38940826'
+  prerecorded: '38951757'
 - UID: AH6
   title: New Frontiers of Automated Mechanism Design for Pricing and Auctions
   organizers: Maria-Florina Balcan, Tuomas Sandholm and Ellen Vitercik
@@ -926,7 +926,7 @@
       interface between economics and computation. She has received the IBM PhD Fellowship,
       a fellowship from CMU's Center for Machine Learning and Health, and the NSF
       Graduate Research Fellowship.
-  prerecorded: '38940826'
+  prerecorded: '38951758'
 - UID: AH7
   title: 'On Explainable AI: From Theory to Motivation, Industrial Applications and
     Coding Practices'
@@ -979,7 +979,7 @@
       IBM Research Dublin, Ireland in 2015. His research interests are in personal
       data mining, clustering, explainable models, analysis of transactional data
       related to recipes and to migration flows.
-  prerecorded: '38940826'
+  prerecorded: '38951759'
 - UID: AH8
   title: Recent Advances in Multiple Facets of Preference Learning
   organizers: Arun Rajkumar
@@ -1012,7 +1012,7 @@
       department of Indian Institute of Technology, Madras. His research interests
       are broadly in the areas of statistical learning theory, machine learning with
       a specific focus on ranking algorithms and online learning.
-  prerecorded: '38940826'
+  prerecorded: '38951760'
 - UID: AH9
   title: Simplifying and Automating Parallel Machine Learning via a Programmable and
     Composable Parallel ML System
@@ -1060,7 +1060,7 @@
       of Petuum Inc. His main research interests are the development of ML and statistical
       methodology, and large-scale computational system and architectures. He is an
       AAAI Fellow and an IEEE Fellow.
-  prerecorded: '38940826'
+  prerecorded: '38951761'
 - UID: AH10
   title: 'Towards Ubiquitous Recommender Systems: Data, Approaches, and Applications'
   organizers: Shoujin Wang, Liang Hu, Yan Wang, Longbing Cao, Michael Sheng and Mehmet
@@ -1113,7 +1113,7 @@
     description: is a Professor at the Department of Computing, Macquarie University.
       His current research interests lie in the areas of computational intelligence,
       multi-agent systems, trust and security, temporal reasoning, formal methods.
-  prerecorded: '38940826'
+  prerecorded: '38951762'
 - UID: UC-10
   title: 'Efficient Robust Music Genre Classification with Depthwise Separable Convolutions and Source Separation'
   organizers: Gabriel A Mersy
