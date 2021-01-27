@@ -8,61 +8,39 @@
     start_time: 2020-11-16 14:45:00+00:00
     end_time: 2020-11-16 15:00:00+00:00
   rocketchat_channel: plenary-opening-remarks
-- UID: keynote_by_regina_barzilay
-  title: 'AAAI Squirrel Award for for Artificial Intelligence for the Benefit of Humanity'
+- UID: speaker_by_regina_barzilay
+  title: 'A Tale of Two Translations'
   day: Feb 4
   image: static/images/keynotes/regina_barzilay.png
   sessions:
   - name: P-Live Presentation
     start_time: 2020-11-16 15:00:00+00:00
     end_time: 2020-11-16 16:00:00+00:00
-  rocketchat_channel: keynote-claire-cardie
-  abstract: "Regina Barzilay is a professor in the Department of Electrical Engineering and \
-  Computer Science and a member of the Computer Science and Artificial Intelligence Laboratory\
-  at the Massachusetts Institute of Technology. Her research interests are in natural language\
-  processing. Currently, Prof. Barzilay is focused on bringing the power of machine learning to oncology. \
-  In collaboration with physicians and her students, she is devising deep learning models that utilize imaging,\
-  free text, and structured data to identify trends that affect early diagnosis, treatment, and disease prevention.\
-  Prof. Barzilay is poised to play a leading role in creating new models that advance the capacity of computers to \
-  harness the power of human language data.
-\n\n
-    Regina Barzilay is a recipient of various awards including the MacArthur Fellowship, NSF Career Award, the MIT \
-  Technology Review TR-35 Award, Microsoft Faculty Fellowship and several Best Paper Awards in top NLP conferences. \
-  In 2017, she received a MacArthur fellowship, an ACL fellowship and an AAAI fellowship. Most recently, in 2020, she \
-  is the first recipient of the AAAI Squirrel AI Award for Artificial Intelligence for the Benefit of Humanity."
-  bio: "[Regina Barzilay](https://www.regina.csail.mit.edu/) Prof. Barzilay received her MS and BS from Ben-Gurion \
+  rocketchat_channel: keynote-regina-barzilay
+  abstract: "
+  In this talk, I will describe our experience in developing and deploying machine learning methods in two areas of healthcare: cancer diagnosis and drug design. The talk will focus on the algorithms that enable these functionalities,  while highlighting unsolved technical challenges.  In addition, I will share lessons learned during this outreach and conclude with recommendations to the AI community on how to magnify our collective impact on healthcare.
+"
+  bio: "[ Regina Barzilay ](https://www.regina.csail.mit.edu/) is a professor in the Department of Electrical Engineering and \
+    Computer Science and a member of the Computer Science and Artificial Intelligence Laboratory\
+    at the Massachusetts Institute of Technology. Her research interests are in natural language\
+    processing. Currently, Prof. Barzilay is focused on bringing the power of machine learning to oncology. \
+    In collaboration with physicians and her students, she is devising deep learning models that utilize imaging,\
+    free text, and structured data to identify trends that affect early diagnosis, treatment, and disease prevention.\
+    Prof. Barzilay is poised to play a leading role in creating new models that advance the capacity of computers to \
+    harness the power of human language data.
+  \n\n
+      Regina Barzilay is a recipient of various awards including the MacArthur Fellowship, NSF Career Award, the MIT \
+    Technology Review TR-35 Award, Microsoft Faculty Fellowship and several Best Paper Awards in top NLP conferences. \
+    In 2017, she received a MacArthur fellowship, an ACL fellowship and an AAAI fellowship. Most recently, in 2020, she \
+    is the first recipient of the AAAI Squirrel AI Award for Artificial Intelligence for the Benefit of Humanity.
+    \n\n
+  Prof. Barzilay received her MS and BS from Ben-Gurion \
   University of the Negev. She received her PhD in Computer Science from Columbia University, and spent a year as a \
   postdoc at Cornell University.
 "
   presenter: Regina Barzilay
   presentation_id: '38938634'
-- UID: industry_panel
-  title: Industry Panel
-  day: Feb 4
-  image: static/images/emnlp2020/acl-logo.png
-  sessions:
-  - name: P-Live Presentation
-    start_time: 2020-11-16 23:00:00+00:00
-    end_time: 2020-11-17 00:00:00+00:00
-  rocketchat_channel: plenary-industry-panel
-  presentation_id: '38942828'
-  presenter: "Fei Sha, Chin-Yew Lin, Kristina Toutanova, Daniel Marcu, Joel Tetreault,\
-    \ Jo\xE3o Gra\xE7a"
-- UID: ethics_panel_discussion
-  title: Ethics Panel Discussion
-  day: Feb 5
-  image: static/images/emnlp2020/acl-logo.png
-  sessions:
-  - name: P-Live Presentation
-    start_time: 2020-11-17 15:00:00+00:00
-    end_time: 2020-11-17 16:00:00+00:00
-  rocketchat_channel: plenary-ethics-panel-discussion
-  presentation_id: '38942826'
-  presenter: Emily M. Bender, Rosie Campbell, Allan Dafoe, Pascale Fung, Meg Mitchell,
-    Saif Mohammad
-  abstract: 'Publishing in an era of Responsible AI: How can NLP be proactive? Considerations
-    and Implications. Moderated by Mona Diab.'
-- UID: keynote_by_daphne_koller
+- UID: speaker_by_daphne_koller
   title: "Keynote: Digital Learning Coming to Life"
   day: Feb 5
   image: static/images/keynotes/daphne_koller.jpg
@@ -82,7 +60,7 @@
       in 2014 and of the International Society of Computational Biology in 2017."
   presenter: Daphne Koller
   presentation_id: "38942829"
-- UID: keynote_by_michael_wooldridge
+- UID: speaker_by_michael_wooldridge
   title: '2021 AAAI/EAAI-21 Outstanding Educator Award Lecture: Talking to the Public about AI.'
   presentation_id: "38942827"
   day: Feb 6
@@ -111,16 +89,6 @@
         Conscious Machines (Pelican, 2020).
 "
   presenter: Michael Wooldridge
-- UID: business_meeting
-  presentation_id: "38942830"
-  title: Business Meeting
-  day: Feb 7
-  image: static/images/emnlp2020/acl-logo.png
-  sessions:
-  - name: P-Live Presentation
-    start_time: 2020-11-19 01:00:00+00:00
-    end_time: 2020-11-19 01:45:00+00:00
-  rocketchat_channel: plenary-business-meeting
 - UID: best_paper_awards_and_closing
   title: Best Paper Awards and Closing
   presentation_id: "38942830"
@@ -131,7 +99,7 @@
     start_time: 2020-11-19 01:50:00+00:00
     end_time: 2020-11-19 02:20:00+00:00
   rocketchat_channel: plenary-best-paper-awards-and-closing
-- UID: keynote_by_luke_zettlemoyer
+- UID: speaker_by_luke_zettlemoyer
   title: 'Recent Advances in Language Model Pretraining'
   presentation_id: "38942827"
   day: Feb 4
@@ -146,8 +114,8 @@
   bio: "[Luke Zettlemoyer](https://www.cs.washington.edu/people/faculty/lsz) is a Professor in the Paul G. Allen School of Computer Science & Engineering at the University of Washington, and a Research Scientist at Facebook. His research focuses on empirical methods for natural language semantics, and involves designing machine learning algorithms, introducing new tasks and datasets, and, most recently, studying how to best develop self-supervision signals for pre-training. Honors include multiple paper awards, a PECASE award, and an Allen Distinguished Investigator Award. Luke received his PhD from MIT and was a postdoc at the University of Edinburgh.
 
 "
-  presenter: Michael Wooldridge
-- UID: keynote_by_tuomas_sandholm
+  presenter: Luke Zettlemoyer
+- UID: speaker_by_tuomas_sandholm
   title: 'IAAI-21 Robert S. Engelmore Memorial Award Lecture'
   presentation_id: "38942827"
   day: Feb 4
@@ -170,7 +138,7 @@
 
 "
   presenter: Tuomas Sandholm
-- UID: keynote_by_kaifu_lee
+- UID: speaker_by_kaifu_lee
   title: 'AI Infusion Investment Outlook'
   presentation_id: "38942827"
   day: Feb 4
@@ -185,3 +153,138 @@
 
   "
   presenter: Kai-Fu Lee
+- UID: panel_AI_response_covid_19
+  title: 'AI Responses to the Covid-19 Pandemic'
+  presentation_id: "38942827"
+  day: Feb 4
+  image: static/images/aaai2021/AAAI-logo.png
+  sessions:
+  - name: P-Live Presentation
+    start_time: 2021-02-06 6:00:00+00:00
+    end_time: 2021-02-06 6:30:00+00:00
+  rocketchat_channel: keynote-AI-response-covid-19
+  abstract: "Moderators: Yan Liu (University of Southern California), S. Kevin Zhou (Chinese Academy of Sciences, China), Le Lu (PAII Inc. Bethesda Lab, USA), B. Aditya Prakash (Georgia Institute of Technology, USA)
+             \n\n
+             Panelists: Prof. Dinggang Shen (Shanghai Tech University & United Imaging Intelligence), Prof. Ben Goldacre (Oxford University), Dr. Kizzmekia Corbett (NIH), Prof. Eili Klein (Johns Hopkins University)
+\n\n
+
+             The intent of this panel is to promote knowledge and share the latest technologies that are directly related to fighting the COVID-19 pandemic, whether addressing its medical, social, or economic consequences. The panel consists of world-renown experts on medical imaging, epidemiology, testing, and vaccine, who will share their insights in how technologies are evolved to address the pandemic and how AI can help in this critical task.
+  "
+  bio: "[Prof. Dinggang Shen](https://shen.web.unc.edu/) is Professor and Dean of School of Biomedical Engineering, ShanghaiTech University, and also Co-CEO of United Imaging Intelligence (UII). He was Jeffrey Houpt Distinguished Investigator and (Tenured) Full Professor of Radiology at University of North Carolina at Chapel Hill (UNC-CH). Prof. Shen is Fellow of IEEE, Fellow of The American Institute for Medical and Biological Engineering (AIMBE), Fellow of The International Association for Pattern Recognition (IAPR), and also Fellow of The Medical Image Computing and Computer Assisted Intervention (MICCAI) Society. His research interests include medical image analysis, computer vision, and pattern recognition. He has published more than 1100 peer-reviewed papers in the international journals and conference proceedings, with H-index 107 and more than 40,000 citations. He serves as an editorial board member for eight international journals. Also, he has served in the Board of Directors, MICCAI Society, in 2012-2015, and was General Chair for MICCAI 2019.
+\n\n
+
+[Dr. Ben Goldacre](https://www.badscience.net/about-dr-ben-goldacre/) is a doctor, academic, writer, and broadcaster. He trained in medicine at Oxford and University College London, in psychiatry at the Maudsley, and in epidemiology at The London School of Hygiene and Tropical Medicine (LSHTM). He runs the DATALab at Oxford. His academic and policy work is in informatics, epidemiology and evidence based medicine, where he works on various problems including variation in care, better uses of routinely collected electronic health data (e.g. the COVID-19 OpenSAFELY project), evidence-based social policy, access to clinical trial data, efficient trial design, and retracted papers. Alongside he also works in public engagement, writing and broadcasting for a general audience on problems in evidence based medicine. His books have sold over 600,000 copies and his TED talks have had over 4 million views.
+\n\n
+
+[Dr. Kizzmekia (Kizzy) Shanta Corbett](https://en.wikipedia.org/wiki/Kizzmekia_Corbett) is an American viral immunologist at the Vaccine Research Center (VRC) at the National Institute of Allergy and Infectious Diseases, National Institutes of Health (NIAID NIH) based in Bethesda, Maryland. Appointed to the VRC in 2014, she is currently the scientific lead of the VRC's Coronavirus Team, with research efforts aimed at propelling novel coronavirus vaccines, including a COVID-19 vaccine. In December 2020, the Institute's Director Anthony Fauci, said: 'Kizzy is an African American scientist who is right at the forefront of the development of the vaccine.'
+\n\n
+
+[Prof. Eili Klein](https://www.hopkinsmedicine.org/profiles/results/directory/profile/9514751/eili-klein) is an Associate Professor in the Department of Emergency Medicine at Johns Hopkins University. He is also a fellow at the Center for Disease Dynamics, Economics and Policy in Washington, D.C. Upon finishing his Ph.D. in ecology and evolutionary biology from Princeton University, Dr. Klein joined the Johns Hopkins faculty in 2012. His research focuses on the role of behavior in the spread of infectious diseases. Examining how individuals respond to incentives for both healthy and unhealthy behavior and how this then impacts the spread disease can improve policy responses to epidemic diseases, by giving policymakers and health-care providers clear tools for thinking about how certain actions can influence the spread of disease transmission.
+
+"
+  presenter: "
+  Panelists: Dinggang Shen, Ben Goldacre, Kizzmekia Corbett, Eili Klein
+  "
+- UID: panel_neuro_symbolic_AI_panel
+  title: 'Neuro-Symbolic AI Panel'
+  presentation_id: "38942827"
+  day: Feb 4
+  image: static/images/aaai2021/AAAI-logo.png
+  sessions:
+  - name: P-Live Presentation
+    start_time: 2021-02-06 6:00:00+00:00
+    end_time: 2021-02-06 6:30:00+00:00
+  rocketchat_channel: keynote-neuro-symbolic-ai
+  abstract: "
+Panelists: Matthew Botvinick (DeepMind and University College London), Leslie Pack Kaelbling (Massachusetts Institute of Technology), Marta Kwiatkowska (University of Oxford)
+\n\n
+
+  "
+  bio: "
+  [Matthew Botvinick](https://hai.stanford.edu/people/matthew-botvinick) is Director of Neuroscience Research and Team Lead in AI research at DeepMind and Honorary Professor at the Gatsby Computational Neuroscience Unit at University College London.
+\n\n
+
+  [Leslie Pack Kaelbling](https://people.csail.mit.edu/lpk/) is a Professor at MIT. She has an undergraduate degree in Philosophy and a PhD in Computer Science from Stanford, and was previously on the faculty at Brown University. She was the founding editor-in-chief of the Journal of Machine Learning Research. Her goal is to make robots that are as smart as you are.   She is a fellow of the AAAI.
+\n\n
+
+  [Marta Kwiatkowska](https://www.cs.ox.ac.uk/people/marta.kwiatkowska/) is a leading expert working on automated verification and synthesis for probabilistic systems. Her research draws on symbolic, numerical and statistical methods, with application to safety and robustness of AI systems. She is a Fellow of ELLIS, ACM, Royal Society and a member of Academia Europea.
+"
+  presenter: "
+Panelists: Matthew Botvinick, Leslie Pack Kaelbling, Marta Kwiatkowska
+  "
+- UID: panel_gov_1
+  title: 'Governments 1 Panel: Government AI Strategy Panel'
+  presentation_id: "38942827"
+  day: Feb 4
+  image: static/images/aaai2021/AAAI-logo.png
+  sessions:
+  - name: P-Live Presentation
+    start_time: 2021-02-06 6:00:00+00:00
+    end_time: 2021-02-06 6:30:00+00:00
+  rocketchat_channel: keynote-gov-1
+  abstract: "
+Panelists: Gabriela Ramos (Assistant Director-General for the Social and Human Sciences of UNESCO); Sana Khareghani (The Office for Artificial Intelligence, UK); Drago? Tudorache (Member of European Parliament (Romania), Chair, Special Committee on Artificial Intelligence in a Digital Age)
+\n\n
+
+  "
+  bio: "
+Gabriela Ramos is the Assistant Director-General for the Social and Human Sciences of UNESCO, where she oversees the contributions of the institution to build inclusive and peaceful societies. Her agenda includes the achievement of social inclusion and gender equality, advancing youth development; promotion of values through sports;  anti-racism and antidiscriminatory agenda and ethics of artificial inteligence. Her appointment at UNESCO allows her to continue supporting an agenda of inclusive growth, and the respect of human rights and human dignity. Prior to this position, Ms. Ramos served as the Chief of Staff and Sherpa to the G20/G7/APEC in the OECD, contributing to the global agenda as well as leading the OECD's New Approaches to Economic Challenges, Inclusive Growth Initiative, Gender Strategy and the work on well-being and children. In 2019, she launched the Business for Inclusive Growth (B4IG) platform, bringing together 40 major multinational companies committed to reducing inequalities. Previously, she was Director of the OECD Office in Mexico and Latin America and a member of the Mexican foreign service. In 2013, she was decorated with the Ordre du Merit by the President of France. Her work to promote gender equality earned her the 2017 and 2018 Forbes Excellence award as well as being included as part of Apolitical¡¯s 100 Most Influential People in Gender Policy in both 2018 and 2019. A Fulbright and Ford McArthur fellow, she is member of the board of the Paris Peace Forum, UNICEF Advisory Board, Steering Group of the International Gender Champions Paris Hub, Multi-Stakeholder Council to the Global Solutions Initiative, Lancet Commission on Gender-Based Violence and Maltreatment of Young People, and Lancet Commission on COVID-19.
+\n\n
+
+Sana Khareghani is currently the Head of the UK Government¡¯s Office for AI ¨C a joint DCMS/BEIS unit. Holding a BSc in Computer Science and MBA from Massachusetts Institute of Technology, Sana has over 20 years¡¯ experience in technology and business across the private and public sectors in corporate, software engineering and management consulting roles.
+\n\n
+
+Dragos Tudorache is a Member of the European Parliament (Renew Europe) and the Executive President of the PLUS party in Romania. He is the Chair of the AIDA (Artificial Intelligence in the Digital Age) special committee and sits in LIBE, AFET, SEDE, and the European Parliament¡¯s delegation with the United States."
+  presenter: "
+Panelists: Gabriela Ramos, Sana Khareghani, Drago Tudorache
+  "
+- UID: panel_gov_2
+  title: 'Governments 2 Panel: Government AI Strategy Panel'
+  presentation_id: "38942827"
+  day: Feb 4
+  image: static/images/aaai2021/AAAI-logo.png
+  sessions:
+  - name: P-Live Presentation
+    start_time: 2021-02-06 6:00:00+00:00
+    end_time: 2021-02-06 6:30:00+00:00
+  rocketchat_channel: keynote-gov-2
+  abstract: "
+Panelists: Sukyung Park (Office of the President, The Republic of Korea; Data.Network.AI and Digital New Deal); Lynne Parker (Director, National AI Initiative Office); Elissa Strome (Canadian Institute for Advanced Research (CIFAR))
+\n\n
+
+  "
+  bio: "
+Sukyung (Sue) Park is a professor in the Department of Mechanical Engineering at KAIST, Korea. Her research interests are the biomechanics of human motion and its monitoring systems using IMUs and/or machine learning technology. She was appointed as an Adviser to the President for Science and Technology.
+\n\n
+
+Dr. Lynne Parker is Director of the National Artificial Intelligence Initiative Office in the White House.  She has led the development of many U.S. AI policy initiatives in the areas of research, governance, education, and international engagement. She received her PhD from MIT and is a Fellow of AAAS and IEEE.
+\n\n
+
+Elissa Strome is the Executive Director of the CIFAR Pan-Canadian AI Strategy, working closely with Canada¡¯s three national AI Institutes in Edmonton (Amii), Montreal (Mila), and Toronto (Vector Institute) and researchers across the country to advance Canada¡¯s leadership in AI research and Innovation. She has a PhD in Neuroscience from the University of British Columbia.
+"
+  presenter: "
+Panelists: Sukyung Park, Lynne Parker, Elissa Strome
+  "
+- UID: panel_gov_3
+  title: 'Governments 3 Panel: Government AI Strategy Panel'
+  presentation_id: "38942827"
+  day: Feb 4
+  image: static/images/aaai2021/AAAI-logo.png
+  sessions:
+  - name: P-Live Presentation
+    start_time: 2021-02-06 6:00:00+00:00
+    end_time: 2021-02-06 6:30:00+00:00
+  rocketchat_channel: keynote-gov-2
+  abstract: "
+Panelists: Qionghai Dai (Chairman of Chinese Association for Artificial Intelligence; The School of Information Science and Technology, the Institute for Brain and Cognitive Sciences, Tsinghua University, China); Anna Roy (Senior Adviser, National Institution for Transforming India (NITI Aayog)); Isaac Ben-Israel (Israeli Space Agency and Tel Aviv University)
+\n\n
+
+  "
+  bio: "
+[Qionghai Dai](http://media.au.tsinghua.edu.cn/english/team/qhdai.html) is a full Professor, the director of the School of Information Science and Technology, and the director of the Institute of Brain and Cognitive Sciences at Tsinghua University. He is also the chairman of Chinese Association for Artificial intelligence. Qionghai¡¯s research centers on the interdisciplinary study of Brain Engineering and the next-generation Artificial Intelligence.
+\n\n
+
+[Prof. Isaac Ben-Israel](https://english.tau.ac.il/profile/itzik) graduated from Tel Aviv University with degrees in mathematics, physics and philosophy, earning his PhD in 1988. A retired major-general in the Israel Air Force, Prof. Ben-Israel has served as Director of Defence R&D Directorate of the Ministry of Defense. He is a recipient of the Israel Defense Award (twice). He was a member of Knesset from 2007 to 2009. Currently he is the Chairman of the Israeli Space Agency and Head of the Blavatnik Interdisciplinary Cyber Research Center and the Yuval Ne'eman workshop for Science, Technology and Security at Tel Aviv University. In 2010 he was appointed by Israel PM to lead a task force that submitted to the Government a plan which made Israel a major player in Cyber Security. In 2018 he was appointed again by the PM to lead the next revolution in Israel: Secured Artificial Intelligence."
+  presenter: "
+Panelists: Qionghai Dai, Anna Roy, Isaac Ben-Israel
+  "

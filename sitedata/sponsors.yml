@@ -1,3 +1,11 @@
+- name: Amazon Science
+  level: Platinum
+  logo: amazon.png
+  logoontop: true
+  website: https://amazon.science
+  description: |
+    Amazon Science gives you insight into the company's approach to customer-obsessed scientific innovation. Amazon fundamentally believes that scientific innovation is essential to being the most customer-centric company in the world. It's the company's ability to have an impact at scale that allows us to attract some of the brightest minds in artificial intelligence and related fields. Our scientists continue to publish, teach, and engage with the academic community, in addition to utilizing our working backwards method to enrich the way we live and work. Visit Amazon.science to learn more!
+
 - name: IBM
   level: Platinum
   logo: ibm.jpg
@@ -9,13 +17,6 @@
     We're delivering secure, trusted AI with work focused on governance, explainability, fairness, and bias reduction, and empowering creators with AI engineering tools and capabilities that simplify and automate key tasks.
 
     At IBM Research we are committed to providing equal opportunity and being a culture of transparency and trust. By giving diverse communities a voice, we are creating an environment where everyone can advance.
-- name: Amazon Science
-  level: Platinum
-  logo: amazon.png
-  logoontop: true
-  website: https://amazon.science
-  description: |
-    Amazon Science gives you insight into the company's approach to customer-obsessed scientific innovation. Amazon fundamentally believes that scientific innovation is essential to being the most customer-centric company in the world. It's the company's ability to have an impact at scale that allows us to attract some of the brightest minds in artificial intelligence and related fields. Our scientists continue to publish, teach, and engage with the academic community, in addition to utilizing our working backwards method to enrich the way we live and work. Visit Amazon.science to learn more!
 
 - name: Baidu
   level: Gold
@@ -58,7 +59,7 @@
 
 - name: Dataminr
   level: Silver
-  logo: Dataminr.png
+  logo: dataminr.png
   logoontop: true
   website: https://www.dataminr.com/
   description: |
@@ -86,6 +87,14 @@
   description: |
     Microsoft is delighted to sponsor AAAI 2021. We have a full line-up of content this week, with over 50 co-authored papers, as well as participation in workshops and tutorials. Our detailed Microsoft session schedule, booth chat schedule, and open career opportunities can be found on our Microsoft at AAAI
     [Event Page](https://aka.ms/aaai-2021) (Please visit https://aka.ms/aaai-2021)
+
+- name: AITopics, powered by i2k Connect Inc.
+  level: Exhibitor
+  logo: aitopic.png
+  logoontop: true
+  website: https://aitopics.org/
+  description: |
+    AITopics is a collection of information on research, people, news, and applications of AI. Use artificial intelligence technology to find and analyze news, publications, conference articles, and classics from around the world. AITopics is powered by AI technology from i2k Connect. The i2k AI Platform combines machine learning with subject matter expert knowledge to automatically tag documents with unique, accurate and consistent metadata. Building on the familiar online shopping experience, you can discover and analyze just the information you need. Subscribe to AI-Alerts, a weekly email of stories selected and categorized by i2k NewsFinder.
 
 - name: American Friends of the Alexander von Humboldt Foundation
   level: Exhibitor
@@ -125,7 +134,7 @@
 
 - name: Springer
   level: Exhibitor
-  logo: springer.png
+  logo: Springer.png
   logoontop: true
   website: https://www.springer.com
   description: |
@@ -138,6 +147,7 @@
   website: http://wadhwaniai.org/
   description: |
     The Wadhwani Institute for Artificial Intelligence was founded with the vision of applying the power of AI to complex challenges faced by people in the developing world. We are an independent, nonprofit research institute and global hub, developing and deploying AI solutions for social impact. We collaborate with academic institutions, governments, social sector organisations and domain experts to identify real-world challenges, create and deploy innovative machine learning and data science solutions to reach intended beneficiaries ®C with the objective of making a positive difference at both individual and systemic levels. Currently, we are building solutions in agriculture and in healthcare domains such as maternal, newborn and child health and infectious diseases.
+
 # - name: DeepMind
 #   levels:
 #   - Platinum

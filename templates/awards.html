@@ -22,7 +22,7 @@
     
     <p>Yolanda Gil<br>
     Chair, Fellows and Awards Committees</p>
-    
+
     <h2 style="margin-bottom:20px"> Awards </h2>
     
     {% for award in awards %}
@@ -86,10 +86,22 @@
                 
                 {% if ae.talk %}
                 <div class="m-3 text-muted">
-                  {{ae.talk.session_name}}: {{ ae.talk.day }}
-                  <span class="session_times">{{ae.talk.time_string}}</span>
+                  {{ae.talk[0].session_name}}:
+                  {% for talk in ae.talk%}
+                  {% if ae.talk|length > 1%}
+                  <br>
+                  <p style="margin-left: 40px; margin-bottom: 0px">{{ talk.start_time.strftime("%b")}} {{talk.start_time.day}}
+                  <span class="session_times">{{"({}-{} PST)".format(talk.start_time.strftime("%H:%M"), talk.end_time.strftime("%H:%M"))}}</span>
                   
-                    [<a href="{{ae.talk.link}}" class="card-link">Link</a>]
+                    [<a href="{{talk.link}}" class="card-link">Link</a>]
+                  
+                  {% else %}
+                  {{ talk.start_time.strftime("%b")}} {{talk.start_time.day}}
+                    <span class="session_times">{{"({}-{} PST)".format(talk.start_time.strftime("%H:%M"), talk.end_time.strftime("%H:%M"))}}</span>
+                    
+                      [<a href="{{talk.link}}" class="card-link">Link</a>]<br>
+                  {% endif%}
+                  {% endfor %}
                   
                 </div>
                 {% endif %}

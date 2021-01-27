@@ -200,6 +200,20 @@ def livestream():
     return render_template("livestream.html", **data)
 
 
+@app.route("/invited_panels_program.html")
+def invited_panels():
+    data = _data()
+    data["invited_panels"] = site_data["invited_panels"]
+    data["invited_panels_days"] = site_data["invited_panels_days"]
+    return render_template("invited_panels_program.html", **data)
+
+@app.route("/invited_speaker_program.html")
+def invited_speaker():
+    data = _data()
+    data["invited_speakers"] = site_data["invited_speakers"]
+    data["invited_speakers_days"] = site_data["invited_speakers_days"]
+    return render_template("invited_speaker_program.html", **data)
+
 @app.route("/plenary_sessions.html")
 def plenary_sessions():
     data = _data()

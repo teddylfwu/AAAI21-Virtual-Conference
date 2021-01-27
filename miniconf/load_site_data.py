@@ -129,7 +129,7 @@ def load_site_data(
     generate_paper_events(site_data)     # en-yue, mingkai  Posters
     # TODO: generate_diversity_events(site_data) # liu-xiao  Diversity and Inclusion
 
-    # generate_social_events(site_data)
+    generate_social_events(site_data)
 
 
     site_data["calendar"] = build_schedule(site_data["overall_calendar"])
@@ -139,6 +139,14 @@ def load_site_data(
 
     # plenary_sessions.html
     plenary_sessions = build_plenary_sessions(
+        raw_plenary_sessions=site_data["plenary_sessions"],
+        raw_plenary_videos={"opening_remarks": site_data["opening_remarks"]},
+    )
+    invited_panels = build_invited_panels_sessions(
+        raw_plenary_sessions=site_data["plenary_sessions"],
+        raw_plenary_videos={"opening_remarks": site_data["opening_remarks"]},
+    )
+    invited_speakers = build_invited_speakers_sessions(
         raw_plenary_sessions=site_data["plenary_sessions"],
         raw_plenary_videos={"opening_remarks": site_data["opening_remarks"]},
     )
@@ -153,6 +161,22 @@ def load_site_data(
         [day.replace(" ", "").lower(), day, ""] for day in plenary_sessions
     ]
     site_data["plenary_session_days"][0][-1] = "active"
+
+
+    # invited panels
+
+    site_data["invited_panels"] = invited_panels
+    site_data["invited_panels_days"] = [
+        [day.replace(" ", "").lower(), day, ""] for day in invited_panels
+    ]
+    site_data["invited_panels_days"][0][-1] = "active"
+
+    # invited speaker
+    site_data["invited_speakers"] = invited_speakers
+    site_data["invited_speakers_days"] = [
+        [day.replace(" ", "").lower(), day, ""] for day in invited_speakers
+    ]
+    site_data["invited_speakers_days"][0][-1] = "active"
 
     # Papers' progam to their data
     for p in site_data["AI for Social Impact Track_papers"]:
@@ -295,7 +319,6 @@ def load_site_data(
     ]
     site_data["diversity_programs_days"].sort()
     site_data["diversity_programs_days"][0][-1] = "active"
-
     # organization awards
     awards = build_awards(site_data['awards'])
     site_data['awards'] = awards
@@ -417,10 +440,10 @@ def build_awards(raw_awards: List[Dict[str, Any]]) -> List[Award]:
                 paperlink=awardee['paperlink'] if 'paperlink' in awardee.keys() else None,
                 image=awardee['image'] if 'image' in awardee.keys() else None,
                 organization=awardee['organization'],
-                talk=SessionInfo(session_name = awardee['talk'][0]['session_name'], 
-                                start_time=awardee['talk'][0]['start_time'],
-                                end_time=awardee['talk'][0]['end_time'],
-                                link=awardee['talk'][0]['link']) 
+                talk=[SessionInfo(session_name = awardee['talk'][idx]['session_name'], 
+                                start_time=awardee['talk'][idx]['start_time'],
+                                end_time=awardee['talk'][idx]['end_time'],
+                                link=awardee['talk'][idx]['link']) for idx in range(len(awardee['talk']))]
                                 if 'talk' in awardee.keys() else None
             ) for awardee in award['awardees']]
         )
@@ -470,6 +493,103 @@ def build_plenary_sessions(
                 videos=plenary_videos.get(item["UID"]),
             )
         )
+
+    return plenary_sessions
+
+
+def build_invited_panels_sessions(
+    raw_plenary_sessions: List[Dict[str, Any]],
+    raw_plenary_videos: Dict[str, List[Dict[str, Any]]],
+) -> DefaultDict[str, List[PlenarySession]]:
+
+    plenary_videos: DefaultDict[str, List[PlenaryVideo]] = defaultdict(list)
+    for plenary_id, videos in raw_plenary_videos.items():
+        for item in videos:
+            if 'panel' in item["UID"]:
+                plenary_videos[plenary_id].append(
+                    PlenaryVideo(
+                        id=item["UID"],
+                        title=item["title"],
+                        speakers=item["speakers"],
+                        presentation_id=item["presentation_id"],
+                    )
+                )
+
+    plenary_sessions: DefaultDict[str, List[PlenarySession]] = defaultdict(list)
+    for item in raw_plenary_sessions:
+        if 'panel' in item["UID"]:
+            plenary_sessions[item["day"]].append(
+            PlenarySession(
+                id=item["UID"],
+                title=item["title"],
+                image=item["image"],
+                day=item["day"],
+                sessions=[
+                    SessionInfo(
+                        session_name=session.get("name"),
+                        start_time=session.get("start_time"),
+                        end_time=session.get("end_time"),
+                        link=session.get("zoom_link"),
+                    )
+                    for session in item.get("sessions")
+                ],
+                presenter=item.get("presenter"),
+                institution=item.get("institution"),
+                abstract=item.get("abstract"),
+                bio=item.get("bio"),
+                presentation_id=item.get("presentation_id"),
+                rocketchat_channel=item.get("rocketchat_channel"),
+                videos=plenary_videos.get(item["UID"]),
+            )
+            )
+
+    return plenary_sessions
+
+def build_invited_speakers_sessions(
+    raw_plenary_sessions: List[Dict[str, Any]],
+    raw_plenary_videos: Dict[str, List[Dict[str, Any]]],
+) -> DefaultDict[str, List[PlenarySession]]:
+
+    plenary_videos: DefaultDict[str, List[PlenaryVideo]] = defaultdict(list)
+    for plenary_id, videos in raw_plenary_videos.items():
+        for item in videos:
+            if 'speaker' in item["UID"]:
+                plenary_videos[plenary_id].append(
+                    PlenaryVideo(
+                        id=item["UID"],
+                        title=item["title"],
+                        speakers=item["speakers"],
+                        presentation_id=item["presentation_id"],
+                    )
+                )
+
+    plenary_sessions: DefaultDict[str, List[PlenarySession]] = defaultdict(list)
+    for item in raw_plenary_sessions:
+        if 'speaker' in item["UID"]:
+            plenary_sessions[item["day"]].append(
+            PlenarySession(
+                id=item["UID"],
+                title=item["title"],
+                image=item["image"],
+                day=item["day"],
+                sessions=[
+                    SessionInfo(
+                        session_name=session.get("name"),
+                        start_time=session.get("start_time"),
+                        end_time=session.get("end_time"),
+                        link=session.get("zoom_link"),
+                    )
+                    for session in item.get("sessions")
+                ],
+                presenter=item.get("presenter"),
+                institution=item.get("institution"),
+                abstract=item.get("abstract"),
+                bio=item.get("bio"),
+                presentation_id=item.get("presentation_id"),
+                rocketchat_channel=item.get("rocketchat_channel"),
+                videos=plenary_videos.get(item["UID"]),
+            )
+            )
 
     return plenary_sessions
 
@@ -750,7 +870,7 @@ def generate_paper_events(site_data: Dict[str, Any]):
             if "D4" in room:
                 tab_id = "feb7"
             event = {
-                "title": f"<b>Room:{room}, Cluser:{cluster}</b><br><i>{cluster_name}<i>",
+                "title": f"<b>Poster Session</b><br><span>Room:{room}, Cluser:{cluster}</span><br><i>{cluster_name}<i>",
                 "start": start,
                 "end": end,
                 "location": "",
@@ -775,19 +895,23 @@ def generate_social_events(site_data: Dict[str, Any]):
             end = session["end_time"]
 
             uid = social["UID"]
-            if uid.startswith("B"):
-                name = "<b>Birds of a Feather</b><br>" + social["name"]
-            elif uid.startswith("A"):
-                name = "<b>Affinity group meeting</b><br>" + social["name"]
-            else:
-                name = social["name"]
-
+            # if uid.startswith("B"):
+            #     name = "<b>Birds of a Feather</b><br>" + social["name"]
+            # elif uid.startswith("A"):
+            #     name = "<b>Affinity group meeting</b><br>" + social["name"]
+            # else:
+            name = social["name"]
+            # day = session.day.replace(" ", "").lower()
+            # start_time = start.astimezone(pytz.utc)
+            day = f'{start.strftime("%b")} {start.day}'
+            day = day.replace(" ", "")
+            # print(day)
             event = {
                 "title": name,
                 "start": start,
                 "end": end,
                 "location": "",
-                "link": f"socials.html",
+                "link": "diversity_programs.html#tab-{}".format(day),
                 "category": "time",
                 "type": "Diversity and Inclusion",
                 "view": "day",
@@ -801,21 +925,21 @@ def generate_social_events(site_data: Dict[str, Any]):
     blocks = compute_schedule_blocks(all_sessions)
 
     # Compute start and end of tutorial blocks
-    for block in blocks:
-        min_start = min([t["start_time"] for t in block])
-        max_end = max([t["end_time"] for t in block])
+    # for block in blocks:
+    #     min_start = min([t["start_time"] for t in block])
+    #     max_end = max([t["end_time"] for t in block])
 
-        event = {
-            "title": f"Socials",
-            "start": min_start,
-            "end": max_end,
-            "location": "",
-            "link": f"socials.html",
-            "category": "time",
-            "type": "Socials",
-            "view": "week",
-        }
-        site_data["overall_calendar"].append(event)
+    #     event = {
+    #         "title": f"Diversity Programs",
+    #         "start": min_start,
+    #         "end": max_end,
+    #         "location": "",
+    #         "link": f"diversity_programs.html",
+    #         "category": "time",
+    #         "type": "Diversity and Inclusion",
+    #         "view": "week",
+    #     }
+    #     site_data["overall_calendar"].append(event)
 
 
 def build_schedule(overall_calendar: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
@@ -1437,10 +1561,12 @@ def build_socials(raw_socials: List[Dict[str, Any]]) -> DefaultDict[str, List[So
                 )
         days = set()
         for session in event.sessions:
-
-            day = session.day
+            # print(session.start_time.month, session.start_time.day)
+            # return
+            day = f'{session.start_time.strftime("%b")} {session.start_time.day}'
             days.add(day)
         days = list(days)
+        # print(days)
         # print('---------------')
         
         for d in days:

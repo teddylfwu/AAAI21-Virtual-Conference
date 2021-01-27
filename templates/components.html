@@ -237,14 +237,10 @@
 
 
           {% for session in workshop.blocks %}
-              {% if workshop.id == "WS-19" %}
-                  <div class="m-3 text-center">Live Session (to be decided)</div>
-              {% else %}
-                  <div class="m-3 text-center">
-                    {{session.session}}
-                    <span class="session_times">{{session.time_string}}</span>
-                  </div>
-              {% endif %}
+              <div class="m-3 text-center">
+                {{session.session}}
+                <span class="session_times">{{session.time_string}}</span>
+              </div>
               <div class="text-center text-muted text-monospace">
                 <div class="paper-cal-links">
                   <img src="static/images/calendar.svg" class="paper-detail-calendar" height="24px">
@@ -350,7 +346,7 @@
   
           {% for session in social.sessions %}
             <div class="m-3 text-muted text-center">
-            {{session.session}}
+            Session {{session.name}}: {{ session.start_time.strftime("%b") }} {{ session.start_time.day }}
             <span class="session_times">{{session.time_string}}</span>
             {% if session.link %}
               <div>
