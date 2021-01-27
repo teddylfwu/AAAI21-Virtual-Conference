@@ -586,14 +586,9 @@
     var calendarNodeSpan;
     var parser = new DOMParser();
     var calendarNames = Array("google", "off365", "outlook", "ical");
-    console.log("into the function")
+    
     {% for social in diversity_programs %}
-    console.log("into the first loop")
-    console.log('{{social.sessions}}')
-    console.log('end first loop')
     {% for session in social.sessions%}
-    console.log('{{session}}')
-    console.log("into the second loop")
       // create a calendar by hand
       ouicalData = addToCalendarData({
         options: {
@@ -618,7 +613,7 @@
   
           // Event Description
           // NOTE: Cannot use abstract because of it is multi-line. Need to format it.
-          description: "something"
+          description: "{{social.description}}"
         }
       });
   
