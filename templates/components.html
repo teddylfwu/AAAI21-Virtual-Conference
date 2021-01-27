@@ -1151,7 +1151,7 @@
 
           <div class="m-3 text-muted text-center">
             <h4>
-              <a href="paper_{{uc.id}}.html" class="main-title" >
+              <a href="tutorial_{{uc.id}}.html" class="main-title" >
                 {{ uc.id }}: {{uc.title}}
               </a>
             </h4>
@@ -1183,12 +1183,12 @@
 <script src="static/js/add-to-calendar.js"></script>
 <script>
 
-  let ouicalData;
-  let targetNode;
-  let calendarNodeInner;
-  let calendarNodeSpan;
-  let parser = new DOMParser();
-  let calendarNames = Array("google", "off365", "outlook", "ical");
+  var ouicalData;
+  var targetNode;
+  var calendarNodeInner;
+  var calendarNodeSpan;
+  var parser = new DOMParser();
+  var calendarNames = Array("google", "off365", "outlook", "ical");
 
   {% for uc in tutorials_UC %}
   {% for session in uc.blocks %}
@@ -1216,7 +1216,7 @@
 
         // Event Description
         // NOTE: Cannot use abstract because of it is multi-line. Need to format it.
-        description: 'https://virtual.2020.emnlp.org/uc_{{ uc.id }}.html'
+        description: 'https://virtual.2021.aaai.org/tutorial_{{ uc.id }}.html'
       }
     });
 

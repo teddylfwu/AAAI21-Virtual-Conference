@@ -45,11 +45,125 @@
 
 {% endblock %}
 
+{% block tabs %}
+<ul class="nav nav-pills justify-content-center">
+  <li class="nav-item">
+    <a
+      class="nav-link active"
+      data-toggle="tab"
+      href="#tab-mq"
+      role="tab"
+      aria-controls="nav-home"
+      aria-selected="true"
+      >Morning Quarter-day Tutorials
+    </a>
+  </li>
+  <li class="nav-item">
+    <a
+      class="nav-link"
+      data-toggle="tab"
+      href="#tab-mh"
+      role="tab"
+      aria-controls="nav-home"
+      aria-selected="true"
+      >Morning Half-day Tutorials
+    </a>
+  </li>
+  <li class="nav-item">
+    <a
+      class="nav-link"
+      data-toggle="tab"
+      href="#tab-aq"
+      role="tab"
+      aria-controls="nav-home"
+      aria-selected="true"
+      >Afternoon Quarter-day Tutorials
+    </a>
+  </li>
+  <li class="nav-item">
+    <a
+      class="nav-link"
+      data-toggle="tab"
+      href="#tab-ah"
+      role="tab"
+      aria-controls="nav-home"
+      aria-selected="true"
+      >Afternoon Half-day Tutorials
+    </a>
+  </li>
+</ul>
+{% endblock %}
+
 {% block content %}
 
-<div class="tutorials">
-    {{ components.tutorialgroup(tutorials,tutorials_MQ,tutorials_MH,tutorials_AQ,tutorials_AH) }}
+{#<div class="tutorials">#}
+{#    {{ components.tutorialgroup(tutorials,tutorials_MQ,tutorials_MH,tutorials_AQ,tutorials_AH) }}#}
+{#</div>#}
+
+<div class="tab-content" id="nav-tabContent">
+
+  <div
+    class="tab-pane fade active show"
+    id="tab-mq"
+    role="tabpanel"
+    aria-labelledby="nav-profile-tab"
+  >
+
+    <div id="tab-mq">
+      <div class="plenary_sessions">
+        {{ components.uc_abstracts_group(tutorials_MQ) }}
+      </div>
+    </div>
+  </div>
+
+  <div
+    class="tab-pane fade"
+    id="tab-mh"
+    role="tabpanel"
+    aria-labelledby="nav-profile-tab"
+  >
+
+    <div id="tab-mh">
+      <div class="plenary_sessions">
+        {{ components.uc_abstracts_group(tutorials_MH) }}
+      </div>
+    </div>
+  </div>
+
+  <div
+    class="tab-pane fade"
+    id="tab-aq"
+    role="tabpanel"
+    aria-labelledby="nav-profile-tab"
+  >
+
+    <div id="tab-aq">
+      <div class="plenary_sessions">
+        {{ components.uc_abstracts_group(tutorials_AQ) }}
+      </div>
+    </div>
+  </div>
+
+  <div
+    class="tab-pane fade"
+    id="tab-ah"
+    role="tabpanel"
+    aria-labelledby="nav-profile-tab"
+  >
+
+    <div id="tab-ah">
+      <div class="plenary_sessions">
+        {{ components.uc_abstracts_group(tutorials_AH) }}
+      </div>
+    </div>
+  </div>
+
 </div>
+
+<script src="static/js/lazy_load.js"></script>
+<script type="text/javascript">
+  lazyLoader();
+</script>
 
 <script src="static/js/time-extend.js"></script>
 <script>

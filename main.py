@@ -428,6 +428,14 @@ def generator():
     tutorial: Tutorial
     for tutorial in site_data["tutorials"]:
         yield "tutorial", {"uid": tutorial.id}
+    for tutorial in site_data["tutorials_MQ"]:
+        yield "tutorial", {"uid": tutorial.id}
+    for tutorial in site_data["tutorials_MH"]:
+        yield "tutorial", {"uid": tutorial.id}
+    for tutorial in site_data["tutorials_AQ"]:
+        yield "tutorial", {"uid": tutorial.id}
+    for tutorial in site_data["tutorials_AH"]:
+        yield "tutorial", {"uid": tutorial.id}
     workshop: Workshop
     # for workshop in site_data["workshops"]:
     #     yield "workshop", {"uid": workshop.id}
