@@ -233,7 +233,7 @@ Panelists: Matthew Botvinick, Leslie Pack Kaelbling, Marta Kwiatkowska, Luis Lam
   title: 'AI Responses to the Covid-19 Pandemic'
   presentation_id: "38942827"
   day: Feb 7
-  image: [static/images/covid_panel/covid_1.jpeg,static/images/covid_panel/covid_2.jpg,static/images/covid_panel/covid_3.jpeg,static/images/covid_panel/covid_4.jpeg]
+  image: [static/images/covid_panel/covid_1.jpg,static/images/covid_panel/covid_2.jpg,static/images/covid_panel/covid_3.jpg,static/images/covid_panel/covid_4.jpg]
   sessions:
   - name: P-Live Presentation
     start_time: 2021-02-07 7:30:00+00:00
