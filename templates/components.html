@@ -553,11 +553,11 @@
   
         </div>
   
-        {% if social.rocketchat_channel %}
+        {% if social.website %}
         <p class="text-center text-muted card-title">
-          <a href="https://{{config.chat_server}}/channel/{{social.rocketchat_channel}}" target="_blank"> Chat </a>
-          {% if social.website %}
-            | <a href="{{social.website}}" target="_blank"> Website </a>
+            <a href="{{social.website}}" target="_blank"> Website </a>
+          {% if social.rocketchat_channel %}
+            | <a href="https://{{config.chat_server}}/channel/{{social.rocketchat_channel}}" target="_blank"> Chat </a>
           {% endif %}
           {% if social.zoom_link %}
             | <a href="{{social.zoom_link}}" target="_blank"> Zoom </a>

@@ -7,7 +7,7 @@
     - Rui Fan
   image: static/images/aaai2021/AAAI-logo.png
   website:  https://sites.google.com/view/ai4be
-  rocketchat_channel: TBD
+  rocketchat_channel:
   location: takes place online
   zoom_link: 
   sessions:
@@ -26,7 +26,7 @@
     - William Gray-Roncal
   image: static/images/aaai2021/AAAI-logo.png
   website: https://www.circuitinstitute.org/aaai21
-  rocketchat_channel: TBD
+  rocketchat_channel:
   location: takes place online
   zoom_link: 
   sessions:
@@ -42,7 +42,7 @@
     - Timnit Gebru
   image: static/images/aaai2021/AAAI-logo.png
   website: https://blackinai.github.io/#/
-  rocketchat_channel: TBD
+  rocketchat_channel:
   location: takes place online
   zoom_link: 
   sessions:
@@ -61,7 +61,7 @@
     - Andreea Danielescu
   image: static/images/aaai2021/AAAI-logo.png
   website: https://sites.google.com/view/gender-identity-and-ai/home
-  rocketchat_channel: TBD
+  rocketchat_channel:
   location: takes place online
   zoom_link: 
   sessions:
@@ -79,7 +79,7 @@
     - Bryant Gomer
   image: static/images/aaai2021/AAAI-logo.png
   website: https://docs.google.com/document/d/1CTHDlQGuC-lSyaSaOHUsre6gyNZ3fpirEC90uL61Brg/edit#
-  rocketchat_channel: TBD
+  rocketchat_channel:
   location: takes place online
   zoom_link: 
   sessions:
@@ -97,7 +97,7 @@
     - Benjamin Sanchez-Lengelin
   image: static/images/aaai2021/AAAI-logo.png
   website: https://sites.google.com/view/latinxperiences/home
-  rocketchat_channel: TBD
+  rocketchat_channel:
   location: takes place online
   zoom_link: 
   sessions:
@@ -114,7 +114,7 @@
     - Pablo Rivas
   image: static/images/aaai2021/AAAI-logo.png
   website: http://www.pages.drexel.edu/~rw37/midcar2021
-  rocketchat_channel: TBD
+  rocketchat_channel:
   location: takes place online
   zoom_link: 
   sessions:
@@ -140,7 +140,7 @@
     - Achille Fokoue
   image: static/images/aaai2021/AAAI-logo.png
   website: https://researcher.watson.ibm.com/researcher/view_group.php?id=10599
-  rocketchat_channel: TBD
+  rocketchat_channel:
   location: takes place Online
   zoom_link: 
   sessions:
@@ -180,7 +180,7 @@
     - Elena Zheleva
   image: static/images/aaai2021/AAAI-logo.png
   website: https://womenmentorinai.github.io/
-  rocketchat_channel: TBD
+  rocketchat_channel:
   location: takes place online
   zoom_link: 
   sessions:
@@ -197,7 +197,7 @@
     - William Hsu
   image: static/images/aaai2021/AAAI-logo.png
   website: http://www.diverseinai.com
-  rocketchat_channel: TBD
+  rocketchat_channel:
   location: takes place online
   zoom_link: 
   sessions:
@@ -214,7 +214,7 @@
     - William Agnew
   image: static/images/aaai2021/AAAI-logo.png
   website: https://queerinai.org/aaai-2021
-  rocketchat_channel: TBD
+  rocketchat_channel:
   location: takes place online
   zoom_link: 
   sessions:
