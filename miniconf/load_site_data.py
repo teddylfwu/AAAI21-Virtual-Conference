@@ -907,7 +907,7 @@ def generate_social_events(site_data: Dict[str, Any]):
             day = day.replace(" ", "")
             # print(day)
             event = {
-                "title": name,
+                "title": "<b>Diversity Program</b>: {}".format(name),
                 "start": start,
                 "end": end,
                 "location": "",
