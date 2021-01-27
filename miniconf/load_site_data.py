@@ -693,7 +693,7 @@ def generate_tutorial_events(site_data: Dict[str, Any]):
                 min_start = min([t["start_time"] for t in block])
                 max_end = max([t["end_time"] for t in block])
                 event = {
-                    "title": f"<b>AAAI-21 Tutorial Forum</b><br/>{uid}: {tutorial['title']}</b><br/><i>{tutorial['organizers']}</i>",
+                    "title": f"<b>Tutorial Forum</b><br/>{uid}: {tutorial['title']}</b><br/><i>{tutorial['organizers']}</i>",
                     "start": min_start,
                     "end": max_end,
                     "location": f"tutorial_{uid}.html",
