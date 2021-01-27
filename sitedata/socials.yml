@@ -7,7 +7,7 @@
     - Rui Fan
   image: static/images/aaai2021/AAAI-logo.png
   website:  https://sites.google.com/view/ai4be
-  rocketchat_channel: TBD
+  rocketchat_channel:
   location: takes place online
   zoom_link: 
   sessions:
@@ -16,14 +16,17 @@
     end_time: 2021-02-09 13:00:00-08:00
 
 - name: Accelerating the Pipeline of Trailblazing STEM Students
-  description: "We will discuss needs, best practices, and research to help trailblazing students pursue careers in AI. Trailblazers are high-potential students from under-resourced backgrounds (e.g., first-generation, low-income), under-represented backgrounds (e.g., African American, Latinx, Native American, women), and others with limited exposure to research opportunities or mentoring. These learners represent a highly capable, under-utilized resource.\n We will highlight a successful pilot program called “Cohort-based Integrated Research Community for Undergraduate Innovation and Trailblazing” (CIRCUIT - www.circuitinstitute.org) at the Johns Hopkins University Applied Physics Laboratory that aims to create a new talent pipeline facilitating the transition of trailblazing undergraduate students into advanced STEM degrees and careers, while achieving mission impact. \n Our workshop will provide an avenue for discussion and potential solutions, including opportunities related to virtual education and the COVID-19 pandemic."
+  description: |-
+    We will discuss needs, best practices, and research to help trailblazing students pursue careers in AI. Trailblazers are high-potential students from under-resourced backgrounds (e.g., first-generation, low-income), under-represented backgrounds (e.g., African American, Latinx, Native American, women), and others with limited exposure to research opportunities or mentoring. These learners represent a highly capable, under-utilized resource.
+    We will highlight a successful pilot program called “Cohort-based Integrated Research Community for Undergraduate Innovation and Trailblazing” (CIRCUIT - www.circuitinstitute.org) at the Johns Hopkins University Applied Physics Laboratory that aims to create a new talent pipeline facilitating the transition of trailblazing undergraduate students into advanced STEM degrees and careers, while achieving mission impact.
+    Our workshop will provide an avenue for discussion and potential solutions, including opportunities related to virtual education and the COVID-19 pandemic.
   UID: A2
   organizers:
     members:
     - William Gray-Roncal
   image: static/images/aaai2021/AAAI-logo.png
   website: https://www.circuitinstitute.org/aaai21
-  rocketchat_channel: TBD
+  rocketchat_channel:
   location: takes place online
   zoom_link: 
   sessions:
@@ -39,7 +42,7 @@
     - Timnit Gebru
   image: static/images/aaai2021/AAAI-logo.png
   website: https://blackinai.github.io/#/
-  rocketchat_channel: TBD
+  rocketchat_channel:
   location: takes place online
   zoom_link: 
   sessions:
@@ -58,7 +61,7 @@
     - Andreea Danielescu
   image: static/images/aaai2021/AAAI-logo.png
   website: https://sites.google.com/view/gender-identity-and-ai/home
-  rocketchat_channel: TBD
+  rocketchat_channel:
   location: takes place online
   zoom_link: 
   sessions:
@@ -76,7 +79,7 @@
     - Bryant Gomer
   image: static/images/aaai2021/AAAI-logo.png
   website: https://docs.google.com/document/d/1CTHDlQGuC-lSyaSaOHUsre6gyNZ3fpirEC90uL61Brg/edit#
-  rocketchat_channel: TBD
+  rocketchat_channel:
   location: takes place online
   zoom_link: 
   sessions:
@@ -94,7 +97,7 @@
     - Benjamin Sanchez-Lengelin
   image: static/images/aaai2021/AAAI-logo.png
   website: https://sites.google.com/view/latinxperiences/home
-  rocketchat_channel: TBD
+  rocketchat_channel:
   location: takes place online
   zoom_link: 
   sessions:
@@ -111,7 +114,7 @@
     - Pablo Rivas
   image: static/images/aaai2021/AAAI-logo.png
   website: http://www.pages.drexel.edu/~rw37/midcar2021
-  rocketchat_channel: TBD
+  rocketchat_channel:
   location: takes place online
   zoom_link: 
   sessions:
@@ -120,15 +123,11 @@
     end_time: 2021-02-06 14:30:00-08:00
 
 - name: "Reframing Diversity in AI: Representation, Inclusion and Power"
-  description: |
-    The number of minorities in the tech industry is disproportionately low when compared to the US and world population. This lack of diversity often leads to new technology and solutions that contribute to and sometimes amplify systemic racism. We maintain that part of the effort in increasing diversity in AI should be focused on reforming our perspectives, reshaping our institutions and enabling equitable participation and influence at every level of an organization or institution. 
-    <br/>
+  description: |-
+    The number of minorities in the tech industry is disproportionately low when compared to the US and world population. This lack of diversity often leads to new technology and solutions that contribute to and sometimes amplify systemic racism. We maintain that part of the effort in increasing diversity in AI should be focused on reforming our perspectives, reshaping our institutions and enabling equitable participation and influence at every level of an organization or institution.
     The Reframing Diversity in AI: Representation, Inclusion, and Power workshop is a one-day event that will bring together academic and industrial researchers to explore, frame, and implement inclusive solutions across three topic areas:
-    <br/>
     1. The use of technology to address systemic racism as a means to reduce historical barriers of opportunity
-    <br/>
     2. The need for inclusion of members of key groups including Black and Latino individuals in the concept, design and testing of technical solutions
-    <br/>
     3. Participation in key decision-making roles to influence all aspects of minority engagement
 
   UID: A8
@@ -141,7 +140,7 @@
     - Achille Fokoue
   image: static/images/aaai2021/AAAI-logo.png
   website: https://researcher.watson.ibm.com/researcher/view_group.php?id=10599
-  rocketchat_channel: TBD
+  rocketchat_channel:
   location: takes place Online
   zoom_link: 
   sessions:
@@ -181,7 +180,7 @@
     - Elena Zheleva
   image: static/images/aaai2021/AAAI-logo.png
   website: https://womenmentorinai.github.io/
-  rocketchat_channel: TBD
+  rocketchat_channel:
   location: takes place online
   zoom_link: 
   sessions:
@@ -198,7 +197,7 @@
     - William Hsu
   image: static/images/aaai2021/AAAI-logo.png
   website: http://www.diverseinai.com
-  rocketchat_channel: TBD
+  rocketchat_channel:
   location: takes place online
   zoom_link: 
   sessions:
@@ -215,7 +214,7 @@
     - William Agnew
   image: static/images/aaai2021/AAAI-logo.png
   website: https://queerinai.org/aaai-2021
-  rocketchat_channel: TBD
+  rocketchat_channel:
   location: takes place online
   zoom_link: 
   sessions:
