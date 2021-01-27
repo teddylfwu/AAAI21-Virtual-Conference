@@ -148,6 +148,14 @@
   description: |
     The Wadhwani Institute for Artificial Intelligence was founded with the vision of applying the power of AI to complex challenges faced by people in the developing world. We are an independent, nonprofit research institute and global hub, developing and deploying AI solutions for social impact. We collaborate with academic institutions, governments, social sector organisations and domain experts to identify real-world challenges, create and deploy innovative machine learning and data science solutions to reach intended beneficiaries ®C with the objective of making a positive difference at both individual and systemic levels. Currently, we are building solutions in agriculture and in healthcare domains such as maternal, newborn and child health and infectious diseases.
 
+- name: Morgan & Claypool
+  level: Exhibitor
+  logo: morgan.jpeg
+  logoontop: true
+  website: https://www.morganclaypoolpublishers.com/aiml
+  description: |
+    The Wadhwani Institute for Artificial Intelligence was founded with the vision of applying the power of AI to complex challenges faced by people in the developing world. We are an independent, nonprofit research institute and global hub, developing and deploying AI solutions for social impact. We collaborate with academic institutions, governments, social sector organisations and domain experts to identify real-world challenges, create and deploy innovative machine learning and data science solutions to reach intended beneficiaries ®C with the objective of making a positive difference at both individual and systemic levels. Currently, we are building solutions in agriculture and in healthcare domains such as maternal, newborn and child health and infectious diseases.
+
 # - name: DeepMind
 #   levels:
 #   - Platinum
