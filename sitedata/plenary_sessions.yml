@@ -307,7 +307,7 @@ Panelists: Matthew Botvinick, Leslie Pack Kaelbling, Marta Kwiatkowska, Luis Lam
   day: Feb 4
   image: [static/images/aiinpractice/PANEL 1 - Ruben Lobel copy.jpg,static/images/aiinpractice/PANEL 1 - Polly Mitchell-Guthrie.jpg,static/images/aiinpractice/PANEL 1 - Jagannath Putrevu.JPG,static/images/aiinpractice/PANEL 1 - Chi Zhang.jpeg]
   sessions:
-  - name:
+  - name: P-Live Presentation
     start_time: 2021-02-04 23:00:00-08:00
     end_time: 2021-02-05 00:00:00-08:00
   rocketchat_channel:
@@ -373,7 +373,7 @@ Panelists: Apeksha Kumavat, Chief Engineer, Gatik; Ethan McCreadie, Engineering 
   day: Feb 6
   image: [static/images/aiinpractice/PANEL 3 - Alexander Denev.jpg,static/images/aiinpractice/PANEL 3 - Adriano Koshiyama.jpg]
   sessions:
-  - name:
+  - name: P-Live Presentation
     start_time: 2021-02-06 11:00:00-08:00
     end_time: 2021-02-07 00:00:00-08:00
   rocketchat_channel:
