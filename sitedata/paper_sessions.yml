@@ -1870,3 +1870,819 @@ L-AC-D4-R2-G:
     start_time: 2021-02-08 00:45:00-08:00
     end_time: 2021-02-08 02:30:00-08:00
     cluster_name: 'Vision: Segmentation'
+A-IAAI-D1-C:
+     start_time: 2021-02-04 08:45:00-08:00
+     end_time: 2021-02-04 10:30:00-08:00
+     cluster_name: 'commerce'
+B-IAAI-D1-C:
+     start_time: 2021-02-04 16:45:00-08:00
+     end_time: 2021-02-04 18:30:00-08:00
+     cluster_name: 'commerce'
+C-IAAI-D1-C:
+     start_time: 2021-02-04 00:45:00-08:00
+     end_time: 2021-02-04 02:30:00-08:00
+     cluster_name: 'commerce'
+A-IAAI-D3-D:
+     start_time: 2021-02-06 08:45:00-08:00
+     end_time: 2021-02-06 10:30:00-08:00
+     cluster_name: 'covid/driving/IT'
+B-IAAI-D3-D:
+     start_time: 2021-02-06 16:45:00-08:00
+     end_time: 2021-02-06 18:30:00-08:00
+     cluster_name: 'covid/driving/IT'
+C-IAAI-D3-D:
+     start_time: 2021-02-06 00:45:00-08:00
+     end_time: 2021-02-06 02:30:00-08:00
+     cluster_name: 'covid/driving/IT'
+A-IAAI-D2-D:
+     start_time: 2021-02-05 08:45:00-08:00
+     end_time: 2021-02-05 10:30:00-08:00
+     cluster_name: 'prediction/NLP'
+B-IAAI-D2-D:
+     start_time: 2021-02-05 16:45:00-08:00
+     end_time: 2021-02-05 18:30:00-08:00
+     cluster_name: 'prediction/NLP'
+C-IAAI-D2-D:
+     start_time: 2021-02-05 00:45:00-08:00
+     end_time: 2021-02-05 02:30:00-08:00
+     cluster_name: 'prediction/NLP'
+A-IAAI-D3-B:
+     start_time: 2021-02-06 08:45:00-08:00
+     end_time: 2021-02-06 10:30:00-08:00
+     cluster_name: 'bioscience/AI'
+B-IAAI-D3-B:
+     start_time: 2021-02-06 16:45:00-08:00
+     end_time: 2021-02-06 18:30:00-08:00
+     cluster_name: 'bioscience/AI'
+C-IAAI-D3-B:
+     start_time: 2021-02-06 00:45:00-08:00
+     end_time: 2021-02-06 02:30:00-08:00
+     cluster_name: 'bioscience/AI'
+A-IAAI-D3-C:
+     start_time: 2021-02-06 08:45:00-08:00
+     end_time: 2021-02-06 10:30:00-08:00
+     cluster_name: 'bioscience'
+B-IAAI-D3-C:
+     start_time: 2021-02-06 16:45:00-08:00
+     end_time: 2021-02-06 18:30:00-08:00
+     cluster_name: 'bioscience'
+C-IAAI-D3-C:
+     start_time: 2021-02-06 00:45:00-08:00
+     end_time: 2021-02-06 02:30:00-08:00
+     cluster_name: 'bioscience'
+A-IAAI-D2-B:
+     start_time: 2021-02-05 08:45:00-08:00
+     end_time: 2021-02-05 10:30:00-08:00
+     cluster_name: 'knowledge'
+B-IAAI-D2-B:
+     start_time: 2021-02-05 16:45:00-08:00
+     end_time: 2021-02-05 18:30:00-08:00
+     cluster_name: 'knowledge'
+C-IAAI-D2-B:
+     start_time: 2021-02-05 00:45:00-08:00
+     end_time: 2021-02-05 02:30:00-08:00
+     cluster_name: 'knowledge'
+A-IAAI-D2-C:
+     start_time: 2021-02-05 08:45:00-08:00
+     end_time: 2021-02-05 10:30:00-08:00
+     cluster_name: 'knowledge'
+B-IAAI-D2-C:
+     start_time: 2021-02-05 16:45:00-08:00
+     end_time: 2021-02-05 18:30:00-08:00
+     cluster_name: 'knowledge'
+C-IAAI-D2-C:
+     start_time: 2021-02-05 00:45:00-08:00
+     end_time: 2021-02-05 02:30:00-08:00
+     cluster_name: 'knowledge'
+A-IAAI-D1-B:
+     start_time: 2021-02-04 08:45:00-08:00
+     end_time: 2021-02-04 10:30:00-08:00
+     cluster_name: 'commerce'
+B-IAAI-D1-B:
+     start_time: 2021-02-04 16:45:00-08:00
+     end_time: 2021-02-04 18:30:00-08:00
+     cluster_name: 'commerce'
+C-IAAI-D1-B:
+     start_time: 2021-02-04 00:45:00-08:00
+     end_time: 2021-02-04 02:30:00-08:00
+     cluster_name: 'commerce'
+A-IAAI-D3-A:
+     start_time: 2021-02-06 08:45:00-08:00
+     end_time: 2021-02-06 10:30:00-08:00
+     cluster_name: 'AI'
+B-IAAI-D3-A:
+     start_time: 2021-02-06 16:45:00-08:00
+     end_time: 2021-02-06 18:30:00-08:00
+     cluster_name: 'AI'
+C-IAAI-D3-A:
+     start_time: 2021-02-06 00:45:00-08:00
+     end_time: 2021-02-06 02:30:00-08:00
+     cluster_name: 'AI'
+A-IAAI-D1-A:
+     start_time: 2021-02-04 08:45:00-08:00
+     end_time: 2021-02-04 10:30:00-08:00
+     cluster_name: 'aerospace/commerce'
+B-IAAI-D1-A:
+     start_time: 2021-02-04 16:45:00-08:00
+     end_time: 2021-02-04 18:30:00-08:00
+     cluster_name: 'aerospace/commerce'
+C-IAAI-D1-A:
+     start_time: 2021-02-04 00:45:00-08:00
+     end_time: 2021-02-04 02:30:00-08:00
+     cluster_name: 'aerospace/commerce'
+A-IAAI-D2-A:
+     start_time: 2021-02-05 08:45:00-08:00
+     end_time: 2021-02-05 10:30:00-08:00
+     cluster_name: 'engineering'
+B-IAAI-D2-A:
+     start_time: 2021-02-05 16:45:00-08:00
+     end_time: 2021-02-05 18:30:00-08:00
+     cluster_name: 'engineering'
+C-IAAI-D2-A:
+     start_time: 2021-02-05 00:45:00-08:00
+     end_time: 2021-02-05 02:30:00-08:00
+     cluster_name: 'engineering'
+A-IAAI-D1-D:
+     start_time: 2021-02-04 08:45:00-08:00
+     end_time: 2021-02-04 10:30:00-08:00
+     cluster_name: 'security'
+B-IAAI-D1-D:
+     start_time: 2021-02-04 16:45:00-08:00
+     end_time: 2021-02-04 18:30:00-08:00
+     cluster_name: 'security'
+C-IAAI-D1-D:
+     start_time: 2021-02-04 00:45:00-08:00
+     end_time: 2021-02-04 02:30:00-08:00
+     cluster_name: 'security'
+A-UC-D1-A:
+     start_time: 2021-02-04 08:45:00-08:00
+     end_time: 2021-02-04 10:30:00-08:00
+     cluster_name: 'Undergraduate Consortium'
+B-UC-D1-A:
+     start_time: 2021-02-04 16:45:00-08:00
+     end_time: 2021-02-04 18:30:00-08:00
+     cluster_name: 'Undergraduate Consortium'
+C-UC-D1-A:
+     start_time: 2021-02-04 00:45:00-08:00
+     end_time: 2021-02-04 02:30:00-08:00
+     cluster_name: 'Undergraduate Consortium'
+A-UC-D1-B:
+     start_time: 2021-02-04 08:45:00-08:00
+     end_time: 2021-02-04 10:30:00-08:00
+     cluster_name: 'Undergraduate Consortium'
+B-UC-D1-B:
+     start_time: 2021-02-04 16:45:00-08:00
+     end_time: 2021-02-04 18:30:00-08:00
+     cluster_name: 'Undergraduate Consortium'
+C-UC-D1-B:
+     start_time: 2021-02-04 00:45:00-08:00
+     end_time: 2021-02-04 02:30:00-08:00
+     cluster_name: 'Undergraduate Consortium'
+A-SA-D2-E:
+     start_time: 2021-02-05 08:45:00-08:00
+     end_time: 2021-02-05 10:30:00-08:00
+     cluster_name: 'Student Abstracts'
+B-SA-D2-E:
+     start_time: 2021-02-05 16:45:00-08:00
+     end_time: 2021-02-05 18:30:00-08:00
+     cluster_name: 'Student Abstracts'
+C-SA-D2-E:
+     start_time: 2021-02-05 00:45:00-08:00
+     end_time: 2021-02-05 02:30:00-08:00
+     cluster_name: 'Student Abstracts'
+A-SA-D4-B:
+     start_time: 2021-02-07 08:45:00-08:00
+     end_time: 2021-02-07 10:30:00-08:00
+     cluster_name: 'Student Abstracts'
+B-SA-D4-B:
+     start_time: 2021-02-07 16:45:00-08:00
+     end_time: 2021-02-07 18:30:00-08:00
+     cluster_name: 'Student Abstracts'
+C-SA-D4-B:
+     start_time: 2021-02-07 00:45:00-08:00
+     end_time: 2021-02-07 02:30:00-08:00
+     cluster_name: 'Student Abstracts'
+A-SA-D2-F:
+     start_time: 2021-02-05 08:45:00-08:00
+     end_time: 2021-02-05 10:30:00-08:00
+     cluster_name: 'Student Abstracts'
+B-SA-D2-F:
+     start_time: 2021-02-05 16:45:00-08:00
+     end_time: 2021-02-05 18:30:00-08:00
+     cluster_name: 'Student Abstracts'
+C-SA-D2-F:
+     start_time: 2021-02-05 00:45:00-08:00
+     end_time: 2021-02-05 02:30:00-08:00
+     cluster_name: 'Student Abstracts'
+A-SA-D4-A:
+     start_time: 2021-02-07 08:45:00-08:00
+     end_time: 2021-02-07 10:30:00-08:00
+     cluster_name: 'Student Abstracts'
+B-SA-D4-A:
+     start_time: 2021-02-07 16:45:00-08:00
+     end_time: 2021-02-07 18:30:00-08:00
+     cluster_name: 'Student Abstracts'
+C-SA-D4-A:
+     start_time: 2021-02-07 00:45:00-08:00
+     end_time: 2021-02-07 02:30:00-08:00
+     cluster_name: 'Student Abstracts'
+A-SA-D4-F:
+     start_time: 2021-02-07 08:45:00-08:00
+     end_time: 2021-02-07 10:30:00-08:00
+     cluster_name: 'Student Abstracts'
+B-SA-D4-F:
+     start_time: 2021-02-07 16:45:00-08:00
+     end_time: 2021-02-07 18:30:00-08:00
+     cluster_name: 'Student Abstracts'
+C-SA-D4-F:
+     start_time: 2021-02-07 00:45:00-08:00
+     end_time: 2021-02-07 02:30:00-08:00
+     cluster_name: 'Student Abstracts'
+A-SA-D1-C:
+     start_time: 2021-02-04 08:45:00-08:00
+     end_time: 2021-02-04 10:30:00-08:00
+     cluster_name: 'Student Abstracts'
+B-SA-D1-C:
+     start_time: 2021-02-04 16:45:00-08:00
+     end_time: 2021-02-04 18:30:00-08:00
+     cluster_name: 'Student Abstracts'
+C-SA-D1-C:
+     start_time: 2021-02-04 00:45:00-08:00
+     end_time: 2021-02-04 02:30:00-08:00
+     cluster_name: 'Student Abstracts'
+A-SA-D3-F:
+     start_time: 2021-02-06 08:45:00-08:00
+     end_time: 2021-02-06 10:30:00-08:00
+     cluster_name: 'Student Abstracts'
+B-SA-D3-F:
+     start_time: 2021-02-06 16:45:00-08:00
+     end_time: 2021-02-06 18:30:00-08:00
+     cluster_name: 'Student Abstracts'
+C-SA-D3-F:
+     start_time: 2021-02-06 00:45:00-08:00
+     end_time: 2021-02-06 02:30:00-08:00
+     cluster_name: 'Student Abstracts'
+A-SA-D1-E:
+     start_time: 2021-02-04 08:45:00-08:00
+     end_time: 2021-02-04 10:30:00-08:00
+     cluster_name: 'Student Abstracts'
+B-SA-D1-E:
+     start_time: 2021-02-04 16:45:00-08:00
+     end_time: 2021-02-04 18:30:00-08:00
+     cluster_name: 'Student Abstracts'
+C-SA-D1-E:
+     start_time: 2021-02-04 00:45:00-08:00
+     end_time: 2021-02-04 02:30:00-08:00
+     cluster_name: 'Student Abstracts'
+A-SA-D3-D:
+     start_time: 2021-02-06 08:45:00-08:00
+     end_time: 2021-02-06 10:30:00-08:00
+     cluster_name: 'Student Abstracts'
+B-SA-D3-D:
+     start_time: 2021-02-06 16:45:00-08:00
+     end_time: 2021-02-06 18:30:00-08:00
+     cluster_name: 'Student Abstracts'
+C-SA-D3-D:
+     start_time: 2021-02-06 00:45:00-08:00
+     end_time: 2021-02-06 02:30:00-08:00
+     cluster_name: 'Student Abstracts'
+A-SA-D2-C:
+     start_time: 2021-02-05 08:45:00-08:00
+     end_time: 2021-02-05 10:30:00-08:00
+     cluster_name: 'Student Abstracts'
+B-SA-D2-C:
+     start_time: 2021-02-05 16:45:00-08:00
+     end_time: 2021-02-05 18:30:00-08:00
+     cluster_name: 'Student Abstracts'
+C-SA-D2-C:
+     start_time: 2021-02-05 00:45:00-08:00
+     end_time: 2021-02-05 02:30:00-08:00
+     cluster_name: 'Student Abstracts'
+A-SA-D1-D:
+     start_time: 2021-02-04 08:45:00-08:00
+     end_time: 2021-02-04 10:30:00-08:00
+     cluster_name: 'Student Abstracts'
+B-SA-D1-D:
+     start_time: 2021-02-04 16:45:00-08:00
+     end_time: 2021-02-04 18:30:00-08:00
+     cluster_name: 'Student Abstracts'
+C-SA-D1-D:
+     start_time: 2021-02-04 00:45:00-08:00
+     end_time: 2021-02-04 02:30:00-08:00
+     cluster_name: 'Student Abstracts'
+A-SA-D3-A:
+     start_time: 2021-02-06 08:45:00-08:00
+     end_time: 2021-02-06 10:30:00-08:00
+     cluster_name: 'Student Abstracts'
+B-SA-D3-A:
+     start_time: 2021-02-06 16:45:00-08:00
+     end_time: 2021-02-06 18:30:00-08:00
+     cluster_name: 'Student Abstracts'
+C-SA-D3-A:
+     start_time: 2021-02-06 00:45:00-08:00
+     end_time: 2021-02-06 02:30:00-08:00
+     cluster_name: 'Student Abstracts'
+A-SA-D4-E:
+     start_time: 2021-02-07 08:45:00-08:00
+     end_time: 2021-02-07 10:30:00-08:00
+     cluster_name: 'Student Abstracts'
+B-SA-D4-E:
+     start_time: 2021-02-07 16:45:00-08:00
+     end_time: 2021-02-07 18:30:00-08:00
+     cluster_name: 'Student Abstracts'
+C-SA-D4-E:
+     start_time: 2021-02-07 00:45:00-08:00
+     end_time: 2021-02-07 02:30:00-08:00
+     cluster_name: 'Student Abstracts'
+A-SA-D2-B:
+     start_time: 2021-02-05 08:45:00-08:00
+     end_time: 2021-02-05 10:30:00-08:00
+     cluster_name: 'Student Abstracts'
+B-SA-D2-B:
+     start_time: 2021-02-05 16:45:00-08:00
+     end_time: 2021-02-05 18:30:00-08:00
+     cluster_name: 'Student Abstracts'
+C-SA-D2-B:
+     start_time: 2021-02-05 00:45:00-08:00
+     end_time: 2021-02-05 02:30:00-08:00
+     cluster_name: 'Student Abstracts'
+A-SA-D2-D:
+     start_time: 2021-02-05 08:45:00-08:00
+     end_time: 2021-02-05 10:30:00-08:00
+     cluster_name: 'Student Abstracts'
+B-SA-D2-D:
+     start_time: 2021-02-05 16:45:00-08:00
+     end_time: 2021-02-05 18:30:00-08:00
+     cluster_name: 'Student Abstracts'
+C-SA-D2-D:
+     start_time: 2021-02-05 00:45:00-08:00
+     end_time: 2021-02-05 02:30:00-08:00
+     cluster_name: 'Student Abstracts'
+A-SA-D1-B:
+     start_time: 2021-02-04 08:45:00-08:00
+     end_time: 2021-02-04 10:30:00-08:00
+     cluster_name: 'Student Abstracts'
+B-SA-D1-B:
+     start_time: 2021-02-04 16:45:00-08:00
+     end_time: 2021-02-04 18:30:00-08:00
+     cluster_name: 'Student Abstracts'
+C-SA-D1-B:
+     start_time: 2021-02-04 00:45:00-08:00
+     end_time: 2021-02-04 02:30:00-08:00
+     cluster_name: 'Student Abstracts'
+A-SA-D4-C:
+     start_time: 2021-02-07 08:45:00-08:00
+     end_time: 2021-02-07 10:30:00-08:00
+     cluster_name: 'Student Abstracts'
+B-SA-D4-C:
+     start_time: 2021-02-07 16:45:00-08:00
+     end_time: 2021-02-07 18:30:00-08:00
+     cluster_name: 'Student Abstracts'
+C-SA-D4-C:
+     start_time: 2021-02-07 00:45:00-08:00
+     end_time: 2021-02-07 02:30:00-08:00
+     cluster_name: 'Student Abstracts'
+A-SA-D3-C:
+     start_time: 2021-02-06 08:45:00-08:00
+     end_time: 2021-02-06 10:30:00-08:00
+     cluster_name: 'Student Abstracts'
+B-SA-D3-C:
+     start_time: 2021-02-06 16:45:00-08:00
+     end_time: 2021-02-06 18:30:00-08:00
+     cluster_name: 'Student Abstracts'
+C-SA-D3-C:
+     start_time: 2021-02-06 00:45:00-08:00
+     end_time: 2021-02-06 02:30:00-08:00
+     cluster_name: 'Student Abstracts'
+A-SA-D3-E:
+     start_time: 2021-02-06 08:45:00-08:00
+     end_time: 2021-02-06 10:30:00-08:00
+     cluster_name: 'Student Abstracts'
+B-SA-D3-E:
+     start_time: 2021-02-06 16:45:00-08:00
+     end_time: 2021-02-06 18:30:00-08:00
+     cluster_name: 'Student Abstracts'
+C-SA-D3-E:
+     start_time: 2021-02-06 00:45:00-08:00
+     end_time: 2021-02-06 02:30:00-08:00
+     cluster_name: 'Student Abstracts'
+A-SA-D2-A:
+     start_time: 2021-02-05 08:45:00-08:00
+     end_time: 2021-02-05 10:30:00-08:00
+     cluster_name: 'Student Abstracts'
+B-SA-D2-A:
+     start_time: 2021-02-05 16:45:00-08:00
+     end_time: 2021-02-05 18:30:00-08:00
+     cluster_name: 'Student Abstracts'
+C-SA-D2-A:
+     start_time: 2021-02-05 00:45:00-08:00
+     end_time: 2021-02-05 02:30:00-08:00
+     cluster_name: 'Student Abstracts'
+A-SA-D3-B:
+     start_time: 2021-02-06 08:45:00-08:00
+     end_time: 2021-02-06 10:30:00-08:00
+     cluster_name: 'Student Abstracts'
+B-SA-D3-B:
+     start_time: 2021-02-06 16:45:00-08:00
+     end_time: 2021-02-06 18:30:00-08:00
+     cluster_name: 'Student Abstracts'
+C-SA-D3-B:
+     start_time: 2021-02-06 00:45:00-08:00
+     end_time: 2021-02-06 02:30:00-08:00
+     cluster_name: 'Student Abstracts'
+A-SA-D4-D:
+     start_time: 2021-02-07 08:45:00-08:00
+     end_time: 2021-02-07 10:30:00-08:00
+     cluster_name: 'Student Abstracts'
+B-SA-D4-D:
+     start_time: 2021-02-07 16:45:00-08:00
+     end_time: 2021-02-07 18:30:00-08:00
+     cluster_name: 'Student Abstracts'
+C-SA-D4-D:
+     start_time: 2021-02-07 00:45:00-08:00
+     end_time: 2021-02-07 02:30:00-08:00
+     cluster_name: 'Student Abstracts'
+A-SA-D1-A:
+     start_time: 2021-02-04 08:45:00-08:00
+     end_time: 2021-02-04 10:30:00-08:00
+     cluster_name: 'Student Abstracts'
+B-SA-D1-A:
+     start_time: 2021-02-04 16:45:00-08:00
+     end_time: 2021-02-04 18:30:00-08:00
+     cluster_name: 'Student Abstracts'
+C-SA-D1-A:
+     start_time: 2021-02-04 00:45:00-08:00
+     end_time: 2021-02-04 02:30:00-08:00
+     cluster_name: 'Student Abstracts'
+A-SA-D1-F:
+     start_time: 2021-02-04 08:45:00-08:00
+     end_time: 2021-02-04 10:30:00-08:00
+     cluster_name: 'Student Abstracts'
+B-SA-D1-F:
+     start_time: 2021-02-04 16:45:00-08:00
+     end_time: 2021-02-04 18:30:00-08:00
+     cluster_name: 'Student Abstracts'
+C-SA-D1-F:
+     start_time: 2021-02-04 00:45:00-08:00
+     end_time: 2021-02-04 02:30:00-08:00
+     cluster_name: 'Student Abstracts'
+A-DC-D1-B:
+     start_time: 2021-02-04 08:45:00-08:00
+     end_time: 2021-02-04 10:30:00-08:00
+     cluster_name: 'Doctoral Consortium'
+B-DC-D1-B:
+     start_time: 2021-02-04 16:45:00-08:00
+     end_time: 2021-02-04 18:30:00-08:00
+     cluster_name: 'Doctoral Consortium'
+C-DC-D1-B:
+     start_time: 2021-02-04 00:45:00-08:00
+     end_time: 2021-02-04 02:30:00-08:00
+     cluster_name: 'Doctoral Consortium'
+A-DC-D1-D:
+     start_time: 2021-02-04 08:45:00-08:00
+     end_time: 2021-02-04 10:30:00-08:00
+     cluster_name: 'Doctoral Consortium'
+B-DC-D1-D:
+     start_time: 2021-02-04 16:45:00-08:00
+     end_time: 2021-02-04 18:30:00-08:00
+     cluster_name: 'Doctoral Consortium'
+C-DC-D1-D:
+     start_time: 2021-02-04 00:45:00-08:00
+     end_time: 2021-02-04 02:30:00-08:00
+     cluster_name: 'Doctoral Consortium'
+A-DC-D1-C:
+     start_time: 2021-02-04 08:45:00-08:00
+     end_time: 2021-02-04 10:30:00-08:00
+     cluster_name: 'Doctoral Consortium'
+B-DC-D1-C:
+     start_time: 2021-02-04 16:45:00-08:00
+     end_time: 2021-02-04 18:30:00-08:00
+     cluster_name: 'Doctoral Consortium'
+C-DC-D1-C:
+     start_time: 2021-02-04 00:45:00-08:00
+     end_time: 2021-02-04 02:30:00-08:00
+     cluster_name: 'Doctoral Consortium'
+A-DC-D1-A:
+     start_time: 2021-02-04 08:45:00-08:00
+     end_time: 2021-02-04 10:30:00-08:00
+     cluster_name: 'Doctoral Consortium'
+B-DC-D1-A:
+     start_time: 2021-02-04 16:45:00-08:00
+     end_time: 2021-02-04 18:30:00-08:00
+     cluster_name: 'Doctoral Consortium'
+C-DC-D1-A:
+     start_time: 2021-02-04 00:45:00-08:00
+     end_time: 2021-02-04 02:30:00-08:00
+     cluster_name: 'Doctoral Consortium'
+A-DEMO-D3-E:
+     start_time: 2021-02-06 08:45:00-08:00
+     end_time: 2021-02-06 10:30:00-08:00
+     cluster_name: 'Demonstrations'
+B-DEMO-D3-E:
+     start_time: 2021-02-06 16:45:00-08:00
+     end_time: 2021-02-06 18:30:00-08:00
+     cluster_name: 'Demonstrations'
+C-DEMO-D3-E:
+     start_time: 2021-02-06 00:45:00-08:00
+     end_time: 2021-02-06 02:30:00-08:00
+     cluster_name: 'Demonstrations'
+A-DEMO-D2-B:
+     start_time: 2021-02-05 08:45:00-08:00
+     end_time: 2021-02-05 10:30:00-08:00
+     cluster_name: 'Demonstrations'
+B-DEMO-D2-B:
+     start_time: 2021-02-05 16:45:00-08:00
+     end_time: 2021-02-05 18:30:00-08:00
+     cluster_name: 'Demonstrations'
+C-DEMO-D2-B:
+     start_time: 2021-02-05 00:45:00-08:00
+     end_time: 2021-02-05 02:30:00-08:00
+     cluster_name: 'Demonstrations'
+A-DEMO-D1-F:
+     start_time: 2021-02-04 08:45:00-08:00
+     end_time: 2021-02-04 10:30:00-08:00
+     cluster_name: 'Demonstrations'
+B-DEMO-D1-F:
+     start_time: 2021-02-04 16:45:00-08:00
+     end_time: 2021-02-04 18:30:00-08:00
+     cluster_name: 'Demonstrations'
+C-DEMO-D1-F:
+     start_time: 2021-02-04 00:45:00-08:00
+     end_time: 2021-02-04 02:30:00-08:00
+     cluster_name: 'Demonstrations'
+A-DEMO-D4-D:
+     start_time: 2021-02-07 08:45:00-08:00
+     end_time: 2021-02-07 10:30:00-08:00
+     cluster_name: 'Demonstrations'
+B-DEMO-D4-D:
+     start_time: 2021-02-07 16:45:00-08:00
+     end_time: 2021-02-07 18:30:00-08:00
+     cluster_name: 'Demonstrations'
+C-DEMO-D4-D:
+     start_time: 2021-02-07 00:45:00-08:00
+     end_time: 2021-02-07 02:30:00-08:00
+     cluster_name: 'Demonstrations'
+A-DEMO-D1-E:
+     start_time: 2021-02-04 08:45:00-08:00
+     end_time: 2021-02-04 10:30:00-08:00
+     cluster_name: 'Demonstrations'
+B-DEMO-D1-E:
+     start_time: 2021-02-04 16:45:00-08:00
+     end_time: 2021-02-04 18:30:00-08:00
+     cluster_name: 'Demonstrations'
+C-DEMO-D1-E:
+     start_time: 2021-02-04 00:45:00-08:00
+     end_time: 2021-02-04 02:30:00-08:00
+     cluster_name: 'Demonstrations'
+A-DEMO-D4-B:
+     start_time: 2021-02-07 08:45:00-08:00
+     end_time: 2021-02-07 10:30:00-08:00
+     cluster_name: 'Demonstrations'
+B-DEMO-D4-B:
+     start_time: 2021-02-07 16:45:00-08:00
+     end_time: 2021-02-07 18:30:00-08:00
+     cluster_name: 'Demonstrations'
+C-DEMO-D4-B:
+     start_time: 2021-02-07 00:45:00-08:00
+     end_time: 2021-02-07 02:30:00-08:00
+     cluster_name: 'Demonstrations'
+A-DEMO-D1-C:
+     start_time: 2021-02-04 08:45:00-08:00
+     end_time: 2021-02-04 10:30:00-08:00
+     cluster_name: 'Demonstrations'
+B-DEMO-D1-C:
+     start_time: 2021-02-04 16:45:00-08:00
+     end_time: 2021-02-04 18:30:00-08:00
+     cluster_name: 'Demonstrations'
+C-DEMO-D1-C:
+     start_time: 2021-02-04 00:45:00-08:00
+     end_time: 2021-02-04 02:30:00-08:00
+     cluster_name: 'Demonstrations'
+A-DEMO-D2-C:
+     start_time: 2021-02-05 08:45:00-08:00
+     end_time: 2021-02-05 10:30:00-08:00
+     cluster_name: 'Demonstrations'
+B-DEMO-D2-C:
+     start_time: 2021-02-05 16:45:00-08:00
+     end_time: 2021-02-05 18:30:00-08:00
+     cluster_name: 'Demonstrations'
+C-DEMO-D2-C:
+     start_time: 2021-02-05 00:45:00-08:00
+     end_time: 2021-02-05 02:30:00-08:00
+     cluster_name: 'Demonstrations'
+A-DEMO-D3-A:
+     start_time: 2021-02-06 08:45:00-08:00
+     end_time: 2021-02-06 10:30:00-08:00
+     cluster_name: 'Demonstrations'
+B-DEMO-D3-A:
+     start_time: 2021-02-06 16:45:00-08:00
+     end_time: 2021-02-06 18:30:00-08:00
+     cluster_name: 'Demonstrations'
+C-DEMO-D3-A:
+     start_time: 2021-02-06 00:45:00-08:00
+     end_time: 2021-02-06 02:30:00-08:00
+     cluster_name: 'Demonstrations'
+A-DEMO-D4-A:
+     start_time: 2021-02-07 08:45:00-08:00
+     end_time: 2021-02-07 10:30:00-08:00
+     cluster_name: 'Demonstrations'
+B-DEMO-D4-A:
+     start_time: 2021-02-07 16:45:00-08:00
+     end_time: 2021-02-07 18:30:00-08:00
+     cluster_name: 'Demonstrations'
+C-DEMO-D4-A:
+     start_time: 2021-02-07 00:45:00-08:00
+     end_time: 2021-02-07 02:30:00-08:00
+     cluster_name: 'Demonstrations'
+A-DEMO-D4-E:
+     start_time: 2021-02-07 08:45:00-08:00
+     end_time: 2021-02-07 10:30:00-08:00
+     cluster_name: 'Demonstrations'
+B-DEMO-D4-E:
+     start_time: 2021-02-07 16:45:00-08:00
+     end_time: 2021-02-07 18:30:00-08:00
+     cluster_name: 'Demonstrations'
+C-DEMO-D4-E:
+     start_time: 2021-02-07 00:45:00-08:00
+     end_time: 2021-02-07 02:30:00-08:00
+     cluster_name: 'Demonstrations'
+A-DEMO-D1-D:
+     start_time: 2021-02-04 08:45:00-08:00
+     end_time: 2021-02-04 10:30:00-08:00
+     cluster_name: 'Demonstrations'
+B-DEMO-D1-D:
+     start_time: 2021-02-04 16:45:00-08:00
+     end_time: 2021-02-04 18:30:00-08:00
+     cluster_name: 'Demonstrations'
+C-DEMO-D1-D:
+     start_time: 2021-02-04 00:45:00-08:00
+     end_time: 2021-02-04 02:30:00-08:00
+     cluster_name: 'Demonstrations'
+A-DEMO-D4-C:
+     start_time: 2021-02-07 08:45:00-08:00
+     end_time: 2021-02-07 10:30:00-08:00
+     cluster_name: 'Demonstrations'
+B-DEMO-D4-C:
+     start_time: 2021-02-07 16:45:00-08:00
+     end_time: 2021-02-07 18:30:00-08:00
+     cluster_name: 'Demonstrations'
+C-DEMO-D4-C:
+     start_time: 2021-02-07 00:45:00-08:00
+     end_time: 2021-02-07 02:30:00-08:00
+     cluster_name: 'Demonstrations'
+A-DEMO-D3-F:
+     start_time: 2021-02-06 08:45:00-08:00
+     end_time: 2021-02-06 10:30:00-08:00
+     cluster_name: 'Demonstrations'
+B-DEMO-D3-F:
+     start_time: 2021-02-06 16:45:00-08:00
+     end_time: 2021-02-06 18:30:00-08:00
+     cluster_name: 'Demonstrations'
+C-DEMO-D3-F:
+     start_time: 2021-02-06 00:45:00-08:00
+     end_time: 2021-02-06 02:30:00-08:00
+     cluster_name: 'Demonstrations'
+A-DEMO-D3-C:
+     start_time: 2021-02-06 08:45:00-08:00
+     end_time: 2021-02-06 10:30:00-08:00
+     cluster_name: 'Demonstrations'
+B-DEMO-D3-C:
+     start_time: 2021-02-06 16:45:00-08:00
+     end_time: 2021-02-06 18:30:00-08:00
+     cluster_name: 'Demonstrations'
+C-DEMO-D3-C:
+     start_time: 2021-02-06 00:45:00-08:00
+     end_time: 2021-02-06 02:30:00-08:00
+     cluster_name: 'Demonstrations'
+A-DEMO-D2-D:
+     start_time: 2021-02-05 08:45:00-08:00
+     end_time: 2021-02-05 10:30:00-08:00
+     cluster_name: 'Demonstrations'
+B-DEMO-D2-D:
+     start_time: 2021-02-05 16:45:00-08:00
+     end_time: 2021-02-05 18:30:00-08:00
+     cluster_name: 'Demonstrations'
+C-DEMO-D2-D:
+     start_time: 2021-02-05 00:45:00-08:00
+     end_time: 2021-02-05 02:30:00-08:00
+     cluster_name: 'Demonstrations'
+A-DEMO-D2-F:
+     start_time: 2021-02-05 08:45:00-08:00
+     end_time: 2021-02-05 10:30:00-08:00
+     cluster_name: 'Demonstrations'
+B-DEMO-D2-F:
+     start_time: 2021-02-05 16:45:00-08:00
+     end_time: 2021-02-05 18:30:00-08:00
+     cluster_name: 'Demonstrations'
+C-DEMO-D2-F:
+     start_time: 2021-02-05 00:45:00-08:00
+     end_time: 2021-02-05 02:30:00-08:00
+     cluster_name: 'Demonstrations'
+A-DEMO-D1-B:
+     start_time: 2021-02-04 08:45:00-08:00
+     end_time: 2021-02-04 10:30:00-08:00
+     cluster_name: 'Demonstrations'
+B-DEMO-D1-B:
+     start_time: 2021-02-04 16:45:00-08:00
+     end_time: 2021-02-04 18:30:00-08:00
+     cluster_name: 'Demonstrations'
+C-DEMO-D1-B:
+     start_time: 2021-02-04 00:45:00-08:00
+     end_time: 2021-02-04 02:30:00-08:00
+     cluster_name: 'Demonstrations'
+A-DEMO-D1-A:
+     start_time: 2021-02-04 08:45:00-08:00
+     end_time: 2021-02-04 10:30:00-08:00
+     cluster_name: 'Demonstrations'
+B-DEMO-D1-A:
+     start_time: 2021-02-04 16:45:00-08:00
+     end_time: 2021-02-04 18:30:00-08:00
+     cluster_name: 'Demonstrations'
+C-DEMO-D1-A:
+     start_time: 2021-02-04 00:45:00-08:00
+     end_time: 2021-02-04 02:30:00-08:00
+     cluster_name: 'Demonstrations'
+A-DEMO-D4-F:
+     start_time: 2021-02-07 08:45:00-08:00
+     end_time: 2021-02-07 10:30:00-08:00
+     cluster_name: 'Demonstrations'
+B-DEMO-D4-F:
+     start_time: 2021-02-07 16:45:00-08:00
+     end_time: 2021-02-07 18:30:00-08:00
+     cluster_name: 'Demonstrations'
+C-DEMO-D4-F:
+     start_time: 2021-02-07 00:45:00-08:00
+     end_time: 2021-02-07 02:30:00-08:00
+     cluster_name: 'Demonstrations'
+A-DEMO-D2-A:
+     start_time: 2021-02-05 08:45:00-08:00
+     end_time: 2021-02-05 10:30:00-08:00
+     cluster_name: 'Demonstrations'
+B-DEMO-D2-A:
+     start_time: 2021-02-05 16:45:00-08:00
+     end_time: 2021-02-05 18:30:00-08:00
+     cluster_name: 'Demonstrations'
+C-DEMO-D2-A:
+     start_time: 2021-02-05 00:45:00-08:00
+     end_time: 2021-02-05 02:30:00-08:00
+     cluster_name: 'Demonstrations'
+A-DEMO-D3-D:
+     start_time: 2021-02-06 08:45:00-08:00
+     end_time: 2021-02-06 10:30:00-08:00
+     cluster_name: 'Demonstrations'
+B-DEMO-D3-D:
+     start_time: 2021-02-06 16:45:00-08:00
+     end_time: 2021-02-06 18:30:00-08:00
+     cluster_name: 'Demonstrations'
+C-DEMO-D3-D:
+     start_time: 2021-02-06 00:45:00-08:00
+     end_time: 2021-02-06 02:30:00-08:00
+     cluster_name: 'Demonstrations'
+A-DEMO-D3-B:
+     start_time: 2021-02-06 08:45:00-08:00
+     end_time: 2021-02-06 10:30:00-08:00
+     cluster_name: 'Demonstrations'
+B-DEMO-D3-B:
+     start_time: 2021-02-06 16:45:00-08:00
+     end_time: 2021-02-06 18:30:00-08:00
+     cluster_name: 'Demonstrations'
+C-DEMO-D3-B:
+     start_time: 2021-02-06 00:45:00-08:00
+     end_time: 2021-02-06 02:30:00-08:00
+     cluster_name: 'Demonstrations'
+A-DEMO-D2-E:
+     start_time: 2021-02-05 08:45:00-08:00
+     end_time: 2021-02-05 10:30:00-08:00
+     cluster_name: 'Demonstrations'
+B-DEMO-D2-E:
+     start_time: 2021-02-05 16:45:00-08:00
+     end_time: 2021-02-05 18:30:00-08:00
+     cluster_name: 'Demonstrations'
+C-DEMO-D2-E:
+     start_time: 2021-02-05 00:45:00-08:00
+     end_time: 2021-02-05 02:30:00-08:00
+     cluster_name: 'Demonstrations'
+A-Award-D2-:
+     start_time: 2021-02-05 08:45:00-08:00
+     end_time: 2021-02-05 10:30:00-08:00
+     cluster_name: '2019 AAAI/ACM SIGAI Dissertation Award'
+B-Award-D2-:
+     start_time: 2021-02-05 16:45:00-08:00
+     end_time: 2021-02-05 18:30:00-08:00
+     cluster_name: '2019 AAAI/ACM SIGAI Dissertation Award'
+C-Award-D2-:
+     start_time: 2021-02-05 00:45:00-08:00
+     end_time: 2021-02-05 02:30:00-08:00
+     cluster_name: '2019 AAAI/ACM SIGAI Dissertation Award'
+A-Award-D1-:
+     start_time: 2021-02-04 08:45:00-08:00
+     end_time: 2021-02-04 10:30:00-08:00
+     cluster_name: '2021 AAAI Classic Paper Award'
+B-Award-D1-:
+     start_time: 2021-02-04 16:45:00-08:00
+     end_time: 2021-02-04 18:30:00-08:00
+     cluster_name: '2021 AAAI Classic Paper Award'
+C-Award-D1-:
+     start_time: 2021-02-04 00:45:00-08:00
+     end_time: 2021-02-04 02:30:00-08:00
+     cluster_name: '2021 AAAI Classic Paper Award'

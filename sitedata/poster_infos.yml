@@ -3110,3 +3110,642 @@ BC-D4-R2-A:
     - AAAI-8124
     - AAAI-9262
     - AAAI-9983
+IAAI-D1-A:
+     time1: '4-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: commerce/aerospace
+     gather_town_link: 
+     papers:
+     - IAAI-23
+     - IAAI-74
+     - IAAI-132
+     - IAAI-171
+IAAI-D3-C:
+     time1: '6-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: bioscience
+     gather_town_link: 
+     papers:
+     - IAAI-124
+     - IAAI-145
+     - IAAI-149
+IAAI-D2-B:
+     time1: '5-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: knowledge
+     gather_town_link: 
+     papers:
+     - IAAI-21
+     - IAAI-59
+     - IAAI-119
+     - IAAI-157
+IAAI-D1-C:
+     time1: '4-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: commerce
+     gather_town_link: 
+     papers:
+     - IAAI-84
+     - IAAI-92
+     - IAAI-93
+     - IAAI-140
+IAAI-D2-A:
+     time1: '5-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: engineering
+     gather_town_link: 
+     papers:
+     - IAAI-100
+     - IAAI-105
+     - IAAI-165
+     - IAAI-176
+IAAI-D3-A:
+     time1: '6-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: AI
+     gather_town_link: 
+     papers:
+     - IAAI-31
+     - IAAI-60
+     - IAAI-73
+     - IAAI-167
+IAAI-D2-C:
+     time1: '5-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: knowledge
+     gather_town_link: 
+     papers:
+     - IAAI-37
+     - IAAI-65
+     - IAAI-151
+     - IAAI-174
+IAAI-D2-D:
+     time1: '5-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: prediction/NLP
+     gather_town_link: 
+     papers:
+     - IAAI-43
+     - IAAI-55
+     - IAAI-89
+     - IAAI-104
+IAAI-D1-B:
+     time1: '4-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: commerce
+     gather_town_link: 
+     papers:
+     - IAAI-87
+     - IAAI-101
+     - IAAI-179
+     - IAAI-190
+IAAI-D1-D:
+     time1: '4-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: security
+     gather_town_link: 
+     papers:
+     - IAAI-98
+     - IAAI-113
+     - IAAI-142
+IAAI-D3-B:
+     time1: '6-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: AI/bioscience
+     gather_town_link: 
+     papers:
+     - IAAI-17
+     - IAAI-76
+     - IAAI-77
+     - IAAI-146
+IAAI-D3-D:
+     time1: '6-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: driving/IT/covid
+     gather_town_link: 
+     papers:
+     - IAAI-34
+     - IAAI-99
+     - IAAI-152
+     - IAAI-154
+UC-D1-A:
+     time1: '4-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Undergraduate Consortium
+     gather_town_link: 
+     papers:
+     - UC-10
+     - UC-29
+     - UC-30
+     - UC-34
+     - UC-40
+     - UC-46
+     - UC-47
+UC-D1-B:
+     time1: '4-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Undergraduate Consortium
+     gather_town_link: 
+     papers:
+     - UC-49
+     - UC-56
+     - UC-59
+     - UC-66
+     - UC-71
+     - UC-76
+     - UC-77
+SA-D3-D:
+     time1: '6-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Student Abstracts
+     gather_town_link: 
+     papers:
+     - SA-290
+     - SA-302
+     - SA-333
+     - SA-356
+SA-D2-F:
+     time1: '5-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Student Abstracts
+     gather_town_link: 
+     papers:
+     - SA-213
+     - SA-237
+     - SA-258
+     - SA-279
+SA-D3-E:
+     time1: '6-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Student Abstracts
+     gather_town_link: 
+     papers:
+     - SA-292
+     - SA-305
+     - SA-345
+     - SA-357
+SA-D3-A:
+     time1: '6-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Student Abstracts
+     gather_town_link: 
+     papers:
+     - SA-285
+     - SA-297
+     - SA-308
+     - SA-349
+     - SA-360
+SA-D2-D:
+     time1: '5-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Student Abstracts
+     gather_town_link: 
+     papers:
+     - SA-207
+     - SA-234
+     - SA-251
+     - SA-274
+SA-D2-E:
+     time1: '5-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Student Abstracts
+     gather_town_link: 
+     papers:
+     - SA-210
+     - SA-235
+     - SA-256
+     - SA-277
+SA-D4-B:
+     time1: '7-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Student Abstracts
+     gather_town_link: 
+     papers:
+     - SA-374
+     - SA-385
+     - SA-397
+     - SA-413
+     - SA-436
+SA-D1-D:
+     time1: '4-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Student Abstracts
+     gather_town_link: 
+     papers:
+     - SA-129
+     - SA-144
+     - SA-165
+     - SA-186
+SA-D1-C:
+     time1: '4-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Student Abstracts
+     gather_town_link: 
+     papers:
+     - SA-117
+     - SA-143
+     - SA-163
+     - SA-177
+SA-D1-A:
+     time1: '4-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Student Abstracts
+     gather_town_link: 
+     papers:
+     - SA-11
+     - SA-140
+     - SA-156
+     - SA-168
+     - SA-192
+SA-D4-E:
+     time1: '7-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Student Abstracts
+     gather_town_link: 
+     papers:
+     - SA-379
+     - SA-390
+     - SA-406
+     - SA-417
+SA-D3-B:
+     time1: '6-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Student Abstracts
+     gather_town_link: 
+     papers:
+     - SA-286
+     - SA-299
+     - SA-309
+     - SA-353
+     - SA-368
+SA-D4-C:
+     time1: '7-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Student Abstracts
+     gather_town_link: 
+     papers:
+     - SA-375
+     - SA-386
+     - SA-400
+     - SA-414
+SA-D2-A:
+     time1: '5-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Student Abstracts
+     gather_town_link: 
+     papers:
+     - SA-197
+     - SA-215
+     - SA-239
+     - SA-263
+     - SA-280
+SA-D3-C:
+     time1: '6-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Student Abstracts
+     gather_town_link: 
+     papers:
+     - SA-287
+     - SA-300
+     - SA-315
+     - SA-354
+     - SA-370
+SA-D3-F:
+     time1: '6-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Student Abstracts
+     gather_town_link: 
+     papers:
+     - SA-293
+     - SA-306
+     - SA-346
+     - SA-358
+SA-D4-D:
+     time1: '7-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Student Abstracts
+     gather_town_link: 
+     papers:
+     - SA-376
+     - SA-388
+     - SA-403
+     - SA-416
+SA-D2-C:
+     time1: '5-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Student Abstracts
+     gather_town_link: 
+     papers:
+     - SA-206
+     - SA-229
+     - SA-249
+     - SA-273
+SA-D4-A:
+     time1: '7-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Student Abstracts
+     gather_town_link: 
+     papers:
+     - SA-372
+     - SA-381
+     - SA-396
+     - SA-411
+     - SA-421
+SA-D1-B:
+     time1: '4-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Student Abstracts
+     gather_town_link: 
+     papers:
+     - SA-69
+     - SA-141
+     - SA-161
+     - SA-171
+     - SA-193
+SA-D1-E:
+     time1: '4-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Student Abstracts
+     gather_town_link: 
+     papers:
+     - SA-131
+     - SA-148
+     - SA-166
+     - SA-187
+SA-D2-B:
+     time1: '5-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Student Abstracts
+     gather_town_link: 
+     papers:
+     - SA-201
+     - SA-223
+     - SA-242
+     - SA-267
+     - SA-283
+SA-D1-F:
+     time1: '4-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Student Abstracts
+     gather_town_link: 
+     papers:
+     - SA-138
+     - SA-149
+     - SA-167
+     - SA-188
+SA-D4-F:
+     time1: '7-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Student Abstracts
+     gather_town_link: 
+     papers:
+     - SA-380
+     - SA-392
+     - SA-407
+     - SA-418
+DC-D1-D:
+     time1: '4-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Doctoral Consortium
+     gather_town_link: 
+     papers:
+     - DC-169
+     - DC-276
+     - DC-314
+     - DC-415
+DC-D1-C:
+     time1: '4-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Doctoral Consortium
+     gather_town_link: 
+     papers:
+     - DC-127
+     - DC-260
+     - DC-311
+     - DC-340
+DC-D1-A:
+     time1: '4-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Doctoral Consortium
+     gather_town_link: 
+     papers:
+     - DC-79
+     - DC-200
+     - DC-281
+     - DC-317
+     - DC-423
+DC-D1-B:
+     time1: '4-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Doctoral Consortium
+     gather_town_link: 
+     papers:
+     - DC-118
+     - DC-246
+     - DC-304
+     - DC-318
+     - DC-429
+DEMO-D4-D:
+     time1: '7-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Demonstrations
+     gather_town_link: 
+     papers:
+     - DEMO-155
+     - DEMO-394
+DEMO-D2-D:
+     time1: '5-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Demonstrations
+     gather_town_link: 
+     papers:
+     - DEMO-175
+     - DEMO-284
+DEMO-D3-F:
+     time1: '6-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Demonstrations
+     gather_town_link: 
+     papers:
+     - DEMO-321
+DEMO-D2-E:
+     time1: '5-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Demonstrations
+     gather_town_link: 
+     papers:
+     - DEMO-219
+     - DEMO-319
+DEMO-D4-E:
+     time1: '7-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Demonstrations
+     gather_town_link: 
+     papers:
+     - DEMO-172
+     - DEMO-395
+DEMO-D1-C:
+     time1: '4-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Demonstrations
+     gather_town_link: 
+     papers:
+     - DEMO-105
+     - DEMO-265
+DEMO-D3-B:
+     time1: '6-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Demonstrations
+     gather_town_link: 
+     papers:
+     - DEMO-153
+     - DEMO-338
+DEMO-D3-E:
+     time1: '6-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Demonstrations
+     gather_town_link: 
+     papers:
+     - DEMO-298
+     - DEMO-404
+DEMO-D1-A:
+     time1: '4-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Demonstrations
+     gather_town_link: 
+     papers:
+     - DEMO-12
+     - DEMO-174
+DEMO-D1-E:
+     time1: '4-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Demonstrations
+     gather_town_link: 
+     papers:
+     - DEMO-134
+     - DEMO-355
+DEMO-D4-F:
+     time1: '7-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Demonstrations
+     gather_town_link: 
+     papers:
+     - DEMO-178
+     - DEMO-398
+DEMO-D1-B:
+     time1: '4-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Demonstrations
+     gather_town_link: 
+     papers:
+     - DEMO-91
+     - DEMO-232
+DEMO-D3-C:
+     time1: '6-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Demonstrations
+     gather_town_link: 
+     papers:
+     - DEMO-170
+     - DEMO-344
+DEMO-D2-F:
+     time1: '5-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Demonstrations
+     gather_town_link: 
+     papers:
+     - DEMO-227
+     - DEMO-324
+DEMO-D4-A:
+     time1: '7-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Demonstrations
+     gather_town_link: 
+     papers:
+     - DEMO-6
+     - DEMO-212
+DEMO-D4-B:
+     time1: '7-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Demonstrations
+     gather_town_link: 
+     papers:
+     - DEMO-93
+     - DEMO-278
+DEMO-D2-B:
+     time1: '5-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Demonstrations
+     gather_town_link: 
+     papers:
+     - DEMO-104
+     - DEMO-252
+DEMO-D1-F:
+     time1: '4-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Demonstrations
+     gather_town_link: 
+     papers:
+     - DEMO-159
+DEMO-D4-C:
+     time1: '7-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Demonstrations
+     gather_town_link: 
+     papers:
+     - DEMO-109
+     - DEMO-367
+DEMO-D1-D:
+     time1: '4-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Demonstrations
+     gather_town_link: 
+     papers:
+     - DEMO-124
+     - DEMO-313
+DEMO-D2-A:
+     time1: '5-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Demonstrations
+     gather_town_link: 
+     papers:
+     - DEMO-97
+     - DEMO-233
+DEMO-D3-D:
+     time1: '6-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Demonstrations
+     gather_town_link: 
+     papers:
+     - DEMO-196
+     - DEMO-363
+DEMO-D2-C:
+     time1: '5-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Demonstrations
+     gather_town_link: 
+     papers:
+     - DEMO-157
+     - DEMO-268
+DEMO-D3-A:
+     time1: '6-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Demonstrations
+     gather_town_link: 
+     papers:
+     - DEMO-135
+     - DEMO-336
+Award-D1-:
+     time1: '4-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: 2021 AAAI Classic Paper Award
+     gather_town_link: 
+     papers:
+     - CLASSIC-2021
+Award-D2-:
+     time1: '5-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: 2019 AAAI/ACM SIGAI Dissertation Award
+     gather_town_link: 
+     papers:
+     - DISS-2019
