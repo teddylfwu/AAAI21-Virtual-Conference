@@ -1061,40 +1061,42 @@
 
 {% macro poster_info(paper, is_plenary) -%}
   <div class="text-center text-muted text-monospace">
+
+{% if paper.content.gather_town_link and paper.content.gather_town_link != 'unknown' %}
   <div class="paper-session-times">
 {#    <span class="session_times">{{paper.content.date1}} {{paper.content.time1}} PST/ {{paper.content.date2}} {{paper.content.time2}} PST</span>#}
 
-  <a href=""   class="card-link" target="_blank">
+  <a href="{{paper.content.gather_town_link}}"   class="card-link" target="_blank">
       [Join the Poster Session]
   </a>
 
-  <!--
-  {% if is_plenary %}
-    <a href="livestream.html"   class="card-link">
-    [Livestream]
-    </a>
-  {% endif %}
-  -->
-  </div>
   <div class="paper-session-times">
       <span>Room: {{ paper.content.room }}, Cluster: {{ paper.content.cluster }}, Position: {{ paper.content.position }}, Cluster Name: {{ paper.content.cluster_name }}</span>
   </div>
   </div>
   <div class="text-center text-muted text-monospace">
   <div class="paper-cal-links">
-  <span class="session_times">{{paper.content.date1}} {{paper.content.time1}} PST</span>
+  <span class="session_times">Room {{ paper.content.room_letter1 }} in Virtual Chair on Gather.Town, {{paper.content.date1}} {{paper.content.time1}} PST</span>
   <img src="static/images/calendar.svg" class="paper-detail-calendar" height="24px">
   <span id="session-cal-link-1"></span>
   </div>
   </div>
     <div class="text-center text-muted text-monospace">
   <div class="paper-cal-links">
-  <span class="session_times">{{paper.content.date2}} {{paper.content.time2}} PST</span>
+  <span class="session_times">Room {{ paper.content.room_letter2 }} in Virtual Chair on Gather.Town, {{paper.content.date2}} {{paper.content.time2}} PST</span>
   <img src="static/images/calendar.svg" class="paper-detail-calendar" height="24px">
   <span id="session-cal-link-2"></span>
   </div>
-
   </div>
+      {% if paper.content.date3 != "unknown" %}
+    <div class="text-center text-muted text-monospace">
+  <div class="paper-cal-links">
+  <span class="session_times">{{paper.content.date3}} {{paper.content.time3}} PST</span>
+  <img src="static/images/calendar.svg" class="paper-detail-calendar" height="24px">
+  <span id="session-cal-link-3"></span>
+  </div>
+  </div>
+    {% endif %}
 
 <script src="static/js/add-to-calendar.js"></script>
 <script>
@@ -1160,8 +1162,40 @@ for (const name of calendarNames) {
   calendarNodeSpan.appendChild(document.createTextNode("]"));
   targetNode.appendChild(calendarNodeSpan);
 }
+{% if paper.content.date3 != "unknown" %}
+// create a calendar by hand
+paper_date3 = addToCalendarData({
+  options: {
+    class: 'my-class',
+    id: 'my-id'
+  },
+  data: {
+    title: '{{ paper.content.title }}'.replace("#", " "),
+    start: new Date("{{paper.date3_start_time_string}}"),
+    end: new Date("{{paper.date3_end_time_string}}"),
+    timezone: 'UTC',
+    address: '{{paper.content.gather_town_link}}',
+    description: '{{ paper.content.gather_town_link }}'
+  }
+});
+
+targetNode = document.querySelector('#session-cal-link-3');
+for (const name of calendarNames) {
+  calendarNodeInner = parser.parseFromString(paper_date2[name], "text/html");
+  calendarNodeSpan = document.createElement("span");
+  calendarNodeSpan.setAttribute("style", "padding: 2px");
+  calendarNodeSpan.appendChild(document.createTextNode("["));
+  calendarNodeSpan.appendChild(calendarNodeInner.getElementsByTagName("a")[0]);
+  calendarNodeSpan.appendChild(document.createTextNode("]"));
+  targetNode.appendChild(calendarNodeSpan);
+}
+
+
+{% endif %}
 
 </script>
+{% endif %}
+
 {%- endmacro %}
 
 

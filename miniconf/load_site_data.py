@@ -346,7 +346,7 @@ def load_site_data(
     # sponsors.html
     build_sponsors(site_data, by_uid, display_time_format)
 
-    # main_aisi_smt.html
+    # posters.html
     site_data["poster_info_by_day"], site_data["poster_days"] = build_poster_infos(
         site_data["poster_infos"],by_uid["papers"]
     )
@@ -714,8 +714,12 @@ def generate_paper_events(site_data: Dict[str, Any]):
     all_grouped: Dict[str, List[Any]] = defaultdict(list)
     for uid, session in site_data["paper_sessions"].items():
         day = uid[0]
-        cluster = uid[-1]
-        room = uid[2:-2]
+        if "Award" in uid:
+            cluster = ""
+            room = uid[2:-1]
+        else:
+            cluster = uid[-1]
+            room = uid[2:-2]
         session["cluster"] = cluster
         session["room"] = room
         all_grouped[day].append(session)
@@ -735,12 +739,30 @@ def generate_paper_events(site_data: Dict[str, Any]):
                 tab_id = "feb6"
             if "D4" in room:
                 tab_id = "feb7"
+            if "IAAI" in room:
+                session_type= "IAAI"
+            elif "UC" in room:
+                session_type = "UC"
+            elif "SA" in room:
+                session_type = "SA"
+            elif "DC" in room:
+                session_type = "DC"
+            elif "DEMO" in room:
+                session_type = "Demo"
+            elif "Award" in room:
+                session_type = "Award"
+            else:
+                session_type = "Poster"
+            if cluster != "":
+                title = f"<b>{session_type} Session</b><br><span>Room:{room}, Cluser:{cluster}</span><br><i>{cluster_name}<i>"
+            else:
+                title = f"<b>{session_type} Session</b><br><span>Room:{room}</span><br><i>{cluster_name}<i>"
             event = {
-                "title": f"<b>Poster Session</b><br><span>Room:{room}, Cluser:{cluster}</span><br><i>{cluster_name}<i>",
+                "title": title,
                 "start": start,
                 "end": end,
                 "location": "",
-                "link": f"main_aisi_smt.html?tab_id={tab_id}#{room}-{cluster}",
+                "link": f"posters.html?tab_id={tab_id}#{room}-{cluster}",
                 "category": "time",
                 "type": "Posters",
                 "view": "day",
@@ -949,6 +971,31 @@ def build_papers(
     #                 link=link,
     #             )
     #         )
+    whole_day_map = {
+        "4-Feb": [('4-Feb', '08:45AM-10:30AM'), ('4-Feb', '04:45PM-06:30PM'), ('5-Feb', '12:45AM-02:30AM')],
+        "5-Feb": [('5-Feb', '08:45AM-10:30AM'), ('5-Feb', '04:45PM-06:30PM'), ('6-Feb', '12:45AM-02:30AM')],
+        "6-Feb": [('6-Feb', '08:45AM-10:30AM'), ('6-Feb', '04:45PM-06:30PM'), ('7-Feb', '12:45AM-02:30AM')],
+        "7-Feb": [('7-Feb', '08:45AM-10:30AM'), ('7-Feb', '04:45PM-06:30PM'), ('8-Feb', '12:45AM-02:30AM')],
+    }
+
+    for item in raw_papers:
+        if "CLASSIC" in item["UID"] or "DISS" in item["UID"]:
+            item['room'] = item['room'][:-1]
+        if item.get("position","")=="" or item["position"] is None:
+            item['position'] = 0
+        if item.get('time1') == "" and item.get('date1')!= "":
+            date1 = item.get('date1')
+            for i, (date, time) in enumerate(whole_day_map[date1]):
+                if i == 0:
+                    item['date1'] = date
+                    item['time1'] = time
+                elif i == 1:
+                    item['date2'] = date
+                    item['time2'] = time
+                else:
+                    item['date3'] = date
+                    item['time3'] = time
+
     papers = [
         Paper(
             id=item["UID"],
@@ -976,15 +1023,25 @@ def build_papers(
                 time1=item.get("time1", "unknown"),
                 date2=item.get("date2", "unknown"),
                 time2=item.get("time2", "unknown"),
+                date3=item.get("date3", "unknown"),
+                time3=item.get("time3", "unknown"),
+                room_letter1=item.get("room_letter1", "unknown"),
+                room_letter2=item.get("room_letter2", "unknown"),
                 room=item.get("room", "unknown"),
                 cluster=item.get("cluster", "unknown"),
                 position=int(float(item.get("position", 0))),
                 cluster_name=item.get("cluster_name", "unknown"),
-                gather_town_link= paper_id_to_link[item["UID"]] if item['UID'] in paper_id_to_link else "",
+                gather_town_link= item.get("gather_town_link", "unknown"),
+                # gather_town_link=paper_id_to_link[item["UID"]] if item['UID'] in paper_id_to_link else "",
             ),
         )
         for item in raw_papers
     ]
+    for paper in papers:
+        if "SMT" in paper.id:
+            print(paper.id,paper.content.gather_town_link)
+
+
     # throw warnings for missing information
     # for paper in papers:
     #     if not paper.presentation_id and paper.content.program not in [
@@ -1012,9 +1069,42 @@ def build_poster_infos(
     # day_map = {"A":"Feb 4","B":"Feb 4","C":"Feb 4","D":"Feb 5","E":"Feb 5","F":"Feb 5",
     #            "G":"Feb 6","H":"Feb 6","I":"Feb 6","J":"Feb 7","K":"Feb 7","L":"Feb 7"}
     day_map = {"D1":"Feb 4","D2":"Feb 5","D3":"Feb 6","D4":"Feb 7"}
+    day_map_2 = {"4-Feb":"Feb 4","5-Feb":"Feb 5","6-Feb":"Feb 6","7-Feb":"Feb 7"}
     for uid, rs in raw_paper_sessions.items():
-        room = uid[:-2]
-        cluster = uid.split("-")[-1]
+        if "Award" in uid:
+            cluster = ""
+            room = uid[:-1]
+        else:
+            cluster = uid.split("-")[-1]
+            room = uid[:-2]
+        if "IAAI" in room:
+            session_type = "IAAI"
+        elif "UC" in room:
+            session_type = "UC"
+        elif "SA" in room:
+            session_type = "SA"
+        elif "DC" in room:
+            session_type = "DC"
+        elif "DEMO" in room:
+            session_type = "Demo"
+        elif "Award" in room:
+            session_type = "Award"
+        else:
+            session_type = "Poster"
+        if session_type == "Poster":
+            pass
+        else:
+            day_id = rs['time1'].split(' ')[0]
+            whole_day_map = {
+                "4-Feb": ['4-Feb 08:45AM-10:30AM', '4-Feb 04:45PM-06:30PM' ,'5-Feb 12:45AM-02:30AM'],
+                "5-Feb": ['5-Feb 08:45AM-10:30AM', '5-Feb 04:45PM-06:30PM', '6-Feb 12:45AM-02:30AM'],
+                "6-Feb": ['6-Feb 08:45AM-10:30AM', '6-Feb 04:45PM-06:30PM', '7-Feb 12:45AM-02:30AM'],
+                "7-Feb": ['7-Feb 08:45AM-10:30AM', '7-Feb 04:45PM-06:30PM', '8-Feb 12:45AM-02:30AM'],
+            }
+            rs['time1'] = whole_day_map[day_id][0]
+            rs['time2'] = whole_day_map[day_id][1]
+            rs['time3'] = whole_day_map[day_id][2]
+
         day = day_map[uid.split("-")[1]]
         papers = rs["papers"]
         papers.sort(key=lambda x:by_uid[x].content.position)
@@ -1023,6 +1113,8 @@ def build_poster_infos(
             room = room,
             time1 = rs["time1"],
             time2 = rs["time2"],
+            time3 = rs.get('time3',None),
+            session_type = session_type,
             cluster = cluster,
             cluster_name = rs["cluster_name"],
             gather_town_link=rs.get("gather_town_link", "http://zoom.us"),
@@ -1031,8 +1123,11 @@ def build_poster_infos(
         )
         poster_infos_by_day[day].append(poster_info)
 
+    sort_rule = {
+        "Poster":1,"Demo":2,"SA":3,"DC":4,"UC":5,"IAAI":6,"Award":7
+    }
     for day in poster_infos_by_day.keys():
-        poster_infos_by_day[day].sort(key=lambda x:(x.room,x.cluster))
+        poster_infos_by_day[day].sort(key=lambda x:(sort_rule[x.session_type],x.room,x.cluster))
     poster_days = []
     days = ["Feb 4","Feb 5","Feb 6","Feb 7"]
     for i, day in enumerate(sorted(days)):

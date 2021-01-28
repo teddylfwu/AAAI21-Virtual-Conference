@@ -201,7 +201,7 @@ def plenary_sessions():
     return render_template("plenary_sessions.html", **data)
 
 
-@app.route("/main_aisi_smt.html")
+@app.route("/posters.html")
 def poster_info():
     tab_id = request.args.get("tab_id","")
     data = _data()
@@ -221,7 +221,7 @@ def poster_info():
     data["poster_days"] = poster_days
     data["poster_info"] = site_data["poster_info_by_day"]
     data["papers"] = by_uid["papers"]
-    return render_template("main_aisi_smt.html", **data)
+    return render_template("posters.html", **data)
 
 
 @app.route("/tutorials.html")
