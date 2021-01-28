@@ -187,10 +187,10 @@ def schedule():
     return render_template("schedule.html", **data)
 
 
-@app.route("/livestream.html")
-def livestream():
-    data = _data()
-    return render_template("livestream.html", **data)
+# @app.route("/livestream.html")
+# def livestream():
+#     data = _data()
+#     return render_template("livestream.html", **data)
 
 
 @app.route("/plenary_sessions.html")
@@ -208,6 +208,7 @@ def poster_info():
     # data["poster_days"] = site_data["poster_days"]
     poster_days = []
     days = ["Feb 4","Feb 5","Feb 6","Feb 7"]
+    types = ["Poster","Demo","SA","DC","UC","IAAI","Award"]
     for i, day in enumerate(sorted(days)):
         tab = day.replace(" ", "").lower()
         if tab_id == "":
@@ -220,7 +221,9 @@ def poster_info():
             )
     data["poster_days"] = poster_days
     data["poster_info"] = site_data["poster_info_by_day"]
+    data["room_info"] = site_data["room_list_by_day"]
     data["papers"] = by_uid["papers"]
+    data["types"] = types
     return render_template("posters.html", **data)
 
 

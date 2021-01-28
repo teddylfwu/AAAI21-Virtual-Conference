@@ -347,7 +347,7 @@ def load_site_data(
     build_sponsors(site_data, by_uid, display_time_format)
 
     # posters.html
-    site_data["poster_info_by_day"], site_data["poster_days"] = build_poster_infos(
+    site_data["poster_info_by_day"], site_data["poster_days"], site_data["room_list_by_day"] = build_poster_infos(
         site_data["poster_infos"],by_uid["papers"]
     )
 
@@ -1054,11 +1054,17 @@ def build_poster_infos(
     raw_paper_sessions: Dict[str, Any],by_uid
 ) -> Tuple[List[QaSession], List[Tuple[str, str, str]]]:
 
-    poster_infos_by_day: Dict[str, List[Dict[str, Any]]] = defaultdict(list)
+    # poster_infos_by_day: Dict[str, List[Dict[str, Any]]] = defaultdict(list)
+    poster_infos_by_day = defaultdict()
+    room_list_by_day = defaultdict(list)
     # day_map = {"A":"Feb 4","B":"Feb 4","C":"Feb 4","D":"Feb 5","E":"Feb 5","F":"Feb 5",
     #            "G":"Feb 6","H":"Feb 6","I":"Feb 6","J":"Feb 7","K":"Feb 7","L":"Feb 7"}
     day_map = {"D1":"Feb 4","D2":"Feb 5","D3":"Feb 6","D4":"Feb 7"}
     day_map_2 = {"4-Feb":"Feb 4","5-Feb":"Feb 5","6-Feb":"Feb 6","7-Feb":"Feb 7"}
+    types = ["Poster","Demo","SA","DC","UC","IAAI","Award"]
+
+    for day in day_map.values():
+        poster_infos_by_day[day] = defaultdict(list)
     for uid, rs in raw_paper_sessions.items():
         if "Award" in uid:
             cluster = ""
@@ -1110,13 +1116,16 @@ def build_poster_infos(
             papers=rs["papers"],
             # papers=[],
         )
-        poster_infos_by_day[day].append(poster_info)
-
+        poster_infos_by_day[day][room].append(poster_info)
     sort_rule = {
         "Poster":1,"Demo":2,"SA":3,"DC":4,"UC":5,"IAAI":6,"Award":7
     }
     for day in poster_infos_by_day.keys():
-        poster_infos_by_day[day].sort(key=lambda x:(sort_rule[x.session_type],x.room,x.cluster))
+        for room in poster_infos_by_day[day].keys():
+            poster_infos_by_day[day][room].sort(key=lambda x:(sort_rule[x.session_type],x.room,x.cluster))
+            for x in poster_infos_by_day[day][room]:
+                if x.room not in room_list_by_day[day]:
+                    room_list_by_day[day].append(x.room)
     poster_days = []
     days = ["Feb 4","Feb 5","Feb 6","Feb 7"]
     for i, day in enumerate(sorted(days)):
@@ -1124,7 +1133,7 @@ def build_poster_infos(
             (day.replace(" ", "").lower(), day, "active" if i == 0 else "")
         )
 
-    return poster_infos_by_day, poster_days
+    return poster_infos_by_day, poster_days,room_list_by_day
 
 
 def build_qa_sessions(

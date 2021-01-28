@@ -33,63 +33,55 @@ Conference-wide poster sessions will be held February 4-7 in <a href="https://ww
             role="tabpanel"
             aria-labelledby="nav-profile-tab"
     >
-
+        {% for room in poster_info[day] %}
         <div id="{{ tab_id }}">
             <div class="plenary_sessions">
-                {% for poster in poster_info[day] %}
-                <div id="{{ poster.room }}-{{ poster.cluster }}" style="position: relative;top: -80px;"></div>
                 <div class="row p-4 col-md-12">
-                    {% if poster.session_type == "Poster" %}
-                    <a name="{{ poster.uid }}">
-                        <h5>Room:
-                            {{poster.room}}
-                            <span>{{poster.session}} </span>
-{#                            <span class="session_times">{{poster.time1}} PST/ {{poster.time2}} PST</span>#}
-                        </h5>
-                        <h6>
-                            Time1: <span class="session_times">{{poster.time1}} PST</span>
-                            (<u>Room {{ papers[poster.papers[0]].content.room_letter1 }}</u> in Virtual Chair on Gather.Town)
-                        </h6>
-                        <h6>
-                            Time2: <span class="session_times">{{poster.time2}} PST</span>
-                            (<u>Room {{ papers[poster.papers[0]].content.room_letter2 }}</u> in Virtual Chair on Gather.Town)
-                        </h6>
-                    </a>
-                    {% endif %}
-                    {% if poster.session_type != "Poster" %}
-                    <a name="{{ poster.uid }}">
-                        <h5>Room:
-                            {{poster.room}}
-                            <span>{{poster.session}} </span>
-{#                            <span class="session_times">{{poster.time1}} PST/ {{poster.time2}} PST</span>#}
-                        </h5>
-                        <h6>
-                            Time1: <span class="session_times">{{poster.time1}} PST</span>
-                            (<u>Room {{ papers[poster.papers[0]].content.room_letter1 }}</u> in Virtual Chair on Gather.Town)
-                        </h6>
-                        <h6>
-                            Time2: <span class="session_times">{{poster.time2}} PST</span>
-                            (<u>Room {{ papers[poster.papers[0]].content.room_letter1 }}</u> in Virtual Chair on Gather.Town)
-                        </h6>
-                        <h6>
-                            Time3: <span class="session_times">{{poster.time3}} PST</span>
-                            (<u>Room {{ papers[poster.papers[0]].content.room_letter1 }}</u> in Virtual Chair on Gather.Town)
-                        </h6>
-                    </a>
-                    {% endif %}
+                {% for poster in poster_info[day][room] %}
+                    {% if loop.first %}
+                        {% if poster.session_type == "Poster" %}
+                        <a name="{{ poster.uid }}">
+                            <h5>Room:
+                                {{poster.room}}
+                                <span>{{poster.session}} </span>
+                            </h5>
+                            <h6>
+                                Time1: <span class="session_times">{{poster.time1}} PST</span>
+                                (<u>Room {{ papers[poster.papers[0]].content.room_letter1 }}</u> in Virtual Chair on Gather.Town)
+                            </h6>
+                            <h6>
+                                Time2: <span class="session_times">{{poster.time2}} PST</span>
+                                (<u>Room {{ papers[poster.papers[0]].content.room_letter2 }}</u> in Virtual Chair on Gather.Town)
+                            </h6>
+                        </a>
+                        {% endif %}
+                        {% if poster.session_type != "Poster" %}
+                        <a name="{{ poster.uid }}">
+                            <h5>Room:
+                                {{poster.room}}
+                                <span>{{poster.session}} </span>
+    {#                            <span class="session_times">{{poster.time1}} PST/ {{poster.time2}} PST</span>#}
+                            </h5>
+                            <h6>
+                                Time1: <span class="session_times">{{poster.time1}} PST</span>
+                                (<u>Room {{ papers[poster.papers[0]].content.room_letter1 }}</u> in Virtual Chair on Gather.Town)
+                            </h6>
+                            <h6>
+                                Time2: <span class="session_times">{{poster.time2}} PST</span>
+                                (<u>Room {{ papers[poster.papers[0]].content.room_letter1 }}</u> in Virtual Chair on Gather.Town)
+                            </h6>
+                            <h6>
+                                Time3: <span class="session_times">{{poster.time3}} PST</span>
+                                (<u>Room {{ papers[poster.papers[0]].content.room_letter1 }}</u> in Virtual Chair on Gather.Town)
+                            </h6>
+                        </a>
+                        {% endif %}
 
+                    {% endif %}
+                <div id="{{ poster.room }}-{{ poster.cluster }}" style="position: relative;top: -80px;"></div>
 
                     <div class="col-12 mb-4">
                         <strong>Cluster {{ poster.cluster }}: {{poster.cluster_name}}</strong>
-{#                        <h6>#}
-{#                            Time1:<span class="session_times">{{poster.time1}} PST</span>#}
-{#(Room <i>{{ papers[poster.papers[0]].content.room_letter1 }}</i> in Virtual Chair on Gather.Town)#}
-{#                        </h6>#}
-{#                        <h6>#}
-{#                            Time2:<span class="session_times">{{poster.time1}} PST</span>#}
-{#(Room <i>{{ papers[poster.papers[0]].content.room_letter2 }}</i> in Virtual Chair on Gather.Town)#}
-{#                        </h6>#}
-
                         <ul>
                             {% for paper_id in poster.papers %}
                             {% set paper = papers[paper_id] %}
@@ -101,8 +93,6 @@ Conference-wide poster sessions will be held February 4-7 in <a href="https://ww
                                     Location {{ paper.content.position }}: {{ paper.content.title }}
                                     {% endif %}
                                 </a>
-{#                                <a class="btn btn-info btn-sm" href="{{ paper.content.gather_town_link }}" role="button" target="_blank">Join the Poster Session</a>#}
-{#                                (Room <b>{{ paper.content.room_letter1 }}</b> in Virtual Chair on Gather.Town,#}
                                 <a href="{{paper.content.gather_town_link}}"   class="card-link" target="_blank">
                             [Join the Poster Session]
                           </a>
@@ -113,11 +103,12 @@ Conference-wide poster sessions will be held February 4-7 in <a href="https://ww
 {#                            <a class="btn btn-info btn-sm" href="{{ config.gather_town }}" role="button" target="_blank">Join the Poster Session</a>#}
                     </div>
 
-                </div>
                 {% endfor %}
+                </div>
             </div>
         </div>
-
+        <hr>
+        {% endfor %}
     </div>
     {% endfor %}
 </div>
