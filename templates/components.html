@@ -1071,7 +1071,12 @@
   </a>
 
   <div class="paper-session-times">
-      <span>Room: {{ paper.content.room }}, Cluster: {{ paper.content.cluster }}, Position: {{ paper.content.position }}, Cluster Name: {{ paper.content.cluster_name }}</span>
+      {% if paper.content.room == "Award-D2" or paper.content.room == "Award-D1" %}
+      <span>Room: {{ paper.content.room }}, Cluster Name: {{ paper.content.cluster_name }}</span>
+      {% else %}
+        <span>Room: {{ paper.content.room }}, Cluster: {{ paper.content.cluster }}, Position: {{ paper.content.position }}, Cluster Name: {{ paper.content.cluster_name }}</span>
+
+      {% endif %}
   </div>
   </div>
   <div class="text-center text-muted text-monospace">
@@ -1091,7 +1096,7 @@
       {% if paper.content.date3 != "unknown" %}
     <div class="text-center text-muted text-monospace">
   <div class="paper-cal-links">
-  <span class="session_times">{{paper.content.date3}} {{paper.content.time3}} PST</span>
+  <span class="session_times">Room {{ paper.content.room_letter3 }} in Virtual Chair on Gather.Town, {{paper.content.date2}} {{paper.content.time3}} PST</span>
   <img src="static/images/calendar.svg" class="paper-detail-calendar" height="24px">
   <span id="session-cal-link-3"></span>
   </div>

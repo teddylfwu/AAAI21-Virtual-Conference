@@ -739,18 +739,8 @@ def generate_paper_events(site_data: Dict[str, Any]):
                 tab_id = "feb6"
             if "D4" in room:
                 tab_id = "feb7"
-            if "IAAI" in room:
-                session_type= "IAAI"
-            elif "UC" in room:
-                session_type = "UC"
-            elif "SA" in room:
-                session_type = "SA"
-            elif "DC" in room:
-                session_type = "DC"
-            elif "DEMO" in room:
+            if "DEMO" in room:
                 session_type = "Demo"
-            elif "Award" in room:
-                session_type = "Award"
             else:
                 session_type = "Poster"
             if cluster != "":
@@ -977,7 +967,6 @@ def build_papers(
         "6-Feb": [('6-Feb', '08:45AM-10:30AM'), ('6-Feb', '04:45PM-06:30PM'), ('7-Feb', '12:45AM-02:30AM')],
         "7-Feb": [('7-Feb', '08:45AM-10:30AM'), ('7-Feb', '04:45PM-06:30PM'), ('8-Feb', '12:45AM-02:30AM')],
     }
-
     for item in raw_papers:
         if "CLASSIC" in item["UID"] or "DISS" in item["UID"]:
             item['room'] = item['room'][:-1]
@@ -992,9 +981,11 @@ def build_papers(
                 elif i == 1:
                     item['date2'] = date
                     item['time2'] = time
+                    item['room_letter2'] = item['room_letter1']
                 else:
                     item['date3'] = date
                     item['time3'] = time
+                    item['room_letter3'] = item['room_letter1']
 
     papers = [
         Paper(
@@ -1027,6 +1018,7 @@ def build_papers(
                 time3=item.get("time3", "unknown"),
                 room_letter1=item.get("room_letter1", "unknown"),
                 room_letter2=item.get("room_letter2", "unknown"),
+                room_letter3=item.get("room_letter3", "unknown"),
                 room=item.get("room", "unknown"),
                 cluster=item.get("cluster", "unknown"),
                 position=int(float(item.get("position", 0))),
@@ -1037,9 +1029,6 @@ def build_papers(
         )
         for item in raw_papers
     ]
-    for paper in papers:
-        if "SMT" in paper.id:
-            print(paper.id,paper.content.gather_town_link)
 
 
     # throw warnings for missing information
