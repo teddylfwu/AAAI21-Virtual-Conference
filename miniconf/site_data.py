@@ -97,11 +97,17 @@ class PaperContent:
     time1: str = None
     date2: str = None
     time2: str = None
+    date3: str = None
+    time3: str = None
     room: str = None
+    room_letter1 : str = None
+    room_letter2 : str = None
+    room_letter3 : str = None
     cluster: str = None
     position: int = None
     cluster_name: str = None
     gather_town_link: str = None
+
     material: str = None
 
     def __post_init__(self):
@@ -218,6 +224,47 @@ class Paper:
         time = self.content.date2 + " " + self.content.time2
         return datetime_to_str[time]
 
+    @property
+    def date3_start_time_string(self) -> str:
+        datetime_to_str = {
+            '4-Feb 08:45AM-10:30AM':"2021-02-04 08:45:00",
+            '4-Feb 04:45PM-06:30PM':"2021-02-04 16:45:00",
+            '5-Feb 12:45AM-02:30AM':"2021-02-05 00:45:00",
+            '5-Feb 08:45AM-10:30AM':"2021-02-05 08:45:00",
+            '5-Feb 04:45PM-06:30PM':"2021-02-05 16:45:00",
+            '6-Feb 12:45AM-02:30AM':"2021-02-06 00:45:00",
+            '6-Feb 08:45AM-10:30AM':"2021-02-06 08:45:00",
+            '6-Feb 04:45PM-06:30PM':"2021-02-06 16:45:00",
+            '7-Feb 12:45AM-02:30AM':"2021-02-07 00:45:00",
+            '7-Feb 08:45AM-10:30AM':"2021-02-07 08:45:00",
+            '7-Feb 04:45PM-06:30PM':"2021-02-07 16:45:00",
+            '8-Feb 12:45AM-02:30AM':"2021-02-08 00:45:00",
+            "unknown unknown": "",
+            " ": ""
+        }
+        time = self.content.date3 + " " + self.content.time3
+        return datetime_to_str[time]
+
+    @property
+    def date3_end_time_string(self) -> str:
+        datetime_to_str = {
+            '4-Feb 08:45AM-10:30AM':"2021-02-04 10:30:00",
+            '4-Feb 04:45PM-06:30PM':"2021-02-04 18:30:00",
+            '5-Feb 12:45AM-02:30AM':"2021-02-05 02:30:00",
+            '5-Feb 08:45AM-10:30AM':"2021-02-05 10:30:00",
+            '5-Feb 04:45PM-06:30PM':"2021-02-05 18:30:00",
+            '6-Feb 12:45AM-02:30AM':"2021-02-06 02:30:00",
+            '6-Feb 08:45AM-10:30AM':"2021-02-06 10:30:00",
+            '6-Feb 04:45PM-06:30PM':"2021-02-06 18:30:00",
+            '7-Feb 12:45AM-02:30AM':"2021-02-07 02:30:00",
+            '7-Feb 08:45AM-10:30AM':"2021-02-07 10:30:00",
+            '7-Feb 04:45PM-06:30PM':"2021-02-07 18:30:00",
+            '8-Feb 12:45AM-02:30AM':"2021-02-08 02:30:00",
+            "unknown unknown": "",
+            " ": ""
+        }
+        time = self.content.date3 + " " + self.content.time3
+        return datetime_to_str[time]
 
 
 @dataclass(frozen=True)
@@ -479,4 +526,6 @@ class PosterInfo:
     cluster: str
     cluster_name: str
     gather_town_link: str
+    session_type : str
     papers: List[str]
+    time3: str = None
