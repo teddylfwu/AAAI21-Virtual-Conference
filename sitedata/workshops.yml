@@ -240,6 +240,34 @@
     end_time: 2021-2-8 17:40:00-08:00
     name: None
     hosts: None
+  - start_time: 2021-2-9 07:00:00-08:00
+    end_time: 2021-2-9 17:40:00-08:00
+    name: None
+    hosts: None
+  zoom_links:
+  - https://zoom.us/j/94912916849?pwd=SHdCZytNNlpJVXJGVlRuV05KRHI1QT09
+  prerecorded_talks:
+  - title: Invited talk
+    speakers: Miriam Butt
+    presentation_id: '38939785'
+
+- UID: WS-11
+  title: "W11: Explainable Agency in Artificial Intelligence"
+  organizers: "Prashan Madumal, Silvia Tulli, David Aha and Rosina Weber"
+  abstract: "As AI-enabled systems have become increasingly applied to critical societal problems with tangible consequences and influence, calls for explainability and interpretability of these systems have also become increasingly prevalent. Explainable AI (XAI) attempts to alleviate concerns of transparency, trust, and ethics in AI by making them accountable, interpretable, and explainable to humans. This workshop aims to address these concepts from the perspective of Explainable Agency, and bring together researchers and practitioners working in different facets of XAI from diverse backgrounds to share challenges, new directions, and recent research in the field. We especially welcome research from fields including (but not limited to) AI, human‐computer interaction, human-robot interaction, cognitive science, human factors, and philosophy."
+  website: https://sites.google.com/view/xaiworkshop/topic
+  rocketchat_channel: W11ExplainableAgencyinArtificialIntelligence
+  alias: W11ExplainableAgencyinArtificialIntelligence
+  day: Feb 9
+  sessions:
+  - start_time: 2021-2-8 07:00:00-08:00
+    end_time: 2021-2-8 17:40:00-08:00
+    name: None
+    hosts: None
+  - start_time: 2021-2-9 07:00:00-08:00
+    end_time: 2021-2-9 17:40:00-08:00
+    name: None
+    hosts: None
   zoom_links:
   - https://zoom.us/j/94912916849?pwd=SHdCZytNNlpJVXJGVlRuV05KRHI1QT09
   prerecorded_talks:
@@ -278,6 +306,35 @@
   sessions:
   - start_time: 2021-2-8 08:00:00-08:00
     end_time: 2021-2-8 16:00:00-08:00
+    name: None
+    hosts: None
+  - start_time: 2021-2-9 08:00:00-08:00
+    end_time: 2021-2-9 16:00:00-08:00
+    name: None
+    hosts: None
+  zoom_links:
+  - https://umn-private.zoom.us/j/91933179732?pwd=aDdOTGk0WVhLbmJvOGd2YXd6VWVuUT09
+  - https://umn-private.zoom.us/j/99963085986?pwd=azZLZFdLQm1lNUJtWk0vUFl3bGc1Zz09
+  prerecorded_talks:
+  - title: Keynote talk by Eduard Hovy
+    speakers: Eduard Hovy
+    presentation_id: '38940164'
+
+- UID: WS-13
+  title: 'W13: 5th International Workshop on Health Intelligence (W3PHIAI-21)'
+  organizers: "Martin Michalowski, Arash Shaban-Nejad, Cochair, Simone Bianco, Szymon Wilk, David L. Buckeridge, John S. Brownstein, and Byron C. Wallace"
+  abstract: "Public health authorities and researchers collect data from many sources and analyze these data together to estimate the incidence and prevalence of different health conditions, as well as related risk factors. Modern surveillance systems employ tools and techniques from artificial intelligence and machine learning to monitor direct and indirect signals and indicators of disease activities for early, automatic detection of emerging outbreaks and other health-relevant patterns. The advances in web science and technology for data management, integration, mining, classification, filtering, and visualization has given rise to a variety of applications representing real-time data on epidemics. Moreover, to tackle and overcome several issues in personalized healthcare, information technology will need to evolve to improve communication, collaboration, and teamwork among patients, their families, healthcare communities, and care teams involving practitioners from different fields and specialties. All of these changes require novel solutions and the AI community is well-positioned to provide both theoretical- and application-based methods and frameworks."
+  website: http://w3phiai2021.w3phi.com/
+  rocketchat_channel: W13InternationalWorkshoponHealthIntelligence
+  alias: W13InternationalWorkshoponHealthIntelligence
+  day: Feb 9
+  sessions:
+  - start_time: 2021-2-8 08:00:00-08:00
+    end_time: 2021-2-8 16:00:00-08:00
+    name: None
+    hosts: None
+  - start_time: 2021-2-9 08:00:00-08:00
+    end_time: 2021-2-9 16:00:00-08:00
     name: None
     hosts: None
   zoom_links:
