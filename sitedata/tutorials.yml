@@ -1575,3 +1575,471 @@
     - name: xxx
       description: |+
         to be continued
+
+- UID: FH-1
+  title: 'Dinesh Jayaraman'
+  organizers: University of Pennsylvania
+  info: |-
+    to be continued
+  rocketchat_channel: NewFacultyHighlightsSpeakers_DineshJayaraman
+  prerecorded: '38952020'
+  abstract: |-
+    <p>
+    </p>
+  sessions:
+    - name: AH9
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+    - name: AH9
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+  authors:
+    - name: to be continued
+      description: |+
+        to be continued
+
+- UID: FH-8
+  title: 'Diyi Yang'
+  organizers: Georgia Tech
+  info: |-
+    to be continued
+  rocketchat_channel: NewFacultyHighlightsSpeakers_DiyiYang
+  prerecorded: '38952021'
+  abstract: |-
+    <p>
+    </p>
+  sessions:
+    - name: AH9
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+    - name: AH9
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+  authors:
+    - name: to be continued
+      description: |+
+        to be continued
+
+- UID: FH-15
+  title: 'Chelsea Finn'
+  organizers: Stanford University
+  info: |-
+    to be continued
+  rocketchat_channel: NewFacultyHighlightsSpeakers_ChelseaFinn
+  prerecorded: '38952022'
+  abstract: |-
+    <p>
+    </p>
+  sessions:
+    - name: AH9
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+    - name: AH9
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+  authors:
+    - name: to be continued
+      description: |+
+        to be continued
+
+- UID: FH-16
+  title: 'Hoda Heidari'
+  organizers: Carnegie Mellon University
+  info: |-
+    to be continued
+  rocketchat_channel: NewFacultyHighlightsSpeakers_HodaHeidari
+  prerecorded: '38952023'
+  abstract: |-
+    <p>
+    </p>
+  sessions:
+    - name: AH9
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+    - name: AH9
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+  authors:
+    - name: to be continued
+      description: |+
+        to be continued
+
+- UID: FH-20
+  title: 'Simon S. Du'
+  organizers: University of Washington
+  info: |-
+    to be continued
+  rocketchat_channel: NewFacultyHighlightsSpeakers_SimonSDu
+  prerecorded: '38952024'
+  abstract: |-
+    <p>
+    </p>
+  sessions:
+    - name: AH9
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+    - name: AH9
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+  authors:
+    - name: to be continued
+      description: |+
+        to be continued
+
+- UID: FH-33
+  title: 'Ju Sun'
+  organizers: University of Minnesota, Twin Cities
+  info: |-
+    to be continued
+  rocketchat_channel: NewFacultyHighlightsSpeakers_JuSun
+  prerecorded: '38952025'
+  abstract: |-
+    <p>
+    </p>
+  sessions:
+    - name: AH9
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+    - name: AH9
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+  authors:
+    - name: to be continued
+      description: |+
+        to be continued
+
+- UID: FH-36
+  title: 'Kokil Jaidka'
+  organizers: National University of Singapore
+  info: |-
+    to be continued
+  rocketchat_channel: NewFacultyHighlightsSpeakers_KokilJaidka
+  prerecorded: '38952026'
+  abstract: |-
+    <p>
+    </p>
+  sessions:
+    - name: AH9
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+    - name: AH9
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+  authors:
+    - name: to be continued
+      description: |+
+        to be continued
+
+- UID: FH-37
+  title: 'Pascal Bercher'
+  organizers: Australian National University
+  info: |-
+    to be continued
+  rocketchat_channel: NewFacultyHighlightsSpeakers_PascalBercher
+  prerecorded: '38952027'
+  abstract: |-
+    <p>
+    </p>
+  sessions:
+    - name: AH9
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+    - name: AH9
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+  authors:
+    - name: to be continued
+      description: |+
+        to be continued
+
+- UID: FH-38
+  title: 'Lili Mou'
+  organizers: University of Alberta
+  info: |-
+    to be continued
+  rocketchat_channel: NewFacultyHighlightsSpeakers_LiliMou
+  prerecorded: '38952028'
+  abstract: |-
+    <p>
+    </p>
+  sessions:
+    - name: AH9
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+    - name: AH9
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+  authors:
+    - name: to be continued
+      description: |+
+        to be continued
+
+- UID: FH-49
+  title: 'Jundong Li'
+  organizers: University of Virginia
+  info: |-
+    to be continued
+  rocketchat_channel: NewFacultyHighlightsSpeakers_JundongLi
+  prerecorded: '38952029'
+  abstract: |-
+    <p>
+    </p>
+  sessions:
+    - name: AH9
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+    - name: AH9
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+  authors:
+    - name: to be continued
+      description: |+
+        to be continued
+
+- UID: FH-52
+  title: 'Hang Ma'
+  organizers: Simon Fraser University
+  info: |-
+    to be continued
+  rocketchat_channel: NewFacultyHighlightsSpeakers_HangMa
+  prerecorded: '38952030'
+  abstract: |-
+    <p>
+    </p>
+  sessions:
+    - name: AH9
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+    - name: AH9
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+  authors:
+    - name: to be continued
+      description: |+
+        to be continued
+
+- UID: FH-61
+  title: 'Nadin Kokciyan'
+  organizers: University of Edinburgh
+  info: |-
+    to be continued
+  rocketchat_channel: NewFacultyHighlightsSpeakers_NadinKokciyan
+  prerecorded: '38952031'
+  abstract: |-
+    <p>
+    </p>
+  sessions:
+    - name: AH9
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+    - name: AH9
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+  authors:
+    - name: to be continued
+      description: |+
+        to be continued
+
+- UID: FH-63
+  title: 'Jingjing Xu'
+  organizers: ByteDance AI Lab
+  info: |-
+    to be continued
+  rocketchat_channel: NewFacultyHighlightsSpeakers_JingjingXu
+  prerecorded: '38952032'
+  abstract: |-
+    <p>
+    </p>
+  sessions:
+    - name: AH9
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+    - name: AH9
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+  authors:
+    - name: to be continued
+      description: |+
+        to be continued
+
+- UID: FH-75
+  title: 'Yonatan Belinkov'
+  organizers: Technion
+  info: |-
+    to be continued
+  rocketchat_channel: NewFacultyHighlightsSpeakers_YonatanBelinkov
+  prerecorded: '38952033'
+  abstract: |-
+    <p>
+    </p>
+  sessions:
+    - name: AH9
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+    - name: AH9
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+  authors:
+    - name: to be continued
+      description: |+
+        to be continued
+
+- UID: FH-78
+  title: 'Animesh Garg'
+  organizers: University of Toronto
+  info: |-
+    to be continued
+  rocketchat_channel: NewFacultyHighlightsSpeakers_AnimeshGarg
+  prerecorded: '38952034'
+  abstract: |-
+    <p>
+    </p>
+  sessions:
+    - name: AH9
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+    - name: AH9
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+  authors:
+    - name: to be continued
+      description: |+
+        to be continued
+
+- UID: FH-79
+  title: 'Jakob Foerster'
+  organizers: Facebook AI Research/Univ. of Toronto/Vector Institute
+  info: |-
+    to be continued
+  rocketchat_channel: NewFacultyHighlightsSpeakers_JakobFoerster
+  prerecorded: '38952035'
+  abstract: |-
+    <p>
+    </p>
+  sessions:
+    - name: AH9
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+    - name: AH9
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+  authors:
+    - name: to be continued
+      description: |+
+        to be continued
+
+- UID: FH-84
+  title: 'Eunsol Choi'
+  organizers: University of Texas, Austin
+  info: |-
+    to be continued
+  rocketchat_channel: NewFacultyHighlightsSpeakers_EunsolChoi
+  prerecorded: '38952036'
+  abstract: |-
+    <p>
+    </p>
+  sessions:
+    - name: AH9
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+    - name: AH9
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+  authors:
+    - name: to be continued
+      description: |+
+        to be continued
+
+- UID: FH-112
+  title: 'Noam Brown'
+  organizers: Facebook AI Research
+  info: |-
+    to be continued
+  rocketchat_channel: NewFacultyHighlightsSpeakers_NoamBrown
+  prerecorded: '38952037'
+  abstract: |-
+    <p>
+    </p>
+  sessions:
+    - name: AH9
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+    - name: AH9
+      start_time: 2020-02-03 17:00:00+00:00
+      end_time: 2020-02-03 20:00:00+00:00
+      zoom_link: 123.com
+      hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
+  authors:
+    - name: to be continued
+      description: |+
+        to be continued

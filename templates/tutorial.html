@@ -149,13 +149,14 @@
     </a>
   </div>
 
-  <div class="row m-2">   
+  <div class="row m-2">
+    {% set rocketchat_width = 5 %}
 
-    {% if tutorial.prerecorded %}
-      {% set rocketchat_width = 5 %}
-    {% else %}
-      {% set rocketchat_width = 12 %}
-    {% endif %}
+{#    {% if tutorial.prerecorded %}#}
+{#      {% set rocketchat_width = 5 %}#}
+{#    {% else %}#}
+{#      {% set rocketchat_width = 12 %}#}
+{#    {% endif %}#}
 
     <!-- Prerecorded Talk -->
     {% if tutorial.prerecorded %}
@@ -173,6 +174,14 @@
         });
       </script>
     </div>
+    {% else %}
+    <div class="col-md-7 col-xs-12 my-auto p-2" >
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/UX8OubxsY8w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+{#        MH2,3,7,8,9#}
+{#        AQ2#}
+{#        AH4,5,6,8,9,10#}
+
     {% endif %}
 
     <!-- RocketChat Channel -->

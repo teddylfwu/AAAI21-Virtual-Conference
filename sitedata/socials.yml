@@ -9,7 +9,7 @@
   website:  https://sites.google.com/view/ai4be
   rocketchat_channel:
   location: takes place online
-  zoom_link: 
+  zoom_link: https://zoom.us/j/96508391734?pwd=Mmx6RTVtVmgyaGFnU2xTYTloN1l4Zz09
   sessions:
   - name: ""
     start_time: 2021-02-09 06:00:00-08:00
@@ -28,7 +28,7 @@
   website: https://www.circuitinstitute.org/aaai21
   rocketchat_channel:
   location: takes place online
-  zoom_link: 
+  zoom_link: https://jhuapl.zoomgov.com/j/1611514016?pwd=M0ptYXlQMjFINzczcFRpUGNUTWluQT09
   sessions:
   - name: ""
     start_time: 2021-02-05 11:30:00-08:00
@@ -44,7 +44,7 @@
   website: https://blackinai.github.io/#/
   rocketchat_channel:
   location: takes place online
-  zoom_link: 
+  zoom_link: https://zoom.us/j/96657267046?pwd=Sm5TYTZiQ0hmeDF0OGJ3ejRCaGdxdz09
   sessions:
   - name: ""
     start_time: 2021-02-09 15:30:00-08:00
@@ -63,7 +63,7 @@
   website: https://sites.google.com/view/gender-identity-and-ai/home
   rocketchat_channel:
   location: takes place online
-  zoom_link: 
+  zoom_link: https://zoom.us/j/98677487319?pwd=dklWVmpqNFRHR2lrV0V2N201NkJ2QT09
   sessions:
   - name: ""
     start_time: 2021-02-08 08:30:00-08:00
@@ -81,7 +81,7 @@
   website: https://docs.google.com/document/d/1CTHDlQGuC-lSyaSaOHUsre6gyNZ3fpirEC90uL61Brg/edit#
   rocketchat_channel:
   location: takes place online
-  zoom_link: 
+  zoom_link: https://zoom.us/j/97141736891?pwd=QVRGSkdaMzJ3b0tTdEZjQ09pNFV0dz09
   sessions:
   - name: ""
     start_time: 2021-02-08 07:00:00-08:00
@@ -99,7 +99,7 @@
   website: https://sites.google.com/view/latinxperiences/home
   rocketchat_channel:
   location: takes place online
-  zoom_link: 
+  zoom_link: https://zoom.us/j/92378438045?pwd=b2tEc25KQzg1N043cGx3ZGQ2WVhWdz09
   sessions:
   - name: ""
     start_time: 2021-02-04 12:00:00-08:00
@@ -116,7 +116,7 @@
   website: http://www.pages.drexel.edu/~rw37/midcar2021
   rocketchat_channel:
   location: takes place online
-  zoom_link: 
+  zoom_link: https://zoom.us/j/93835216885?pwd=dWVYY1hMZTRodmdkTHhvMDBLQUhXUT09
   sessions:
   - name: ""
     start_time: 2021-02-06 11:00:00-08:00
@@ -141,8 +141,8 @@
   image: static/images/aaai2021/AAAI-logo.png
   website: https://researcher.watson.ibm.com/researcher/view_group.php?id=10599
   rocketchat_channel:
-  location: takes place Online
-  zoom_link: 
+  location: takes place online
+  zoom_link: https://zoom.us/j/98166353906?pwd=YVRpSUI5RGtHcCtmWHBOb0lkZXFvQT09
   sessions:
   - name: ""
     start_time: 2021-02-09 06:30:00-08:00
@@ -181,7 +181,7 @@
   image: static/images/aaai2021/AAAI-logo.png
   website: https://womenmentorinai.github.io/
   rocketchat_channel:
-  location: takes place online
+  location: is by invitation only
   zoom_link: 
   sessions:
   - name: ""
@@ -215,7 +215,7 @@
   image: static/images/aaai2021/AAAI-logo.png
   website: https://queerinai.org/aaai-2021
   rocketchat_channel:
-  location: takes place online
+  location: is by invitation only
   zoom_link: 
   sessions:
   - name: "1"
