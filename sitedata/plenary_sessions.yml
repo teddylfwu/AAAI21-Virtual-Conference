@@ -1,3 +1,27 @@
+- UID: opening_remarks_speaker_by_tuomas_sandholm
+  title: 'Opening Ceremony and Conference Awards and Invited Talk: IAAI-21 Robert S. Engelmore Memorial Award Lecture'
+  day: Feb 4
+  image: static/images/aaai2021/AAAI-logo.png
+  presentation_id: '38952051'
+  sessions:
+  - name: P-Live Presentation
+    start_time: 2021-02-04 14:45:00+00:00
+    end_time: 2021-02-04 16:45:00+00:00
+  rocketchat_channel: Plenary_OpeningCeremonyandConferenceAwards_InvitedSpeakersProgram_IAAI21RobertSEngelmoreMemorialAwardLecture
+  abstract: "In recent years, large language models pretrained on vast quantities of raw text have revolutionized NLP. Existing methods, based on variations of causal or masked languages models, now provide the de facto methods for every NLP task. In this talk, I will discuss recent work on language model pretraining, from ELMo, GPT, and BERT to more recent models.  I will aim for broad coverage of the overall trends but provide more details on the models we have been developing recently at Facebook AI and the University of Washington. These include in particular pre-training methods for sequence-to-sequence models, such as BART, mBART, and MARGE, which provide some of the most generally applicable approaches to date.
+   "
+  bio: "[Tuomas Sandholm](http://www.cs.cmu.edu/~sandholm/) is Angel Jordan University Professor of Computer Science at Carnegie Mellon University and a serial entrepreneur. His research focuses on the convergence of artificial intelligence, economics, and operations research. He is Co-Director of CMU AI. He is Founder and Director of the Electronic Marketplaces Laboratory.
+
+                                                                             In parallel with his academic career, he was Founder, Chairman, first CEO, and CTO/Chief Scientist of CombineNet, Inc. from 1997 until its acquisition in 2010. During this period the company commercialized over 800 of the world’s largest-scale generalized combinatorial multi-attribute auctions, with over $60 billion in total spend and over $6 billion in generated savings. He is Founder and CEO of Optimized Markets, Inc., which is bringing a new optimization-powered paradigm to advertising campaign sales, scheduling, and pricing in linear and nonlinear TV, display, streaming, and cross-media advertising.
+
+                                                                             Since 2010, his algorithms have been running the national kidney exchange for UNOS, where they make the kidney exchange transplant plan for 80% of U.S. transplant centers together each week. He also co-invented never-ending altruist-donor-initiated chains, which have become the main modality of kidney exchange worldwide and have led to around 10,000 life-saving transplants. He invented liver lobe and multi-organ exchanges, and the first liver-kidney swap took place in 2019.
+                                                                             He has developed the leading algorithms and pipelines for several general game classes. The team he leads is the multi-time world champion in AI-vs-AI heads-up no-limit Texas hold’em, the main benchmark and decades-open challenge problem for application-independent algorithms for imperfect-information games. Their AI Libratus became the first and only AI to beat top humans at that game. Then their AI Pluribus became the first and only AI to beat top humans at the multi-player game. That is the first superhuman milestone in any game beyond two-player zero-sum games. He is Founder and CEO of Strategic Machine, Inc., which provides solutions for strategic reasoning in business and gaming applications. He is Founder and CEO of Strategy Robot, Inc., which focuses on defense, intelligence, and other government applications.
+
+                                                                             Among his honors are the Minsky Medal, Computers and Thought Award, inaugural ACM Autonomous Agents Research Award, CMU’s Allen Newell Award for Research Excellence, Sloan Fellowship, NSF Career Award, Carnegie Science Center Award for Excellence, Edelman Laureateship, and Goldman Sachs 100 Most Intriguing Entrepreneurs. He is Fellow of the ACM, AAAI, and INFORMS. He holds an honorary doctorate from the University of Zurich.
+
+"
+  presenter: Tuomas Sandholm
+
 - UID: opening_remarks
   title: Opening Ceremony and Conference Awards
   day: Feb 4
