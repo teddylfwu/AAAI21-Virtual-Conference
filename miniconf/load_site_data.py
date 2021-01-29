@@ -752,7 +752,7 @@ def generate_paper_events(site_data: Dict[str, Any]):
                 "start": start,
                 "end": end,
                 "location": "",
-                "link": f"posters.html?tab_id={tab_id}#{room}-{cluster}",
+                "link": f"posters_{tab_id}.html?#{room}-{cluster}",
                 "category": "time",
                 "type": "Posters",
                 "view": "day",
