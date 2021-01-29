@@ -159,7 +159,7 @@ Panelists: Gabriela Ramos, Sana Khareghani, Drago Tudorache
   title: 'AI in Practice Panel: Emerging Uses of AI in Real-Time Automation'
   presentation_id: ""
   day: Feb 5
-  image: [static/images/aiinpractice/PANEL 2 - Apeksha Kumavat.jpg, static/images/aiinpractice/PANEL 2 - Carolyn Mooney copy.jpg,static/images/aiinpractice/PANEL 2 - Brandon Minor copy.jpg,static/images/aiinpractice/PANEL 2 - Sebastian Quintero Rojas.jpg]
+  image: [static/images/aiinpractice/PANEL 2 - Apeksha Kumavat.jpg, static/images/aiinpractice/PANEL 2 - Ethan McCreadie.jpg , static/images/aiinpractice/PANEL 2 - Brandon Minor copy.jpg, static/images/aiinpractice/PANEL 2 - Carolyn Mooney copy.jpg, static/images/aiinpractice/PANEL 2 - Sebastian Quintero Rojas.jpg]
   sessions:
   - name: P-Live Presentation
     start_time:  2021-02-05 18:30:00+00:00
@@ -175,8 +175,15 @@ The world economy is becoming more and more on-demand and real-time. As consumer
   bio: "
 Apeksha Kumavat is the co-founder and chief engineer at Gatik, a Palo Alto based start-up developing autonomous vehicles for business-to-business short-haul logistics. Prior to this, Apeksha was the Perception Lead at Ford Motor Company's self-driving car unit where she designed effective and efficient feature detection methods to assist with online localization and developed perception algorithms for autonomous vehicles. She has also held the position of Lead Machine Learning Engineer at Otsaw Digital. Apeksha earned her M.S. (with a focus on Machine/Deep Learning) from Purdue University and has contributed towards research in areas including machine learning, cognitive science, and robotics.
 \n\n
-
+Ethan McCreadle is the lead engineer at goPuff, the go-to solution for immediate everyday needs, where he oversees its innovative routing platform. Recognized for his expertise in cloud computing, automation and continuous delivery, Ethan spearheads core customer pipeline initiatives on the dispatch & logistics. Prior to his work at goPuff, Ethan held positions in website architecture and full stack development. He attended Washington University in St. Louis where he studied electrical engineering.
+\n\n
+Brandon Minor is a roboticist and founder of Tangram Vision, which makes sensor integration software for vision-enabled products. He is passionate about the startup ecosystem in all its forms, and takes pride in building the community.
+\n\n
+Carolyn Mooney is the CEO and co-founder of nextmv. Prior to this, she analyzed simulations at Lockheed (missiles) and Zoomer (pizzas) before running Grubhub’s Systems Engineering team. While not starting companies, she coaches volleyball or plays with nextmv’s CDO, Wally, at the park.
+\n\n
 Sebastian Quintero Rojas is Colombian and passionate about Operations Research. Experienced in developing and deploying OR models into production with industry leading best software practices. Sebastian holds titles in both mechanical and industrial engineering. Recently completed a master's in OR from Universidad de Los Andes, focusing his thesis on the Meal Delivery Routing Problem.
+\n\n
+
 "
   presenter: "
 Panelists: Apeksha Kumavat, Chief Engineer, Gatik; Ethan McCreadie, Engineering Lead, goPuff; Brandon Minor, CEO, Tangram Vision; Carolyn Mooney, CEO, nextmv; Sebastian Quintero, Project Lead, Mercado Libre
@@ -298,12 +305,17 @@ Moderator: Tharsis Souza, VP, Two Sigma Investments
 Panelists: Alexander Denev, Head of AI Financial Services, Deloitte; Rajesh T. Krishnamachari, Global Head of Data Science, Bank of America; Petter Kolm, Clinical Professor, NYU Courant; Adriano Koshiyama, Research Fellow, UCL
 \n\n
 In recent years, the application of artificial intelligence in finance has received increased interest both as an academic research field and as a solution for real-world business problems. However, the deployment of AI models in production systems can present a number of issues and concerns. This panel discusses key risks and challenges in deploying AI applications in the financial services industry and approaches to address these challenges.
-  "
+"
   bio: "
 Alexander Denev leads AI and Data Science team for Financial Services - Risk Advisory. His responsibilities include development of AI products and advisory around risks and ethical implementation of AI. He also focusses on Alternative Data, AI for Data Quality and AI for Retail Banking. He is the former Head of Quantitative Research & Advanced Analytics at IHS Markit. He recently published The Book of Alternative Data ®C the first of its kind on this topic, and previously two other books on application of machine learning in Finance.
 \n\n
 
-Adriano Koshiyama is a Research Fellow at Computer Science at University College London. He is co-founder of Holistic AI, a startup focused on Auditing and Assurance of AI Systems. His interests include: Machine Learning, Finance, and Trustworthy AI."
+Adriano Koshiyama is a Research Fellow at Computer Science at University College London. He is co-founder of Holistic AI, a startup focused on Auditing and Assurance of AI Systems. His interests include: Machine Learning, Finance, and Trustworthy AI.
+\n\n
+Tharsis Souza is a computer scientist passionate about data-driven products. He is Vice President of Products at Two Sigma Investments with the goal of applying cutting-edge technology to the data-rich world of finance. Prior to Two Sigma, he spent 10 years delivering new products in a variety of companies from start-ups to Fortune 500’s in the U.S., Brazil, and the U.K. He’s also an author of scholarly publications Financial Computing and a regular speaker in academic and business conferences. Tharsis holds a Ph.D. in Computer Science from UCL, University of London following an M.Phil. and M.Sc. in Computer Science and a B.Sc. in Computer Engineering.
+\n\n
+Before his role as a Professor at NYU Courant, Petter Kolm worked at Goldman Sachs Asset Management where his responsibilities included developing investment strategies. Petter has coauthored numerous articles and books on quantitative finance and financial data science, serves on several editorial boards for academic journals, professional associations, and company advisory boards. He holds a Ph.D. in Mathematics from Yale, an M.Phil. in Applied Mathematics from the Royal Institute of Technology, and an M.S. in Mathematics from ETH Zurich.
+"
   presenter: "
 Panelists: Alexander Denev, Head of AI Financial Services, Deloitte; Rajesh T. Krishnamachari, Global Head of Data Science, Bank of America; Petter Kolm, Clinical Professor, NYU Courant; Adriano Koshiyama, Research Fellow, UCL
   "
