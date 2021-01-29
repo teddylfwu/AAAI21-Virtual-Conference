@@ -87,22 +87,24 @@
                 
                 {% if ae.talk %}
                 <div class="m-3 text-muted">
+                  {% if ae.talk|length > 1%}
                   {{ae.talk[0].session_name}}:
                   {% for talk in ae.talk%}
-                  {% if ae.talk|length > 1%}
+                  
                   <br>
                   <p style="margin-left: 40px; margin-bottom: 0px">{{ talk.start_time.strftime("%b")}} {{talk.start_time.day}}
                   <span class="session_times">{{"({}-{} PST)".format(talk.start_time.strftime("%H:%M"), talk.end_time.strftime("%H:%M"))}}</span>
                   
                     [<a href="{{talk.link}}" class="card-link">Link</a>]
-                  
+                  {% endfor %}
                   {% else %}
+                  {% for talk in ae.talk%}
+                  <a href="{{talk.link}}" class="card-link">{{talk.session_name}}:</a>
                   {{ talk.start_time.strftime("%b")}} {{talk.start_time.day}}
                     <span class="session_times">{{"({}-{} PST)".format(talk.start_time.strftime("%H:%M"), talk.end_time.strftime("%H:%M"))}}</span>
-                    
-                      [<a href="{{talk.link}}" class="card-link">Link</a>]<br>
-                  {% endif%}
                   {% endfor %}
+                  {% endif%}
+                  
                   
                 </div>
                 {% endif %}
