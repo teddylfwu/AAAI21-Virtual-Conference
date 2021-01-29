@@ -1,19 +1,70 @@
 {% set active_page = "Meet with a fellow" %}
 {% extends "base.html" %}
+{% block heading %}
+{{ components.section("Meet with A Fellow") }}
+{% endblock %}
 
 {% block top %}
 
 {% endblock %}
 
 {% block content %}
-
-<div class="row">
-  <div class="col-md-7 col-sm-12 pr-5 lead">
-    <p>Welcome to Meet with a fellow!<br><br>
-      Here is nothing left.
-    </p>
+<div class="pp-card m-3" style="">
+  <div class="card-header">
+<!-- <div class="row"> -->
+  <!-- <div class="col-md-12 col-sm-12 pr-5 lead"> -->
+    <p>Welcome to the Meet with a AAAI Fellow Program</p>
+    <p>First held in 2006, the AAAI Fellow/Student program provides an opportunity for a small number of students to chat with a AAAI Fellow in an informal setting during the conference. This year the program will be held via Gather.town. Sign-up sheets will be available in the room, and a volunteer will assist you in locating your chosen Fellow at the designated time.</p>
+    <p>Fellows will generally be available for one hour in one of the following time periods. A full schedule is included below.</p>
   </div>
 </div>
+    <h2 class="card-title main-title text-center">
+      Schedule
+    </h2>
+    <div>
+      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+
+        <div class="card-body">
+          <table class="table table-bordered table-striped" style="font-size: medium;">
+            <thead>
+              <tr>
+                <th scope="col" style="width: 40%;">Slot</th>
+                <th scope="col">Fellow(s)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td scope="row">Feburary 4th, 12:00 - 13:00 PST</td>
+                <td style="white-space: pre-wrap;">Maria Gini, Rao Kambhampati</td>
+              </tr>
+              <tr>
+                <td scope="row">Feburary 4th, 13:00 - 14:00 PST</td>
+                <td style="white-space: pre-wrap;"> Maria Gini, Jorg Hoffmann, Holly Yanco</td>
+              </tr>
+              <tr>
+                <td scope="row">Feburary 5th, 12:00 - 13:00 PST</td>
+                <td style="white-space: pre-wrap;">Eugene Freuder, Mark Maybury, Marie desJardins</td>
+              </tr>
+              <tr>
+                <td scope="row">Feburary 5th, 13:00 - 14:00 PST</td>
+                <td style="white-space: pre-wrap;">Alan Mackworth</td>
+              </tr>
+              <tr>
+                <td scope="row">Feburary 6th, 12:00 - 13:00 PST</td>
+                <td style="white-space: pre-wrap;">Bing Liu, Murray Campbell</td>
+              </tr>
+              <tr>
+                <td scope="row">Feburary 6th, 20:00 - 21:00 PST</td>
+                <td style="white-space: pre-wrap;">Maja Mataric</td>
+              </tr>
+              
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  <!-- </div>
+</div> -->
 
 {% endblock %}
 
