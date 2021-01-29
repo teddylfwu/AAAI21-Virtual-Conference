@@ -17,7 +17,7 @@ class SessionInfo:
 
     @property
     def day(self) -> str:
-        start_time = self.start_time.astimezone(pytz.utc)
+        start_time = self.start_time.astimezone(pytz.timezone("America/Los_Angeles"))
         return f'{start_time.strftime("%b")} {start_time.day}'
 
     @property
