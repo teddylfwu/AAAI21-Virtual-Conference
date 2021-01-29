@@ -35,7 +35,7 @@
 
 {% macro plenarysessiongroup(plenary_sessions) -%}
 {% for plenary_session in plenary_sessions %}
-    {% if 'wooldridge' not in plenary_session.id and 'panel' not in plenary_session.id %}
+    {% if 'wooldridge' not in plenary_session.id and 'panel' not in plenary_session.id and 'opening_remarks_speaker_by_tuomas_sandholm' not in plenary_session.id %}
 <div class="row p-4">
   <div class="col-md-12">
     <div class="card p-3 shadow bg-light rounded">
@@ -46,9 +46,20 @@
           <div class="col-md-10 col-sm-6">
             <div class="m-3 text-muted">
               <h4>
+                      {% if 'opening_remarks_speaker_by_tuomas_sandholm' not in plenary_session.id %}
                 <a href="plenary_session_{{plenary_session.id}}.html" class="main-title" >
                   {{plenary_session.title}}
                 </a>
+                      {% endif %}
+                  {% if 'opening_remarks' in plenary_session.id or 'speaker_by_tuomas_sandholm' in plenary_session.id %}
+                <a href="plenary_session_opening_remarks_speaker_by_tuomas_sandholm.html" class="main-title" >
+                  {{plenary_session.title}}
+                </a>
+                      {% endif %}
+{#              {% else %}#}
+{#                <a href="plenary_session_opening_remarks_and_speaker_by_tuomas_sandholm.html" class="main-title" >#}
+{#                  {{plenary_session.title}}#}
+{#                </a>#}
               </h4>
             </div>
 
