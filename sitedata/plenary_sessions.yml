@@ -251,7 +251,7 @@ Panelists: Apeksha Kumavat, Chief Engineer, Gatik; Ethan McCreadie, Engineering 
   sessions:
   - name: P-Live Presentation
     start_time: 2021-02-05 23:30:00+00:00
-    end_time: 2021-02-06 00:40:00+00:00
+    end_time: 2021-02-06 00:45:00+00:00
   rocketchat_channel: Plenary_InvitedPanelsProgram_Governments2Panel_GovernmentAIStrategyPanel
   abstract: "
 Panelists: Sukyung Park (Office of the President, The Republic of Korea; Data.Network.AI and Digital New Deal); Lynne Parker (Director, National AI Initiative Office); Elissa Strome (Canadian Institute for Advanced Research (CIFAR))
@@ -301,8 +301,8 @@ Panelists: Fuchun Sun, Isaac Ben-Israel, Anna Roy
   "
 
 - UID: speaker_by_michael_wooldridge
-  title: 'Invited Talk: 2021 AAAI/EAAI-21 Outstanding Educator Award Lecture--Talking to the Public about AI.'
-  presentation_id: "38942827"
+  title: 'Invited Talk: 2021 AAAI/EAAI-21 Outstanding Educator Award Lecture--Talking to the Public about AI'
+  presentation_id: "38951738" #38951738
   day: Feb 6
   image: static/images/keynotes/michael_wooldridge.jpg
   sessions:

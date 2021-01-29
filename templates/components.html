@@ -46,12 +46,12 @@
           <div class="col-md-10 col-sm-6">
             <div class="m-3 text-muted">
               <h4>
-                      {% if 'opening_remarks_speaker_by_tuomas_sandholm' not in plenary_session.id %}
+                      {% if 'opening_remarks_speaker_by_tuomas_sandholm'!=plenary_session.id and plenary_session.id!='opening_remarks' and plenary_session.id!='speaker_by_tuomas_sandholm' %}
                 <a href="plenary_session_{{plenary_session.id}}.html" class="main-title" >
                   {{plenary_session.title}}
                 </a>
                       {% endif %}
-                  {% if 'opening_remarks' in plenary_session.id or 'speaker_by_tuomas_sandholm' in plenary_session.id %}
+                  {% if 'opening_remarks' == plenary_session.id or 'speaker_by_tuomas_sandholm' ==  plenary_session.id %}
                 <a href="plenary_session_opening_remarks_speaker_by_tuomas_sandholm.html" class="main-title" >
                   {{plenary_session.title}}
                 </a>

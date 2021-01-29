@@ -603,6 +603,10 @@ def generate_plenary_events(site_data: Dict[str, Any]):
     # Add plenary sessions to calendar
     all_sessions = []
     for plenary in site_data["plenary_sessions"]:
+        if plenary["UID"] =='opening_remarks_speaker_by_tuomas_sandholm':
+            continue
+        if plenary["UID"] == 'speaker_by_michael_wooldridge':
+            continue
         uid = plenary["UID"]
 
         for session in plenary["sessions"]:
