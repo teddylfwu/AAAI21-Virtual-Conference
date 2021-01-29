@@ -126,7 +126,8 @@ Dr. Kai-Fu Lee is a former artificial intelligence researcher, former head of Go
             </td>
             {% for mypaper in IAAI_papers %}
                 {% if 'IAAI-'+paper.__str__() == mypaper.UID %}
-                   <td scope="row">   <a href={{ mypaper.pdf_url }}>
+                   <td scope="row">  <a href="paper_{{mypaper.UID }}.html">
+{#                       <a href={{ mypaper.pdf_url }}>#}
     <div style="height:100%;width:100%">
       {{mypaper.title}}
     </div>
