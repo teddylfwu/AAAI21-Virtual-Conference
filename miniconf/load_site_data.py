@@ -882,12 +882,16 @@ def generate_paper_events(site_data: Dict[str, Any]):
                 title = f"<b>{session_type} Session</b><br><span>Room:{room}, Cluser:{cluster}</span><br><i>{cluster_name}<i>"
             else:
                 title = f"<b>{session_type} Session</b><br><span>Room:{room}</span><br><i>{cluster_name}<i>"
+            if "D1" in room:
+                link = f"posters.html?#{room}-{cluster}"
+            else:
+                link = f"posters_{tab_id}.html?#{room}-{cluster}"
             event = {
                 "title": title,
                 "start": start,
                 "end": end,
                 "location": "",
-                "link": f"posters_{tab_id}.html?#{room}-{cluster}",
+                "link": link,
                 "category": "time",
                 "type": "Posters",
                 "view": "day",
