@@ -450,7 +450,7 @@ def generator():
     for tutorial in site_data["tutorials_OTHER"]:
         yield "tutorial", {"uid": tutorial.id}
     for tutorial in site_data["tutorials_FH"]:
-        yield "tutorial", {"uid": tutorial.id}
+        yield "faculty_highlights", {"uid": tutorial.id}
     workshop: Workshop
     # for workshop in site_data["workshops"]:
     #     yield "workshop", {"uid": workshop.id}
