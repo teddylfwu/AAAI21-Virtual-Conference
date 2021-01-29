@@ -39,7 +39,7 @@
   day: Feb 4
   image: [static/images/aiinpractice/PANEL 1 - Ruben Lobel copy.jpg,static/images/aiinpractice/PANEL 1 - Polly Mitchell-Guthrie.jpg,static/images/aiinpractice/PANEL 1 - Jagannath Putrevu.JPG,static/images/aiinpractice/PANEL 1 - Chi Zhang.jpeg]
   sessions:
-  - name:
+  - name: P-Live Presentation
     start_time: 2021-02-04 18:30:00+00:00
     end_time: 2021-02-04 19:30:00+00:00
   rocketchat_channel: Plenary_IAAI21_AIinPracticePanel_ForecastinginUnprecedentedTimes
@@ -288,7 +288,7 @@ Panelists: Fuchun Sun, Isaac Ben-Israel, Anna Roy
   day: Feb 6
   image: [static/images/aiinpractice/PANEL 3 - Alexander Denev.jpg,static/images/aiinpractice/PANEL 3 - Adriano Koshiyama.jpg]
   sessions:
-  - name:
+  - name: P-Live Presentation
     start_time: 2021-02-06 18:30:00+00:00
     end_time: 2021-02-06 19:30:00+00:00
   rocketchat_channel: Plenary_IAAI21_AIinPracticePanel_AIApplicationsinFinanceRisksandChallengesinDeployingRealWorldBusinessesSolutions
@@ -478,6 +478,7 @@ Panelists: Matthew Botvinick, Leslie Pack Kaelbling, Marta Kwiatkowska, Guy Van 
 "
   presenter: Michael Wooldridge
 
+
 #- UID: best_paper_awards_and_closing
 #  title: Best Paper Awards and Closing
 #  presentation_id: "38942830"
@@ -489,8 +490,4 @@ Panelists: Matthew Botvinick, Leslie Pack Kaelbling, Marta Kwiatkowska, Guy Van 
 #    end_time: 2020-11-19 02:20:00+00:00
 #  rocketchat_channel: plenary-best-paper-awards-and-closing
 #
-
-
-
-
 
