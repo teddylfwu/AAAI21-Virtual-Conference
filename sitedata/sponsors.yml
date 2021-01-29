@@ -116,6 +116,14 @@
     [https://www.humboldt-foundation.de/en/](https://www.humboldt-foundation.de/en/)
     The Alexander von Humboldt Foundation administers many prestigious fellowships and awards, including The Alexander von Humboldt Professorship, which is the most valuable research award in Germany. The AvH Foundation is proud to announce the Alexander von Humboldt Professorship for Artificial Intelligence. Award winners are nominated by German universities with the aim of working on AI research in Germany long term. The Professorship is not only designed for researchers addressing the technical principles or applications of AI, but also for those researching the socio-economic, ethical, and legal aspects of AI.
 
+- name: Morgan & Claypool
+  level: Exhibitor
+  logo: morgan.jpeg
+  logoontop: true
+  website: https://www.morganclaypoolpublishers.com/aiml
+  description: |
+    Morgan & Claypool publishes the Synthesis Lectures on Artificial Intelligence and Machine Learning, edited by Ronald Brachman, Francesca Rossi, and Peter Stone. Lectures are 75- to 200-page electronic and print books presenting key topics written by prominent contributors for an audience of students, researchers, and developers. Recent publications in the series include Introduction to Symbolic Plan and Goal Recognition by Reuth Mirsky, Sarah Keren, and Christopher Geib and Graph Representation Learning by William L. Hamilton. The forthcoming Network Embedding: Theories, Methods, and Applications by Cheng Yang, Zhiyuan Liu, Cunchao Tu, Chuan Shi, and Maosong Sun will arrive in February 2021.
+
 - name: Northwestern University Center for Deep Learning
   level: Exhibitor
   logo: nwucdl.png
@@ -145,14 +153,6 @@
   logo: wadhwani.png
   logoontop: true
   website: http://wadhwaniai.org/
-  description: |
-    The Wadhwani Institute for Artificial Intelligence was founded with the vision of applying the power of AI to complex challenges faced by people in the developing world. We are an independent, nonprofit research institute and global hub, developing and deploying AI solutions for social impact. We collaborate with academic institutions, governments, social sector organisations and domain experts to identify real-world challenges, create and deploy innovative machine learning and data science solutions to reach intended beneficiaries ®C with the objective of making a positive difference at both individual and systemic levels. Currently, we are building solutions in agriculture and in healthcare domains such as maternal, newborn and child health and infectious diseases.
-
-- name: Morgan & Claypool
-  level: Exhibitor
-  logo: morgan.jpeg
-  logoontop: true
-  website: https://www.morganclaypoolpublishers.com/aiml
   description: |
     The Wadhwani Institute for Artificial Intelligence was founded with the vision of applying the power of AI to complex challenges faced by people in the developing world. We are an independent, nonprofit research institute and global hub, developing and deploying AI solutions for social impact. We collaborate with academic institutions, governments, social sector organisations and domain experts to identify real-world challenges, create and deploy innovative machine learning and data science solutions to reach intended beneficiaries ®C with the objective of making a positive difference at both individual and systemic levels. Currently, we are building solutions in agriculture and in healthcare domains such as maternal, newborn and child health and infectious diseases.
 
