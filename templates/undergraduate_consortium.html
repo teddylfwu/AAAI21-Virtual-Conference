@@ -96,16 +96,20 @@
 
 
 <div class="row m-2">
-  <div class="col-md-7 col-xs-12 my-auto p-2">
+{#  <div class="col-md-7 col-xs-12 my-auto p-2">#}
+{#      <div class="text-muted text-center">#}
+{#        You can open <a href="https://{{config.chat_server}}/channel/Events_UndergraduateConsortium" target="_blank">Undergraduate Consortium</a>#}
+{#        channel in a separate window.#}
+{#      </div>#}
+{#  </div>#}
+
+  <div id="rocketchat_div" class="col-md-5 col-xs-12 p-2">
       <div class="text-muted text-center">
         You can open <a href="https://{{config.chat_server}}/channel/Events_UndergraduateConsortium" target="_blank">Undergraduate Consortium</a>
         channel in a separate window.
       </div>
-  </div>
-
-  <div class="col-md-5 col-xs-12 p-2">
       <div id="gitter" class="slp">
-        <iframe frameborder="0" src="https://aaai-21.rocket.chat/channel/Events_UndergraduateConsortium?layout=embedded" height="700px" width="100%" ></iframe>
+        <iframe frameborder="0" onload="change_col();return false;" src="https://aaai-21.rocket.chat/channel/Events_UndergraduateConsortium?layout=embedded" height="700px" width="100%" ></iframe>
       </div>
   </div>
 </div>
@@ -123,5 +127,9 @@
   $(document).ready(()=>{
     add_local_tz('.session_times');
   })
+  function change_col(){
+      $("#rocketchat_div").removeClass("col-md-5");
+      $("#rocketchat_div").addClass("col-md-12");
+  }
 </script>
 {% endblock %}
