@@ -103,46 +103,46 @@
   <div class="col-md-12">
     <div class="card p-3 shadow bg-light rounded">
         <div class="row">
-{#          <div class="col-md-2 col-sm-5">#}
-{#             {% for image in plenary_session.image %}#}
-{#            <img src="{{plenary_session.image}}" width="20%" class="mt-3" />#}
-{#             {% endfor %}#}
-{#          </div>#}
-{#          <div class="col-md-10 col-sm-6">#}
+          <div class="col-md-2 col-sm-5">
+             {% for image in plenary_session.image %}
+            <img src="{{plenary_session.image}}" width="20%" class="mt-3" />
+             {% endfor %}
+          </div>
+          <div class="col-md-10 col-sm-6">
             <div class="m-3 text-muted">
               <h4>
                 <a href="plenary_session_{{plenary_session.id}}.html" class="main-title" >
                   {{plenary_session.title}}
                 </a>
               </h4>
-{#            </div>#}
+            </div>
 
             {% if plenary_session.presenter != none %}
-{#            <div class="m-3 text-muted">#}
+            <div class="m-3 text-muted">
               <span class="card-title h3">
                 {{plenary_session.presenter}}
                 {% if plenary_session.institution != none %}
                 / {{plenary_session.institution}}
                 {% endif %}
               </span>
-{#            </div>#}
+            </div>
                 <br>
             {% endif %}
               {% for image in plenary_session.image %}
-{#                  {{image}}#}
+                  {{image}}
                 <img style="width: 150px; height: 150px; margin:10px"  src="{{image}}" class="mt-3" />
              {% endfor %}
             <br>
             {% for session in plenary_session.sessions %}
-{#            <div class="m-3 text-muted">#}
+            <div class="m-3 text-muted">
               {{session.session}}
               <span class="session_times">{{session.time_string}}</span>
-{#              {% if plenary_session.presentation_id or session.presentation_id %}#}
-{#                [<a href="plenary_session_{{plenary_session.id}}.html"   class="card-link">Watch video</a>]#}
-{#              {% else %}#}
-{#                [<a href="livestream.html"   class="card-link">Join Livestream</a>]#}
-{#              {% endif %}#}
-{#                [<a href="livestream.html"   class="card-link">Watch video</a>]#}
+              {% if plenary_session.presentation_id or session.presentation_id %}
+                [<a href="plenary_session_{{plenary_session.id}}.html"   class="card-link">Watch video</a>]
+              {% else %}
+                [<a href="livestream.html"   class="card-link">Join Livestream</a>]
+              {% endif %}
+                [<a href="livestream.html"   class="card-link">Watch video</a>]
             </div>
             {% endfor %}
 
@@ -152,7 +152,7 @@
             </div>
             {% endif %}
           </div>
-{#        </div>#}
+        </div>
     </div>
   </div>
 </div>
@@ -216,6 +216,68 @@
 {%- endmacro %}
 
 {% macro panelsessiongroup(plenary_sessions) -%}
+{% for plenary_session in plenary_sessions %}
+<div class="row p-4">
+  <div class="col-md-12">
+    <div class="card p-3 shadow bg-light rounded">
+        <div class="row">
+{#          <div class="col-md-2 col-sm-5">#}
+{#             {% for image in plenary_session.image %}#}
+{#            <img src="{{plenary_session.image}}" width="20%" class="mt-3" />#}
+{#             {% endfor %}#}
+{#          </div>#}
+{#          <div class="col-md-10 col-sm-6">#}
+            <div class="m-3 text-muted">
+              <h4>
+                <a href="plenary_session_{{plenary_session.id}}.html" class="main-title" >
+                  {{plenary_session.title}}
+                </a>
+              </h4>
+{#            </div>#}
+
+            {% if plenary_session.presenter != none %}
+{#            <div class="m-3 text-muted">#}
+              <span class="card-title h3">
+                {{plenary_session.presenter}}
+                {% if plenary_session.institution != none %}
+                / {{plenary_session.institution}}
+                {% endif %}
+              </span>
+{#            </div>#}
+                <br>
+            {% endif %}
+              {% for image in plenary_session.image %}
+{#                  {{image}}#}
+                <img style="width: 150px; height: 150px; margin:10px"  src="{{image}}" class="mt-3" />
+             {% endfor %}
+            <br>
+            {% for session in plenary_session.sessions %}
+{#            <div class="m-3 text-muted">#}
+              {{session.session}}
+              <span class="session_times">{{session.time_string}}</span>
+{#              {% if plenary_session.presentation_id or session.presentation_id %}#}
+{#                [<a href="plenary_session_{{plenary_session.id}}.html"   class="card-link">Watch video</a>]#}
+{#              {% else %}#}
+{#                [<a href="livestream.html"   class="card-link">Join Livestream</a>]#}
+{#              {% endif %}#}
+{#                [<a href="livestream.html"   class="card-link">Watch video</a>]#}
+            </div>
+            {% endfor %}
+
+            {% if plenary_session.abstract != none %}
+            <div class="m-3">
+              {{plenary_session.abstract|markdown}}
+            </div>
+            {% endif %}
+          </div>
+{#        </div>#}
+    </div>
+  </div>
+</div>
+{% endfor %}
+{%- endmacro %}
+
+{% macro aiinpracticegroup(plenary_sessions) -%}
 {% for plenary_session in plenary_sessions %}
 <div class="row p-4">
   <div class="col-md-12">
