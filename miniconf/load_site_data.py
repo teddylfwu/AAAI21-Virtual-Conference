@@ -133,10 +133,13 @@ def load_site_data(
 
 
     site_data["calendar"] = build_schedule(site_data["overall_calendar"])
-    site_data["event_types"] = list(
-        {event["type"] for event in site_data["overall_calendar"]}
-    )
-
+    # site_data["event_types"] = list(
+    #     {event["type"] for event in site_data["overall_calendar"]}
+    # )
+    site_data["event_types"] = ["Plenary", "Posters", "EAAI", "Workshops", "Tutorials", "Doctoral Consortium",
+                 "Undergraduate Consortium", "Diversity and Inclusion",
+                "Meet with a Fellow", "Sponsors/Exhibitors", "AI Job Fair"
+               ]
     # plenary_sessions.html
     plenary_sessions = build_plenary_sessions(
         raw_plenary_sessions=site_data["plenary_sessions"],
