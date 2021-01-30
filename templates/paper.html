@@ -286,6 +286,17 @@
 {{ components.section("Video && Chat") }}
 <div class="container" style="; padding: 0px;">
   <div class="text-muted text-center">
+      {% if paper.presentation_id %}
+      <span>
+      You can open the
+    <a href="https://slideslive.com/{{paper.presentation_id}}" target="_blank">pre-recorded video</a>
+    and the
+    <a href="https://{{config.chat_server}}/channel/{{paper.rocketchat_channel}}"
+       target="_blank">#{{paper.rocketchat_channel}}</a>
+    channel
+    in separate windows.
+    </span>
+    {% endif %}
   </div>
   <div class="row m-2">
     <!-- Slides Live-->
