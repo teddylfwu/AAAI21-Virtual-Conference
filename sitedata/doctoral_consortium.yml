@@ -96,6 +96,11 @@
       end_time: 2021-02-03 13:30:00-08:00
       zoom_link:
       hosts: ""
+    - name: "Break and Interactions with the Speakers"
+      start_time: 2021-02-03 13:30:00-08:00
+      end_time: 2021-02-03 14:00:00-08:00
+      zoom_link:
+      hosts: ""
   authors:
     - name: xxx
       description: |+
