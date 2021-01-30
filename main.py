@@ -228,9 +228,10 @@ def plenary_sessions():
     return render_template("plenary_sessions.html", **data)
 
 
-@app.route("/posters.html")
-def poster_info():
-    tab_id = request.args.get("tab_id","")
+@app.route("/posters.html",defaults={"tab_id":"feb4"})
+@app.route("/posters_<tab_id>.html")
+def posters(tab_id):
+    # tab_id = request.args.get("tab_id","")
     data = _data()
     # data["poster_days"] = site_data["poster_days"]
     poster_days = []
@@ -462,6 +463,9 @@ def generator():
     for _, workshops_on_date in site_data["workshops"].items():
         for workshop in workshops_on_date:
             yield "workshop", {"uid": workshop.id}
+
+    for tab_id in ["feb4", "feb5", "feb6", "feb7"]:
+        yield "posters", {"tab_id": tab_id}
 
     # demonstrations: Demonstrations
     # for demonstration in site_data["demonstrations"]:

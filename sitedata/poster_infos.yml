@@ -1778,7 +1778,6 @@ AC-D4-R1-G:
     cluster_name: 'NLP: Information Extraction / Question Answering'
     gather_town_link: 
     papers:
-    - AAAI-7140
     - AAAI-647
     - AAAI-761
     - AAAI-6577
