@@ -1539,7 +1539,7 @@ paper_date1 = addToCalendarData({
     title: '{{ paper.content.title }}'.replace("#", " "),
     start: new Date("{{paper.date1_start_time_string}}"),
     end: new Date("{{paper.date1_end_time_string}}"),
-    timezone: 'UTC',
+    timezone: 'America/Los_Angeles',
     address: '{{paper.content.gather_town_link}}',
     description: '{{ paper.content.gather_town_link }}'
   }
@@ -1565,9 +1565,9 @@ paper_date2 = addToCalendarData({
   },
   data: {
     title: '{{ paper.content.title }}'.replace("#", " "),
-    start: new Date("{{paper.date1_start_time_string}}"),
-    end: new Date("{{paper.date1_end_time_string}}"),
-    timezone: 'UTC',
+    start: new Date("{{paper.date2_start_time_string}}"),
+    end: new Date("{{paper.date2_end_time_string}}"),
+    timezone: 'America/Los_Angeles',
     address: '{{paper.content.gather_town_link}}',
     description: '{{ paper.content.gather_town_link }}'
   }
@@ -1594,7 +1594,7 @@ paper_date3 = addToCalendarData({
     title: '{{ paper.content.title }}'.replace("#", " "),
     start: new Date("{{paper.date3_start_time_string}}"),
     end: new Date("{{paper.date3_end_time_string}}"),
-    timezone: 'UTC',
+    timezone: 'America/Los_Angeles',
     address: '{{paper.content.gather_town_link}}',
     description: '{{ paper.content.gather_town_link }}'
   }
