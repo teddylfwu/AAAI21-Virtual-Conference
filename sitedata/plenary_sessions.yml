@@ -396,15 +396,17 @@ Panelists: Alexander Denev, Head of AI Financial Services, Deloitte; Rajesh T. K
 #Panelists: Alexander Denev, Head of AI Financial Services, Deloitte; Rajesh T. Krishnamachari, Global Head of Data Science, Bank of America; Petter Kolm, Clinical Professor, NYU Courant; Adriano Koshiyama, Research Fellow, UCL
 #  "
 - UID: speaker_sanjeev_arora
-  title: 'Invited Speaker: Sanjeev Arora'
+  title: 'Invited Speaker: Opening the Black Box of Deep Learning (+ Takeaways for AI)'
   day: Feb 6
-  image: static/images/aaai2021/AAAI-logo.png
+  image: static/images/keynotes/sanjeev_arora.jpg
   presentation_id: '38952059'
   sessions:
   - name: P-Live Presentation
     start_time: 2021-02-06 23:30:00+00:00
     end_time: 2021-02-07 00:40:00+00:00
   rocketchat_channel: Plenary_InvitedSpeakersProgram_bySanjeevArora
+  abstract: "Deep learning's successes have led to dramatic progress in some classic AI tasks. Can it take us all the way to full AI? We argue that the current black box view of deep learning will prove a big hurdle.  Via a tour d'horizon of recent theoretical analyses of  deep learning in some concrete settings,  we illustrate how the black box view can miss out on special phenomena going on during training that are not captured by the training objective. We argue that understanding such phenomena via mathematical understanding will be crucial for enabling the full range of AI applications."
+  bio: "[Sanjeev Arora](https://www.cs.princeton.edu/~arora/) is Charles C. Fitzmorris Professor of Computer Science at Princeton University. He has received Packard Fellowship (1997), Simons Investigator Award (2012), Gödel Prize (2001 and 2010), ACM Prize in Computing (2012), and the Fulkerson Prize (2012). He is a Fellow of the AAAS and Member of NAS."
 
 - UID: speaker_by_kaifu_lee
   title: 'AAAI-21/IAAI-21 Joint Invited Talk: AI Infusion Investment Outlook'
