@@ -944,7 +944,7 @@ def generate_social_events(site_data: Dict[str, Any]):
             # day = session.day.replace(" ", "").lower()
             # start_time = start.astimezone(pytz.utc)
             day = f'{start.strftime("%b")} {start.day}'
-            day = day.replace(" ", "")
+            day = day.lower().replace(" ", "")
             # print(day)
             event = {
                 "title": "<b>Diversity Program</b>: {}".format(name),

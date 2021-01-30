@@ -1541,11 +1541,11 @@
       end_time: 2021-02-02 19:00:00+00:00
       zoom_link: 123.com
       hosts: " "
-    - name: "Lunch Break"
-      start_time: 2021-02-02 19:00:00+00:00
-      end_time: 2021-02-02 20:00:00+00:00
-      zoom_link: 123.com
-      hosts: " "
+#    - name: "Lunch Break"
+#      start_time: 2021-02-02 19:00:00+00:00
+#      end_time: 2021-02-02 20:00:00+00:00
+#      zoom_link: 123.com
+#      hosts: " "
     - name: "Talk: Wanted: You and Your Mind"
       start_time: 2021-02-02 20:10:00+00:00
       end_time: 2021-02-02 21:30:00+00:00
