@@ -298,29 +298,42 @@
 </div>
 </div>
 
-<div class="row m-2">
-  <div class="col-md-7 col-xs-12 my-auto p-2">
-      <div class="text-muted text-center">
-        You can open <a href="https://{{config.chat_server}}/channel/AAAI21Demonstrations" target="_blank">AAAI21Demonstrations</a>
-        channel in a separate window.
-      </div>
-  </div>
-
-  <div class="col-md-5 col-xs-12 p-2">
-      <div id="gitter" class="slp">
-        <iframe frameborder="0" src="https://aaai-21.rocket.chat/channel/AAAI21Demonstrations?layout=embedded" height="700px" width="100%" ></iframe>
-      </div>
-  </div>
-</div>
+{#<div class="row m-2">#}
+{#  <div class="col-md-7 col-xs-12 my-auto p-2">#}
+{#      <div class="text-muted text-center">#}
+{#        You can open <a href="https://{{config.chat_server}}/channel/AAAI21Demonstrations" target="_blank">AAAI21Demonstrations</a>#}
+{#        channel in a separate window.#}
+{#      </div>#}
+{#  </div>#}
+{##}
+{#  <div class="col-md-5 col-xs-12 p-2">#}
+{#      <div id="gitter" class="slp">#}
+{#        <iframe frameborder="0" src="https://aaai-21.rocket.chat/channel/AAAI21Demonstrations?layout=embedded" height="700px" width="100%" ></iframe>#}
+{#      </div>#}
+{#  </div>#}
+{#</div>#}
 
 {% endblock %}
 
 {% block content %}
+
+<div class="row m-2">
+<div id="rocketchat_div" class="col-md-5 col-xs-12 p-2">
+      <div id="gitter" class="slp">
+        <iframe frameborder="0" onload="change_col();return false;" src="https://aaai-21.rocket.chat/channel/AAAI21Demonstrations?layout=embedded" height="700px" width="100%" ></iframe>
+      </div>
+  </div>
+</div>
 
 <script src="static/js/time-extend.js"></script>
 <script>
   $(document).ready(()=>{
     add_local_tz('.session_times');
   })
+function change_col(){
+      $("#rocketchat_div").removeClass("col-md-5");
+      $("#rocketchat_div").addClass("col-md-12");
+}
 </script>
+
 {% endblock %}
