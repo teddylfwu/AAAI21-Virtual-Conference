@@ -197,6 +197,7 @@ def schedule():
     data = _data()
     data["calendar"] = site_data["calendar"]
     data["event_types"] = site_data["event_types"]
+    print(data["event_types"])
     return render_template("schedule.html", **data)
 
 
