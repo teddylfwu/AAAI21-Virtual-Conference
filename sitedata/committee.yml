@@ -119,6 +119,11 @@ committee:
   name: Meinolff Sellmann
   role: IAAI-21 Conference Cochairs
   pweb: https://www.ge.com/research/people/meinolf-sellmann
+- aff: Bucknell University, USA
+  image: static/images/committee/add_1_Thiago Serra .jpg
+  name: Thiago Serra 
+  role: IAAI-21 AI in Practice Chair
+  pweb: https://thiagoserra.com/
 - aff: St. Lawrence University, USA
   image: static/images/committee/25_Lisa Torrey.jpg
   name: Lisa Torrey
@@ -264,3 +269,8 @@ committee:
   name: Yang Yu
   role: Sponsor Chairs
   pweb: http://www.lamda.nju.edu.cn/yuy/default.aspx?AspxAutoDetectCookieSupport=1
+- aff: University of Aizu, Japan
+  image: static/images/committee/add_2_Victor Khaustov.JPG
+  name: Victor Khaustov
+  role: Volunteer Coordinator
+  pweb: none
