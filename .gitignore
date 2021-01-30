@@ -136,3 +136,6 @@ cscope.*
 
 # asv
 .asv
+static/images/.DS_Store
+sitedata/sponsors.yml
+.DS_Store

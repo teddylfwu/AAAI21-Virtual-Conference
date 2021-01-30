@@ -35,7 +35,7 @@
 
 {% macro plenarysessiongroup(plenary_sessions) -%}
 {% for plenary_session in plenary_sessions %}
-    {% if 'wooldridge' not in plenary_session.id and 'panel' not in plenary_session.id %}
+    {% if 'wooldridge' not in plenary_session.id and 'panel' not in plenary_session.id and 'opening_remarks_speaker_by_tuomas_sandholm' not in plenary_session.id %}
 <div class="row p-4">
   <div class="col-md-12">
     <div class="card p-3 shadow bg-light rounded">
@@ -46,9 +46,20 @@
           <div class="col-md-10 col-sm-6">
             <div class="m-3 text-muted">
               <h4>
+                      {% if 'opening_remarks_speaker_by_tuomas_sandholm' not in plenary_session.id %}
                 <a href="plenary_session_{{plenary_session.id}}.html" class="main-title" >
                   {{plenary_session.title}}
                 </a>
+                      {% endif %}
+                  {% if 'opening_remarks' in plenary_session.id or 'speaker_by_tuomas_sandholm' in plenary_session.id %}
+                <a href="plenary_session_opening_remarks_speaker_by_tuomas_sandholm.html" class="main-title" >
+                  {{plenary_session.title}}
+                </a>
+                      {% endif %}
+{#              {% else %}#}
+{#                <a href="plenary_session_opening_remarks_and_speaker_by_tuomas_sandholm.html" class="main-title" >#}
+{#                  {{plenary_session.title}}#}
+{#                </a>#}
               </h4>
             </div>
 
@@ -1400,7 +1411,21 @@
   </div>
   </div>
   <div class="text-center text-muted text-monospace">
+  {% if paper.content.room[0] == 'A' and (paper.content.room[1] == 'B' or paper.content.room[1] == 'C') %}
   <div class="paper-cal-links">
+  <span class="session_times">Room {{ paper.content.room_letter2 }} in Virtual Chair on Gather.Town, {{paper.content.date2}} {{paper.content.time2}} PST</span>
+  <img src="static/images/calendar.svg" class="paper-detail-calendar" height="24px">
+  <span id="session-cal-link-2"></span>
+  </div>
+  </div>
+    <div class="text-center text-muted text-monospace">
+  <div class="paper-cal-links">
+  <span class="session_times">Room {{ paper.content.room_letter1 }} in Virtual Chair on Gather.Town, {{paper.content.date1}} {{paper.content.time1}} PST</span>
+  <img src="static/images/calendar.svg" class="paper-detail-calendar" height="24px">
+  <span id="session-cal-link-1"></span>
+  </div>
+  {% else %}
+    <div class="paper-cal-links">
   <span class="session_times">Room {{ paper.content.room_letter1 }} in Virtual Chair on Gather.Town, {{paper.content.date1}} {{paper.content.time1}} PST</span>
   <img src="static/images/calendar.svg" class="paper-detail-calendar" height="24px">
   <span id="session-cal-link-1"></span>
@@ -1412,6 +1437,7 @@
   <img src="static/images/calendar.svg" class="paper-detail-calendar" height="24px">
   <span id="session-cal-link-2"></span>
   </div>
+ {% endif %}
   </div>
       {% if paper.content.date3 != "unknown" %}
     <div class="text-center text-muted text-monospace">

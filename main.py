@@ -94,6 +94,12 @@ def student_abstract_program():
     data["tutorials_OTHER"] = site_data["tutorials_OTHER"]
     return render_template("student_abstract_program.html", **data)
 
+@app.route("/new_faculty_highlights_program.html")
+def new_faculty_highlights_program():
+    data = _data()
+    data["tutorials_FH"] = site_data["tutorials_FH"]
+    return render_template("new_faculty_highlights_program.html", **data)
+
 @app.route("/demonstrations.html")
 def demonstrations():
     data = _data()
@@ -222,9 +228,10 @@ def plenary_sessions():
     return render_template("plenary_sessions.html", **data)
 
 
-@app.route("/posters.html")
-def poster_info():
-    tab_id = request.args.get("tab_id","")
+@app.route("/posters.html",defaults={"tab_id":"feb4"})
+@app.route("/posters_<tab_id>.html")
+def posters(tab_id):
+    # tab_id = request.args.get("tab_id","")
     data = _data()
     # data["poster_days"] = site_data["poster_days"]
     poster_days = []
@@ -318,6 +325,11 @@ def plenary_session(uid):
     data["plenary_session"] = by_uid["plenary_sessions"][uid]
     return render_template("plenary_session.html", **data)
 
+@app.route("/plenary_session_opening_remarks_and_speaker_by_tuomas_sandholm.html")
+def plenary_session_first():
+    data = _data()
+    data["plenary_session"] = by_uid["plenary_sessions"]['opening_remarks_speaker_by_tuomas_sandholm']
+    return render_template("plenary_session.html", **data)
 
 @app.route("/tutorial_<uid>.html")
 def tutorial(uid):
@@ -325,11 +337,11 @@ def tutorial(uid):
     data["tutorial"] = by_uid["tutorials"][uid]
     return render_template("tutorial.html", **data)
 
-@app.route("/undergraduate_c_abstract_<uid>.html")
-def uc_abstract(uid):
+@app.route("/fh_<uid>.html")
+def faculty_highlights(uid):
     data = _data()
     data["tutorial"] = by_uid["tutorials"][uid]
-    return render_template("undergraduate_c_abstract.html", **data)
+    return render_template("new_faculty_highlights_program_single.html", **data)
 
 
 @app.route("/workshop_<uid>.html")
@@ -439,12 +451,21 @@ def generator():
         yield "tutorial", {"uid": tutorial.id}
     for tutorial in site_data["tutorials_AH"]:
         yield "tutorial", {"uid": tutorial.id}
+    for tutorial in site_data["tutorials_UC"]:
+        yield "tutorial", {"uid": tutorial.id}
+    for tutorial in site_data["tutorials_OTHER"]:
+        yield "tutorial", {"uid": tutorial.id}
+    for tutorial in site_data["tutorials_FH"]:
+        yield "faculty_highlights", {"uid": tutorial.id}
     workshop: Workshop
     # for workshop in site_data["workshops"]:
     #     yield "workshop", {"uid": workshop.id}
     for _, workshops_on_date in site_data["workshops"].items():
         for workshop in workshops_on_date:
             yield "workshop", {"uid": workshop.id}
+
+    for tab_id in ["feb4", "feb5", "feb6", "feb7"]:
+        yield "posters", {"tab_id": tab_id}
 
     # demonstrations: Demonstrations
     # for demonstration in site_data["demonstrations"]:
