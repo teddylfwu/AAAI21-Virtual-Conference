@@ -106,12 +106,6 @@ def demonstrations():
     data["demonstrations"] = site_data["demonstrations"]
     return render_template("demonstrations.html", **data)
 
-@app.route("/ai_in_practice.html")
-def ai_in_practice():
-    data = _data()
-    data["ai_in_practice"] = site_data["ai_in_practice"]
-    return render_template("ai_in_practice.html", **data)
-
 @app.route("/diversity_programs.html")
 def diversity_programs():
     data = _data()
@@ -219,6 +213,13 @@ def invited_speaker():
     data["invited_speakers"] = site_data["invited_speakers"]
     data["invited_speakers_days"] = site_data["invited_speakers_days"]
     return render_template("invited_speaker_program.html", **data)
+
+@app.route("/ai_in_practice.html")
+def ai_in_practice():
+    data = _data()
+    data["ai_in_practice"] = site_data["ai_in_practice"]
+    data["ai_in_practice_days"] = site_data["ai_in_practice_days"]
+    return render_template("ai_in_practice.html", **data)
 
 @app.route("/plenary_sessions.html")
 def plenary_sessions():

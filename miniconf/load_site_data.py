@@ -153,6 +153,10 @@ def load_site_data(
         raw_plenary_sessions=site_data["plenary_sessions"],
         raw_plenary_videos={"opening_remarks": site_data["opening_remarks"]},
     )
+    ai_in_practice = build_ai_in_practice_sessions(
+        raw_plenary_sessions=site_data["plenary_sessions"],
+        raw_plenary_videos={"opening_remarks": site_data["opening_remarks"]},
+    )
 
     site_data["plenary_sessions"] = plenary_sessions
     by_uid["plenary_sessions"] = {
@@ -180,6 +184,15 @@ def load_site_data(
         [day.replace(" ", "").lower(), day, ""] for day in invited_speakers
     ]
     site_data["invited_speakers_days"][0][-1] = "active"
+
+    # Ai in practice
+    # ai_in_practice=build_tutorials(site_data["ai_in_practice"])
+    # site_data["ai_in_practice"] = ai_in_practice
+    site_data["ai_in_practice"] = ai_in_practice
+    site_data["ai_in_practice_days"] = [
+        [day.replace(" ", "").lower(), day, ""] for day in ai_in_practice
+    ]
+    site_data["ai_in_practice_days"][0][-1] = "active"
 
     # Papers' progam to their data
     for p in site_data["AI for Social Impact Track_papers"]:
@@ -310,10 +323,6 @@ def load_site_data(
     # Demonstrations
     demonstrations=build_tutorials(site_data["demonstrations"])
     site_data["demonstrations"] = demonstrations
-
-    # Ai in practice
-    ai_in_practice=build_tutorials(site_data["ai_in_practice"])
-    site_data["ai_in_practice"] = ai_in_practice
 
     # socials.html/diversity_programs.html
     diversity_programs = build_socials(site_data["socials"])
@@ -601,6 +610,54 @@ def build_invited_speakers_sessions(
     return plenary_sessions
 
 
+def build_ai_in_practice_sessions(
+    raw_plenary_sessions: List[Dict[str, Any]],
+    raw_plenary_videos: Dict[str, List[Dict[str, Any]]],
+) -> DefaultDict[str, List[PlenarySession]]:
+
+    plenary_videos: DefaultDict[str, List[PlenaryVideo]] = defaultdict(list)
+    for plenary_id, videos in raw_plenary_videos.items():
+        for item in videos:
+            if 'AI in Practice Panel' in item["title"]:
+                plenary_videos[plenary_id].append(
+                    PlenaryVideo(
+                        id=item["UID"],
+                        title=item["title"],
+                        speakers=item["speakers"],
+                        presentation_id=item["presentation_id"],
+                    )
+                )
+
+    plenary_sessions: DefaultDict[str, List[PlenarySession]] = defaultdict(list)
+    for item in raw_plenary_sessions:
+        if 'AI in Practice Panel' in item["title"]:
+            plenary_sessions[item["day"]].append(
+            PlenarySession(
+                id=item["UID"],
+                title=item["title"],
+                image=item["image"],
+                day=item["day"],
+                sessions=[
+                    SessionInfo(
+                        session_name=session.get("name"),
+                        start_time=session.get("start_time"),
+                        end_time=session.get("end_time"),
+                        link=session.get("zoom_link"),
+                    )
+                    for session in item.get("sessions")
+                ],
+                presenter=item.get("presenter"),
+                institution=item.get("institution"),
+                abstract=item.get("abstract"),
+                bio=item.get("bio"),
+                presentation_id=item.get("presentation_id"),
+                rocketchat_channel=item.get("rocketchat_channel"),
+                videos=plenary_videos.get(item["UID"]),
+            )
+            )
+
+    return plenary_sessions
+
 def generate_plenary_events(site_data: Dict[str, Any]):
     """ We add sessions from the plenary for the weekly and daily view. """
     # Add plenary sessions to calendar
@@ -823,27 +880,30 @@ def generate_workshop_events(site_data: Dict[str, Any]):
     """ We add sessions from workshops and compute the overall workshops blocks for the weekly view. """
     # Add workshop sessions to calendar
     all_sessions: List[Dict[str, Any]] = []
+    duplicate_sessions: List[str] = []
     for workshop in site_data["workshops"]:
         uid = workshop["UID"]
-        all_sessions.extend(workshop["sessions"])
+        if uid not in duplicate_sessions:
+            all_sessions.extend(workshop["sessions"])
+            duplicate_sessions.append(uid)
 
-        for block in compute_schedule_blocks(workshop["sessions"]):
-            min_start = min([t["start_time"] for t in block])
-            max_end = max([t["end_time"] for t in block])
+            for block in compute_schedule_blocks(workshop["sessions"]):
+                min_start = min([t["start_time"] for t in block])
+                max_end = max([t["end_time"] for t in block])
 
-            event = {
-                "title": f"<b>Workshop</b><br/> <b>{workshop['title']}</b><br/> <i>{workshop['organizers']}</i>",
-                "start": min_start,
-                "end": max_end,
-                "location": f"workshop_{uid}.html",
-                "link": f"workshop_{uid}.html",
-                "category": "time",
-                "type": "Workshops",
-                "view": "day",
-            }
-            site_data["overall_calendar"].append(event)
+                event = {
+                    "title": f"<b>Workshop</b><br/> <b>{workshop['title']}</b><br/> <i>{workshop['organizers']}</i>",
+                    "start": min_start,
+                    "end": max_end,
+                    "location": f"workshop_{uid}.html",
+                    "link": f"workshop_{uid}.html",
+                    "category": "time",
+                    "type": "Workshops",
+                    "view": "day",
+                }
+                site_data["overall_calendar"].append(event)
 
-            assert min_start < max_end, "Session start after session end"
+                assert min_start < max_end, "Session start after session end"
 
     blocks = compute_schedule_blocks(all_sessions)
 
@@ -1606,53 +1666,53 @@ def build_demonstrations(raw_demonstrations: List[Dict[str, Any]]) -> List[Demon
         for item in raw_demonstrations
     ]
 
-def build_ai_in_practice(raw_ai_in_practice: List[Dict[str, Any]]) -> List[AiInPractice]:
-    def build_ai_in_practice_blocks(t: Dict[str, Any]) -> List[SessionInfo]:
-        blocks = compute_schedule_blocks(t["sessions"])
-        result = []
-        for i, block in enumerate(blocks):
-            min_start = min([t["start_time"] for t in block])
-            max_end = max([t["end_time"] for t in block])
-
-            assert all(s["zoom_link"] == block[0]["zoom_link"] for s in block)
-
-            result.append(
-                SessionInfo(
-                    session_name=f"T-Live Session {i+1}",
-                    start_time=min_start,
-                    end_time=max_end,
-                    link=block[0]["zoom_link"],
-                )
-            )
-        return result
-
-    return [
-        AiInPractice(
-            id=item["UID"],
-            title=item["title"],
-            organizers=item["organizers"],
-            abstract=item["abstract"],
-            website=item.get("website", None),
-            material=item.get("material", None),
-            slides=item.get("slides", None),
-            prerecorded=item.get("prerecorded", ""),
-            rocketchat_channel=item.get("rocketchat_channel", ""),
-            sessions=[
-                SessionInfo(
-                    session_name=session.get("name"),
-                    start_time=session.get("start_time"),
-                    end_time=session.get("end_time"),
-                    hosts=session.get("hosts", ""),
-                    livestream_id=session.get("livestream_id"),
-                    zoom_link=session.get("zoom_link"),
-                )
-                for session in item.get("sessions")
-            ],
-            blocks=build_ai_in_practice_blocks(item),
-            virtual_format_description=item["info"],
-        )
-        for item in raw_ai_in_practice
-    ]
+# def build_ai_in_practice(raw_ai_in_practice: List[Dict[str, Any]]) -> List[AiInPractice]:
+#     def build_ai_in_practice_blocks(t: Dict[str, Any]) -> List[SessionInfo]:
+#         blocks = compute_schedule_blocks(t["sessions"])
+#         result = []
+#         for i, block in enumerate(blocks):
+#             min_start = min([t["start_time"] for t in block])
+#             max_end = max([t["end_time"] for t in block])
+#
+#             assert all(s["zoom_link"] == block[0]["zoom_link"] for s in block)
+#
+#             result.append(
+#                 SessionInfo(
+#                     session_name=f"T-Live Session {i+1}",
+#                     start_time=min_start,
+#                     end_time=max_end,
+#                     link=block[0]["zoom_link"],
+#                 )
+#             )
+#         return result
+#
+#     return [
+#         AiInPractice(
+#             id=item["UID"],
+#             title=item["title"],
+#             organizers=item["organizers"],
+#             abstract=item["abstract"],
+#             website=item.get("website", None),
+#             material=item.get("material", None),
+#             slides=item.get("slides", None),
+#             prerecorded=item.get("prerecorded", ""),
+#             rocketchat_channel=item.get("rocketchat_channel", ""),
+#             sessions=[
+#                 SessionInfo(
+#                     session_name=session.get("name"),
+#                     start_time=session.get("start_time"),
+#                     end_time=session.get("end_time"),
+#                     hosts=session.get("hosts", ""),
+#                     livestream_id=session.get("livestream_id"),
+#                     zoom_link=session.get("zoom_link"),
+#                 )
+#                 for session in item.get("sessions")
+#             ],
+#             blocks=build_ai_in_practice_blocks(item),
+#             virtual_format_description=item["info"],
+#         )
+#         for item in raw_ai_in_practice
+#     ]
 
 def build_socials(raw_socials: List[Dict[str, Any]]) -> DefaultDict[str, List[SocialEvent]]:
     socials: DefaultDict[str, List[SocialEvent]] = defaultdict(list)

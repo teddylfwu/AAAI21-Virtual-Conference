@@ -415,7 +415,6 @@ class AiInPractice:
     virtual_format_description: str
 
 
-
 @dataclass(frozen=True)
 class WorkshopPaper:
     id: str
