@@ -94,23 +94,36 @@ def student_abstract_program():
     data["tutorials_OTHER"] = site_data["tutorials_OTHER"]
     return render_template("student_abstract_program.html", **data)
 
+@app.route("/new_faculty_highlights_program.html")
+def new_faculty_highlights_program():
+    data = _data()
+    data["tutorials_FH"] = site_data["tutorials_FH"]
+    return render_template("new_faculty_highlights_program.html", **data)
+
 @app.route("/demonstrations.html")
 def demonstrations():
     data = _data()
     data["demonstrations"] = site_data["demonstrations"]
     return render_template("demonstrations.html", **data)
 
+@app.route("/ai_in_practice.html")
+def ai_in_practice():
+    data = _data()
+    data["ai_in_practice"] = site_data["ai_in_practice"]
+    return render_template("ai_in_practice.html", **data)
+
 @app.route("/diversity_programs.html")
 def diversity_programs():
     data = _data()
-    data["diversity_programs"] = site_data["socials"]
+    data["diversity_programs"] = site_data["diversity_programs"]
+    data["diversity_programs_days"] = site_data["diversity_programs_days"]
     return render_template("diversity_programs.html", **data)
 
 
-@app.route("/gathers.html")
+@app.route("/meet_with_a_fellow.html")
 def gathers():
     data = _data()
-    return render_template("gathers.html", **data)
+    return render_template("meet_with_a_fellow.html", **data)
 
 
 @app.route("/ai_job_fair.html")
@@ -119,10 +132,10 @@ def ai_job_fail():
     return render_template("ai_job_fair.html", **data)
 
 
-@app.route("/reception.html")
-def reception():
-    data = _data()
-    return render_template("reception.html", **data)
+#@app.route("/reception.html")
+#def reception():
+#    data = _data()
+#    return render_template("reception.html", **data)
 
 
 @app.route("/faq.html")
@@ -192,6 +205,20 @@ def schedule():
 #     data = _data()
 #     return render_template("livestream.html", **data)
 
+
+@app.route("/invited_panels_program.html")
+def invited_panels():
+    data = _data()
+    data["invited_panels"] = site_data["invited_panels"]
+    data["invited_panels_days"] = site_data["invited_panels_days"]
+    return render_template("invited_panels_program.html", **data)
+
+@app.route("/invited_speaker_program.html")
+def invited_speaker():
+    data = _data()
+    data["invited_speakers"] = site_data["invited_speakers"]
+    data["invited_speakers_days"] = site_data["invited_speakers_days"]
+    return render_template("invited_speaker_program.html", **data)
 
 @app.route("/plenary_sessions.html")
 def plenary_sessions():
@@ -298,6 +325,11 @@ def plenary_session(uid):
     data["plenary_session"] = by_uid["plenary_sessions"][uid]
     return render_template("plenary_session.html", **data)
 
+@app.route("/plenary_session_opening_remarks_and_speaker_by_tuomas_sandholm.html")
+def plenary_session_first():
+    data = _data()
+    data["plenary_session"] = by_uid["plenary_sessions"]['opening_remarks_speaker_by_tuomas_sandholm']
+    return render_template("plenary_session.html", **data)
 
 @app.route("/tutorial_<uid>.html")
 def tutorial(uid):
@@ -305,11 +337,11 @@ def tutorial(uid):
     data["tutorial"] = by_uid["tutorials"][uid]
     return render_template("tutorial.html", **data)
 
-@app.route("/undergraduate_c_abstract_<uid>.html")
-def uc_abstract(uid):
+@app.route("/fh_<uid>.html")
+def faculty_highlights(uid):
     data = _data()
     data["tutorial"] = by_uid["tutorials"][uid]
-    return render_template("undergraduate_c_abstract.html", **data)
+    return render_template("new_faculty_highlights_program_single.html", **data)
 
 
 @app.route("/workshop_<uid>.html")
@@ -411,6 +443,20 @@ def generator():
     tutorial: Tutorial
     for tutorial in site_data["tutorials"]:
         yield "tutorial", {"uid": tutorial.id}
+    for tutorial in site_data["tutorials_MQ"]:
+        yield "tutorial", {"uid": tutorial.id}
+    for tutorial in site_data["tutorials_MH"]:
+        yield "tutorial", {"uid": tutorial.id}
+    for tutorial in site_data["tutorials_AQ"]:
+        yield "tutorial", {"uid": tutorial.id}
+    for tutorial in site_data["tutorials_AH"]:
+        yield "tutorial", {"uid": tutorial.id}
+    for tutorial in site_data["tutorials_UC"]:
+        yield "tutorial", {"uid": tutorial.id}
+    for tutorial in site_data["tutorials_OTHER"]:
+        yield "tutorial", {"uid": tutorial.id}
+    for tutorial in site_data["tutorials_FH"]:
+        yield "faculty_highlights", {"uid": tutorial.id}
     workshop: Workshop
     # for workshop in site_data["workshops"]:
     #     yield "workshop", {"uid": workshop.id}

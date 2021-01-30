@@ -1,6 +1,6 @@
 - title: <b>Doctoral Consortium</b>
-  start: 2021-02-02 16:00:00+00:00
-  end: 2021-02-03 01:00:00+00:00
+  start: 2021-02-02 7:00:00-08:00
+  end: 2021-02-02 17:30:00-08:00
   location: doctoral_consortium.html
   link: doctoral_consortium.html
   category: time
@@ -9,8 +9,8 @@
   view: week
 
 - title: <b>Undergraduate Consortium</b>
-  start: 2021-02-02 16:00:00+00:00
-  end: 2021-02-03 01:00:00+00:00
+  start: 2021-02-02 8:00:00-08:00
+  end: 2021-02-02 17:00:00-08:00
   location: undergraduate_consortium.html
   link: undergraduate_consortium.html
   category: time
@@ -19,18 +19,18 @@
   view: week
 
 - title: "<b>Diversity and Inclusion: Try AI</b>"
-  start: 2021-02-03 00:00:00+00:00
-  end: 2021-02-03 01:00:00+00:00
-  location: diversity_programs.html#tab-feb3
-  link: diversity_programs.html#tab-feb3
+  start: 2021-02-02 16:00:00-08:00
+  end: 2021-02-02 17:00:00-08:00
+  location: diversity_programs.html#tab-feb2
+  link: diversity_programs.html#tab-feb2
   category: time
   calendarId: '---'
   type: Diversity and Inclusion
   view: week
 
 - title: "<b>Doctoral Consortium</b>"
-  start: 2021-02-03 16:00:00+00:00
-  end: 2021-02-04 01:00:00+00:00
+  start: 2021-02-03 7:00:00-08:00
+  end: 2021-02-03 13:30:00-08:00
   location: doctoral_consortium.html
   link: doctoral_consortium.html
   category: time
@@ -39,13 +39,33 @@
   view: week
 
 - title: "<b>Tutorial Forum</b>"
-  start: 2021-02-03 16:00:00+00:00
-  end: 2021-02-04 01:00:00+00:00
+  start: 2021-02-03 8:30:00-08:00
+  end: 2021-02-03 15:00:00-08:00
   location: tutorials.html
   link: tutorials.html
   category: time
   calendarId: '---'
   type: Tutorials
+  view: week
+
+- title: "<b>Diversity and Inclusion: Queer in AI Social</b>"
+  start: 2021-02-03 8:00:00-08:00
+  end: 2021-02-03 9:00:00-08:00
+  location: diversity_programs.html#tab-feb3
+  link: diversity_programs.html#tab-feb3
+  category: time
+  calendarId: '---'
+  type: Diversity and Inclusion
+  view: week
+
+- title: "<b>Diversity and Inclusion: Queer in AI Social</b>"
+  start: 2021-02-03 18:00:00-08:00
+  end: 2021-02-03 19:00:00-08:00
+  location: diversity_programs.html#tab-feb3
+  link: diversity_programs.html#tab-feb3
+  category: time
+  calendarId: '---'
+  type: Diversity and Inclusion
   view: week
 
 - title: "<b>Opening Ceremony and Conference Awards</b>"
@@ -71,8 +91,8 @@
 - title: "<b>AAAI-21 Poster Sessions: AAAI, IAAI, DC, UC, SA, Demos, Classic Paper Award</b>"
   start: 2021-02-04 8:45:00-08:00
   end: 2021-02-04 10:30:00-08:00
-  location: papers.html
-  link: papers.html
+  location: posters.html#tab-feb4
+  link: posters.html#tab-feb4
   category: time
   calendarId: '---'
   type: Posters
@@ -80,13 +100,23 @@
 
 - title: "<b>Sponsor/Exhibit Program</b>"
   start: 2021-02-04 10:00:00-08:00
-  end: 2021-02-04 13:30:00-08:00
+  end: 2021-02-04 12:30:00-08:00
   location: sponsors.html
   link: sponsors.html
   category: time
   calendarId: '---'
   type: Sponsors/Exhibitors
   view: week
+
+- title: "<b>Sponsor/Exhibit Program</b>"
+  start: 2021-02-04 10:00:00-08:00
+  end: 2021-02-04 12:30:00-08:00
+  location: sponsors.html
+  link: sponsors.html
+  category: time
+  calendarId: '---'
+  type: Sponsors/Exhibitors
+  view: day
 
 - title: "<b>IAAI-21 AI in Practice Panel</b>"
   start: 2021-02-04 10:30:00-08:00
@@ -97,6 +127,66 @@
   calendarId: '---'
   type: Plenary
   view: week
+
+- title: "<b>AAAI Meet with a Fellow Program</b>"
+  start: 2021-02-04 12:00:00-08:00
+  end: 2021-02-04 14:00:00-08:00
+  location: meet_with_a_fellow.html
+  link: meet_with_a_fellow.html
+  category: time
+  calendarId: '---'
+  type: Meet with a Fellow
+  view: week
+
+- title: "<b>AAAI Meet with a Fellow Program</b>"
+  start: 2021-02-04 20:00:00-08:00
+  end: 2021-02-04 22:00:00-08:00
+  location: meet_with_a_fellow.html
+  link: meet_with_a_fellow.html
+  category: time
+  calendarId: '---'
+  type: Meet with a Fellow
+  view: week
+
+- title: "<b>AAAI Meet with a Fellow Program</b>"
+  start: 2021-02-05 4:00:00-08:00
+  end: 2021-02-05 6:00:00-08:00
+  location: meet_with_a_fellow.html
+  link: meet_with_a_fellow.html
+  category: time
+  calendarId: '---'
+  type: Meet with a Fellow
+  view: week
+
+- title: "<b>AAAI Meet with a Fellow Program</b>"
+  start: 2021-02-04 12:00:00-08:00
+  end: 2021-02-04 14:00:00-08:00
+  location: meet_with_a_fellow.html
+  link: meet_with_a_fellow.html
+  category: time
+  calendarId: '---'
+  type: Meet with a Fellow
+  view: day
+
+- title: "<b>AAAI Meet with a Fellow Program</b>"
+  start: 2021-02-04 20:00:00-08:00
+  end: 2021-02-04 22:00:00-08:00
+  location: meet_with_a_fellow.html
+  link: meet_with_a_fellow.html
+  category: time
+  calendarId: '---'
+  type: Meet with a Fellow
+  view: day
+
+- title: "<b>AAAI Meet with a Fellow Program</b>"
+  start: 2021-02-05 4:00:00-08:00
+  end: 2021-02-05 6:00:00-08:00
+  location: meet_with_a_fellow.html
+  link: meet_with_a_fellow.html
+  category: time
+  calendarId: '---'
+  type: Meet with a Fellow
+  view: day
 
 - title: "<b>Diversity and Inclusion: LatinXperiences. Community Building for Latinx researchers</b>"
   start: 2021-02-04 12:00:00-08:00
@@ -118,7 +208,7 @@
   type: Plenary
   view: week
 
-- title: "<b>AAAI-21 Invited Talk: Tuomas Sandholm (tentative)</b>"
+- title: "<b>AAAI-21 Invited Talk: Regina Barzilay</b>"
   start: 2021-02-04 15:30:00-08:00
   end: 2021-02-04 16:45:00-08:00
   location: plenary_sessions.html#tab-feb4
@@ -141,8 +231,8 @@
 - title: "<b>AAAI-21 Poster Sessions: AAAI, IAAI, DC, UC, SA, Demos, Classic Paper Award</b>"
   start: 2021-02-04 16:45:00-08:00
   end: 2021-02-04 18:30:00-08:00
-  location: papers.html
-  link: papers.html
+  location: posters.html#tab-feb4
+  link: posters.html#tab-feb4
   category: time
   calendarId: '---'
   type: Posters
@@ -150,13 +240,23 @@
 
 - title: "<b>Sponsor/Exhibit Program</b>"
   start: 2021-02-04 18:00:00-08:00
-  end: 2021-02-04 20:00:00-08:00
+  end: 2021-02-04 20:30:00-08:00
   location: sponsors.html
   link: sponsors.html
   category: time
   calendarId: '---'
   type: Sponsors/Exhibitors
   view: week
+
+- title: "<b>Sponsor/Exhibit Program</b>"
+  start: 2021-02-04 18:00:00-08:00
+  end: 2021-02-04 20:30:00-08:00
+  location: sponsors.html
+  link: sponsors.html
+  category: time
+  calendarId: '---'
+  type: Sponsors/Exhibitors
+  view: day
 
 - title: "<b>AAAI-21 Invited Talk: Luke Zettlemoyer</b>"
   start: 2021-02-04 23:30:00-08:00
@@ -171,8 +271,8 @@
 - title: "<b>AAAI-21 Poster Sessions: AAAI, IAAI, DC, UC, SA, Demos, Classic Paper Award</b>"
   start: 2021-02-05 00:45:00-08:00
   end: 2021-02-05 02:30:00-08:00
-  location: papers.html
-  link: papers.html
+  location: posters.html#tab-feb4
+  link: posters.html#tab-feb4
   category: time
   calendarId: '---'
   type: Posters
@@ -188,6 +288,16 @@
   type: Sponsors/Exhibitors
   view: week
 
+- title: "<b>Sponsor/Exhibit Program</b>"
+  start: 2021-02-05 02:00:00-08:00
+  end: 2021-02-05 04:30:00-08:00
+  location: sponsors.html
+  link: sponsors.html
+  category: time
+  calendarId: '---'
+  type: Sponsors/Exhibitors
+  view: day
+
 - title: "<b>AAAI-21 Invited Panel: Governments Panel 1</b>"
   start: 2021-02-05 07:30:00-08:00
   end: 2021-02-05 08:45:00-08:00
@@ -201,8 +311,8 @@
 - title: "<b>AAAI-21 Poster Sessions: AAAI, IAAI, SA, Demos, Dissertation Award</b>"
   start: 2021-02-05 08:45:00-08:00
   end: 2021-02-05 10:30:00-08:00
-  location: papers.html
-  link: papers.html
+  location: posters.html#tab-feb5
+  link: posters.html#tab-feb5
   category: time
   calendarId: '---'
   type: Posters
@@ -218,6 +328,16 @@
   type: Sponsors/Exhibitors
   view: week
 
+- title: "<b>Sponsor/Exhibit Program</b>"
+  start: 2021-02-05 10:00:00-08:00
+  end: 2021-02-05 12:30:00-08:00
+  location: sponsors.html
+  link: sponsors.html
+  category: time
+  calendarId: '---'
+  type: Sponsors/Exhibitors
+  view: day
+
 - title: "<b>IAAI-21 AI in Practice Panel</b>"
   start: 2021-02-05 10:30:00-08:00
   end: 2021-02-05 11:30:00-08:00
@@ -229,7 +349,7 @@
   view: week
 
 - title: "<b>Diversity and Inclusion: Accelerating the Pipeline of Trailblazing STEM Students</b>"
-  start: 2021-02-05 11:00:00-08:00
+  start: 2021-02-05 11:30:00-08:00
   end: 2021-02-05 13:30:00-08:00
   location: diversity_programs.html#tab-feb5
   link: diversity_programs.html#tab-feb5
@@ -237,6 +357,67 @@
   calendarId: '---'
   type: Diversity and Inclusion
   view: week
+
+- title: "<b>AAAI Meet with a Fellow Program</b>"
+  start: 2021-02-05 12:00:00-08:00
+  end: 2021-02-05 14:00:00-08:00
+  location: meet_with_a_fellow.html
+  link: meet_with_a_fellow.html
+  category: time
+  calendarId: '---'
+  type: Meet with a Fellow
+  view: week
+
+- title: "<b>AAAI Meet with a Fellow Program</b>"
+  start: 2021-02-05 20:00:00-08:00
+  end: 2021-02-05 22:00:00-08:00
+  location: meet_with_a_fellow.html
+  link: meet_with_a_fellow.html
+  category: time
+  calendarId: '---'
+  type: Meet with a Fellow
+  view: week
+
+- title: "<b>AAAI Meet with a Fellow Program</b>"
+  start: 2021-02-06 4:00:00-08:00
+  end: 2021-02-06 6:00:00-08:00
+  location: meet_with_a_fellow.html
+  link: meet_with_a_fellow.html
+  category: time
+  calendarId: '---'
+  type: Meet with a Fellow
+  view: week
+
+- title: "<b>AAAI Meet with a Fellow Program</b>"
+  start: 2021-02-05 12:00:00-08:00
+  end: 2021-02-05 14:00:00-08:00
+  location: meet_with_a_fellow.html
+  link: meet_with_a_fellow.html
+  category: time
+  calendarId: '---'
+  type: Meet with a Fellow
+  view: day
+
+- title: "<b>AAAI Meet with a Fellow Program</b>"
+  start: 2021-02-05 20:00:00-08:00
+  end: 2021-02-05 22:00:00-08:00
+  location: meet_with_a_fellow.html
+  link: meet_with_a_fellow.html
+  category: time
+  calendarId: '---'
+  type: Meet with a Fellow
+  view: day
+
+- title: "<b>AAAI Meet with a Fellow Program</b>"
+  start: 2021-02-06 4:00:00-08:00
+  end: 2021-02-06 6:00:00-08:00
+  location: meet_with_a_fellow.html
+  link: meet_with_a_fellow.html
+  category: time
+  calendarId: '---'
+  type: Meet with a Fellow
+  view: day
+
 
 - title: "<b>Diversity and Inclusion: Women’s Mentoring Session</b>"
   start: 2021-02-05 13:30:00-08:00
@@ -271,8 +452,8 @@
 - title: "<b>AAAI-21 Poster Sessions: AAAI, IAAI, SA, Demos, Dissertation Award</b>"
   start: 2021-02-05 16:45:00-08:00
   end: 2021-02-05 18:30:00-08:00
-  location: papers.html
-  link: papers.html
+  location: posters.html#tab-feb5
+  link: posters.html#tab-feb5
   category: time
   calendarId: '---'
   type: Posters
@@ -288,8 +469,18 @@
   type: Sponsors/Exhibitors
   view: week
 
+- title: "<b>Sponsor/Exhibit Program</b>"
+  start: 2021-02-05 18:00:00-08:00
+  end: 2021-02-05 20:30:00-08:00
+  location: sponsors.html
+  link: sponsors.html
+  category: time
+  calendarId: '---'
+  type: Sponsors/Exhibitors
+  view: day
+
 - title: "<b>AAAI-21 Invited Panel: Governments Panel 3</b>"
-  start: 2021-02-05 11:30:00-08:00
+  start: 2021-02-05 23:30:00-08:00
   end: 2021-02-06 00:45:00-08:00
   location: plenary_sessions.html#tab-feb5
   link: plenary_sessions.html#tab-feb5
@@ -301,8 +492,8 @@
 - title: "<b>AAAI-21 Poster Sessions: AAAI, IAAI, SA, Demos, Dissertation Award</b>"
   start: 2021-02-06 00:45:00-08:00
   end: 2021-02-06 02:30:00-08:00
-  location: papers.html
-  link: papers.html
+  location: posters.html#tab-feb5
+  link: posters.html#tab-feb5
   category: time
   calendarId: '---'
   type: Posters
@@ -318,6 +509,16 @@
   type: Sponsors/Exhibitors
   view: week
 
+- title: "<b>Sponsor/Exhibit Program</b>"
+  start: 2021-02-06 02:00:00-08:00
+  end: 2021-02-06 04:30:00-08:00
+  location: sponsors.html
+  link: sponsors.html
+  category: time
+  calendarId: '---'
+  type: Sponsors/Exhibitors
+  view: day
+
 - title: "<b>AAAI-21 Invited Talk: Latanya Sweeney</b>"
   start: 2021-02-06 07:30:00-08:00
   end: 2021-02-06 08:45:00-08:00
@@ -328,18 +529,38 @@
   type: Plenary
   view: week
 
+- title: "<b>EAAI-21</b>"
+  start: 2021-02-06 06:30:00-08:00
+  end: 2021-02-06 14:15:00-08:00
+  location: eaai.html
+  link: eaai.html
+  category: time
+  calendarId: '---'
+  type: EAAI
+  view: week
+
+- title: "<b>EAAI-21</b>"
+  start: 2021-02-06 06:30:00-08:00
+  end: 2021-02-06 14:15:00-08:00
+  location: eaai.html
+  link: eaai.html
+  category: time
+  calendarId: '---'
+  type: EAAI
+  view: day
+
 - title: "<b>AAAI-21 Poster Sessions: AAAI, IAAI, SA, Demos</b>"
   start: 2021-02-06 08:45:00-08:00
   end: 2021-02-06 10:30:00-08:00
-  location: papers.html
-  link: papers.html
+  location: posters.html#tab-feb6
+  link: posters.html#tab-feb6
   category: time
   calendarId: '---'
   type: Posters
   view: week
 
 - title: "<b>Sponsor/Exhibit Program</b>"
-  start: 2021-02-06 10:45:00-08:00
+  start: 2021-02-06 10:00:00-08:00
   end: 2021-02-06 12:30:00-08:00
   location: sponsors.html
   link: sponsors.html
@@ -347,6 +568,16 @@
   calendarId: '---'
   type: Sponsors/Exhibitors
   view: week
+
+- title: "<b>Sponsor/Exhibit Program</b>"
+  start: 2021-02-06 10:00:00-08:00
+  end: 2021-02-06 12:30:00-08:00
+  location: sponsors.html
+  link: sponsors.html
+  category: time
+  calendarId: '---'
+  type: Sponsors/Exhibitors
+  view: day
 
 - title: "<b>Job Fair</b>"
   start: 2021-02-06 10:30:00-08:00
@@ -357,6 +588,16 @@
   calendarId: '---'
   type: AI Job Fair
   view: week
+
+- title: "<b>Job Fair</b>"
+  start: 2021-02-06 10:30:00-08:00
+  end: 2021-02-06 12:30:00-08:00
+  location: ai_job_fair.html
+  link: ai_job_fair.html
+  category: time
+  calendarId: '---'
+  type: AI Job Fair
+  view: day
 
 - title: "<b>IAAI-21 AI in Practice Panel</b>"
   start: 2021-02-06 10:30:00-08:00
@@ -370,7 +611,7 @@
 
 - title: "<b>Diversity and Inclusion: 2021 Mid-Career Diversity Virtual Discussion (MIDCAR)</b>"
   start: 2021-02-06 11:00:00-08:00
-  end: 2021-02-06 14:40:00-08:00
+  end: 2021-02-06 14:30:00-08:00
   location: diversity_programs.html#tab-feb6
   link: diversity_programs.html#tab-feb6
   category: time
@@ -378,7 +619,70 @@
   type: Diversity and Inclusion
   view: week
 
-- title: "<b>AAAI-21 Invited Talk: Regina Barzilay</b>"
+
+- title: "<b>AAAI Meet with a Fellow Program</b>"
+  start: 2021-02-06 12:00:00-08:00
+  end: 2021-02-06 14:00:00-08:00
+  location: meet_with_a_fellow.html
+  link: meet_with_a_fellow.html
+  category: time
+  calendarId: '---'
+  type: Meet with a Fellow
+  view: week
+
+- title: "<b>AAAI Meet with a Fellow Program</b>"
+  start: 2021-02-06 20:00:00-08:00
+  end: 2021-02-06 22:00:00-08:00
+  location: meet_with_a_fellow.html
+  link: meet_with_a_fellow.html
+  category: time
+  calendarId: '---'
+  type: Meet with a Fellow
+  view: week
+
+- title: "<b>AAAI Meet with a Fellow Program</b>"
+  start: 2021-02-07 4:00:00-08:00
+  end: 2021-02-07 6:00:00-08:00
+  location: meet_with_a_fellow.html
+  link: meet_with_a_fellow.html
+  category: time
+  calendarId: '---'
+  type: Meet with a Fellow
+  view: week
+
+
+- title: "<b>AAAI Meet with a Fellow Program</b>"
+  start: 2021-02-06 12:00:00-08:00
+  end: 2021-02-06 14:00:00-08:00
+  location: meet_with_a_fellow.html
+  link: meet_with_a_fellow.html
+  category: time
+  calendarId: '---'
+  type: Meet with a Fellow
+  view: day
+
+- title: "<b>AAAI Meet with a Fellow Program</b>"
+  start: 2021-02-06 20:00:00-08:00
+  end: 2021-02-06 22:00:00-08:00
+  location: meet_with_a_fellow.html
+  link: meet_with_a_fellow.html
+  category: time
+  calendarId: '---'
+  type: Meet with a Fellow
+  view: day
+
+- title: "<b>AAAI Meet with a Fellow Program</b>"
+  start: 2021-02-07 4:00:00-08:00
+  end: 2021-02-07 6:00:00-08:00
+  location: meet_with_a_fellow.html
+  link: meet_with_a_fellow.html
+  category: time
+  calendarId: '---'
+  type: Meet with a Fellow
+  view: day
+
+
+- title: "<b>AAAI-21 Invited Talk: Sanjeev Arora</b>"
   start: 2021-02-06 15:30:00-08:00
   end: 2021-02-06 16:45:00-08:00
   location: plenary_sessions.html#tab-feb6
@@ -391,8 +695,8 @@
 - title: "<b>AAAI-21 Poster Sessions: AAAI, IAAI, SA, Demos</b>"
   start: 2021-02-06 16:45:00-08:00
   end: 2021-02-06 18:30:00-08:00
-  location: papers.html
-  link: papers.html
+  location: posters.html#tab-feb6
+  link: posters.html#tab-feb6
   category: time
   calendarId: '---'
   type: Posters
@@ -408,6 +712,16 @@
   type: Sponsors/Exhibitors
   view: week
 
+- title: "<b>Sponsor/Exhibit Program</b>"
+  start: 2021-02-06 18:00:00-08:00
+  end: 2021-02-06 20:30:00-08:00
+  location: sponsors.html
+  link: sponsors.html
+  category: time
+  calendarId: '---'
+  type: Sponsors/Exhibitors
+  view: day
+
 - title: "<b>Job Fair</b>"
   start: 2021-02-06 18:30:00-08:00
   end: 2021-02-06 20:30:00-08:00
@@ -417,6 +731,16 @@
   calendarId: '---'
   type: AI Job Fair
   view: week
+
+- title: "<b>Job Fair</b>"
+  start: 2021-02-06 18:30:00-08:00
+  end: 2021-02-06 20:30:00-08:00
+  location: ai_job_fair.html
+  link: ai_job_fair.html
+  category: time
+  calendarId: '---'
+  type: AI Job Fair
+  view: day
 
 - title: "<b>AAAI-21 Invited Talk: Kai-Fu Lee</b>"
   start: 2021-02-06 23:30:00-08:00
@@ -431,8 +755,8 @@
 - title: "<b>AAAI-21 Poster Sessions: AAAI, IAAI, SA, Demos</b>"
   start: 2021-02-07 00:45:00-08:00
   end: 2021-02-07 02:30:00-08:00
-  location: papers.html
-  link: papers.html
+  location: posters.html#tab-feb6
+  link: posters.html#tab-feb6
   category: time
   calendarId: '---'
   type: Posters
@@ -448,6 +772,16 @@
   type: Sponsors/Exhibitors
   view: week
 
+- title: "<b>Sponsor/Exhibit Program</b>"
+  start: 2021-02-07 02:00:00-08:00
+  end: 2021-02-07 04:30:00-08:00
+  location: sponsors.html
+  link: sponsors.html
+  category: time
+  calendarId: '---'
+  type: Sponsors/Exhibitors
+  view: day
+
 - title: "<b>Job Fair</b>"
   start: 2021-02-07 02:30:00-08:00
   end: 2021-02-07 04:30:00-08:00
@@ -457,6 +791,16 @@
   calendarId: '---'
   type: AI Job Fair
   view: week
+
+- title: "<b>Job Fair</b>"
+  start: 2021-02-07 02:30:00-08:00
+  end: 2021-02-07 04:30:00-08:00
+  location: ai_job_fair.html
+  link: ai_job_fair.html
+  category: time
+  calendarId: '---'
+  type: AI Job Fair
+  view: day
 
 - title: "<b>AAAI-21 Invited Panel: Neuro-Symbolic Panel</b>"
   start: 2021-02-07 07:30:00-08:00
@@ -471,12 +815,32 @@
 - title: "<b>AAAI-21 Poster Sessions: AAAI, SA, Demos</b>"
   start: 2021-02-07 08:45:00-08:00
   end: 2021-02-07 10:30:00-08:00
-  location: papers.html
-  link: papers.html
+  location: posters.html#tab-feb7
+  link: posters.html#tab-feb7
   category: time
   calendarId: '---'
   type: Posters
   view: week
+
+- title: "<b>EAAI-21</b>"
+  start: 2021-02-07 7:00:00-08:00
+  end: 2021-02-07 15:00:00-08:00
+  location: eaai.html
+  link: eaai.html
+  category: time
+  calendarId: '---'
+  type: EAAI
+  view: week
+
+- title: "<b>EAAI-21</b>"
+  start: 2021-02-07 7:00:00-08:00
+  end: 2021-02-07 15:00:00-08:00
+  location: eaai.html
+  link: eaai.html
+  category: time
+  calendarId: '---'
+  type: EAAI
+  view: day
 
 - title: "<b>AAAI-21 Invited Talk: Daphne Koller</b>"
   start: 2021-02-07 15:30:00-08:00
@@ -491,8 +855,8 @@
 - title: "<b>AAAI-21 Poster Sessions: AAAI, SA, Demos</b>"
   start: 2021-02-07 16:45:00-08:00
   end: 2021-02-07 18:30:00-08:00
-  location: papers.html
-  link: papers.html
+  location: posters.html#tab-feb7
+  link: posters.html#tab-feb7
   category: time
   calendarId: '---'
   type: Posters
@@ -511,8 +875,8 @@
 - title: "<b>AAAI-21 Poster Sessions: AAAI, SA, Demos</b>"
   start: 2021-02-08 00:45:00-08:00
   end: 2021-02-08 02:30:00-08:00
-  location: papers.html
-  link: papers.html
+  location: posters.html#tab-feb7
+  link: posters.html#tab-feb7
   category: time
   calendarId: '---'
   type: Posters
@@ -539,8 +903,8 @@
   view: week
 
 - title: "<b>AAAI-21 Workshop Program</b>"
-  start: 2021-02-08 08:30:00-08:00
-  end: 2021-02-08 17:30:00-08:00
+  start: 2021-02-08 04:30:00-08:00
+  end: 2021-02-08 21:00:00-08:00
   location: workshops.html#tab-feb8
   link: workshops.html#tab-feb8
   category: time
@@ -579,8 +943,8 @@
   view: week
 
 - title: "<b>AAAI-21 Workshop Program</b>"
-  start: 2021-02-09 08:30:00-08:00
-  end: 2021-02-09 17:30:00-08:00
+  start: 2021-02-09 05:00:00-08:00
+  end: 2021-02-09 21:00:00-08:00
   location: workshops.html#tab-feb9
   link: workshops.html#tab-feb9
   category: time

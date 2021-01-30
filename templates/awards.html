@@ -7,9 +7,25 @@
 {% block content %}
 
 
-<div class="row">
-  <div class="col-md-12 col-sm-12 pr-5 lead">
+<div class="pp-card m-3" style="">
+  <div class="card-header">
+    <p>Welcome to the AAAI Awards Ceremony!</p>
+
+    <p>AAAI organizational awards are presented each year at the AAAI Conference on Artificial Intelligence. They comprise a host of lifetime honors and individual awards for significant achievements by AAAI members. Several committees review nominations for the various categories of awards, including the AAAI Fellows Committee, the AAAI Awards Committee, the IAAI/AI Magazine Engelmore Awards Committee, the AAAI/EAAI Outstanding Educator Award Committee, and a joint committee for the AAAI/ACM-SIGAI Dissertation Award.</p>
+    
+  <p>(AAAI annual conference awards for outstanding papers and program committee members are overseen by a subcommittee of the 2021 program committee, and are recapped here <URL LINK>.)</p>
+    
+    <p>We are delighted to honor the following individuals for their achievements and contributions to the AI community.</p>
+    
+  <p>Bart Selman<br>
+    President, AAAI</p>
+    
+    <p>Yolanda Gil<br>
+    Chair, Fellows and Awards Committees</p>
+    </div>
+  </div>
     <h2 style="margin-bottom:20px"> Awards </h2>
+    
     {% for award in awards %}
     <!-- <a href="#"class="card-title" >
       {{award.name}}
@@ -71,10 +87,24 @@
                 
                 {% if ae.talk %}
                 <div class="m-3 text-muted">
-                  {{ae.talk.session_name}}: {{ ae.talk.day }}
-                  <span class="session_times">{{ae.talk.time_string}}</span>
+                  {% if ae.talk|length > 1%}
+                  {{ae.talk[0].session_name}}:
+                  {% for talk in ae.talk%}
                   
-                    [<a href="{{ae.talk.link}}" class="card-link">Link</a>]
+                  <br>
+                  <p style="margin-left: 40px; margin-bottom: 0px">{{ talk.start_time.strftime("%b")}} {{talk.start_time.day}}
+                  <span class="session_times">{{"({}-{} PST)".format(talk.start_time.strftime("%H:%M"), talk.end_time.strftime("%H:%M"))}}</span>
+                  
+                    [<a href="{{talk.link}}" class="card-link">Link</a>]
+                  {% endfor %}
+                  {% else %}
+                  {% for talk in ae.talk%}
+                  <a href="{{talk.link}}" class="card-link">{{talk.session_name}}:</a>
+                  {{ talk.start_time.strftime("%b")}} {{talk.start_time.day}}
+                    <span class="session_times">{{"({}-{} PST)".format(talk.start_time.strftime("%H:%M"), talk.end_time.strftime("%H:%M"))}}</span>
+                  {% endfor %}
+                  {% endif%}
+                  
                   
                 </div>
                 {% endif %}

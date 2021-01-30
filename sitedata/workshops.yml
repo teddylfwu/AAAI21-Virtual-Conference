@@ -7,8 +7,8 @@
   alias: W2AIforBehaviorChange
   day: Feb 8
   sessions:
-    - start_time: 2021-2-8 11:00:00-05:00
-      end_time: 2021-2-8 19:00:00-05:00
+    - start_time: 2021-2-8 08:00:00-08:00
+      end_time: 2021-2-8 16:00:00-08:00
       name: None
       hosts: None
   zoom_links:
@@ -27,8 +27,8 @@
   alias: W1AffectiveContentAnalysis
   day: Feb 9
   sessions:
-  - start_time: 2021-2-9 8:00:00-05:00
-    end_time: 2021-2-9 13:00:00-05:00
+  - start_time: 2021-2-9 05:00:00-08:00
+    end_time: 2021-2-9 10:00:00-08:00
     name: None
     hosts: None
   zoom_links:
@@ -49,7 +49,7 @@
   day: Feb 8
   sessions:
     - start_time: 2021-2-8 9:00:00-08:00
-      end_time: 2021-2-8 18:00:00-08:00
+      end_time: 2021-2-8 17:00:00-08:00
       name: None
       hosts: None
   zoom_links:
@@ -69,8 +69,8 @@
   alias: W4ArtificialIntelligenceSafety
   day: Feb 8
   sessions:
-    - start_time: 2021-2-8 08:00:00+00:00
-      end_time: 2021-2-8 16:30:00+00:00
+    - start_time: 2021-2-8 12:00:00-08:00
+      end_time: 2021-2-8 20:30:00-08:00
       name: None
       hosts: None
   zoom_links:
@@ -90,12 +90,8 @@
   alias: W5CONSTRAINT2021
   day: Feb 8
   sessions:
-  - start_time: 2021-2-8 7:30:00-05:00
-    end_time: 2021-2-8 23:59:00-05:00
-    name: None
-    hosts: None
-  - start_time: 2021-2-9 00:00:00-05:00
-    end_time: 2021-2-9 00:40:00-05:00
+  - start_time: 2021-2-8 4:30:00-08:00
+    end_time: 2021-2-8 9:40:00-08:00
     name: None
     hosts: None
   zoom_links:
@@ -135,8 +131,8 @@
   alias: W7ContentAuthoringandDesign
   day: Feb 8
   sessions:
-  - start_time: 2021-2-8 09:00:00+00:00
-    end_time: 2021-2-8 15:20:00+00:00
+  - start_time: 2021-2-8 09:00:00-08:00
+    end_time: 2021-2-8 15:20:00-08:00
     name: None
     hosts: None
   zoom_links:
@@ -152,12 +148,8 @@
   alias: W8DeepLearningonGraphs
   day: Feb 8
   sessions:
-  - start_time: 2021-2-8 08:00:00+00:00
-    end_time: 2021-2-8 12:00:00+00:00
-    name: None
-    hosts: None
-  - start_time: 2021-2-8 13:00:00+00:00
-    end_time: 2021-2-8 17:30:00+00:00
+  - start_time: 2021-2-8 08:00:00-08:00
+    end_time: 2021-2-8 17:00:00-08:00
     name: None
     hosts: None
   zoom_links:
@@ -176,12 +168,12 @@
   alias: W9DesigningAIforTelehealth
   day: Feb 8
   sessions:
-    - start_time: 2021-2-8 12:00:00+00:00
-      end_time: 2021-2-8 13:00:00+00:00
+    - start_time: 2021-2-8 12:00:00-08:00
+      end_time: 2021-2-8 21:00:00-08:00
       name: None
       hosts: None
   zoom_links:
-  - https://us05web.zoom.us/j/88170920969?pwd=dFBBa3h2SmJNMkhVSGU2NWhBTDNnQT09
+  - https://zoom.us/j/98031602420?pwd=Rk9YdU5zaWdldDM0MS85UXZlQ1lnZz09
   prerecorded_talks:
   - title: (To be confirmed) Invited Talk 1 - Chip Huyen
     speakers: Chip Huyen
@@ -197,11 +189,35 @@
   day: Feb 8
   sessions:
   - start_time: 2021-2-8 13:00:00-08:00
-    end_time: 2021-2-8 20:30:00-08:00
+    end_time: 2021-2-8 21:00:00-08:00
     name: None
     hosts: None
   - start_time: 2021-2-9 13:00:00-08:00
-    end_time: 2021-2-9 19:50:00-08:00
+    end_time: 2021-2-9 21:00:00-08:00
+    name: None
+    hosts: None
+  zoom_links:
+  - https://zoom.us/j/97618625752?pwd=b1NoaFhyUDJ4RlBTTVY3T3B1TjBjQT09
+  prerecorded_talks:
+  - title: "\tVisualizing Meaning: Semantic Simulation of Actions and Events"
+    speakers: James Pustejovsky, Brandeis University
+    presentation_id: '38940086'
+
+- UID: WS-10
+  title: "W10: 9th Dialog System Technology Challenge (DSTC-9)"
+  organizers: "Abhinav Rastogi, Yun-Nung (Vivian) Chen, Chulaka Gunasekara, Seokhwan Kim and Luis Fernando D'Haro"
+  abstract: "DSTC, the Dialog System Technology Challenge, has been a premier research competition for dialog systems since its inception in 2013. Given the remarkable success of the first eight challenges, we are organizing the ninth edition of DSTC this year and we will have a wrap-up workshop at AAAI-21."
+  website: https://sites.google.com/dstc.community/dstc9/
+  rocketchat_channel: W10DialogSystemTechnologyChallenge
+  alias: W10DialogSystemTechnologyChallenge
+  day: Feb 9
+  sessions:
+  - start_time: 2021-2-8 13:00:00-08:00
+    end_time: 2021-2-8 21:00:00-08:00
+    name: None
+    hosts: None
+  - start_time: 2021-2-9 13:00:00-08:00
+    end_time: 2021-2-9 21:00:00-08:00
     name: None
     hosts: None
   zoom_links:
@@ -220,12 +236,36 @@
   alias: W11ExplainableAgencyinArtificialIntelligence
   day: Feb 8
   sessions:
-  - start_time: 2021-2-8 12:00:00+00:00
-    end_time: 2021-2-8 13:00:00+00:00
+  - start_time: 2021-2-8 07:00:00-08:00
+    end_time: 2021-2-8 17:40:00-08:00
     name: None
     hosts: None
-  - start_time: 2021-2-9 12:00:00+00:00
-    end_time: 2021-2-9 13:00:00+00:00
+  - start_time: 2021-2-9 07:00:00-08:00
+    end_time: 2021-2-9 17:40:00-08:00
+    name: None
+    hosts: None
+  zoom_links:
+  - https://zoom.us/j/94912916849?pwd=SHdCZytNNlpJVXJGVlRuV05KRHI1QT09
+  prerecorded_talks:
+  - title: Invited talk
+    speakers: Miriam Butt
+    presentation_id: '38939785'
+
+- UID: WS-11
+  title: "W11: Explainable Agency in Artificial Intelligence"
+  organizers: "Prashan Madumal, Silvia Tulli, David Aha and Rosina Weber"
+  abstract: "As AI-enabled systems have become increasingly applied to critical societal problems with tangible consequences and influence, calls for explainability and interpretability of these systems have also become increasingly prevalent. Explainable AI (XAI) attempts to alleviate concerns of transparency, trust, and ethics in AI by making them accountable, interpretable, and explainable to humans. This workshop aims to address these concepts from the perspective of Explainable Agency, and bring together researchers and practitioners working in different facets of XAI from diverse backgrounds to share challenges, new directions, and recent research in the field. We especially welcome research from fields including (but not limited to) AI, human‐computer interaction, human-robot interaction, cognitive science, human factors, and philosophy."
+  website: https://sites.google.com/view/xaiworkshop/topic
+  rocketchat_channel: W11ExplainableAgencyinArtificialIntelligence
+  alias: W11ExplainableAgencyinArtificialIntelligence
+  day: Feb 9
+  sessions:
+  - start_time: 2021-2-8 07:00:00-08:00
+    end_time: 2021-2-8 17:40:00-08:00
+    name: None
+    hosts: None
+  - start_time: 2021-2-9 07:00:00-08:00
+    end_time: 2021-2-9 17:40:00-08:00
     name: None
     hosts: None
   zoom_links:
@@ -244,8 +284,8 @@
   alias: W12GraphsandMoreComplexStructuresforLearningandReasoning
   day: Feb 9
   sessions:
-  - start_time: 2021-2-9 12:00:00+00:00
-    end_time: 2021-2-9 13:00:00+00:00
+  - start_time: 2021-2-9 06:00:00-08:00
+    end_time: 2021-2-9 14:30:00-08:00
     name: None
     hosts: None
   zoom_links:
@@ -264,12 +304,37 @@
   alias: W13InternationalWorkshoponHealthIntelligence
   day: Feb 8
   sessions:
-  - start_time: 2021-2-8 12:00:00+00:00
-    end_time: 2021-2-8 13:00:00+00:00
+  - start_time: 2021-2-8 08:00:00-08:00
+    end_time: 2021-2-8 16:00:00-08:00
     name: None
     hosts: None
-  - start_time: 2021-2-9 12:00:00+00:00
-    end_time: 2021-2-9 13:00:00+00:00
+  - start_time: 2021-2-9 08:00:00-08:00
+    end_time: 2021-2-9 16:00:00-08:00
+    name: None
+    hosts: None
+  zoom_links:
+  - https://umn-private.zoom.us/j/91933179732?pwd=aDdOTGk0WVhLbmJvOGd2YXd6VWVuUT09
+  - https://umn-private.zoom.us/j/99963085986?pwd=azZLZFdLQm1lNUJtWk0vUFl3bGc1Zz09
+  prerecorded_talks:
+  - title: Keynote talk by Eduard Hovy
+    speakers: Eduard Hovy
+    presentation_id: '38940164'
+
+- UID: WS-13
+  title: 'W13: 5th International Workshop on Health Intelligence (W3PHIAI-21)'
+  organizers: "Martin Michalowski, Arash Shaban-Nejad, Cochair, Simone Bianco, Szymon Wilk, David L. Buckeridge, John S. Brownstein, and Byron C. Wallace"
+  abstract: "Public health authorities and researchers collect data from many sources and analyze these data together to estimate the incidence and prevalence of different health conditions, as well as related risk factors. Modern surveillance systems employ tools and techniques from artificial intelligence and machine learning to monitor direct and indirect signals and indicators of disease activities for early, automatic detection of emerging outbreaks and other health-relevant patterns. The advances in web science and technology for data management, integration, mining, classification, filtering, and visualization has given rise to a variety of applications representing real-time data on epidemics. Moreover, to tackle and overcome several issues in personalized healthcare, information technology will need to evolve to improve communication, collaboration, and teamwork among patients, their families, healthcare communities, and care teams involving practitioners from different fields and specialties. All of these changes require novel solutions and the AI community is well-positioned to provide both theoretical- and application-based methods and frameworks."
+  website: http://w3phiai2021.w3phi.com/
+  rocketchat_channel: W13InternationalWorkshoponHealthIntelligence
+  alias: W13InternationalWorkshoponHealthIntelligence
+  day: Feb 9
+  sessions:
+  - start_time: 2021-2-8 08:00:00-08:00
+    end_time: 2021-2-8 16:00:00-08:00
+    name: None
+    hosts: None
+  - start_time: 2021-2-9 08:00:00-08:00
+    end_time: 2021-2-9 16:00:00-08:00
     name: None
     hosts: None
   zoom_links:
@@ -306,8 +371,8 @@
   alias: W15ImaginingPostCOVIDEducationwithAI
   day: Feb 9
   sessions:
-  - start_time: 2021-2-9 09:00:00-05:00
-    end_time: 2021-2-9 18:30:00-05:00
+  - start_time: 2021-2-9 06:00:00-08:00
+    end_time: 2021-2-9 15:30:00-08:00
     name: None
     hosts: None
   zoom_links:
@@ -326,8 +391,8 @@
   alias: W16KnowledgeDiscoveryfromUnstructuredDatainFinancialServices
   day: Feb 9
   sessions:
-  - start_time: 2021-2-9 08:50:00-05:00
-    end_time: 2021-2-9 17:00:00-05:00
+  - start_time: 2021-2-9 05:15:00-08:00
+    end_time: 2021-2-9 14:00:00-08:00
     name: None
     hosts: None
   zoom_links:
@@ -343,8 +408,8 @@
   alias: W17LearningNetworkArchitectureDuringTraining
   day: Feb 8
   sessions:
-  - start_time: 2021-2-8 12:00:00+00:00
-    end_time: 2021-2-8 13:00:00+00:00
+  - start_time: 2021-2-8 06:00:00-08:00
+    end_time: 2021-2-8 13:00:00-08:00
     name: None
     hosts: None
   zoom_links:
@@ -380,8 +445,8 @@
   alias: W19MetaLearningforComputerVision
   day: Feb 8
   sessions:
-  - start_time: 2021-2-8 12:00:00+00:00
-    end_time: 2021-2-8 13:00:00+00:00
+  - start_time: 2021-2-8 09:00:00-08:00
+    end_time: 2021-2-8 17:00:00-08:00
     name: None
     hosts: None
   zoom_links:
@@ -397,8 +462,8 @@
   alias: W20PlanActivityandIntentRecognition
   day: Feb 9
   sessions:
-  - start_time: 2021-2-9 12:00:00+00:00
-    end_time: 2021-2-9 13:00:00+00:00
+  - start_time: 2021-2-9 07:00:00-08:00
+    end_time: 2021-2-9 15:30:00-08:00
     name: None
     hosts: None
   zoom_links:
@@ -414,12 +479,36 @@
   alias: W21PrivacyPreservingArtificialIntelligence
   day: Feb 8
   sessions:
-  - start_time: 2021-2-8 08:50:00-05:00
-    end_time: 2021-2-8 17:00:00-05:00
+  - start_time: 2021-2-8 05:50:00-08:00
+    end_time: 2021-2-8 14:30:00-08:00
     name: None
     hosts: None
-  - start_time: 2021-2-9 09:00:00-05:00
-    end_time: 2021-2-9 17:00:00-05:00
+  - start_time: 2021-2-9 06:00:00-08:00
+    end_time: 2021-2-9 15:30:00-08:00
+    name: None
+    hosts: None
+  zoom_links:
+    - https://zoom.us/j/3878088001?pwd=Y3IrWERGM1VjMUZ1TG4yb0EvUFJxdz09
+  prerecorded_talks:
+  - title: Invited talk by Isabelle Augenstein
+    speakers: Isabelle Augenstein
+    presentation_id: '38940145'
+
+- UID: WS-21
+  title: "W21: Workshop on Privacy-Preserving Artificial Intelligence (PPAI-21)"
+  organizers: "Ferdinando Fioretto, Pascal Van Hentenryck and Richard W. Evans"
+  abstract: "The second AAAI Workshop on Privacy-Preserving Artificial Intelligence (PPAI-21) builds on the success of last year’s AAAI PPAI to provide a platform for researchers, AI practitioners, and policymakers to discuss technical and societal issues and present solutions related to privacy in AI applications. The workshop will focus on both the theoretical and practical challenges related to the design of privacy-preserving AI systems and algorithms. In addition to the outstanding technical program, PPAI-21 provides a number of prominent invited speakers (including, John M. Abowd, Aswin Machanavajjhala, Steven Wu, Nicolas Papernot, and Reza Shokri), two exciting tutorials on recent advances of differential privacy (by Audra McMillan) and on private federated learning (by Brendan McMahan, Kallista Bonawitz, and Peter Kairouz) as well as a panel discussion."
+  website: https://ppai21.github.io/
+  rocketchat_channel: W21PrivacyPreservingArtificialIntelligence
+  alias: W21PrivacyPreservingArtificialIntelligence
+  day: Feb 9
+  sessions:
+  - start_time: 2021-2-8 05:50:00-08:00
+    end_time: 2021-2-8 14:30:00-08:00
+    name: None
+    hosts: None
+  - start_time: 2021-2-9 06:00:00-08:00
+    end_time: 2021-2-9 15:30:00-08:00
     name: None
     hosts: None
   zoom_links:
@@ -438,8 +527,8 @@
   alias: W22DEEPDIAL21
   day: Feb 9
   sessions:
-  - start_time: 2021-2-9 09:00:00-05:00
-    end_time: 2021-2-9 15:30:00-05:00
+  - start_time: 2021-2-9 05:45:00-08:00
+    end_time: 2021-2-9 14:00:00-08:00
     name: None
     hosts: None
   zoom_links:
@@ -456,7 +545,7 @@
   day: Feb 8
   sessions:
   - start_time: 2021-2-8 06:00:00-08:00
-    end_time: 2021-2-8 11:40:00-08:00
+    end_time: 2021-2-8 14:00:00-08:00
     name: None
     hosts: None
   zoom_links:
@@ -473,7 +562,7 @@
   day: Feb 9
   sessions:
   - start_time: 2021-2-9 09:00:00-08:00
-    end_time: 2021-2-9 15:20:00-08:00
+    end_time: 2021-2-9 16:00:00-08:00
     name: None
     hosts: None
   zoom_links:
@@ -514,10 +603,6 @@
   day: Feb 9
   sessions:
   - start_time: 2021-2-9 08:30:00-08:00
-    end_time: 2021-2-9 12:30:00-08:00
-    name: None
-    hosts: None
-  - start_time: 2021-2-9 13:30:00-08:00
     end_time: 2021-2-9 18:50:00-08:00
     name: None
     hosts: None

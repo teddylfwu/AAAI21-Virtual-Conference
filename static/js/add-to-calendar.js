@@ -78,7 +78,7 @@
         }
       }
 
-      console.log(event.timezone);
+      // console.log(event.timezone);
       
       var href = encodeURI([
         'https://www.google.com/calendar/render',

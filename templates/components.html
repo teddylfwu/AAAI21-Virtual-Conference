@@ -35,6 +35,7 @@
 
 {% macro plenarysessiongroup(plenary_sessions) -%}
 {% for plenary_session in plenary_sessions %}
+    {% if 'wooldridge' not in plenary_session.id and 'panel' not in plenary_session.id and 'opening_remarks_speaker_by_tuomas_sandholm' not in plenary_session.id %}
 <div class="row p-4">
   <div class="col-md-12">
     <div class="card p-3 shadow bg-light rounded">
@@ -45,9 +46,20 @@
           <div class="col-md-10 col-sm-6">
             <div class="m-3 text-muted">
               <h4>
+                      {% if 'opening_remarks_speaker_by_tuomas_sandholm'!=plenary_session.id and plenary_session.id!='opening_remarks' and plenary_session.id!='speaker_by_tuomas_sandholm' %}
                 <a href="plenary_session_{{plenary_session.id}}.html" class="main-title" >
                   {{plenary_session.title}}
                 </a>
+                      {% endif %}
+                  {% if 'opening_remarks' == plenary_session.id or 'speaker_by_tuomas_sandholm' ==  plenary_session.id %}
+                <a href="plenary_session_opening_remarks_speaker_by_tuomas_sandholm.html" class="main-title" >
+                  {{plenary_session.title}}
+                </a>
+                      {% endif %}
+{#              {% else %}#}
+{#                <a href="plenary_session_opening_remarks_and_speaker_by_tuomas_sandholm.html" class="main-title" >#}
+{#                  {{plenary_session.title}}#}
+{#                </a>#}
               </h4>
             </div>
 
@@ -71,7 +83,7 @@
 {#              {% else %}#}
 {#                [<a href="livestream.html"   class="card-link">Join Livestream</a>]#}
 {#              {% endif %}#}
-                [<a href="livestream.html"   class="card-link">Watch video</a>]
+{#                [<a href="livestream.html"   class="card-link">Watch video</a>]#}
             </div>
             {% endfor %}
 
@@ -82,6 +94,191 @@
             {% endif %}
           </div>
         </div>
+    </div>
+  </div>
+</div>
+    {% endif %}
+    {% if 'panel' in plenary_session.id %}
+        <div class="row p-4">
+  <div class="col-md-12">
+    <div class="card p-3 shadow bg-light rounded">
+        <div class="row">
+{#          <div class="col-md-2 col-sm-5">#}
+{#             {% for image in plenary_session.image %}#}
+{#            <img src="{{plenary_session.image}}" width="20%" class="mt-3" />#}
+{#             {% endfor %}#}
+{#          </div>#}
+{#          <div class="col-md-10 col-sm-6">#}
+            <div class="m-3 text-muted">
+              <h4>
+                <a href="plenary_session_{{plenary_session.id}}.html" class="main-title" >
+                  {{plenary_session.title}}
+                </a>
+              </h4>
+{#            </div>#}
+
+            {% if plenary_session.presenter != none %}
+{#            <div class="m-3 text-muted">#}
+              <span class="card-title h3">
+                {{plenary_session.presenter}}
+                {% if plenary_session.institution != none %}
+                / {{plenary_session.institution}}
+                {% endif %}
+              </span>
+{#            </div>#}
+                <br>
+            {% endif %}
+              {% for image in plenary_session.image %}
+{#                  {{image}}#}
+                <img style="width: 150px; height: 150px; margin:10px"  src="{{image}}" class="mt-3" />
+             {% endfor %}
+            <br>
+            {% for session in plenary_session.sessions %}
+{#            <div class="m-3 text-muted">#}
+              {{session.session}}
+              <span class="session_times">{{session.time_string}}</span>
+{#              {% if plenary_session.presentation_id or session.presentation_id %}#}
+{#                [<a href="plenary_session_{{plenary_session.id}}.html"   class="card-link">Watch video</a>]#}
+{#              {% else %}#}
+{#                [<a href="livestream.html"   class="card-link">Join Livestream</a>]#}
+{#              {% endif %}#}
+{#                [<a href="livestream.html"   class="card-link">Watch video</a>]#}
+            </div>
+            {% endfor %}
+
+            {% if plenary_session.abstract != none %}
+            <div class="m-3">
+              {{plenary_session.abstract|markdown}}
+            </div>
+            {% endif %}
+          </div>
+{#        </div>#}
+    </div>
+  </div>
+</div>
+    {% endif %}
+{% endfor %}
+{%- endmacro %}
+
+{% macro speakersessiongroup(plenary_sessions) -%}
+{% for plenary_session in plenary_sessions %}
+<div class="row p-4">
+  <div class="col-md-12">
+    <div class="card p-3 shadow bg-light rounded">
+        <div class="row">
+          <div class="col-md-2 col-sm-5">
+            <img src="{{plenary_session.image}}" width="100%" class="mt-3" />
+          </div>
+          <div class="col-md-10 col-sm-6">
+            <div class="m-3 text-muted">
+              <h4>
+              {% if'speaker_by_tuomas_sandholm' !=  plenary_session.id %}
+
+                <a href="plenary_session_{{plenary_session.id}}.html" class="main-title" >
+                  {{plenary_session.title}}
+                </a>
+               {% endif %}
+                {% if'speaker_by_tuomas_sandholm' ==  plenary_session.id %}
+                <a href="plenary_session_opening_remarks_speaker_by_tuomas_sandholm.html" class="main-title" >
+                  {{plenary_session.title}}
+                </a>
+                {% endif %}
+              </h4>
+            </div>
+
+            {% if plenary_session.presenter != none %}
+            <div class="m-3 text-muted">
+              <span class="card-title h3">
+                {{plenary_session.presenter}}
+                {% if plenary_session.institution != none %}
+                / {{plenary_session.institution}}
+                {% endif %}
+              </span>
+            </div>
+            {% endif %}
+
+            {% for session in plenary_session.sessions %}
+            <div class="m-3 text-muted">
+              {{session.session}}
+              <span class="session_times">{{session.time_string}}</span>
+{#              {% if plenary_session.presentation_id or session.presentation_id %}#}
+{#                [<a href="plenary_session_{{plenary_session.id}}.html"   class="card-link">Watch video</a>]#}
+{#              {% else %}#}
+{#                [<a href="livestream.html"   class="card-link">Join Livestream</a>]#}
+{#              {% endif %}#}
+{#                [<a href="livestream.html"   class="card-link">Watch video</a>]#}
+            </div>
+            {% endfor %}
+
+            {% if plenary_session.abstract != none %}
+            <div class="m-3">
+              {{plenary_session.abstract|markdown}}
+            </div>
+            {% endif %}
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+{% endfor %}
+{%- endmacro %}
+
+{% macro panelsessiongroup(plenary_sessions) -%}
+{% for plenary_session in plenary_sessions %}
+<div class="row p-4">
+  <div class="col-md-12">
+    <div class="card p-3 shadow bg-light rounded">
+        <div class="row">
+{#          <div class="col-md-2 col-sm-5">#}
+{#             {% for image in plenary_session.image %}#}
+{#            <img src="{{plenary_session.image}}" width="20%" class="mt-3" />#}
+{#             {% endfor %}#}
+{#          </div>#}
+{#          <div class="col-md-10 col-sm-6">#}
+            <div class="m-3 text-muted">
+              <h4>
+                <a href="plenary_session_{{plenary_session.id}}.html" class="main-title" >
+                  {{plenary_session.title}}
+                </a>
+              </h4>
+{#            </div>#}
+
+            {% if plenary_session.presenter != none %}
+{#            <div class="m-3 text-muted">#}
+              <span class="card-title h3">
+                {{plenary_session.presenter}}
+                {% if plenary_session.institution != none %}
+                / {{plenary_session.institution}}
+                {% endif %}
+              </span>
+{#            </div>#}
+                <br>
+            {% endif %}
+              {% for image in plenary_session.image %}
+{#                  {{image}}#}
+                <img style="width: 150px; height: 150px; margin:10px"  src="{{image}}" class="mt-3" />
+             {% endfor %}
+            <br>
+            {% for session in plenary_session.sessions %}
+{#            <div class="m-3 text-muted">#}
+              {{session.session}}
+              <span class="session_times">{{session.time_string}}</span>
+{#              {% if plenary_session.presentation_id or session.presentation_id %}#}
+{#                [<a href="plenary_session_{{plenary_session.id}}.html"   class="card-link">Watch video</a>]#}
+{#              {% else %}#}
+{#                [<a href="livestream.html"   class="card-link">Join Livestream</a>]#}
+{#              {% endif %}#}
+{#                [<a href="livestream.html"   class="card-link">Watch video</a>]#}
+            </div>
+            {% endfor %}
+
+            {% if plenary_session.abstract != none %}
+            <div class="m-3">
+              {{plenary_session.abstract|markdown}}
+            </div>
+            {% endif %}
+          </div>
+{#        </div>#}
     </div>
   </div>
 </div>
@@ -237,18 +434,14 @@
 
 
           {% for session in workshop.blocks %}
-              {% if workshop.id == "WS-9" or workshop.id == "WS-11" or workshop.id == "WS-12" or workshop.id == "WS-13" or workshop.id == "WS-17" or workshop.id == "WS-19" or workshop.id == "WS-20" %}
-                  <div class="m-3 text-center">Live Session (to be decided)</div>
-              {% else %}
-                  <div class="m-3 text-center">
-                    {{session.session}}
-                    <span class="session_times">{{session.time_string}}</span>
-                  </div>
-              {% endif %}
+              <div class="m-3 text-center">
+                {{session.session}}
+                <span class="session_times">{{session.time_string}}</span>
+              </div>
               <div class="text-center text-muted text-monospace">
                 <div class="paper-cal-links">
                   <img src="static/images/calendar.svg" class="paper-detail-calendar" height="24px">
-                  <span id="session-cal-link-{{ workshop.id }}-{{loop.index}}"></span>
+                  <span id="session-cal-link-{{ workshop.id }}-{{loop.index}}-{{workshop.day.replace(" ", "").lower()}}"></span>
                 </div>
               </div>
           {% endfor %}
@@ -297,7 +490,7 @@
       }
     });
 
-    targetNode = document.querySelector('#session-cal-link-{{ workshop.id }}-{{ loop.index }}');
+    targetNode = document.querySelector('#session-cal-link-{{ workshop.id }}-{{ loop.index }}-{{workshop.day.replace(" ", "").lower()}}');
     for (const name of calendarNames) {
       calendarNodeInner = parser.parseFromString(ouicalData[name], "text/html");
       calendarNodeSpan = document.createElement("span");
@@ -312,6 +505,152 @@
 </script>
 
 {%- endmacro %}
+
+{% macro diversitygroup(diversity_programs, tab) -%}
+<div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+  <div id="day">
+  <div class="speakers">
+  <div class="cards row">
+    {% for social in diversity_programs %}
+    <div class="col-md-6 col-sm-12 p-3"
+         id='{{social.name|replace(" ", "_")|replace("?", "")}}'>
+      <div class="card p-3 text-center shadow p-3 mb-5 bg-light rounded"
+           style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">
+  
+        <h2 class="card-title" >
+          {{social.name}}
+        </h2>
+  
+        <h6 class="text-muted font-italic">
+          {{social.organizers.members|join(" & ")}}
+          {% if social.organizers.website %}
+            <br>
+            (<a href="{{social.organizers.website}}" target="_blank">{{social.organizers.website}}</a>)
+          {% endif %}
+        </h6>
+  
+        {% if social.image %}
+          <div class="m-4">
+          <img height="100"
+               src="{{social.image}}" alt="Logo of {{ social.name }}"/>
+          </div>
+        {% endif %}
+  
+        <div class="mx-4 text-left card-subtitle">
+          <p>{{social.description.replace('\n', '<br/>')|safe}}</p>
+  
+          <p class="text-center">This event {{ social.location }}.</p>
+  
+          {% for session in social.sessions %}
+            <div class="m-3 text-muted text-center">
+            Session {{session.name}}: {{ session.start_time.strftime("%b") }} {{ session.start_time.day }}
+            <span class="session_times">{{session.time_string}}</span>
+            {% if session.link %}
+              <div>
+              <a href="{{session.link}}" target="_blank"  class="card-link">
+                <!--
+                <img
+                    src="static/images/zoom-icon.png"
+                    height="24px"
+                    alt="Join Zoom Meeting"
+                    title="Join Zoom Meeting"
+                >
+                -->
+                [Join Meeting]
+              </a>
+              </div>
+            {% endif %}
+              <div class="text-center text-muted text-monospace">
+                <div class="paper-cal-links">
+                  <img src="static/images/calendar.svg" class="paper-detail-calendar" height="24px">
+                  <span id="session-cal-link-{{ social.id }}-{{ loop.index }}-{{tab}}-{{ session.start_time.day }}"></span>
+                </div>
+              </div>
+  
+            </div>
+          {% endfor %}
+  
+        </div>
+  
+        {% if social.website %}
+        <p class="text-center text-muted card-title">
+            <a href="{{social.website}}" target="_blank"> Website </a>
+          {% if social.rocketchat_channel %}
+            | <a href="https://{{config.chat_server}}/channel/{{social.rocketchat_channel}}" target="_blank"> Chat </a>
+          {% endif %}
+          {% if social.zoom_link %}
+            | <a href="{{social.zoom_link}}" target="_blank"> Zoom </a>
+          {% endif %}
+          {% if "Gather" in social.location %}
+            | <a href="{{config.gather_town}}" target="_blank"> Gather.Town </a>
+          {% endif %}
+        </p>
+        {% endif %}
+  
+  
+  
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  </div>
+  </div>
+  </div>
+  <script src="static/js/add-to-calendar.js"></script>
+  <script>
+
+    var ouicalData;
+    var targetNode;
+    var calendarNodeInner;
+    var calendarNodeSpan;
+    var parser = new DOMParser();
+    var calendarNames = Array("google", "off365", "outlook", "ical");
+    
+    {% for social in diversity_programs %}
+    {% for session in social.sessions%}
+      // create a calendar by hand
+      ouicalData = addToCalendarData({
+        options: {
+          class: 'my-class',
+          id: 'my-id'                               // If you don't pass an id, one will be generated for you.
+        },
+        data: {
+          title: '{{ session.name }}'.replace("#", " "),
+  
+          // Event start date
+          start: new Date("{{session.start_time_string}}"),
+          end: new Date("{{session.end_time_string}}"),
+          // duration: 120,                           // Event duration (IN MINUTES)
+          // allday: true,														// Override end time, duration and timezone, triggers 'all day'
+  
+          // Event timezone. Will convert the given time to that zone
+          timezone: 'UTC',
+          // Event Address
+          {% if session.link %}
+            address: '{{session.link}}',
+          {% endif %}
+  
+          // Event Description
+          // NOTE: Cannot use abstract because of it is multi-line. Need to format it.
+          description: String("{{ social.description.replace('\n', '\\n') }}")
+        }
+      });
+      
+      targetNode = document.querySelector("#session-cal-link-{{ social.id }}-{{ loop.index }}-{{ tab }}-{{ session.start_time.day }}");
+      for (const name of calendarNames) {
+        calendarNodeInner = parser.parseFromString(ouicalData[name], "text/html");
+        calendarNodeSpan = document.createElement("span");
+        calendarNodeSpan.setAttribute("style", "padding: 2px");
+        calendarNodeSpan.appendChild(document.createTextNode("["));
+        calendarNodeSpan.appendChild(calendarNodeInner.getElementsByTagName("a")[0]);
+        calendarNodeSpan.appendChild(document.createTextNode("]"));
+        targetNode.appendChild(calendarNodeSpan);
+      }
+    {% endfor %}
+    {% endfor %}
+  </script>
+{%- endmacro %}
+
 
 {% macro tutorialgroup(tutorials,tutorials_MQ,tutorials_MH,tutorials_AQ,tutorials_AH) -%}
 <div class="accordion" id="accordionExample">
@@ -831,7 +1170,7 @@
 
           <div class="m-3 text-muted text-center">
             <h4>
-              <a href="paper_{{uc.id}}.html" class="main-title" >
+              <a href="tutorial_{{uc.id}}.html" class="main-title" >
                 {{ uc.id }}: {{uc.title}}
               </a>
             </h4>
@@ -863,12 +1202,12 @@
 <script src="static/js/add-to-calendar.js"></script>
 <script>
 
-  let ouicalData;
-  let targetNode;
-  let calendarNodeInner;
-  let calendarNodeSpan;
-  let parser = new DOMParser();
-  let calendarNames = Array("google", "off365", "outlook", "ical");
+  var ouicalData;
+  var targetNode;
+  var calendarNodeInner;
+  var calendarNodeSpan;
+  var parser = new DOMParser();
+  var calendarNames = Array("google", "off365", "outlook", "ical");
 
   {% for uc in tutorials_UC %}
   {% for session in uc.blocks %}
@@ -896,7 +1235,7 @@
 
         // Event Description
         // NOTE: Cannot use abstract because of it is multi-line. Need to format it.
-        description: 'https://virtual.2020.emnlp.org/uc_{{ uc.id }}.html'
+        description: 'https://virtual.2021.aaai.org/tutorial_{{ uc.id }}.html'
       }
     });
 

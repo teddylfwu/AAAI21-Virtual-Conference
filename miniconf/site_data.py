@@ -17,7 +17,7 @@ class SessionInfo:
 
     @property
     def day(self) -> str:
-        start_time = self.start_time.astimezone(pytz.utc)
+        start_time = self.start_time.astimezone(pytz.timezone("America/Los_Angeles"))
         return f'{start_time.strftime("%b")} {start_time.day}'
 
     @property
@@ -38,7 +38,7 @@ class SessionInfo:
 
     @property
     def session(self) -> str:
-        start_time = self.start_time.astimezone(pytz.utc)
+        start_time = self.start_time.astimezone(pytz.timezone("America/Los_Angeles"))
 
         start_date = f'{start_time.strftime("%b")} {start_time.day}'
         if self.session_name.startswith("D"):
@@ -398,6 +398,22 @@ class Demonstrations:
     sessions: List[SessionInfo]
     blocks: List[SessionInfo]
     virtual_format_description: str
+
+@dataclass(frozen=True)
+class AiInPractice:
+    id: str
+    title: str
+    organizers: List[str]
+    abstract: str
+    website: Optional[str]
+    material: Optional[str]
+    slides: Optional[str]
+    prerecorded: Optional[str]
+    rocketchat_channel: str
+    sessions: List[SessionInfo]
+    blocks: List[SessionInfo]
+    virtual_format_description: str
+
 
 
 @dataclass(frozen=True)

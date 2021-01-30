@@ -50,27 +50,71 @@
       AAAI-21 Student Abstract Poster Presentation Schedule
 </h2>
 
-<div class="accordion" id="accordionExample">
-    <div class="text-center p-3">
-    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        February 4
-    </button>
-    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-        February 5
-    </button>
-    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
-        February 6
-    </button>
-    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-        February 7
-    </button>
-</div>
+{% endblock %}
 
-    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-  <h3 class="card-title main-title text-center">
-      February 4
-  </h3>
-  <div class="card-body">
+{% block tabs %}
+<ul class="nav nav-pills justify-content-center">
+  <li class="nav-item">
+    <a
+      class="nav-link active"
+      data-toggle="tab"
+      href="#tab-4"
+      role="tab"
+      aria-controls="nav-home"
+      aria-selected="true"
+      >February 4
+    </a>
+  </li>
+  <li class="nav-item">
+    <a
+      class="nav-link"
+      data-toggle="tab"
+      href="#tab-5"
+      role="tab"
+      aria-controls="nav-home"
+      aria-selected="true"
+      >February 5
+    </a>
+  </li>
+  <li class="nav-item">
+    <a
+      class="nav-link"
+      data-toggle="tab"
+      href="#tab-6"
+      role="tab"
+      aria-controls="nav-home"
+      aria-selected="true"
+      >February 6
+    </a>
+  </li>
+  <li class="nav-item">
+    <a
+      class="nav-link"
+      data-toggle="tab"
+      href="#tab-7"
+      role="tab"
+      aria-controls="nav-home"
+      aria-selected="true"
+      >February 7
+    </a>
+  </li>
+</ul>
+{% endblock %}
+
+
+{% block content %}
+<div class="tab-content" id="nav-tabContent">
+
+  <div
+    class="tab-pane fade active show"
+    id="tab-4"
+    role="tabpanel"
+    aria-labelledby="nav-profile-tab"
+  >
+
+    <div id="tab-4">
+      <div class="plenary_sessions">
+        <div class="card-body">
     <table class="table table-bordered table-striped" style="font-size: small;">
       <thead>
         <tr>
@@ -186,13 +230,20 @@
       </tbody>
     </table>
   </div>
-</div>
+      </div>
+    </div>
+  </div>
 
-    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-  <h3 class="card-title main-title text-center">
-      February 5
-  </h3>
-  <div class="card-body">
+  <div
+    class="tab-pane fade"
+    id="tab-5"
+    role="tabpanel"
+    aria-labelledby="nav-profile-tab"
+  >
+
+    <div id="tab-5">
+      <div class="plenary_sessions">
+        <div class="card-body">
     <table class="table table-bordered table-striped" style="font-size: small;">
       <thead>
         <tr>
@@ -308,13 +359,20 @@
       </tbody>
     </table>
   </div>
-</div>
+      </div>
+    </div>
+  </div>
 
-    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-  <h3 class="card-title main-title text-center">
-      February 6
-  </h3>
-  <div class="card-body">
+  <div
+    class="tab-pane fade"
+    id="tab-6"
+    role="tabpanel"
+    aria-labelledby="nav-profile-tab"
+  >
+
+    <div id="tab-6">
+      <div class="plenary_sessions">
+        <div class="card-body">
     <table class="table table-bordered table-striped" style="font-size: small;">
       <thead>
         <tr>
@@ -434,13 +492,20 @@
       </tbody>
     </table>
   </div>
-</div>
+      </div>
+    </div>
+  </div>
 
-    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
-  <h3 class="card-title main-title text-center">
-      February 7
-  </h3>
-  <div class="card-body">
+  <div
+    class="tab-pane fade"
+    id="tab-7"
+    role="tabpanel"
+    aria-labelledby="nav-profile-tab"
+  >
+
+    <div id="tab-7">
+      <div class="plenary_sessions">
+        <div class="card-body">
     <table class="table table-bordered table-striped" style="font-size: small;">
       <thead>
         <tr>
@@ -556,7 +621,10 @@
       </tbody>
     </table>
   </div>
-</div>
+      </div>
+    </div>
+  </div>
+
 </div>
 
 <div class="row m-2">
@@ -574,9 +642,10 @@
   </div>
 </div>
 
-{% endblock %}
-
-{% block content %}
+<script src="static/js/lazy_load.js"></script>
+<script type="text/javascript">
+  lazyLoader();
+</script>
 
 <script src="static/js/time-extend.js"></script>
 <script>

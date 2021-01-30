@@ -42,7 +42,7 @@
     <a href="https://aaaidc.github.io/dc2021/" target="_blank"  class="card-link">
         External Site
     </a>
-    <a href="https://123.com" target="_blank"  class="card-link">
+    <a href="https://zoom.us/meeting/register/tJArfuurrD0pGNJMLr35AlJJ1mz1mUqc_LzQ" target="_blank"  class="card-link">
         Join Zoom Meeting
     </a>
     </div>
@@ -69,13 +69,64 @@
         {% for dc in doctoral_consortium %}
         {% if dc.id == "Schedule" %}
         {% for event in dc.sessions %}
-        <tr>
-            <td>
-              {{event.day}}, <span class="session_times">{{event.time_string}}</span>
-            </td>
-          <td scope="row">{{event.session_name}}</td>
-          <td style="white-space: pre-wrap;">{{event.hosts}}</td>
-        </tr>
+        {% if event.session_name == "Session 1" and event.day == "Feb 2" %}
+            <tr>
+                <td>
+                  {{event.day}}, <span class="session_times">{{event.time_string}}</span>
+                </td>
+                <td scope="row"><b>Session 1</b><br /><a href="paper_DC-118.html">1. Effective Clustering of scRNA-seq Data to Identify Biomarkers without User Input</a><br /><a href="paper_DC-429.html">2. Safety Assurance for Systems with Machine Learning Components</a><br /><a href="paper_DC-317.html">3. Constraint-Driven Learning of Logic Programs</a></td>
+              <td style="white-space: pre-wrap;">1. Speaker: Hussain Chowdhury, Mentor: Jay Thiagrajan, Buddy: Rolf Morel <br />2. Speaker: Chelsea Sidrane, Mentor: Matthijs T. J. Spaan, Buddy: Puspita Mazumdar<br />3. Speaker: Rolf Morel, Mentor: Luc De Raedt, Buddy: Hussain Chowdhry
+              </td>
+            </tr>
+        {% elif event.session_name == "Session 2" and event.day == "Feb 2" %}
+            <tr>
+                <td>
+                  {{event.day}}, <span class="session_times">{{event.time_string}}</span>
+                </td>
+                <td scope="row"><b>Session 2</b><br /><a href="paper_DC-281.html">1. Artificial Intelligence and Machine Learning for Autonomous Agents that Learn to Plan and Operatein Unpredictable Dynamic Environments</a><br /><a href="paper_DC-318.html">2. Screening for Depressed Individuals by Using Multimodal Social Media Data</a></td>
+                <td style="white-space: pre-wrap;">1. Speaker: Leonardo Lamana, Mentor: Felipe Meneguzzi, Buddy: Sagir Muhammad Yusuf <br />2. Speaker: Paulo Mann, Mentor: Maria Chang, Buddy: Preeti Ramaraj</td>
+            </tr>
+        {% elif event.session_name == "Session 3" and event.day == "Feb 2" %}
+            <tr>
+                <td>
+                  {{event.day}}, <span class="session_times">{{event.time_string}}</span>
+                </td>
+                <td scope="row"><b>Session 3</b><br /><a href="paper_DC-79.html">1. AI for Social Good: Between My Research and the Real World</a><br /><a href="paper_DC-304.html">2. How Human Centered AI Will Contribute Towards Intelligent Gaming Systems</a><br /><a href="paper_DC-311.html">3. Perception Beyond Sensors Under Uncertainty</a></td>
+                <td style="white-space: pre-wrap;">1. Speaker: Zheyuan Ryan Shi, Mentor: Shiwali Mohan, Buddy: Dario Guidotti <br />2. Speaker: Yilei Zeng, Mentor: Mark O. Riedl, Buddy: Mehrnoosh Mirtaheri<br />3. Speaker: Masha Itkina, Mentor: Sven Koenig, Buddy: Ivan Stelmakh</td>
+            </tr>
+        {% elif event.session_name == "Session 1" and event.day == "Feb 3" %}
+            <tr>
+                <td>
+                  {{event.day}}, <span class="session_times">{{event.time_string}}</span>
+                </td>
+                <td scope="row"><b>Session 1</b><br /><a href="paper_DC-260.html">1. On Learning Deep Models with Imbalanced Data Distribution</a><br /><a href="paper_DC-340.html">2. Multi-agent Reinforcement Learning for Decentralized Coalition Formation Games</a><br /><a href="paper_DC-246.html">3. Distributed Situation Awareness for Multi-agent Mission in Dynamic En-vironments: A Case Study of Multi-UAVs Wildfires Searching</a><br /><a href="paper_DC-415.html">4. Transfer Learning of Engagement Recognition within Robot-Assisted Therapy for Children with Autism</a></td>
+                <td style="white-space: pre-wrap;">1. Speaker: Puspita Mazumdar, Mentor: Bhavya Kailkhura, Buddy: Chelsea Sidrane <br />2. Speaker: Kshitija Taywade, Mentor: Balaraman Ravindran, Buddy: Nazerke Rakhymbayeva<br />3. Speaker: Sagir Muhammad Yusuf, Mentor: Biplav Srivastava, Buddy: Leonardo Lamanna<br />4. Speaker: Nazerke Rakhymbayeva, Mentor: Maria Gini, Buddy: Kshitija Taywade</td>
+            </tr>
+        {% elif event.session_name == "Session 2" and event.day == "Feb 3" %}
+            <tr>
+                <td>
+                  {{event.day}}, <span class="session_times">{{event.time_string}}</span>
+                </td>
+                <td scope="row"><b>Session 2</b><br /><a href="paper_DC-169.html">1. Towards Fair, Equitable, and Efficient Peer Review</a><br /><a href="paper_DC-127.html">2. Verification and Repair of Neural Networks</a><br /><a href="paper_DC-423.html">3. Relational Learning to Capture the Dynamics and Sparsity of Knowledge Graphs</a></td>
+                <td style="white-space: pre-wrap;">1. Speaker: Ivan Stelmakh, Mentor: Ece Kamar, Buddy: Masha Itkina <br />2. Speaker: Dario Guidotti, Mentor: Eric Eaton, Buddy: Zheyuan Ryan Shi<br />3. Speaker: Mehrnoosh Mirtaheri, Mentor: Pin-Yu Chen, Buddy: Yilei Zeng</td>
+            </tr>
+        {% elif event.session_name == "Session 3" and event.day == "Feb 3" %}
+            <tr>
+                <td>
+                  {{event.day}}, <span class="session_times">{{event.time_string}}</span>
+                </td>
+                <td scope="row"><b>Session 3</b><br /><a href="paper_DC-314.html">1. Robots that Help Humans Build Better Mental Models of Robots</a><br /><a href="paper_DC-276.html">2. A Computational Approach to Sign Language Understanding</a><br /><a href="paper_DC-200.html">3. Creating Interpretable Data-Driven Approaches for Remote Health Monitoring</a></td>
+                <td style="white-space: pre-wrap;">1. Speaker: Preeti Ramaraj, Mentor: Laura Hiatt, Buddy: Paulo Mann <br />2. Speaker: Tejaswini Ananthanarayana, Mentor: Shirin Sohrabi, Buddy: Alireza Ghods<br />3. Speaker: Alireza Ghods, Mentor: Rushil Anirudh, Buddy: Tejaswini Ananthanarayana</td>
+            </tr>
+        {% else %}
+            <tr>
+                <td>
+                  {{event.day}}, <span class="session_times">{{event.time_string}}</span>
+                </td>
+              <td scope="row">{{event.session_name}}</td>
+              <td style="white-space: pre-wrap;">{{event.hosts}}</td>
+            </tr>
+        {% endif %}
         {% endfor %}
         {% endif %}
         {% endfor %}
@@ -88,67 +139,81 @@
 
 {% block content %}
 
-{% for dc in doctoral_consortium %}
-{% if dc.id == "Schedule" %}
-<div class="container" style="background-color:white; padding: 0px;">
-  <div class="text-muted text-center">
-  You can open the
-  {% if dc.livestream %}
-  <a href="https://slideslive.com/{{dc.livestream}}" target="_blank">livestream video</a>
-  and
-  {% endif %}
-  the
-  <a href="https://{{config.chat_server}}/channel/{{dc.rocketchat_channel}}" target="_blank">
-    #{{ dc.rocketchat_channel }}
-  </a>
-  channel
-  {% if dc.livestream %}
-  in separate windows.
-  {% else %}
-  in a separate window.
-  {% endif %}
+{#{% for dc in doctoral_consortium %}#}
+{#{% if dc.id == "Schedule" %}#}
+{#<div class="container" style="background-color:white; padding: 0px;">#}
+{#  <div class="text-muted text-center">#}
+{#  You can open the#}
+{#  {% if dc.livestream %}#}
+{#  <a href="https://slideslive.com/{{dc.livestream}}" target="_blank">livestream video</a>#}
+{#  and#}
+{#  {% endif %}#}
+{#  the#}
+{#  <a href="https://{{config.chat_server}}/channel/{{dc.rocketchat_channel}}" target="_blank">#}
+{#    #{{ dc.rocketchat_channel }}#}
+{#  </a>#}
+{#  channel#}
+{#  {% if dc.livestream %}#}
+{#  in separate windows.#}
+{#  {% else %}#}
+{#  in a separate window.#}
+{#  {% endif %}#}
+{##}
+{#  </div>#}
+{##}
+{#  <div class="row m-2">#}
+{#  {% if dc.livestream %}#}
+{#<!-- Livestreaming -->#}
+{#    <div class="col-md-7 col-xs-12 my-auto p-2" >#}
+{#      <div id="presentation-embed" class="slp my-auto"></div>#}
+{#      <script src='https://slideslive.com/embed_presentation.js'></script>#}
+{#      <script>#}
+{#        embed = new SlidesLiveEmbed('presentation-embed', {#}
+{#        presentationId: '{{dc.livestream}}',#}
+{#        autoPlay: false, // change to true to autoplay the embedded presentation#}
+{#        verticalEnabled: true,#}
+{#        verticalWhenWidthLte: 500,#}
+{#        allowHiddenControlsWhenPaused: true,#}
+{#        hideTitle: true#}
+{#        });#}
+{#      </script>#}
+{#    </div>#}
+{##}
+{#    <!-- Chat -->#}
+{#    <br/>#}
+{#    <div class="col-md-5 col-xs-12 p-2">#}
+{#      <div id="gitter" class="slp">#}
+{#        <iframe frameborder="0" src="https://{{config.chat_server}}/channel/{{dc.rocketchat_channel}}?layout=embedded" height="700px" width="100%" ></iframe>#}
+{#      </div>#}
+{#    </div>#}
+{#  {% else %}#}
+{#  <div class="container" style="background-color:white; padding: 0px;">#}
+{##}
+{##}
+{#    <!-- Chat -->#}
+{#      <div id="gitter" class="slp">#}
+{#        <iframe frameborder="0" src="https://{{config.chat_server}}/channel/{{dc.rocketchat_channel}}?layout=embedded" height="700px" width="100%" ></iframe>#}
+{#      </div>#}
+{#  </div>#}
+{#  {% endif %}#}
+{#</div>#}
+{#{% endif %}#}
+{#{% endfor %}#}
 
+<div class="row m-2">
+  <div class="col-md-7 col-xs-12 my-auto p-2">
+      <div class="text-muted text-center">
+        You can open <a href="https://{{config.chat_server}}/channel/Events_DoctoralConsortium" target="_blank">Doctoral Consortium</a>
+        channel in a separate window.
+      </div>
   </div>
 
-  <div class="row m-2">
-  {% if dc.livestream %}
-<!-- Livestreaming -->
-    <div class="col-md-7 col-xs-12 my-auto p-2" >
-      <div id="presentation-embed" class="slp my-auto"></div>
-      <script src='https://slideslive.com/embed_presentation.js'></script>
-      <script>
-        embed = new SlidesLiveEmbed('presentation-embed', {
-        presentationId: '{{dc.livestream}}',
-        autoPlay: false, // change to true to autoplay the embedded presentation
-        verticalEnabled: true,
-        verticalWhenWidthLte: 500,
-        allowHiddenControlsWhenPaused: true,
-        hideTitle: true
-        });
-      </script>
-    </div>
-
-    <!-- Chat -->
-    <br/>
-    <div class="col-md-5 col-xs-12 p-2">
+  <div class="col-md-5 col-xs-12 p-2">
       <div id="gitter" class="slp">
-        <iframe frameborder="0" src="https://{{config.chat_server}}/channel/{{dc.rocketchat_channel}}?layout=embedded" height="700px" width="100%" ></iframe>
-      </div>
-    </div>
-  {% else %}
-  <div class="container" style="background-color:white; padding: 0px;">
-
-
-    <!-- Chat -->
-      <div id="gitter" class="slp">
-        <iframe frameborder="0" src="https://{{config.chat_server}}/channel/{{dc.rocketchat_channel}}?layout=embedded" height="700px" width="100%" ></iframe>
+        <iframe frameborder="0" src="https://aaai-21.rocket.chat/channel/Events_DoctoralConsortium?layout=embedded" height="700px" width="100%" ></iframe>
       </div>
   </div>
-  {% endif %}
 </div>
-{% endif %}
-{% endfor %}
-
 
 {#<div class="tutorials">#}
 {#    {{ components.uc_abstracts_group(tutorials_DC) }}#}
