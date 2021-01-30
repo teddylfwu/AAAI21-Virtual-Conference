@@ -172,9 +172,17 @@
           <div class="col-md-10 col-sm-6">
             <div class="m-3 text-muted">
               <h4>
+              {% if'speaker_by_tuomas_sandholm' !=  plenary_session.id %}
+
                 <a href="plenary_session_{{plenary_session.id}}.html" class="main-title" >
                   {{plenary_session.title}}
                 </a>
+               {% endif %}
+                {% if'speaker_by_tuomas_sandholm' ==  plenary_session.id %}
+                <a href="plenary_session_opening_remarks_speaker_by_tuomas_sandholm.html" class="main-title" >
+                  {{plenary_session.title}}
+                </a>
+                {% endif %}
               </h4>
             </div>
 

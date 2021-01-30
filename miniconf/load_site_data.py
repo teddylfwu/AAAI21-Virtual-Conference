@@ -133,10 +133,13 @@ def load_site_data(
 
 
     site_data["calendar"] = build_schedule(site_data["overall_calendar"])
-    site_data["event_types"] = list(
-        {event["type"] for event in site_data["overall_calendar"]}
-    )
-
+    # site_data["event_types"] = list(
+    #     {event["type"] for event in site_data["overall_calendar"]}
+    # )
+    site_data["event_types"] = ["Plenary", "Posters", "EAAI", "Workshops", "Tutorials", "Doctoral Consortium",
+                 "Undergraduate Consortium", "Diversity and Inclusion",
+                "Meet with a Fellow", "Sponsors/Exhibitors", "AI Job Fair"
+               ]
     # plenary_sessions.html
     plenary_sessions = build_plenary_sessions(
         raw_plenary_sessions=site_data["plenary_sessions"],
@@ -557,7 +560,7 @@ def build_invited_speakers_sessions(
     plenary_videos: DefaultDict[str, List[PlenaryVideo]] = defaultdict(list)
     for plenary_id, videos in raw_plenary_videos.items():
         for item in videos:
-            if 'speaker' in item["UID"]:
+            if item["UID"].startswith("speaker"):
                 plenary_videos[plenary_id].append(
                     PlenaryVideo(
                         id=item["UID"],
@@ -569,7 +572,7 @@ def build_invited_speakers_sessions(
 
     plenary_sessions: DefaultDict[str, List[PlenarySession]] = defaultdict(list)
     for item in raw_plenary_sessions:
-        if 'speaker' in item["UID"]:
+        if item["UID"].startswith("speaker"):
             plenary_sessions[item["day"]].append(
             PlenarySession(
                 id=item["UID"],
@@ -609,24 +612,40 @@ def generate_plenary_events(site_data: Dict[str, Any]):
             continue
         uid = plenary["UID"]
 
-        for session in plenary["sessions"]:
-            start = session["start_time"]
-            end = session["end_time"]
-            event = {
-                "title": "<b>" + plenary["title"] + "</b>",
-                "start": start,
-                "end": end,
-                "location": f"plenary_session_{uid}.html",
-                "link": f"plenary_session_{uid}.html",
-                "category": "time",
-                "type": "Plenary",
-                "view": "day",
-            }
-            print(event)
-            site_data["overall_calendar"].append(event)
-            assert start < end, "Session start after session end"
+        if plenary["UID"] == 'opening_remarks' or plenary["UID"] == 'speaker_by_tuomas_sandholm':
+            for session in plenary["sessions"]:
+                start = session["start_time"]
+                end = session["end_time"]
+                event = {
+                    "title": "<b>" + plenary["title"] + "</b>",
+                    "start": start,
+                    "end": end,
+                    "location": f"plenary_session_opening_remarks_speaker_by_tuomas_sandholm.html",
+                    "link": f"plenary_session_opening_remarks_speaker_by_tuomas_sandholm.html",
+                    "category": "time",
+                    "type": "Plenary",
+                    "view": "day",
+                }
+        else:
+            for session in plenary["sessions"]:
+                start = session["start_time"]
+                end = session["end_time"]
+                event = {
+                    "title": "<b>" + plenary["title"] + "</b>",
+                    "start": start,
+                    "end": end,
+                    "location": f"plenary_session_{uid}.html",
+                    "link": f"plenary_session_{uid}.html",
+                    "category": "time",
+                    "type": "Plenary",
+                    "view": "day",
+                }
 
-            all_sessions.append(session)
+        print(event)
+        site_data["overall_calendar"].append(event)
+        assert start < end, "Session start after session end"
+
+        all_sessions.append(session)
 
     blocks = compute_schedule_blocks(all_sessions)
 
