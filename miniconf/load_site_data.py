@@ -857,27 +857,30 @@ def generate_workshop_events(site_data: Dict[str, Any]):
     """ We add sessions from workshops and compute the overall workshops blocks for the weekly view. """
     # Add workshop sessions to calendar
     all_sessions: List[Dict[str, Any]] = []
+    duplicate_sessions: List[str] = []
     for workshop in site_data["workshops"]:
         uid = workshop["UID"]
-        all_sessions.extend(workshop["sessions"])
+        if uid not in duplicate_sessions:
+            all_sessions.extend(workshop["sessions"])
+            duplicate_sessions.append(uid)
 
-        for block in compute_schedule_blocks(workshop["sessions"]):
-            min_start = min([t["start_time"] for t in block])
-            max_end = max([t["end_time"] for t in block])
+            for block in compute_schedule_blocks(workshop["sessions"]):
+                min_start = min([t["start_time"] for t in block])
+                max_end = max([t["end_time"] for t in block])
 
-            event = {
-                "title": f"<b>Workshop</b><br/> <b>{workshop['title']}</b><br/> <i>{workshop['organizers']}</i>",
-                "start": min_start,
-                "end": max_end,
-                "location": f"workshop_{uid}.html",
-                "link": f"workshop_{uid}.html",
-                "category": "time",
-                "type": "Workshops",
-                "view": "day",
-            }
-            site_data["overall_calendar"].append(event)
+                event = {
+                    "title": f"<b>Workshop</b><br/> <b>{workshop['title']}</b><br/> <i>{workshop['organizers']}</i>",
+                    "start": min_start,
+                    "end": max_end,
+                    "location": f"workshop_{uid}.html",
+                    "link": f"workshop_{uid}.html",
+                    "category": "time",
+                    "type": "Workshops",
+                    "view": "day",
+                }
+                site_data["overall_calendar"].append(event)
 
-            assert min_start < max_end, "Session start after session end"
+                assert min_start < max_end, "Session start after session end"
 
     blocks = compute_schedule_blocks(all_sessions)
 
