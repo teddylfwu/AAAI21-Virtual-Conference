@@ -12,7 +12,7 @@ FAQ:
       - Question: What if I have a problem or have a question?  
         Answer: "If you have any technical difficulties, please use [RocketChat](/chat.html) to contact the [#helpdesk](https://virtual.2021.aaai.org/help_desk.html). You can also email your questions to [virtual21@aaai.org](mailto:virtual21@aaai.org). If you have a problem with inappropriate conduct, please see the below about Accessibility and Safety."
       - Question: After I login to the main site, if I click on the Login with AAAI-2021 account button on any page (such as Chat), the circular spinner shows up but freezes and nothing else happens.
-        Answer: "Possible reasons: The pop-up windows are blocked or third party cookies are blocked. You might need to enable these. Disable your ad-blocker for this page. In Chrome, you need to certainly disable cookies on the right in the address bar (click on the crossed out eye)."
+        Answer: "Possible reasons: The pop-up windows are blocked or third party cookies are blocked. You might need to enable these. Disable your ad-blocker for this page. In Chrome, you need to certainly enable cookies on the right in the address bar (click on the crossed out eye)."
 
   - Section: Website Navigation
     QA:
