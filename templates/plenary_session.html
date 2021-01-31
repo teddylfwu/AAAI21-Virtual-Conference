@@ -5,6 +5,21 @@
 <!-- Title -->
 <div class="pp-card m-3" style="">
   <div class="card-header">
+  {% if plenary_session.title == 'Opening Ceremony and Conference Awards and Invited Talk: IAAI-21 Robert S. Engelmore Memorial Award Lecture' %}
+          <h2 class="card-title main-title text-center" style="color:black">
+      Opening Ceremony and Conference Awards
+    </h2>
+          <h3 class="card-subtitle mb-2 text-muted text-center">
+          Qiang Yang, Kevin Leyton-Brown, Mausam
+    </h3>
+                <h2 class="card-title main-title text-center" style="color:black">
+      Invited Talk: IAAI-21 Robert S. Engelmore Memorial Award Lecture
+
+    </h2>
+          <h3 class="card-subtitle mb-2 text-muted text-center">
+Tuomas Sandholm    </h3>
+
+  {% else %}
     <h2 class="card-title main-title text-center" style="color:black">
       {{plenary_session.title}}
     </h2>
@@ -16,6 +31,7 @@
       {% endif %}
     </h3>
     {% endif %}
+     {% endif %}
 
     <div class="text-center p-3">
       {% if plenary_session.abstract %}
