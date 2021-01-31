@@ -1283,10 +1283,27 @@ def build_poster_infos(
     sort_rule = {
         "Poster":1,"Demo":2,"SA":3,"DC":4,"UC":5,"IAAI":6,"Award":7
     }
+    sort_rule_2 = {
+        "AB-R1":1,"AB-R2":2,"BC-R1":3,"BC-R2":4,"AC-R1":5,"AC-R2":6,"DEMO":7,"SA":9,"DC":9,"UC":10,"IAAI":11,"Award":12
+    }
+    def room_name_expect_day(room):
+        if len(room.split("-")) == 3:
+            room_name_expect_day = room.split("-")[0] + "-" + room.split("-")[-1]
+        else:
+            room_name_expect_day = room.split("-")[0]
+        # print(room,room_name_expect_day)
+        return room_name_expect_day
+
+    sorted_poster_infos_by_day = defaultdict()
     for day in poster_infos_by_day.keys():
-        for room in poster_infos_by_day[day].keys():
-            poster_infos_by_day[day][room].sort(key=lambda x:(sort_rule[x.session_type],x.room,x.cluster))
-            for x in poster_infos_by_day[day][room]:
+        sorted_poster_infos_by_day[day] = defaultdict()
+        rooms = sorted(poster_infos_by_day[day].keys(),key=lambda x: sort_rule_2[room_name_expect_day(x)])
+        for room in rooms:
+            sorted_poster_infos_by_day[day][room] = poster_infos_by_day[day][room]
+    for day in sorted_poster_infos_by_day.keys():
+        for room in sorted_poster_infos_by_day[day].keys():
+            sorted_poster_infos_by_day[day][room].sort(key=lambda x:(sort_rule[x.session_type],x.room,x.cluster))
+            for x in sorted_poster_infos_by_day[day][room]:
                 if x.room not in room_list_by_day[day]:
                     room_list_by_day[day].append(x.room)
     poster_days = []
@@ -1296,7 +1313,7 @@ def build_poster_infos(
             (day.replace(" ", "").lower(), day, "active" if i == 0 else "")
         )
 
-    return poster_infos_by_day, poster_days,room_list_by_day
+    return sorted_poster_infos_by_day, poster_days,room_list_by_day
 
 
 def build_qa_sessions(
