@@ -330,7 +330,7 @@ def plenary_session(uid):
 def plenary_session_first():
     data = _data()
     data["plenary_session"] = by_uid["plenary_sessions"]['opening_remarks_speaker_by_tuomas_sandholm']
-    return render_template("plenary_session_2.html", **data)
+    return render_template("plenary_session.html", **data)
 
 @app.route("/tutorial_<uid>.html")
 def tutorial(uid):
