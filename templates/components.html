@@ -251,6 +251,10 @@
 
 {% macro panelsessiongroup(plenary_sessions) -%}
 {% for plenary_session in plenary_sessions %}
+    {% if plenary_session.title == 'IAAI AI in Practice Panel: Forecasting in Unprecedented Times' %}
+    {% elif plenary_session.title == 'IAAI AI in Practice Panel: Emerging Uses of AI in Real-Time Automation'  %}
+    {% elif plenary_session.title == 'IAAI AI in Practice Panel: AI Applications in Finance: Risks and Challenges in Deploying Real-World Businesses Solutions'  %}
+    {% else %}
 <div class="row p-4">
   <div class="col-md-12">
     <div class="card p-3 shadow bg-light rounded">
@@ -318,6 +322,7 @@
 </div>
   </div>
 </div>
+    {% endif %}
 {% endfor %}
 {%- endmacro %}
 

@@ -174,7 +174,8 @@ def load_site_data(
 
     site_data["invited_panels"] = invited_panels
     site_data["invited_panels_days"] = [
-        [day.replace(" ", "").lower(), day, ""] for day in invited_panels
+        #update by mankind 2021/02/01
+        [day.replace(" ", "").lower(), day, ""] for day in invited_panels if day.replace(" ", "").lower() not in ["feb4","feb6"]
     ]
     site_data["invited_panels_days"][0][-1] = "active"
 
