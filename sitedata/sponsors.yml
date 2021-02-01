@@ -5,6 +5,7 @@
   website: https://amazon.science
   description: |
     Amazon Science gives you insight into the company's approach to customer-obsessed scientific innovation. Amazon fundamentally believes that scientific innovation is essential to being the most customer-centric company in the world. It's the company's ability to have an impact at scale that allows us to attract some of the brightest minds in artificial intelligence and related fields. Our scientists continue to publish, teach, and engage with the academic community, in addition to utilizing our working backwards method to enrich the way we live and work. Visit Amazon.science to learn more!
+  rocketchat_channel: Sponsor_AmazonScience
 
 - name: IBM
   level: Platinum
@@ -17,6 +18,7 @@
     We're delivering secure, trusted AI with work focused on governance, explainability, fairness, and bias reduction, and empowering creators with AI engineering tools and capabilities that simplify and automate key tasks.
 
     At IBM Research we are committed to providing equal opportunity and being a culture of transparency and trust. By giving diverse communities a voice, we are creating an environment where everyone can advance.
+  rocketchat_channel: Sponsor_IBM
 
 - name: Baidu
   level: Gold
@@ -25,6 +27,8 @@
   website: https://www.baidu.com
   description: |
     Founded on January 1, 2000, Baidu is the world's largest Chinese language Internet search provider, the largest knowledge and information centered Internet platform company in China, and a world-leading artificial intelligence (AI) platform company. Robin Li, Baidu's Co-founder, Chairman, and Chief Executive Officer, was awarded a U.S. patent for his development of the Rankdex site-scoring algorithm for search engine page rankings, making China one of only four countries in the world that has developed core search engine technology, along with the United States, Russia, and South Korea. The Company's mission is to make the complicated world simpler through technology.
+  rocketchat_channel: Sponsor_Baidu
+
 - name: Google Research
   level: Gold
   logo: google.png
@@ -32,6 +36,8 @@
   website: https://research.google/
   description: |
     Google's mission is to organize the world's information and make it universally accessible and useful, and we advance that mission every day in incredible new ways. Research across Google provides new ways of looking at old problems and helps transform how we all work and live, and we think the biggest impact comes when everyone in the world can access it. To that end, we use state-of-the-art computer science techniques to solve problems for our users, our customers and the world, making it easier for you to do things every day, whether it's searching for photos of people you love, breaking down language barriers, or helping you get things done with your own personal digital assistant.
+  rocketchat_channel: Sponsor_GoogleResearch
+
 - name: Sony
   level: Gold
   logo: sony.png
@@ -45,17 +51,22 @@
 
     Take a look at our open positions worldwide, if you're interested in joining us.
     [https://www.sony.net/SonyInfo/Careers/jobinfo/AAAI/](https://www.sony.net/SonyInfo/Careers/jobinfo/AAAI/)
+  rocketchat_channel: Sponsor_Sony
+
 - name: Apple
   level: Silver
   logo: apple.png
   logoontop: true
   website: https://machinelearning.apple.com
   description: We're a diverse collective of thinkers and doers, continually reimagining what's possible. And every new product, service, or feature we invent is the result of people working together to make each other°Øs ideas stronger.
+  rocketchat_channel: Sponsor_Apple
+
 - name: Bloomberg
   level: Silver
   logo: bloomberg.png
   logoontop: true
   description: Bloomberg is building the world's most trusted information network for financial professionals. Among our 6,000+ software engineers, Bloomberg employs 200+ data scientists and research engineers who employ machine learning and natural language processing to solve complex, real-world problems related to core document understanding, recommendation, and customer-facing systems.
+  rocketchat_channel: Sponsor_Bloomberg
 
 - name: Dataminr
   level: Silver
@@ -64,6 +75,7 @@
   website: https://dataminr.com/aaai
   description: |
     We are Dataminr. We are a mission-driven company committed to the power of AI, public data, and real-time information as a force for good in the world. Over the last decade, our team has established and refined the leading AI platform for real-time event and risk detection. We surface the earliest signals of unfolding events and emerging risks within an increasingly diverse and complex landscape of publicly available information, enabling more effective risk mitigation strategies, faster response, and better crisis management.
+  rocketchat_channel: Sponsor_Dataminr
 
 - name: LG AI Research
   level: Silver
@@ -71,6 +83,7 @@
   logoontop: true
   website: https://www.lgresearch.ai
   description: LG AI Research was established to become the best research institute for the future of AI technology, leading the way for the next generation. With our vision to advance AI for a better life, a leading group of AI experts works with LG AI Research to bring ideas to life. We develop core AI technology and harness the power of AI through state-of-the-art research in Fundamentals, Data Intelligence, Language, and Vision. For more details on exhibitions and job fair, please refer to the Flyer provided (2/4~2/6).
+  rocketchat_channel: Sponsor_LGAIResearch
 
 - name: Meituan
   level: Silver
@@ -78,6 +91,7 @@
   logoontop: true
   website: https://about.meituan.com/en
   description: The mission of Meituan is "We help people eat better, live better." As China's e-commerce platform for services, Meituan places its focus on the "Food+ Platform" strategy and always takes "eating" as the core of its businesses. Resorting to its advantages in scientific innovation, Meituan joins hands with a vast number of merchants and diverse partners to offer consumers quality services and accelerate the digital upgrade of the life service industry on both demand and supply sides.
+  rocketchat_channel: Sponsor_Meituan
 
 - name: Microsoft
   level: Silver
@@ -87,6 +101,7 @@
   description: |
     Microsoft is delighted to sponsor AAAI 2021. We have a full line-up of content this week, with over 50 co-authored papers, as well as participation in workshops and tutorials. Our detailed Microsoft session schedule, booth chat schedule, and open career opportunities can be found on our Microsoft at AAAI
     [Event Page](https://aka.ms/aaai-2021) (Please visit https://aka.ms/aaai-2021)
+  rocketchat_channel: Sponsor_Microsoft
 
 - name: AITopics, powered by i2k Connect Inc.
   level: Exhibitor
@@ -95,6 +110,7 @@
   website: https://aitopics.org/
   description: |
     AITopics is a collection of information on research, people, news, and applications of AI. Use artificial intelligence technology to find and analyze news, publications, conference articles, and classics from around the world. AITopics is powered by AI technology from i2k Connect. The i2k AI Platform combines machine learning with subject matter expert knowledge to automatically tag documents with unique, accurate and consistent metadata. Building on the familiar online shopping experience, you can discover and analyze just the information you need. Subscribe to AI-Alerts, a weekly email of stories selected and categorized by i2k NewsFinder.
+  rocketchat_channel: Exhibitor_AITopics
 
 - name: American Friends of the Alexander von Humboldt Foundation
   level: Exhibitor
@@ -103,6 +119,7 @@
   website: https://www.humboldt-foundation.de/en/
   description: |
     The Alexander von Humboldt Foundation administers many prestigious fellowships and awards, including The Alexander von Humboldt Professorship, which is the most valuable research award in Germany. The AvH Foundation is proud to announce the Alexander von Humboldt Professorship for Artificial Intelligence. Award winners are nominated by German universities with the aim of working on AI research in Germany long term. The Professorship is not only designed for researchers addressing the technical principles or applications of AI, but also for those researching the socio-economic, ethical, and legal aspects of AI.
+  rocketchat_channel: Exhibitor_AmericanFriendsoftheAlexandervonHumboldtFoundation
 
 - name: MIT Press
   level: Exhibitor
@@ -115,6 +132,7 @@
     American Friends of the Alexander von Humboldt Foundation
     [https://www.humboldt-foundation.de/en/](https://www.humboldt-foundation.de/en/)
     The Alexander von Humboldt Foundation administers many prestigious fellowships and awards, including The Alexander von Humboldt Professorship, which is the most valuable research award in Germany. The AvH Foundation is proud to announce the Alexander von Humboldt Professorship for Artificial Intelligence. Award winners are nominated by German universities with the aim of working on AI research in Germany long term. The Professorship is not only designed for researchers addressing the technical principles or applications of AI, but also for those researching the socio-economic, ethical, and legal aspects of AI.
+  rocketchat_channel: Exhibitor_MITPress
 
 - name: Morgan & Claypool
   level: Exhibitor
@@ -123,6 +141,7 @@
   website: https://www.morganclaypoolpublishers.com/aiml
   description: |
     Morgan & Claypool publishes the Synthesis Lectures on Artificial Intelligence and Machine Learning, edited by Ronald Brachman, Francesca Rossi, and Peter Stone. Lectures are 75- to 200-page electronic and print books presenting key topics written by prominent contributors for an audience of students, researchers, and developers. Recent publications in the series include Introduction to Symbolic Plan and Goal Recognition by Reuth Mirsky, Sarah Keren, and Christopher Geib and Graph Representation Learning by William L. Hamilton. The forthcoming Network Embedding: Theories, Methods, and Applications by Cheng Yang, Zhiyuan Liu, Cunchao Tu, Chuan Shi, and Maosong Sun will arrive in February 2021.
+  rocketchat_channel: Exhibitor_MorganClaypoolPublishers
 
 - name: Northwestern University Center for Deep Learning
   level: Exhibitor
@@ -131,6 +150,7 @@
   website: https://www.mccormick.northwestern.edu/research/deep-learning/
   description: |
     Northwestern University's Center for Deep Learning (CDL) provides technical capacity and expertise to companies seeking to establish or improve access to AI. It acts as a resource to members, providing expertise of Northwestern faculty, students, and graduates to achieve proof of concept or deployment. Applications like self-driving cars, personalized medicine, virtual assistants, and more are expected to revolutionize industries. This requires fundamental advances in learning and inference techniques, to new paradigms for programming AIs, to infrastructure challenges like reliability and security. CDL provides an open forum bringing together leading industry players, startups, and academia to address the challenges of AI.
+  rocketchat_channel: Exhibitor_NorthwesternUniversityCenterforDeepLearning
 
 - name: Ralph
   level: Exhibitor
@@ -139,6 +159,7 @@
   website: http://www.withralph.com
   description: |
     Ralph ([https://www.withralph.com/](https://www.withralph.com/)) helps talent in AI negotiate better job offers. We have advised over 100 clients from CMU, MIT, UC Berkeley, and other top institutions negotiate industry roles at DeepMind, FAIR, Google, and top AI startups.
+  rocketchat_channel: Exhibitor_Ralph
 
 - name: Springer
   level: Exhibitor
@@ -147,6 +168,7 @@
   website: https://www.springer.com
   description: |
     Springer is a leading global science, technology, medicine, humanities and social sciences portfolio of innovative information, products and services, that provide researchers in academia, scientific institutions and corporate R&D departments with quality content. Springer is part of Springer Nature, one of the world's leading global research, educational and professional publishers.
+  rocketchat_channel: Exhibitor_Springer
 
 - name: Wadhwani Institute for Artificial Intelligence
   level: Exhibitor
@@ -155,6 +177,7 @@
   website: http://wadhwaniai.org/
   description: |
     The Wadhwani Institute for Artificial Intelligence was founded with the vision of applying the power of AI to complex challenges faced by people in the developing world. We are an independent, nonprofit research institute and global hub, developing and deploying AI solutions for social impact. We collaborate with academic institutions, governments, social sector organisations and domain experts to identify real-world challenges, create and deploy innovative machine learning and data science solutions to reach intended beneficiaries ®C with the objective of making a positive difference at both individual and systemic levels. Currently, we are building solutions in agriculture and in healthcare domains such as maternal, newborn and child health and infectious diseases.
+  rocketchat_channel: Exhibitor_WadhwaniInstituteforArtificialIntelligence
 
 # - name: DeepMind
 #   levels:
