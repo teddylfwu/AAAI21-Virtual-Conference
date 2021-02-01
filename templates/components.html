@@ -74,6 +74,14 @@
             </div>
             {% endif %}
 
+              {% if plenary_session.introduction != none %}
+            <div class="m-3 text-muted">
+              <span class="card-title h3">
+                {{plenary_session.introduction}}
+              </span>
+            </div>
+            {% endif %}
+
             {% for session in plenary_session.sessions %}
             <div class="m-3 text-muted">
               {{session.session}}
@@ -145,14 +153,24 @@
 {#                [<a href="livestream.html"   class="card-link">Watch video</a>]#}
             </div>
             {% endfor %}
+    </div>
+     <div class="row">
+            {% if plenary_session.introduction != none %}
+            <div class="m-3">
+              <span>
+                {{plenary_session.introduction}}
+              </span>
+            </div>
+            {% endif %}
 
             {% if plenary_session.abstract != none %}
             <div class="m-3">
               {{plenary_session.abstract|markdown}}
             </div>
             {% endif %}
-          </div>
+
 {#        </div>#}
+       </div>
     </div>
   </div>
 </div>
@@ -193,6 +211,14 @@
                 {% if plenary_session.institution != none %}
                 / {{plenary_session.institution}}
                 {% endif %}
+              </span>
+            </div>
+            {% endif %}
+
+              {% if plenary_session.introduction != none %}
+            <div class="m-3 text-muted">
+              <span class="card-title h3">
+                {{plenary_session.introduction}}
               </span>
             </div>
             {% endif %}
@@ -254,6 +280,7 @@
 {#            </div>#}
                 <br>
             {% endif %}
+
               {% for image in plenary_session.image %}
 {#                  {{image}}#}
                 <img style="width: 150px; height: 150px; margin:10px"  src="{{image}}" class="mt-3" />
@@ -271,6 +298,15 @@
 {#                [<a href="livestream.html"   class="card-link">Watch video</a>]#}
             </div>
             {% endfor %}
+        </div>
+        <div class="row">
+                        {% if plenary_session.introduction != none %}
+            <div class="m-3 text-muted">
+              <span class="card-title h3">
+                {{plenary_session.introduction}}
+              </span>
+            </div>
+            {% endif %}
 
             {% if plenary_session.abstract != none %}
             <div class="m-3">
@@ -279,7 +315,7 @@
             {% endif %}
           </div>
 {#        </div>#}
-    </div>
+</div>
   </div>
 </div>
 {% endfor %}
