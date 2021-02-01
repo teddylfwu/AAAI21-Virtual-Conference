@@ -10,14 +10,16 @@
       Opening Ceremony and Conference Awards
     </h2>
           <h3 class="card-subtitle mb-2 text-muted text-center">
-          Qiang Yang, Kevin Leyton-Brown, Mausam
+          Qiang Yang, AAAI-21 General Chair; Kevin Leyton Brown and Mausam, AAAI-21 Program Chairs
+
     </h3>
                 <h2 class="card-title main-title text-center" style="color:black">
       Invited Talk: IAAI-21 Robert S. Engelmore Memorial Award Lecture
 
     </h2>
           <h3 class="card-subtitle mb-2 text-muted text-center">
-Tuomas Sandholm    </h3>
+Tuomas Sandholm            <br>
+          Introduction by Meinolf Sellmann, IAAI-21 Cochair  </h3>
 
   {% else %}
     <h2 class="card-title main-title text-center" style="color:black">
@@ -28,7 +30,12 @@ Tuomas Sandholm    </h3>
       {{plenary_session.presenter}}
       {% if plenary_session.institution %}
       / {{plenary_session.institution}}
-      {% endif %}
+      {% endif %}<br>
+                  {% if plenary_session.introduction != none %}
+                {{plenary_session.introduction}}
+
+
+            {% endif %}
     </h3>
     {% endif %}
      {% endif %}
