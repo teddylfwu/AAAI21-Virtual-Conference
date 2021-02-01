@@ -35,7 +35,7 @@
   presenter: Qiang Yang, AAAI-21 General Chair; Kevin Leyton Brown and Mausam, AAAI-21 Program Chairs
 
 - UID: speaker_by_tuomas_sandholm
-  title: 'Invited Talk: IAAI-21 Robert S. Engelmore Memorial Award Lecture'
+  title: '2021 Robert S. Engelmore Memorial Award Lecture'
   presentation_id: "38952051"
   day: Feb 4
   image: static/images/keynotes/tuomas_sandholm.jpeg
@@ -74,7 +74,7 @@ Moderator: Thiago Serra, AI in Practice Chair
 \n\n
 Panelists: Ruben Lobel, Data Science Lead, Airbnb; Polly Mitchell-Guthrie, VP, Kinaxis; Jagannath Putrevu, Engineering Lead, Instacart; Chi Zhang, Senior Data Scientist, Doordash
 \n\n
-In a world that is getting more and more used to the abundance and accessibility of historical data as a rich source for modeling, the sudden change of patterns caused by the ongoing pandemic puts in check the conventional way in which forecasting is done. How has industry adapted to that? This panel brings together data scientists, engineers, and business leaders who were at the forefront of such disruptions°™delivery, supply chain, and traveling°™and witnessed those challenges first hand. They will share their perspectives and lessons learned from an unusual year.
+In a world that is getting more and more used to the abundance and accessibility of historical data as a rich source for modeling, the sudden change of patterns caused by the ongoing pandemic puts in check the conventional way in which forecasting is done. How has industry adapted to that? This panel brings together data scientists, engineers, and business leaders who were at the forefront of such disruptions—delivery, supply chain, and traveling—and witnessed those challenges first hand. They will share their perspectives and lessons learned from an unusual year.
   "
   bio: "
 Ruben Lobel is the Data Science Lead for Airbnb°Øs Emerging Businesses team, which is composed of three sub-teams dedicated to business travel, long stays and hosting services. Previously, he was Assistant Professor of Operations, Information and Decisions at The Wharton School.
@@ -310,7 +310,7 @@ Panelists: Fuchun Sun, Isaac Ben-Israel, Anna Roy
 
 
 - UID: speaker_by_michael_wooldridge
-  title: 'Invited Talk: 2021 AAAI/EAAI-21 Outstanding Educator Award Lecture--Talking to the Public about AI'
+  title: '2021 AAAI/EAAI-21 Outstanding Educator Award Lecture--Talking to the Public about AI'
   presentation_id: "38951738" #38951738
   day: Feb 6
   image: static/images/keynotes/michael_wooldridge.jpg
@@ -340,7 +340,7 @@ Panelists: Fuchun Sun, Isaac Ben-Israel, Anna Roy
   presenter: Michael Wooldridge
 
 - UID: speaker_latanya_sweeney
-  title: 'Invited Speaker: Latanya Sweeney'
+  title: 'AAAI-21 Invited Speaker: Latanya Sweeney'
   day: Feb 6
   image: static/images/aaai2021/AAAI-logo.png
   presentation_id: '38952057'
@@ -356,7 +356,7 @@ Panelists: Fuchun Sun, Isaac Ben-Israel, Anna Roy
   title: 'IAAI AI in Practice Panel: AI Applications in Finance: Risks and Challenges in Deploying Real-World Businesses Solutions'
   presentation_id: "38952058"
   day: Feb 6
-  image: [static/images/aiinpractice/PANEL 3 - Tharsis Souza.jpg,static/images/aiinpractice/PANEL 3 - Alexander Denev.jpg,static/images/aiinpractice/PANEL 3 - Adriano Koshiyama.jpg]
+  image: [static/images/aiinpractice/PANEL 3 - Alexander Denev.jpg,static/images/aiinpractice/PANEL 3 - Rajesh T. Krishnamachari.jpg,static/images/aiinpractice/PANEL 3 - unknown.jpg,static/images/aiinpractice/PANEL 3 - Adriano Koshiyama.jpg]
   sessions:
   - name: P-Live Presentation
     start_time: 2021-02-06 18:30:00+00:00
@@ -370,14 +370,13 @@ Panelists: Alexander Denev, Head of AI Financial Services, Deloitte; Rajesh T. K
 In recent years, the application of artificial intelligence in finance has received increased interest both as an academic research field and as a solution for real-world business problems. However, the deployment of AI models in production systems can present a number of issues and concerns. This panel discusses key risks and challenges in deploying AI applications in the financial services industry and approaches to address these challenges.
 "
   bio: "
-Tharsis Souza is a computer scientist passionate about data-driven products. He is Vice President of Products at Two Sigma Investments with the goal of applying cutting-edge technology to the data-rich world of finance. Prior to Two Sigma, he spent 10 years delivering new products in a variety of companies from start-ups to Fortune 500’s in the U.S., Brazil, and the U.K. He’s also an author of scholarly publications Financial Computing and a regular speaker in academic and business conferences. Tharsis holds a Ph.D. in Computer Science from UCL, University of London following an M.Phil. and M.Sc. in Computer Science and a B.Sc. in Computer Engineering.
-\n\n
 Alexander Denev leads AI and Data Science team for Financial Services - Risk Advisory. His responsibilities include development of AI products and advisory around risks and ethical implementation of AI. He also focusses on Alternative Data, AI for Data Quality and AI for Retail Banking. He is the former Head of Quantitative Research & Advanced Analytics at IHS Markit. He recently published The Book of Alternative Data ®C the first of its kind on this topic, and previously two other books on application of machine learning in Finance.
 \n\n
-
-Adriano Koshiyama is a Research Fellow at Computer Science at University College London. He is co-founder of Holistic AI, a startup focused on Auditing and Assurance of AI Systems. His interests include: Machine Learning, Finance, and Trustworthy AI.
+Rajesh T. Krishnamachari, Ph.D. is responsible for leading Data Science initiatives within the Global Markets division of Bank of America. Prior to joining the firm in 2018, he was an investment strategist at JP Morgan, where he served on the Quant Council for Research and specialized on the application of machine learning algorithms to cross-asset systematic investing. He also serves as adjunct faculty for machine learning at New York University. Dr. Krishnamachari is a widely cited researcher with 2 books and 25 refereed publications across quantitative finance, applied mathematics and the social sciences.
 \n\n
 Before his role as a Professor at NYU Courant, Petter Kolm worked at Goldman Sachs Asset Management where his responsibilities included developing investment strategies. Petter has coauthored numerous articles and books on quantitative finance and financial data science, serves on several editorial boards for academic journals, professional associations, and company advisory boards. He holds a Ph.D. in Mathematics from Yale, an M.Phil. in Applied Mathematics from the Royal Institute of Technology, and an M.S. in Mathematics from ETH Zurich.
+\n\n
+Adriano Koshiyama is a Research Fellow at Computer Science at University College London. He is co-founder of Holistic AI, a startup focused on Auditing and Assurance of AI Systems. His interests include: Machine Learning, Finance, and Trustworthy AI.
 "
   presenter: "
 Panelists: Alexander Denev, Head of AI Financial Services, Deloitte; Rajesh T. Krishnamachari, Global Head of Data Science, Bank of America; Petter Kolm, Clinical Professor, NYU Courant; Adriano Koshiyama, Research Fellow, UCL
@@ -407,7 +406,7 @@ Panelists: Alexander Denev, Head of AI Financial Services, Deloitte; Rajesh T. K
 #Panelists: Alexander Denev, Head of AI Financial Services, Deloitte; Rajesh T. Krishnamachari, Global Head of Data Science, Bank of America; Petter Kolm, Clinical Professor, NYU Courant; Adriano Koshiyama, Research Fellow, UCL
 #  "
 - UID: speaker_sanjeev_arora
-  title: 'Invited Speaker: Opening the Black Box of Deep Learning (+ Takeaways for AI)'
+  title: 'AAAI-21 Invited Speaker: Opening the Black Box of Deep Learning (+ Takeaways for AI)'
   day: Feb 6
   image: static/images/keynotes/sanjeev_arora.jpg
   presentation_id: '38952059'
@@ -508,7 +507,7 @@ Panelists: Matthew Botvinick, Leslie Pack Kaelbling, Marta Kwiatkowska, Guy Van 
     end_time: 2021-02-08 8:45:00+00:00
   rocketchat_channel: Plenary_InvitedPanelsProgram_AIResponsestotheCovid19Pandemic
   abstract: "
-             Panelists: Prof. Dinggang Shen (Shanghai Tech University & United Imaging Intelligence), Prof. Ben Goldacre (Oxford University), Dr. Kizzmekia Corbett (NIH), Prof. Eili Klein (Johns Hopkins University)
+             Panelists: Prof. Dinggang Shen (Shanghai Tech University & United Imaging Intelligence), Prof. Ben Goldacre (Oxford University), Dr. Kizzmekia Corbett (National Institutes of Health), Prof. Eili Klein (Johns Hopkins University)
 \n\n
 
              The intent of this panel is to promote knowledge and share the latest technologies that are directly related to fighting the COVID-19 pandemic, whether addressing its medical, social, or economic consequences. The panel consists of world-renown experts on medical imaging, epidemiology, testing, and vaccine, who will share their insights in how technologies are evolved to address the pandemic and how AI can help in this critical task.
