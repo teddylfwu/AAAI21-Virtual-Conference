@@ -93,7 +93,11 @@
 
       {% if paper.content.pdf_url %}
       <a class="card-link" target="_blank" href="{{paper.content.pdf_url}}">
+      {% if paper.id == "DISS-2019" %}
+        Dissertation
+      {% else %}
         Paper
+      {% endif %}
       </a>
       {% endif %}
       {% if paper.content.code != blank %}
