@@ -34,7 +34,7 @@ FAQ:
       #- Question: How do I use Zoom in the browser instead of the App?
       #  Answer: "Zoom is used for the Q&A sessions for the individual papers, which you can join using the Zoom app or within the browser. Clicking on the link will ask you to open the video in the Zoom app. If you want to use Zoom in the browser, simply wait a few seconds after clicking the Video link and it will open a browser-based session."
       - Question: What tools and systems requirements are needed?
-        Answer: "To access the site you will need a modern browser. This site has been tested with Chrome 80.0+, Brave 1.4.95, Firefox 73.0, and browsers built on Chromium 80.0+. **Currently the SlidesLive embedded video doesn't work well with Safari. This is because the cross-domain cookie is blocking the video. A workaround for Safari: right click on the blocked frame and select \'Open Frame in New Tab\'.**"
+        Answer: "To access the site you will need a modern browser. This site has been tested with Chrome 80.0+, Brave 1.4.95, Firefox 73.0, and browsers built on Chromium 80.0+. **Currently the SlidesLive embedded video doesn't work well with Safari. This is because the cross-domain cookie is blocking the video. A workaround for Safari: right click on the blocked frame and select \"Open Frame in New Tab\".**"
       - Question: If you're using the web browser Brave...
         Answer: "Please turn down Shields for virtual.2021.aaai.org, since they interfere with the RocketChat integration."
       - Question: If you're using the web browser Chrome...
