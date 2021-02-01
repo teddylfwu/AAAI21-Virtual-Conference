@@ -283,6 +283,7 @@ class PlenarySession:
     day: str
     sessions: List[SessionInfo]
     presenter: Optional[str]
+    introduction: Optional[str]
     institution: Optional[str]
     abstract: Optional[str]
     bio: Optional[str]

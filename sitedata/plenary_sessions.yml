@@ -5,7 +5,7 @@
   presentation_id: '38952051'
   sessions:
   - name: P-Live Presentation
-    start_time: 2021-02-04 14:45:00+00:00
+    start_time: 2021-02-04 14:30:00+00:00
     end_time: 2021-02-04 16:45:00+00:00
   rocketchat_channel: Plenary_OpeningCeremonyandConferenceAwards_InvitedSpeakersProgram_IAAI21RobertSEngelmoreMemorialAwardLecture
   abstract: "In recent years, large language models pretrained on vast quantities of raw text have revolutionized NLP. Existing methods, based on variations of causal or masked languages models, now provide the de facto methods for every NLP task. In this talk, I will discuss recent work on language model pretraining, from ELMo, GPT, and BERT to more recent models.  I will aim for broad coverage of the overall trends but provide more details on the models we have been developing recently at Facebook AI and the University of Washington. These include in particular pre-training methods for sequence-to-sequence models, such as BART, mBART, and MARGE, which provide some of the most generally applicable approaches to date.
@@ -29,9 +29,10 @@
   presentation_id: '38952051'
   sessions:
   - name: P-Live Presentation
-    start_time: 2021-02-04 14:45:00+00:00
+    start_time: 2021-02-04 14:30:00+00:00
     end_time: 2021-02-04 15:30:00+00:00
   rocketchat_channel: Plenary_OpeningCeremonyandConferenceAwards_InvitedSpeakersProgram_IAAI21RobertSEngelmoreMemorialAwardLecture
+  presenter: Qiang Yang, AAAI-21 General Chair; Kevin Leyton Brown and Mausam, AAAI-21 Program Chairs
 
 - UID: speaker_by_tuomas_sandholm
   title: 'Invited Talk: IAAI-21 Robert S. Engelmore Memorial Award Lecture'
@@ -56,6 +57,7 @@
 
 "
   presenter: Tuomas Sandholm
+  introduction: Introduction by Meinolf Sellmann, IAAI-21 Cochair
 
 - UID: panel_ForecastingInUnprecedentedTimes
   title: 'AI in Practice Panel: Forecasting in Unprecedented Times'
@@ -100,6 +102,7 @@ Panelists: Ruben Lobel, Data Science Lead, Airbnb; Polly Mitchell-Guthrie, VP, K
     start_time: 2021-02-04 22:00:00+00:00
     end_time: 2021-02-04 23:00:00+00:00
   rocketchat_channel: Plenary_AAAIOrganizationalAwardsCeremony
+  presenter: "Moderators: Yolanda Gil, AAAI Past President and Awards Committee Chair, and Bart Selman, AAAI President"
 
 - UID: speaker_by_regina_barzilay
   title: 'Invited Talk: A Tale of Two Translations'
@@ -133,6 +136,7 @@ Panelists: Ruben Lobel, Data Science Lead, Airbnb; Polly Mitchell-Guthrie, VP, K
   postdoc at Cornell University.
 "
   presenter: Regina Barzilay
+  introduction: Introduction by Fei Fang, AI for Social Impact Cochair
 
 - UID: speaker_by_luke_zettlemoyer
   title: 'Invited Talk: Recent Advances in Language Model Pretraining'
@@ -150,6 +154,7 @@ Panelists: Ruben Lobel, Data Science Lead, Airbnb; Polly Mitchell-Guthrie, VP, K
 
 "
   presenter: Luke Zettlemoyer
+  introduction: Introduction by Mausam, AAAI-21 Program Cochair
 
 
 - UID: panel_gov_1
@@ -178,6 +183,8 @@ Dragos Tudorache is a Member of the European Parliament (Renew Europe) and the E
   presenter: "
 Panelists: Gabriela Ramos, Sana Khareghani, Drago Tudorache
   "
+  introduction: Introduction by Mausam, AAAI-21 Program Cochair
+
 
 - UID: panel_EmergingUsesOfAIInReal-TimeAutomation
   title: 'AI in Practice Panel: Emerging Uses of AI in Real-Time Automation'
@@ -256,7 +263,6 @@ Panelists: Apeksha Kumavat, Chief Engineer, Gatik; Ethan McCreadie, Engineering 
   abstract: "
 Panelists: Sukyung Park (Office of the President, The Republic of Korea; Data.Network.AI and Digital New Deal); Lynne Parker (Director, National AI Initiative Office); Elissa Strome (Canadian Institute for Advanced Research (CIFAR))
 \n\n
-
   "
   bio: "
 Sukyung (Sue) Park is a professor in the Department of Mechanical Engineering at KAIST, Korea. Her research interests are the biomechanics of human motion and its monitoring systems using IMUs and/or machine learning technology. She was appointed as an Adviser to the President for Science and Technology.
@@ -270,6 +276,7 @@ Elissa Strome is the Executive Director of the CIFAR Pan-Canadian AI Strategy, w
   presenter: "
 Panelists: Sukyung Park, Lynne Parker, Elissa Strome
   "
+  introduction: Introduction by Kevin Leyton-Brown, AAAI-21 Program Cochair
 
 - UID: panel_gov_3
   title: 'Governments 3 Panel: Government AI Strategy Panel'
@@ -299,6 +306,8 @@ Ms. Roy is from Indian Economic Service and currently leads the Frontier Technol
   presenter: "
 Panelists: Fuchun Sun, Isaac Ben-Israel, Anna Roy
   "
+  introduction: Introduction by Qiang Yang, AAAI-21 General Chair
+
 
 - UID: speaker_by_michael_wooldridge
   title: 'Invited Talk: 2021 AAAI/EAAI-21 Outstanding Educator Award Lecture--Talking to the Public about AI'
@@ -340,6 +349,8 @@ Panelists: Fuchun Sun, Isaac Ben-Israel, Anna Roy
     start_time: 2021-02-06 15:30:00+00:00
     end_time: 2021-02-06 16:45:00+00:00
   rocketchat_channel: Plenary_InvitedSpeakersProgram_byLatanyaSweeney
+  presenter: Latanya Sweeney
+  introduction: Introduction by Gabriele Röger, AAAI-21 Associate Cochair
 
 - UID: panel_AIApplicationsInFinance
   title: 'AI in Practice Panel: AI Applications in Finance: Risks and Challenges in Deploying Real-World Businesses Solutions'
@@ -407,6 +418,8 @@ Panelists: Alexander Denev, Head of AI Financial Services, Deloitte; Rajesh T. K
   rocketchat_channel: Plenary_InvitedSpeakersProgram_bySanjeevArora
   abstract: "Deep learning's successes have led to dramatic progress in some classic AI tasks. Can it take us all the way to full AI? We argue that the current black box view of deep learning will prove a big hurdle.  Via a tour d'horizon of recent theoretical analyses of  deep learning in some concrete settings,  we illustrate how the black box view can miss out on special phenomena going on during training that are not captured by the training objective. We argue that understanding such phenomena via mathematical understanding will be crucial for enabling the full range of AI applications."
   bio: "[Sanjeev Arora](https://www.cs.princeton.edu/~arora/) is Charles C. Fitzmorris Professor of Computer Science at Princeton University. He has received Packard Fellowship (1997), Simons Investigator Award (2012), Gödel Prize (2001 and 2010), ACM Prize in Computing (2012), and the Fulkerson Prize (2012). He is a Fellow of the AAAS and Member of NAS."
+  presenter: Sanjeev Arora
+  introduction: Introduction by Kevin Leyton-Brown, AAAI-21 Program Cochair
 
 - UID: speaker_by_kaifu_lee
   title: 'AAAI-21/IAAI-21 Joint Invited Talk: AI Infusion Investment Outlook'
@@ -423,7 +436,7 @@ Panelists: Alexander Denev, Head of AI Financial Services, Deloitte; Rajesh T. K
 
   "
   presenter: Kai-Fu Lee
-
+  introduction: Introduction by Yan Liu, AAAI-21 Associate Program Cochair
 
 - UID: panel_neuro_symbolic_AI_panel
   title: 'Neuro-Symbolic AI Panel'
@@ -460,6 +473,7 @@ Panelists: Matthew Botvinick (DeepMind and University College London), Leslie Pa
   presenter: "
 Panelists: Matthew Botvinick, Leslie Pack Kaelbling, Marta Kwiatkowska, Guy Van den Broeck, Luis Lamb
   "
+  introduction: Introduction by Kristian Kersting, AAAI-21 Focus Area Cochair on Neuro-Symbolic AI
 
 - UID: speaker_by_daphne_koller
   title: "Invited Talk: Digital Learning Coming to Life"
@@ -480,13 +494,14 @@ Panelists: Matthew Botvinick, Leslie Pack Kaelbling, Marta Kwiatkowska, Guy Van 
      in 2011 and elected a fellow of the American Association for Artificial Intelligence in 2004, the American Academy of Arts and Sciences\
       in 2014 and of the International Society of Computational Biology in 2017."
   presenter: Daphne Koller
+  introduction: Introduction by Nisarg Shah, AAAI-21 Focus Area Cochair for Conference Organization and Delivery
   presentation_id: "38952061"
 
 - UID: panel_AI_response_covid_19
   title: 'AI Responses to the Covid-19 Pandemic Panel'
   presentation_id: "38952060"
   day: Feb 7
-  image: [static/images/covid_panel/covid_1.jpg,static/images/covid_panel/covid_2.jpg,static/images/covid_panel/covid_3.jpg,static/images/covid_panel/covid_4.jpg]
+  image: [static/images/covid_panel/covid_2.jpg,static/images/covid_panel/covid_4.jpg,static/images/covid_panel/covid_1.jpg,static/images/covid_panel/covid_3.jpg]
   sessions:
   - name: P-Live Presentation
     start_time: 2021-02-08 7:30:00+00:00
@@ -514,6 +529,7 @@ Panelists: Matthew Botvinick, Leslie Pack Kaelbling, Marta Kwiatkowska, Guy Van 
   presenter: "
   Panelists: Dinggang Shen, Ben Goldacre, Kizzmekia Corbett, Eili Klein
   "
+  introduction: Introduction by Yan Liu, AAAI-21 Associate Cochair; S. Kevin Zhou, Le Lu, and B. Aditya Prakash, AAAI-21 Focus Area Chairs for AI Responses for Covid-19
 
 
 

@@ -501,6 +501,7 @@ def build_plenary_sessions(
                     for session in item.get("sessions")
                 ],
                 presenter=item.get("presenter"),
+                introduction = item.get("introduction"),
                 institution=item.get("institution"),
                 abstract=item.get("abstract"),
                 bio=item.get("bio"),
@@ -550,6 +551,7 @@ def build_invited_panels_sessions(
                     for session in item.get("sessions")
                 ],
                 presenter=item.get("presenter"),
+                introduction=item.get("introduction"),
                 institution=item.get("institution"),
                 abstract=item.get("abstract"),
                 bio=item.get("bio"),
@@ -598,6 +600,7 @@ def build_invited_speakers_sessions(
                     for session in item.get("sessions")
                 ],
                 presenter=item.get("presenter"),
+                introduction=item.get("introduction"),
                 institution=item.get("institution"),
                 abstract=item.get("abstract"),
                 bio=item.get("bio"),
@@ -647,6 +650,7 @@ def build_ai_in_practice_sessions(
                     for session in item.get("sessions")
                 ],
                 presenter=item.get("presenter"),
+                introduction=item.get("introduction"),
                 institution=item.get("institution"),
                 abstract=item.get("abstract"),
                 bio=item.get("bio"),
