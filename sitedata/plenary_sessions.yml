@@ -63,7 +63,7 @@
   title: 'IAAI AI in Practice Panel: Forecasting in Unprecedented Times'
   presentation_id: "38952052"
   day: Feb 4
-  image: [static/images/aiinpractice/PANEL 1 - moderator.jpg,static/images/aiinpractice/PANEL 1 - Ruben Lobel copy.jpg,static/images/aiinpractice/PANEL 1 - Polly Mitchell-Guthrie.jpg,static/images/aiinpractice/PANEL 1 - Jagannath Putrevu.JPG,static/images/aiinpractice/PANEL 1 - Chi Zhang.jpeg]
+  image: [static/images/aiinpractice/PANEL 1 - moderator.jpg,static/images/aiinpractice/PANEL 1 - Alison Cozad.jpg,static/images/aiinpractice/PANEL 1 - Ruben Lobel copy.jpg,static/images/aiinpractice/PANEL 1 - Polly Mitchell-Guthrie.jpg,static/images/aiinpractice/PANEL 1 - Jagannath Putrevu.JPG,static/images/aiinpractice/PANEL 1 - Chi Zhang.jpeg]
   sessions:
   - name: P-Live Presentation
     start_time: 2021-02-04 18:30:00+00:00
@@ -77,6 +77,8 @@ Panelists: Alison Cozad, Optimization Engineer, Gurobi Optimization; Ruben Lobel
 In a world that is getting more and more used to the abundance and accessibility of historical data as a rich source for modeling, the sudden change of patterns caused by the ongoing pandemic puts in check the conventional way in which forecasting is done. How has industry adapted to that? This panel brings together data scientists, engineers, and business leaders who were at the forefront of such disruptions—delivery, supply chain, and traveling—and witnessed those challenges first hand. They will share their perspectives and lessons learned from an unusual year.
   "
   bio: "
+Thiago Serra is an assistant professor at Bucknell University's Freeman College of Management. Previously, he was a visiting research scientist at Mitsubishi Electric Research Labs and an operations research analyst at Petrobras. He holds a B.S. from Unicamp and a PhD from Carnegie Mellon University.
+\n\n
 Alison Cozad is an Optimization Engineer at Gurobi Optimization.  Previously, she was a Senior Data Science Lead and Optimization Engineer at ExxonMobil.  She worked on real-time optimization, predictive analytics, and production planning teams. She has a Ph.D. in Chemical Engineering from Carnegie Mellon University.  She specialized in applying tried-and-true optimization techniques to advanced machine learning methods.
 \n\n
 Ruben Lobel is the Data Science Lead for Airbnb°Øs Emerging Businesses team, which is composed of three sub-teams dedicated to business travel, long stays and hosting services. Previously, he was Assistant Professor of Operations, Information and Decisions at The Wharton School.
@@ -192,7 +194,7 @@ Panelists: Gabriela Ramos, Sana Khareghani, Dragoș Tudorache
   title: 'IAAI AI in Practice Panel: Emerging Uses of AI in Real-Time Automation'
   presentation_id: '38952055'
   day: Feb 5
-  image: [static/images/aiinpractice/PANEL 2 - moderator.jpg,static/images/aiinpractice/PANEL 2 - Apeksha Kumavat.jpg, static/images/aiinpractice/PANEL 2 - Ethan McCreadie.jpg , static/images/aiinpractice/PANEL 2 - Brandon Minor copy.jpg, static/images/aiinpractice/PANEL 2 - Carolyn Mooney copy.jpg, static/images/aiinpractice/PANEL 2 - Sebastian Quintero Rojas.jpg]
+  image: [static/images/aiinpractice/PANEL 2 - moderator.jpg,static/images/aiinpractice/PANEL 2 - Apeksha Kumavat.jpg, static/images/aiinpractice/PANEL 2 - Ethan McCreadie.jpg , static/images/aiinpractice/PANEL 2 - Brandon Minor copy.jpg, static/images/aiinpractice/PANEL 2 - Carolyn Mooney copy.jpg, static/images/aiinpractice/PANEL 2 - Sebastian Quintero Rojas.jpg,static/images/aiinpractice/PANEL 2 - Rebecca Taft.jpg]
   sessions:
   - name: P-Live Presentation
     start_time:  2021-02-05 18:30:00+00:00
@@ -201,7 +203,7 @@ Panelists: Gabriela Ramos, Sana Khareghani, Dragoș Tudorache
   abstract: "
 Moderator: Ryan J. O'Neil, CTO, nextmv
 \n\n
-Panelists: Apeksha Kumavat, Chief Engineer, Gatik; Ethan McCreadie, Engineering Lead, goPuff; Brandon Minor, CEO, Tangram Vision; Carolyn Mooney, CEO, nextmv; Sebastian Quintero, Project Lead, Mercado Libre
+Panelists: Apeksha Kumavat, Chief Engineer, Gatik; Ethan McCreadie, Engineering Lead, goPuff; Brandon Minor, CEO, Tangram Vision; Carolyn Mooney, CEO, nextmv; Sebastian Quintero, Project Lead, Mercado Libre; Rebecca Taft, Engineer, Cockroach Labs
 \n\n
 The world economy is becoming more and more on-demand and real-time. As consumers demand immediate access to everything from meals to electronics, software systems are tasked with managing our homes, businesses, and lives in mere seconds or milliseconds. We will discuss the challenges of building, using, and deploying decision automation using optimization and AI technologies given ever-increasing urgency, complexity, and problem dimensions.
   "
@@ -218,7 +220,7 @@ Carolyn Mooney is the CEO and co-founder of nextmv. Prior to this, she analyzed 
 \n\n
 Sebastian Quintero Rojas is Colombian and passionate about Operations Research. Experienced in developing and deploying OR models into production with industry leading best software practices. Sebastian holds titles in both mechanical and industrial engineering. Recently completed a master's in OR from Universidad de Los Andes, focusing his thesis on the Meal Delivery Routing Problem.
 \n\n
-
+Rebecca Taft (Becca) is an engineer on the SQL query optimizer team at Cockroach Labs. Prior to joining Cockroach Labs, she was a graduate student at MIT, where she worked with Professor Michael Stonebraker researching database elasticity and multi-tenancy. Becca holds a B.S. from Yale University and a Ph.D. from MIT.
 "
   presenter: "
 Panelists: Apeksha Kumavat, Chief Engineer, Gatik; Ethan McCreadie, Engineering Lead, goPuff; Brandon Minor, CEO, Tangram Vision; Carolyn Mooney, CEO, nextmv; Sebastian Quintero, Project Lead, Mercado Libre
@@ -360,7 +362,7 @@ Panelists: Fuchun Sun, Isaac Ben-Israel, Anna Roy
   title: 'IAAI AI in Practice Panel: AI Applications in Finance: Risks and Challenges in Deploying Real-World Businesses Solutions'
   presentation_id: "38952058"
   day: Feb 6
-  image: [static/images/aiinpractice/PANEL 3 - Alexander Denev.jpg,static/images/aiinpractice/PANEL 3 - Rajesh T. Krishnamachari.jpg,static/images/aiinpractice/PANEL 3 - unknown.jpg,static/images/aiinpractice/PANEL 3 - Adriano Koshiyama.jpg]
+  image: [static/images/aiinpractice/PANEL 3 - moderator.jpg,static/images/aiinpractice/PANEL 3 - Alexander Denev.jpg,static/images/aiinpractice/PANEL 3 - Rajesh T. Krishnamachari.jpg,static/images/aiinpractice/PANEL 3 - unknown.jpg,static/images/aiinpractice/PANEL 3 - Adriano Koshiyama.jpg]
   sessions:
   - name: P-Live Presentation
     start_time: 2021-02-06 18:30:00+00:00
@@ -374,6 +376,8 @@ Panelists: Alexander Denev, Head of AI Financial Services, Deloitte; Rajesh T. K
 In recent years, the application of artificial intelligence in finance has received increased interest both as an academic research field and as a solution for real-world business problems. However, the deployment of AI models in production systems can present a number of issues and concerns. This panel discusses key risks and challenges in deploying AI applications in the financial services industry and approaches to address these challenges.
 "
   bio: "
+Tharsis Souza is a computer scientist passionate about data-driven products. He is Vice President of Products at Two Sigma Investments with the goal of applying cutting-edge technology to the data-rich world of finance. Prior to Two Sigma, he spent 10 years delivering new products in a variety of companies from start-ups to Fortune 500’s in the U.S., Brazil, and the U.K. He’s also an author of scholarly publications Financial Computing and a regular speaker in academic and business conferences. Tharsis holds a Ph.D. in Computer Science from UCL, University of London following an M.Phil. and M.Sc. in Computer Science and a B.Sc. in Computer Engineering.
+\n\n
 Alexander Denev leads AI and Data Science team for Financial Services - Risk Advisory. His responsibilities include development of AI products and advisory around risks and ethical implementation of AI. He also focusses on Alternative Data, AI for Data Quality and AI for Retail Banking. He is the former Head of Quantitative Research & Advanced Analytics at IHS Markit. He recently published The Book of Alternative Data ®C the first of its kind on this topic, and previously two other books on application of machine learning in Finance.
 \n\n
 Rajesh T. Krishnamachari, Ph.D. is responsible for leading Data Science initiatives within the Global Markets division of Bank of America. Prior to joining the firm in 2018, he was an investment strategist at JP Morgan, where he served on the Quant Council for Research and specialized on the application of machine learning algorithms to cross-asset systematic investing. He also serves as adjunct faculty for machine learning at New York University. Dr. Krishnamachari is a widely cited researcher with 2 books and 25 refereed publications across quantitative finance, applied mathematics and the social sciences.
