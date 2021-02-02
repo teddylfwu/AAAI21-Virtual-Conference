@@ -63,7 +63,7 @@
   title: 'IAAI AI in Practice Panel: Forecasting in Unprecedented Times'
   presentation_id: "38952052"
   day: Feb 4
-  image: [static/images/aiinpractice/PANEL 1 - Ruben Lobel copy.jpg,static/images/aiinpractice/PANEL 1 - Polly Mitchell-Guthrie.jpg,static/images/aiinpractice/PANEL 1 - Jagannath Putrevu.JPG,static/images/aiinpractice/PANEL 1 - Chi Zhang.jpeg]
+  image: [static/images/aiinpractice/PANEL 1 - moderator.jpg,static/images/aiinpractice/PANEL 1 - Ruben Lobel copy.jpg,static/images/aiinpractice/PANEL 1 - Polly Mitchell-Guthrie.jpg,static/images/aiinpractice/PANEL 1 - Jagannath Putrevu.JPG,static/images/aiinpractice/PANEL 1 - Chi Zhang.jpeg]
   sessions:
   - name: P-Live Presentation
     start_time: 2021-02-04 18:30:00+00:00
@@ -72,11 +72,13 @@
   abstract: "
 Moderator: Thiago Serra, AI in Practice Chair
 \n\n
-Panelists: Ruben Lobel, Data Science Lead, Airbnb; Polly Mitchell-Guthrie, VP, Kinaxis; Jagannath Putrevu, Engineering Lead, Instacart; Chi Zhang, Senior Data Scientist, Doordash
+Panelists: Alison Cozad, Optimization Engineer, Gurobi Optimization; Ruben Lobel, Data Science Lead, Airbnb; Polly Mitchell-Guthrie, VP, Kinaxis; Jagannath Putrevu, Engineering Lead, Instacart; Chi Zhang, Senior Data Scientist, Doordash
 \n\n
 In a world that is getting more and more used to the abundance and accessibility of historical data as a rich source for modeling, the sudden change of patterns caused by the ongoing pandemic puts in check the conventional way in which forecasting is done. How has industry adapted to that? This panel brings together data scientists, engineers, and business leaders who were at the forefront of such disruptions—delivery, supply chain, and traveling—and witnessed those challenges first hand. They will share their perspectives and lessons learned from an unusual year.
   "
   bio: "
+Alison Cozad is an Optimization Engineer at Gurobi Optimization.  Previously, she was a Senior Data Science Lead and Optimization Engineer at ExxonMobil.  She worked on real-time optimization, predictive analytics, and production planning teams. She has a Ph.D. in Chemical Engineering from Carnegie Mellon University.  She specialized in applying tried-and-true optimization techniques to advanced machine learning methods.
+\n\n
 Ruben Lobel is the Data Science Lead for Airbnb°Øs Emerging Businesses team, which is composed of three sub-teams dedicated to business travel, long stays and hosting services. Previously, he was Assistant Professor of Operations, Information and Decisions at The Wharton School.
 \n\n
 
@@ -89,7 +91,7 @@ Jagannath is the Engineering Lead for the Marketplace Optimization team at Insta
 Chi Zhang is a Senior Data Scientist in DoorDash. Chi has more than 10 years of experience working on real-world problems from operation optimization, predictive maintenance to robotics, all with machine learning. Chi has a Ph.D in Computer Science from University of Tennessee, Knoxville.
 "
   presenter: "
-Panelists: Ruben Lobel, Data Science Lead, Airbnb; Polly Mitchell-Guthrie, VP, Kinaxis; Jagannath Putrevu, Engineering Lead, Instacart; Chi Zhang, Senior Data Scientist, Doordash
+Panelists: Alison Cozad, Optimization Engineer, Gurobi Optimization; Ruben Lobel, Data Science Lead, Airbnb; Polly Mitchell-Guthrie, VP, Kinaxis; Jagannath Putrevu, Engineering Lead, Instacart; Chi Zhang, Senior Data Scientist, Doordash
   "
 
 - UID: organizational_awards_ceremony
@@ -190,7 +192,7 @@ Panelists: Gabriela Ramos, Sana Khareghani, Dragoș Tudorache
   title: 'IAAI AI in Practice Panel: Emerging Uses of AI in Real-Time Automation'
   presentation_id: '38952055'
   day: Feb 5
-  image: [static/images/aiinpractice/PANEL 2 - Apeksha Kumavat.jpg, static/images/aiinpractice/PANEL 2 - Ethan McCreadie.jpg , static/images/aiinpractice/PANEL 2 - Brandon Minor copy.jpg, static/images/aiinpractice/PANEL 2 - Carolyn Mooney copy.jpg, static/images/aiinpractice/PANEL 2 - Sebastian Quintero Rojas.jpg]
+  image: [static/images/aiinpractice/PANEL 2 - moderator.jpg,static/images/aiinpractice/PANEL 2 - Apeksha Kumavat.jpg, static/images/aiinpractice/PANEL 2 - Ethan McCreadie.jpg , static/images/aiinpractice/PANEL 2 - Brandon Minor copy.jpg, static/images/aiinpractice/PANEL 2 - Carolyn Mooney copy.jpg, static/images/aiinpractice/PANEL 2 - Sebastian Quintero Rojas.jpg]
   sessions:
   - name: P-Live Presentation
     start_time:  2021-02-05 18:30:00+00:00
@@ -204,6 +206,8 @@ Panelists: Apeksha Kumavat, Chief Engineer, Gatik; Ethan McCreadie, Engineering 
 The world economy is becoming more and more on-demand and real-time. As consumers demand immediate access to everything from meals to electronics, software systems are tasked with managing our homes, businesses, and lives in mere seconds or milliseconds. We will discuss the challenges of building, using, and deploying decision automation using optimization and AI technologies given ever-increasing urgency, complexity, and problem dimensions.
   "
   bio: "
+Ryan O'Neil is CTO of nextmv. Before this, he led the Decision Engineering departments at Zoomer and Grubhub. He likes early music and cats.
+\n\n
 Apeksha Kumavat is the co-founder and chief engineer at Gatik, a Palo Alto based start-up developing autonomous vehicles for business-to-business short-haul logistics. Prior to this, Apeksha was the Perception Lead at Ford Motor Company's self-driving car unit where she designed effective and efficient feature detection methods to assist with online localization and developed perception algorithms for autonomous vehicles. She has also held the position of Lead Machine Learning Engineer at Otsaw Digital. Apeksha earned her M.S. (with a focus on Machine/Deep Learning) from Purdue University and has contributed towards research in areas including machine learning, cognitive science, and robotics.
 \n\n
 Ethan McCreadle is the lead engineer at goPuff, the go-to solution for immediate everyday needs, where he oversees its innovative routing platform. Recognized for his expertise in cloud computing, automation and continuous delivery, Ethan spearheads core customer pipeline initiatives on the dispatch & logistics. Prior to his work at goPuff, Ethan held positions in website architecture and full stack development. He attended Washington University in St. Louis where he studied electrical engineering.
