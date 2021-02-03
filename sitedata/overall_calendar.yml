@@ -78,7 +78,7 @@
   type: Plenary
   view: week
 
-- title: "<b>AAAI-21 Invited Talk</b>"
+- title: "<b>AAAI-21/IAAI-21 Joint Invited Talk: Tuomas Sandholm</b>"
   start: 2021-02-04 7:30:00-08:00
   end: 2021-02-04 08:45:00-08:00
   location: plenary_sessions.html#tab-feb4
@@ -742,7 +742,7 @@
   type: AI Job Fair
   view: day
 
-- title: "<b>AAAI-21 Invited Talk: Kai-Fu Lee</b>"
+- title: "<b>AAAI-21/IAAI-21 Joint Invited Talk: Kai-Fu Lee</b>"
   start: 2021-02-06 23:30:00-08:00
   end: 2021-02-07 00:45:00-08:00
   location: plenary_sessions.html#tab-feb6
