@@ -6,11 +6,16 @@
 <div class="pp-card m-3" style="">
   <div class="card-header">
     <h2 class="card-title main-title text-center" style="">
-      New Faculty Highlights Speaker: {{tutorial.title}}
+      New Faculty Highlights Speaker: {{tutorial.authors[0].author_name}}
     </h2>
     <h3 class="card-subtitle mb-2 text-muted text-center">
       {{ tutorial.organizers }}
     </h3>
+    {% if tutorial.title %}
+    <h3 class="card-subtitle mb-2 text-muted text-center">
+        <b>{{ tutorial.title }}</b>
+    </h3>
+    {% endif %}
 
   </div>
 </div>

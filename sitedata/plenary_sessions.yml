@@ -88,7 +88,7 @@
   introduction: Introduction by Meinolf Sellmann, IAAI-21 Cochair
 
 - UID: panel_ForecastingInUnprecedentedTimes
-  title: 'IAAI AI in Practice Panel: Forecasting in Unprecedented Times'
+  title: 'IAAI-21 AI in Practice Panel: Forecasting in Unprecedented Times'
   presentation_id: "38952052"
   day: Feb 4
   image: [static/images/aiinpractice/PANEL 1 - moderator.jpg,static/images/aiinpractice/PANEL 1 - Alison Cozad.jpg,static/images/aiinpractice/PANEL 1 - Ruben Lobel copy.jpg,static/images/aiinpractice/PANEL 1 - Polly Mitchell-Guthrie.jpg,static/images/aiinpractice/PANEL 1 - Jagannath Putrevu.JPG,static/images/aiinpractice/PANEL 1 - Chi Zhang.jpeg]
@@ -190,7 +190,7 @@ Panelists: Alison Cozad, Optimization Engineer, Gurobi Optimization; Ruben Lobel
 
 
 - UID: panel_gov_1
-  title: 'Governments 1 Panel: Government AI Strategy Panel'
+  title: 'AAAI-21 Governments 1 Panel: Government AI Strategy Panel'
   presentation_id: "38952054"
   day: Feb 5
   image: [static/images/gov_1/gov_1.jpg,static/images/gov_1/gov_2.jpg,static/images/gov_1/gov_3.jpg]
@@ -219,7 +219,7 @@ Panelists: Gabriela Ramos, Sana Khareghani, Dragoș Tudorache
 
 
 - UID: panel_EmergingUsesOfAIInReal-TimeAutomation
-  title: 'IAAI AI in Practice Panel: Emerging Uses of AI in Real-Time Automation'
+  title: 'IAAI-21 AI in Practice Panel: Emerging Uses of AI in Real-Time Automation'
   presentation_id: '38952055'
   day: Feb 5
   image: [static/images/aiinpractice/PANEL 2 - moderator.jpg,static/images/aiinpractice/PANEL 2 - Apeksha Kumavat.jpg, static/images/aiinpractice/PANEL 2 - Ethan McCreadie.jpg , static/images/aiinpractice/PANEL 2 - Brandon Minor copy.jpg, static/images/aiinpractice/PANEL 2 - Carolyn Mooney copy.jpg, static/images/aiinpractice/PANEL 2 - Sebastian Quintero Rojas.jpg,static/images/aiinpractice/PANEL 2 - Rebecca Taft.jpg]
@@ -285,7 +285,7 @@ Panelists: Apeksha Kumavat, Chief Engineer, Gatik; Ethan McCreadie, Engineering 
 #  "
 
 - UID: panel_gov_2
-  title: 'Governments 2 Panel: Government AI Strategy Panel'
+  title: 'AAAI-21 Governments 2 Panel: Government AI Strategy Panel'
   presentation_id: "38952056"
   day: Feb 5
   image: [static/images/gov_2/gov_1.jpg,static/images/gov_2/gov_2.jpg,static/images/gov_2/gov_3.jpg]
@@ -313,7 +313,7 @@ Panelists: Sukyung Park, Lynne Parker, Elissa Strome
   introduction: Introduction by Kevin Leyton-Brown, AAAI-21 Program Cochair
 
 - UID: panel_gov_3
-  title: 'Governments 3 Panel: Government AI Strategy Panel'
+  title: 'AAAI-21 Governments 3 Panel: Government AI Strategy Panel'
   presentation_id: "38952078"
   day: Feb 5
   image: [static/images/gov_3/gov_1.jpg,static/images/gov_3/gov_2.jpg,static/images/gov_3/gov_3.jpg]
@@ -387,7 +387,7 @@ Panelists: Fuchun Sun, Isaac Ben-Israel, Anna Roy
   introduction: Introduction by Gabriele Röger, AAAI-21 Associate Cochair
 
 - UID: panel_AIApplicationsInFinance
-  title: 'IAAI AI in Practice Panel: AI Applications in Finance: Risks and Challenges in Deploying Real-World Businesses Solutions'
+  title: 'IAAI-21 AI in Practice Panel: AI Applications in Finance: Risks and Challenges in Deploying Real-World Businesses Solutions'
   presentation_id: "38952058"
   day: Feb 6
   image: [static/images/aiinpractice/PANEL 3 - moderator.jpg,static/images/aiinpractice/PANEL 3 - Alexander Denev.jpg,static/images/aiinpractice/PANEL 3 - Rajesh T. Krishnamachari.jpg,static/images/aiinpractice/PANEL 3 - unknown.jpg,static/images/aiinpractice/PANEL 3 - Adriano Koshiyama.jpg]
@@ -442,7 +442,7 @@ Panelists: Alexander Denev, Head of AI Financial Services, Deloitte; Rajesh T. K
 #Panelists: Alexander Denev, Head of AI Financial Services, Deloitte; Rajesh T. Krishnamachari, Global Head of Data Science, Bank of America; Petter Kolm, Clinical Professor, NYU Courant; Adriano Koshiyama, Research Fellow, UCL
 #  "
 - UID: speaker_sanjeev_arora
-  title: 'AAAI-21 Invited Speaker: Opening the Black Box of Deep Learning (+ Takeaways for AI)'
+  title: 'AAAI-21 Invited Talk: Opening the Black Box of Deep Learning (+ Takeaways for AI)'
   day: Feb 6
   image: static/images/keynotes/sanjeev_arora.jpg
   presentation_id: '38952059'
@@ -474,7 +474,7 @@ Panelists: Alexander Denev, Head of AI Financial Services, Deloitte; Rajesh T. K
   introduction: Introduction by Yan Liu, AAAI-21 Associate Program Cochair
 
 - UID: panel_neuro_symbolic_AI_panel
-  title: 'Neuro-Symbolic AI Panel'
+  title: 'AAAI-21 Neuro-Symbolic AI Panel'
   presentation_id: "38952063"
   day: Feb 7
   image: [static/images/neuro_panel/neuro_1.jpg,static/images/neuro_panel/neuro_2.jpg,static/images/neuro_panel/neuro_3.jpg,static/images/neuro_panel/neuro_4.jpg,static/images/neuro_panel/neuro_5.jpg]
@@ -533,7 +533,7 @@ Panelists: Matthew Botvinick, Leslie Pack Kaelbling, Marta Kwiatkowska, Guy Van 
   presentation_id: "38952061"
 
 - UID: panel_AI_response_covid_19
-  title: 'AI Responses to the Covid-19 Pandemic Panel'
+  title: 'AAAI-21 AI Responses to the Covid-19 Pandemic Panel'
   presentation_id: "38952060"
   day: Feb 7
   image: [static/images/covid_panel/covid_2.jpg,static/images/covid_panel/covid_4.jpg,static/images/covid_panel/covid_1.jpg,static/images/covid_panel/covid_3.jpg]

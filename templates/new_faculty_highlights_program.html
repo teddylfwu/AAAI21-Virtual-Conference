@@ -31,20 +31,28 @@
     <div class="card p-3 shadow p-3 mb-5 bg-light rounded"
          style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">
 
-          <div class="m-3 text-center">
+          <div class="text-center">
             <h4>
               <p>New Faculty Highlights Speaker:</p>
               <a href="fh_{{fh.id}}.html" class="main-title" >
-                  <p>{{fh.title}}</p>
+                  <p>{{fh.authors[0].author_name}}</p>
+{#                  <p>{{fh.title}}</p>#}
               </a>
             </h4>
           </div>
 
-          <div class="m-3 text-muted text-center">
+          <div class="text-muted text-center">
             <span class="card-title h3">
               {{ fh.organizers }}
             </span>
           </div>
+        {% if fh.title %}
+          <div class="text-center" style="margin-top: 2rem;">
+            <span class="h5">
+                <b>{{ fh.title }}</b>
+            </span>
+          </div>
+        {% endif %}
     </div>
   </div>
   {% endfor %}

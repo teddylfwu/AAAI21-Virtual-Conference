@@ -1577,7 +1577,7 @@
         to be continued
 
 - UID: FH-1
-  title: 'Dinesh Jayaraman'
+  title:
   organizers: University of Pennsylvania
   info: |-
     to be continued
@@ -1598,12 +1598,12 @@
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
   authors:
-    - name: to be continued
+    - name: 'Dinesh Jayaraman'
       description: |+
         to be continued
 
 - UID: FH-8
-  title: 'Diyi Yang'
+  title: 'Language Understanding in Social Context'
   organizers: Georgia Tech
   info: |-
     to be continued
@@ -1624,12 +1624,12 @@
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
   authors:
-    - name: to be continued
+    - name: 'Diyi Yang'
       description: |+
         to be continued
 
 - UID: FH-15
-  title: 'Chelsea Finn'
+  title:
   organizers: Stanford University
   info: |-
     to be continued
@@ -1650,12 +1650,12 @@
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
   authors:
-    - name: to be continued
+    - name: 'Chelsea Finn'
       description: |+
         to be continued
 
 - UID: FH-16
-  title: 'Hoda Heidari'
+  title:
   organizers: Carnegie Mellon University
   info: |-
     to be continued
@@ -1676,12 +1676,12 @@
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
   authors:
-    - name: to be continued
+    - name: 'Hoda Heidari'
       description: |+
         to be continued
 
 - UID: FH-20
-  title: 'Simon S. Du'
+  title: 'Ultra-Wide Neural Networks and Neural Tangent Kernel'
   organizers: University of Washington
   info: |-
     to be continued
@@ -1702,12 +1702,12 @@
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
   authors:
-    - name: to be continued
+    - name: 'Simon S. Du'
       description: |+
         to be continued
 
 - UID: FH-33
-  title: 'Ju Sun'
+  title:
   organizers: University of Minnesota, Twin Cities
   info: |-
     to be continued
@@ -1728,12 +1728,12 @@
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
   authors:
-    - name: to be continued
+    - name: 'Ju Sun'
       description: |+
         to be continued
 
 - UID: FH-36
-  title: 'Kokil Jaidka'
+  title: 'Social Media 2030: Informing Social Media Design with Experiments'
   organizers: National University of Singapore
   info: |-
     to be continued
@@ -1754,12 +1754,12 @@
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
   authors:
-    - name: to be continued
+    - name: 'Kokil Jaidka'
       description: |+
         to be continued
 
 - UID: FH-37
-  title: 'Pascal Bercher'
+  title: 'Hierarchical Planning and Reasoning about Partially Ordered Plans -- From Theory to Practice'
   organizers: Australian National University
   info: |-
     to be continued
@@ -1780,12 +1780,12 @@
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
   authors:
-    - name: to be continued
+    - name: 'Pascal Bercher'
       description: |+
         to be continued
 
 - UID: FH-38
-  title: 'Lili Mou'
+  title: 'Sampling and Search Approaches to Unsupervised Text Generation'
   organizers: University of Alberta
   info: |-
     to be continued
@@ -1806,12 +1806,12 @@
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
   authors:
-    - name: to be continued
+    - name: 'Lili Mou'
       description: |+
         to be continued
 
 - UID: FH-49
-  title: 'Jundong Li'
+  title: 'Learning Causality with Graphs'
   organizers: University of Virginia
   info: |-
     to be continued
@@ -1832,12 +1832,12 @@
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
   authors:
-    - name: to be continued
+    - name: 'Jundong Li'
       description: |+
         to be continued
 
 - UID: FH-52
-  title: 'Hang Ma'
+  title: 'Intelligent Planning for Large-Scale Multi-Agent Syatems'
   organizers: Simon Fraser University
   info: |-
     to be continued
@@ -1858,12 +1858,12 @@
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
   authors:
-    - name: to be continued
+    - name: 'Hang Ma'
       description: |+
         to be continued
 
 - UID: FH-61
-  title: 'Nadin Kokciyan'
+  title: 'An Agent-Based Perspective for Preserving Privacy Online'
   organizers: University of Edinburgh
   info: |-
     to be continued
@@ -1884,12 +1884,12 @@
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
   authors:
-    - name: to be continued
+    - name: 'Nadin Kokciyan'
       description: |+
         to be continued
 
 - UID: FH-63
-  title: 'Jingjing Xu'
+  title: 'Green Learning'
   organizers: ByteDance AI Lab
   info: |-
     to be continued
@@ -1910,12 +1910,12 @@
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
   authors:
-    - name: to be continued
+    - name: 'Jingjing Xu'
       description: |+
         to be continued
 
 - UID: FH-75
-  title: 'Yonatan Belinkov'
+  title: 'Interpretability and Robustness in Natural Language Processing'
   organizers: Technion
   info: |-
     to be continued
@@ -1936,12 +1936,12 @@
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
   authors:
-    - name: to be continued
+    - name: 'Yonatan Belinkov'
       description: |+
         to be continued
 
 - UID: FH-78
-  title: 'Animesh Garg'
+  title:
   organizers: University of Toronto
   info: |-
     to be continued
@@ -1962,12 +1962,12 @@
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
   authors:
-    - name: to be continued
+    - name: 'Animesh Garg'
       description: |+
         to be continued
 
 - UID: FH-79
-  title: 'Jakob Foerster'
+  title: 'Machine Learning in a Multi-Agent World'
   organizers: Facebook AI Research/Univ. of Toronto/Vector Institute
   info: |-
     to be continued
@@ -1988,12 +1988,12 @@
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
   authors:
-    - name: to be continued
+    - name: 'Jakob Foerster'
       description: |+
         to be continued
 
 - UID: FH-84
-  title: 'Eunsol Choi'
+  title: 'Information Seeking Queries: From Finding to Presenting Answers'
   organizers: University of Texas, Austin
   info: |-
     to be continued
@@ -2014,12 +2014,12 @@
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
   authors:
-    - name: to be continued
+    - name: 'Eunsol Choi'
       description: |+
         to be continued
 
 - UID: FH-112
-  title: 'Noam Brown'
+  title: 'AI for Imperfect-Information Multi-Agent Settings'
   organizers: Facebook AI Research
   info: |-
     to be continued
@@ -2040,6 +2040,6 @@
       zoom_link: 123.com
       hosts: Hao Zhang, Aurick Qiao, Qirong Ho and Eric Xing
   authors:
-    - name: to be continued
+    - name: 'Noam Brown'
       description: |+
         to be continued

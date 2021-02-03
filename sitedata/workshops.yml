@@ -69,8 +69,8 @@
   alias: W4ArtificialIntelligenceSafety
   day: Feb 8
   sessions:
-    - start_time: 2021-2-8 12:00:00-08:00
-      end_time: 2021-2-8 20:30:00-08:00
+    - start_time: 2021-2-8 00:00:00-08:00
+      end_time: 2021-2-8 8:30:00-08:00
       name: None
       hosts: None
   zoom_links:
