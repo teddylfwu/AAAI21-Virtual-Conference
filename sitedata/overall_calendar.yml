@@ -118,14 +118,14 @@
   type: Sponsors/Exhibitors
   view: day
 
-- title: "<b>IAAI-21 AI in Practice Panel</b>"
+- title: "<b>IAAI-21 AI in Practice Panel: Forecasting in Unprecedented Times</b>"
   start: 2021-02-04 10:30:00-08:00
   end: 2021-02-04 11:30:00-08:00
   location: plenary_sessions.html#tab-feb4
   link: plenary_sessions.html#tab-feb4
   category: time
   calendarId: '---'
-  type: Plenary-IAAI
+  type: IAAI Plenary
   view: week
 
 - title: "<b>AAAI Meet with a Fellow Program</b>"
@@ -205,7 +205,7 @@
   link: awards.html
   category: time
   calendarId: '---'
-  type: Plenary-AAAI
+  type: AAAI Plenary
   view: week
 
 - title: "<b>AAAI-21 Invited Talk: Regina Barzilay</b>"
@@ -215,7 +215,7 @@
   link: plenary_sessions.html#tab-feb4
   category: time
   calendarId: '---'
-  type: Plenary-AAAI
+  type: AAAI Plenary
   view: week
 
 - title: "<b>Diversity and Inclusion: Try AI</b>"
@@ -265,7 +265,7 @@
   link: plenary_sessions.html#tab-feb4
   category: time
   calendarId: '---'
-  type: Plenary-AAAI
+  type: AAAI Plenary
   view: week
 
 - title: "<b>AAAI-21 Poster Sessions: AAAI, IAAI, DC, UC, SA, Demos, Classic Paper Award</b>"
@@ -305,7 +305,7 @@
   link: plenary_sessions.html#tab-feb5
   category: time
   calendarId: '---'
-  type: Plenary-AAAI
+  type: AAAI Plenary
   view: week
 
 - title: "<b>AAAI-21 Poster Sessions: AAAI, IAAI, SA, Demos, Dissertation Award</b>"
@@ -338,14 +338,14 @@
   type: Sponsors/Exhibitors
   view: day
 
-- title: "<b>IAAI-21 AI in Practice Panel</b>"
+- title: "<b>IAAI-21 AI in Practice Panel: Emerging Uses of AI in Real-Time Automation</b>"
   start: 2021-02-05 10:30:00-08:00
   end: 2021-02-05 11:30:00-08:00
   location:  plenary_sessions.html#tab-feb5
   link: plenary_sessions.html#tab-feb5
   category: time
   calendarId: '---'
-  type: Plenary-IAAI
+  type: IAAI Plenary
   view: week
 
 - title: "<b>Diversity and Inclusion: Accelerating the Pipeline of Trailblazing STEM Students</b>"
@@ -436,7 +436,7 @@
   link: plenary_sessions.html#tab-feb5
   category: time
   calendarId: '---'
-  type: Plenary-AAAI
+  type: AAAI Plenary
   view: week
 
 - title: "<b>Diversity and Inclusion: Try AI</b>"
@@ -486,7 +486,7 @@
   link: plenary_sessions.html#tab-feb5
   category: time
   calendarId: '---'
-  type: Plenary-AAAI
+  type: AAAI Plenary
   view: week
 
 - title: "<b>AAAI-21 Poster Sessions: AAAI, IAAI, SA, Demos, Dissertation Award</b>"
@@ -526,7 +526,7 @@
   link: plenary_sessions.html#tab-feb6
   category: time
   calendarId: '---'
-  type: Plenary-AAAI
+  type: AAAI Plenary
   view: week
 
 - title: "<b>EAAI-21</b>"
@@ -599,14 +599,14 @@
   type: AI Job Fair
   view: day
 
-- title: "<b>IAAI-21 AI in Practice Panel</b>"
+- title: "<b>IAAI-21 AI in Practice Panel: AI Applications in Finance: Risks and Challenges in Deploying Real-World Businesses Solutions</b>"
   start: 2021-02-06 10:30:00-08:00
   end: 2021-02-06 11:30:00-08:00
   location: plenary_sessions.html#tab-feb6
   link: plenary_sessions.html#tab-feb6
   category: time
   calendarId: '---'
-  type: Plenary-IAAI
+  type: IAAI Plenary
   view: week
 
 - title: "<b>Diversity and Inclusion: 2021 Mid-Career Diversity Virtual Discussion (MIDCAR)</b>"
@@ -689,7 +689,7 @@
   link: plenary_sessions.html#tab-feb6
   category: time
   calendarId: '---'
-  type: Plenary-AAAI
+  type: AAAI Plenary
   view: week
 
 - title: "<b>AAAI-21 Poster Sessions: AAAI, IAAI, SA, Demos</b>"
@@ -809,7 +809,7 @@
   link: plenary_sessions.html#tab-feb7
   category: time
   calendarId: '---'
-  type: Plenary-AAAI
+  type: AAAI Plenary
   view: week
 
 - title: "<b>AAAI-21 Poster Sessions: AAAI, SA, Demos</b>"
@@ -849,7 +849,7 @@
   link: plenary_sessions.html#tab-feb7
   category: time
   calendarId: '---'
-  type: Plenary-AAAI
+  type: AAAI Plenary
   view: week
 
 - title: "<b>AAAI-21 Poster Sessions: AAAI, SA, Demos</b>"
@@ -869,7 +869,7 @@
   link: plenary_sessions.html#tab-feb7
   category: time
   calendarId: '---'
-  type: Plenary-AAAI
+  type: AAAI Plenary
   view: week
 
 - title: "<b>AAAI-21 Poster Sessions: AAAI, SA, Demos</b>"

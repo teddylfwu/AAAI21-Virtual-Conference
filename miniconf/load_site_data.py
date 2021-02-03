@@ -136,7 +136,7 @@ def load_site_data(
     # site_data["event_types"] = list(
     #     {event["type"] for event in site_data["overall_calendar"]}
     # )
-    site_data["event_types"] = ["Plenary-AAAI/IAAI", "Plenary-AAAI", "Plenary-IAAI", "Posters", "EAAI", "Workshops", "Tutorials", "Doctoral Consortium",
+    site_data["event_types"] = ["AAAI Plenary", "IAAI Plenary", "EAAI", "Posters", "Workshops", "Tutorials", "Doctoral Consortium",
                  "Undergraduate Consortium", "Diversity and Inclusion",
                 "Meet with a Fellow", "Sponsors/Exhibitors", "AI Job Fair"
                ]
@@ -679,9 +679,9 @@ def generate_plenary_events(site_data: Dict[str, Any]):
         elif plenary["title"] == "2021 Robert S. Engelmore Memorial Award Lecture":
             plenary_type = "Plenary-AAAI/IAAI"
         elif "IAAI" in plenary["title"]:
-            plenary_type = "Plenary-IAAI"
+            plenary_type = "IAAI Plenary"
         else:
-            plenary_type = "Plenary-AAAI"
+            plenary_type = "AAAI Plenary"
 
         if plenary["UID"] == 'opening_remarks' or plenary["UID"] == 'speaker_by_tuomas_sandholm':
             for session in plenary["sessions"]:
@@ -1083,7 +1083,10 @@ def build_schedule(overall_calendar: List[Dict[str, Any]]) -> List[Dict[str, Any
 
     for event in events:
         event_type = event["type"]
-        event["classNames"] = ["calendar-event-" + event_type.lower().replace(" ", "").replace("/", "")]
+        if "Plenary" in event_type:
+            event["classNames"] = ["calendar-event-plenary"]
+        else:
+            event["classNames"] = ["calendar-event-" + event_type.lower().replace(" ", "").replace("/", "")]
         classnames.append(event["classNames"][0])
 
         event["url"] = event["link"]

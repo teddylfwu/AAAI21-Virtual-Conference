@@ -495,20 +495,20 @@ body .carousel-control-prev {
   border-color: #ffc107;
 }
 
-.fc-v-event.calendar-event-plenary-aaaiiaai {
+.fc-v-event.calendar-event-plenary {
   background-color: #82b74b;
   border-color: #82b74b;
 }
 
-.fc-v-event.calendar-event-plenary-aaai {
-  background-color: #7a8412;
-  border-color: #7a8412;
-}
+/*.fc-v-event.calendar-event-plenary-aaai {*/
+/*  background-color: #82b74b;*/
+/*  border-color: #82b74b;*/
+/*}*/
 
-.fc-v-event.calendar-event-plenary-iaai {
-  background-color: #208451;
-  border-color: #208451;
-}
+/*.fc-v-event.calendar-event-plenary-iaai {*/
+/*  background-color: #82b74b;*/
+/*  border-color: #82b74b;*/
+/*}*/
 
 .fc-v-event.calendar-event-eaai {
   background-color: #26ffbc;
