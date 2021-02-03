@@ -136,7 +136,7 @@ def load_site_data(
     # site_data["event_types"] = list(
     #     {event["type"] for event in site_data["overall_calendar"]}
     # )
-    site_data["event_types"] = ["Plenary", "Plenary-AAAI", "Plenary-IAAI", "Posters", "EAAI", "Workshops", "Tutorials", "Doctoral Consortium",
+    site_data["event_types"] = ["Plenary-AAAI/IAAI", "Plenary-AAAI", "Plenary-IAAI", "Posters", "EAAI", "Workshops", "Tutorials", "Doctoral Consortium",
                  "Undergraduate Consortium", "Diversity and Inclusion",
                 "Meet with a Fellow", "Sponsors/Exhibitors", "AI Job Fair"
                ]
@@ -674,8 +674,10 @@ def generate_plenary_events(site_data: Dict[str, Any]):
             continue
         uid = plenary["UID"]
 
-        if plenary["title"] == "Opening Ceremony and Conference Awards":
-            plenary_type = "Plenary"
+        if plenary["title"] == "Opening Ceremony and Conference Awards" or "AAAI/IAAI" in plenary["title"]:
+            plenary_type = "Plenary-AAAI/IAAI"
+        elif plenary["title"] == "2021 Robert S. Engelmore Memorial Award Lecture":
+            plenary_type = "Plenary-AAAI/IAAI"
         elif "IAAI" in plenary["title"]:
             plenary_type = "Plenary-IAAI"
         else:

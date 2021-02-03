@@ -75,7 +75,7 @@
   link: plenary_sessions.html#tab-feb4
   category: time
   calendarId: '---'
-  type: Plenary
+  type: Plenary-AAAI/IAAI
   view: week
 
 - title: "<b>AAAI-21/IAAI-21 Joint Invited Talk: Tuomas Sandholm</b>"
@@ -85,7 +85,7 @@
   link: plenary_sessions.html#tab-feb4
   category: time
   calendarId: '---'
-  type: Plenary-AAAI
+  type: Plenary-AAAI/IAAI
   view: week
 
 - title: "<b>AAAI-21 Poster Sessions: AAAI, IAAI, DC, UC, SA, Demos, Classic Paper Award</b>"
@@ -749,7 +749,7 @@
   link: plenary_sessions.html#tab-feb6
   category: time
   calendarId: '---'
-  type: Plenary-AAAI
+  type: Plenary-AAAI/IAAI
   view: week
 
 - title: "<b>AAAI-21 Poster Sessions: AAAI, IAAI, SA, Demos</b>"
