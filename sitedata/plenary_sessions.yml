@@ -162,7 +162,7 @@ Panelists: Alison Cozad, Optimization Engineer, Gurobi Optimization; Ruben Lobel
 
 
 - UID: panel_gov_1
-  title: 'Governments 1 Panel: Government AI Strategy Panel'
+  title: 'AAAI-21 Governments 1 Panel: Government AI Strategy Panel'
   presentation_id: "38952054"
   day: Feb 5
   image: [static/images/gov_1/gov_1.jpg,static/images/gov_1/gov_2.jpg,static/images/gov_1/gov_3.jpg]
@@ -257,7 +257,7 @@ Panelists: Apeksha Kumavat, Chief Engineer, Gatik; Ethan McCreadie, Engineering 
 #  "
 
 - UID: panel_gov_2
-  title: 'Governments 2 Panel: Government AI Strategy Panel'
+  title: 'AAAI-21 Governments 2 Panel: Government AI Strategy Panel'
   presentation_id: "38952056"
   day: Feb 5
   image: [static/images/gov_2/gov_1.jpg,static/images/gov_2/gov_2.jpg,static/images/gov_2/gov_3.jpg]
@@ -285,7 +285,7 @@ Panelists: Sukyung Park, Lynne Parker, Elissa Strome
   introduction: Introduction by Kevin Leyton-Brown, AAAI-21 Program Cochair
 
 - UID: panel_gov_3
-  title: 'Governments 3 Panel: Government AI Strategy Panel'
+  title: 'AAAI-21 Governments 3 Panel: Government AI Strategy Panel'
   presentation_id: "38952078"
   day: Feb 5
   image: [static/images/gov_3/gov_1.jpg,static/images/gov_3/gov_2.jpg,static/images/gov_3/gov_3.jpg]
@@ -446,7 +446,7 @@ Panelists: Alexander Denev, Head of AI Financial Services, Deloitte; Rajesh T. K
   introduction: Introduction by Yan Liu, AAAI-21 Associate Program Cochair
 
 - UID: panel_neuro_symbolic_AI_panel
-  title: 'Neuro-Symbolic AI Panel'
+  title: 'AAAI-21 Neuro-Symbolic AI Panel'
   presentation_id: "38952063"
   day: Feb 7
   image: [static/images/neuro_panel/neuro_1.jpg,static/images/neuro_panel/neuro_2.jpg,static/images/neuro_panel/neuro_3.jpg,static/images/neuro_panel/neuro_4.jpg,static/images/neuro_panel/neuro_5.jpg]
@@ -505,7 +505,7 @@ Panelists: Matthew Botvinick, Leslie Pack Kaelbling, Marta Kwiatkowska, Guy Van 
   presentation_id: "38952061"
 
 - UID: panel_AI_response_covid_19
-  title: 'AI Responses to the Covid-19 Pandemic Panel'
+  title: 'AAAI-21 AI Responses to the Covid-19 Pandemic Panel'
   presentation_id: "38952060"
   day: Feb 7
   image: [static/images/covid_panel/covid_2.jpg,static/images/covid_panel/covid_4.jpg,static/images/covid_panel/covid_1.jpg,static/images/covid_panel/covid_3.jpg]
