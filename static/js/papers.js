@@ -525,7 +525,9 @@ const start = (reset_track) => {
     $('#progressBar').show();
 
     d3.json(path_to_papers_json).then(papers => {
-        shuffleArray(papers);
+        if(program != "Best"){
+            shuffleArray(papers);
+        }
 
         allPapers = papers;
 
@@ -660,7 +662,25 @@ const card_program_badge = (paper) => {
     if (selected_program === "all") 
         return `<span class="badge 
                       badge-pill badge-${program_to_badge_class[paper.content.program]}"
-                      >${paper.content.program}</span>`;
+                      >${paper.content.program}</span>
+                      <span class="badge 
+                      badge-pill badge-danger"
+                      >${paper.content.best_type_desc}</span>`;
+    else if (selected_program === "Main" && "${paper.content.best_type_desc}" !="")
+        return `<span class="badge 
+              badge-pill badge-danger"
+              >${paper.content.best_type_desc}</span>`;
+    else if (selected_program === "AISI" && "${paper.content.best_type_desc}" !="")
+        return `<span class="badge 
+              badge-pill badge-danger"
+              >${paper.content.best_type_desc}</span>`;
+    else if (selected_program === "Best" && "${paper.content.best_type_desc}" !="")
+        return `<span class="badge 
+                      badge-pill badge-${program_to_badge_class[paper.content.program]}"
+                      >${paper.content.program}</span>
+                      <span class="badge 
+                      badge-pill badge-danger"
+                      >${paper.content.best_type_desc}</span>`;
     else
         return ``;
 }

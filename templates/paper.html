@@ -134,8 +134,15 @@
 {#      {% endif %}#}
         {% if paper.content.program == "Main" %}
       <span class="badge badge-secondary">Main Track</span>
+            {% if paper.content.best_type != 0 %}
+                <span class="badge badge-danger">{{ paper.content.best_type_desc }}</span>
+            {% endif %}
         {% elif paper.content.program == "AISI" %}
       <span class="badge badge-secondary">AI for Social Impact Track</span>
+            {% if paper.content.best_type != 0 %}
+                <span class="badge badge-danger">{{ paper.content.best_type_desc }}</span>
+            {% endif %}
+
         {% elif paper.content.program == "SMT" %}
       <span class="badge badge-secondary">Senior Member Track</span>
         {% elif paper.content.program == "Demo" %}

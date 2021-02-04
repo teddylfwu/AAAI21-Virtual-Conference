@@ -384,9 +384,16 @@ def papers_program(program):
         for wsh in site_data["workshops"]:
             papers_for_program.extend(wsh.papers)
     else:
-        papers_for_program = [
-            paper for paper in site_data["papers"] if paper.content.program == program
-        ]
+        if program == "Best":
+            papers_for_program = [
+                paper for paper in site_data["papers"] if paper.content.best_type >= 1
+            ]
+            papers_for_program.sort(key=lambda paper :paper.content.best_type)
+
+        else:
+            papers_for_program = [
+                paper for paper in site_data["papers"] if paper.content.program == program
+            ]
     return jsonify(papers_for_program)
 
 

@@ -265,6 +265,9 @@ Conference-wide poster sessions will be held February 4-7 in <a href="https://ww
                                     {% else %}
                                     Location {{ paper.content.position }}: {{ paper.content.title }}
                                     {% endif %}
+                                    {% if paper.content.best_type > 0 %}
+                                    <b style="color: red">({{ paper.content.best_type_desc }})</b>
+                                    {% endif %}
                                 </a>
                                 <a href="{{paper.content.gather_town_link}}"   class="card-link" target="_blank">
                             [Join the Poster Session]
