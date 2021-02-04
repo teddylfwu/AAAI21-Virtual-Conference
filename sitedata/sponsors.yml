@@ -72,6 +72,7 @@
   level: Silver
   logo: bloomberg.png
   logoontop: true
+  website: https://www.techatbloomberg.com
   description: Bloomberg is building the world's most trusted information network for financial professionals. Among our 6,000+ software engineers, Bloomberg employs 200+ data scientists and research engineers who employ machine learning and natural language processing to solve complex, real-world problems related to core document understanding, recommendation, and customer-facing systems.
   rocketchat_channel: Sponsor_Bloomberg
   gather_link: https://widget1.virtualchair.net/custom/aaai/jump?sponsor=bloomberg
