@@ -294,7 +294,7 @@
       previously led the data science efforts at Devoted Health, served as Chief Data
       Scientist at Hillary for America, and as Director of Digital Analytics for the
       Office of Digital Strategy in the Obama White House.
-  prerecorded: '38951742'
+  prerecorded:
 - UID: MH4
   title: Designing Agents' Preferences, Beliefs, and Identities
   organizers: Vincent Conitzer
@@ -477,7 +477,7 @@
       \ Waterloo and Toronto and was a postdoc at Columbia, Princeton and McGill.\
       \ He develops machine learning models to analyze large collections of data and\
       \ help in decision-making."
-  prerecorded: '38951746'
+  prerecorded:
 - UID: MH8
   title: 'Responsible AI in Industry: Practical Challenges and Lessons Learned'
   organizers: Krishnaram Kenthapadi, Ben Packer, Mehrnoosh Sameki and Nashlie Sephus
@@ -570,7 +570,7 @@
       in the Scientific Computing and Imaging (SCI) Institute, University of Utah.
       Her research interests include data visualization, topological data analysis,
       computational topology, computational geometry, machine learning, and data mining.
-  prerecorded: '38951748'
+  prerecorded:
 - UID: AQ1
   title: 'Explaining Machine Learning Predictions: State-of-the-Art, Challenges, and
     Opportunities'
