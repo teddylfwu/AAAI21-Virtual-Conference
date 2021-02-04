@@ -221,7 +221,7 @@ def load_site_data(
 
     site_data["programs"] = ["AISI", "Demo", "DC",
                              "EAAI", "IAAI","Main","SMT","SC",
-                             "SA","UC","Award"]
+                             "SA","UC","Award","Best"]
 
     # tutorials.html
     tutorial_MQ = []
