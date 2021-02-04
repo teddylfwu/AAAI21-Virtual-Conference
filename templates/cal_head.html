@@ -75,7 +75,23 @@
               obj["start"] = moment(obj["start"]).tz(tz).format();
               obj["end"] = moment(obj["end"]).tz(tz).format();
 
-              if (obj["view"] === "day" && view !== "timeGridDay" ||
+              plenary_type_spj = false
+              contain_plenary = eventTypes.includes("IAAI Plenary") || eventTypes.includes("AAAI Plenary")
+
+              if (contain_plenary && obj["type"] === "Plenary-AAAI/IAAI")
+              {
+                plenary_type_spj = true;
+              }
+              else{
+                  plenary_type_spj = false
+              }
+              if ( ((obj["view"] === "day" && view === "timeGridDay") ||
+                  (obj["view"] === "week" && view === "timeGridWeek") ) && (contain_plenary && plenary_type_spj) )
+              {
+
+              }
+
+              else if (obj["view"] === "day" && view !== "timeGridDay" ||
                   obj["view"] === "week" && view !== "timeGridWeek" ||
                   !eventTypes.includes(obj["type"])) {
                 obj["display"] = "none";
