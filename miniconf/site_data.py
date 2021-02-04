@@ -107,8 +107,9 @@ class PaperContent:
     position: int = None
     cluster_name: str = None
     gather_town_link: str = None
-
     material: str = None
+    best_type: int = None
+    best_type_desc: str = None
 
     def __post_init__(self):
         pass

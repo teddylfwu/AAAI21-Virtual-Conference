@@ -1198,7 +1198,27 @@ def build_papers(
         "6-Feb": [('6-Feb', '08:45AM-10:30AM'), ('6-Feb', '04:45PM-06:30PM'), ('7-Feb', '12:45AM-02:30AM')],
         "7-Feb": [('7-Feb', '08:45AM-10:30AM'), ('7-Feb', '04:45PM-06:30PM'), ('8-Feb', '12:45AM-02:30AM')],
     }
+
+    '''
+    best_type
+    1.(Best Papers Award)AAAI-7346,AAAI-2294,AISI-8076
+    2(Best Paper Runners Up Award)AAAI-9868,AAAI-10151,AISI-4906
+    3(Distinguished Papers Award)AAAI-8265,AAAI-3534,AAAI-2549,AAAI-10339,AAAI-4640,AAAI-7047
+    '''
+    best_papers_award = ['AAAI-7346','AAAI-2294','AISI-8076']
+    best_paper_runners_up_award = ['AAAI-9868','AAAI-10151','AISI-4906']
+    distinguished_papers_award = ['AAAI-8265','AAAI-3534','AAAI-2549','AAAI-10339','AAAI-4640','AAAI-7047']
     for item in raw_papers:
+        if item['UID'] in best_papers_award:
+            item['best_type']=1
+            item['best_type_desc'] = "Best Papers Award"
+        if item['UID'] in best_paper_runners_up_award:
+            item['best_type']=2
+            item['best_type_desc'] = "Best Paper Runners Up Award"
+        if item['UID'] in distinguished_papers_award:
+            item['best_type']=3
+            item['best_type_desc'] = "Distinguished Papers Award"
+
         if "CLASSIC" in item["UID"] or "DISS" in item["UID"]:
             item['room'] = item['room'][:-1]
         if item.get("position","")=="" or item["position"] is None:
@@ -1255,6 +1275,8 @@ def build_papers(
                 position=int(float(item.get("position", 0))),
                 cluster_name=item.get("cluster_name", "unknown"),
                 gather_town_link= item.get("gather_town_link", "unknown"),
+                best_type=item.get("best_type",0),
+                best_type_desc=item.get("best_type_desc","")
                 # gather_town_link=paper_id_to_link[item["UID"]] if item['UID'] in paper_id_to_link else "",
             ),
         )
