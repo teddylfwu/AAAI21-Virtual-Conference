@@ -58,7 +58,10 @@
 
 {% block content %}
 
+
+
 <div class="row">
+
   <div class="col-md-7 col-sm-12 pr-5 lead">
       <ul class="ctagcloud">
         <li>
@@ -83,17 +86,17 @@
 {#      #}
 {#      </dd>#}
         <dd>
-            Plenary Sessions will be held February 4-7, and will include the Conference Welcome and Awards, Keynote and Invited Talks, Invited Panels, AI in Practice, and special community events, such as the AAAI Organizational Awards Ceremony. Some pre-recorded videos may be available for <a class="text" href="plenary_sessions.html" >Plenary Sessions</a>. Plenary sessions are scheduled for the following times:
+            Plenary Sessions will be held on February 4-7, and will include the Conference Welcome and Awards, Keynote and Invited Talks, Invited Panels, AI in Practice, and special community events, such as the AAAI Organizational Awards Ceremony. Some pre-recorded videos may be available for <a class="text" href="plenary_sessions.html" >Plenary Sessions</a>. Plenary sessions are scheduled for the following times:
             <li>7:30 - 8:45 AM PST</li>
             <li>3:30 - 4:45 PM PST</li>
             <li>11:30 - 00:45 AM PST</li>
-            The <a class="text" href="plenary_session_opening_remarks_speaker_by_tuomas_sandholm.html">Opening Ceremony and Conference Awards</a> will be held on February 4, 6:30 - 7:30 AM PST, and the <a class="text" href="awards.html">AAAI Organizational Awards</a> will be held February 4, 2:00 - 3:00 PM PST. <a class="text" href="ai_in_practice.html">AI in Practice</a> panels will be held each day February 4-6, 10:30 - 11:30 AM PST.
+            The <a class="text" href="plenary_session_opening_remarks_speaker_by_tuomas_sandholm.html">Opening Ceremony and Conference Awards</a> will be held on February 4, 6:30 - 7:30 AM PST, and the <a class="text" href="awards.html">AAAI Organizational Awards</a> will be held on February 4, 2:00 - 3:00 PM PST. <a class="text" href="ai_in_practice.html">AI in Practice</a> panels will be held each day of February 4-6, 10:30 - 11:30 AM PST.
 
         </dd>
 
         <dt>Poster Sessions</dt>
         <dd>
-            Conference-wide <a class="text" href="posters.html">poster sessions</a> will be held February 4-7, and will include posters from all programs listed below under Conference Papers (except EAAI-21). Poster sessions are scheduled for the following times:
+            Conference-wide <a class="text" href="posters.html">poster sessions</a> will be held on February 4-7, and will include posters from all programs listed below under Conference Papers (except EAAI-21). Poster sessions are scheduled for the following times:
             <li>
                 8:45 - 10:30 AM PST
             </li>
@@ -163,9 +166,9 @@
             The <a class="text" href="eaai.html">EAAI-21</a> will be conducted live via Zoom. All conference registrants are welcome.
         </dd>
 
-        <dt>Doctoral and Undergraduate Consortia</dt>
+        <dt>Doctoral and Undergraduate Consortium</dt>
         <dd>
-            The <a class="text" href="doctoral_consortium.html">Doctoral</a> and <a class="text" href="undergraduate_consortium.html">Undergraduate</a> Consortia will be conducted live via Zoom. All AAAI-21 registrants are welcome.
+            The <a class="text" href="doctoral_consortium.html">Doctoral</a> and <a class="text" href="undergraduate_consortium.html">Undergraduate</a> Consortium will be conducted live via Zoom. All AAAI-21 registrants are welcome.
         </dd>
 
 
@@ -224,7 +227,7 @@
 
 
   <div class="col-md-5 col-sm-12">
-{#      <div class="row m-2">#}
+    <div class="row m-2">
     <!-- Slides Live-->
 {#    <div class="col-md-12 col-xs-12 my-auto p-2" >#}
 {#        <div class="text-muted">#}
@@ -269,33 +272,30 @@
 {##}
 {#    </div>#}
 {##}
-{#     <div class="col-md-12 col-xs-12 my-auto p-2" >#}
-{#        <div class="text-muted">#}
-{#      Intro by Associate Conference Chairs for Virtual Operations#}
-{#      </div>#}
-{##}
-{#      <div id="presentation-intro-2" class="slp my-auto"></div>#}
-{##}
-{#      <script src='static/js/embed_presentation.js'></script>#}
-{#      <script>#}
-{#        embed_2 = new SlidesLiveEmbed('presentation-intro-2', {#}
-{#        presentationId: '38952019',#}
-{#        presentationId: '38938822',#}
-{#        autoPlay: false, // change to true to autoplay the embedded presentation#}
-{#        verticalEnabled: false,#}
-{#        verticalWhenWidthLte: 500,#}
-{#        allowHiddenControlsWhenPaused: true,#}
-{#        hideTitle: true#}
-{#        });#}
-{#      </script>#}
-{##}
-{#    </div>#}
+     <div class="col-md-12 col-xs-12 my-auto p-2" >
+         <h5 style="text-align: center">Introduction to Virtual Website and Gather.Town</h5>
+        <div id="presentation-intro-2" class="slp my-auto"></div>
+        <script src='static/js/embed_presentation.js'></script>
+        <script>
+            embed_2 = new SlidesLiveEmbed('presentation-intro-2', {
+            presentationId: '38952019',
+            autoPlay: false, // change to true to autoplay the embedded presentation
+            verticalEnabled: true,
+            verticalWhenWidthLte: 500,
+            allowHiddenControlsWhenPaused: true,
+            hideTitle: true
+            });
+        </script>
+     </div>
 
 
-{#  </div>#}
+  </div>
 
     <div class="text-center mt-4">
       <h5>Announcements</h5>
+        <p>
+            You can open the <a class="text" href="https://{{config.chat_server}}/channel/announcements" target="_blank">announcement</a> channel in separate window.
+        </p>
       <div class="col-md-12 col-xs-12">
         <div id="gitter" class="slp">
           <center>
@@ -320,7 +320,7 @@ The AAAI2021 virtual conference website
 uses <a href="https://github.com/Mini-Conf/Mini-Conf" >MiniConf</a> built by Hendrik Strobelt and Sasha Rush that
   was extended by the <a href="https://github.com/acl-org/acl-2020-virtual-conference" >ACL 2020</a> and
     <a href="https://github.com/acl-org/emnlp-2020-virtual-conference">EMNLP 2020</a>.
-The AAAI2021 infrastructure committee is very grateful to the <a class="text" href="https://elasticbeanstalk-us-east-2-764613980718.s3.us-east-2.amazonaws.com/AAAI2021_TechnicalVolunteers.pdf">technical volunteers</a> and contributors whose valuable contributions to building the virtual infrastructure made the conference possible.
+The AAAI2021 infrastructure committee is very grateful to the <a class="text" href="https://elasticbeanstalk-us-east-2-764613980718.s3.us-east-2.amazonaws.com/AAAI2021_TechnicalVolunteers.pdf" target="_blank">technical volunteers</a> and contributors whose valuable contributions to building the virtual infrastructure made the conference possible.
 We would also like to thank <a href="https://desilinguist.org/">Nitin Madnani</a> for his advice and IT
   support regarding the virtual infrastructure. We also want to thank
   AI2  for contributing the <a href="https://github.com/allenai/specter">SPECTER model</a>

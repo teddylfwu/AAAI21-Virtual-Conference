@@ -8,7 +8,21 @@
     start_time: 2021-02-04 14:30:00+00:00
     end_time: 2021-02-04 16:45:00+00:00
   rocketchat_channel: Plenary_OpeningCeremonyandConferenceAwards_InvitedSpeakersProgram_IAAI21RobertSEngelmoreMemorialAwardLecture
-  abstract: "In recent years, large language models pretrained on vast quantities of raw text have revolutionized NLP. Existing methods, based on variations of causal or masked languages models, now provide the de facto methods for every NLP task. In this talk, I will discuss recent work on language model pretraining, from ELMo, GPT, and BERT to more recent models.  I will aim for broad coverage of the overall trends but provide more details on the models we have been developing recently at Facebook AI and the University of Washington. These include in particular pre-training methods for sequence-to-sequence models, such as BART, mBART, and MARGE, which provide some of the most generally applicable approaches to date.
+  abstract: "
+  What Can and Should Humans Contribute to Superhuman AIs?
+<br>
+  I will discuss what humans can and should contribute to superhuman AIs—not general ones intended to
+  be like humans, but ones for specific applications that make the world a better place. I will discuss how
+  the application should drive research. I will present extensive experiences from having fielded
+  superhuman AIs for combinatorial markets, organ exchanges, and imperfect-information game settings.
+  I will discuss inventing and scoping novel AI applications. I will discuss how humans should supply the
+  value framework while leaving policy optimization and combinatorics for AI. I will cover a framework
+  that separates those ends and means, and conducts future-aware optimization in very-large-scale
+  dynamic problems in a scalable way. I will wonder about the future of science when theorems (not just
+  proofs) and empirical theories need to be so long that they are beyond human comprehension. I will
+  discuss human overconfidence in humans over AI. I will discuss what explainability could be and why in
+  many AI applications it should not be required. Finally, I will suggest flipping ethics around from an ex
+  post discussion activity to a system-design discipline that I coin pre-design ethics.
    "
   bio: "[Tuomas Sandholm](http://www.cs.cmu.edu/~sandholm/) is Angel Jordan University Professor of Computer Science at Carnegie Mellon University and a serial entrepreneur. His research focuses on the convergence of artificial intelligence, economics, and operations research. He is Co-Director of CMU AI. He is Founder and Director of the Electronic Marketplaces Laboratory.
 
@@ -44,7 +58,21 @@
     start_time: 2021-02-04 15:30:00+00:00
     end_time: 2021-02-04 16:45:00+00:00
   rocketchat_channel: Plenary_OpeningCeremonyandConferenceAwards_InvitedSpeakersProgram_IAAI21RobertSEngelmoreMemorialAwardLecture
-  abstract: "In recent years, large language models pretrained on vast quantities of raw text have revolutionized NLP. Existing methods, based on variations of causal or masked languages models, now provide the de facto methods for every NLP task. In this talk, I will discuss recent work on language model pretraining, from ELMo, GPT, and BERT to more recent models.  I will aim for broad coverage of the overall trends but provide more details on the models we have been developing recently at Facebook AI and the University of Washington. These include in particular pre-training methods for sequence-to-sequence models, such as BART, mBART, and MARGE, which provide some of the most generally applicable approaches to date.
+  abstract: "
+  What Can and Should Humans Contribute to Superhuman AIs?
+<br>
+  I will discuss what humans can and should contribute to superhuman AIs—not general ones intended to
+  be like humans, but ones for specific applications that make the world a better place. I will discuss how
+  the application should drive research. I will present extensive experiences from having fielded
+  superhuman AIs for combinatorial markets, organ exchanges, and imperfect-information game settings.
+  I will discuss inventing and scoping novel AI applications. I will discuss how humans should supply the
+  value framework while leaving policy optimization and combinatorics for AI. I will cover a framework
+  that separates those ends and means, and conducts future-aware optimization in very-large-scale
+  dynamic problems in a scalable way. I will wonder about the future of science when theorems (not just
+  proofs) and empirical theories need to be so long that they are beyond human comprehension. I will
+  discuss human overconfidence in humans over AI. I will discuss what explainability could be and why in
+  many AI applications it should not be required. Finally, I will suggest flipping ethics around from an ex
+  post discussion activity to a system-design discipline that I coin pre-design ethics.
    "
   bio: "[Tuomas Sandholm](http://www.cs.cmu.edu/~sandholm/) is Angel Jordan University Professor of Computer Science at Carnegie Mellon University and a serial entrepreneur. His research focuses on the convergence of artificial intelligence, economics, and operations research. He is Co-Director of CMU AI. He is Founder and Director of the Electronic Marketplaces Laboratory.
 
