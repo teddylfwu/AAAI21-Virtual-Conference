@@ -838,7 +838,7 @@
       Sub-symbolic Reasoning with MiniMax Entropy Models". His research interests
       focus on the integration between neural computation and relational reasoning,
       with a particular focus on logical and probabilistic reasoning.
-  prerecorded: '38951756'
+  prerecorded:
 - UID: AH5
   title: 'Graph Neural Networks: Models and Applications'
   organizers: Yao Ma, Wei Jin, Yiqi Wang, Tyler Derr and Jiliang Tang
