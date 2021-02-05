@@ -271,6 +271,11 @@ Conference-wide poster sessions will be held February 4-7 in <a href="https://ww
                             {% for paper_id in poster.papers %}
                             {% set paper = papers[paper_id] %}
                             <li>
+{#                              {% for author in paper.content.authors %}#}
+{#                              <a href="papers.html?filter=authors&search={{author}}&program=all" class="text-primary"#}
+{#                                >{{author}}</a#}
+{#                              >{{ "," if not loop.last }}#}
+{#                              {% endfor %}#}
                                 <a class="text-dark" href="paper_{{paper.id}}.html" target="_blank">
                                     {% if paper.content.position == 0 %}
                                     {{ paper.content.title }}
@@ -282,9 +287,12 @@ Conference-wide poster sessions will be held February 4-7 in <a href="https://ww
                                     {% endif %}
                                 </a>
                                 <a href="{{paper.content.gather_town_link}}"   class="card-link" target="_blank">
-                            [Join the Poster Session]
-                          </a>
-
+                            [Join the Poster Session]<br>
+                              </a>
+{#                            <br>#}
+                              {% for author in paper.content.authors %}
+                              {{author}}{{ "," if not loop.last }}
+                              {% endfor %}
                             </li>
                             {% endfor %}
                         </ul>
