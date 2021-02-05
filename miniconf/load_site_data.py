@@ -402,7 +402,7 @@ def load_site_data(
 
     # posters.html
     site_data["poster_info_by_day"], site_data["poster_days"], site_data["room_list_by_day"] = build_poster_infos(
-        site_data["poster_infos"],by_uid["papers"]
+        site_data["poster_infos"],by_uid["papers"],site_data["papers"]
     )
 
     # site_data["main_aisi_smt_by_day"] = {
@@ -1304,7 +1304,7 @@ def build_papers(
 
 
 def build_poster_infos(
-    raw_paper_sessions: Dict[str, Any],by_uid
+    raw_paper_sessions: Dict[str, Any],by_uid,papers
 ) -> Tuple[List[QaSession], List[Tuple[str, str, str]]]:
 
     # poster_infos_by_day: Dict[str, List[Dict[str, Any]]] = defaultdict(list)
@@ -1370,6 +1370,14 @@ def build_poster_infos(
             # papers=[],
         )
         poster_infos_by_day[day][room].append(poster_info)
+        # 添加best paper逻辑
+
+
+    # best_papers_award = ['AAAI-7346','AAAI-2294','AISI-8076']
+    # best_paper_runners_up_award = ['AAAI-9868','AAAI-10151','AISI-4906']
+    # distinguished_papers_award = ['AAAI-8265','AAAI-3534','AAAI-2549','AAAI-10339','AAAI-4640','AAAI-7047']
+
+
     sort_rule = {
         "Poster":1,"Demo":2,"SA":3,"DC":4,"UC":5,"IAAI":6,"Award":7
     }
@@ -1397,11 +1405,19 @@ def build_poster_infos(
                 if x.room not in room_list_by_day[day]:
                     room_list_by_day[day].append(x.room)
     poster_days = []
+    # add best paper tab
     days = ["Feb 4","Feb 5","Feb 6","Feb 7"]
-    for i, day in enumerate(sorted(days)):
+    for i, day in enumerate(days):
         poster_days.append(
             (day.replace(" ", "").lower(), day, "active" if i == 0 else "")
         )
+
+    sorted_poster_infos_by_day["Award-Winning Papers"] = defaultdict(list)
+    sorted_poster_infos_by_day["Award-Winning Papers"]["Best Papers Award"] = ['AAAI-7346','AAAI-2294','AISI-8076']
+    sorted_poster_infos_by_day["Award-Winning Papers"]["Best Paper Runners Up Award"] = ['AAAI-9868','AAAI-10151','AISI-4906']
+    sorted_poster_infos_by_day["Award-Winning Papers"]["Distinguished Papers Award"] = ['AAAI-8265','AAAI-3534','AAAI-2549','AAAI-10339','AAAI-4640','AAAI-7047']
+
+
 
     return sorted_poster_infos_by_day, poster_days,room_list_by_day
 
