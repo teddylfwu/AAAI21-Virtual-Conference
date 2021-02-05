@@ -249,7 +249,6 @@ def posters(tab_id):
             )
     data["poster_days"] = poster_days
     data["poster_info"] = site_data["poster_info_by_day"]
-    print(data["poster_info"].keys())
     data["papers"] = by_uid["papers"]
     return render_template("posters.html", **data)
 
