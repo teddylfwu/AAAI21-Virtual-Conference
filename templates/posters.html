@@ -201,6 +201,46 @@ Conference-wide poster sessions will be held February 4-7 in <a href="https://ww
             role="tabpanel"
             aria-labelledby="nav-profile-tab"
     >
+    {% if day == "Award-Winning Papers" %}
+        {% for room in poster_info[day] %}
+            <div id="{{ tab_id }}">
+                <div class="plenary_sessions">
+                    <div class="row p-4 col-md-12">
+                    {% for paper_id in poster_info[day][room] %}
+                        {% if loop.first %}
+                            <h5 style="color: red; font-weight: bold;" >{{ room }}</h5>
+                        {% endif %}
+
+                    <div id=""></div>
+                        <div class="col-12 mb-4">
+                            <a href="paper_{{ paper_id }}.html" target="_blank" style="color: black;"><strong>{{ papers[paper_id].content.title }}</strong></a>
+                            <a href="{{papers[paper_id].content.gather_town_link}}"   class="card-link" target="_blank">
+                                [Join the Poster Session]</a>
+                            <br>
+                              {% for author in papers[paper_id].content.authors %}
+                              {{author}}{{ "," if not loop.last }}
+                              {% endfor %}
+                            <br>
+                            {% if papers[paper_id].content.room[0]=='A'  %}
+                            <span class="session_times">Time1: {{papers[paper_id].content.date2}} {{papers[paper_id].content.time2}} PST (Room {{ papers[paper_id].content.room_letter2 }}, Cluster {{ papers[paper_id].content.cluster }}, Location {{ papers[paper_id].content.position }} in Virtual Chair on Gather.Town) </span>
+                            <br>
+                            <span class="session_times">Time2: {{papers[paper_id].content.date1}} {{papers[paper_id].content.time1}} PST (Room {{ papers[paper_id].content.room_letter1 }}, Cluster {{ papers[paper_id].content.cluster }}, Location {{ papers[paper_id].content.position }} in Virtual Chair on Gather.Town) </span>
+                            {% else %}
+                            <span class="session_times">Time1: {{papers[paper_id].content.date1}} {{papers[paper_id].content.time1}} PST (Room {{ papers[paper_id].content.room_letter1 }}, Cluster {{ papers[paper_id].content.cluster }}, Location {{ papers[paper_id].content.position }} in Virtual Chair on Gather.Town) </span>
+                            <br>
+                            <span class="session_times">Time2: {{papers[paper_id].content.date2}} {{papers[paper_id].content.time2}} PST (Room {{ papers[paper_id].content.room_letter2 }}, Cluster {{ papers[paper_id].content.cluster }}, Location {{ papers[paper_id].content.position }} in Virtual Chair on Gather.Town) </span>
+                            {% endif %}
+
+                        </div>
+
+                    {% endfor %}
+                    </div>
+                </div>
+            </div>
+             <hr style="margin: 0px;">
+
+        {% endfor %}
+    {% else %}
         {% for room in poster_info[day] %}
         <div id="{{ tab_id }}">
             <div class="plenary_sessions">
@@ -215,7 +255,7 @@ Conference-wide poster sessions will be held February 4-7 in <a href="https://ww
                                 {{poster.room}} Posters
                                 <span>{{poster.session}} </span>
                             </h5>
-                            {% if  papers[poster.papers[0]].content.room[0]=='A'  %}
+                            {% if papers[poster.papers[0]].content.room[0]=='A'  %}
                                                         <h6>
                                 Time1: <span class="session_times">{{poster.time1}} PST</span>
                                 (<u>Room {{ papers[poster.papers[0]].content.room_letter2 }}</u> in Virtual Chair on Gather.Town)
@@ -271,6 +311,11 @@ Conference-wide poster sessions will be held February 4-7 in <a href="https://ww
                             {% for paper_id in poster.papers %}
                             {% set paper = papers[paper_id] %}
                             <li>
+{#                              {% for author in paper.content.authors %}#}
+{#                              <a href="papers.html?filter=authors&search={{author}}&program=all" class="text-primary"#}
+{#                                >{{author}}</a#}
+{#                              >{{ "," if not loop.last }}#}
+{#                              {% endfor %}#}
                                 <a class="text-dark" href="paper_{{paper.id}}.html" target="_blank">
                                     {% if paper.content.position == 0 %}
                                     {{ paper.content.title }}
@@ -282,9 +327,12 @@ Conference-wide poster sessions will be held February 4-7 in <a href="https://ww
                                     {% endif %}
                                 </a>
                                 <a href="{{paper.content.gather_town_link}}"   class="card-link" target="_blank">
-                            [Join the Poster Session]
-                          </a>
-
+                            [Join the Poster Session]<br>
+                              </a>
+{#                            <br>#}
+                              {% for author in paper.content.authors %}
+                              {{author}}{{ "," if not loop.last }}
+                              {% endfor %}
                             </li>
                             {% endfor %}
                         </ul>
@@ -297,6 +345,7 @@ Conference-wide poster sessions will be held February 4-7 in <a href="https://ww
         </div>
         <hr>
         {% endfor %}
+    {% endif %}
     </div>
     {% endfor %}
 </div>
