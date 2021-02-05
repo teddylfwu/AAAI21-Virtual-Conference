@@ -215,6 +215,17 @@ Conference-wide poster sessions will be held February 4-7 in <a href="https://ww
                                 {{poster.room}} Posters
                                 <span>{{poster.session}} </span>
                             </h5>
+                            {% if  papers[poster.papers[0]].content.room[0]=='A'  %}
+                                                        <h6>
+                                Time1: <span class="session_times">{{poster.time1}} PST</span>
+                                (<u>Room {{ papers[poster.papers[0]].content.room_letter2 }}</u> in Virtual Chair on Gather.Town)
+                            </h6>
+                            <h6>
+                                Time2: <span class="session_times">{{poster.time2}} PST</span>
+                                (<u>Room {{ papers[poster.papers[0]].content.room_letter1 }}</u> in Virtual Chair on Gather.Town)
+                            </h6>
+
+                            {% else %}
                             <h6>
                                 Time1: <span class="session_times">{{poster.time1}} PST</span>
                                 (<u>Room {{ papers[poster.papers[0]].content.room_letter1 }}</u> in Virtual Chair on Gather.Town)
@@ -223,6 +234,7 @@ Conference-wide poster sessions will be held February 4-7 in <a href="https://ww
                                 Time2: <span class="session_times">{{poster.time2}} PST</span>
                                 (<u>Room {{ papers[poster.papers[0]].content.room_letter2 }}</u> in Virtual Chair on Gather.Town)
                             </h6>
+                            {% endif %}
                         </a>
                         {% endif %}
                         {% if poster.session_type != "Poster" %}
