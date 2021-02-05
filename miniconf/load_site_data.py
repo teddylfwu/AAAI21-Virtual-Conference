@@ -1425,9 +1425,9 @@ def build_poster_infos(
         )
 
     sorted_poster_infos_by_day["Award-Winning Papers"] = defaultdict(list)
-    sorted_poster_infos_by_day["Award-Winning Papers"]["Best Papers Award"] = ['AAAI-7346','AAAI-2294','AISI-8076']
-    sorted_poster_infos_by_day["Award-Winning Papers"]["Best Paper Runners Up Award"] = ['AAAI-9868','AAAI-10151','AISI-4906']
-    sorted_poster_infos_by_day["Award-Winning Papers"]["Distinguished Papers Award"] = ['AAAI-8265','AAAI-3534','AAAI-2549','AAAI-10339','AAAI-4640','AAAI-7047']
+    sorted_poster_infos_by_day["Award-Winning Papers"]["Best Papers"] = ['AAAI-7346','AAAI-2294','AISI-8076']
+    sorted_poster_infos_by_day["Award-Winning Papers"]["Best Paper Runners Up"] = ['AAAI-9868','AAAI-10151','AISI-4906']
+    sorted_poster_infos_by_day["Award-Winning Papers"]["Distinguished Papers"] = ['AAAI-8265','AAAI-3534','AAAI-2549','AAAI-10339','AAAI-4640','AAAI-7047']
 
 
 
