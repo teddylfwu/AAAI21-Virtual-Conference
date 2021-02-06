@@ -371,9 +371,9 @@ Panelists: Fuchun Sun, Anna Roy, Isaac Ben-Israel
   presenter: Michael Wooldridge
 
 - UID: speaker_latanya_sweeney
-  title: 'AAAI-21 Invited Speaker: Latanya Sweeney'
+  title: 'AAAI-21 Invited Talk: How AI and Technology Design will Dictate Our Civic Future'
   day: Feb 6
-  image: static/images/aaai2021/AAAI-logo.png
+  image: static/images/aiinpractice/Invited Talk - Latanya Sweeney.jpg
   presentation_id: '38952057'
   sessions:
   - name: P-Live Presentation
@@ -382,7 +382,12 @@ Panelists: Fuchun Sun, Anna Roy, Isaac Ben-Israel
   rocketchat_channel: Plenary_InvitedSpeakersProgram_byLatanyaSweeney
   presenter: Latanya Sweeney
   introduction: Introduction by Gabriele Röger, AAAI-21 Associate Cochair
-
+  abstract: "
+Data-driven algorithms and technology designers are the new policymakers. No one elected them, and most people do not know their names, but the decisions they make dictate the code by which we conduct our daily lives and govern our country. Challenges to the privacy of our personal data were the first wave of this change; as technology progresses, every demographic value and every law has come up for grabs and will likely be redefined by what technology does or does not enable. How will it all fit together or fall apart?
+  "
+  bio: "
+  Latanya Sweeney pioneered the field known as data privacy, launched the area known as algorithmic fairness, and her work is cited in government regulations worldwide. She was CTO of the FTC and earned her PhD in CS from MIT in 2001, being the first black woman to do so. latanyasweeney.org
+  "
 - UID: panel_AIApplicationsInFinance
   title: 'IAAI-21 AI in Practice Panel: AI Applications in Finance: Risks and Challenges in Deploying Real-World Businesses Solutions'
   presentation_id: "38952058"

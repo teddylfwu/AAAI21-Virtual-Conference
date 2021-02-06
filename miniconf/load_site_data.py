@@ -1169,11 +1169,19 @@ def build_papers(
     """
     # build the lookup from (paper, slot) to zoom_link
     paper_id_to_link: Dict[str, str] = {}
-
-    for session_id, session in poster_infos.items():
-        for paper_id in session["papers"]:
+    paper_id_to_cluster_name : Dict[str, str] = {}
+    for uid, rs in poster_infos.items():
+        if "Award" in uid:
+            cluster = ""
+            room = uid[:-1]
+        else:
+            cluster = uid.split("-")[-1]
+            room = uid[:-2]
+        papers = rs["papers"]
+        for paper_id in rs["papers"]:
             paper_id_to_link[paper_id] = "www.baidu.com" #TODO gather town link
-    #
+            paper_id_to_cluster_name[paper_id] = rs["cluster_name"]
+
     # # build the lookup from paper to slots
     # sessions_for_paper: DefaultDict[str, List[SessionInfo]] = defaultdict(list)
     # for session_name, session_info in paper_sessions.items():
@@ -1209,6 +1217,8 @@ def build_papers(
     best_paper_runners_up_award = ['AAAI-9868','AAAI-10151','AISI-4906']
     distinguished_papers_award = ['AAAI-8265','AAAI-3534','AAAI-2549','AAAI-10339','AAAI-4640','AAAI-7047']
     for item in raw_papers:
+        if item['UID'] in paper_id_to_cluster_name :
+            item['cluster_name'] = paper_id_to_cluster_name[item['UID']]
         if item['UID'] in best_papers_award:
             item['best_type']=1
             item['best_type_desc'] = "Best Papers Award"
@@ -1218,7 +1228,6 @@ def build_papers(
         if item['UID'] in distinguished_papers_award:
             item['best_type']=3
             item['best_type_desc'] = "Distinguished Papers Award"
-
         if "CLASSIC" in item["UID"] or "DISS" in item["UID"]:
             item['room'] = item['room'][:-1]
         if item.get("position","")=="" or item["position"] is None:
