@@ -1,6 +1,6 @@
 - UID: WS-2
   title: "W2: AI for Behavior Change"
-  organizers: "Lyle Ungar, Sendhil Mullainathan, Eric Tchetgen Tchetgen and Rahul Ladhania"
+  organizers: "Lyle Ungar, Sendhil Mullainathan, Eric Tchetgen Tchetgen, Rahul Ladhania, and Tony Liu"
   abstract: "This workshop will focus on AI and ML-based approaches that can (1) identify individuals in need of behavioral interventions, and/or predict when they need them; (2) help design and target optimal interventions; and (3) exploit observational and/or experimental datasets in domains including social media, health records, claims data, fitness apps, etc. for causal estimation in the behavior science world."
   website: https://ai4bc.github.io/ai4bc21/
   rocketchat_channel: W2AIforBehaviorChange
