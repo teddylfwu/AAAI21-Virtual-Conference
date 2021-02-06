@@ -359,7 +359,7 @@
     name: None
     hosts: None
   zoom_links:
-  - https://zoom.us/j/9316297282
+  - https://zoom.us/j/92977281482?pwd=V2VWUUpqOHF0T2xETGFiZGM0UGpLUT09
   prerecorded_talks: []
 
 - UID: WS-15
@@ -467,7 +467,7 @@
     name: None
     hosts: None
   zoom_links:
-    - https://zoom.us/j/94622715325
+    - https://zoom.us/j/94622715325?pwd=eTlaSVBwVWxQZ0FaSE45NVBpeXZNZz09
   prerecorded_talks: []
 
 - UID: WS-21
