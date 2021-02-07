@@ -445,8 +445,8 @@
   alias: W19MetaLearningforComputerVision
   day: Feb 8
   sessions:
-  - start_time: 2021-2-8 09:00:00-08:00
-    end_time: 2021-2-8 17:00:00-08:00
+  - start_time: 2021-2-8 06:00:00-08:00
+    end_time: 2021-2-8 13:00:00-08:00
     name: None
     hosts: None
   zoom_links:
