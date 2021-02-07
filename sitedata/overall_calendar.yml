@@ -378,15 +378,15 @@
   type: Meet with a Fellow
   view: week
 
-- title: "<b>AAAI Meet with a Fellow Program</b>"
-  start: 2021-02-06 4:00:00-08:00
-  end: 2021-02-06 6:00:00-08:00
-  location: meet_with_a_fellow.html
-  link: meet_with_a_fellow.html
-  category: time
-  calendarId: '---'
-  type: Meet with a Fellow
-  view: week
+#- title: "<b>AAAI Meet with a Fellow Program</b>"
+#  start: 2021-02-06 4:00:00-08:00
+#  end: 2021-02-06 6:00:00-08:00
+#  location: meet_with_a_fellow.html
+#  link: meet_with_a_fellow.html
+#  category: time
+#  calendarId: '---'
+#  type: Meet with a Fellow
+#  view: week
 
 - title: "<b>AAAI Meet with a Fellow Program</b>"
   start: 2021-02-05 12:00:00-08:00
@@ -408,15 +408,15 @@
   type: Meet with a Fellow
   view: day
 
-- title: "<b>AAAI Meet with a Fellow Program</b>"
-  start: 2021-02-06 4:00:00-08:00
-  end: 2021-02-06 6:00:00-08:00
-  location: meet_with_a_fellow.html
-  link: meet_with_a_fellow.html
-  category: time
-  calendarId: '---'
-  type: Meet with a Fellow
-  view: day
+#- title: "<b>AAAI Meet with a Fellow Program</b>"
+#  start: 2021-02-06 4:00:00-08:00
+#  end: 2021-02-06 6:00:00-08:00
+#  location: meet_with_a_fellow.html
+#  link: meet_with_a_fellow.html
+#  category: time
+#  calendarId: '---'
+#  type: Meet with a Fellow
+#  view: day
 
 
 - title: "<b>Diversity and Inclusion: Women’s Mentoring Session</b>"
@@ -622,7 +622,7 @@
 
 - title: "<b>AAAI Meet with a Fellow Program</b>"
   start: 2021-02-06 12:00:00-08:00
-  end: 2021-02-06 14:00:00-08:00
+  end: 2021-02-06 13:00:00-08:00
   location: meet_with_a_fellow.html
   link: meet_with_a_fellow.html
   category: time
@@ -632,7 +632,7 @@
 
 - title: "<b>AAAI Meet with a Fellow Program</b>"
   start: 2021-02-06 20:00:00-08:00
-  end: 2021-02-06 22:00:00-08:00
+  end: 2021-02-06 21:00:00-08:00
   location: meet_with_a_fellow.html
   link: meet_with_a_fellow.html
   category: time
@@ -653,7 +653,7 @@
 
 - title: "<b>AAAI Meet with a Fellow Program</b>"
   start: 2021-02-06 12:00:00-08:00
-  end: 2021-02-06 14:00:00-08:00
+  end: 2021-02-06 13:00:00-08:00
   location: meet_with_a_fellow.html
   link: meet_with_a_fellow.html
   category: time
@@ -663,7 +663,7 @@
 
 - title: "<b>AAAI Meet with a Fellow Program</b>"
   start: 2021-02-06 20:00:00-08:00
-  end: 2021-02-06 22:00:00-08:00
+  end: 2021-02-06 21:00:00-08:00
   location: meet_with_a_fellow.html
   link: meet_with_a_fellow.html
   category: time
