@@ -141,7 +141,7 @@
 
 - UID: WS-8
   title: "W8: Deep Learning on Graphs: Method and Applications (DLG-AAAI’21)"
-  organizers: Lingfei Wu, Jiliang Tan, Yinglong Xia and Jian Pei
+  organizers: Lingfei Wu, Jiliang Tang, Yinglong Xia and Jian Pei
   abstract: "Deep Learning models are at the core of research in Artificial Intelligence research today. It is well-known that deep learning techniques that were disruptive for Euclidean data such as images or sequence data such as text are not immediately applicable to graph-structured data. This gap has driven a tide in research for deep learning on graphs on various tasks such as graph representation learning, graph generation, and graph classification. This wave of research at the intersection of graph theory and deep learning has also influenced other fields of science, including computer vision, natural language processing, inductive logic programming, program synthesis and analysis, automated planning, reinforcement learning, and financial security. Despite these successes, graph neural networks (GNNs) still face many challenges. This one-day workshop aims to bring together both academic researchers and industrial practitioners from different backgrounds and perspectives to above challenges. This workshop intends to share visions of investigating new approaches and methods at the intersection of Graph Neural Networks and real-world applications."
   website: http://deep-learning-graphs.bitbucket.io/dlg-aaai21/
   rocketchat_channel: W8DeepLearningonGraphs
