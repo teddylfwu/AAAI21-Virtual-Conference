@@ -275,7 +275,7 @@ It was extended for EMNLP 2020 by [Jan-Christoph Klie](https://github.com/jcklie
 [EMNLP 2020 virtual infrastructure team](https://2020.emnlp.org/organizers) and 
 [with the help of many volunteers](static/pdf/volunteers.pdf).
     
-It was extended for AAAI 2021 by the AAAI 2021 virtual team led by Dr. Lingfei Wu and Prof. Weike Pan (AAAI-21 Associate Conference Chairs for Virtual Operations).
+It was extended for AAAI 2021 by the AAAI 2021 virtual team led by [Dr. Lingfei Wu](https://sites.google.com/a/email.wm.edu/teddy-lfwu/) and [Prof. Weike Pan](http://csse.szu.edu.cn/staff/panwk/index.html) (AAAI-21 Associate Conference Chairs for Virtual Operations).
 
 
 
