@@ -1,8 +1,8 @@
-## EMNLP 2020 Virtual Conference
+## AAAI 2021 Virtual Conference
 
 This virtual conference page is based on [MiniConf](http://www.mini-conf.org/) by Alexander Rush
-and Hendrik Strobelt. It was extended by the [amazing team of ACL 2020](https://github.com/acl-org/acl-2020-virtual-conference).
-The ACL version is the base for this repository.
+and Hendrik Strobelt. It was extended by the [amazing team of EMNLP 2020](https://github.com/acl-org/emnlp-2020-virtual-conference).
+The EMNLP version is the base for this repository.
 
 <p align="center">
   <img width="460" src="doc/img/emnlp2020_index.jpg">
