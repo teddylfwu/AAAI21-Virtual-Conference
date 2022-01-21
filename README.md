@@ -22,23 +22,23 @@ When you are ready to deploy run `make freeze` to get a static version of the si
 
 The repository consists of the following main components:
 
-1) *Datastore* [sitedata](https://github.com/acl-org/emnlp-2020-virtual-conference/tree/master/sitedata)
+1) *Datastore* [sitedata](https://github.com/teddylfwu/AAAI21-Virtual-Conference/tree/master/sitedata)
 
 Collection of data files representing the papers, speakers, workshops, and other important information for the conference.
 
-2) *Routing* [main.py](https://github.com/acl-org/emnlp-2020-virtual-conference/tree/master/main.py)
+2) *Routing* [main.py](https://github.com/teddylfwu/AAAI21-Virtual-Conference/tree/master/main.py)
 
 This file contains defines the Flask app and the routes
 
-3) *Templates* [templates](https://github.com/acl-org/emnlp-2020-virtual-conference/tree/master/templates)
+3) *Templates* [templates](https://github.com/teddylfwu/AAAI21-Virtual-Conference/tree/master/templates)
 
 Contains all the pages for the site. See `base.html` for the master page and `components.html` for core components.
 
-4) *Frontend* [static](https://github.com/acl-org/emnlp-2020-virtual-conference/tree/master/static)
+4) *Frontend* [static](https://github.com/teddylfwu/AAAI21-Virtual-Conference/tree/master/static)
 
 Contains frontend components like the default css, images, and JavaCcript libs.
 
-5) *Scripts* [scripts](https://github.com/acl-org/emnlp-2020-virtual-conference/tree/master/scripts)
+5) *Scripts* [scripts](https://github.com/teddylfwu/AAAI21-Virtual-Conference/tree/master/scripts)
 
 Contains additional preprocessing to add visualizations, recommendations, schedules to the conference. 
 
@@ -62,7 +62,7 @@ If you add new event types, make sure to assign them a color in `load_site_data:
 
 ### Plenary
 
-Plenary make up the official program of the conference. For EMNLP, we had live events and prerecorded keynote talks. Keynotes
+Plenary make up the official program of the conference. For AAAI'21, we had live events and prerecorded keynote talks. Keynotes
 were prerecorded but livestreamed via SlidesLive. Panels were fully live and used CART real-time captioning. We did not 
 add the prerecorded talks to the plenary page before the talk was done. Each plenary details page can either have one 
 video or a list of videos. It can also have a RocketChat channel. The default is to just show one SlidesLive video. Refer to 
@@ -74,7 +74,7 @@ for how multiple videos can be shown on a plenary details page.
 Plenary events were livestreamed via SlidesLive. Make sure that your contract with them covers this.
 Panels were fully live and used CART real-time captioning.
 
-For EMNLP, we had prerecorded presentations and keynote speakers and live panels. Recordings were streamed live. For keynotes, after the 
+For AAAI, we had prerecorded presentations and keynote speakers and live panels. Recordings were streamed live. For keynotes, after the 
 prerecorded talk was shown, the keynote speaker, a volunteer and a SlidesLive person were in a Zoom call, this Zoom call was 
 streamed after seamlessly after the keynote recording. Then the volunteer took questions from the `#live` RocketChat channel 
 and asked the keynote speaker.
@@ -86,26 +86,6 @@ and ask SlidesLive to show a `Livestream will start soon` message. After the liv
 to the plenary event itself. You can use the livestream ID as a slideslive ID for the player, it will then show
 a recording of the livestream.
 
-### Papers
-
-EMNLP hat 4 types of papers, main conference papers (long/short), CL, TACL, demo, workshop and findings papers.
-See below for the kind of things each paper had.
-
-| Type         | Page | Video | Chat | Visualization |
-|--------------|------|-------|------|---------------|
-| main/CL/TACL | x    | x     | x    | x             |
-| demo         | x    |       | x    |               |
-| workshop     | x    |       | x    |               |
-| findings     | x    |       |      |               |
-
-Demo papers can have arbitrary markdown under `material` to add info like code repo or screencast,
-see our `demo_papers.csv` for it.
-
-For *ACL style conferences, we recommend to ask publication chairs **early** to give out a list of accepted papers with
-SoftConf ids, title, authors, paper type (long/short) and anthology IDs. Also ask them to give out the proceedings
-as soon as they are done, **do not** wait for them to be published in the ACL anthology page. We do not store PDFs 
-directly, but link to the ACL anthology.
-
 #### Visualization
 
 We use [SPECTER](https://github.com/allenai/specter) to generate document embeddings from abstracts and
@@ -116,19 +96,11 @@ We provide `scripts/dataentry/projections.py` to generate the projections, pleas
 refer to the respective repositories to find out how to install them. Install them in their seperate `virtualenv`,
 they all have conflicting dependencies.
 
-#### Images
-
-We extract images from the PDFs and upload them to Amazon S3. You can use our bad script under
-`scripts/dataentry/extract_images.py` to extract them. In order to allow authors to change their images,
-we set up [an additional Github repository](https://github.com/acl-org/emnlp-2020-virtual-conference-images) that 
-contains the images. Pull requests there automatically deploy the update images to S3. Look at the Github workflow
-there and set the respective secrets for the autodeploy.
-
 #### ConnectedPapers
 
 [Connected Papers](https://www.connectedpapers.com/) is a visual tool to help researchers and applied scientists find 
 academic papers relevant to their field of work. In addition to linking to the connected papers for each main paper, 
-they built a custom page for EMNLP which is shown below every main paper presentation. If you want that also, then 
+they built a custom page for AAAI which is shown below every main paper presentation. If you want that also, then 
 conference papers need to be indexed by SemanticScholar before the conference. Contact them via their website and ask 
 nicely, then they will also help you.
 
@@ -223,11 +195,6 @@ We recommend also creating one account per sponsor early enough so that they can
 it after the sponsor and not binding it to a specific person, e.g. better call it `sponsor.deepmind`. This account will
 then not be removed before the conference. Additional exhibitors need to register and can usually register for free.
 
-#### Relevant documents
-
-- [Invitation to Dry Run](https://docs.google.com/document/d/1f0ScAG_tUNZry4F5cVBkfwtKaftnKJfZEn7nJZvkxd0/edit?usp=sharing)
-- [EMNLP Instructions to sponsors](https://docs.google.com/document/d/1p6ZsN8WmtZiHG0Oyh2zY8eQmSNxH8lzMDHGIWr36LZI/edit?usp=sharing)
-
 ### Chat
 
 We use RocketChat throughout this page to have channels for keynotes, plenaries, live, papers, workshops, tutorials
@@ -307,6 +274,8 @@ by Hao Fang and Sudha Rao [with the help of many volunteers](https://virtual.acl
 It was extended for EMNLP 2020 by [Jan-Christoph Klie](https://github.com/jcklie) with the help of the 
 [EMNLP 2020 virtual infrastructure team](https://2020.emnlp.org/organizers) and 
 [with the help of many volunteers](static/pdf/volunteers.pdf).
+    
+It was extended for AAAI 2021 by the AAAI 2021 virtual team led by Dr. Lingfei Wu and Prof. Weike Pan (AAAI-21 Associate Conference Chairs for Virtual Operations).
 
 
 
