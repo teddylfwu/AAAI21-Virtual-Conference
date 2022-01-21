@@ -4,10 +4,6 @@ This virtual conference page is based on [MiniConf](http://www.mini-conf.org/) b
 and Hendrik Strobelt. It was extended by the [amazing team of EMNLP 2020](https://github.com/acl-org/emnlp-2020-virtual-conference).
 The EMNLP version is the base for this repository.
 
-<p align="center">
-  <img width="460" src="doc/img/emnlp2020_index.jpg">
-</p>
-
 The website is based on [Flask](https://flask.palletsprojects.com/) and [Frozen-Flask](https://pythonhosted.org/Frozen-Flask/). 
 It uses data files like `.csv`, `.yaml` or `.json` that contains the information about events, papers, ... to populate the
 HTML templates. From this it generates a static website which can then deployed easily via an HTTP server. We strongly 
