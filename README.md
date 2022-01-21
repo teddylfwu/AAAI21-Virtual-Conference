@@ -1,8 +1,8 @@
 ## AAAI 2021 Virtual Conference
 
 This virtual conference page is based on [MiniConf](http://www.mini-conf.org/) by Alexander Rush
-and Hendrik Strobelt. It was extended by the [amazing team of EMNLP 2020](https://github.com/acl-org/emnlp-2020-virtual-conference).
-The EMNLP version is the base for this repository.
+and Hendrik Strobelt. It was extended by the [amazing team of AAAI 2021](https://github.com/teddylfwu/AAAI21-Virtual-Conference).
+The AAAI version is the base for this repository.
 
 The website is based on [Flask](https://flask.palletsprojects.com/) and [Frozen-Flask](https://pythonhosted.org/Frozen-Flask/). 
 It uses data files like `.csv`, `.yaml` or `.json` that contains the information about events, papers, ... to populate the
